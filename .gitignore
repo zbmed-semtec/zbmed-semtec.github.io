@@ -1,5 +1,5 @@
 Gemfile.lock
-./temp
+temp/
 
 _site/
 .sass-cache/
