@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# GitHub pages for the SemTec team at ZB MED
 
-You can use the [editor on GitHub](https://github.com/zbmed-semtec/zbmed-semtec.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+_Combining semantic technologies and data analytics_
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We are a multidisciplinary Research and Development team combining semantic technologies and data analytics. We work on the development of softare components and services to support and improve research on information retrieval, data science and literature-based knowledge discovery with a particular focus on reproducibility. Our areas of application include the evaluation of experimental retrieval and recommendation systems, practical support to FAIR+R principles for software and data science, and data analytics from the combination of ontologies and literature-extracted data in the Life Sciences domain.
 
-### Markdown
+The Semantic Technologies team is part of the [Knowledge Management group](https://www.zbmed.de/en/research/research-at-zb-med/research-knowledge-management/) at [ZB MED Information Centre for Life Sciences](https://www.zbmed.de/en).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zbmed-semtec/zbmed-semtec.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Visit us at https://zbmed-semtec.github.io/
