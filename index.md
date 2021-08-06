@@ -2,7 +2,7 @@
 title: Semantic Technologies team at ZB MED
 subtitle: A multidisciplinary team combining semantic technologies and data analytics
 layout: page
-callouts: home_callouts
+show_sidebar: false
 ---
 
 # Who we are
