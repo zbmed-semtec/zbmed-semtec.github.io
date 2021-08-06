@@ -1,2 +1,2 @@
-#jekyll-theme-cayman
-theme: bulma-clean-theme 
+#theme: jekyll-theme-cayman
+remote_theme: chrisrhymes/bulma-clean-theme
