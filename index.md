@@ -25,7 +25,13 @@ We are one of the participant groups in the [NFDI4DataScience](https://www.zbmed
 
 ## Working with us 
 
+SemTec at ZB MED aims at building an international and interdisciplinary team working where students, researchers and research software engineers collaborate together to improve knowldege discovery and scientific reproducibility.
+
+In collaboration with other groups at ZB MED and international partners (e.g., Data and Software Carpentries), we offer the opportunity to develop and improve skills in Data Science and programming.
+
 ### Student assitant opportunities
+
+We are continuously looking for last year undergraduate (i.e., bachelor) and master students in the area of Life Sciences as well as Computer Sciences who want to work on data analytics, controlled vocabulary and terminology development, text-mining, information retrieval, recommendation systems and scientific reproducibility. Currently We only considere application from students within the European Union with a preference for those in Germany.
 
 * Further developments of the German translation of MeSH
 * Controlloed vocabularies (e.g., ontologies) alignment for diseases
@@ -36,11 +42,16 @@ We are one of the participant groups in the [NFDI4DataScience](https://www.zbmed
 
 ### PhD positions
 
+We are soon opening a PhD position related to infrastructure and reproducibility support for Data Science and Artificial Intelligence. 
+
 ### Postdoc and Research Software Engineers
+
+We are soon opening a Research Software Engineering / Postdoc position to work on two research and development projects related to information retrieval and recommendation systems as well as infrastructure and reproducibility support for Data Science and Artificial Intelligence. 
 
 ## People
 
 ### Current
+* Nelson Quiñones (OntoClue)
 * Benjamin Wolff (STELLA)
 * Bernd Müeller (literature-based knowledge discovery)
 * Dietrich Rebholz-Schuhmann (concept and overall supervision)
@@ -51,6 +62,7 @@ We are one of the participant groups in the [NFDI4DataScience](https://www.zbmed
 
 ### Colaborators
 * Ernesto Jiménez-Ruiz, City London University (OntoClue)
+* Jairo Alejandro Gómez Escobar - ICESI (OntoClue)
 
 
 
