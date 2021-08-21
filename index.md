@@ -34,7 +34,7 @@ In collaboration with other groups at ZB MED and international partners (e.g., D
 We are continuously looking for last year undergraduate (i.e., bachelor) and master students in the area of Life Sciences as well as Computer Sciences who want to work on data analytics, controlled vocabulary and terminology development, text-mining, information retrieval, recommendation systems and scientific reproducibility. Currently We only considere application from students within the European Union with a preference for those in Germany.
 
 * Further developments of the German translation of MeSH
-* Controlloed vocabularies (e.g., ontologies) alignment for diseases
+* Controlled vocabularies (e.g., ontologies) alignment for diseases
 * Web interface for patron-driven data acquisition
 * Tailoring CKAN (or similar) for reserach objects management
 * Use of automatic translation tools (e.g. deepL) for diagnosis
