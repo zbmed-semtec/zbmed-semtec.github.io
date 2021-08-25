@@ -31,7 +31,7 @@ In collaboration with other groups at ZB MED and international partners (e.g., D
 
 ### Student assitant opportunities
 
-We are continuously looking for last year undergraduate (i.e., bachelor) and master students in the area of Life Sciences as well as Computer Sciences who want to work on data analytics, controlled vocabulary and terminology development, text-mining, information retrieval, recommendation systems and scientific reproducibility. Currently We only considere application from students within the European Union with a preference for those in Germany.
+We are continuously looking for last year undergraduate (i.e., bachelor) and master students in the area of Life Sciences as well as Computer Sciences who want to work on data analytics, controlled vocabulary and terminology development, text-mining, information retrieval, recommendation systems and scientific reproducibility. Currently we are considering only applications from students within the European Union with a preference for those in Germany.
 
 * Further developments of the German translation of MeSH
 * Controlled vocabularies (e.g., ontologies) alignment for diseases
