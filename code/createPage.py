@@ -1,40 +1,85 @@
 import os
 import json
 
-root = "C:/Users/Arbeit/Documents/GitHub/zbmed-semtec.github.io/"
-rootMetadata = "C:/Users/Arbeit/Documents/GitHub/zbmed-semtec.github.io/metadata/"
-rootDocs = "C:/Users/Arbeit/Documents/GitHub/zbmed-semtec.github.io/docs/"
+def fromMetadatatoDocs():
+    """
+    Function that copies the subfolders of "metadata" as subfolders of "docs" and creating the subfolder if it doesn't exist.
+    If the subfolder already exists, it checks if there is already a JSON file in the subfolder.
+    If a JSON file exists, it is deleted and a new Markdown file is created with the content of the JSON file.
+    If a JSON file doesn't exist, a new Markdown file is created directly from the JSON file with the content of the JSON file.
 
-listMetadata = os.listdir(rootMetadata)
+    Parameter/Input:
+    None
 
-list = []
-for counter in listMetadata:
-    subfolder = os.path.join(rootMetadata, counter)
-    list.append(subfolder)
+    Returns:
+    None
+    """
+    parentFolder = os.path.abspath("..")
+    folderName = "zbmed-semtec.github.io"
+    root = os.path.join(parentFolder, folderName)
+    rootMetadata = os.path.join(root, "metadata")
+    rootDocs = os.path.join(root, "docs")
 
-for subfolder in list:
-    searchJson = [posJsons for posJsons in os.listdir(subfolder) if posJsons.endswith('.json')]
-   
-    for jsonData in searchJson:
-        jsonPath = os.path.join(subfolder, jsonData)
-        with open(jsonPath, "r") as jsonString:
-            speicherJson = json.load(jsonString)
+    listMetadata = os.listdir(rootMetadata)
 
-    compareName = ' '.join(searchJson)
-    pointPosition = compareName.index('.')
-    cuttedWord = compareName[:pointPosition]
+    for counter in listMetadata:
+        subfolderMetadata = os.path.join(rootMetadata, counter)
+        subfolderDocs = os.path.join(rootDocs, counter)
+        dataSubfolderMetadata = os.listdir(subfolderMetadata)
+        
+        if not os.path.exists(subfolderDocs):
+            #if does not exists, creates the subfolder in "Docs"
+            os.makedirs(subfolderDocs)
 
-    subfolderpath = os.path.join(rootDocs, cuttedWord)
-    if  os.path.exists(subfolderpath):
-        subfolderDocs = os.path.join(rootDocs, cuttedWord)
-        neueNamenMD = os.path.join(subfolderDocs, cuttedWord + ".md")
-        if os.path.exists(neueNamenMD):
-            os.remove(neueNamenMD)
-        with open(neueNamenMD, "w") as neueDateiMD:
-            neueDateiMD.write(json.dumps(speicherJson, indent=4))
+            newEmptyMD = os.path.join(subfolderDocs, counter + ".md")
+            
+            if not os.path.exists(newEmptyMD):
+                open(newEmptyMD, "w").close()
 
-    else:
-        os.makedirs(subfolderpath)
-        neueNamenMD = os.path.join(subfolderpath, cuttedWord + ".md")
-        with open(neueNamenMD, "w") as neueDateiMD:
-            neueDateiMD.write(json.dumps(speicherJson, indent=4))
+            if any(fileCounter.endswith(".json") for fileCounter in dataSubfolderMetadata):
+                #looks up if there is file with .json end in the subfolder from metadata
+                for dataCounter in dataSubfolderMetadata:
+
+                    if dataCounter.endswith(".json"):
+                        # because there is one, it will be saved as .md in the subfolder under "docs" 
+                        fromMetadata = os.path.join(subfolderMetadata, dataCounter)
+                        toDocs = os.path.join(subfolderDocs, os.path.splitext(dataCounter)[0] + ".md")
+
+                        with open(fromMetadata, "r") as jsonFile:
+                            data = json.load(jsonFile)
+
+                        with open(toDocs, "w") as mdFile:
+                            json.dump(data, mdFile, indent=4)
+
+        else:
+            hasJSONFile = False
+            
+            for dataCounter in dataSubfolderMetadata:
+                fromMetadata = os.path.join(subfolderMetadata, dataCounter)
+                toDocs = os.path.join(subfolderDocs, dataCounter)
+
+                if os.path.exists(toDocs) and dataCounter.endswith(".json"):
+                    #looks up if the same the same json from "Metadata" exists in "Docs"
+                    os.remove(toDocs)
+                    hasJSONFile = True
+
+                if dataCounter.endswith(".json"):
+                    # after removing it it creates the new md file with the json content 
+                    toDocs = os.path.splitext(toDocs)[0] + ".md"
+
+                    with open(fromMetadata, "r") as jsonFile:
+                        data = json.load(jsonFile)
+                    
+                    with open(toDocs, "w") as mdFile:
+                        json.dump(data, mdFile, indent=4)
+
+            if not hasJSONFile:
+                    newEmptyMD = os.path.join(subfolderDocs, counter + ".md")
+
+                    if not os.path.exists(newEmptyMD):
+                        open(newEmptyMD, "w").close()
+
+
+
+
+fromMetadatatoDocs()
