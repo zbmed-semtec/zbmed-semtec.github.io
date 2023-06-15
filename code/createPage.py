@@ -1,7 +1,7 @@
 import os
 import json
 
-def fromMetadatatoDocs():
+def fromMetadataToDocs():
     """
     Function that copies the subfolders of "metadata" as subfolders of "docs" and creating the subfolder if it doesn't exist.
     If the subfolder already exists, it checks if there is already a JSON file in the subfolder.
@@ -14,11 +14,11 @@ def fromMetadatatoDocs():
     Returns:
     None
     """
-    parentFolder = os.path.abspath("..")
-    folderName = "zbmed-semtec.github.io"
-    root = os.path.join(parentFolder, folderName)
-    rootMetadata = os.path.join(root, "metadata")
-    rootDocs = os.path.join(root, "docs")
+
+
+    currentRoot = os.getcwd()
+    rootMetadata = os.path.join(currentRoot, "metadata")
+    rootDocs = os.path.join(currentRoot, "docs")
 
     listMetadata = os.listdir(rootMetadata)
 
@@ -82,4 +82,4 @@ def fromMetadatatoDocs():
 
 
 
-fromMetadatatoDocs()
+fromMetadataToDocs()
