@@ -14,4 +14,5 @@ repo_url: https://github.com/zbmed-semtec/zbmed-semtec.github.io
 #former theme style
 #theme: readthedocs    
 
-theme: material
+theme:
+  name: material

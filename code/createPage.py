@@ -41,25 +41,25 @@ def appendScriptToMDFile(mdFile):
         
 
 
-def renderProperty(name, value):
+def renderProperty(propertyName, propertyValue):
     """
     Function, which renders the property values as HTML.
 
     Paramater/Input:
-        name: The name of the property.
-        value: The value of the property.
+        propertyName: The name of the property.
+        propertyValue: The value of the property.
 
     Returns:
         The representation of the property value in HTML.
     """
-    if isinstance(value, dict):
-        return renderInnerTable(value)
-    elif isinstance(value, list):
-        return renderInnerList(value)
-    elif isinstance(value, str) and value.startswith("http"):
-        return f'<a href="{value}" target="_blank">{value}</a>'
+    if isinstance(propertyValue, dict):
+        return renderInnerTable(propertyValue)
+    elif isinstance(propertyValue, list):
+        return renderInnerList(propertyValue)
+    elif isinstance(propertyValue, str) and propertyValue.startswith("http"):
+        return f'<a href="{propertyValue}" target="_blank">{propertyValue}</a>'
     else:
-        return str(value)
+        return str(propertyValue)
 
 
 
