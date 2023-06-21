@@ -1,4 +1,5 @@
 site_name: Semantic Technologies team at ZB MED
+site_url: https://semantictechnologieszbmed.com/
 nav:
     - Home: index.md
     - Project : project.md
@@ -12,4 +13,5 @@ repo_name: zbmed-semtec/zbmed-semtec.github.io
 repo_url: https://github.com/zbmed-semtec/zbmed-semtec.github.io
 
 
-theme: readthedocs
+theme:
+  name: material
