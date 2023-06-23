@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
       - run: pip install mkdocs-material
+      - run: mkdocs gh-deploy --force
