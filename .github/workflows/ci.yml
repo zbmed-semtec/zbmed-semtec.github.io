@@ -1,0 +1,4 @@
+name: ci
+jobs:
+  deploy:
+    - run: pip install mkdocs-material 
