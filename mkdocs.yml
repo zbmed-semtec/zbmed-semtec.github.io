@@ -13,5 +13,5 @@ repo_url: https://github.com/zbmed-semtec/zbmed-semtec.github.io
 
 
 theme:
-  name: 'material'
+  name: material
 
