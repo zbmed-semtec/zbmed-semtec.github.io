@@ -30,6 +30,7 @@ jobs:
         id: pip-cache
         run: echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
 
-      - run: pip install mkdocs
+      - run: pip install mkdocs      
+      - run: pip install mkdocs-material
       - run: mkdocs build
       - run: mkdocs gh-deploy --force
