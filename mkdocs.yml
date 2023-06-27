@@ -1,11 +1,11 @@
 site_name: Semantic Technologies team at ZB MED
 nav:
     - Home: index.md
-    - Project : project.md
-    - Datasets: datasets.md
-    - Software: software.md
-    - Vocabularies: vocabularies.md
-    - People: people.md
+    - Projects : projects/projects.md
+    - Datasets: datasets/datasets.md
+    - Software: software/software.md
+    - Vocabularies: vocabularies/vocabularies.md
+    - People: people/people.md
 
 # Repository
 repo_name: zbmed-semtec/zbmed-semtec.github.io
