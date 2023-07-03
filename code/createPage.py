@@ -3,41 +3,22 @@ import json
 
 
 
-def appendScriptToMDFile(mdFile):
+def appendScriptToMDFile(jsonFile, mdFile):
     """
-    Append the script to the new Markdown file.
+    Appending the script to the new Markdown file.
 
     Parameter/Input:
-        mdFile: The path to the Markdown file.
+        jsonFile: The JSON file whose content should be appended.
+        mdFile: The newly created Markdown file which the jsonFile should bet attached to.
 
     Returns:
         None
     """
-    script_code = '''<script type="application/ld+json">
-{ 
-    "@context": "https://schema.org", 
-    "@type": "Dataset",
-    "@id": "https://github.com/BioSchemas/github-markup-example/blob/main/data/sample.csv",
-    "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/Dataset/0.4-DRAFT", 
-
-    "description": "Toy data used as an example on how to add Bioschemas markup to your data",
-    "identifier": "https://github.com/BioSchemas/github-markup-example/blob/main/data/sample.csv",
-    "keywords":  [
-      {
-        "@type": "DefinedTerm", 
-        "@id": "http://edamontology.org/data_0006", 
-        "name": "Data"
-      },
-      "Sample data"
-    ], 
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "name": "Hello fruit data",
-    "url": "https://bioschemas.org/github-markup-example/data.html" 
-}
-</script>'''
+    with open(jsonFile, "r") as jsonFile:
+        scriptCode = json.load(jsonFile)
 
     with open(mdFile, "a") as file:
-        file.write('\n' + script_code)
+        file.write(f'\n\n<script type="application/ld+json">\n{json.dumps(scriptCode, indent=4)}\n</script>\n\n')
         
 
 
@@ -124,13 +105,16 @@ def generateMDTableFromJSON(jsonData, outputFile, FolderName):
 
     Parameter/Input:
         jsonData: The JSON data to convert.
-        outputFile: The path to the output file with the MD-Code.
+        outputFile: The path to the output file with the Markdown code.
         FolderName: The name of the folder used for the title.
 
     Returns:
         None
     """
-    md = f'<h1>{FolderName.capitalize()} information</h1>\n'
+    md = f'<h1>{FolderName.capitalize()} metadata</h1>\n\n'
+    for property, value in jsonData.items():
+        if property == "name":
+            md += f'<h2>{renderProperty(property, value)}</h2>\n'
     md += f'<p><a href="{jsonData["@id"]}" target="_blank">Click here to get the metadata for this object in JSON-LD</a></p>\n'
     md += '<table class="blueTable">\n<tbody>\n'
     for property, value in jsonData.items():
@@ -139,22 +123,52 @@ def generateMDTableFromJSON(jsonData, outputFile, FolderName):
                 md += f'<tr>\n<td>{property}</td>\n<td><ul>{renderInnerList(value)}</ul></td>\n</tr>\n'
             else:
                 renderedValue = renderProperty(property, value)
-                if renderedValue is not None:
+                if renderedValue is not None:   
                     md += f'<tr>\n<td>{property}</td>\n<td>{renderedValue}</td>\n</tr>\n'
     md += '</tbody>\n</table>'
 
     with open(outputFile, "w") as file:
-        file.write(md)
-    appendScriptToMDFile(outputFile)
+       file.write(md)
+
+
+
+def AnotherJsonInSubfolder(jsonData, outputFile):
+    """
+    Similar method like "generateMDTableFromJSON" to append the following JSON files to the first one.
+
+    Parameter/Input:
+        jsonData: The JSON data to convert.
+        outputFile: The path to the output file with the Markdown code.
+
+    Returns:
+        None
+    """
+    md = ""
+    for property, value in jsonData.items():
+        if property == "name":
+            md += f'<h2>{renderProperty(property, value)}</h2>\n'
+    md += f'<p><a href="{jsonData["@id"]}" target="_blank">Click here to get the metadata for this object in JSON-LD</a></p>\n'
+    md += '<table class="blueTable">\n<tbody>\n'
+    for property, value in jsonData.items():
+        if property not in ["@type", "@id", "@context", "http://purl.org/dc/terms/conformsTo"]:
+            if isinstance(value, list):
+                md += f'<tr>\n<td>{property}</td>\n<td><ul>{renderInnerList(value)}</ul></td>\n</tr>\n'
+            else:
+                renderedValue = renderProperty(property, value)
+                if renderedValue is not None:   
+                    md += f'<tr>\n<td>{property}</td>\n<td>{renderedValue}</td>\n</tr>\n'
+    md += '</tbody>\n</table>'
+
+    with open(outputFile, "a") as file:
+       file.write(md)
 
 
 
 def fromMetadatatoDocs():
     """
-    Function that copies the subfolders of "metadata" as subfolders of "docs" and creating the subfolder if it doesn't exist.
-    If the subfolder already exists, it checks if there is already a JSON file in the subfolder.
-    If a JSON file exists, it is deleted and a new Markdown file is created with the content of the JSON file.
-    If a JSON file doesn't exist, a new Markdown file is created directly from the JSON file with the content of the JSON file.
+    Function that copies the subfolders of "metadata" as Markdown files in "docs" folder.
+    If a JSON file exists in the subfolder, a new Markdown file is created with the content of the JSON file.
+    The content of the JSON file is appended at the end of the Markdown file.
 
     Parameter/Input:
     None
@@ -170,65 +184,41 @@ def fromMetadatatoDocs():
 
     for counter in listMetadata:
         subfolderMetadata = os.path.join(rootMetadata, counter)
-        subfolderDocs = os.path.join(rootDocs, counter)
+        subfolderDocs = rootDocs
         dataSubfolderMetadata = os.listdir(subfolderMetadata)
-        
-        if not os.path.exists(subfolderDocs):
-            #if does not exists, creates the subfolder in "Docs"
-            os.makedirs(subfolderDocs)
 
-            newEmptyMD = os.path.join(subfolderDocs, counter + ".md")
-            
-            if not os.path.exists(newEmptyMD):
-                open(newEmptyMD, "w").close()
-
-            if any(fileCounter.endswith(".json") for fileCounter in dataSubfolderMetadata):
-                #looks up if there is file with .json end in the subfolder from metadata
-                for dataCounter in dataSubfolderMetadata:
-
-                    if dataCounter.endswith(".json"):
-                        # because there is one, it will be saved as .md in the subfolder under "docs" 
-                        fromMetadata = os.path.join(subfolderMetadata, dataCounter)
-                        toDocs = os.path.join(subfolderDocs, os.path.splitext(dataCounter)[0] + ".md")
-
+        if any(fileCounter.endswith(".json") for fileCounter in dataSubfolderMetadata):
+            # Looks up if there is a JSON file with .json extension in the subfolders from "metadata"
+            firstJsonFile = None
+            for dataCounter in dataSubfolderMetadata:
+                if dataCounter.endswith(".json"):
+                    # Because there is one, it will be saved as .md in the "docs" folder
+                    fromMetadata = os.path.join(subfolderMetadata, dataCounter)
+                    toDocs = os.path.join(subfolderDocs, counter + ".md")
+                    #if there is JSON file
+                    if firstJsonFile is None:
+                        firstJsonFile = True
                         with open(fromMetadata, "r") as jsonFile:
                             data = json.load(jsonFile)
 
-                        with open(toDocs, "w") as mdFile:
+                        with open(toDocs, "a") as mdFile:
                             json.dump(data, mdFile, indent=4)
-                        
+
                         generateMDTableFromJSON(data, toDocs, counter)
+                        appendScriptToMDFile(fromMetadata, toDocs)
+                    else:
+                        #if there is another JSON file in the same subfolder
+                        with open(fromMetadata, "r") as jsonFile:
+                            data = json.load(jsonFile)
+                        with open(toDocs, "a") as mdFile:
 
+                            AnotherJsonInSubfolder(data, toDocs)     
+                            appendScriptToMDFile(fromMetadata, toDocs)
         else:
-            hasJSONFile = False
-            
-            for dataCounter in dataSubfolderMetadata:
-                fromMetadata = os.path.join(subfolderMetadata, dataCounter)
-                toDocs = os.path.join(subfolderDocs, dataCounter)
+            newEmptyMD = os.path.join(subfolderDocs, counter + ".md")
 
-                if os.path.exists(toDocs) and dataCounter.endswith(".json"):
-                    #looks up if the same the same json from "Metadata" exists in "Docs"
-                    os.remove(toDocs)
-                    hasJSONFile = True
-
-                if dataCounter.endswith(".json"):
-                    # after removing it it creates the new md file with the json content 
-                    toDocs = os.path.splitext(toDocs)[0] + ".md"
-
-                    with open(fromMetadata, "r") as jsonFile:
-                        data = json.load(jsonFile)
-                    
-                    with open(toDocs, "w") as mdFile:
-                        json.dump(data, mdFile, indent=4)
-                    generateMDTableFromJSON(data, toDocs, counter)
-
-            if not hasJSONFile:
-                    newEmptyMD = os.path.join(subfolderDocs, counter + ".md")
-
-                    if not os.path.exists(newEmptyMD):
-                        open(newEmptyMD, "w").close()
-
-
+            if not os.path.exists(newEmptyMD):
+                open(newEmptyMD, "w").close()
 
 
 

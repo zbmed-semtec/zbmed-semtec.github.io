@@ -14,7 +14,7 @@ Visit us at https://zbmed-semtec.github.io/
 
 # Developer Documentation
 
-This documentation provides an overview of the Python code used to convert metadata JSON files from the /metadata directory into Markdown files under the /docs directory, with each file placed in a subfolder named after the original file. The metadata is represented as tables in the generated Markdown files.
+This documentation provides an overview of the Python code used to convert metadata JSON files from subfolders under the /metadata directory into Markdown files under the /docs directory, Each Markdown file is named after the original subfolder in the /metadata directory. The content of these new Markdown files is created by appending the content of each JSON file that was previously located in the subfolder. The metadata is presented as tables for each JSON file in the new generated Markdown files.
 
 
 ## Getting Started
@@ -22,13 +22,16 @@ This documentation provides an overview of the Python code used to convert metad
 To run the code, follow these steps:
 
 1. Ensure you have Python installed on your system.
-2. Ensure that you have the necessary dependencies installed. In this case, the code relies on the os and json modules, which are built-in and typically available by default with Python installations.
-3. The script will start executing, converting metadata JSON files to Markdown files.
+2. Ensure that you have the necessary dependencies installed. In this case, you can find the full list of dependencies in the **`requirement.txt`**
+   You can use the following comand to intsll the dependencies directly
+   pip install -r requirement.txt
+3. Make sure to execute the code while being in the \zbmed-semtec.github.io\ path.
+4. The script will start executing, converting JSON files to Markdown files.
 
 
 ## Code Overview
 
-The Python code provided performs the following tasks divided in fnctions:
+The Python code provided performs the following tasks divided in functions:
 
 1. **`fromMetadatatoDocs()`**: Copies subfolders from the "metadata" directory to the "docs" directory, converting JSON files to Markdown files.
 2. **`generateMDTableFromJSON(jsonData, outputFile, FolderName)`**: Generates a Markdown file from JSON data.
@@ -37,8 +40,11 @@ The Python code provided performs the following tasks divided in fnctions:
     2.2. **`renderInnerTable(obj)`**: Renders a nested table as HTML.
     2.3. **`renderInnerList(lst)`**: Renders a nested list as HTML.    
     2.4. **`appendScriptToMDFile(mdFile)`**: Appends a script to a Markdown file.
-
+3. **`AnotherJsonInSubfolder(jsonData, outputFile)`**: Same as **`generateMDTableFromJSON`** only for Appending further JSON file to a current Markdown file
+4. **`appendScriptToMDFile(jsonFile, mdFile)`**: Appending the JSON as script.
 
 ## Output
 
-Once the script is executed successfully, it will generate Markdown files based on the metadata JSON files under the docs directory in a subfolder named after the original file. It will be in a table in HTML format
+Once the script is executed successfully, it will generate Markdown files named after the subfolder with the content of all json file in the subfolder appended. It will be represented as an HTML table of each json data and 
+
+After the code has been executed successfully, a new Markdown file is created with the the same name as the subfolder from /metadata. The Markdown file contains the contents of all JSON files that were presented in the subfolder in /metadata and it presents them as HTML Tables. One table for each JSON file on the same Page.
