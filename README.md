@@ -45,6 +45,4 @@ The Python code provided performs the following tasks divided in functions:
 
 ## Output
 
-Once the script is executed successfully, it will generate Markdown files named after the subfolder with the content of all json file in the subfolder appended. It will be represented as an HTML table of each json data and 
-
 After the code has been executed successfully, a new Markdown file is created with the the same name as the subfolder from /metadata. The Markdown file contains the contents of all JSON files that were presented in the subfolder in /metadata and it presents them as HTML Tables. One table for each JSON file on the same Page.
