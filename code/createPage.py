@@ -84,7 +84,7 @@ def renderInnerList(lst):
     listMD = ""
     for item in lst:
         if isinstance(item, dict):
-            listMD += f'\n<li><table class="blueTable">\n<tbody>{renderInnerTable(item)}</tbody>\n</table></li>'
+            listMD += f'\n<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>{renderInnerTable(item)}</tbody>\n</table></li>'
         elif isinstance(item, list):
             listMD += f'\n<li>{renderInnerList(item)}</li>'
         elif isinstance(item, str) and item.startswith("@id"):
@@ -111,12 +111,12 @@ def generateMDTableFromJSON(jsonData, outputFile, FolderName):
     Returns:
         None
     """
-    md = f'<h1>{FolderName.capitalize()} metadata</h1>\n\n'
+    md = f'# {FolderName.capitalize()} metadata\n\n'
     for property, value in jsonData.items():
         if property == "name":
-            md += f'<h2>{renderProperty(property, value)}</h2>\n'
+            md += f'## {renderProperty(property, value)}\n'
     md += f'<p><a href="{jsonData["@id"]}" target="_blank">Click here to get the metadata for this object in JSON-LD</a></p>\n'
-    md += '<table class="blueTable">\n<tbody>\n'
+    md += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
     for property, value in jsonData.items():
         if property not in ["@type", "@id", "@context", "http://purl.org/dc/terms/conformsTo"]:
             if isinstance(value, list):
@@ -146,9 +146,9 @@ def AnotherJsonInSubfolder(jsonData, outputFile):
     md = ""
     for property, value in jsonData.items():
         if property == "name":
-            md += f'<h2>{renderProperty(property, value)}</h2>\n'
+            md += f'## {renderProperty(property, value)}\n'
     md += f'<p><a href="{jsonData["@id"]}" target="_blank">Click here to get the metadata for this object in JSON-LD</a></p>\n'
-    md += '<table class="blueTable">\n<tbody>\n'
+    md += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
     for property, value in jsonData.items():
         if property not in ["@type", "@id", "@context", "http://purl.org/dc/terms/conformsTo"]:
             if isinstance(value, list):

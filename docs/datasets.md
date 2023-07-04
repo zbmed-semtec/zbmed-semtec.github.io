@@ -1,8 +1,8 @@
-<h1>Datasets metadata</h1>
+# Datasets metadata
 
-<h2>Hello fruit data</h2>
+## Hello fruit data
 <p><a href="https://github.com/BioSchemas/github-markup-example/blob/main/data/sample.csv" target="_blank">Click here to get the metadata for this object in JSON-LD</a></p>
-<table class="blueTable">
+<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
 <td>description</td>
@@ -15,7 +15,7 @@
 <tr>
 <td>keywords</td>
 <td><ul>
-<li><table class="blueTable">
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
 DefinedTerm - 
