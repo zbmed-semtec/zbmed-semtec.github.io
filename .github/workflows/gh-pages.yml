@@ -34,3 +34,13 @@ jobs:
       - run: pip install mkdocs-material
       - run: mkdocs build
       - run: mkdocs gh-deploy --force
+
+      - name: Build and Deploy
+        run: |
+          git checkout gh-pages
+          git merge --ff-only main
+          mkdir -p path/to/gh-pages/metadata
+          cp -R metadata/* path/to/gh-pages/metadata
+          git add .
+          git commit -m "Update gh-pages branch"
+          git push origin gh-pages
