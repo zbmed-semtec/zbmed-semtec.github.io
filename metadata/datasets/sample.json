@@ -10,7 +10,7 @@
       {
         "@type": "DefinedTerm", 
         "@id": "http://edamontology.org/data_0006", 
-        "name": "Data"
+        "name": "Data" 
       },
       "Sample data"
     ], 
