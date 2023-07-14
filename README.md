@@ -23,7 +23,7 @@ To run the code, follow these steps:
 
 1. Ensure you have Python installed on your system.
 2. Ensure that you have the necessary dependencies installed. In this case, you can find the full list of dependencies in the **`requirement.txt`**
-   You can use the following comand to intsll the dependencies directly
+   You can use the following command to install the dependencies directly
    pip install -r requirement.txt
 3. Make sure to execute the code while being in the \zbmed-semtec.github.io\ path.
 4. The script will start executing, converting JSON files to Markdown files.
@@ -34,14 +34,15 @@ To run the code, follow these steps:
 The Python code provided performs the following tasks divided in functions:
 
 1. **`fromMetadatatoDocs()`**: Copies subfolders from the "metadata" directory to the "docs" directory, converting JSON files to Markdown files.
-2. **`generateMDTableFromJSON(jsonData, outputFile, FolderName)`**: Generates a Markdown file from JSON data.
+2. **`generateMDTableFromJSON(jsonData, outputFile, FolderName, jsonFile)`**: Generates a Markdown file from JSON data.
     It uses Subfunctions
     2.1. **`renderProperty(name, value)`**: Renders property values as HTML.
     2.2. **`renderInnerTable(obj)`**: Renders a nested table as HTML.
     2.3. **`renderInnerList(lst)`**: Renders a nested list as HTML.    
     2.4. **`appendScriptToMDFile(mdFile)`**: Appends a script to a Markdown file.
-3. **`AnotherJsonInSubfolder(jsonData, outputFile)`**: Same as **`generateMDTableFromJSON`** only for Appending further JSON file to a current Markdown file
+3. **`AnotherJsonInSubfolder(jsonData, outputFile, jsonFile)`**: Same as **`generateMDTableFromJSON`** only for Appending further JSON file to a current Markdown file
 4. **`appendScriptToMDFile(jsonFile, mdFile)`**: Appending the JSON as script.
+5. **`getCurrentGitUrl():`**: Getting the current Git repository.
 
 ## Output
 
