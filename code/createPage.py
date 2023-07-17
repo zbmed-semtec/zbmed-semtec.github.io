@@ -31,7 +31,7 @@ def appendScriptToMDFile(jsonFile, mdFile):
     Returns:
         None
     """
-    with open(jsonFile, "r") as jsonFile:
+    with open(jsonFile, "r", encoding="utf-8") as jsonFile:
         scriptCode = json.load(jsonFile)
 
     with open(mdFile, "a") as file:
@@ -222,7 +222,7 @@ def fromMetadatatoDocs():
                     #if there is JSON file
                     if firstJsonFile is None:
                         firstJsonFile = True
-                        with open(fromMetadata, "r") as jsonFile:
+                        with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
                             data = json.load(jsonFile)
 
                         with open(toDocs, "a") as mdFile:
@@ -232,7 +232,7 @@ def fromMetadatatoDocs():
                         appendScriptToMDFile(fromMetadata, toDocs)
                     else:
                         #if there is another JSON file in the same subfolder
-                        with open(fromMetadata, "r") as jsonFile:
+                        with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
                             data = json.load(jsonFile)
                         with open(toDocs, "a") as mdFile:
 
