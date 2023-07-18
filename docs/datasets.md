@@ -79,7 +79,7 @@
 </tr>
 <tr>
 <td>description</td>
-<td>Fleiss' kappa measuring inter-annotator agreement on a document-to-document relevance assessment task. The table contains 7 columns, the first one presents the topics, 8 in total. The second column shows the ìreference articlesî, represented by their PubMed-ID and organized by topic. The third column shows the Fleissí Kappa results. The fourth column shows the interpretation of the Fleiss' Kappa results being: i) ìPoorî results <0.20, ii) ìFairî results within 0.21 - 0.40, and iii) ìModerateî results within 0.41 - 0.60. The fifth column shows the PubMed-IDs of evaluation articles rated by the four annotators as ìRelevantî regarding its corresponding ìreference articleî. The sixth column shows the PubMed-IDs of evaluation articles rated by the four annotators as ìPartially relevantî regarding its corresponding ìreference articleî. The seventh column shows the PubMed-IDs of evaluation articles rated by the four annotators as ìNon-relevantî regarding its corresponding ìreference articleî</td>
+<td>Fleiss' kappa measuring inter-annotator agreement on a document-to-document relevance assessment task. The table contains 7 columns, the first one presents the topics, 8 in total. The second column shows the ‚Äúreference articles‚Äù, represented by their PubMed-ID and organized by topic. The third column shows the Fleiss‚Äô Kappa results. The fourth column shows the interpretation of the Fleiss' Kappa results being: i) ‚ÄúPoor‚Äù results <0.20, ii) ‚ÄúFair‚Äù results within 0.21 - 0.40, and iii) ‚ÄúModerate‚Äù results within 0.41 - 0.60. The fifth column shows the PubMed-IDs of evaluation articles rated by the four annotators as ‚ÄúRelevant‚Äù regarding its corresponding ‚Äúreference article‚Äù. The sixth column shows the PubMed-IDs of evaluation articles rated by the four annotators as ‚ÄúPartially relevant‚Äù regarding its corresponding ‚Äúreference article‚Äù. The seventh column shows the PubMed-IDs of evaluation articles rated by the four annotators as ‚ÄúNon-relevant‚Äù regarding its corresponding ‚Äúreference article‚Äù</td>
 </tr>
 <tr>
 <td>keywords</td>
@@ -91,10 +91,6 @@
 <li>TREC GEnomics Track 2005</li>
 <hr></hr>
 <li>relevance assessment</li>
-<hr></hr>
-<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
-<tbody></tbody>
-</table></li>
 <hr></hr></ul></td>
 </tr>
 <tr>
@@ -191,13 +187,17 @@
 </tr>
 <tr>
 <td>publisher</td>
-<td>
+<td><ul>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
 <tr><a href="https://zenodo.org/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Organization Object</a>
 </tr>
 <tr>
 <td>name</td>
 <td>Zenodo</td>
-</tr></td>
+</tr></tbody>
+</table></li>
+<hr></hr></ul></td>
 </tr>
 </tbody>
 </table>
@@ -215,10 +215,7 @@
         "Fleiss' Kappa",
         "Inter-annoator agreement",
         "TREC GEnomics Track 2005",
-        "relevance assessment",
-        {
-            "@type": "DefinedTerm"
-        }
+        "relevance assessment"
     ],
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "url": "https://doi.org/10.5281/zenodo.7338056",
@@ -254,11 +251,13 @@
             "GivenName": "Leyla Jael"
         }
     ],
-    "publisher": {
-        "@type": "Organization",
-        "@id": "https://zenodo.org/",
-        "name": "Zenodo"
-    }
+    "publisher": [
+        {
+            "@type": "Organization",
+            "@id": "https://zenodo.org/",
+            "name": "Zenodo"
+        }
+    ]
 }
 </script>
 

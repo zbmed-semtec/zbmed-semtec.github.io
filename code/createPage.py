@@ -34,7 +34,7 @@ def appendScriptToMDFile(jsonFile, mdFile):
     with open(jsonFile, "r", encoding="utf-8") as jsonFile:
         scriptCode = json.load(jsonFile)
 
-    with open(mdFile, "a") as file:
+    with open(mdFile, "a", encoding="utf-8") as file:
         file.write(f'\n\n<script type="application/ld+json">\n{json.dumps(scriptCode, indent=4)}\n</script>\n\n')
         
 
@@ -146,7 +146,7 @@ def generateMDTableFromJSON(jsonData, outputFile, FolderName, jsonFile):
                     md += f'<tr>\n<td>{property}</td>\n<td>{renderedValue}</td>\n</tr>\n'
     md += '</tbody>\n</table>'
 
-    with open(outputFile, "w") as file:
+    with open(outputFile, "w", encoding="utf-8") as file:
        file.write(md)
 
 
@@ -178,7 +178,7 @@ def AnotherJsonInSubfolder(jsonData, outputFile, jsonFile):
                     md += f'<tr>\n<td>{property}</td>\n<td>{renderedValue}</td>\n</tr>\n'
     md += '</tbody>\n</table>'
 
-    with open(outputFile, "a") as file:
+    with open(outputFile, "a", encoding="utf-8") as file:
        file.write(md)
 
 
@@ -226,7 +226,7 @@ def fromMetadatatoDocs():
                         with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
                             data = json.load(jsonFile)
 
-                        with open(toDocs, "a") as mdFile:
+                        with open(toDocs, "a", encoding="utf-8") as mdFile:
                             json.dump(data, mdFile, indent=4)
 
                         generateMDTableFromJSON(data, toDocs, counter, pathToJsonData)
@@ -235,7 +235,7 @@ def fromMetadatatoDocs():
                         #if there is another JSON file in the same subfolder
                         with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
                             data = json.load(jsonFile)
-                        with open(toDocs, "a") as mdFile:
+                        with open(toDocs, "a", encoding="utf-8") as mdFile:
 
                             AnotherJsonInSubfolder(data, toDocs, pathToJsonData)     
                             appendScriptToMDFile(fromMetadata, toDocs)
@@ -243,7 +243,7 @@ def fromMetadatatoDocs():
             newEmptyMD = os.path.join(subfolderDocs, counter + ".md")
 
             if not os.path.exists(newEmptyMD):
-                open(newEmptyMD, "w").close()
+                open(newEmptyMD, "w", encoding="utf-8").close()
 
 
 
