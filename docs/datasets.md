@@ -251,13 +251,11 @@
             "GivenName": "Leyla Jael"
         }
     ],
-    "publisher": [
-        {
-            "@type": "Organization",
-            "@id": "https://zenodo.org/",
-            "name": "Zenodo"
-        }
-    ]
+    "publisher": {
+        "@type": "Organization",
+        "@id": "https://zenodo.org/",
+        "name": "Zenodo"
+    }
 }
 </script>
 

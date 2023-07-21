@@ -3,6 +3,34 @@ import json
 import subprocess
 
 
+def complexDataInList(data):
+    """
+    Converts complex JSON element into a single element list.
+
+    Parameter/Input:
+        data: The JSON data to be converted.
+
+    Returns:
+        The converted complex JSON Data in a single element list.
+    """
+    if not isinstance(data, dict):
+        return data
+
+    complexData = {}
+    for property, value in data.items():
+        if isinstance(value, list):
+            # The case if inside a complex element is another complex element so it repeats itself. 
+            complexData[property] = [complexDataInList(item) for item in value]
+            # If it should be represented as an table it should at least have these three attributes.
+        elif isinstance(value, dict):
+            complexData[property] = [value]
+        else:
+            #it will be handled as a simple element.
+            complexData[property] = complexDataInList(value)
+
+    return complexData
+
+
 def getCurrentGitUrl():
     """
     Returns the URL of the current Git repository.
@@ -136,6 +164,9 @@ def generateMDTableFromJSON(jsonData, outputFile, FolderName, jsonFile):
             md += f'## {renderProperty(property, value)}\n'
     md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="{jsonFile}" target="_blank"> Get JSON-LD</a></p>\n'
     md += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
+    
+    jsonData = complexDataInList(jsonData)
+    
     for property, value in jsonData.items():
         if property not in ["@type", "@id", "@context", "http://purl.org/dc/terms/conformsTo"]:
             if isinstance(value, list):
@@ -168,6 +199,9 @@ def AnotherJsonInSubfolder(jsonData, outputFile, jsonFile):
             md += f'## {renderProperty(property, value)}\n'
     md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="{jsonFile}" target="_blank"> Get JSON-LD test</a></p>\n'
     md += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
+    
+    jsonData = complexDataInList(jsonData)
+    
     for property, value in jsonData.items():
         if property not in ["@type", "@id", "@context", "http://purl.org/dc/terms/conformsTo"]:
             if isinstance(value, list):
