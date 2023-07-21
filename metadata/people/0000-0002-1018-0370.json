@@ -1,0 +1,8 @@
+{ 
+  "@context": "https://schema.org",
+
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0002-1018-0370",
+  "familyName": "Rebholz-Schuhmann", 
+  "GivenName": "Dietrich"
+}
