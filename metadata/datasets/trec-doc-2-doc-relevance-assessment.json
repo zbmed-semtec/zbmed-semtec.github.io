@@ -24,25 +24,25 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-2978-8922",
       "familyName": "Giraldo", 
-      "GivenName": "Olga"
+      "givenName": "Olga"
     },
     {
       "@type": "Person",
       "@id": "https://orcid.org/0009-0004-1529-0095",
       "familyName": "Solanki", 
-      "GivenName": "Dhwani"
+      "givenName": "Dhwani"
     },
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-1018-0370",
       "familyName": "Rebholz-Schuhmann", 
-      "GivenName": "Dietrich"
+      "givenName": "Dietrich"
     },
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-3986-0510",
       "familyName": "Castro", 
-      "GivenName": "Leyla Jael"
+      "givenName": "Leyla Jael"
     }
   ],
   "publisher": {
