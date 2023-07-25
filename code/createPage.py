@@ -29,6 +29,7 @@ def createTableLink(data):
     return data
 
 
+
 def complexDataInList(data):
     """
     Converts complex JSON element into a single element list.
@@ -55,6 +56,7 @@ def complexDataInList(data):
             complexData[property] = complexDataInList(value)
 
     return complexData
+
 
 
 def getCurrentGitUrl():
