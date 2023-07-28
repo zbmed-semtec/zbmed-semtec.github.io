@@ -8,8 +8,7 @@
   "alumniOf": [
     {
       "@type": "Organization",
-      "@id": "https://ror.org/0259fwx54",
-      "name": "ZB MED Information Centre for Life Sciences"
+      "@id": "https://ror.org/0259fwx54"
     }
   ] 
 }
