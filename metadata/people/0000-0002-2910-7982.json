@@ -4,5 +4,11 @@
   "@type": "Person",
   "@id": "http://orcid.org/0000-0002-2910-7982",
   "familyName": "Geist", 
-  "givenName": "Lukas"
+  "givenName": "Lukas",
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "@id": "https://ror.org/0259fwx54"
+    }
+  ]
 }

@@ -4,5 +4,11 @@
   "@type": "Person",
   "@id": "https://orcid.org/0009-0004-1529-0095",
   "familyName": "Solanki", 
-  "givenName": "Dhwani"
+  "givenName": "Dhwani",
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "@id": "https://ror.org/0259fwx54"
+    }
+  ]
 }

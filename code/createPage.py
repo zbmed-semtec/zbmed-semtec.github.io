@@ -182,6 +182,7 @@ def generateMDTableFromJSON(jsonData, outputFile, FolderName, jsonFile):
         jsonData: The JSON data to convert.
         outputFile: The path to the output file with the Markdown code.
         FolderName: The name of the folder used for the title.
+        jsonFile: The link to the JSON-LD file associated with the metadata.
 
     Returns:
         None
@@ -227,6 +228,7 @@ def AnotherJsonInSubfolder(jsonData, outputFile, jsonFile):
     Parameter/Input:
         jsonData: The JSON data to convert.
         outputFile: The path to the output file with the Markdown code.
+        jsonFile: The link to the JSON-LD file associated with the metadata.
 
     Returns:
         None

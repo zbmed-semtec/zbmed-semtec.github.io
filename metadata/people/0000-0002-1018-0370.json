@@ -4,5 +4,11 @@
   "@type": "Person",
   "@id": "https://orcid.org/0000-0002-1018-0370",
   "familyName": "Rebholz-Schuhmann", 
-  "givenName": "Dietrich"
+  "givenName": "Dietrich",
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "@id": "https://ror.org/0259fwx54"
+    }
+  ]
 }

@@ -4,5 +4,11 @@
   "@type": "Person",
   "@id": "https://zbmed-semtec.github.io/people/#andrea-robayo-gama",
   "familyName": "Robayo-Gama", 
-  "givenName": "Andrea"
+  "givenName": "Andrea",
+  "alumniOf": [
+    {
+      "@type": "Organization",
+      "@id": "https://ror.org/0259fwx54"
+    }
+  ]
 }

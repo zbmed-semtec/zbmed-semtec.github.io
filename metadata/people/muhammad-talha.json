@@ -4,5 +4,11 @@
   "@type": "Person",
   "@id": "https://zbmed-semtec.github.io/people/#muhammad-talha",
   "familyName": "Talha", 
-  "givenName": "Muhammad"
+  "givenName": "Muhammad",
+  "alumniOf": [
+    {
+      "@type": "Organization",
+      "@id": "https://ror.org/0259fwx54"
+    }
+  ]
 }

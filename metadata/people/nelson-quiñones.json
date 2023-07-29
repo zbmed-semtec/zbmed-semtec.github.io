@@ -4,5 +4,11 @@
   "@type": "Person",
   "@id": "https://zbmed-semtec.github.io/people/#nelson-quiñones",
   "familyName": "Quiñones", 
-  "givenName": "Nelson"
+  "givenName": "Nelson",
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "@id": "https://ror.org/0259fwx54"
+    }
+  ]
 }

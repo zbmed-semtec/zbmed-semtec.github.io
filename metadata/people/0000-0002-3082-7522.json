@@ -4,5 +4,11 @@
   "@type": "Person",
   "@id": "https://orcid.org/0000-0002-3082-7522",
   "familyName": "Dadi", 
-  "givenName": "Vishnu Vardhan"
+  "givenName": "Vishnu Vardhan",
+  "alumniOf": [
+    {
+      "@type": "Organization",
+      "@id": "https://ror.org/0259fwx54"
+    }
+  ]
 }

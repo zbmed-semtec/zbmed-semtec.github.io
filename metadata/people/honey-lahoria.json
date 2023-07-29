@@ -4,5 +4,11 @@
   "@type": "Person",
   "@id": "https://zbmed-semtec.github.io/people/#honey-lahoria",
   "familyName": "Lahoria", 
-  "givenName": "Honey"
+  "givenName": "Honey",
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "@id": "https://ror.org/0259fwx54"
+    }
+  ]
 }

@@ -4,5 +4,11 @@
   "@type": "Person",
   "@id": "https://zbmed-semtec.github.io/people/#rohitha-ravinder",
   "familyName": "Ravinder", 
-  "givenName": "Rohitha"
+  "givenName": "Rohitha",
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "@id": "https://ror.org/0259fwx54"
+    }
+  ]
 }
