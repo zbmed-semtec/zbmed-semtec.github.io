@@ -45,6 +45,7 @@ The Python code provided performs the following tasks divided in functions:
 5. `getCurrentGitUrl()`: Getting the current Git repository.
 6. `complexDataInList(data)`: Converts complex JSON element into a single element list.
 7. `createTableLink(data)`: Creates a link for the table with @id URL 
+8. `def sortAndAppendTables(jsonData)`: Sorts the team members into current and former team members.
 
 ## Output
 

@@ -1,0 +1,14 @@
+{ 
+  "@context": "https://schema.org",
+
+  "@type": "Person",
+  "@id": "https://zbmed-semtec.github.io/people/#Rahaf-Alayed",
+  "familyName": "Alayed", 
+  "givenName": "Rahaf",
+  "alumniOf": [
+    {
+      "@type": "Organization",
+      "@id": "https://ror.org/0259fwx54"
+    }
+  ]
+}

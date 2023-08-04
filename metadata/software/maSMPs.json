@@ -1,0 +1,56 @@
+{ 
+  "@type": "SoftwareSourceCode",
+  "@id": "https://github.com/zbmed-semtec/maSMPs",
+
+  "name": "Metadata model for machine-actionable Software Management Plans",
+  "description": "This project corresponds to an extension of the Research Data Alliance (RDA) machine-actionable Data Management Plan (maDMP) application profile and its corresponding DMP Common Standard ontology (DCSO) in order to cover the case of ELIXIR Software Management Plans (SMPs). Similar to DMPs, SMPs help formalize a set of structures and goals that ensure the software is accessible and reusable in the short, medium and long term. Although targeting the life sciences community, most of the elements of the ELIXIR SMPs are domain agnostic and could be used by other communities as well. DMPs and SMPs can be presented as text-based documents, sometimes guided by a set of questions corresponding to key points related to the lifecycle of either data or software. The RDA DMP Common Standards working group defined a maDMP to overcome limitations of text-based documents. We propose a similar path for the ELIXIR SMPs so they turn into machine-actionable SMPs (maSMPs).",
+  "url": "https://github.com/zbmed-semtec/maSMPs",
+
+  "author": [
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0004-1529-0095",
+        "familyName": "Solanki", 
+        "givenName": "Dhwani"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3986-0510",
+        "familyName": "Castro", 
+        "givenName": "Leyla Jael"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2978-8922",
+        "familyName": "Giraldo", 
+        "givenName": "Olga"
+    },
+    {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-2910-7982",
+        "familyName": "Geist", 
+        "givenName": "Lukas"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5037-0443",
+        "familyName": "Quiñones", 
+        "givenName": "Nelson"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1018-0370",
+        "familyName": "Rebholz-Schuhmann", 
+        "givenName": "Dietrich"
+    }
+  ],
+  "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+
+  "codeRepository": "https://github.com/zbmed-semtec/maSMPs",
+  "programmingLanguage": [
+    "JavaScript", "Python"
+    ],
+  "keywords":  [
+    "Software Management Plan", "Machine-actionable", "SMP"
+    ] 
+}

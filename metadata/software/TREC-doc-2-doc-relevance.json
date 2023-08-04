@@ -1,0 +1,62 @@
+{ 
+  "@type": "SoftwareSourceCode",
+  "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+
+  "name": "TREC-doc-2-doc-relevance",
+  "description": "The code, data and docs at this repo aim at facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track. A doc-2-doc relevance assessment takes one document as reference and assess a second document regarding its relevance to the reference one. This doc-2-doc collection will be used to evaluate the doc-2-doc recommendations approaches that we are working on.",
+  "url": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+
+  "author": [
+    {
+        "@type": "Person",
+        "@id": "https://zbmed-semtec.github.io/people/#muhammad-talha",
+        "familyName": "Talha", 
+        "givenName": "Muhammad"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-8725-1317",
+        "familyName": "Fellerhof", 
+        "givenName": "Tim"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3986-0510",
+        "familyName": "Castro", 
+        "givenName": "Leyla Jael"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-2978-8922",
+        "familyName": "Giraldo", 
+        "givenName": "Olga"
+    },
+    {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-2910-7982",
+        "familyName": "Geist", 
+        "givenName": "Lukas"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://zbmed-semtec.github.io/people/#rohitha-ravinder",
+        "familyName": "Ravinder", 
+        "givenName": "Rohitha"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-1018-0370",
+        "familyName": "Rebholz-Schuhmann", 
+        "givenName": "Dietrich"
+    }
+  ],
+  "license": "https://spdx.org/licenses/MIT.html",
+
+  "codeRepository": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+  "programmingLanguage": [
+    "Python"
+    ],
+  "keywords":  [
+    "doc-2-doc", "Text REtrieval Conference (TREC) 2005", "TREC 2005"
+    ] 
+}

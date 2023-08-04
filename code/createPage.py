@@ -4,6 +4,47 @@ import subprocess
 
 
 
+def sortAndAppendTables(jsonData):
+    """
+    Sorts the team members into current and former team members.
+
+    Parameter/Input:
+        jsonData: The JSON data containing the team members.
+
+    Returns:
+        The updated Markdown content with sorted team members.
+    """
+    currentTeam = []
+    formerTeam = []
+
+    if "memberOf" in jsonData:
+        memberOf = jsonData["memberOf"]
+        if isinstance(memberOf, list):
+            for item in memberOf:
+                if isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54":
+                    currentTeam.append(json.dumps(item, indent=4))
+                else:
+                    formerTeam.append(json.dumps(item, indent=4))
+
+    if "alumniOf" in jsonData:
+        alumniOf = jsonData["alumniOf"]
+        if isinstance(alumniOf, list):
+            for item in alumniOf:
+                formerTeam.append(json.dumps(item, indent=4))
+
+    md = ""
+
+    # Append the sorted tables to the markdown file
+    if currentTeam:
+        md += "<h3>Current team member</h3>"
+
+    if formerTeam:
+        md += "<h3>Former team member</h3>"
+
+    return md
+
+
+
 def createTableLink(data):
     """
     Checks the JSON data if there is @id and @type. If both exists the link will be created 
@@ -25,7 +66,6 @@ def createTableLink(data):
         # Only if @id and @type are in the data and the valaue are saved then create link
         visitLink = f'<a href="{idValue}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {typeValue}</a>'
         data["@link"] = visitLink
-
     return data
 
 
@@ -187,9 +227,13 @@ def generateMDTableFromJSON(jsonData, outputFile, FolderName, jsonFile):
     Returns:
         None
     """
+    md = f'# {FolderName.capitalize()} metadata\n\n'
+
+    #jsonData.pop("memberOf", None)
+    #jsonData.pop("alumniOf", None)
     jsonData = complexDataInList(jsonData)
     jsonData = createTableLink(jsonData)
-    md = f'# {FolderName.capitalize()} metadata\n\n'
+
     for property, value in jsonData.items():
         if property == "name":
             md += f'## {renderProperty(property, value)}\n'
@@ -198,7 +242,9 @@ def generateMDTableFromJSON(jsonData, outputFile, FolderName, jsonFile):
             md += f'## {renderProperty("Name", value + " " + familyName)}\n'
         if property == "familyName" and "givenName" not in jsonData:
             md += f'## {renderProperty("Name", value)}\n'
-    
+
+    md += sortAndAppendTables(jsonData)
+
     linkValue = jsonData.get("@link", "")
     if linkValue:
         md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="{jsonFile}" target="_blank"> Get JSON-LD</a> | {linkValue}</p>\n'
@@ -233,9 +279,10 @@ def AnotherJsonInSubfolder(jsonData, outputFile, jsonFile):
     Returns:
         None
     """
+    md = ""
     jsonData = complexDataInList(jsonData)
     jsonData = createTableLink(jsonData)
-    md = ""
+
     for property, value in jsonData.items():
         if property == "name":
             md += f'## {renderProperty(property, value)}\n'
@@ -244,6 +291,8 @@ def AnotherJsonInSubfolder(jsonData, outputFile, jsonFile):
             md += f'## {renderProperty("Name", value + " " + familyName)}\n'
         if property == "familyName" and "givenName" not in jsonData:
             md += f'## {renderProperty("Name", value)}\n'
+
+    md += sortAndAppendTables(jsonData)
 
     linkValue = jsonData.get("@link", "")
     if linkValue:
@@ -261,6 +310,8 @@ def AnotherJsonInSubfolder(jsonData, outputFile, jsonFile):
                 if renderedValue is not None:   
                     md += f'<tr>\n<td>{property}</td>\n<td>{renderedValue}</td>\n</tr>\n'
     md += '</tbody>\n</table>'
+
+   
 
     with open(outputFile, "a", encoding="utf-8") as file:
        file.write(md)
