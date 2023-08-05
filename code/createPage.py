@@ -341,6 +341,27 @@ def fromMetadatatoDocs():
         subfolderDocs = rootDocs
         dataSubfolderMetadata = os.listdir(subfolderMetadata)
 
+        currentMember = []
+        formerMember = []
+
+        if counter == "people":
+            for dataCounter in dataSubfolderMetadata:
+                if dataCounter.endswith(".json"):
+                    fromMetadata = os.path.join(subfolderMetadata, dataCounter)
+
+                    with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
+                        data = json.load(jsonFile)
+
+                    if isinstance(data, dict):
+                        memberOf = data.get("memberOf", [])
+                        if isinstance(memberOf, list):
+                            for item in memberOf:
+                                if isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54":
+                                    currentMember.append(json.dumps(data, indent=4))
+                                else:
+                                    formerMember.append(json.dumps(data, indent=4))
+
+
         if any(fileCounter.endswith(".json") for fileCounter in dataSubfolderMetadata):
             # Looks up if there is a JSON file with .json extension in the subfolders from "metadata"
             firstJsonFile = None
