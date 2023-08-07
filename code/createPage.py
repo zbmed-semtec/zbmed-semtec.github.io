@@ -3,8 +3,398 @@ import json
 import subprocess
 
 
+def test():
+    MetadataPath = os.path.join(os.getcwd(), "metadata")
+    PeoplePath = os.path.join(MetadataPath, "people")
+    PeopleDocs = os.path.join(os.path.join(os.getcwd(), "docs"), "people" + ".md")
 
-def sortAndAppendTables(jsonData):
+    currentTeamData = []
+    formerTeamData = []
+
+    for dataCounter in os.listdir(PeoplePath):
+        if dataCounter.endswith(".json"):
+            with open(os.path.join(PeoplePath, dataCounter), "r", encoding="utf-8") as jsonFile:
+                data = json.load(jsonFile)
+
+            if isinstance(data, dict):
+                memberOf = data.get("memberOf", [])
+                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
+                    currentTeamData.append(data)
+                else:
+                    formerTeamData.append(data)
+        
+        with open(PeopleDocs, "w", encoding="utf-8") as mdFile:
+            mdFile.write("## Current Team\n\n")
+            json.dump(currentTeamData, mdFile, indent=4)
+
+            mdFile.write("\n\n## Former Team\n\n")
+            json.dump(formerTeamData, mdFile, indent=4)
+
+        
+    '''
+    # Nach der letzten if else zweig
+        with open("CurrentTeam.json", "w", encoding="utf-8") as currentTeamFile:
+            currentTeamFile.write("## Current Team\n\n")
+            json.dump(currentTeamData, currentTeamFile, indent=4)
+
+        
+        with open("FormerTeam.json", "w", encoding="utf-8") as formerTeamFile:
+            formerTeamFile.write("## Former Team\n\n")
+            json.dump(formerTeamData, formerTeamFile, indent=4)
+
+        with open("combinedTeam.json", 'w', encoding="utf-8") as combinedTeamFile:
+            with open("CurrentTeam.json", "r", encoding="utf-8") as currentTeamFile:
+                combinedTeamFile.write(currentTeamFile.read())
+            
+            combinedTeamFile.write('\n---\n\n')
+            
+            with open("FormerTeam.json", 'r', encoding="utf-8") as formerTeamFile:
+                combinedTeamFile.write(formerTeamFile.read())'''
+            
+        
+
+    
+
+
+'''def test():
+    MetadataPath = os.path.join(os.getcwd(), "metadata")
+    PeoplePath = os.path.join(MetadataPath, "people")
+    PeopleDocs = os.path.join(os.path.join(os.getcwd(), "docs"), "people")
+
+    currentTeamData = []
+    formerTeamData = []
+
+    for dataCounter in os.listdir(PeoplePath):
+        if dataCounter.endswith(".json"):
+            with open(os.path.join(PeoplePath, dataCounter), "r", encoding="utf-8") as jsonFile:
+                data = json.load(jsonFile)
+
+            if isinstance(data, dict):
+                memberOf = data.get("memberOf", [])
+                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
+                    currentTeamData.append(data)
+                else:
+                    formerTeamData.append(data)
+
+    
+    with open("CurrentTeam.md", "w", encoding="utf-8") as currentTeamFile:
+        currentTeamFile.write("## Current Team\n\n")
+        json.dump(currentTeamData, currentTeamFile, indent=4)
+ 
+    
+    with open("FormerTeam.md", "w", encoding="utf-8") as formerTeamFile:
+        formerTeamFile.write("## Former Team\n\n")
+        json.dump(formerTeamData, formerTeamFile, indent=4)
+
+    
+    combinedData = {
+        "currentTeam": currentTeamData,
+        "formerTeam": formerTeamData
+    }
+
+    
+    with open("CombinedData.md", "w", encoding="utf-8") as combinedFile:
+        json.dump(combinedData, combinedFile, indent=4)
+ 
+    
+    generateMDTableFromJSON(combinedData, PeopleDocs, "People", "test")'''
+
+
+
+
+
+'''def test():
+    MetadataPath = os.path.join(os.getcwd(), "metadata")
+    PeoplePath = os.path.join(MetadataPath, "people")
+    PeopleDocs = os.path.join(os.path.join(os.getcwd(), "docs"), "people")
+
+    currentTeamData = []
+    formerTeamData = []
+
+    for dataCounter in os.listdir(PeoplePath):
+        if dataCounter.endswith(".json"):
+            with open(os.path.join(PeoplePath, dataCounter), "r", encoding="utf-8") as jsonFile:
+                data = json.load(jsonFile)
+
+            if isinstance(data, dict):
+                memberOf = data.get("memberOf", [])
+                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
+                    currentTeamData.append(data)
+                else:
+                    formerTeamData.append(data)
+
+    
+    with open("CurrentTeam.md", "w", encoding="utf-8") as currentTeamFile:
+        currentTeamFile.write("## Current Team\n")
+        json.dump(currentTeamData, currentTeamFile, indent=4)
+
+    
+    with open("FormerTeam.md", "w", encoding="utf-8") as formerTeamFile:
+        formerTeamFile.write("## Former Team\n")
+        json.dump(formerTeamData, formerTeamFile, indent=4)
+
+    
+    combinedData = {
+        "currentTeam": currentTeamData,
+        "formerTeam": formerTeamData
+    }
+
+    
+    with open("CombinedData.json", "w", encoding="utf-8") as combinedFile:
+        json.dump(combinedData, combinedFile, indent=4)
+
+    
+    generateMDTableFromJSON(combinedData, PeopleDocs, "People", "test")'''
+
+
+
+
+
+
+'''def test():
+    MetadataPath = os.path.join(os.getcwd(), "metadata")
+    PeoplePath = os.path.join(MetadataPath, "people")
+    PeopleDocs = (os.path.join(os.path.join(os.getcwd(), "docs"), "people"))
+
+    currentTeamData = []
+    formerTeamData = []
+
+    for dataCounter in os.listdir(PeoplePath):
+        if dataCounter.endswith(".json"):
+            with open(os.path.join(PeoplePath, dataCounter), "r", encoding="utf-8") as jsonFile:
+                data = json.load(jsonFile)
+
+            if isinstance(data, dict):
+                memberOf = data.get("memberOf", [])
+                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
+                    currentTeamData.append(data)
+                else:
+                    formerTeamData.append(data)
+
+    
+    with open("CurrentTeam", "w", encoding="utf-8") as currentTeamFile:
+        currentTeamFile.write("## Current Team\n")
+        json.dump(currentTeamData, currentTeamFile, indent=4)
+
+    
+    with open("FormerTeam", "w", encoding="utf-8") as formerTeamFile:
+        formerTeamFile.write("## Former Team\n")
+        json.dump(formerTeamData, formerTeamFile, indent=4)
+
+    
+    combinedData = {
+        "currentTeam": currentTeamData,
+        "formerTeam": formerTeamData
+    }
+
+    with open("CombinedData.md", "w", encoding="utf-8") as combinedFile:
+        json.dump(combinedData, combinedFile, indent=4)
+
+    generateMDTableFromJSON(combinedFile, PeopleDocs, "People", "test")'''
+
+
+'''def test():
+    MetadataPath = os.path.join(os.getcwd(), "metadata")
+    PeoplePath = os.path.join(MetadataPath, "people")
+
+    for dataCounter in os.listdir(PeoplePath):
+        if dataCounter.endswith(".json"):
+            jsonFilePath = os.path.join(PeoplePath, dataCounter)
+
+            with open(jsonFilePath, "r", encoding="utf-8") as jsonFile:
+                data = json.load(jsonFile)
+
+            if isinstance(data, dict):
+                memberOf = data.get("memberOf", [])
+                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
+                    currentTeamPath = os.path.join(PeoplePath, "CurrentTeam.md")
+                    with open(currentTeamPath, "w", encoding="utf-8") as currentTeam:
+                        currentTeam.write("## Current Team\n")
+                        json.dump(data, currentTeam, indent=4)
+                else:
+                    formerTeamPath = os.path.join(PeoplePath, "FormerTeam.md")
+                    with open(formerTeamPath, "w", encoding="utf-8") as formerTeam:
+                        formerTeam.write("## Former Team\n")
+                        json.dump(data, formerTeam, indent=4)'''
+
+
+
+
+'''def test():
+
+    MetadataPath = os.path.join(os.getcwd(), "metadata")
+    PeoplePath = os.path.join(MetadataPath, "people")
+
+
+    for dataCounter in os.listdir(PeoplePath):
+        if dataCounter.endswith(".json"):
+
+            with open(dataCounter, "r", encoding="utf-8") as jsonFile:
+                data = json.load(jsonFile)
+
+            if isinstance(data, dict):
+                memberOf = data.get("memberOf", [])
+                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
+                    #memberFiles.append(data)
+                    with open(data, "w", encoding="utf-8") as currentTeam:
+                        currentTeam.write("## Current Team\n")
+                        json.dump(data, currentTeam, indent=4)
+                else:
+                    with open(data, "w", encoding="utf-8") as formerTeam:
+                        formerTeam.write("## Current Team\n")
+                        json.dump(data, formerTeam, indent=4)
+                        print(formerTeam)'''
+
+
+'''def processPeopleSubfolder(rootMetadata, counter):
+    metadataFilePath = os.path.join(rootMetadata, counter, "metadata.json")
+    
+    with open(metadataFilePath, "r", encoding="utf-8") as jsonFile:
+        metadata = json.load(jsonFile)
+    
+    if "CurrentTeam.json" in metadata:
+        currentTeamFilePath = os.path.join(rootMetadata, counter, metadata["CurrentTeam.json"])
+        
+        with open(currentTeamFilePath, "r", encoding="utf-8") as jsonFile:
+            currentTeamData = json.load(jsonFile)
+        
+        outputFolder = os.path.join(rootMetadata, counter, "output")
+        os.makedirs(outputFolder, exist_ok=True)
+        
+        outputFileName = "CurrentTeam.md"
+        outputFile = os.path.join(outputFolder, outputFileName)
+        
+        generateMDTableFromJSON(currentTeamData, outputFile, "Current Team", "CurrentTeam.json")
+    else:
+        print(f"Metadata for 'CurrentTeam.json' not found for {counter}")'''
+
+
+'''def processPeopleSubfolder(peopleFolder):
+    currentMember = []
+    formerMember = []
+
+    for dataCounter in os.listdir(peopleFolder):
+        if dataCounter.endswith(".json"):
+            fromMetadata = os.path.join(peopleFolder, dataCounter)
+
+            with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
+                data = json.load(jsonFile)
+
+            if isinstance(data, dict):
+                memberOf = data.get("memberOf", [])
+                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
+                    currentMember.append(data)
+                else:
+                    formerMember.append(data)
+
+    currentOutputFile = "CurrentTeam.json"
+    formerOutputFile = "FormerTeam.json"
+
+    with open(currentOutputFile, "w", encoding="utf-8") as currentFile:
+        json.dump(currentMember, currentFile, indent=4)
+
+    with open(formerOutputFile, "w", encoding="utf-8") as formerFile:
+        json.dump(formerMember, formerFile, indent=4)
+
+    generateMDTableFromJSON(currentMember, "CurrentTeam.md", "Current Team", "CurrentTeam.json")
+    generateMDTableFromJSON(formerMember, "FormerTeam.md", "Former Team", "FormerTeam.json")
+
+    appendScriptToMDFile("CurrentTeam.json", "CurrentTeam.md")
+    appendScriptToMDFile("FormerTeam.json", "FormerTeam.md")'''
+
+
+
+'''def sortPeopleFolder(peopleFolder):
+
+    memberFiles = []
+    otherFiles = []
+
+    for dataCounter in os.listdir(peopleFolder):
+        if dataCounter.endswith(".json"):
+            fromMetadata = os.path.join(peopleFolder, dataCounter)
+
+            with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
+                data = json.load(jsonFile)
+
+            if isinstance(data, dict):
+                memberOf = data.get("memberOf", [])
+                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
+                    memberFiles.append(data)
+                else:
+                    otherFiles.append(data)
+
+    sortedFiles = memberFiles + otherFiles
+    return sortedFiles'''
+
+
+
+
+'''def Membership():
+    currentMember = []
+    formerMember = []
+
+    currentRoot = os.getcwd()
+    rootMetadata = os.path.join(currentRoot, "metadata")
+    peopleMetadata = os.path.join(rootMetadata, "people")
+
+    for dataCounter in os.listdir(peopleMetadata):
+        if dataCounter.endswith(".json"):
+            fromMetadata = os.path.join(peopleMetadata, dataCounter)
+
+            with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
+                data = json.load(jsonFile)
+
+            if isinstance(data, dict):
+                memberOf = data.get("memberOf", [])
+                if isinstance(memberOf, list):
+                    memberFound = False
+                    for item in memberOf:
+                        if isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54":
+                            currentMember.append(json.dumps(data, indent=4))
+                            memberFound = True
+                            break
+                    
+                    if not member_found:
+                        formerMember.append(json.dumps(data, indent=4))
+                else:
+                    formerMember.append(json.dumps(data, indent=4))
+
+    combinedData = currentMember + formerMember
+
+    if isinstance(data, dict):
+        data["combinedData"] = combinedData
+
+    return data
+
+
+def Membership2():
+    currentMembers = []
+    formerMembers = []
+
+    currentRoot = os.getcwd()
+    rootMetadata = os.path.join(currentRoot, "metadata")
+    peopleMetadata = os.path.join(rootMetadata, "people")
+
+    for dataCounter in os.listdir(peopleMetadata):
+        if dataCounter.endswith(".json"):
+            fromMetadata = os.path.join(peopleMetadata, dataCounter)
+
+            with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
+                data = json.load(jsonFile)
+
+            if isinstance(data, dict):
+                memberOf = data.get("memberOf", [])
+                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
+                    currentMembers.append(data)
+                else:
+                    formerMembers.append(data)
+
+    return currentMembers, formerMembers'''
+
+
+
+
+'''def sortAndAppendTables(jsonData):
     """
     Sorts the team members into current and former team members.
 
@@ -41,7 +431,13 @@ def sortAndAppendTables(jsonData):
     if formerTeam:
         md += "<h3>Former team member</h3>"
 
-    return md
+    return md'''
+
+
+
+
+
+
 
 
 
@@ -239,11 +635,11 @@ def generateMDTableFromJSON(jsonData, outputFile, FolderName, jsonFile):
             md += f'## {renderProperty(property, value)}\n'
         if property == "givenName" and "familyName" in jsonData:
             familyName = jsonData.get("familyName", "")
-            md += f'## {renderProperty("Name", value + " " + familyName)}\n'
+            md += f'### {renderProperty("Name", value + " " + familyName)}\n'
         if property == "familyName" and "givenName" not in jsonData:
-            md += f'## {renderProperty("Name", value)}\n'
+            md += f'### {renderProperty("Name", value)}\n'
 
-    md += sortAndAppendTables(jsonData)
+    #md += sortAndAppendTables(jsonData)
 
     linkValue = jsonData.get("@link", "")
     if linkValue:
@@ -288,11 +684,11 @@ def AnotherJsonInSubfolder(jsonData, outputFile, jsonFile):
             md += f'## {renderProperty(property, value)}\n'
         if property == "givenName" and "familyName" in jsonData:
             familyName = jsonData.get("familyName", "")
-            md += f'## {renderProperty("Name", value + " " + familyName)}\n'
+            md += f'### {renderProperty("Name", value + " " + familyName)}\n'
         if property == "familyName" and "givenName" not in jsonData:
-            md += f'## {renderProperty("Name", value)}\n'
+            md += f'### {renderProperty("Name", value)}\n'
 
-    md += sortAndAppendTables(jsonData)
+    #md += sortAndAppendTables(jsonData)
 
     linkValue = jsonData.get("@link", "")
     if linkValue:
@@ -341,25 +737,47 @@ def fromMetadatatoDocs():
         subfolderDocs = rootDocs
         dataSubfolderMetadata = os.listdir(subfolderMetadata)
 
-        currentMember = []
-        formerMember = []
-
         if counter == "people":
-            for dataCounter in dataSubfolderMetadata:
-                if dataCounter.endswith(".json"):
-                    fromMetadata = os.path.join(subfolderMetadata, dataCounter)
+            '''toDocs = os.path.join(subfolderDocs, counter + ".md")
+            cuttedOwnPath = fromMetadata[fromMetadata.index("metadata"):]
+            #cutted from the right site ".git", which is important for the path
+            cuttedCurrentGitUrl = getCurrentGitUrl().rsplit(".git", 1)[0]
+            pathToJsonData = cuttedCurrentGitUrl + "/blob/main/" + cuttedOwnPath'''
 
-                    with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
-                        data = json.load(jsonFile)
+            test()
+            #processPeopleSubfolder(rootMetadata ,(os.path.join(rootMetadata, counter)))
+            '''toDocs = os.path.join(subfolderDocs, counter + ".md")
+            fromMetadata = subfolderMetadata
+            cuttedOwnPath = fromMetadata[fromMetadata.index("metadata"):]
+            #cutted from the right site ".git", which is important for the path
+            cuttedCurrentGitUrl = getCurrentGitUrl().rsplit(".git", 1)[0]
+            pathToJsonData = cuttedCurrentGitUrl + "/blob/main/" + cuttedOwnPath
 
-                    if isinstance(data, dict):
-                        memberOf = data.get("memberOf", [])
-                        if isinstance(memberOf, list):
-                            for item in memberOf:
-                                if isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54":
-                                    currentMember.append(json.dumps(data, indent=4))
-                                else:
-                                    formerMember.append(json.dumps(data, indent=4))
+            sortedPeopleData = sortPeopleFolder(fromMetadata)
+
+        with open(toDocs, "a", encoding="utf-8") as mdFile:
+            for sortedData in sortedPeopleData:
+                json.dump(sortedData, mdFile, indent=4)
+                mdFile.write("\n\n")
+
+        appendScriptToMDFile(sortedPeopleData[0], toDocs)'''
+
+        #generateMDTableFromJSON(data, toDocs, counter, pathToJsonData)
+
+        ''' toDocs = os.path.join(subfolderDocs, counter + ".md")
+            fromMetadata = subfolderMetadata
+            cuttedOwnPath = fromMetadata[fromMetadata.index("metadata"):]
+            #cutted from the right site ".git", which is important for the path
+            cuttedCurrentGitUrl = getCurrentGitUrl().rsplit(".git", 1)[0]
+            pathToJsonData = cuttedCurrentGitUrl + "/blob/main/" + cuttedOwnPath
+
+            sortedMembers = Membership()
+
+            with open(toDocs, "a", encoding="utf-8") as mdFile:
+                json.dump(sortedMembers, mdFile, indent=4)
+            
+            generateMDTableFromJSON(sortedMembers, toDocs, counter, pathToJsonData)
+            appendScriptToMDFile(fromMetadata, toDocs)'''
 
 
         if any(fileCounter.endswith(".json") for fileCounter in dataSubfolderMetadata):
@@ -376,6 +794,7 @@ def fromMetadatatoDocs():
                     cuttedCurrentGitUrl = getCurrentGitUrl().rsplit(".git", 1)[0]
                     pathToJsonData = cuttedCurrentGitUrl + "/blob/main/" + cuttedOwnPath
                     
+
                     #if there is JSON file
                     if firstJsonFile is None:
                         firstJsonFile = True
@@ -404,3 +823,4 @@ def fromMetadatatoDocs():
 
 
 fromMetadatatoDocs()
+test()
