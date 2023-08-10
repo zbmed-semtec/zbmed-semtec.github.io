@@ -7,8 +7,12 @@
   "givenName": "Leyla Jael",
   "memberOf": [
     {
-      "@type": "Organization",
-      "@id": "https://ror.org/0259fwx54"
+      "@type": "OrganizationRole",
+      "roleName": "Semantic Technologies team leader",
+      "memberOf": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0259fwx54"
+    }
     }
   ]  
 }
