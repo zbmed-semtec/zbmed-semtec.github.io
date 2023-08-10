@@ -8,16 +8,16 @@
 
   "author": [
   {
-      "@type": "Person",
-      "@id": "https://orcid.org/0000-0003-3986-0510",
-      "familyName": "Castro", 
-      "givenName": "Leyla Jael"
-  },
-  {
     "@type": "Person",
     "@id": "https://zbmed-semtec.github.io/people/#honey-lahoria",
     "familyName": "Lahoria", 
     "givenName": "Honey"
+  },
+  {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "familyName": "Castro", 
+      "givenName": "Leyla Jael"
   }
   ],
   "license": "https://spdx.org/licenses/MIT.html",

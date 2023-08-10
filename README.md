@@ -40,13 +40,14 @@ The Python code provided performs the following tasks divided in functions:
     2.2. `renderInnerTable(obj)`: Renders a nested table as HTML.
     2.3. `renderInnerList(lst)`: Renders a nested list as HTML.    
     2.4. `appendScriptToMDFile(mdFile)`: Appends a script to a Markdown file.
-3. `AnotherJsonInSubfolder(jsonData, outputFile, jsonFile)`: Same as **`generateMDTableFromJSON` only for Appending further JSON file to a current Markdown file
+3. `AnotherJsonInSubfolder(jsonData, outputFile, jsonFile)`: Same as **`generateMDTableFromJSON` only for Appending further JSON file to a current Markdown file.
 4. `appendScriptToMDFile(jsonFile, mdFile)`: Appending the JSON as script.
 5. `getCurrentGitUrl()`: Getting the current Git repository.
 6. `complexDataInList(data)`: Converts complex JSON element into a single element list.
-7. `createTableLink(data)`: Creates a link for the table with @id URL 
-8. `def sortAndAppendTables(jsonData)`: Sorts the team members into current and former team members.
-
+7. `createTableLink(data)`: Creates a link for the table with @id URL.
+wahrscheinlich weg 8. `def sortAndAppendTables(jsonData)`: Sorts the team members into current and former team members.
+8. `categorizePeople()`: Categorize team members into current and former team members and append them to the associated arrays.
+9. `def generateCategorizePeopleTable(currentTeamData, formerTeamData, outputFile, folderName):`: Generates Markdown tables for the categorized arrays of current and former team members.
 ## Output
 
 After the code has been executed successfully, a new Markdown file is created with the the same name as the subfolder from /metadata. The Markdown file contains the contents of all JSON files that were presented in the subfolder in /metadata and it presents them as HTML Tables. One table for each JSON file on the same Page.

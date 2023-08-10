@@ -3,622 +3,49 @@ import json
 import subprocess
 
 
-'''def sort_json_files(directory):
-    json_files = [file for file in os.listdir(directory) if file.endswith(".json")]
-    
-    sorted_data = []
 
-    for json_file in json_files:
-        with open(os.path.join(directory, json_file), "r", encoding="utf-8") as file:
-            data = json.load(file)
-            sorted_data.append(data)
-
-    # Hier sortieren wir die Daten anhand des Kriteriums "memberOf" und "@id"
-    sorted_data.sort(key=lambda item: (
-        0 if any(member.get("@id") == "https://ror.org/0259fwx54" for member in item.get("memberOf", [])) else 1
-    ))
-
-    return sorted_data'''
-
-
-'''def test2():
-    metadataPath = os.path.join(os.getcwd(), "metadata")
-    peoplePath = os.path.join(metadataPath, "people")
-    peopleDocs = os.path.join(os.path.join(os.getcwd(), "docs"), "people" + ".md")
-    peopleMetadata = os.path.join(os.path.join(os.path.join(os.getcwd(), "metadata"), "people"), "people" + ".md")
-
-    currentTeamData = []
-    formerTeamData = []
-
-    for dataCounter in os.listdir(peoplePath):
-        if dataCounter.endswith(".json"):
-            with open(os.path.join(peoplePath, dataCounter), "r", encoding="utf-8") as jsonFile:
-                data = json.load(jsonFile)
-
-            if isinstance(data, dict):
-                memberOf = data.get("memberOf", [])
-                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
-                    currentTeamData.append(data)
-                else:
-                    formerTeamData.append(data)
-
-    restoredData = currentTeamData + formerTeamData
-
-    with open(peopleDocs, "w", encoding="utf-8") as docsFile:
-        for item in restoredData:
-            currentTeamData
-    with open(peopleMetadata, "w", encoding="utf-8") as metadataFile:
-        for item in restoredData:
-            formerTeamData'''
-
-
-
-
-
-def test():
-    metadataPath = os.path.join(os.getcwd(), "metadata")
-    peoplePath = os.path.join(metadataPath, "people")
-    peopleDocs = os.path.join(os.path.join(os.getcwd(), "docs"), "people" + ".md")
-    peopleMetadata = os.path.join(os.path.join(os.path.join(os.getcwd(), "metadata"), "people"), "people" + ".md")
-
-    currentTeamData = []
-    formerTeamData = []
-
-    for dataCounter in os.listdir(peoplePath):
-        if dataCounter.endswith(".json"):
-            with open(os.path.join(peoplePath, dataCounter), "r", encoding="utf-8") as jsonFile:
-                data = json.load(jsonFile)
-
-            if isinstance(data, dict):
-                memberOf = data.get("memberOf", [])
-                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
-                    currentTeamData.append(data)
-                else:
-                    formerTeamData.append(data)
-
-#    with open(peopleDocs, "w", encoding="utf-8") as mdFile:
-#        mdFile.write("## Current Team\n\n")
-#        json.dump(currentTeamData, mdFile, indent=4)
-#
-#        mdFile.write("\n\n## Former Team\n\n")
-#        json.dump(formerTeamData, mdFile, indent=4)
-
-#    MDdata = {
-#        "current Team": currentTeamData,
-#        "former Team": formerTeamData
-#    }
-
-    generateCombinedMDTable(currentTeamData, formerTeamData, peopleDocs, "People", "")
-
-
-
-'''def test():
-metadataPath = os.path.join(os.getcwd(), "metadata")
-peoplePath = os.path.join(metadataPath, "people")
-peopleDocs = os.path.join(os.path.join(os.getcwd(), "docs"), "people" + ".md")
-peopleMetadata = os.path.join(os.path.join(os.path.join(os.getcwd(), "metadata"), "people"), "people" + ".md")
-
-currentTeamData = []
-formerTeamData = []
-
-for dataCounter in os.listdir(peoplePath):
-    if dataCounter.endswith(".json"):
-        with open(os.path.join(peoplePath, dataCounter), "r", encoding="utf-8") as jsonFile:
-            data = json.load(jsonFile)
-
-        if isinstance(data, dict):
-            memberOf = data.get("memberOf", [])
-            if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
-                currentTeamData.append(data)
-            else:
-                formerTeamData.append(data)
-
-    
-    with open(peopleDocs, "w", encoding="utf-8") as mdFile:
-        mdFile.write("## Current Team\n\n")
-        json.dump(currentTeamData, mdFile, indent=4)
-
-        mdFile.write("\n\n## Former Team\n\n")
-        json.dump(formerTeamData, mdFile, indent=4)
-
-    MDdata = {
-        "current Team": currentTeamData,
-        "former Team": formerTeamData
-    }
-
-generateCombinedMDTable(currentTeamData, formerTeamData, outputFile, folderName, jsonFile)'''
-#complexDataInList(mdFile)
-#generateMDTableFromJSON(mdFile, peopleDocs, "People", "")
-    #print(currentTeamData)
-#generateMDTableFromJSON(peopleDocs, peopleDocs, "people", "")
-#generateMDTableFromJSON(currentTeamData, peopleDocs, "people", "link_to_json_data.json")
-#AnotherJsonInSubfolder(formerTeamData, peopleDocs, "link_to_json_data.json")
-
-
-
-def generateCombinedMDTable(currentTeamData, formerTeamData, outputFile, folderName, jsonFile):
-
-    md = f'# {folderName.capitalize()} metadata\n\n'
-
-    md += f'## {"current Team Members".capitalize()}\n\n'
-
-    for item in currentTeamData:
-        if "@id" in item:
-            idValue = item["@id"]
-            if "metadata" in idValue:
-                cuttedOwnPath = idValue.split("metadata", 1)[-1]
-            else:
-                cuttedOwnPath = idValue.split("#", 1)[-1]
-                if cuttedOwnPath.startswith("http"):
-                     cuttedOwnPath = cuttedOwnPath.split("/", 3)[-1]
-            cuttedCurrentGitUrl = getCurrentGitUrl().rsplit(".git", 1)[0]
-            pathToJsonData = cuttedCurrentGitUrl + "/blob/main/metadata/people/" + cuttedOwnPath + ".json"
-
-    linkValue = currentTeamData[0].get("@link", "")
-    if linkValue:
-        md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="{jsonFile}" target="_blank"> Get JSON-LD</a> | {linkValue}</p>\n'
-        currentTeamData[0].pop("@link", None)
-
-    for item in currentTeamData:
-
-        if "givenName" in item and "familyName" in item:
-            familyName = item.get("familyName", "")
-            md += f'### {renderProperty("Name", item["givenName"] + " " + familyName)}\n'
-        elif "familyName" in item and "givenName" not in item:
-            md += f'### {renderProperty("Name", item["familyName"])}\n'
-
-        md += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
-        
-        for property, value in item.items():
-            if property == "@id":
-                property = "ID"
-                typeValue = item.get("@type", "")
-                value = f'<a href="{value}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {typeValue}</a>'
-            if property not in ["@type", "@context", "http://purl.org/dc/terms/conformsTo"]:
-                if isinstance(value, list):
-                    md += f'<tr>\n<td>{property}</td>\n<td><ul>{renderInnerList(value)}</ul></td>\n</tr>\n'
-                else:
-                    renderedValue = renderProperty(property, value)
-                    if renderedValue is not None:   
-                        md += f'<tr>\n<td>{property}</td>\n<td>{renderedValue}</td>\n</tr>\n'
-
-        md += '</tbody>\n</table>'
-
-    #formerTeamData = complexDataInList(formerTeamData)
-    #formerTeamData = createTableLink(formerTeamData)
-
-    md += f'## {"former Team Members".capitalize()}\n\n'
-
-    formerTeamData = complexDataInList(formerTeamData)
-    formerTeamData = createTableLink(formerTeamData)
-
-
-    linkValue = formerTeamData[0].get("@link", "")
-    if linkValue:
-        md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="{jsonFile}" target="_blank"> Get JSON-LD</a> | {linkValue}</p>\n'
-        currentTeamData[0].pop("@link", None)
-
-    for item in formerTeamData:
-
-        if "@id" in item:
-            idValue = item["@id"]
-            if "metadata" in idValue:
-                cuttedOwnPath = idValue.split("metadata", 1)[-1]
-            else:
-                cuttedOwnPath = idValue.split("#", 1)[-1]
-                if cuttedOwnPath.startswith("http"):
-                     cuttedOwnPath = cuttedOwnPath.split("/", 3)[-1]
-            cuttedCurrentGitUrl = getCurrentGitUrl().rsplit(".git", 1)[0]
-            pathToJsonData = cuttedCurrentGitUrl + "/blob/main/metadata/people/" + cuttedOwnPath + ".json"
-
-        if "givenName" in item and "familyName" in item:
-            familyName = item.get("familyName", "")
-            md += f'### {renderProperty("Name", item["givenName"] + " " + familyName)}\n'
-        elif "familyName" in item and "givenName" not in item:
-            md += f'### {renderProperty("Name", item["familyName"])}\n'
-
-        md += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
-
-        for property, value in item.items():
-            if property == "@id":
-                property = "ID"
-                typeValue = item.get("@type", "")
-                value = f'<a href="{value}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {typeValue}</a>'
-            if property not in ["@type", "@context", "http://purl.org/dc/terms/conformsTo"]:
-                if isinstance(value, list):
-                    md += f'<tr>\n<td>{property}</td>\n<td><ul>{renderInnerList(value)}</ul></td>\n</tr>\n'
-                else:
-                    renderedValue = renderProperty(property, value)
-                    if renderedValue is not None:   
-                        md += f'<tr>\n<td>{property}</td>\n<td>{renderedValue}</td>\n</tr>\n'
-        #appendScriptToMDFile(pathToJsonData, md)
-        md += '</tbody>\n</table>'
-
-    with open(outputFile, "w", encoding="utf-8") as file:
-        file.write(md)
-
-        
-'''
-# Nach der letzten if else zweig
-    with open("CurrentTeam.json", "w", encoding="utf-8") as currentTeamFile:
-        currentTeamFile.write("## Current Team\n\n")
-        json.dump(currentTeamData, currentTeamFile, indent=4)
-
-    
-    with open("FormerTeam.json", "w", encoding="utf-8") as formerTeamFile:
-        formerTeamFile.write("## Former Team\n\n")
-        json.dump(formerTeamData, formerTeamFile, indent=4)
-
-    with open("combinedTeam.json", 'w', encoding="utf-8") as combinedTeamFile:
-        with open("CurrentTeam.json", "r", encoding="utf-8") as currentTeamFile:
-            combinedTeamFile.write(currentTeamFile.read())
-        
-        combinedTeamFile.write('\n---\n\n')
-        
-        with open("FormerTeam.json", 'r', encoding="utf-8") as formerTeamFile:
-            combinedTeamFile.write(formerTeamFile.read())'''
-            
-        
-
-    
-
-
-'''def test():
-    MetadataPath = os.path.join(os.getcwd(), "metadata")
-    PeoplePath = os.path.join(MetadataPath, "people")
-    PeopleDocs = os.path.join(os.path.join(os.getcwd(), "docs"), "people")
-
-    currentTeamData = []
-    formerTeamData = []
-
-    for dataCounter in os.listdir(PeoplePath):
-        if dataCounter.endswith(".json"):
-            with open(os.path.join(PeoplePath, dataCounter), "r", encoding="utf-8") as jsonFile:
-                data = json.load(jsonFile)
-
-            if isinstance(data, dict):
-                memberOf = data.get("memberOf", [])
-                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
-                    currentTeamData.append(data)
-                else:
-                    formerTeamData.append(data)
-
-    
-    with open("CurrentTeam.md", "w", encoding="utf-8") as currentTeamFile:
-        currentTeamFile.write("## Current Team\n\n")
-        json.dump(currentTeamData, currentTeamFile, indent=4)
-
-    
-    with open("FormerTeam.md", "w", encoding="utf-8") as formerTeamFile:
-        formerTeamFile.write("## Former Team\n\n")
-        json.dump(formerTeamData, formerTeamFile, indent=4)
-
-    
-    combinedData = {
-        "currentTeam": currentTeamData,
-        "formerTeam": formerTeamData
-    }
-
-    
-    with open("CombinedData.md", "w", encoding="utf-8") as combinedFile:
-        json.dump(combinedData, combinedFile, indent=4)
-
-    
-    generateMDTableFromJSON(combinedData, PeopleDocs, "People", "test")'''
-
-
-
-
-
-'''def test():
-    MetadataPath = os.path.join(os.getcwd(), "metadata")
-    PeoplePath = os.path.join(MetadataPath, "people")
-    PeopleDocs = os.path.join(os.path.join(os.getcwd(), "docs"), "people")
-
-    currentTeamData = []
-    formerTeamData = []
-
-    for dataCounter in os.listdir(PeoplePath):
-        if dataCounter.endswith(".json"):
-            with open(os.path.join(PeoplePath, dataCounter), "r", encoding="utf-8") as jsonFile:
-                data = json.load(jsonFile)
-
-            if isinstance(data, dict):
-                memberOf = data.get("memberOf", [])
-                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
-                    currentTeamData.append(data)
-                else:
-                    formerTeamData.append(data)
-
-    
-    with open("CurrentTeam.md", "w", encoding="utf-8") as currentTeamFile:
-        currentTeamFile.write("## Current Team\n")
-        json.dump(currentTeamData, currentTeamFile, indent=4)
-
-    
-    with open("FormerTeam.md", "w", encoding="utf-8") as formerTeamFile:
-        formerTeamFile.write("## Former Team\n")
-        json.dump(formerTeamData, formerTeamFile, indent=4)
-
-    
-    combinedData = {
-        "currentTeam": currentTeamData,
-        "formerTeam": formerTeamData
-    }
-
-    
-    with open("CombinedData.json", "w", encoding="utf-8") as combinedFile:
-        json.dump(combinedData, combinedFile, indent=4)
-
-    
-    generateMDTableFromJSON(combinedData, PeopleDocs, "People", "test")'''
-
-
-
-
-
-
-'''def test():
-    MetadataPath = os.path.join(os.getcwd(), "metadata")
-    PeoplePath = os.path.join(MetadataPath, "people")
-    PeopleDocs = (os.path.join(os.path.join(os.getcwd(), "docs"), "people"))
-
-    currentTeamData = []
-    formerTeamData = []
-
-    for dataCounter in os.listdir(PeoplePath):
-        if dataCounter.endswith(".json"):
-            with open(os.path.join(PeoplePath, dataCounter), "r", encoding="utf-8") as jsonFile:
-                data = json.load(jsonFile)
-
-            if isinstance(data, dict):
-                memberOf = data.get("memberOf", [])
-                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
-                    currentTeamData.append(data)
-                else:
-                    formerTeamData.append(data)
-
-    
-    with open("CurrentTeam", "w", encoding="utf-8") as currentTeamFile:
-        currentTeamFile.write("## Current Team\n")
-        json.dump(currentTeamData, currentTeamFile, indent=4)
-
-    
-    with open("FormerTeam", "w", encoding="utf-8") as formerTeamFile:
-        formerTeamFile.write("## Former Team\n")
-        json.dump(formerTeamData, formerTeamFile, indent=4)
-
-    
-    combinedData = {
-        "currentTeam": currentTeamData,
-        "formerTeam": formerTeamData
-    }
-
-    with open("CombinedData.md", "w", encoding="utf-8") as combinedFile:
-        json.dump(combinedData, combinedFile, indent=4)
-
-    generateMDTableFromJSON(combinedFile, PeopleDocs, "People", "test")'''
-
-
-'''def test():
-    MetadataPath = os.path.join(os.getcwd(), "metadata")
-    PeoplePath = os.path.join(MetadataPath, "people")
-
-    for dataCounter in os.listdir(PeoplePath):
-        if dataCounter.endswith(".json"):
-            jsonFilePath = os.path.join(PeoplePath, dataCounter)
-
-            with open(jsonFilePath, "r", encoding="utf-8") as jsonFile:
-                data = json.load(jsonFile)
-
-            if isinstance(data, dict):
-                memberOf = data.get("memberOf", [])
-                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
-                    currentTeamPath = os.path.join(PeoplePath, "CurrentTeam.md")
-                    with open(currentTeamPath, "w", encoding="utf-8") as currentTeam:
-                        currentTeam.write("## Current Team\n")
-                        json.dump(data, currentTeam, indent=4)
-                else:
-                    formerTeamPath = os.path.join(PeoplePath, "FormerTeam.md")
-                    with open(formerTeamPath, "w", encoding="utf-8") as formerTeam:
-                        formerTeam.write("## Former Team\n")
-                        json.dump(data, formerTeam, indent=4)'''
-
-
-
-
-'''def test():
-
-    MetadataPath = os.path.join(os.getcwd(), "metadata")
-    PeoplePath = os.path.join(MetadataPath, "people")
-
-
-    for dataCounter in os.listdir(PeoplePath):
-        if dataCounter.endswith(".json"):
-
-            with open(dataCounter, "r", encoding="utf-8") as jsonFile:
-                data = json.load(jsonFile)
-
-            if isinstance(data, dict):
-                memberOf = data.get("memberOf", [])
-                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
-                    #memberFiles.append(data)
-                    with open(data, "w", encoding="utf-8") as currentTeam:
-                        currentTeam.write("## Current Team\n")
-                        json.dump(data, currentTeam, indent=4)
-                else:
-                    with open(data, "w", encoding="utf-8") as formerTeam:
-                        formerTeam.write("## Current Team\n")
-                        json.dump(data, formerTeam, indent=4)
-                        print(formerTeam)'''
-
-
-'''def processPeopleSubfolder(rootMetadata, counter):
-    metadataFilePath = os.path.join(rootMetadata, counter, "metadata.json")
-    
-    with open(metadataFilePath, "r", encoding="utf-8") as jsonFile:
-        metadata = json.load(jsonFile)
-    
-    if "CurrentTeam.json" in metadata:
-        currentTeamFilePath = os.path.join(rootMetadata, counter, metadata["CurrentTeam.json"])
-        
-        with open(currentTeamFilePath, "r", encoding="utf-8") as jsonFile:
-            currentTeamData = json.load(jsonFile)
-        
-        outputFolder = os.path.join(rootMetadata, counter, "output")
-        os.makedirs(outputFolder, exist_ok=True)
-        
-        outputFileName = "CurrentTeam.md"
-        outputFile = os.path.join(outputFolder, outputFileName)
-        
-        generateMDTableFromJSON(currentTeamData, outputFile, "Current Team", "CurrentTeam.json")
-    else:
-        print(f"Metadata for 'CurrentTeam.json' not found for {counter}")'''
-
-
-'''def processPeopleSubfolder(peopleFolder):
-    currentMember = []
-    formerMember = []
-
-    for dataCounter in os.listdir(peopleFolder):
-        if dataCounter.endswith(".json"):
-            fromMetadata = os.path.join(peopleFolder, dataCounter)
-
-            with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
-                data = json.load(jsonFile)
-
-            if isinstance(data, dict):
-                memberOf = data.get("memberOf", [])
-                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
-                    currentMember.append(data)
-                else:
-                    formerMember.append(data)
-
-    currentOutputFile = "CurrentTeam.json"
-    formerOutputFile = "FormerTeam.json"
-
-    with open(currentOutputFile, "w", encoding="utf-8") as currentFile:
-        json.dump(currentMember, currentFile, indent=4)
-
-    with open(formerOutputFile, "w", encoding="utf-8") as formerFile:
-        json.dump(formerMember, formerFile, indent=4)
-
-    generateMDTableFromJSON(currentMember, "CurrentTeam.md", "Current Team", "CurrentTeam.json")
-    generateMDTableFromJSON(formerMember, "FormerTeam.md", "Former Team", "FormerTeam.json")
-
-    appendScriptToMDFile("CurrentTeam.json", "CurrentTeam.md")
-    appendScriptToMDFile("FormerTeam.json", "FormerTeam.md")'''
-
-
-
-'''def sortPeopleFolder(peopleFolder):
-
-    memberFiles = []
-    otherFiles = []
-
-    for dataCounter in os.listdir(peopleFolder):
-        if dataCounter.endswith(".json"):
-            fromMetadata = os.path.join(peopleFolder, dataCounter)
-
-            with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
-                data = json.load(jsonFile)
-
-            if isinstance(data, dict):
-                memberOf = data.get("memberOf", [])
-                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
-                    memberFiles.append(data)
-                else:
-                    otherFiles.append(data)
-
-    sortedFiles = memberFiles + otherFiles
-    return sortedFiles'''
-
-
-
-'''def Membership2():
-    currentMembers = []
-    formerMembers = []
-
-    currentRoot = os.getcwd()
-    rootMetadata = os.path.join(currentRoot, "metadata")
-    peopleMetadata = os.path.join(rootMetadata, "people")
-
-    for dataCounter in os.listdir(peopleMetadata):
-        if dataCounter.endswith(".json"):
-            fromMetadata = os.path.join(peopleMetadata, dataCounter)
-
-            with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
-                data = json.load(jsonFile)
-
-            if isinstance(data, dict):
-                memberOf = data.get("memberOf", [])
-                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
-                    currentMembers.append(data)
-                else:
-                    formerMembers.append(data)
-
-    return currentMembers, formerMembers'''
-
-
-
-
-'''def sortAndAppendTables(jsonData):
+def categorizePeople():
     """
-    Sorts the team members into current and former team members.
+    Categorize team members into current and former team members and append them to the associated arrays.
 
     Parameter/Input:
-        jsonData: The JSON data containing the team members.
+        None
 
     Returns:
-        The updated Markdown content with sorted team members.
+        None
     """
-    currentTeam = []
-    formerTeam = []
+    metadataPath = os.path.join(os.getcwd(), "metadata")
+    peoplePath = os.path.join(metadataPath, "people")
+    peopleDocs = os.path.join(os.path.join(os.getcwd(), "docs"), "people" + ".md")
 
-    if "memberOf" in jsonData:
-        memberOf = jsonData["memberOf"]
-        if isinstance(memberOf, list):
-            for item in memberOf:
-                if isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54":
-                    currentTeam.append(json.dumps(item, indent=4))
+    currentTeamData = []
+    formerTeamData = []
+
+    for dataCounter in os.listdir(peoplePath):
+        if dataCounter.endswith(".json"):
+            with open(os.path.join(peoplePath, dataCounter), "r", encoding="utf-8") as jsonFile:
+                data = json.load(jsonFile)
+
+            if isinstance(data, dict):
+                memberOf = data.get("memberOf", [])
+                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
+                    currentTeamData.append(data)
                 else:
-                    formerTeam.append(json.dumps(item, indent=4))
+                    formerTeamData.append(data)
 
-    if "alumniOf" in jsonData:
-        alumniOf = jsonData["alumniOf"]
-        if isinstance(alumniOf, list):
-            for item in alumniOf:
-                formerTeam.append(json.dumps(item, indent=4))
-
-    md = ""
-
-    # Append the sorted tables to the markdown file
-    if currentTeam:
-        md += "<h3>Current team member</h3>"
-
-    if formerTeam:
-        md += "<h3>Former team member</h3>"
-
-    return md'''
-
-
-
-
-
-
+    generateCategorizePeopleTable(currentTeamData, formerTeamData, peopleDocs, "People")
 
 
 
 def createTableLink(data):
     """
-    Checks the JSON data if there is @id and @type. If both exists the link will be created 
-    with the value of @id
+    Checks the JSON data if there is @id and @type. If both exists the link will be created with the value of @id.
 
     Parameter/Input:
-        data: The JSON data, which should be checked
+        data: The JSON data, which should be checked.
 
     Returns:
-        created Link für the Table
+        created Link für the Table.
     """
     if not isinstance(data, dict):
         return data
@@ -691,6 +118,7 @@ def appendScriptToMDFile(jsonFile, mdFile):
     Returns:
         None
     """
+    
     with open(jsonFile, "r", encoding="utf-8") as jsonFile:
         scriptCode = json.load(jsonFile)
 
@@ -726,7 +154,7 @@ def renderInnerTable(obj):
     Function, which renders a nested table as HTML.
 
     Paramater/Input:
-        obj (dict): The nested object which will be rendered
+        obj (dict): The nested object which will be rendered.
 
     Returns:
         The representation of the nested table in HTML.
@@ -807,8 +235,6 @@ def generateMDTableFromJSON(jsonData, outputFile, FolderName, jsonFile):
         if property == "familyName" and "givenName" not in jsonData:
             md += f'### {renderProperty("Name", value)}\n'
 
-    #md += sortAndAppendTables(jsonData)
-
     linkValue = jsonData.get("@link", "")
     if linkValue:
         md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="{jsonFile}" target="_blank"> Get JSON-LD</a> | {linkValue}</p>\n'
@@ -856,8 +282,6 @@ def AnotherJsonInSubfolder(jsonData, outputFile, jsonFile):
         if property == "familyName" and "givenName" not in jsonData:
             md += f'### {renderProperty("Name", value)}\n'
 
-    #md += sortAndAppendTables(jsonData)
-
     linkValue = jsonData.get("@link", "")
     if linkValue:
         md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="{jsonFile}" target="_blank"> Get JSON-LD</a> | {linkValue}</p>\n'
@@ -875,105 +299,124 @@ def AnotherJsonInSubfolder(jsonData, outputFile, jsonFile):
                     md += f'<tr>\n<td>{property}</td>\n<td>{renderedValue}</td>\n</tr>\n'
     md += '</tbody>\n</table>'
 
-   
-
     with open(outputFile, "a", encoding="utf-8") as file:
        file.write(md)
 
 
-
-'''def generateMDTableFromJSONList(jsonList, outputFile, FolderName, jsonFile):
+def generateCategorizePeopleTable(currentTeamData, formerTeamData, outputFile, folderName):
     """
-    Generate a Markdown file from a list of JSON data.
+    Generates Markdown tables for the categorized arrays of current and former team members.
 
-    Parameters:
-        jsonList: The list of JSON data to convert.
-        outputFile: The path to the output file with the Markdown code.
-        FolderName: The name of the folder used for the title.
-        jsonFile: The link to the JSON-LD file associated with the metadata.
+    Parameters/Input:
+        currentTeamData: List of current team member data.
+        formerTeamData: List of former team member data.
+        outputFile: Path to the output Markdown file.
+        folderName: Name of the folder used for the title.
 
     Returns:
         None
     """
-    # Load the JSON data from the provided file
-    with open(jsonFile, "r", encoding="utf-8") as jsonFile:
-        jsonData = json.load(jsonFile)
 
-    # Create the Markdown header
-    md = f'# {FolderName.capitalize()} metadata\n\n'
+    md = f'# {folderName.capitalize()} metadata\n\n'
 
-    # Iterate through each entry in the JSON list
-    for entry in jsonList:
-        # Process each entry in the list
-        entryData = complexDataInList(entry)
-        entryData = createTableLink(entryData)
 
-        # Iterate through each property and value in the entry data
-        for property, value in entryData.items():
-            # Check if the property value is a list
-            if isinstance(value, list):
-                # Render inner lists as HTML and append to Markdown
-                md += f'\n## {property}\n<ul>'
-                for item in value:
-                    md += f'\n<li>{renderProperty("", item)}</li>'
-                md += '\n</ul>'
+    md += f'## {"current Team Members".capitalize()}\n\n'
+
+    for item in currentTeamData:
+        if "givenName" in item and "familyName" in item:
+            familyName = item.get("familyName", "")
+            md += f'### {renderProperty("Name", item["givenName"] + " " + familyName)}\n'
+        elif "familyName" in item and "givenName" not in item:
+            md += f'### {renderProperty("Name", item["familyName"])}\n'
+
+        item = createTableLink(item)
+
+        if "@id" in item:
+            idValue = item["@id"]
+            if "metadata" in idValue:
+                cuttedOwnPath = idValue.split("metadata", 1)[-1]
             else:
-                # Render other properties as HTML and append to Markdown
-                md += f'\n## {property}\n<p>{renderProperty("", value)}</p>'
+                cuttedOwnPath = idValue.split("#", 1)[-1]
+                if cuttedOwnPath.startswith("http"):
+                    cuttedOwnPath = cuttedOwnPath.split("/", 3)[-1]
+            cuttedCurrentGitUrl = getCurrentGitUrl().rsplit(".git", 1)[0]
+            pathToJsonData = cuttedCurrentGitUrl + "/blob/main/metadata/people/" + cuttedOwnPath + ".json"
+            aktuellesVerzeichnis = os.getcwd()
+            pathJSONLD = aktuellesVerzeichnis + "/metadata/people/" + cuttedOwnPath + ".json"
 
-        md += '\n\n---\n\n'
+        linkValue = item.get("@link", "")
+        if linkValue:
+            md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="{pathToJsonData}" target="_blank"> Get JSON-LD</a> | {linkValue}</p>\n'
+        item.pop("@link", None)
 
-    # Write the generated Markdown content to the output file
-    with open(outputFile, "a", encoding="utf-8") as file:
-        file.write(md)'''
+        md += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
+        
+        for property, value in item.items():
+            if property == "@id":
+                typeValue = item.get("@type", "")
+                value = f'<a href="{value}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {typeValue}</a>'
+            if property not in ["@type", "@id", "@context", "http://purl.org/dc/terms/conformsTo"]:
+                if isinstance(value, list):
+                    md += f'<tr>\n<td>{property}</td>\n<td><ul>{renderInnerList(value)}</ul></td>\n</tr>\n'
+                else:
+                    renderedValue = renderProperty(property, value)
+                    if renderedValue is not None:   
+                        md += f'<tr>\n<td>{property}</td>\n<td>{renderedValue}</td>\n</tr>\n'
+
+        md += '</tbody>\n</table>'
 
 
+    md += f'## {"former Team Members".capitalize()}\n\n'
 
-'''def generateMDTableFromJSONList(jsonList, outputFile, FolderName):
-    """
-    Generate a Markdown file from a list of JSON data.
+    for item in formerTeamData:
+        if "givenName" in item and "familyName" in item:
+            familyName = item.get("familyName", "")
+            md += f'### {renderProperty("Name", item["givenName"] + " " + familyName)}\n'
+        elif "familyName" in item and "givenName" not in item:
+            md += f'### {renderProperty("Name", item["familyName"])}\n'
 
-    Parameters:
-        jsonList: The list of JSON data to convert.
-        outputFile: The path to the output file with the Markdown code.
-        FolderName: The name of the folder used for the title.
+        item = createTableLink(item)
 
-    Returns:
-        None
-    """
-    # Create the Markdown header
-    md = f'# {FolderName.capitalize()} metadata\n\n'
-
-    # Iterate through each entry in the JSON list
-    for entry in jsonList:
-        # Process each entry in the list
-        entryData = complexDataInList(entry)
-        entryData = createTableLink(entryData)
-
-        # Iterate through each property and value in the entry data
-        for property, value in entryData.items():
-            # Check if the property value is a list
-            if isinstance(value, list):
-                # Render inner lists as HTML and append to Markdown
-                md += f'\n## {property}\n<ul>'
-                for item in value:
-                    md += f'\n<li>{renderProperty("", item)}</li>'
-                md += '\n</ul>'
+        if "@id" in item:
+            idValue = item["@id"]
+            if "metadata" in idValue:
+                cuttedOwnPath = idValue.split("metadata", 1)[-1]
             else:
-                # Render other properties as HTML and append to Markdown
-                md += f'\n## {property}\n<p>{renderProperty("", value)}</p>'
+                cuttedOwnPath = idValue.split("#", 1)[-1]
+                if cuttedOwnPath.startswith("http"):
+                    cuttedOwnPath = cuttedOwnPath.split("/", 3)[-1]
+            cuttedCurrentGitUrl = getCurrentGitUrl().rsplit(".git", 1)[0]
+            pathToJsonData = cuttedCurrentGitUrl + "/blob/main/metadata/people/" + cuttedOwnPath + ".json"
+            aktuellesVerzeichnis = os.getcwd()
+            pathJSONLD = aktuellesVerzeichnis + "/metadata/people/" + cuttedOwnPath + ".json"
 
-        md += '\n\n---\n\n'
+        linkValue = item.get("@link", "")
+        if linkValue:
+            md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="{pathToJsonData}" target="_blank"> Get JSON-LD</a> | {linkValue}</p>\n'
+        item.pop("@link", None)
 
-    # Write the generated Markdown content to the output file
-    with open(outputFile, "a", encoding="utf-8") as file:
-        file.write(md)'''
+        md += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
+        
+        for property, value in item.items():
+            if property == "@id":
+                typeValue = item.get("@type", "")
+                value = f'<a href="{value}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {typeValue}</a>'
+            if property not in ["@type", "@id", "@context", "http://purl.org/dc/terms/conformsTo"]:
+                if isinstance(value, list):
+                    md += f'<tr>\n<td>{property}</td>\n<td><ul>{renderInnerList(value)}</ul></td>\n</tr>\n'
+                else:
+                    renderedValue = renderProperty(property, value)
+                    if renderedValue is not None:   
+                        md += f'<tr>\n<td>{property}</td>\n<td>{renderedValue}</td>\n</tr>\n'
+
+        md += '</tbody>\n</table>'
 
 
+    with open(outputFile, "w", encoding="utf-8") as file:
+        file.write(md)
 
 
-
-
+        
 def fromMetadatatoDocs():
     """
     Function that copies the subfolders of "metadata" as Markdown files in "docs" folder.
@@ -997,56 +440,8 @@ def fromMetadatatoDocs():
         subfolderDocs = rootDocs
         dataSubfolderMetadata = os.listdir(subfolderMetadata)
         if counter == "people":
-        #   peopleDocs = os.path.join(os.path.join(os.getcwd(), "docs"), "people" + ".md")
-        #    sorted = sort_json_files(subfolderMetadata)
-        #    print(sorted)
-        #    complexDataInList(sorted)
-        #    generateCombinedMDTable(sorted, sorted, peopleDocs, counter, jsonFile)
-            #print(toDocs)
-            #print(os.path.join(rootDocs, "people" + ".md"))
-            #print(os.path.join(subfolderDocs, counter + ".md"))
-            '''toDocs = os.path.join(subfolderDocs, counter + ".md")
-            cuttedOwnPath = fromMetadata[fromMetadata.index("metadata"):]
-            #cutted from the right site ".git", which is important for the path
-            cuttedCurrentGitUrl = getCurrentGitUrl().rsplit(".git", 1)[0]
-            pathToJsonData = cuttedCurrentGitUrl + "/blob/main/" + cuttedOwnPath'''
-
-            #test2()
-            #processPeopleSubfolder(rootMetadata ,(os.path.join(rootMetadata, counter)))
-            '''toDocs = os.path.join(subfolderDocs, counter + ".md")
-            fromMetadata = subfolderMetadata
-            cuttedOwnPath = fromMetadata[fromMetadata.index("metadata"):]
-            #cutted from the right site ".git", which is important for the path
-            cuttedCurrentGitUrl = getCurrentGitUrl().rsplit(".git", 1)[0]
-            pathToJsonData = cuttedCurrentGitUrl + "/blob/main/" + cuttedOwnPath
-
-            sortedPeopleData = sortPeopleFolder(fromMetadata)
-
-        with open(toDocs, "a", encoding="utf-8") as mdFile:
-            for sortedData in sortedPeopleData:
-                json.dump(sortedData, mdFile, indent=4)
-                mdFile.write("\n\n")
-
-        appendScriptToMDFile(sortedPeopleData[0], toDocs)'''
-
-        #generateMDTableFromJSON(data, toDocs, counter, pathToJsonData)
-
-        ''' toDocs = os.path.join(subfolderDocs, counter + ".md")
-            fromMetadata = subfolderMetadata
-            cuttedOwnPath = fromMetadata[fromMetadata.index("metadata"):]
-            #cutted from the right site ".git", which is important for the path
-            cuttedCurrentGitUrl = getCurrentGitUrl().rsplit(".git", 1)[0]
-            pathToJsonData = cuttedCurrentGitUrl + "/blob/main/" + cuttedOwnPath
-
-            sortedMembers = Membership()
-
-            with open(toDocs, "a", encoding="utf-8") as mdFile:
-                json.dump(sortedMembers, mdFile, indent=4)
-            
-            generateMDTableFromJSON(sortedMembers, toDocs, counter, pathToJsonData)
-            appendScriptToMDFile(fromMetadata, toDocs)'''
-
-
+            #categorizePeople()
+            ""
         if any(fileCounter.endswith(".json") for fileCounter in dataSubfolderMetadata):
             # Looks up if there is a JSON file with .json extension in the subfolders from "metadata"
             firstJsonFile = None
@@ -1060,7 +455,6 @@ def fromMetadatatoDocs():
                     #cutted from the right site ".git", which is important for the path
                     cuttedCurrentGitUrl = getCurrentGitUrl().rsplit(".git", 1)[0]
                     pathToJsonData = cuttedCurrentGitUrl + "/blob/main/" + cuttedOwnPath
-                    
 
                     #if there is JSON file
                     if firstJsonFile is None:
@@ -1090,4 +484,4 @@ def fromMetadatatoDocs():
 
 
 fromMetadatatoDocs()
-test()
+categorizePeople()

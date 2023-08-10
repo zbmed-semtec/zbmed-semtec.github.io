@@ -1,0 +1,14 @@
+{ 
+  "@context": "https://schema.org",
+
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0002-3119-5109",
+  "familyName": "Alqhtani", 
+  "givenName": "Asmaa",
+  "alumniOf": [
+    {
+      "@type": "Organization",
+      "@id": "https://ror.org/0259fwx54"
+    }
+  ]
+}
