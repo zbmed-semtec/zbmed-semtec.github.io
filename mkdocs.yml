@@ -11,6 +11,9 @@ nav:
 repo_name: zbmed-semtec/zbmed-semtec.github.io
 repo_url: https://github.com/zbmed-semtec/zbmed-semtec.github.io
 
-
 theme:
   name: material
+  palette:
+    primary: orange
+    accent: orange
+  logo: https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/semtec.png

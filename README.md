@@ -45,9 +45,11 @@ The Python code provided performs the following tasks divided in functions:
 5. `getCurrentGitUrl()`: Getting the current Git repository.
 6. `complexDataInList(data)`: Converts complex JSON element into a single element list.
 7. `createTableLink(data)`: Creates a link for the table with @id URL.
-wahrscheinlich weg 8. `def sortAndAppendTables(jsonData)`: Sorts the team members into current and former team members.
 8. `categorizePeople()`: Categorize team members into current and former team members and append them to the associated arrays.
 9. `def generateCategorizePeopleTable(currentTeamData, formerTeamData, outputFile, folderName):`: Generates Markdown tables for the categorized arrays of current and former team members.
+10. `def processProjectData(fromMetadata, toDocs):`: Process JSON data for the "project" and generate a Markdown file.
+
+
 ## Output
 
 After the code has been executed successfully, a new Markdown file is created with the the same name as the subfolder from /metadata. The Markdown file contains the contents of all JSON files that were presented in the subfolder in /metadata and it presents them as HTML Tables. One table for each JSON file on the same Page.

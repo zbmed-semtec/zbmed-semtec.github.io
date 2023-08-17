@@ -7,8 +7,12 @@
   "givenName": "Dietrich",
   "memberOf": [
     {
-      "@type": "Organization",
-      "@id": "https://ror.org/0259fwx54"
+      "@type": "OrganizationRole",
+      "roleName": "Semantic Technologies team ...",
+      "memberOf": {
+        "@type": "Organization",
+        "@id": "https://ror.org/0259fwx54"
     }
-  ]
+    }
+  ]  
 }

@@ -28,7 +28,7 @@ def categorizePeople():
 
             if isinstance(data, dict):
                 memberOf = data.get("memberOf", [])
-                if any(isinstance(item, dict) and item.get("@id") == "https://ror.org/0259fwx54" for item in memberOf):
+                if any(isinstance(item, dict) and item.get("@type") == "OrganizationRole" and item.get("roleName", "").startswith("Semantic Technologies") for item in memberOf):
                     currentTeamData.append(data)
                 else:
                     formerTeamData.append(data)
@@ -54,7 +54,7 @@ def createTableLink(data):
     typeValue = data.get("@type", "")
 
     if idValue and typeValue:
-        # Only if @id and @type are in the data and the valaue are saved then create link
+        # Only if @id and @type are in the data and the value are saved then create link
         visitLink = f'<a href="{idValue}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {typeValue}</a>'
         data["@link"] = visitLink
     return data
@@ -220,9 +220,7 @@ def generateMDTableFromJSON(jsonData, outputFile, FolderName, jsonFile):
         None
     """
     md = f'# {FolderName.capitalize()} metadata\n\n'
-
-    #jsonData.pop("memberOf", None)
-    #jsonData.pop("alumniOf", None)
+    
     jsonData = complexDataInList(jsonData)
     jsonData = createTableLink(jsonData)
 
@@ -303,6 +301,7 @@ def AnotherJsonInSubfolder(jsonData, outputFile, jsonFile):
        file.write(md)
 
 
+
 def generateCategorizePeopleTable(currentTeamData, formerTeamData, outputFile, folderName):
     """
     Generates Markdown tables for the categorized arrays of current and former team members.
@@ -321,6 +320,7 @@ def generateCategorizePeopleTable(currentTeamData, formerTeamData, outputFile, f
 
 
     md += f'## {"current Team Members".capitalize()}\n\n'
+    #md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="https://ror.org/0259fwx54" target="_blank"> Visit Organization</a></p>\n'           # visit Organization direkt nach current Team member Überschrift
 
     for item in currentTeamData:
         if "givenName" in item and "familyName" in item:
@@ -347,11 +347,16 @@ def generateCategorizePeopleTable(currentTeamData, formerTeamData, outputFile, f
         linkValue = item.get("@link", "")
         if linkValue:
             md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="{pathToJsonData}" target="_blank"> Get JSON-LD</a> | {linkValue}</p>\n'
+            #md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="https://ror.org/0259fwx54" target="_blank"> Visit Organization</a></p>\n'           #visit Organization über den tabellen
         item.pop("@link", None)
 
         md += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
         
         for property, value in item.items():
+            if "memberOf" in item:
+                for counter in item["memberOf"]:
+                    if isinstance(counter, dict) and "memberOf" in counter:
+                        counter.pop("memberOf", None)
             if property == "@id":
                 typeValue = item.get("@type", "")
                 value = f'<a href="{value}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {typeValue}</a>'
@@ -398,6 +403,10 @@ def generateCategorizePeopleTable(currentTeamData, formerTeamData, outputFile, f
         md += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
         
         for property, value in item.items():
+            if property == "alumniOf":
+                continue
+            #if property == "memberOf":                 #man kann ansonsten nicht die aktuellen mitglieder ohne rolle von alumni unterscheiden
+             #   continue
             if property == "@id":
                 typeValue = item.get("@type", "")
                 value = f'<a href="{value}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {typeValue}</a>'
@@ -416,7 +425,98 @@ def generateCategorizePeopleTable(currentTeamData, formerTeamData, outputFile, f
         file.write(md)
 
 
+
+def processProjectData(fromMetadata, toDocs):
+    """
+    Process JSON data for the "project" subfolder in "metadata" and generate Markdown file in "docs".
+
+    Parameters/Input:
+        fromMetadata: Path to the JSON file.
+        toDocs: Path to the output Markdown file.
+
+    Returns:
+        None
+    """
+    md = ""
+    
+    with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
+        data = json.load(jsonFile)
+
+        md += f'# Project metadata\n\n'
         
+        for property, value in data.items():
+            if property == 'name':
+                md += f'## {value.capitalize()}\n\n'
+            if property not in ["@type", "@id", "@context", "name"]:
+                md += f'## {property.capitalize()}\n\n'
+
+                if isinstance(value, list):
+                    for item in value:
+                        if isinstance(item, (dict, list)):
+                            for counter in item:
+                                subItem = item.get(counter, "")
+                                if (isinstance(subItem,(dict, list))):
+                                    if "name" in subItem:
+                                        md += f'### {subItem["name"].capitalize()}\n\n'
+                                    if "givenName" in item and "familyName" in subItem:
+                                        givenName = subItem["givenName"]
+                                        lastName = subItem["familyName"]
+                                        md += f'### {givenName + " " +lastName}\n\n'
+                                    if "@type" in subItem and "@id" in subItem:
+                                        subTypeURL = subItem["@type"]
+                                        idURL = subItem["@id"]
+                                        md += f'<a href="{idURL}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {subTypeURL}</a>\n\n'
+                                    for prop, val in subItem.items():
+                                        if prop not in ["@type", "@id", "name"]:
+                                            md += f'- {prop.capitalize()}: {val}\n'
+                            if "name" in item:
+                                md += f'### {item["name"].capitalize()}\n\n'
+                            if "givenName" in item and "familyName" in item:
+                                givenName = item["givenName"]
+                                lastName = item["familyName"]
+                                md += f'### {givenName + " " +lastName}\n\n'
+                            if "@type" in item and "@id" in item:
+                                subTypeURL = item["@type"]
+                                idURL = item["@id"]
+                                md += f'<a href="{idURL}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {subTypeURL}</a>\n\n'
+                            for prop, val in item.items(): 
+                                if prop not in ["@type", "@id", "name", "funder"]:
+                                    md += f'- {prop.capitalize()}: {val}\n'
+                
+                elif isinstance(value, dict):
+                    for subProperty, subValue in value.items():
+                        if isinstance(subValue, (dict, list)):
+                            if "name" in subValue:
+                                md += f'### {item["name"].capitalize()}\n\n'
+                            if "givenName" in subValue and "familyName" in subValue:
+                                givenName = subValue["givenName"]
+                                lastName = subValue["familyName"]
+                                md += f'### {givenName +" " + lastName}\n\n'
+                            if "@type" in subValue and "@id" in subValue:
+                                subTypeURL = subValue["@type"]
+                                subidURL= subValue["@id"]
+                                md += f'<a href="{subidURL}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {subTypeURL}</a>\n\n'
+                            for prop, val in subValue.items():
+                                if prop not in ["@type", "@id", "name"]:
+                                    md += f'- {prop.capitalize()}: {val}\n'
+                        else: 
+                            if "name" in subProperty:
+                                md += f'### {subValue.capitalize()}\n\n'
+                                subTypeURL = value.get("@type", "")
+                                subidURL = value.get("@id", "")
+                                if subTypeURL and subidURL:
+                                  md += f'<a href="{subidURL}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style="margin-bottom: 50px"/></svg> Visit {subTypeURL}</a>\n\n'
+                            if subProperty:
+                                if subProperty not in ["@type", "@id", "name"]:
+                                    md += f'- {subProperty.capitalize()}: {subValue}\n'
+                else:
+                    md += f'{value}\n'
+
+    with open(toDocs, "w", encoding="utf-8") as file:
+       file.write(md)
+
+
+
 def fromMetadatatoDocs():
     """
     Function that copies the subfolders of "metadata" as Markdown files in "docs" folder.
@@ -439,9 +539,7 @@ def fromMetadatatoDocs():
         subfolderMetadata = os.path.join(rootMetadata, counter)
         subfolderDocs = rootDocs
         dataSubfolderMetadata = os.listdir(subfolderMetadata)
-        if counter == "people":
-            #categorizePeople()
-            ""
+
         if any(fileCounter.endswith(".json") for fileCounter in dataSubfolderMetadata):
             # Looks up if there is a JSON file with .json extension in the subfolders from "metadata"
             firstJsonFile = None
@@ -475,6 +573,12 @@ def fromMetadatatoDocs():
 
                             AnotherJsonInSubfolder(data, toDocs, pathToJsonData)     
                             appendScriptToMDFile(fromMetadata, toDocs)
+        
+        if counter == "people":
+            categorizePeople()
+            
+        if counter =="projects":
+            processProjectData(fromMetadata, toDocs)
         else:
             newEmptyMD = os.path.join(subfolderDocs, counter + ".md")
 
@@ -484,4 +588,3 @@ def fromMetadatatoDocs():
 
 
 fromMetadatatoDocs()
-categorizePeople()
