@@ -8,7 +8,7 @@
   "memberOf": [
     {
       "@type": "OrganizationRole",
-      "roleName": "Semantic Technologies team member",
+      "roleName": "SemTec team - Student assistant",
       "memberOf": {
         "@type": "Organization",
         "@id": "https://ror.org/0259fwx54"
