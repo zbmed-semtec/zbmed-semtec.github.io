@@ -15,12 +15,6 @@
     },
     {
         "@type": "Person",
-        "@id": "https://orcid.org/0000-0003-3986-0510",
-        "familyName": "Castro", 
-        "givenName": "Leyla Jael"
-    },
-    {
-        "@type": "Person",
         "@id": "https://zbmed-semtec.github.io/people/#cesar-canales",
         "familyName": "Canales", 
         "givenName": "Cesar"
@@ -36,15 +30,26 @@
         "@id": "https://orcid.org/0000-0002-1018-0370",
         "familyName": "Rebholz-Schuhmann", 
         "givenName": "Dietrich"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3986-0510",
+        "familyName": "Castro", 
+        "givenName": "Leyla Jael"
     }
   ],
   "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+  "citation": [
+    "Quiñones N, Canales C, Torres J, Rebholz-Schuhmann D, and Castro LJ. Topic categorization for Medline Abstracts. GitHub 2022. https://github.com/zbmed-semtec/topic-categorization-system",
+    "Quiñones N, Canales C, Torres J, Rebholz-Schuhmann D, Castro LJ, Aristizabal A. Multilabel-classification task for Medline abstracts - Poster. 2023. In: SWAT4HCLS 2023 poster archival. PUBLISSO. https://doi.org/10.4126/FRL01-006440395",
+    "Quiñones N, Canales C, Torres J, Rebholz-Schuhmann D, Castro LJ, Aristizabal A. Multilabel-classification task for Medline abstracts. 2023. In: SWAT4HCLS 2023 Proceedings. CEUR. https://ceur-ws.org/Vol-3415/paper-36.pdf"
+  ],
 
   "codeRepository": "https://github.com/zbmed-semtec/topic-categorization-system",
   "programmingLanguage": [
     "Python"
     ],
   "keywords":  [
-    "Categorization-system", "Biomedical"
+    "Topic categorization system", "Biomedical literature"
     ] 
 }
