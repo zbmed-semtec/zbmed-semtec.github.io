@@ -9,7 +9,7 @@
   "author": [
     {
         "@type": "Person",
-        "@id": "https://zbmed-semtec.github.io/people/#rohitha-ravinder",
+        "@id": "https://orcid.org/0009-0004-4484-6283",
         "familyName": "Ravinder", 
         "givenName": "Rohitha"
     },
@@ -27,6 +27,10 @@
     }
   ],
   "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+  "citation": [
+    "Ravinder R, Castro LJ, and Rebholz-Schuhmann D. (2023). Protein Function Embeddings: First Beta Release of Datasets (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7793384",
+    "Ravinder R, Castro LJ, and Rebholz-Schuhmann D. (2023). Protein Function Embeddings: First Beta Release (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7781870"
+  ],
 
   "codeRepository": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",
   "programmingLanguage": [
