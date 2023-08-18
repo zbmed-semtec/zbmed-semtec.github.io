@@ -2,13 +2,13 @@
   "@context": "https://schema.org",
 
   "@type": "Person",
-  "@id": "https://zbmed-semtec.github.io/people/#rohitha-ravinder",
+  "@id": "https://orcid.org/0009-0004-4484-6283",
   "familyName": "Ravinder", 
   "givenName": "Rohitha",
   "memberOf": [
     {
       "@type": "OrganizationRole",
-      "roleName": "Semantic Technologies team member",
+      "roleName": "SemTec team - Research Software Engineer",
       "memberOf": {
         "@type": "Organization",
         "@id": "https://ror.org/0259fwx54"
