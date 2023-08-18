@@ -15,18 +15,6 @@
     },
     {
         "@type": "Person",
-        "@id": "https://orcid.org/0000-0003-3986-0510",
-        "familyName": "Castro", 
-        "givenName": "Leyla Jael"
-    },
-    {
-        "@type": "Person",
-        "@id": "https://orcid.org/0000-0002-3119-5109",
-        "familyName": "Alqhtani", 
-        "givenName": "Asmaa"
-    },
-    {
-        "@type": "Person",
         "@id": "https://zbmed-semtec.github.io/people/#Rahaf-Alayed",
         "familyName": "Alayed", 
         "givenName": "Rahaf"
@@ -39,9 +27,21 @@
     },
     {
         "@type": "Person",
-        "@id": "https://zbmed-semtec.github.io/people/#maria-g-gomez-castillo",
-        "familyName": "Castillo", 
-        "givenName": "Maria G Gomez"
+        "@id": "https://orcid.org/0000-0002-3119-5109",
+        "familyName": "Alqhtani", 
+        "givenName": "Asmaa"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://cemse.kaust.edu.sa/people/person/maria-g-gomez-castillo",
+        "familyName": "Gomez Castillo", 
+        "givenName": "Maria G."
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3986-0510",
+        "familyName": "Castro", 
+        "givenName": "Leyla Jael"
     }
   ],
   "license": "https://spdx.org/licenses/GPL-3.0-only.html",
@@ -51,6 +51,6 @@
     "JavaScript", "Python"
     ],
   "keywords":  [
-    "BioHackathon MENA 2023' Kappa", "Inter-annoator agreement", "TREC GEnomics Track 2005"
+    "BioHackathon MENA 2023", "Graph embeddings", "Word embeddings"
     ]
 }
