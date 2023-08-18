@@ -23,8 +23,8 @@
   "license": "https://spdx.org/licenses/MIT.html",
 
   "codeRepository": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
-  "programmingLanguage": "",
+  "programmingLanguage": ["Python", "MKDocs"],
   "keywords":  [
-    "Zbmed", "Semtec", "Life Sciences"
+    "ZB MED", "SemTec", "Research team", "GitHub pages"
   ]
 }
