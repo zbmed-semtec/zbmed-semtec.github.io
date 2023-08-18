@@ -21,7 +21,10 @@
     }
   ],
   "license": "https://spdx.org/licenses/Apache-2.0.html",
-
+  "citation": [
+    "Georgi L, Castro LJ. BioHackathon Outcomes GitHub Medatada. GitHub 2020. https://github.com/zbmed-semtec/BioHackOutcomes",
+    "Castro LJ, Martin C, Lazarov G, Cernoskova D, Takatsuki T, Harrow J, and Rebholz-Schuhmann D. (2021, August 10). Measuring outcomes and impact from the BioHackathon Europe. https://doi.org/10.37044/osf.io/3dxhg"
+  ],
   "codeRepository": "https://github.com/zbmed-semtec/BioHackOutcomes",
   "programmingLanguage": [
     "Python"
