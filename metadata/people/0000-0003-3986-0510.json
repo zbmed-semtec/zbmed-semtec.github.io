@@ -8,7 +8,7 @@
   "memberOf": [
     {
       "@type": "OrganizationRole",
-      "roleName": "Semantic Technologies team leader",
+      "roleName": "SemTec team - Coordination, conceptualization and supervision",
       "memberOf": {
         "@type": "Organization",
         "@id": "https://ror.org/0259fwx54"
