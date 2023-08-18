@@ -15,15 +15,21 @@
     },
     {
         "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-2910-7982",
+        "familyName": "Geist", 
+        "givenName": "Lukas"
+    },
+    {
+        "@type": "Person",
         "@id": "https://orcid.org/0000-0002-8725-1317",
         "familyName": "Fellerhof", 
         "givenName": "Tim"
     },
     {
         "@type": "Person",
-        "@id": "https://orcid.org/0000-0003-3986-0510",
-        "familyName": "Castro", 
-        "givenName": "Leyla Jael"
+        "@id": "https://orcid.org/0009-0004-4484-6283",
+        "familyName": "Ravinder", 
+        "givenName": "Rohitha"
     },
     {
         "@type": "Person",
@@ -33,30 +39,25 @@
     },
     {
         "@type": "Person",
-        "@id": "http://orcid.org/0000-0002-2910-7982",
-        "familyName": "Geist", 
-        "givenName": "Lukas"
-    },
-    {
-        "@type": "Person",
-        "@id": "https://zbmed-semtec.github.io/people/#rohitha-ravinder",
-        "familyName": "Ravinder", 
-        "givenName": "Rohitha"
-    },
-    {
-        "@type": "Person",
         "@id": "https://orcid.org/0000-0002-1018-0370",
         "familyName": "Rebholz-Schuhmann", 
         "givenName": "Dietrich"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3986-0510",
+        "familyName": "Castro", 
+        "givenName": "Leyla Jael"
     }
   ],
   "license": "https://spdx.org/licenses/MIT.html",
+  "citation": "Talha M, Geist L, Fellerhof T, Ravinder R, Giraldo O, Rebholz-Schuhmann D, and Castro LJ. (2022). TREC-doc-2-doc-relevance assessment interface (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7341391",
 
   "codeRepository": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
   "programmingLanguage": [
     "Python"
     ],
   "keywords":  [
-    "doc-2-doc", "Text REtrieval Conference (TREC) 2005", "TREC 2005"
+    "doc-2-doc", "Text REtrieval Conference (TREC) 2005", "TREC 2005", "Relevance assessment"
     ] 
 }
