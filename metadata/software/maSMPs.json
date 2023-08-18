@@ -9,22 +9,10 @@
   "author": [
     {
         "@type": "Person",
-        "@id": "https://orcid.org/0009-0004-1529-0095",
-        "familyName": "Solanki", 
-        "givenName": "Dhwani"
-    },
-    {
-        "@type": "Person",
-        "@id": "https://orcid.org/0000-0003-3986-0510",
-        "familyName": "Castro", 
-        "givenName": "Leyla Jael"
-    },
-    {
-        "@type": "Person",
         "@id": "https://orcid.org/0000-0003-2978-8922",
         "familyName": "Giraldo", 
         "givenName": "Olga"
-    },
+    },    
     {
         "@type": "Person",
         "@id": "http://orcid.org/0000-0002-2910-7982",
@@ -39,13 +27,25 @@
     },
     {
         "@type": "Person",
+        "@id": "https://orcid.org/0009-0004-1529-0095",
+        "familyName": "Solanki", 
+        "givenName": "Dhwani"
+    },
+    {
+        "@type": "Person",
         "@id": "https://orcid.org/0000-0002-1018-0370",
         "familyName": "Rebholz-Schuhmann", 
         "givenName": "Dietrich"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3986-0510",
+        "familyName": "Castro", 
+        "givenName": "Leyla Jael"
     }
   ],
   "license": "https://spdx.org/licenses/CC-BY-4.0.html",
-
+  "citation": "Giraldo O, Geist L, Quiñones N, Solanki D, Rebholz-Schuhmann D, Castro LJ. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2023. doi:10.5281/zenodo.8089518",
   "codeRepository": "https://github.com/zbmed-semtec/maSMPs",
   "programmingLanguage": [
     "JavaScript", "Python"
