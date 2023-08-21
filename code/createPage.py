@@ -28,7 +28,7 @@ def categorizePeople():
 
             if isinstance(data, dict):
                 memberOf = data.get("memberOf", [])
-                if any(isinstance(item, dict) and item.get("@type") == "OrganizationRole" and item.get("roleName", "").startswith("Semantic Technologies") for item in memberOf):
+                if any(isinstance(item, dict) and item.get("@type") == "OrganizationRole" and item.get("roleName", "").startswith("SemTec team") for item in memberOf):
                     currentTeamData.append(data)
                 else:
                     formerTeamData.append(data)
@@ -123,7 +123,7 @@ def appendScriptToMDFile(jsonFile, mdFile):
         scriptCode = json.load(jsonFile)
 
     with open(mdFile, "a", encoding="utf-8") as file:
-        file.write(f'\n\n<script type="application/ld+json">\n{json.dumps(scriptCode, indent=4)}\n</script>\n\n')
+        file.write(f'\n\n<script type="application/ ">\n{json.dumps(scriptCode, indent=4)}\n</script>\n\n')
         
 
 
@@ -317,10 +317,13 @@ def generateCategorizePeopleTable(currentTeamData, formerTeamData, outputFile, f
     """
 
     md = f'# {folderName.capitalize()} metadata\n\n'
-
+    md2 = ""
 
     md += f'## {"current Team Members".capitalize()}\n\n'
-    #md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="https://ror.org/0259fwx54" target="_blank"> Visit Organization</a></p>\n'           # visit Organization direkt nach current Team member Überschrift
+    md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="https://ror.org/0259fwx54" target="_blank"> Visit Organization</a></p>\n'           # visit Organization direkt nach current Team member Überschrift
+
+    currentMemory = []
+    formerMemory = []
 
     for item in currentTeamData:
         if "givenName" in item and "familyName" in item:
@@ -343,11 +346,11 @@ def generateCategorizePeopleTable(currentTeamData, formerTeamData, outputFile, f
             pathToJsonData = cuttedCurrentGitUrl + "/blob/main/metadata/people/" + cuttedOwnPath + ".json"
             aktuellesVerzeichnis = os.getcwd()
             pathJSONLD = aktuellesVerzeichnis + "/metadata/people/" + cuttedOwnPath + ".json"
+            currentMemory.append(pathJSONLD)
 
         linkValue = item.get("@link", "")
         if linkValue:
             md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="{pathToJsonData}" target="_blank"> Get JSON-LD</a> | {linkValue}</p>\n'
-            #md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="https://ror.org/0259fwx54" target="_blank"> Visit Organization</a></p>\n'           #visit Organization über den tabellen
         item.pop("@link", None)
 
         md += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
@@ -369,16 +372,21 @@ def generateCategorizePeopleTable(currentTeamData, formerTeamData, outputFile, f
                         md += f'<tr>\n<td>{property}</td>\n<td>{renderedValue}</td>\n</tr>\n'
 
         md += '</tbody>\n</table>'
+    
+    with open(outputFile, "w", encoding="utf-8") as file:
+        file.write(md)
+    for counterCurrent in currentMemory:
+        appendScriptToMDFile(counterCurrent, outputFile)
 
 
-    md += f'## {"former Team Members".capitalize()}\n\n'
+    md2 += f'## {"former Team Members".capitalize()}\n\n'
 
     for item in formerTeamData:
         if "givenName" in item and "familyName" in item:
             familyName = item.get("familyName", "")
-            md += f'### {renderProperty("Name", item["givenName"] + " " + familyName)}\n'
+            md2 += f'### {renderProperty("Name", item["givenName"] + " " + familyName)}\n'
         elif "familyName" in item and "givenName" not in item:
-            md += f'### {renderProperty("Name", item["familyName"])}\n'
+            md2 += f'### {renderProperty("Name", item["familyName"])}\n'
 
         item = createTableLink(item)
 
@@ -394,35 +402,35 @@ def generateCategorizePeopleTable(currentTeamData, formerTeamData, outputFile, f
             pathToJsonData = cuttedCurrentGitUrl + "/blob/main/metadata/people/" + cuttedOwnPath + ".json"
             aktuellesVerzeichnis = os.getcwd()
             pathJSONLD = aktuellesVerzeichnis + "/metadata/people/" + cuttedOwnPath + ".json"
+            formerMemory.append(pathJSONLD)
 
         linkValue = item.get("@link", "")
         if linkValue:
-            md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="{pathToJsonData}" target="_blank"> Get JSON-LD</a> | {linkValue}</p>\n'
+            md2 += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="{pathToJsonData}" target="_blank"> Get JSON-LD</a> | {linkValue}</p>\n'
         item.pop("@link", None)
 
-        md += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
+        md2 += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
         
         for property, value in item.items():
             if property == "alumniOf":
                 continue
-            #if property == "memberOf":                 #man kann ansonsten nicht die aktuellen mitglieder ohne rolle von alumni unterscheiden
-             #   continue
             if property == "@id":
                 typeValue = item.get("@type", "")
                 value = f'<a href="{value}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {typeValue}</a>'
             if property not in ["@type", "@id", "@context", "http://purl.org/dc/terms/conformsTo"]:
                 if isinstance(value, list):
-                    md += f'<tr>\n<td>{property}</td>\n<td><ul>{renderInnerList(value)}</ul></td>\n</tr>\n'
+                    md2 += f'<tr>\n<td>{property}</td>\n<td><ul>{renderInnerList(value)}</ul></td>\n</tr>\n'
                 else:
                     renderedValue = renderProperty(property, value)
                     if renderedValue is not None:   
-                        md += f'<tr>\n<td>{property}</td>\n<td>{renderedValue}</td>\n</tr>\n'
+                        md2 += f'<tr>\n<td>{property}</td>\n<td>{renderedValue}</td>\n</tr>\n'
 
-        md += '</tbody>\n</table>'
+        md2 += '</tbody>\n</table>'
 
-
-    with open(outputFile, "w", encoding="utf-8") as file:
-        file.write(md)
+    with open(outputFile, "a", encoding="utf-8") as file:
+        file.write(md2)
+    for counterFormer in formerMemory:
+        appendScriptToMDFile(counterFormer, outputFile)
 
 
 
@@ -441,12 +449,10 @@ def processProjectData(fromMetadata, toDocs):
     
     with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
         data = json.load(jsonFile)
-
-        md += f'# Project metadata\n\n'
         
         for property, value in data.items():
             if property == 'name':
-                md += f'## {value.capitalize()}\n\n'
+                md += f'# {value.capitalize()}\n\n'
             if property not in ["@type", "@id", "@context", "name"]:
                 md += f'## {property.capitalize()}\n\n'
 
@@ -579,6 +585,7 @@ def fromMetadatatoDocs():
             
         if counter =="projects":
             processProjectData(fromMetadata, toDocs)
+            appendScriptToMDFile(fromMetadata, toDocs)
         else:
             newEmptyMD = os.path.join(subfolderDocs, counter + ".md")
 

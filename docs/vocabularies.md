@@ -107,7 +107,7 @@
 </tbody>
 </table>
 
-<script type="application/ld+json">
+<script type="application/ ">
 {
     "@context": "https://schema.org/",
     "@type": "DefinedTermSet",

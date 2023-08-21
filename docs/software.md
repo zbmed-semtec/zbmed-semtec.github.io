@@ -53,6 +53,14 @@
 <td><a href="https://spdx.org/licenses/Apache-2.0.html" target="_blank">https://spdx.org/licenses/Apache-2.0.html</a></td>
 </tr>
 <tr>
+<td>citation</td>
+<td><ul>
+<li>Georgi L, Castro LJ. BioHackathon Outcomes GitHub Medatada. GitHub 2020. https://github.com/zbmed-semtec/BioHackOutcomes</li>
+<hr></hr>
+<li>Castro LJ, Martin C, Lazarov G, Cernoskova D, Takatsuki T, Harrow J, and Rebholz-Schuhmann D. (2021, August 10). Measuring outcomes and impact from the BioHackathon Europe. https://doi.org/10.37044/osf.io/3dxhg</li>
+<hr></hr></ul></td>
+</tr>
+<tr>
 <td>codeRepository</td>
 <td><a href="https://github.com/zbmed-semtec/BioHackOutcomes" target="_blank">https://github.com/zbmed-semtec/BioHackOutcomes</a></td>
 </tr>
@@ -65,15 +73,17 @@
 <tr>
 <td>keywords</td>
 <td><ul>
-<li>BioHackathon</li>
+<li>BioHackathon Europe 2020</li>
 <hr></hr>
-<li>BioHackOutcomes</li>
+<li>GitHub</li>
+<hr></hr>
+<li>Metrics</li>
 <hr></hr></ul></td>
 </tr>
 </tbody>
 </table>
 
-<script type="application/ld+json">
+<script type="application/ ">
 {
     "@type": "SoftwareSourceCode",
     "@id": "https://github.com/zbmed-semtec/BioHackOutcomes",
@@ -95,13 +105,18 @@
         }
     ],
     "license": "https://spdx.org/licenses/Apache-2.0.html",
+    "citation": [
+        "Georgi L, Castro LJ. BioHackathon Outcomes GitHub Medatada. GitHub 2020. https://github.com/zbmed-semtec/BioHackOutcomes",
+        "Castro LJ, Martin C, Lazarov G, Cernoskova D, Takatsuki T, Harrow J, and Rebholz-Schuhmann D. (2021, August 10). Measuring outcomes and impact from the BioHackathon Europe. https://doi.org/10.37044/osf.io/3dxhg"
+    ],
     "codeRepository": "https://github.com/zbmed-semtec/BioHackOutcomes",
     "programmingLanguage": [
         "Python"
     ],
     "keywords": [
-        "BioHackathon",
-        "BioHackOutcomes"
+        "BioHackathon Europe 2020",
+        "GitHub",
+        "Metrics"
     ]
 }
 </script>
@@ -125,34 +140,6 @@
 <tr>
 <td>author</td>
 <td><ul>
-<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
-<tbody>
-<tr><a href="https://orcid.org/0009-0004-1529-0095" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
-</tr>
-<tr>
-<td>familyName</td>
-<td>Solanki</td>
-</tr>
-<tr>
-<td>givenName</td>
-<td>Dhwani</td>
-</tr></tbody>
-</table></li>
-<hr></hr>
-<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
-<tbody>
-<tr><a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
-</tr>
-<tr>
-<td>familyName</td>
-<td>Castro</td>
-</tr>
-<tr>
-<td>givenName</td>
-<td>Leyla Jael</td>
-</tr></tbody>
-</table></li>
-<hr></hr>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
 <tr><a href="https://orcid.org/0000-0003-2978-8922" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
@@ -197,6 +184,20 @@
 <hr></hr>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
+<tr><a href="https://orcid.org/0009-0004-1529-0095" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
+</tr>
+<tr>
+<td>familyName</td>
+<td>Solanki</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Dhwani</td>
+</tr></tbody>
+</table></li>
+<hr></hr>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
 <tr><a href="https://orcid.org/0000-0002-1018-0370" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
 </tr>
 <tr>
@@ -208,11 +209,29 @@
 <td>Dietrich</td>
 </tr></tbody>
 </table></li>
+<hr></hr>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
+</tr>
+<tr>
+<td>familyName</td>
+<td>Castro</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Leyla Jael</td>
+</tr></tbody>
+</table></li>
 <hr></hr></ul></td>
 </tr>
 <tr>
 <td>license</td>
 <td><a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a></td>
+</tr>
+<tr>
+<td>citation</td>
+<td>Giraldo O, Geist L, Quiñones N, Solanki D, Rebholz-Schuhmann D, Castro LJ. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2023. doi:10.5281/zenodo.8089518</td>
 </tr>
 <tr>
 <td>codeRepository</td>
@@ -239,7 +258,7 @@
 </tbody>
 </table>
 
-<script type="application/ld+json">
+<script type="application/ ">
 {
     "@type": "SoftwareSourceCode",
     "@id": "https://github.com/zbmed-semtec/maSMPs",
@@ -247,18 +266,6 @@
     "description": "This project corresponds to an extension of the Research Data Alliance (RDA) machine-actionable Data Management Plan (maDMP) application profile and its corresponding DMP Common Standard ontology (DCSO) in order to cover the case of ELIXIR Software Management Plans (SMPs). Similar to DMPs, SMPs help formalize a set of structures and goals that ensure the software is accessible and reusable in the short, medium and long term. Although targeting the life sciences community, most of the elements of the ELIXIR SMPs are domain agnostic and could be used by other communities as well. DMPs and SMPs can be presented as text-based documents, sometimes guided by a set of questions corresponding to key points related to the lifecycle of either data or software. The RDA DMP Common Standards working group defined a maDMP to overcome limitations of text-based documents. We propose a similar path for the ELIXIR SMPs so they turn into machine-actionable SMPs (maSMPs).",
     "url": "https://github.com/zbmed-semtec/maSMPs",
     "author": [
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0009-0004-1529-0095",
-            "familyName": "Solanki",
-            "givenName": "Dhwani"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-3986-0510",
-            "familyName": "Castro",
-            "givenName": "Leyla Jael"
-        },
         {
             "@type": "Person",
             "@id": "https://orcid.org/0000-0003-2978-8922",
@@ -279,12 +286,25 @@
         },
         {
             "@type": "Person",
+            "@id": "https://orcid.org/0009-0004-1529-0095",
+            "familyName": "Solanki",
+            "givenName": "Dhwani"
+        },
+        {
+            "@type": "Person",
             "@id": "https://orcid.org/0000-0002-1018-0370",
             "familyName": "Rebholz-Schuhmann",
             "givenName": "Dietrich"
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0003-3986-0510",
+            "familyName": "Castro",
+            "givenName": "Leyla Jael"
         }
     ],
     "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "citation": "Giraldo O, Geist L, Qui\u00f1ones N, Solanki D, Rebholz-Schuhmann D, Castro LJ. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2023. doi:10.5281/zenodo.8089518",
     "codeRepository": "https://github.com/zbmed-semtec/maSMPs",
     "programmingLanguage": [
         "JavaScript",
@@ -333,34 +353,6 @@
 <hr></hr>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
-</tr>
-<tr>
-<td>familyName</td>
-<td>Castro</td>
-</tr>
-<tr>
-<td>givenName</td>
-<td>Leyla Jael</td>
-</tr></tbody>
-</table></li>
-<hr></hr>
-<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
-<tbody>
-<tr><a href="https://orcid.org/0000-0002-3119-5109" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
-</tr>
-<tr>
-<td>familyName</td>
-<td>Alqhtani</td>
-</tr>
-<tr>
-<td>givenName</td>
-<td>Asmaa</td>
-</tr></tbody>
-</table></li>
-<hr></hr>
-<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
-<tbody>
 <tr><a href="https://zbmed-semtec.github.io/people/#Rahaf-Alayed" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
 </tr>
 <tr>
@@ -389,15 +381,43 @@
 <hr></hr>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://zbmed-semtec.github.io/people/#maria-g-gomez-castillo" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
+<tr><a href="https://orcid.org/0000-0002-3119-5109" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
 </tr>
 <tr>
 <td>familyName</td>
-<td>Castillo</td>
+<td>Alqhtani</td>
 </tr>
 <tr>
 <td>givenName</td>
-<td>Maria G Gomez</td>
+<td>Asmaa</td>
+</tr></tbody>
+</table></li>
+<hr></hr>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://cemse.kaust.edu.sa/people/person/maria-g-gomez-castillo" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
+</tr>
+<tr>
+<td>familyName</td>
+<td>Gomez Castillo</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Maria G.</td>
+</tr></tbody>
+</table></li>
+<hr></hr>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
+</tr>
+<tr>
+<td>familyName</td>
+<td>Castro</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Leyla Jael</td>
 </tr></tbody>
 </table></li>
 <hr></hr></ul></td>
@@ -421,17 +441,17 @@
 <tr>
 <td>keywords</td>
 <td><ul>
-<li>BioHackathon MENA 2023' Kappa</li>
+<li>BioHackathon MENA 2023</li>
 <hr></hr>
-<li>Inter-annoator agreement</li>
+<li>Graph embeddings</li>
 <hr></hr>
-<li>TREC GEnomics Track 2005</li>
+<li>Word embeddings</li>
 <hr></hr></ul></td>
 </tr>
 </tbody>
 </table>
 
-<script type="application/ld+json">
+<script type="application/ ">
 {
     "@type": "SoftwareSourceCode",
     "@id": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
@@ -447,18 +467,6 @@
         },
         {
             "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-3986-0510",
-            "familyName": "Castro",
-            "givenName": "Leyla Jael"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0002-3119-5109",
-            "familyName": "Alqhtani",
-            "givenName": "Asmaa"
-        },
-        {
-            "@type": "Person",
             "@id": "https://zbmed-semtec.github.io/people/#Rahaf-Alayed",
             "familyName": "Alayed",
             "givenName": "Rahaf"
@@ -471,9 +479,21 @@
         },
         {
             "@type": "Person",
-            "@id": "https://zbmed-semtec.github.io/people/#maria-g-gomez-castillo",
-            "familyName": "Castillo",
-            "givenName": "Maria G Gomez"
+            "@id": "https://orcid.org/0000-0002-3119-5109",
+            "familyName": "Alqhtani",
+            "givenName": "Asmaa"
+        },
+        {
+            "@type": "Person",
+            "@id": "https://cemse.kaust.edu.sa/people/person/maria-g-gomez-castillo",
+            "familyName": "Gomez Castillo",
+            "givenName": "Maria G."
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0003-3986-0510",
+            "familyName": "Castro",
+            "givenName": "Leyla Jael"
         }
     ],
     "license": "https://spdx.org/licenses/GPL-3.0-only.html",
@@ -483,9 +503,9 @@
         "Python"
     ],
     "keywords": [
-        "BioHackathon MENA 2023' Kappa",
-        "Inter-annoator agreement",
-        "TREC GEnomics Track 2005"
+        "BioHackathon MENA 2023",
+        "Graph embeddings",
+        "Word embeddings"
     ]
 }
 </script>
@@ -511,7 +531,7 @@
 <td><ul>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://zbmed-semtec.github.io/people/#rohitha-ravinder" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
+<tr><a href="https://orcid.org/0009-0004-4484-6283" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
 </tr>
 <tr>
 <td>familyName</td>
@@ -557,6 +577,14 @@
 <td><a href="https://spdx.org/licenses/GPL-3.0-only.html" target="_blank">https://spdx.org/licenses/GPL-3.0-only.html</a></td>
 </tr>
 <tr>
+<td>citation</td>
+<td><ul>
+<li>Ravinder R, Castro LJ, and Rebholz-Schuhmann D. (2023). Protein Function Embeddings: First Beta Release of Datasets (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7793384</li>
+<hr></hr>
+<li>Ravinder R, Castro LJ, and Rebholz-Schuhmann D. (2023). Protein Function Embeddings: First Beta Release (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7781870</li>
+<hr></hr></ul></td>
+</tr>
+<tr>
 <td>codeRepository</td>
 <td><a href="https://github.com/zbmed-semtec/protein-function-embeddings-thesis" target="_blank">https://github.com/zbmed-semtec/protein-function-embeddings-thesis</a></td>
 </tr>
@@ -579,7 +607,7 @@
 </tbody>
 </table>
 
-<script type="application/ld+json">
+<script type="application/ ">
 {
     "@type": "SoftwareSourceCode",
     "@id": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",
@@ -589,7 +617,7 @@
     "author": [
         {
             "@type": "Person",
-            "@id": "https://zbmed-semtec.github.io/people/#rohitha-ravinder",
+            "@id": "https://orcid.org/0009-0004-4484-6283",
             "familyName": "Ravinder",
             "givenName": "Rohitha"
         },
@@ -607,6 +635,10 @@
         }
     ],
     "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+    "citation": [
+        "Ravinder R, Castro LJ, and Rebholz-Schuhmann D. (2023). Protein Function Embeddings: First Beta Release of Datasets (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7793384",
+        "Ravinder R, Castro LJ, and Rebholz-Schuhmann D. (2023). Protein Function Embeddings: First Beta Release (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7781870"
+    ],
     "codeRepository": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",
     "programmingLanguage": [
         "Python"
@@ -654,20 +686,6 @@
 <hr></hr>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
-</tr>
-<tr>
-<td>familyName</td>
-<td>Castro</td>
-</tr>
-<tr>
-<td>givenName</td>
-<td>Leyla Jael</td>
-</tr></tbody>
-</table></li>
-<hr></hr>
-<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
-<tbody>
 <tr><a href="https://zbmed-semtec.github.io/people/#cesar-canales" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
 </tr>
 <tr>
@@ -707,11 +725,35 @@
 <td>Dietrich</td>
 </tr></tbody>
 </table></li>
+<hr></hr>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
+</tr>
+<tr>
+<td>familyName</td>
+<td>Castro</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Leyla Jael</td>
+</tr></tbody>
+</table></li>
 <hr></hr></ul></td>
 </tr>
 <tr>
 <td>license</td>
 <td><a href="https://spdx.org/licenses/GPL-3.0-only.html" target="_blank">https://spdx.org/licenses/GPL-3.0-only.html</a></td>
+</tr>
+<tr>
+<td>citation</td>
+<td><ul>
+<li>Quiñones N, Canales C, Torres J, Rebholz-Schuhmann D, and Castro LJ. Topic categorization for Medline Abstracts. GitHub 2022. https://github.com/zbmed-semtec/topic-categorization-system</li>
+<hr></hr>
+<li>Quiñones N, Canales C, Torres J, Rebholz-Schuhmann D, Castro LJ, Aristizabal A. Multilabel-classification task for Medline abstracts - Poster. 2023. In: SWAT4HCLS 2023 poster archival. PUBLISSO. https://doi.org/10.4126/FRL01-006440395</li>
+<hr></hr>
+<li>Quiñones N, Canales C, Torres J, Rebholz-Schuhmann D, Castro LJ, Aristizabal A. Multilabel-classification task for Medline abstracts. 2023. In: SWAT4HCLS 2023 Proceedings. CEUR. https://ceur-ws.org/Vol-3415/paper-36.pdf</li>
+<hr></hr></ul></td>
 </tr>
 <tr>
 <td>codeRepository</td>
@@ -726,15 +768,15 @@
 <tr>
 <td>keywords</td>
 <td><ul>
-<li>Categorization-system</li>
+<li>Topic categorization system</li>
 <hr></hr>
-<li>Biomedical</li>
+<li>Biomedical literature</li>
 <hr></hr></ul></td>
 </tr>
 </tbody>
 </table>
 
-<script type="application/ld+json">
+<script type="application/ ">
 {
     "@type": "SoftwareSourceCode",
     "@id": "https://github.com/zbmed-semtec/topic-categorization-system",
@@ -747,12 +789,6 @@
             "@id": "https://orcid.org/0000-0002-5037-0443",
             "familyName": "Qui\u00f1ones",
             "givenName": "Nelson"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-3986-0510",
-            "familyName": "Castro",
-            "givenName": "Leyla Jael"
         },
         {
             "@type": "Person",
@@ -771,16 +807,27 @@
             "@id": "https://orcid.org/0000-0002-1018-0370",
             "familyName": "Rebholz-Schuhmann",
             "givenName": "Dietrich"
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0003-3986-0510",
+            "familyName": "Castro",
+            "givenName": "Leyla Jael"
         }
     ],
     "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+    "citation": [
+        "Qui\u00f1ones N, Canales C, Torres J, Rebholz-Schuhmann D, and Castro LJ. Topic categorization for Medline Abstracts. GitHub 2022. https://github.com/zbmed-semtec/topic-categorization-system",
+        "Qui\u00f1ones N, Canales C, Torres J, Rebholz-Schuhmann D, Castro LJ, Aristizabal A. Multilabel-classification task for Medline abstracts - Poster. 2023. In: SWAT4HCLS 2023 poster archival. PUBLISSO. https://doi.org/10.4126/FRL01-006440395",
+        "Qui\u00f1ones N, Canales C, Torres J, Rebholz-Schuhmann D, Castro LJ, Aristizabal A. Multilabel-classification task for Medline abstracts. 2023. In: SWAT4HCLS 2023 Proceedings. CEUR. https://ceur-ws.org/Vol-3415/paper-36.pdf"
+    ],
     "codeRepository": "https://github.com/zbmed-semtec/topic-categorization-system",
     "programmingLanguage": [
         "Python"
     ],
     "keywords": [
-        "Categorization-system",
-        "Biomedical"
+        "Topic categorization system",
+        "Biomedical literature"
     ]
 }
 </script>
@@ -820,6 +867,20 @@
 <hr></hr>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
+<tr><a href="http://orcid.org/0000-0002-2910-7982" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
+</tr>
+<tr>
+<td>familyName</td>
+<td>Geist</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Lukas</td>
+</tr></tbody>
+</table></li>
+<hr></hr>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
 <tr><a href="https://orcid.org/0000-0002-8725-1317" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
 </tr>
 <tr>
@@ -834,15 +895,15 @@
 <hr></hr>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
+<tr><a href="https://orcid.org/0009-0004-4484-6283" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
 </tr>
 <tr>
 <td>familyName</td>
-<td>Castro</td>
+<td>Ravinder</td>
 </tr>
 <tr>
 <td>givenName</td>
-<td>Leyla Jael</td>
+<td>Rohitha</td>
 </tr></tbody>
 </table></li>
 <hr></hr>
@@ -862,34 +923,6 @@
 <hr></hr>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="http://orcid.org/0000-0002-2910-7982" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
-</tr>
-<tr>
-<td>familyName</td>
-<td>Geist</td>
-</tr>
-<tr>
-<td>givenName</td>
-<td>Lukas</td>
-</tr></tbody>
-</table></li>
-<hr></hr>
-<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
-<tbody>
-<tr><a href="https://zbmed-semtec.github.io/people/#rohitha-ravinder" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
-</tr>
-<tr>
-<td>familyName</td>
-<td>Ravinder</td>
-</tr>
-<tr>
-<td>givenName</td>
-<td>Rohitha</td>
-</tr></tbody>
-</table></li>
-<hr></hr>
-<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
-<tbody>
 <tr><a href="https://orcid.org/0000-0002-1018-0370" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
 </tr>
 <tr>
@@ -901,11 +934,29 @@
 <td>Dietrich</td>
 </tr></tbody>
 </table></li>
+<hr></hr>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit Person Object</a>
+</tr>
+<tr>
+<td>familyName</td>
+<td>Castro</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Leyla Jael</td>
+</tr></tbody>
+</table></li>
 <hr></hr></ul></td>
 </tr>
 <tr>
 <td>license</td>
 <td><a href="https://spdx.org/licenses/MIT.html" target="_blank">https://spdx.org/licenses/MIT.html</a></td>
+</tr>
+<tr>
+<td>citation</td>
+<td>Talha M, Geist L, Fellerhof T, Ravinder R, Giraldo O, Rebholz-Schuhmann D, and Castro LJ. (2022). TREC-doc-2-doc-relevance assessment interface (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7341391</td>
 </tr>
 <tr>
 <td>codeRepository</td>
@@ -925,12 +976,14 @@
 <li>Text REtrieval Conference (TREC) 2005</li>
 <hr></hr>
 <li>TREC 2005</li>
+<hr></hr>
+<li>Relevance assessment</li>
 <hr></hr></ul></td>
 </tr>
 </tbody>
 </table>
 
-<script type="application/ld+json">
+<script type="application/ ">
 {
     "@type": "SoftwareSourceCode",
     "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
@@ -946,15 +999,21 @@
         },
         {
             "@type": "Person",
+            "@id": "http://orcid.org/0000-0002-2910-7982",
+            "familyName": "Geist",
+            "givenName": "Lukas"
+        },
+        {
+            "@type": "Person",
             "@id": "https://orcid.org/0000-0002-8725-1317",
             "familyName": "Fellerhof",
             "givenName": "Tim"
         },
         {
             "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-3986-0510",
-            "familyName": "Castro",
-            "givenName": "Leyla Jael"
+            "@id": "https://orcid.org/0009-0004-4484-6283",
+            "familyName": "Ravinder",
+            "givenName": "Rohitha"
         },
         {
             "@type": "Person",
@@ -964,24 +1023,19 @@
         },
         {
             "@type": "Person",
-            "@id": "http://orcid.org/0000-0002-2910-7982",
-            "familyName": "Geist",
-            "givenName": "Lukas"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://zbmed-semtec.github.io/people/#rohitha-ravinder",
-            "familyName": "Ravinder",
-            "givenName": "Rohitha"
-        },
-        {
-            "@type": "Person",
             "@id": "https://orcid.org/0000-0002-1018-0370",
             "familyName": "Rebholz-Schuhmann",
             "givenName": "Dietrich"
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0003-3986-0510",
+            "familyName": "Castro",
+            "givenName": "Leyla Jael"
         }
     ],
     "license": "https://spdx.org/licenses/MIT.html",
+    "citation": "Talha M, Geist L, Fellerhof T, Ravinder R, Giraldo O, Rebholz-Schuhmann D, and Castro LJ. (2022). TREC-doc-2-doc-relevance assessment interface (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7341391",
     "codeRepository": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
     "programmingLanguage": [
         "Python"
@@ -989,7 +1043,8 @@
     "keywords": [
         "doc-2-doc",
         "Text REtrieval Conference (TREC) 2005",
-        "TREC 2005"
+        "TREC 2005",
+        "Relevance assessment"
     ]
 }
 </script>
@@ -1052,22 +1107,28 @@
 </tr>
 <tr>
 <td>programmingLanguage</td>
-<td></td>
+<td><ul>
+<li>Python</li>
+<hr></hr>
+<li>MKDocs</li>
+<hr></hr></ul></td>
 </tr>
 <tr>
 <td>keywords</td>
 <td><ul>
-<li>Zbmed</li>
+<li>ZB MED</li>
 <hr></hr>
-<li>Semtec</li>
+<li>SemTec</li>
 <hr></hr>
-<li>Life Sciences</li>
+<li>Research team</li>
+<hr></hr>
+<li>GitHub pages</li>
 <hr></hr></ul></td>
 </tr>
 </tbody>
 </table>
 
-<script type="application/ld+json">
+<script type="application/ ">
 {
     "@type": "SoftwareSourceCode",
     "@id": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
@@ -1090,11 +1151,15 @@
     ],
     "license": "https://spdx.org/licenses/MIT.html",
     "codeRepository": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
-    "programmingLanguage": "",
+    "programmingLanguage": [
+        "Python",
+        "MKDocs"
+    ],
     "keywords": [
-        "Zbmed",
-        "Semtec",
-        "Life Sciences"
+        "ZB MED",
+        "SemTec",
+        "Research team",
+        "GitHub pages"
     ]
 }
 </script>
