@@ -4,11 +4,5 @@
   "@type": "Person",
   "@id": "https://orcid.org/0000-0003-2978-8922",
   "familyName": "Giraldo", 
-  "givenName": "Olga",
-  "alumniOf": [
-    {
-      "@type": "Organization",
-      "@id": "https://ror.org/0259fwx54"
-    }
-  ]
+  "givenName": "Olga"
 }

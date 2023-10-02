@@ -4,11 +4,5 @@
   "@type": "Person",
   "@id": "https://zbmed-semtec.github.io/people/#ashley-ritchie",
   "familyName": "Ritchie", 
-  "givenName": "Ashley",
-  "alumniOf": [
-    {
-      "@type": "Organization",
-      "@id": "https://ror.org/0259fwx54"
-    }
-  ]
+  "givenName": "Ashley"
 }

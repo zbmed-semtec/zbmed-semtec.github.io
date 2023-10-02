@@ -2,8 +2,6 @@ import os
 import json
 import subprocess
 
-
-
 def categorizePeople():
     """
     Categorize team members into current and former team members and append them to the associated arrays.
@@ -123,7 +121,7 @@ def appendScriptToMDFile(jsonFile, mdFile):
         scriptCode = json.load(jsonFile)
 
     with open(mdFile, "a", encoding="utf-8") as file:
-        file.write(f'\n\n<script type="application/ ">\n{json.dumps(scriptCode, indent=4)}\n</script>\n\n')
+        file.write(f'\n\n<script type="application/ld+json">\n{json.dumps(scriptCode, indent=4)}\n</script>\n\n')
         
 
 
@@ -445,16 +443,25 @@ def processProjectData(fromMetadata, toDocs):
     Returns:
         None
     """
+    mappings = [("employee", "Current project members"), ("alumni", "Previous project members"), ("member", "External contributors"), ("knowsAbout", "Publications")]
+    mappings_from = [i[0] for i in mappings]
+    mappings_to = [i[1] for i in mappings]
+
     md = ""
+    md += f'# Projects information\n\n'
     
     with open(fromMetadata, "r", encoding="utf-8") as jsonFile:
         data = json.load(jsonFile)
-        
+
         for property, value in data.items():
             if property == 'name':
-                md += f'# {value.capitalize()}\n\n'
+                md += f'## {value.capitalize()}\n\n'
             if property not in ["@type", "@id", "@context", "name"]:
-                md += f'## {property.capitalize()}\n\n'
+                if property in mappings_from :
+                    i = mappings_from.index(property)
+                    md += f'### {mappings_to[i]}\n\n'
+                else :
+                    md += f'### {property.capitalize()}\n\n'
 
                 if isinstance(value, list):
                     for item in value:
@@ -463,11 +470,11 @@ def processProjectData(fromMetadata, toDocs):
                                 subItem = item.get(counter, "")
                                 if (isinstance(subItem,(dict, list))):
                                     if "name" in subItem:
-                                        md += f'### {subItem["name"].capitalize()}\n\n'
+                                        md += f'#### {subItem["name"].capitalize()}\n\n'
                                     if "givenName" in item and "familyName" in subItem:
                                         givenName = subItem["givenName"]
                                         lastName = subItem["familyName"]
-                                        md += f'### {givenName + " " +lastName}\n\n'
+                                        md += f'#### {givenName + " " +lastName}\n\n'
                                     if "@type" in subItem and "@id" in subItem:
                                         subTypeURL = subItem["@type"]
                                         idURL = subItem["@id"]
@@ -476,11 +483,11 @@ def processProjectData(fromMetadata, toDocs):
                                         if prop not in ["@type", "@id", "name"]:
                                             md += f'- {prop.capitalize()}: {val}\n'
                             if "name" in item:
-                                md += f'### {item["name"].capitalize()}\n\n'
+                                md += f'#### {item["name"].capitalize()}\n\n'
                             if "givenName" in item and "familyName" in item:
                                 givenName = item["givenName"]
                                 lastName = item["familyName"]
-                                md += f'### {givenName + " " +lastName}\n\n'
+                                md += f'#### {givenName + " " +lastName}\n\n'
                             if "@type" in item and "@id" in item:
                                 subTypeURL = item["@type"]
                                 idURL = item["@id"]
@@ -493,11 +500,11 @@ def processProjectData(fromMetadata, toDocs):
                     for subProperty, subValue in value.items():
                         if isinstance(subValue, (dict, list)):
                             if "name" in subValue:
-                                md += f'### {item["name"].capitalize()}\n\n'
+                                md += f'#### {item["name"].capitalize()}\n\n'
                             if "givenName" in subValue and "familyName" in subValue:
                                 givenName = subValue["givenName"]
                                 lastName = subValue["familyName"]
-                                md += f'### {givenName +" " + lastName}\n\n'
+                                md += f'#### {givenName +" " + lastName}\n\n'
                             if "@type" in subValue and "@id" in subValue:
                                 subTypeURL = subValue["@type"]
                                 subidURL= subValue["@id"]
@@ -507,7 +514,7 @@ def processProjectData(fromMetadata, toDocs):
                                     md += f'- {prop.capitalize()}: {val}\n'
                         else: 
                             if "name" in subProperty:
-                                md += f'### {subValue.capitalize()}\n\n'
+                                md += f'#### {subValue.capitalize()}\n\n'
                                 subTypeURL = value.get("@type", "")
                                 subidURL = value.get("@id", "")
                                 if subTypeURL and subidURL:
@@ -580,8 +587,8 @@ def fromMetadatatoDocs():
                             AnotherJsonInSubfolder(data, toDocs, pathToJsonData)     
                             appendScriptToMDFile(fromMetadata, toDocs)
         
-        if counter == "people":
-            categorizePeople()
+        #if counter == "people":
+        #    categorizePeople()
             
         if counter =="projects":
             processProjectData(fromMetadata, toDocs)

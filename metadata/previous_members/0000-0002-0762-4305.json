@@ -4,11 +4,5 @@
   "@type": "Person",
   "@id": "http://orcid.org/0000-0002-0762-4305",
   "familyName": "Lazarov", 
-  "givenName": "Georgi",
-  "alumniOf": [
-    {
-      "@type": "Organization",
-      "@id": "https://ror.org/0259fwx54"
-    }
-  ] 
+  "givenName": "Georgi"
 }

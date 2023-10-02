@@ -1,0 +1,9 @@
+{ 
+  "@context": "https://schema.org",
+
+  "@type": "Person",
+  "@id": "http://orcid.org/0000-0002-2910-7982",
+  "familyName": "Geist", 
+  "givenName": "Lukas",
+  "jobTitle": "Student assistant"
+}
