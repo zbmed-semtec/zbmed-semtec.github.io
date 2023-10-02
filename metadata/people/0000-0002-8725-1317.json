@@ -1,0 +1,14 @@
+{ 
+  "@context": "https://schema.org",
+
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0002-8725-1317",
+  "familyName": "Fellerhof", 
+  "givenName": "Tim",
+  "alumniOf": [
+    {
+      "@type": "Organization",
+      "@id": "https://ror.org/0259fwx54"
+    }
+  ]
+}

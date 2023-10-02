@@ -1,0 +1,14 @@
+{ 
+  "@context": "https://schema.org",
+
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0002-5915-8895",
+  "familyName": "Cadena", 
+  "givenName": " Maria Fernanda",
+  "alumniOf": [
+    {
+      "@type": "Organization",
+      "@id": "https://ror.org/0259fwx54"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{ 
+  "@type": "SoftwareSourceCode",
+  "@id": "https://github.com/zbmed-semtec/BioHackOutcomes",
+
+  "name": "BioHackOutcomes",
+  "description": "BioHackathon project to define and follow up BioHackathon projects.",
+  "url": "https://github.com/zbmed-semtec/BioHackOutcomes",
+
+  "author": [
+    {
+        "@type": "Person",
+        "@id": "http://orcid.org/0000-0002-0762-4305",
+        "familyName": "Lazarov", 
+        "givenName": "Georgi"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3986-0510",
+        "familyName": "Castro", 
+        "givenName": "Leyla Jael"
+    }
+  ],
+  "license": "https://spdx.org/licenses/Apache-2.0.html",
+  "citation": [
+    "Georgi L, Castro LJ. BioHackathon Outcomes GitHub Medatada. GitHub 2020. https://github.com/zbmed-semtec/BioHackOutcomes",
+    "Castro LJ, Martin C, Lazarov G, Cernoskova D, Takatsuki T, Harrow J, and Rebholz-Schuhmann D. (2021, August 10). Measuring outcomes and impact from the BioHackathon Europe. https://doi.org/10.37044/osf.io/3dxhg"
+  ],
+  "codeRepository": "https://github.com/zbmed-semtec/BioHackOutcomes",
+  "programmingLanguage": [
+    "Python"
+    ],
+  "keywords":  [
+    "BioHackathon Europe 2020", "GitHub", "Metrics"
+    ]
+}
