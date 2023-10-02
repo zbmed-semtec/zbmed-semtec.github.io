@@ -1,6 +1,6 @@
 site_name: Semantic Technologies team at ZB MED
 nav:
-    - Home: index.md 
+    - Home: index.md
 
 # Repository
 repo_name: zbmed-semtec/zbmed-semtec.github.io
