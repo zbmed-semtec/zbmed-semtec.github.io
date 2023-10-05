@@ -97,6 +97,16 @@
       "name": "Document-to-document relevance assessment for TREC Genomics Track 2005",
       "datePublished": "2023-06-22"
     },{
+      "@type": "SoftwareApplication",
+      "@id": "https://doi.org/10.5281/zenodo.7341391",
+      "name": "TREC-doc-2-doc-relevance assessment interface",
+      "softwareVersion": "1.0.0",
+      "datePublished": "2022-11-21"
+    },{
+      "@type": "SoftwareSourceCode",
+      "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+      "name": "TREC-doc-2-doc-relevance"
+    },{
       "@type": "Dataset",
       "@id": "https://doi.org/10.5281/zenodo.7338056",
       "name": "Fleiss kappa for doc-2-doc relevance assessment",
