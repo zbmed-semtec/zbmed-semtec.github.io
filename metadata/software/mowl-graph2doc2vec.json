@@ -1,4 +1,5 @@
 { 
+  "@context": "https://schema.org/",
   "@type": "SoftwareSourceCode",
   "@id": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
 

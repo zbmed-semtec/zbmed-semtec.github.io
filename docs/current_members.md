@@ -21,12 +21,12 @@
 
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "http://orcid.org/0000-0002-2910-7982",
-    "familyName": "Geist",
-    "givenName": "Lukas",
-    "jobTitle": "Student assistant"
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "http://orcid.org/0000-0002-2910-7982",
+  "familyName": "Geist",
+  "givenName": "Lukas",
+  "jobTitle": "Student assistant"
 }
 </script>
 
@@ -51,12 +51,12 @@
 
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://orcid.org/0000-0002-5037-0443",
-    "familyName": "Qui\u00f1ones",
-    "givenName": "Nelson",
-    "jobTitle": "Student assistant"
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0002-5037-0443",
+  "familyName": "Qui\u00f1ones",
+  "givenName": "Nelson",
+  "jobTitle": "Student assistant"
 }
 </script>
 
@@ -81,12 +81,12 @@
 
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://orcid.org/0009-0004-4484-6283",
-    "familyName": "Ravinder",
-    "givenName": "Rohitha",
-    "jobTitle": "Research Software Engineer and Data Scientist"
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0009-0004-4484-6283",
+  "familyName": "Ravinder",
+  "givenName": "Rohitha",
+  "jobTitle": "Research Software Engineer and Data Scientist"
 }
 </script>
 
@@ -111,12 +111,12 @@
 
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://orcid.org/0009-0004-1529-0095",
-    "familyName": "Solanki",
-    "givenName": "Dhwani",
-    "jobTitle": "Student assistant"
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0009-0004-1529-0095",
+  "familyName": "Solanki",
+  "givenName": "Dhwani",
+  "jobTitle": "Student assistant"
 }
 </script>
 
@@ -141,12 +141,12 @@
 
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://orcid.org/0000-0002-1018-0370",
-    "familyName": "Rebholz-Schuhmann",
-    "givenName": "Dietrich",
-    "jobTitle": "Scientific Director"
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0002-1018-0370",
+  "familyName": "Rebholz-Schuhmann",
+  "givenName": "Dietrich",
+  "jobTitle": "Scientific Director"
 }
 </script>
 
@@ -171,12 +171,12 @@
 
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://orcid.org/0000-0003-3986-0510",
-    "familyName": "Castro",
-    "givenName": "Leyla Jael",
-    "jobTitle": "Team leader"
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0003-3986-0510",
+  "familyName": "Castro",
+  "givenName": "Leyla Jael",
+  "jobTitle": "Team leader"
 }
 </script>
 

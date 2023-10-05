@@ -109,49 +109,49 @@
 
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org/",
-    "@type": "DefinedTermSet",
-    "@id": "https://doi.org/10.5281/zenodo.8089518",
-    "name": "maSMP Ontology",
-    "description": "Metadata model in the form of an ontology representing the necessary metadata elements for a maSMP. The metadata model includes entities involved in software management planning; such as an SMP itself, software source code, software release, documentation, authors and their relations. We are reusing terms mainly from schema.org and from DCSO, with some few additions of our own.",
-    "keywords": "machine-actionability, software management plans, research software, controlled vocabulary, metadata schema",
-    "archivedAt": "https://zenodo.org/record/8089518",
-    "author": [
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-2978-8922",
-            "givenName": "Olga",
-            "familyName": "Giraldo"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0002-2910-7982",
-            "givenName": "Lukas",
-            "familyName": "Geist"
-        },
-        {
-            "@type": "Person",
-            "givenName": "Nelson",
-            "familyName": "Qui\u00f1ones"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0002-1018-0370",
-            "givenName": "Dietrich",
-            "familyName": "Rebholz-Schuhmann"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-3986-0510",
-            "givenName": "Leyla Jael",
-            "familyName": "Castro"
-        }
-    ],
-    "citation": "Giraldo O, Geist L, Qui\u00f1ones N, Solanki D, Rebholz-Schuhmann D, Castro LJ. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2023. doi:10.5281/zenodo.8089518",
-    "creativeWorkStatus": [
-        "Published",
-        "In-progress"
-    ]
+  "@context": "https://schema.org/",
+  "@type": "DefinedTermSet",
+  "@id": "https://doi.org/10.5281/zenodo.8089518",
+  "name": "maSMP Ontology",
+  "description": "Metadata model in the form of an ontology representing the necessary metadata elements for a maSMP. The metadata model includes entities involved in software management planning; such as an SMP itself, software source code, software release, documentation, authors and their relations. We are reusing terms mainly from schema.org and from DCSO, with some few additions of our own.",
+  "keywords": "machine-actionability, software management plans, research software, controlled vocabulary, metadata schema",
+  "archivedAt": "https://zenodo.org/record/8089518",
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2978-8922",
+      "givenName": "Olga",
+      "familyName": "Giraldo"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2910-7982",
+      "givenName": "Lukas",
+      "familyName": "Geist"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Nelson",
+      "familyName": "Qui\u00f1ones"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "givenName": "Dietrich",
+      "familyName": "Rebholz-Schuhmann"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "givenName": "Leyla Jael",
+      "familyName": "Castro"
+    }
+  ],
+  "citation": "Giraldo O, Geist L, Qui\u00f1ones N, Solanki D, Rebholz-Schuhmann D, Castro LJ. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2023. doi:10.5281/zenodo.8089518",
+  "creativeWorkStatus": [
+    "Published",
+    "In-progress"
+  ]
 }
 </script>
 

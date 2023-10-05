@@ -85,39 +85,40 @@
 
 <script type="application/ld+json">
 {
-    "@type": "SoftwareSourceCode",
-    "@id": "https://github.com/zbmed-semtec/BioHackOutcomes",
-    "name": "BioHackOutcomes",
-    "description": "BioHackathon project to define and follow up BioHackathon projects.",
-    "url": "https://github.com/zbmed-semtec/BioHackOutcomes",
-    "author": [
-        {
-            "@type": "Person",
-            "@id": "http://orcid.org/0000-0002-0762-4305",
-            "familyName": "Lazarov",
-            "givenName": "Georgi"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-3986-0510",
-            "familyName": "Castro",
-            "givenName": "Leyla Jael"
-        }
-    ],
-    "license": "https://spdx.org/licenses/Apache-2.0.html",
-    "citation": [
-        "Georgi L, Castro LJ. BioHackathon Outcomes GitHub Medatada. GitHub 2020. https://github.com/zbmed-semtec/BioHackOutcomes",
-        "Castro LJ, Martin C, Lazarov G, Cernoskova D, Takatsuki T, Harrow J, and Rebholz-Schuhmann D. (2021, August 10). Measuring outcomes and impact from the BioHackathon Europe. https://doi.org/10.37044/osf.io/3dxhg"
-    ],
-    "codeRepository": "https://github.com/zbmed-semtec/BioHackOutcomes",
-    "programmingLanguage": [
-        "Python"
-    ],
-    "keywords": [
-        "BioHackathon Europe 2020",
-        "GitHub",
-        "Metrics"
-    ]
+  "@context": "https://schema.org/",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://github.com/zbmed-semtec/BioHackOutcomes",
+  "name": "BioHackOutcomes",
+  "description": "BioHackathon project to define and follow up BioHackathon projects.",
+  "url": "https://github.com/zbmed-semtec/BioHackOutcomes",
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "http://orcid.org/0000-0002-0762-4305",
+      "familyName": "Lazarov",
+      "givenName": "Georgi"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "familyName": "Castro",
+      "givenName": "Leyla Jael"
+    }
+  ],
+  "license": "https://spdx.org/licenses/Apache-2.0.html",
+  "citation": [
+    "Georgi L, Castro LJ. BioHackathon Outcomes GitHub Medatada. GitHub 2020. https://github.com/zbmed-semtec/BioHackOutcomes",
+    "Castro LJ, Martin C, Lazarov G, Cernoskova D, Takatsuki T, Harrow J, and Rebholz-Schuhmann D. (2021, August 10). Measuring outcomes and impact from the BioHackathon Europe. https://doi.org/10.37044/osf.io/3dxhg"
+  ],
+  "codeRepository": "https://github.com/zbmed-semtec/BioHackOutcomes",
+  "programmingLanguage": [
+    "Python"
+  ],
+  "keywords": [
+    "BioHackathon Europe 2020",
+    "GitHub",
+    "Metrics"
+  ]
 }
 </script>
 
@@ -260,61 +261,62 @@
 
 <script type="application/ld+json">
 {
-    "@type": "SoftwareSourceCode",
-    "@id": "https://github.com/zbmed-semtec/maSMPs",
-    "name": "Metadata model for machine-actionable Software Management Plans",
-    "description": "This project corresponds to an extension of the Research Data Alliance (RDA) machine-actionable Data Management Plan (maDMP) application profile and its corresponding DMP Common Standard ontology (DCSO) in order to cover the case of ELIXIR Software Management Plans (SMPs). Similar to DMPs, SMPs help formalize a set of structures and goals that ensure the software is accessible and reusable in the short, medium and long term. Although targeting the life sciences community, most of the elements of the ELIXIR SMPs are domain agnostic and could be used by other communities as well. DMPs and SMPs can be presented as text-based documents, sometimes guided by a set of questions corresponding to key points related to the lifecycle of either data or software. The RDA DMP Common Standards working group defined a maDMP to overcome limitations of text-based documents. We propose a similar path for the ELIXIR SMPs so they turn into machine-actionable SMPs (maSMPs).",
-    "url": "https://github.com/zbmed-semtec/maSMPs",
-    "author": [
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-2978-8922",
-            "familyName": "Giraldo",
-            "givenName": "Olga"
-        },
-        {
-            "@type": "Person",
-            "@id": "http://orcid.org/0000-0002-2910-7982",
-            "familyName": "Geist",
-            "givenName": "Lukas"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0002-5037-0443",
-            "familyName": "Qui\u00f1ones",
-            "givenName": "Nelson"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0009-0004-1529-0095",
-            "familyName": "Solanki",
-            "givenName": "Dhwani"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0002-1018-0370",
-            "familyName": "Rebholz-Schuhmann",
-            "givenName": "Dietrich"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-3986-0510",
-            "familyName": "Castro",
-            "givenName": "Leyla Jael"
-        }
-    ],
-    "license": "https://spdx.org/licenses/CC-BY-4.0.html",
-    "citation": "Giraldo O, Geist L, Qui\u00f1ones N, Solanki D, Rebholz-Schuhmann D, Castro LJ. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2023. doi:10.5281/zenodo.8089518",
-    "codeRepository": "https://github.com/zbmed-semtec/maSMPs",
-    "programmingLanguage": [
-        "JavaScript",
-        "Python"
-    ],
-    "keywords": [
-        "Software Management Plan",
-        "Machine-actionable",
-        "SMP"
-    ]
+  "@context": "https://schema.org/",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://github.com/zbmed-semtec/maSMPs",
+  "name": "Metadata model for machine-actionable Software Management Plans",
+  "description": "This project corresponds to an extension of the Research Data Alliance (RDA) machine-actionable Data Management Plan (maDMP) application profile and its corresponding DMP Common Standard ontology (DCSO) in order to cover the case of ELIXIR Software Management Plans (SMPs). Similar to DMPs, SMPs help formalize a set of structures and goals that ensure the software is accessible and reusable in the short, medium and long term. Although targeting the life sciences community, most of the elements of the ELIXIR SMPs are domain agnostic and could be used by other communities as well. DMPs and SMPs can be presented as text-based documents, sometimes guided by a set of questions corresponding to key points related to the lifecycle of either data or software. The RDA DMP Common Standards working group defined a maDMP to overcome limitations of text-based documents. We propose a similar path for the ELIXIR SMPs so they turn into machine-actionable SMPs (maSMPs).",
+  "url": "https://github.com/zbmed-semtec/maSMPs",
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2978-8922",
+      "familyName": "Giraldo",
+      "givenName": "Olga"
+    },
+    {
+      "@type": "Person",
+      "@id": "http://orcid.org/0000-0002-2910-7982",
+      "familyName": "Geist",
+      "givenName": "Lukas"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5037-0443",
+      "familyName": "Qui\u00f1ones",
+      "givenName": "Nelson"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-1529-0095",
+      "familyName": "Solanki",
+      "givenName": "Dhwani"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "familyName": "Rebholz-Schuhmann",
+      "givenName": "Dietrich"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "familyName": "Castro",
+      "givenName": "Leyla Jael"
+    }
+  ],
+  "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+  "citation": "Giraldo O, Geist L, Qui\u00f1ones N, Solanki D, Rebholz-Schuhmann D, Castro LJ. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2023. doi:10.5281/zenodo.8089518",
+  "codeRepository": "https://github.com/zbmed-semtec/maSMPs",
+  "programmingLanguage": [
+    "JavaScript",
+    "Python"
+  ],
+  "keywords": [
+    "Software Management Plan",
+    "Machine-actionable",
+    "SMP"
+  ]
 }
 </script>
 
@@ -453,60 +455,61 @@
 
 <script type="application/ld+json">
 {
-    "@type": "SoftwareSourceCode",
-    "@id": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
-    "name": "Mowl-graph2doc2vec",
-    "description": "A repository to explore the use of ontology-based graphs (generated with MOWL) as background knowledge for scientific articles similarity.",
-    "url": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
-    "author": [
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0002-5037-0443",
-            "familyName": "Qui\u00f1ones",
-            "givenName": "Nelson"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://zbmed-semtec.github.io/people/#Rahaf-Alayed",
-            "familyName": "Alayed",
-            "givenName": "Rahaf"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0001-6954-2973",
-            "familyName": "Aljohani",
-            "givenName": "Layan"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0002-3119-5109",
-            "familyName": "Alqhtani",
-            "givenName": "Asmaa"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://cemse.kaust.edu.sa/people/person/maria-g-gomez-castillo",
-            "familyName": "Gomez Castillo",
-            "givenName": "Maria G."
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-3986-0510",
-            "familyName": "Castro",
-            "givenName": "Leyla Jael"
-        }
-    ],
-    "license": "https://spdx.org/licenses/GPL-3.0-only.html",
-    "codeRepository": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
-    "programmingLanguage": [
-        "JavaScript",
-        "Python"
-    ],
-    "keywords": [
-        "BioHackathon MENA 2023",
-        "Graph embeddings",
-        "Word embeddings"
-    ]
+  "@context": "https://schema.org/",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
+  "name": "Mowl-graph2doc2vec",
+  "description": "A repository to explore the use of ontology-based graphs (generated with MOWL) as background knowledge for scientific articles similarity.",
+  "url": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5037-0443",
+      "familyName": "Qui\u00f1ones",
+      "givenName": "Nelson"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zbmed-semtec.github.io/people/#Rahaf-Alayed",
+      "familyName": "Alayed",
+      "givenName": "Rahaf"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6954-2973",
+      "familyName": "Aljohani",
+      "givenName": "Layan"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3119-5109",
+      "familyName": "Alqhtani",
+      "givenName": "Asmaa"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://cemse.kaust.edu.sa/people/person/maria-g-gomez-castillo",
+      "familyName": "Gomez Castillo",
+      "givenName": "Maria G."
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "familyName": "Castro",
+      "givenName": "Leyla Jael"
+    }
+  ],
+  "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+  "codeRepository": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
+  "programmingLanguage": [
+    "JavaScript",
+    "Python"
+  ],
+  "keywords": [
+    "BioHackathon MENA 2023",
+    "Graph embeddings",
+    "Word embeddings"
+  ]
 }
 </script>
 
@@ -609,45 +612,46 @@
 
 <script type="application/ld+json">
 {
-    "@type": "SoftwareSourceCode",
-    "@id": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",
-    "name": "Protein-function-embeddings-thesis",
-    "description": "This thesis explores how information for protein functions can be exploited through embeddings so that the produced information can be used to improve protein function annotations. The underlying hypothesis here is that any pair of proteins with high sequence similarity will also share a similar biological function which would be reflected by the corresponding protein embeddings. The comparion and evaluation of this is done using two text-driven embedding approaches: Word2doc2Vec and Hybrid-Word2doc2Vec.",
-    "url": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",
-    "author": [
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0009-0004-4484-6283",
-            "familyName": "Ravinder",
-            "givenName": "Rohitha"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-3986-0510",
-            "familyName": "Castro",
-            "givenName": "Leyla Jael"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0002-1018-0370",
-            "familyName": "Rebholz-Schuhmann",
-            "givenName": "Dietrich"
-        }
-    ],
-    "license": "https://spdx.org/licenses/GPL-3.0-only.html",
-    "citation": [
-        "Ravinder R, Castro LJ, and Rebholz-Schuhmann D. (2023). Protein Function Embeddings: First Beta Release of Datasets (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7793384",
-        "Ravinder R, Castro LJ, and Rebholz-Schuhmann D. (2023). Protein Function Embeddings: First Beta Release (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7781870"
-    ],
-    "codeRepository": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",
-    "programmingLanguage": [
-        "Python"
-    ],
-    "keywords": [
-        "Protein Function",
-        "Word2doc2Vec",
-        "Hybrid-Word2doc2Vec"
-    ]
+  "@context": "https://schema.org/",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",
+  "name": "Protein-function-embeddings-thesis",
+  "description": "This thesis explores how information for protein functions can be exploited through embeddings so that the produced information can be used to improve protein function annotations. The underlying hypothesis here is that any pair of proteins with high sequence similarity will also share a similar biological function which would be reflected by the corresponding protein embeddings. The comparion and evaluation of this is done using two text-driven embedding approaches: Word2doc2Vec and Hybrid-Word2doc2Vec.",
+  "url": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-4484-6283",
+      "familyName": "Ravinder",
+      "givenName": "Rohitha"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "familyName": "Castro",
+      "givenName": "Leyla Jael"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "familyName": "Rebholz-Schuhmann",
+      "givenName": "Dietrich"
+    }
+  ],
+  "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+  "citation": [
+    "Ravinder R, Castro LJ, and Rebholz-Schuhmann D. (2023). Protein Function Embeddings: First Beta Release of Datasets (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7793384",
+    "Ravinder R, Castro LJ, and Rebholz-Schuhmann D. (2023). Protein Function Embeddings: First Beta Release (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7781870"
+  ],
+  "codeRepository": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",
+  "programmingLanguage": [
+    "Python"
+  ],
+  "keywords": [
+    "Protein Function",
+    "Word2doc2Vec",
+    "Hybrid-Word2doc2Vec"
+  ]
 }
 </script>
 
@@ -778,57 +782,58 @@
 
 <script type="application/ld+json">
 {
-    "@type": "SoftwareSourceCode",
-    "@id": "https://github.com/zbmed-semtec/topic-categorization-system",
-    "name": "Topic-categorization-system",
-    "description": "Topic categorization on scientific papers to improve information retrieval in the biomedical domain.",
-    "url": "https://github.com/zbmed-semtec/topic-categorization-system",
-    "author": [
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0002-5037-0443",
-            "familyName": "Qui\u00f1ones",
-            "givenName": "Nelson"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://zbmed-semtec.github.io/people/#cesar-canales",
-            "familyName": "Canales",
-            "givenName": "Cesar"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://zbmed-semtec.github.io/people/#javier-torres",
-            "familyName": "Torres",
-            "givenName": "Javier"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0002-1018-0370",
-            "familyName": "Rebholz-Schuhmann",
-            "givenName": "Dietrich"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-3986-0510",
-            "familyName": "Castro",
-            "givenName": "Leyla Jael"
-        }
-    ],
-    "license": "https://spdx.org/licenses/GPL-3.0-only.html",
-    "citation": [
-        "Qui\u00f1ones N, Canales C, Torres J, Rebholz-Schuhmann D, and Castro LJ. Topic categorization for Medline Abstracts. GitHub 2022. https://github.com/zbmed-semtec/topic-categorization-system",
-        "Qui\u00f1ones N, Canales C, Torres J, Rebholz-Schuhmann D, Castro LJ, Aristizabal A. Multilabel-classification task for Medline abstracts - Poster. 2023. In: SWAT4HCLS 2023 poster archival. PUBLISSO. https://doi.org/10.4126/FRL01-006440395",
-        "Qui\u00f1ones N, Canales C, Torres J, Rebholz-Schuhmann D, Castro LJ, Aristizabal A. Multilabel-classification task for Medline abstracts. 2023. In: SWAT4HCLS 2023 Proceedings. CEUR. https://ceur-ws.org/Vol-3415/paper-36.pdf"
-    ],
-    "codeRepository": "https://github.com/zbmed-semtec/topic-categorization-system",
-    "programmingLanguage": [
-        "Python"
-    ],
-    "keywords": [
-        "Topic categorization system",
-        "Biomedical literature"
-    ]
+  "@context": "https://schema.org/",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://github.com/zbmed-semtec/topic-categorization-system",
+  "name": "Topic-categorization-system",
+  "description": "Topic categorization on scientific papers to improve information retrieval in the biomedical domain.",
+  "url": "https://github.com/zbmed-semtec/topic-categorization-system",
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5037-0443",
+      "familyName": "Qui\u00f1ones",
+      "givenName": "Nelson"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zbmed-semtec.github.io/people/#cesar-canales",
+      "familyName": "Canales",
+      "givenName": "Cesar"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zbmed-semtec.github.io/people/#javier-torres",
+      "familyName": "Torres",
+      "givenName": "Javier"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "familyName": "Rebholz-Schuhmann",
+      "givenName": "Dietrich"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "familyName": "Castro",
+      "givenName": "Leyla Jael"
+    }
+  ],
+  "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+  "citation": [
+    "Qui\u00f1ones N, Canales C, Torres J, Rebholz-Schuhmann D, and Castro LJ. Topic categorization for Medline Abstracts. GitHub 2022. https://github.com/zbmed-semtec/topic-categorization-system",
+    "Qui\u00f1ones N, Canales C, Torres J, Rebholz-Schuhmann D, Castro LJ, Aristizabal A. Multilabel-classification task for Medline abstracts - Poster. 2023. In: SWAT4HCLS 2023 poster archival. PUBLISSO. https://doi.org/10.4126/FRL01-006440395",
+    "Qui\u00f1ones N, Canales C, Torres J, Rebholz-Schuhmann D, Castro LJ, Aristizabal A. Multilabel-classification task for Medline abstracts. 2023. In: SWAT4HCLS 2023 Proceedings. CEUR. https://ceur-ws.org/Vol-3415/paper-36.pdf"
+  ],
+  "codeRepository": "https://github.com/zbmed-semtec/topic-categorization-system",
+  "programmingLanguage": [
+    "Python"
+  ],
+  "keywords": [
+    "Topic categorization system",
+    "Biomedical literature"
+  ]
 }
 </script>
 
@@ -985,67 +990,68 @@
 
 <script type="application/ld+json">
 {
-    "@type": "SoftwareSourceCode",
-    "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
-    "name": "TREC-doc-2-doc-relevance",
-    "description": "The code, data and docs at this repo aim at facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track. A doc-2-doc relevance assessment takes one document as reference and assess a second document regarding its relevance to the reference one. This doc-2-doc collection will be used to evaluate the doc-2-doc recommendations approaches that we are working on.",
-    "url": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
-    "author": [
-        {
-            "@type": "Person",
-            "@id": "https://zbmed-semtec.github.io/people/#muhammad-talha",
-            "familyName": "Talha",
-            "givenName": "Muhammad"
-        },
-        {
-            "@type": "Person",
-            "@id": "http://orcid.org/0000-0002-2910-7982",
-            "familyName": "Geist",
-            "givenName": "Lukas"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0002-8725-1317",
-            "familyName": "Fellerhof",
-            "givenName": "Tim"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0009-0004-4484-6283",
-            "familyName": "Ravinder",
-            "givenName": "Rohitha"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-2978-8922",
-            "familyName": "Giraldo",
-            "givenName": "Olga"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0002-1018-0370",
-            "familyName": "Rebholz-Schuhmann",
-            "givenName": "Dietrich"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-3986-0510",
-            "familyName": "Castro",
-            "givenName": "Leyla Jael"
-        }
-    ],
-    "license": "https://spdx.org/licenses/MIT.html",
-    "citation": "Talha M, Geist L, Fellerhof T, Ravinder R, Giraldo O, Rebholz-Schuhmann D, and Castro LJ. (2022). TREC-doc-2-doc-relevance assessment interface (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7341391",
-    "codeRepository": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
-    "programmingLanguage": [
-        "Python"
-    ],
-    "keywords": [
-        "doc-2-doc",
-        "Text REtrieval Conference (TREC) 2005",
-        "TREC 2005",
-        "Relevance assessment"
-    ]
+  "@context": "https://schema.org/",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+  "name": "TREC-doc-2-doc-relevance",
+  "description": "The code, data and docs at this repo aim at facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track. A doc-2-doc relevance assessment takes one document as reference and assess a second document regarding its relevance to the reference one. This doc-2-doc collection will be used to evaluate the doc-2-doc recommendations approaches that we are working on.",
+  "url": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://zbmed-semtec.github.io/people/#muhammad-talha",
+      "familyName": "Talha",
+      "givenName": "Muhammad"
+    },
+    {
+      "@type": "Person",
+      "@id": "http://orcid.org/0000-0002-2910-7982",
+      "familyName": "Geist",
+      "givenName": "Lukas"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8725-1317",
+      "familyName": "Fellerhof",
+      "givenName": "Tim"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-4484-6283",
+      "familyName": "Ravinder",
+      "givenName": "Rohitha"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2978-8922",
+      "familyName": "Giraldo",
+      "givenName": "Olga"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "familyName": "Rebholz-Schuhmann",
+      "givenName": "Dietrich"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "familyName": "Castro",
+      "givenName": "Leyla Jael"
+    }
+  ],
+  "license": "https://spdx.org/licenses/MIT.html",
+  "citation": "Talha M, Geist L, Fellerhof T, Ravinder R, Giraldo O, Rebholz-Schuhmann D, and Castro LJ. (2022). TREC-doc-2-doc-relevance assessment interface (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7341391",
+  "codeRepository": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+  "programmingLanguage": [
+    "Python"
+  ],
+  "keywords": [
+    "doc-2-doc",
+    "Text REtrieval Conference (TREC) 2005",
+    "TREC 2005",
+    "Relevance assessment"
+  ]
 }
 </script>
 
@@ -1130,37 +1136,38 @@
 
 <script type="application/ld+json">
 {
-    "@type": "SoftwareSourceCode",
-    "@id": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
-    "name": "Zbmed-semtec.github.io",
-    "description": "We are a multidisciplinary Research and Development team combining semantic technologies and data analytics. We work on the development of softare components and services to support and improve research on information retrieval, data science and literature-based knowledge discovery with a particular focus on reproducibility. Our areas of application include the evaluation of experimental retrieval and recommendation systems, practical support to FAIR+R principles for software and data science, and data analytics from the combination of ontologies and literature-extracted data in the Life Sciences domain.",
-    "url": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
-    "author": [
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0009-0004-0369-5677",
-            "familyName": "Lahoria",
-            "givenName": "Honey"
-        },
-        {
-            "@type": "Person",
-            "@id": "https://orcid.org/0000-0003-3986-0510",
-            "familyName": "Castro",
-            "givenName": "Leyla Jael"
-        }
-    ],
-    "license": "https://spdx.org/licenses/MIT.html",
-    "codeRepository": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
-    "programmingLanguage": [
-        "Python",
-        "MKDocs"
-    ],
-    "keywords": [
-        "ZB MED",
-        "SemTec",
-        "Research team",
-        "GitHub pages"
-    ]
+  "@context": "https://schema.org/",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
+  "name": "Zbmed-semtec.github.io",
+  "description": "We are a multidisciplinary Research and Development team combining semantic technologies and data analytics. We work on the development of softare components and services to support and improve research on information retrieval, data science and literature-based knowledge discovery with a particular focus on reproducibility. Our areas of application include the evaluation of experimental retrieval and recommendation systems, practical support to FAIR+R principles for software and data science, and data analytics from the combination of ontologies and literature-extracted data in the Life Sciences domain.",
+  "url": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-0369-5677",
+      "familyName": "Lahoria",
+      "givenName": "Honey"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "familyName": "Castro",
+      "givenName": "Leyla Jael"
+    }
+  ],
+  "license": "https://spdx.org/licenses/MIT.html",
+  "codeRepository": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
+  "programmingLanguage": [
+    "Python",
+    "MKDocs"
+  ],
+  "keywords": [
+    "ZB MED",
+    "SemTec",
+    "Research team",
+    "GitHub pages"
+  ]
 }
 </script>
 
