@@ -1,7 +1,7 @@
 # Software metadata
 
 ## BioHackOutcomes
-<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://github.com/zbmed-semtec/zbmed-semtec.github.io/blob/main/metadata\software\BioHackOutcomes.json" target="_blank"> Get JSON-LD</a> | <a href="https://github.com/zbmed-semtec/BioHackOutcomes" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a></p>
+<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\software\BioHackOutcomes.json" target="_blank"> Get JSON-LD</a> | <a href="https://github.com/zbmed-semtec/BioHackOutcomes" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -123,7 +123,7 @@
 </script>
 
 ## Metadata model for machine-actionable Software Management Plans
-<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://github.com/zbmed-semtec/zbmed-semtec.github.io/blob/main/metadata\software\maSMPs.json" target="_blank"> Get JSON-LD</a> | <a href="https://github.com/zbmed-semtec/maSMPs" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a></p>
+<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\software\maSMPs.json" target="_blank"> Get JSON-LD</a> | <a href="https://github.com/zbmed-semtec/maSMPs" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -321,7 +321,7 @@
 </script>
 
 ## Mowl-graph2doc2vec
-<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://github.com/zbmed-semtec/zbmed-semtec.github.io/blob/main/metadata\software\mowl-graph2doc2vec.json" target="_blank"> Get JSON-LD</a> | <a href="https://github.com/zbmed-semtec/mowl-graph2doc2vec" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a></p>
+<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\software\mowl-graph2doc2vec.json" target="_blank"> Get JSON-LD</a> | <a href="https://github.com/zbmed-semtec/mowl-graph2doc2vec" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -514,7 +514,7 @@
 </script>
 
 ## Protein-function-embeddings-thesis
-<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://github.com/zbmed-semtec/zbmed-semtec.github.io/blob/main/metadata\software\protein-function-embeddings-thesis.json" target="_blank"> Get JSON-LD</a> | <a href="https://github.com/zbmed-semtec/protein-function-embeddings-thesis" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a></p>
+<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\software\protein-function-embeddings-thesis.json" target="_blank"> Get JSON-LD</a> | <a href="https://github.com/zbmed-semtec/protein-function-embeddings-thesis" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -656,7 +656,7 @@
 </script>
 
 ## Topic-categorization-system
-<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://github.com/zbmed-semtec/zbmed-semtec.github.io/blob/main/metadata\software\topic-categorization-system.json" target="_blank"> Get JSON-LD</a> | <a href="https://github.com/zbmed-semtec/topic-categorization-system" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a></p>
+<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\software\topic-categorization-system.json" target="_blank"> Get JSON-LD</a> | <a href="https://github.com/zbmed-semtec/topic-categorization-system" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -838,7 +838,7 @@
 </script>
 
 ## TREC-doc-2-doc-relevance
-<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://github.com/zbmed-semtec/zbmed-semtec.github.io/blob/main/metadata\software\TREC-doc-2-doc-relevance.json" target="_blank"> Get JSON-LD</a> | <a href="https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a></p>
+<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\software\TREC-doc-2-doc-relevance.json" target="_blank"> Get JSON-LD</a> | <a href="https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -1056,7 +1056,7 @@
 </script>
 
 ## Zbmed-semtec.github.io
-<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://github.com/zbmed-semtec/zbmed-semtec.github.io/blob/main/metadata\software\zbmed-semtec.github.io.json" target="_blank"> Get JSON-LD</a> | <a href="https://github.com/zbmed-semtec/zbmed-semtec.github.io" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a></p>
+<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\software\zbmed-semtec.github.io.json" target="_blank"> Get JSON-LD</a> | <a href="https://github.com/zbmed-semtec/zbmed-semtec.github.io" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>

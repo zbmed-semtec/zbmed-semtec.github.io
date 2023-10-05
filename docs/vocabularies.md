@@ -1,7 +1,7 @@
 # Vocabularies metadata
 
 ## maSMP Ontology
-<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://github.com/zbmed-semtec/zbmed-semtec.github.io/blob/main/metadata\vocabularies\maSMP.json" target="_blank"> Get JSON-LD</a> | <a href="https://doi.org/10.5281/zenodo.8089518" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit DefinedTermSet</a></p>
+<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\vocabularies\maSMP.json" target="_blank"> Get JSON-LD</a> | <a href="https://doi.org/10.5281/zenodo.8089518" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit DefinedTermSet</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>

@@ -2,6 +2,7 @@
 
 ## Ontoclue
 
+<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\projects\2021_OntoClue.json" target="_blank"> Get JSON-LD</a></p>
 _Started in 2021-01-01_
 ### Description
 
@@ -315,6 +316,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
 
 ## Machine-actionable software management plans
 
+<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\projects\2022_maSMP.json" target="_blank"> Get JSON-LD</a></p>
 _Started in 2022-09-01_
 ### Description
 
@@ -669,6 +671,7 @@ ongoing, machine-actionability, software management plans, research software, co
 
 ## Trec document-to-document relevance assessment
 
+<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\projects\z_2022_TREC_doc2doc_relevance_assessment.json" target="_blank"> Get JSON-LD</a></p>
 _Started in 2022-06-01_
 _Concluded in 2023-03-31_
 ### Description

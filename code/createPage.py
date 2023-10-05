@@ -24,7 +24,17 @@ def createTableLink(data):
         data["@link"] = visitLink
     return data
 
+def createGetJsonLink (jsonFileURL) :
+    """
+    Checks the get raw JSON-LD link from the JSON file URL.
 
+    Parameter/Input:
+        jsonFileURL: The JSON file URL.
+
+    Returns:
+        JSON-LD raw link.
+    """
+    return f'<img src = "../images/get.svg" alt="Get JSON-LD"/><a href="{jsonFileURL.replace("github.com", "raw.githubusercontent.com").replace("blob/", "")}" target="_blank"> Get JSON-LD</a>'
 
 def complexDataInList(data):
     """
@@ -197,7 +207,7 @@ def generateMDTableFromJSON(jsonData, jsonFileURL):
 
     linkValue = jsonData.get("@link", "")
     if linkValue:
-        md += f'<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="{jsonFileURL}" target="_blank"> Get JSON-LD</a> | {linkValue}</p>\n'
+        md += f'<p>{createGetJsonLink(jsonFileURL)} | {linkValue}</p>\n'
     jsonData.pop("@link", None)
 
     md += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
@@ -215,7 +225,7 @@ def generateMDTableFromJSON(jsonData, jsonFileURL):
     return md
 
 
-def processProjectData(data):
+def processProjectData(data, jsonFileURL):
     """
     Process JSON data for the "project" subfolder in "metadata" and generate Markdown file in "docs".
 
@@ -234,6 +244,7 @@ def processProjectData(data):
     for property, value in data.items():
         if property == 'name':
             md += f'## {value.capitalize()}\n\n'
+            md += f'<p>{createGetJsonLink(jsonFileURL)}</p>\n'
 
         if property == "foundingDate" :
             md += f'_Started in {value}_\n'
@@ -351,7 +362,7 @@ def fromMetadatatoDocs():
                 data = json.load(jsonFile)
                 md = ""
                 if mdFolderName == 'projects':
-                    md = processProjectData(data)
+                    md = processProjectData(data, jsonFileURL)
                 else: 
                     md = generateMDTableFromJSON(data, jsonFileURL)
                 with open(docFilePath, "a", encoding="utf-8") as mdDocFile:
