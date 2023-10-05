@@ -20,7 +20,7 @@ def createTableLink(data):
 
     if idValue and typeValue:
         # Only if @id and @type are in the data and the value are saved then create link
-        visitLink = f'<a href="{idValue}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {typeValue}</a>'
+        visitLink = f'<a href="{idValue}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {typeValue}</a>'
         data["@link"] = visitLink
     return data
 
@@ -128,7 +128,7 @@ def renderInnerTable(obj):
     valueInnerType = ""
     for propertyInner, valueInner in obj.items():
         if propertyInner == "@id":
-            link = fr'<a href="{valueInner}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {valueInnerType} Object</a>'
+            link = fr'<a href="{valueInner}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {valueInnerType} Object</a>'
             tableMD += f"\n<tr>{link}\n</tr>"
         elif propertyInner == "@type":
             valueInnerType = valueInner
@@ -197,7 +197,7 @@ def generateMDTableFromJSON(jsonData, jsonFileURL):
 
     linkValue = jsonData.get("@link", "")
     if linkValue:
-        md += f'<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg><a href="{jsonFileURL}" target="_blank"> Get JSON-LD</a> | {linkValue}</p>\n'
+        md += f'<p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="{jsonFileURL}" target="_blank"> Get JSON-LD</a> | {linkValue}</p>\n'
     jsonData.pop("@link", None)
 
     md += '<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">\n<tbody>\n'
@@ -262,7 +262,7 @@ def processProjectData(data):
                                 if "@type" in subItem and "@id" in subItem:
                                     subTypeURL = subItem["@type"]
                                     idURL = subItem["@id"]
-                                    md += f'<a href="{idURL}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {subTypeURL}</a>\n\n'
+                                    md += f'<a href="{idURL}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
                                 for prop, val in subItem.items():
                                     if prop not in ["@type", "@id", "name"]:
                                         md += f'- {prop.capitalize()}: {val}\n'
@@ -275,7 +275,7 @@ def processProjectData(data):
                         if "@type" in item and "@id" in item:
                             subTypeURL = item["@type"]
                             idURL = item["@id"]
-                            md += f'<a href="{idURL}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {subTypeURL}</a>\n\n'
+                            md += f'<a href="{idURL}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
                         for prop, val in item.items(): 
                             if prop not in ["@type", "@id", "name", "funder"]:
                                 md += f'- {prop.capitalize()}: {val}\n'
@@ -292,7 +292,7 @@ def processProjectData(data):
                         if "@type" in subValue and "@id" in subValue:
                             subTypeURL = subValue["@type"]
                             subidURL= subValue["@id"]
-                            md += f'<a href="{subidURL}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style = "margin-bottom: 50px"/></svg> Visit {subTypeURL}</a>\n\n'
+                            md += f'<a href="{subidURL}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
                         for prop, val in subValue.items():
                             if prop not in ["@type", "@id", "name"]:
                                 md += f'- {prop.capitalize()}: {val}\n'
@@ -302,7 +302,7 @@ def processProjectData(data):
                             subTypeURL = value.get("@type", "")
                             subidURL = value.get("@id", "")
                             if subTypeURL and subidURL:
-                                md += f'<a href="{subidURL}" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" style="margin-bottom: 50px"/></svg> Visit {subTypeURL}</a>\n\n'
+                                md += f'<a href="{subidURL}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
                         if subProperty:
                             if subProperty not in ["@type", "@id", "name"]:
                                 md += f'- {subProperty.capitalize()}: {subValue}\n'
