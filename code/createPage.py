@@ -341,6 +341,8 @@ def fromMetadatatoDocs():
     shutil.rmtree(docsProjectPath)
     os.makedirs(docsProjectPath)
 
+    allMetadata = []
+
     metadataFolderList = os.listdir(metadataPath)
 
     for mdFolderName in metadataFolderList:
@@ -359,6 +361,8 @@ def fromMetadatatoDocs():
 
             with open(jsonFilePath, "r", encoding="utf-8") as jsonFile:
                 data = json.load(jsonFile)
+                allMetadata.append(data)
+
                 md = ""
                 if mdFolderName == 'projects':
                     md = f'# {mdFolderName.capitalize()} metadata\n\n'
@@ -372,6 +376,10 @@ def fromMetadatatoDocs():
                     with open(docFilePath, "a", encoding="utf-8") as mdDocFile:
                         mdDocFile.write(md)    
                         mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
+    
+    #needs to find way not to append the json-ld multiple times
+    with open(docsPath+"/index.md", "a", encoding="utf-8") as indexFile :
+        indexFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(allMetadata, indent=2)}\n</script>\n\n')
             
         
 fromMetadatatoDocs()

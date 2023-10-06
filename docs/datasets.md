@@ -36,7 +36,7 @@
 </tr>
 <tr>
 <td>url</td>
-<td><a href="https://doi.org/10.5281/zenodo.4903981" target="_blank">https://doi.org/10.5281/zenodo.4903981</a></td>
+<td><a href="https://zenodo.org/record/4903981" target="_blank">https://zenodo.org/record/4903981</a></td>
 </tr>
 <tr>
 <td>about</td>
@@ -134,7 +134,7 @@
     "performance"
   ],
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "url": "https://doi.org/10.5281/zenodo.4903981",
+  "url": "https://zenodo.org/record/4903981",
   "about": "Performance assessment",
   "datePublished": "2021-06-05",
   "encodingFormat": "text/csv",
@@ -201,7 +201,7 @@
 </tr>
 <tr>
 <td>url</td>
-<td><a href="https://doi.org/10.5281/zenodo.5035290" target="_blank">https://doi.org/10.5281/zenodo.5035290</a></td>
+<td><a href="https://zenodo.org/record/5035290" target="_blank">https://zenodo.org/record/5035290</a></td>
 </tr>
 <tr>
 <td>about</td>
@@ -312,7 +312,7 @@
     "text-mining"
   ],
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "url": "https://doi.org/10.5281/zenodo.5035290",
+  "url": "https://zenodo.org/record/5035290",
   "about": "Pattern-matching ontological annotation",
   "datePublished": "2021-06-27",
   "encodingFormat": "xml",
@@ -383,7 +383,7 @@
 </tr>
 <tr>
 <td>url</td>
-<td><a href="https://doi.org/10.5281/zenodo.7324822" target="_blank">https://doi.org/10.5281/zenodo.7324822</a></td>
+<td><a href="https://zenodo.org/record/7324822" target="_blank">https://zenodo.org/record/7324822</a></td>
 </tr>
 <tr>
 <td>about</td>
@@ -529,7 +529,7 @@
     "relevance assessment"
   ],
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "url": "https://doi.org/10.5281/zenodo.7324822",
+  "url": "https://zenodo.org/record/7324822",
   "about": "Document-to-document relevant assessment for TREC Genomics Track 2005",
   "datePublished": "2022-11-15",
   "measurementTechnique": "Manual curation",
@@ -616,7 +616,7 @@
 </tr>
 <tr>
 <td>url</td>
-<td><a href="https://doi.org/10.5281/zenodo.7338056" target="_blank">https://doi.org/10.5281/zenodo.7338056</a></td>
+<td><a href="https://zenodo.org/record/7338056" target="_blank">https://zenodo.org/record/7338056</a></td>
 </tr>
 <tr>
 <td>about</td>
@@ -735,7 +735,7 @@
     "relevance assessment"
   ],
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "url": "https://doi.org/10.5281/zenodo.7338056",
+  "url": "https://zenodo.org/record/7338056",
   "about": "Inter-annotator aggreement for relevance assessment",
   "datePublished": "2022-11-19",
   "measurementTechnique": "Fleiss' kappa",
@@ -810,7 +810,7 @@
 </tr>
 <tr>
 <td>url</td>
-<td><a href="https://doi.org/10.5281/zenodo.7793384" target="_blank">https://doi.org/10.5281/zenodo.7793384</a></td>
+<td><a href="https://zenodo.org/record/7793384" target="_blank">https://zenodo.org/record/7793384</a></td>
 </tr>
 <tr>
 <td>measurementTechnique</td>
@@ -913,7 +913,7 @@
     "Document embeddings"
   ],
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "url": "https://doi.org/10.5281/zenodo.7793384",
+  "url": "https://zenodo.org/record/7793384",
   "measurementTechnique": [
     "Word embeddings",
     "Document embeddings",

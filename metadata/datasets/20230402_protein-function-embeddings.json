@@ -11,7 +11,7 @@
     "Protein function", "Protein function embeddings", "Word embeddings", "Document embeddings"
   ], 
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "url": "https://doi.org/10.5281/zenodo.7793384",
+  "url": "https://zenodo.org/record/7793384",
   "measurementTechnique": ["Word embeddings", "Document embeddings", "Cosine similarity"],
   
   "about": "Protein Function Embeddings",

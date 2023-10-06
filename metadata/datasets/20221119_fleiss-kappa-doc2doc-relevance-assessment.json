@@ -11,7 +11,7 @@
     "Fleiss' Kappa", "Inter-annoator agreement", "TREC Genomics Track 2005", "relevance assessment"
   ], 
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "url": "https://doi.org/10.5281/zenodo.7338056",
+  "url": "https://zenodo.org/record/7338056",
   
   "about": "Inter-annotator aggreement for relevance assessment",
   "datePublished": "2022-11-19", 
