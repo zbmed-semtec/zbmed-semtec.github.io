@@ -224,6 +224,34 @@ def generateMDTableFromJSON(jsonData, jsonFileURL):
 
     return md
 
+def processNamesInProject(item) :
+    """
+    Generate a Markdown text from a JSON item.
+
+    Parameter/Input:
+        item: JSON item to convert.
+
+    Returns:
+        A markdown text with the rendered metadata.
+    """
+    md = ""
+    if "name" in item:
+        md += f'#### {item["name"]}\n\n'
+    if "givenName" in item and "familyName" in item:
+        givenName = item["givenName"]
+        lastName = item["familyName"]
+        md += f'- {givenName + " " +lastName}\t\t'
+    if "@type" in item and "@id" in item:   
+        subTypeURL = item["@type"]
+        idURL = item["@id"]
+        md += f'<a href="{idURL}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
+    for prop, val in item.items(): 
+        if prop not in ["@type", "@id", "name", "funder", "givenName", "familyName"]:
+            if prop == 'url':
+                md += f'- URL: <a href="{val}" target="_blank">{val}</a>\n\n'
+            else :
+                md += f'- {prop.capitalize()}: {val}\n'
+    return md
 
 def processProjectData(data, jsonFileURL):
     """
@@ -243,7 +271,7 @@ def processProjectData(data, jsonFileURL):
 
     for property, value in data.items():
         if property == 'name':
-            md += f'## {value.capitalize()}\n\n'
+            md += f'## {value}\n\n'
             md += f'<p>{createGetJsonLink(jsonFileURL)}</p>\n'
 
         if property == "foundingDate" :
@@ -264,59 +292,26 @@ def processProjectData(data, jsonFileURL):
                         for mdFolderName in item:
                             subItem = item.get(mdFolderName, "")
                             if (isinstance(subItem,(dict, list))):
-                                if "name" in subItem:
-                                    md += f'#### {subItem["name"].capitalize()}\n\n'
-                                if "givenName" in item and "familyName" in subItem:
-                                    givenName = subItem["givenName"]
-                                    lastName = subItem["familyName"]
-                                    md += f'#### {givenName + " " +lastName}\n\n'
-                                if "@type" in subItem and "@id" in subItem:
-                                    subTypeURL = subItem["@type"]
-                                    idURL = subItem["@id"]
-                                    md += f'<a href="{idURL}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
-                                for prop, val in subItem.items():
-                                    if prop not in ["@type", "@id", "name"]:
-                                        md += f'- {prop.capitalize()}: {val}\n'
-                        if "name" in item:
-                            md += f'#### {item["name"].capitalize()}\n\n'
-                        if "givenName" in item and "familyName" in item:
-                            givenName = item["givenName"]
-                            lastName = item["familyName"]
-                            md += f'#### {givenName + " " +lastName}\n\n'
-                        if "@type" in item and "@id" in item:
-                            subTypeURL = item["@type"]
-                            idURL = item["@id"]
-                            md += f'<a href="{idURL}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
-                        for prop, val in item.items(): 
-                            if prop not in ["@type", "@id", "name", "funder"]:
-                                md += f'- {prop.capitalize()}: {val}\n'
+                                md += processNamesInProject(subItem) 
+                        md += processNamesInProject(item) 
             
             elif isinstance(value, dict):
                 for subProperty, subValue in value.items():
                     if isinstance(subValue, (dict, list)):
-                        if "name" in subValue:
-                            md += f'#### {item["name"].capitalize()}\n\n'
-                        if "givenName" in subValue and "familyName" in subValue:
-                            givenName = subValue["givenName"]
-                            lastName = subValue["familyName"]
-                            md += f'#### {givenName +" " + lastName}\n\n'
-                        if "@type" in subValue and "@id" in subValue:
-                            subTypeURL = subValue["@type"]
-                            subidURL= subValue["@id"]
-                            md += f'<a href="{subidURL}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
-                        for prop, val in subValue.items():
-                            if prop not in ["@type", "@id", "name"]:
-                                md += f'- {prop.capitalize()}: {val}\n'
+                        md += processNamesInProject(subValue) 
                     else: 
                         if "name" in subProperty:
-                            md += f'#### {subValue.capitalize()}\n\n'
+                            md += f'#### {subValue}\n\n'
                             subTypeURL = value.get("@type", "")
                             subidURL = value.get("@id", "")
                             if subTypeURL and subidURL:
                                 md += f'<a href="{subidURL}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
                         if subProperty:
                             if subProperty not in ["@type", "@id", "name"]:
-                                md += f'- {subProperty.capitalize()}: {subValue}\n'
+                                if subProperty == "url" :
+                                    md += f'- URL: <a href="{subValue}" target="_blank">{subValue}</a>\n\n'
+                                else :
+                                    md += f'- {subProperty.capitalize()}: {subValue}\n'
             else:
                 md += f'{value}\n'
 

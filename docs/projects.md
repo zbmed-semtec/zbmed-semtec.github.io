@@ -1,6 +1,6 @@
 # Projects metadata
 
-## Ontoclue
+## OntoClue
 
 <p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\projects\2021_OntoClue.json" target="_blank"> Get JSON-LD</a></p>
 _Started in 2021-01-01_
@@ -12,144 +12,95 @@ OntoClue aims to provide a framework to optimize and compare document-similarity
 word-embeddings, document-embeddings, ontology-embeddings, document similarity, document relevance, doc2doc relevance, ontology enrichment
 ### Current project members
 
-#### Lukas Geist
+- Lukas Geist		<a href="https://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Nelson Quiñones		<a href="https://orcid.org/0000-0002-5037-0443" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Lukas
-- Familyname: Geist
-#### Nelson Quiñones
+- Rohitha Ravinder		<a href="https://orcid.org/0009-0004-4484-6283" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0002-5037-0443" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Dietrich Rebholz-Schuhmann		<a href="https://orcid.org/0000-0002-1018-0370" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Nelson
-- Familyname: Quiñones
-#### Rohitha Ravinder
+- Leyla Jael Castro		<a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0009-0004-4484-6283" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Rohitha
-- Familyname: Ravinder
-#### Dietrich Rebholz-Schuhmann
-
-<a href="https://orcid.org/0000-0002-1018-0370" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Dietrich
-- Familyname: Rebholz-Schuhmann
-#### Leyla Jael Castro
-
-<a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Leyla Jael
-- Familyname: Castro
 ### Previous project members
 
-#### Dadi Vishnu Vardhan
+- Dadi Vishnu Vardhan		<a href="https://orcid.org/0000-0002-3082-7522" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0002-3082-7522" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Tim Fellerhoff		<a href="https://orcid.org/0000-0002-8725-1317" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Dadi
-- Familyname: Vishnu Vardhan
-#### Tim Fellerhoff
+- Georgi Lazarov		<a href="https://orcid.org/0000-0002-0762-4305" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0002-8725-1317" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Muhammad Talha		<a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Tim
-- Familyname: Fellerhoff
-#### Georgi Lazarov
+- Guilermo Rocamora Perez		<a href="https://orcid.org/0000-0002-4795-3648" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0002-0762-4305" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Benjamin Wolff		<a href="https://orcid.org/0000-0001-9345-8958" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Georgi
-- Familyname: Lazarov
-#### Muhammad Talha
-
-<a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Muhammad
-- Familyname: Talha
-#### Guilermo Rocamora Perez
-
-<a href="https://orcid.org/0000-0002-4795-3648" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Guilermo
-- Familyname: Rocamora Perez
-#### Benjamin Wolff
-
-<a href="https://orcid.org/0000-0001-9345-8958" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Benjamin
-- Familyname: Wolff
 ### Department
 
-#### Semantic technologies team at zb med
+#### Semantic Technologies team at ZB MED
 
 <a href="https://zbmed-semtec.github.io/" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit ResearchOrganization</a>
 
 ### Research Institute
 
-#### Zb med information centre for life sciences
+#### ZB MED Information Centre for Life Sciences
 
 <a href="https://ror.org/0259fwx54" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit ResearchOrganization</a>
 
-- Url: https://zbmed.de/en
+- URL: <a href="https://zbmed.de/en" target="_blank">https://zbmed.de/en</a>
+
 ### Funding
 
-#### Deutsche forschungsgemeinschaft
+#### Deutsche Forschungsgemeinschaft
 
 <a href="https://ror.org/018mejw64" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Organization</a>
 
-- Url: http://www.dfg.de/en/
+- URL: <a href="http://www.dfg.de/en/" target="_blank">http://www.dfg.de/en/</a>
+
 - Identifier: 460234259
 - Description: Project no. 460234259 (corresponding to the NFDI4DataScience consortium)
-#### Deutsche forschungsgemeinschaft
+#### Deutsche Forschungsgemeinschaft
 
 <a href="https://ror.org/018mejw64" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Organization</a>
 
-- Url: http://www.dfg.de/en/
+- URL: <a href="http://www.dfg.de/en/" target="_blank">http://www.dfg.de/en/</a>
+
 - Identifier: 407518790
 - Description: Project no. 407518790 (corresponding to the STELLA project)
 ### Publications
 
-#### Ontoclue, a framework to compare vector-based approaches for document relatedness using the relish corpus
+#### OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus
 
 <a href="https://doi.org/10.4126/FRL01-006440397" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
 
 - Datepublished: 2023-06-22
-#### Ontoclue, a framework to compare vector-based approaches for document relatedness using the relish corpus - poster
+#### OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster
 
 <a href="https://ceur-ws.org/Vol-3415/paper-38.pdf" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Poster</a>
 
 - Datepublished: 2023-03-01
-#### Ontology clustering with owl2vec*
+#### Ontology Clustering with OWL2Vec*
 
 <a href="https://ceur-ws.org/Vol-2918/short3.pdf" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
 
 - Datepublished: 2021-07-28
-#### Complete medline abstracts corpus between 2015-2019 annotated whatizit text annotation tool
+#### Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool
 
 <a href="https://doi.org/10.5281/zenodo.5035290" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit DataCatalog</a>
 
 - Datepublished: 2021-06-27
-#### Whatizit performance evaluation against craft corpus
+#### Whatizit performance evaluation against CRAFT corpus
 
 <a href="https://doi.org/10.5281/zenodo.4903981" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit DataCatalog</a>
 
 - Datepublished: 2021-06-05
 ### External contributors
 
-#### Ashley Ritchie
+- Ashley Ritchie		<a href="https://zbmed-semtec.github.io/previous_members/#ashley-ritchie" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://zbmed-semtec.github.io/previous_members/#ashley-ritchie" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Ernesto Jimenez-Ruiz		<a href="https://orcid.org/0000-0002-9083-4599" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Ashley
-- Familyname: Ritchie
-#### Ernesto Jimenez-Ruiz
-
-<a href="https://orcid.org/0000-0002-9083-4599" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Ernesto
-- Familyname: Jimenez-Ruiz
 
 
 <script type="application/ld+json">
@@ -314,7 +265,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
 }
 </script>
 
-## Machine-actionable software management plans
+## Machine-actionable Software Management Plans
 
 <p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\projects\2022_maSMP.json" target="_blank"> Get JSON-LD</a></p>
 _Started in 2022-09-01_
@@ -326,162 +277,117 @@ Our project corresponds to an extension of the RDA machine-actionable Data Manag
 ongoing, machine-actionability, software management plans, research software, controlled vocabulary, metadata schema
 ### Current project members
 
-#### Lukas Geist
+- Lukas Geist		<a href="https://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Nelson Quiñones		<a href="https://orcid.org/0000-0002-5037-0443" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Lukas
-- Familyname: Geist
-#### Nelson Quiñones
+- Dhwani Solanki		<a href="https://orcid.org/0009-0004-1529-0095" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0002-5037-0443" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Dietrich Rebholz-Schuhmann		<a href="https://orcid.org/0000-0002-1018-0370" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Nelson
-- Familyname: Quiñones
-#### Dhwani Solanki
+- Leyla Jael Castro		<a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0009-0004-1529-0095" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Dhwani
-- Familyname: Solanki
-#### Dietrich Rebholz-Schuhmann
-
-<a href="https://orcid.org/0000-0002-1018-0370" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Dietrich
-- Familyname: Rebholz-Schuhmann
-#### Leyla Jael Castro
-
-<a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Leyla Jael
-- Familyname: Castro
 ### Previous project members
 
-#### Olga Giraldo
+- Olga Giraldo		<a href="https://orcid.org/0000-0003-2978-8922" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0003-2978-8922" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Olga
-- Familyname: Giraldo
 ### Department
 
-#### Semantic technologies team at zb med
+#### Semantic Technologies team at ZB MED
 
 <a href="https://zbmed-semtec.github.io/" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit ResearchOrganization</a>
 
 ### Research Institute
 
-#### Zb med information centre for life sciences
+#### ZB MED Information Centre for Life Sciences
 
 <a href="https://ror.org/0259fwx54" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit ResearchOrganization</a>
 
-- Url: https://zbmed.de/en
+- URL: <a href="https://zbmed.de/en" target="_blank">https://zbmed.de/en</a>
+
 ### Funding
 
-#### Deutsche forschungsgemeinschaft
+#### Deutsche Forschungsgemeinschaft
 
 <a href="https://ror.org/018mejw64" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Organization</a>
 
-- Url: http://www.dfg.de/en/
+- URL: <a href="http://www.dfg.de/en/" target="_blank">http://www.dfg.de/en/</a>
+
 - Identifier: 460234259
 - Description: Project no. 460234259 (corresponding to the NFDI4DataScience consortium)
-#### European union’s horizon 2020 research and innovation programme
+#### European Union’s Horizon 2020 research and innovation programme
 
 <a href="https://eoscfuture-grants.eu/" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Organization</a>
 
-- Url: https://eoscfuture-grants.eu/
+- URL: <a href="https://eoscfuture-grants.eu/" target="_blank">https://eoscfuture-grants.eu/</a>
+
 - Identifier: 101017536
 - Description: Grant agreement No 101017536, part of the Research Data Alliance and European Open Science Cloud Future call 2022
 ### Publications
 
-#### Metadata model for machine-actionable software management plans
+#### Metadata model for machine-actionable Software Management Plans
 
 <a href="https://github.com/zbmed-semtec/maSMPs" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a>
 
-#### Masmp ontology
+#### maSMP Ontology
 
 <a href="https://doi.org/10.5281/zenodo.8089518" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit DefinedTermSet</a>
 
 - Datepublished: 2023-06-28
-#### Machine-actionable metadata for software and software management plans for nfdi
+#### Machine-Actionable Metadata for Software and Software Management Plans for NFDI
 
 <a href="https://doi.org/10.52825/cordi.v1i.279" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
 
 - Datepublished: 2023-09-07
-#### Machine-actionable metadata for software and software management plans for nfdi - presentation
+#### Machine-Actionable Metadata for Software and Software Management Plans for NFDI - Presentation
 
 <a href="https://doi.org/10.5281/zenodo.8349183" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit DigitalDocument</a>
 
 - Datepublished: 2023-09-15
-#### Workshop machine-actionable software management plans
+#### Workshop machine-actionable Software Management Plans
 
 <a href="https://doi.org/10.5281/zenodo.8087357" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Report</a>
 
 - Datepublished: 2023-06-27
-#### A metadata schema for machine-actionable software management plans
+#### A metadata schema for machine-actionable Software Management Plans
 
 <a href="https://doi.org/10.4126/FRL01-006444988" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
 
 - Datepublished: 2023-06-16
-#### A metadata analysis for machine-actionable software management plans
+#### A metadata analysis for machine-actionable Software Management Plans
 
 <a href="https://ceur-ws.org/Vol-3415/paper-31.pdf" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
 
 - Datepublished: 2023-06-22
-#### A metadata analysis for machine-actionable software management plans - poster
+#### A metadata analysis for machine-actionable Software Management Plans - Poster
 
 <a href="https://doi.org/10.4126/FRL01-006440396" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Poster</a>
 
 - Datepublished: 2023-03-01
-#### A fairification roadmap for elixir software management plans
+#### A FAIRification roadmap for ELIXIR Software Management Plans
 
 <a href="https://doi.org/10.3897/rio.8.e94608" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
 
 - Datepublished: 2022-10-12
-#### A fairification roadmap for elixir software management plans - poster
+#### A FAIRification roadmap for ELIXIR Software Management Plans - Poster
 
 <a href="https://doi.org/10.5281/zenodo.7249674" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Poster</a>
 
 - Datepublished: 2022-10-25
 ### External contributors
 
-#### Joao Cardoso
+- Joao Cardoso		<a href="https://orcid.org/0000-0003-0057-8788" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0003-0057-8788" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Eva Martin del Pico		<a href="https://orcid.org/0000-0001-8324-2897" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Joao
-- Familyname: Cardoso
-#### Eva Martin del Pico
+- Alban Gaignard		<a href="https://orcid.org/0000-0002-3597-8557" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0001-8324-2897" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Yves Vincent Grossman		<a href="https://orcid.org/0000-0002-2880-8947" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Eva
-- Familyname: Martin del Pico
-#### Alban Gaignard
+- Fotis Psomopoulos		<a href="https://orcid.org/0000-0002-0222-4273" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0002-3597-8557" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Elli Papadopoulou		<a href="https://orcid.org/0000-0002-0893-8509" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Alban
-- Familyname: Gaignard
-#### Yves Vincent Grossman
-
-<a href="https://orcid.org/0000-0002-2880-8947" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Yves Vincent
-- Familyname: Grossman
-#### Fotis Psomopoulos
-
-<a href="https://orcid.org/0000-0002-0222-4273" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Fotis
-- Familyname: Psomopoulos
-#### Elli Papadopoulou
-
-<a href="https://orcid.org/0000-0002-0893-8509" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Elli
-- Familyname: Papadopoulou
 
 
 <script type="application/ld+json">
@@ -669,7 +575,7 @@ ongoing, machine-actionability, software management plans, research software, co
 }
 </script>
 
-## Trec document-to-document relevance assessment
+## TREC document-to-document relevance assessment
 
 <p><img src = "../images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\projects\z_2022_TREC_doc2doc_relevance_assessment.json" target="_blank"> Get JSON-LD</a></p>
 _Started in 2022-06-01_
@@ -682,108 +588,66 @@ _Concluded in 2023-03-31_
 document relevance, doc2doc relevance
 ### Previous project members
 
-####  Maria Fernanda Cadena
+-  Maria Fernanda Cadena		<a href="https://orcid.org/0000-0002-5915-8895" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0002-5915-8895" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Tim Fellerhoff		<a href="https://orcid.org/0000-0002-8725-1317" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Familyname: Cadena
-- Givenname:  Maria Fernanda
-#### Tim Fellerhoff
+- Lukas Geist		<a href="https://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0002-8725-1317" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Olga Giraldo		<a href="https://orcid.org/0000-0003-2978-8922" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Tim
-- Familyname: Fellerhoff
-#### Lukas Geist
+- Nelson Quiñones		<a href="https://orcid.org/0000-0002-5037-0443" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Andrea Robayo-Gama		<a href="https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Lukas
-- Familyname: Geist
-#### Olga Giraldo
+- Rohitha Ravinder		<a href="https://orcid.org/0009-0004-4484-6283" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0003-2978-8922" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Dhwani Solanki		<a href="https://orcid.org/0009-0004-1529-0095" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Olga
-- Familyname: Giraldo
-#### Nelson Quiñones
+- Talha Muhammad		<a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://orcid.org/0000-0002-5037-0443" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
+- Dietrich Rebholz-Schuhmann		<a href="https://orcid.org/0000-0002-1018-0370" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-- Givenname: Nelson
-- Familyname: Quiñones
-#### Andrea Robayo-Gama
+- Leyla Jael Castro		<a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
-<a href="https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Familyname: Robayo-Gama
-- Givenname: Andrea
-#### Rohitha Ravinder
-
-<a href="https://orcid.org/0009-0004-4484-6283" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Rohitha
-- Familyname: Ravinder
-#### Dhwani Solanki
-
-<a href="https://orcid.org/0009-0004-1529-0095" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Dhwani
-- Familyname: Solanki
-#### Talha Muhammad
-
-<a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Familyname: Muhammad
-- Givenname: Talha
-#### Dietrich Rebholz-Schuhmann
-
-<a href="https://orcid.org/0000-0002-1018-0370" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Dietrich
-- Familyname: Rebholz-Schuhmann
-#### Leyla Jael Castro
-
-<a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Person</a>
-
-- Givenname: Leyla Jael
-- Familyname: Castro
 ### Department
 
-#### Semantic technologies team at zb med
+#### Semantic Technologies team at ZB MED
 
 <a href="https://zbmed-semtec.github.io/" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit ResearchOrganization</a>
 
 ### Research Institute
 
-#### Zb med information centre for life sciences
+#### ZB MED Information Centre for Life Sciences
 
 <a href="https://ror.org/0259fwx54" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit ResearchOrganization</a>
 
-- Url: https://zbmed.de/en
+- URL: <a href="https://zbmed.de/en" target="_blank">https://zbmed.de/en</a>
+
 ### Funding
 
-#### Deutsche forschungsgemeinschaft
+#### Deutsche Forschungsgemeinschaft
 
 <a href="https://ror.org/018mejw64" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Organization</a>
 
-- Url: http://www.dfg.de/en/
+- URL: <a href="http://www.dfg.de/en/" target="_blank">http://www.dfg.de/en/</a>
+
 - Identifier: 407518790
 - Description: Project no. 407518790 (corresponding to the STELLA project)
 ### Publications
 
-#### Document-to-document relevance assessment for trec genomics track 2005
+#### Document-to-document relevance assessment for TREC Genomics Track 2005
 
 <a href="https://ceur-ws.org/Vol-3415/paper-12.pdf" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
 
 - Datepublished: 2023-06-22
-#### Trec-doc-2-doc-relevance assessment interface
+#### TREC-doc-2-doc-relevance assessment interface
 
 <a href="https://doi.org/10.5281/zenodo.7341391" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareApplication</a>
 
 - Softwareversion: 1.0.0
 - Datepublished: 2022-11-21
-#### Trec-doc-2-doc-relevance
+#### TREC-doc-2-doc-relevance
 
 <a href="https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a>
 
@@ -792,7 +656,7 @@ document relevance, doc2doc relevance
 <a href="https://doi.org/10.5281/zenodo.7338056" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Dataset</a>
 
 - Datepublished: 2022-11-19
-#### Document-to-document relevant assessment for trec genomics track 2005
+#### Document-to-document relevant assessment for TREC Genomics Track 2005
 
 <a href="https://doi.org/10.5281/zenodo.7324822" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit Dataset</a>
 
