@@ -358,7 +358,7 @@ def fromMetadatatoDocs():
                 md = ""
                 if mdFolderName == 'projects':
                     md = f'# {mdFolderName.capitalize()} metadata\n\n'
-                    md = processProjectData(data, jsonFileURL)
+                    md += processProjectData(data, jsonFileURL)
                     docFileProjectsPath = os.path.join(docsProjectPath, jsonFileName.removesuffix('.json') + ".md")
                     with open(docFileProjectsPath, "a", encoding="utf-8") as mdDocFile:
                         mdDocFile.write(md)    

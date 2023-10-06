@@ -1,3 +1,5 @@
+# Projects metadata
+
 ## STELLA Living Labs
 
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\projects\2018_STELLA.json" target="_blank"> Get JSON-LD</a></p>
