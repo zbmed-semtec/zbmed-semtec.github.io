@@ -378,8 +378,8 @@ def fromMetadatatoDocs():
                         mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
     
     #needs to find way not to append the json-ld multiple times
-    with open(docsPath+"/index.md", "a", encoding="utf-8") as indexFile :
-        indexFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(allMetadata, indent=2)}\n</script>\n\n')
+    #with open(docsPath+"/index.md", "a", encoding="utf-8") as indexFile :
+        #indexFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(allMetadata, indent=2)}\n</script>\n\n')
             
         
 fromMetadatatoDocs()
