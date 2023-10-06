@@ -263,7 +263,7 @@ def processProjectData(data, jsonFileURL):
     Returns:
         A markdown text with the rendered metadata.
     """
-    mappings = [("employee", "Current project members"), ("alumni", "Previous project members"), ("member", "External contributors"), ("knowsAbout", "Publications"), ("parentOrganization", "Research Institute"), ("subOrganization", "Sub-projects")]
+    mappings = [("employee", "Current project members"), ("alumni", "Previous project members"), ("member", "External contributors"), ("knowsAbout", "Publications"), ("parentOrganization", "Parent organization, consortium or research project"), ("subOrganization", "Sub-projects")]
     mappings_from = [i[0] for i in mappings]
     mappings_to = [i[1] for i in mappings]
 

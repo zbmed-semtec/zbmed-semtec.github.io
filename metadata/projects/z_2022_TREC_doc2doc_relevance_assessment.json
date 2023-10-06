@@ -71,12 +71,20 @@
     "@id": "https://zbmed-semtec.github.io/",
     "name": "Semantic Technologies team at ZB MED"
   },
-  "parentOrganization": {
-    "@type": "ResearchOrganization",
-    "@id": "https://ror.org/0259fwx54",
-    "name": "ZB MED Information Centre for Life Sciences", 
-    "url": "https://zbmed.de/en"
-  },  
+  "parentOrganization": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://ror.org/0259fwx54",
+      "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften", 
+      "alternateName": "ZB MED Information Centre for Life Sciences", 
+      "url": "https://zbmed.de/"
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "https://stella-project.org/",
+      "name": "STELLA Living Labs Project"
+    }
+  ],   
   "funding": [
     {
       "@type": "Grant",
@@ -84,6 +92,7 @@
         "@type": "Organization",
         "@id": "https://ror.org/018mejw64",
         "name": "Deutsche Forschungsgemeinschaft", 
+        "alternateName": "German Research Foundation",
         "url": "http://www.dfg.de/en/"  
       },
       "identifier": "407518790",
