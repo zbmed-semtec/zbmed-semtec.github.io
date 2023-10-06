@@ -1,6 +1,7 @@
 {
   "@context": "https://schema.org/",
-  "@type": ["ResearchProject", "Consortium"],
+  "@id": "https://zbmed-semtec.github.io/projects/2021_NFDI4DataScience",
+  "@type": "ResearchProject",
   "name": "NFDI4DataScience", 
   "foundingDate": "2021-10-01",
   "description": "The vision of NFDI4DataScience consortium (NFDI4DS) is to support all steps of the complex and interdisciplinary research data lifecycle, including collecting/creating, processing, analyzing, publishing, archiving, and reusing resources in Data Science and Artificial Intelligence.",
@@ -13,12 +14,12 @@
   "subOrganization": [
     {
     "@type": "ResearchProject",
-    "@id": "https://zbmed-semtec.github.io/projects/#ontoclue",
+    "@id": "https://zbmed-semtec.github.io/projects/2021_OntoClue",
     "name": "OntoClue"
     }, 
     {
       "@type": "ResearchProject",
-      "@id": "https://zbmed-semtec.github.io/projects/#machine-actionable-software-management-plans",
+      "@id": "https://zbmed-semtec.github.io/projects/2022_maSMP",
       "name": "Machine-actionable Software Management Plans"
     }
   ],

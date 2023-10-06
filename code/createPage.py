@@ -1,6 +1,7 @@
 import os
 import json
 import subprocess
+import shutil
 
 def createTableLink(data):
     """
@@ -20,7 +21,7 @@ def createTableLink(data):
 
     if idValue and typeValue:
         # Only if @id and @type are in the data and the value are saved then create link
-        visitLink = f'<a href="{idValue}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {typeValue}</a>'
+        visitLink = f'<a href="{idValue}" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit {typeValue}</a>'
         data["@link"] = visitLink
     return data
 
@@ -34,7 +35,7 @@ def createGetJsonLink (jsonFileURL) :
     Returns:
         JSON-LD raw link.
     """
-    return f'<img src = "../images/get.svg" alt="Get JSON-LD"/><a href="{jsonFileURL.replace("github.com", "raw.githubusercontent.com").replace("blob/", "")}" target="_blank"> Get JSON-LD</a>'
+    return f'<img src = "/images/get.svg" alt="Get JSON-LD"/><a href="{jsonFileURL.replace("github.com", "raw.githubusercontent.com").replace("blob/", "")}" target="_blank"> Get JSON-LD</a>'
 
 def complexDataInList(data):
     """
@@ -138,7 +139,7 @@ def renderInnerTable(obj):
     valueInnerType = ""
     for propertyInner, valueInner in obj.items():
         if propertyInner == "@id":
-            link = fr'<a href="{valueInner}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {valueInnerType} Object</a>'
+            link = fr'<a href="{valueInner}" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit {valueInnerType} Object</a>'
             tableMD += f"\n<tr>{link}\n</tr>"
         elif propertyInner == "@type":
             valueInnerType = valueInner
@@ -244,7 +245,7 @@ def processNamesInProject(item) :
     if "@type" in item and "@id" in item:   
         subTypeURL = item["@type"]
         idURL = item["@id"]
-        md += f'<a href="{idURL}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
+        md += f'<a href="{idURL}" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
     for prop, val in item.items(): 
         if prop not in ["@type", "@id", "name", "funder", "givenName", "familyName"]:
             if prop == 'url':
@@ -305,7 +306,7 @@ def processProjectData(data, jsonFileURL):
                             subTypeURL = value.get("@type", "")
                             subidURL = value.get("@id", "")
                             if subTypeURL and subidURL:
-                                md += f'<a href="{subidURL}" target="_blank"><img src = "../images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
+                                md += f'<a href="{subidURL}" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
                         if subProperty:
                             if subProperty not in ["@type", "@id", "name"]:
                                 if subProperty == "url" :
@@ -336,16 +337,15 @@ def fromMetadatatoDocs():
     metadataPath = os.path.join(currentPath, "metadata")
     docsPath = os.path.join(currentPath, "docs")
 
+    docsProjectPath = docsPath + "/projects/"
+    shutil.rmtree(docsProjectPath)
+    os.makedirs(docsProjectPath)
+
     metadataFolderList = os.listdir(metadataPath)
 
     for mdFolderName in metadataFolderList:
         mdFolderPath = os.path.join(metadataPath, mdFolderName)
         mdFileList = os.listdir(mdFolderPath)
-
-        docFilePath = os.path.join(docsPath, mdFolderName + ".md")
-        md = f'# {mdFolderName.capitalize()} metadata\n\n'
-        with open(docFilePath, "w", encoding="utf-8") as mdDocFile:
-            mdDocFile.write(md)
         
         allJsonFileList = [fileName for fileName in mdFileList if fileName.endswith(".json")]
 
@@ -357,12 +357,19 @@ def fromMetadatatoDocs():
                 data = json.load(jsonFile)
                 md = ""
                 if mdFolderName == 'projects':
+                    md = f'# {mdFolderName.capitalize()} metadata\n\n'
                     md = processProjectData(data, jsonFileURL)
-                else: 
+                    docFileProjectsPath = os.path.join(docsProjectPath, jsonFileName.removesuffix('.json') + ".md")
+                    with open(docFileProjectsPath, "a", encoding="utf-8") as mdDocFile:
+                        mdDocFile.write(md)    
+                        mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
+                else:                     
+                    md = f'# {mdFolderName.capitalize()} metadata\n\n'
                     md = generateMDTableFromJSON(data, jsonFileURL)
-                with open(docFilePath, "a", encoding="utf-8") as mdDocFile:
-                    mdDocFile.write(md)    
-                    mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
+                    docFilePath = os.path.join(docsPath, mdFolderName + ".md")
+                    with open(docFilePath, "a", encoding="utf-8") as mdDocFile:
+                        mdDocFile.write(md)    
+                        mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
             
         
 fromMetadatatoDocs()

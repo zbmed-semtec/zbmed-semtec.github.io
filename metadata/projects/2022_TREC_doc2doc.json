@@ -1,5 +1,6 @@
 {
   "@context": "https://schema.org/",
+  "@id": "https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc",
   "@type": "ResearchProject",  
   "name": "TREC document-to-document relevance assessment", 
   "foundingDate": "2022-06-01",
