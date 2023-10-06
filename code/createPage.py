@@ -346,8 +346,12 @@ def fromMetadatatoDocs():
     for mdFolderName in metadataFolderList:
         mdFolderPath = os.path.join(metadataPath, mdFolderName)
         mdFileList = os.listdir(mdFolderPath)
-        
+        docFilePath = os.path.join(docsPath, mdFolderName + ".md")
         allJsonFileList = [fileName for fileName in mdFileList if fileName.endswith(".json")]
+
+        with open(docFilePath, "w", encoding="utf-8") as mdDocFile:
+            md = f'# {mdFolderName.capitalize()} metadata\n\n'
+            mdDocFile.write(md)
 
         for jsonFileName in allJsonFileList:
             jsonFilePath = os.path.join(mdFolderPath, jsonFileName)
@@ -363,10 +367,8 @@ def fromMetadatatoDocs():
                     with open(docFileProjectsPath, "a", encoding="utf-8") as mdDocFile:
                         mdDocFile.write(md)    
                         mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
-                else:                     
-                    md = f'# {mdFolderName.capitalize()} metadata\n\n'
-                    md = generateMDTableFromJSON(data, jsonFileURL)
-                    docFilePath = os.path.join(docsPath, mdFolderName + ".md")
+                else:                                         
+                    md = generateMDTableFromJSON(data, jsonFileURL)                    
                     with open(docFilePath, "a", encoding="utf-8") as mdDocFile:
                         mdDocFile.write(md)    
                         mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
