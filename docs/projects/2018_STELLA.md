@@ -58,7 +58,7 @@ Evaluation framework, A/B testing, Interlinking, Information Retrieval, Recommen
 
 #### ir_metadata: An Extensible Metadata Schema for IR Experiments
 
-<a href="https://epub.uni-regensburg.de/44953/1/isi_breuer_schaer.pdf" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
+<a href="https://arxiv.org/abs/2207.08922" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
 
 - Datepublished: 2022
 #### Validating Simulations of User Query Variants
@@ -222,7 +222,7 @@ Evaluation framework, A/B testing, Interlinking, Information Retrieval, Recommen
   "knowsAbout": [
     {
       "@type": "ScholarlyArticle",
-      "@id": "https://epub.uni-regensburg.de/44953/1/isi_breuer_schaer.pdf",
+      "@id": "https://arxiv.org/abs/2207.08922",
       "name": "ir_metadata: An Extensible Metadata Schema for IR Experiments",
       "datePublished": "2022"
     },
