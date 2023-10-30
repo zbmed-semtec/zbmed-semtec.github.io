@@ -54,7 +54,7 @@ Evaluation framework, A/B testing, Interlinking, Information Retrieval, Recommen
 
 - Identifier: 407518790
 - Description: Project no. 407518790 (corresponding to the STELLA project)
-### Publications
+### Outcomes
 
 #### ir_metadata: An Extensible Metadata Schema for IR Experiments
 

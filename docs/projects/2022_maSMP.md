@@ -64,7 +64,7 @@ ongoing, machine-actionability, software management plans, research software, co
 
 - Identifier: 101017536
 - Description: Grant agreement No 101017536, part of the Research Data Alliance and European Open Science Cloud Future call 2022
-### Publications
+### Outcomes
 
 #### Metadata model for machine-actionable Software Management Plans
 

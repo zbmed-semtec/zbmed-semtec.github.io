@@ -79,7 +79,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
 
 - Identifier: 407518790
 - Description: Project no. 407518790 (corresponding to the STELLA project)
-### Publications
+### Outcomes
 
 #### OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus
 

@@ -65,7 +65,7 @@ document relevance, doc2doc relevance
 
 - Identifier: 407518790
 - Description: Project no. 407518790 (corresponding to the STELLA project)
-### Publications
+### Outcomes
 
 #### Document-to-document relevance assessment for TREC Genomics Track 2005
 
