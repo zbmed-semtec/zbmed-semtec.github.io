@@ -8,20 +8,25 @@
   "url": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
 
   "author": [
-  {
-    "@type": "Person",
-    "@id": "https://orcid.org/0009-0004-0369-5677",
-    "familyName": "Lahoria", 
-    "givenName": "Honey"
-  },
-  {
+    {
       "@type": "Person",
-      "@id": "https://orcid.org/0000-0003-3986-0510",
-      "familyName": "Castro", 
-      "givenName": "Leyla Jael"
-  }
+      "@id": "https://orcid.org/0009-0004-0369-5677",
+      "familyName": "Lahoria", 
+      "givenName": "Honey"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3986-0510",
+        "familyName": "Castro", 
+        "givenName": "Leyla Jael"
+    }
   ],
-  "license": "https://spdx.org/licenses/MIT.html",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/MIT.html",
+    "name": "MIT License",
+    "url": "https://opensource.org/license/mit/"
+  },
 
   "codeRepository": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
   "programmingLanguage": ["Python", "MKDocs"],

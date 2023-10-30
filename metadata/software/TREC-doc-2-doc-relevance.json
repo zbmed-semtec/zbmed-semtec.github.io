@@ -51,7 +51,12 @@
         "givenName": "Leyla Jael"
     }
   ],
-  "license": "https://spdx.org/licenses/MIT.html",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/MIT.html",
+    "name": "MIT License",
+    "url": "https://opensource.org/license/mit/"
+  },
   "citation": "Talha M, Geist L, Fellerhof T, Ravinder R, Giraldo O, Rebholz-Schuhmann D, and Castro LJ. (2022). TREC-doc-2-doc-relevance assessment interface (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7341391",
 
   "codeRepository": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",

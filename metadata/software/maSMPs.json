@@ -45,7 +45,13 @@
         "givenName": "Leyla Jael"
     }
   ],
-  "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "name": "Creative Commons Attribution 4.0 International", 
+    "alternateName": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
   "citation": "Giraldo O, Geist L, Quiñones N, Solanki D, Rebholz-Schuhmann D, Castro LJ. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2023. doi:10.5281/zenodo.8089518",
   "codeRepository": "https://github.com/zbmed-semtec/maSMPs",
   "programmingLanguage": [

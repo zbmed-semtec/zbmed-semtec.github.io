@@ -45,7 +45,12 @@
         "givenName": "Leyla Jael"
     }
   ],
-  "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/GPL-3.0-only.html",
+    "name": "GPLv3",
+    "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+  },
 
   "codeRepository": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
   "programmingLanguage": [
