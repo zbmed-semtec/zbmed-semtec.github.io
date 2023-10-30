@@ -5,7 +5,7 @@
       "@type": "CreativeWork",
       "@id": "ro-crate-metadata.json",
       "http://purl.org/dc/terms/conformsTo": { 
-        "@id": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT"
+        "@id": "https://w3id.org/ro/crate/1.1"
       },
       "description": "RO-Crate metadata file descriptor corresponding to the research project STELLA",
       "about": { "@id": "./" }
@@ -14,115 +14,167 @@
     {
       "@type": "Dataset",
       "@id": "./",
-      "name": "Dataset container for the research project STELLA",
-      "description": "Dataset container for the research project STELLA",
+      "name": "Dataset container for the DFG research project STELLA",
+      "description": "This dataset is about the DFG research project STELLA described with its metadata and a list, via hasPart, of its outcomes.",
+      "datePublished": "2023-10-30",
+      "creativeWorkStatus": "incomplete",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "about": {
         "@type": "ResearchProject",
         "@id": "https://zbmed-semtec.github.io/projects/2018_STELLA/"
       },
       "hasPart": [
         {
-          "@type": "ScholarlyArticle",
-          "@id": "https://arxiv.org/abs/2207.08922",
-          "name": "ir_metadata: An Extensible Metadata Schema for IR Experiments",
-          "datePublished": "2022"
+          "@id": "https://arxiv.org/abs/2207.08922"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://doi.org/10.1007/978-3-030-99736-66",
-          "name": "Validating Simulations of User Query Variants",
-          "datePublished": "2022"
+          "@id": "https://doi.org/10.1007/978-3-030-99736-66"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://doi.org/10.1007/978-3-031-13643-6_11",
-          "name": "Evaluating Research Dataset Recommendations in a Living Lab",
-          "datePublished": "2022"
+          "@id": "https://doi.org/10.1007/978-3-031-13643-6_11"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://epub.uni-regensburg.de/44953/1/isi_breuer_schaer.pdf",
-          "name": "A Living Lab Architecture for Reproducible Shared Task Experimentation",
-          "datePublished": "2021"
+          "@id": "https://epub.uni-regensburg.de/44953/1/isi_breuer_schaer.pdf"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://doi.org/10.1007/978-3-030-85251-1_5",
-          "name": "Evaluating Elements of Web-based Data Enrichment for Pseudo-Relevance Feedback Retrieval",
-          "datePublished": "2021"
+          "@id": "https://doi.org/10.1007/978-3-030-85251-1_5"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://doi.org/10.1007/978-3-030-72240-151",
-          "name": "repro_eval: A Python Interface to Reproducibility Measures of System-Oriented IR Experiments",
-          "datePublished": "2021"
+          "@id": "https://doi.org/10.1007/978-3-030-72240-151"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://doi.org/10.1007/978-3-030-72240-177",
-          "name": "Living Lab Evaluation for Life and Social Sciences Search Platforms - LiLAS at CLEF 2021",
-          "datePublished": "2021"
+          "@id": "https://doi.org/10.1007/978-3-030-72240-177"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://doi.org/10.1007/978-3-030-85251-1_25",
-          "name": "Overview of LiLAS 2021 - Living Labs for Academic Search",
-          "datePublished": "2021"
+          "@id": "https://doi.org/10.1007/978-3-030-85251-1_25"
+          
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://ceur-ws.org/Vol-2936/paper-143.pdf",
-          "name": "Overview of LiLAS 2021 - Living Labs for Academic Search (Extended Overview)",
-          "datePublished": "2021"
+          "@id": "https://ceur-ws.org/Vol-2936/paper-143.pdf"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "http://dblp.uni-trier.de/db/conf/sigir/sigir2020.html#Breuer0FMSSS20",
-          "name": "How to Measure the Reproducibility of System-oriented IR Experiments",
-          "datePublished": "2020"
+          "@id": "http://dblp.uni-trier.de/db/conf/sigir/sigir2020.html#Breuer0FMSSS20"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "http://ceur-ws.org/Vol-2591/paper-10.pdf",
-          "name": "Relations Between Relevance Assessments, Bibliometrics and Altmetrics",
-          "datePublished": "2020"
+          "@id": "http://ceur-ws.org/Vol-2591/paper-10.pdf"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://doi.org/10.1007/978-3-030-45442-5_77",
-          "name": "Reproducible Online Search Experiments",
-          "datePublished": "2020"
+          "@id": "https://doi.org/10.1007/978-3-030-45442-5_77"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://doi.org/10.1007/s13222-020-00338-8",
-          "name": "Editorial",
-          "datePublished": "2020"
+          "@id": "https://doi.org/10.1007/s13222-020-00338-8"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://doi.org/10.1007/978-3-030-45442-5_75",
-          "name": "Living Labs for Academic Search at CLEF 2020",
-          "datePublished": "2020"
+          "@id": "https://doi.org/10.1007/978-3-030-45442-5_75"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://ceur-ws.org/Vol-2696/paper_273.pdf",
-          "name": "Overview of LiLAS 2020 - Living Labs for Academic Search Workshop Lab (extended abstract)",
-          "datePublished": "2020"
+          "@id": "https://ceur-ws.org/Vol-2696/paper_273.pdf"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://doi.org/10.1007/978-3-030-58219-7_24",
-          "name": "Overview of LiLAS 2020 - Living Labs for Academic Search Workshop Lab",
-          "datePublished": "2020"
+          "@id": "https://doi.org/10.1007/978-3-030-58219-7_24"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://doi.org/10.1007/s13222-020-00335-x",
-          "name": "Evaluation Infrastructures for Academic Shared Tasks",
-          "datePublished": "2020"
+          "@id": "https://doi.org/10.1007/s13222-020-00335-x"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "https://ceur-ws.org/Vol-2409/docker03.pdf",
-          "name": "Dockerizing Automatic Routing Runs for The Open-Source IR Replicability Challenge (OSIRRC 2019)",
-          "datePublished": "2019"
+          "@id": "https://ceur-ws.org/Vol-2409/docker03.pdf"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "http://ceur-ws.org/Vol-2380/paper_84.pdf",
-          "name": "Replicability and Reproducibility of Automatic Routing Runs",
-          "datePublished": "2019"
+          "@id": "http://ceur-ws.org/Vol-2380/paper_84.pdf"
         },{
-          "@type": "ScholarlyArticle",
-          "@id": "http://ceur-ws.org/Vol-2409/position01.pdf",
-          "name": "STELLA: Towards a Framework for the Reproducibility of Online Search Experiments",
-          "datePublished": "2019"
+          "@id": "http://ceur-ws.org/Vol-2409/position01.pdf"
         }
       ]
+    },
+
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://arxiv.org/abs/2207.08922",
+      "name": "ir_metadata: An Extensible Metadata Schema for IR Experiments",
+      "datePublished": "2022"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1007/978-3-030-99736-66",
+      "name": "Validating Simulations of User Query Variants",
+      "datePublished": "2022"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1007/978-3-031-13643-6_11",
+      "name": "Evaluating Research Dataset Recommendations in a Living Lab",
+      "datePublished": "2022"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://epub.uni-regensburg.de/44953/1/isi_breuer_schaer.pdf",
+      "name": "A Living Lab Architecture for Reproducible Shared Task Experimentation",
+      "datePublished": "2021"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1007/978-3-030-85251-1_5",
+      "name": "Evaluating Elements of Web-based Data Enrichment for Pseudo-Relevance Feedback Retrieval",
+      "datePublished": "2021"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1007/978-3-030-72240-151",
+      "name": "repro_eval: A Python Interface to Reproducibility Measures of System-Oriented IR Experiments",
+      "datePublished": "2021"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1007/978-3-030-72240-177",
+      "name": "Living Lab Evaluation for Life and Social Sciences Search Platforms - LiLAS at CLEF 2021",
+      "datePublished": "2021"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1007/978-3-030-85251-1_25",
+      "name": "Overview of LiLAS 2021 - Living Labs for Academic Search",
+      "datePublished": "2021"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://ceur-ws.org/Vol-2936/paper-143.pdf",
+      "name": "Overview of LiLAS 2021 - Living Labs for Academic Search (Extended Overview)",
+      "datePublished": "2021"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "http://dblp.uni-trier.de/db/conf/sigir/sigir2020.html#Breuer0FMSSS20",
+      "name": "How to Measure the Reproducibility of System-oriented IR Experiments",
+      "datePublished": "2020"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "http://ceur-ws.org/Vol-2591/paper-10.pdf",
+      "name": "Relations Between Relevance Assessments, Bibliometrics and Altmetrics",
+      "datePublished": "2020"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1007/978-3-030-45442-5_77",
+      "name": "Reproducible Online Search Experiments",
+      "datePublished": "2020"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1007/s13222-020-00338-8",
+      "name": "Editorial",
+      "datePublished": "2020"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1007/978-3-030-45442-5_75",
+      "name": "Living Labs for Academic Search at CLEF 2020",
+      "datePublished": "2020"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://ceur-ws.org/Vol-2696/paper_273.pdf",
+      "name": "Overview of LiLAS 2020 - Living Labs for Academic Search Workshop Lab (extended abstract)",
+      "datePublished": "2020"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1007/978-3-030-58219-7_24",
+      "name": "Overview of LiLAS 2020 - Living Labs for Academic Search Workshop Lab",
+      "datePublished": "2020"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1007/s13222-020-00335-x",
+      "name": "Evaluation Infrastructures for Academic Shared Tasks",
+      "datePublished": "2020"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "https://ceur-ws.org/Vol-2409/docker03.pdf",
+      "name": "Dockerizing Automatic Routing Runs for The Open-Source IR Replicability Challenge (OSIRRC 2019)",
+      "datePublished": "2019"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "http://ceur-ws.org/Vol-2380/paper_84.pdf",
+      "name": "Replicability and Reproducibility of Automatic Routing Runs",
+      "datePublished": "2019"
+    },{
+      "@type": "ScholarlyArticle",
+      "@id": "http://ceur-ws.org/Vol-2409/position01.pdf",
+      "name": "STELLA: Towards a Framework for the Reproducibility of Online Search Experiments",
+      "datePublished": "2019"
     }
   ]
 }
