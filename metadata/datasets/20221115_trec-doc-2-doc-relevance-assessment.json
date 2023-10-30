@@ -10,7 +10,13 @@
   "keywords":  [
     "Document-to-document relevance", "TREC GEnomics Track 2005", "relevance assessment"
   ], 
-  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "name": "Creative Commons Attribution 4.0 International", 
+    "alternateName": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
   "url": "https://zenodo.org/record/7324822",
   
   "about": "Document-to-document relevant assessment for TREC Genomics Track 2005",
