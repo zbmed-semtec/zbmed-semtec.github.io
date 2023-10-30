@@ -32,7 +32,25 @@
 </tr>
 <tr>
 <td>license</td>
+<td><ul>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+</tr>
+<tr>
+<td>name</td>
+<td>Creative Commons Attribution 4.0 International</td>
+</tr>
+<tr>
+<td>alternateName</td>
+<td>CC BY 4.0</td>
+</tr>
+<tr>
+<td>url</td>
 <td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">https://creativecommons.org/licenses/by/4.0/</a></td>
+</tr></tbody>
+</table></li>
+<hr></hr></ul></td>
 </tr>
 <tr>
 <td>url</td>
@@ -133,7 +151,13 @@
     "manual annotation",
     "performance"
   ],
-  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "name": "Creative Commons Attribution 4.0 International",
+    "alternateName": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
   "url": "https://zenodo.org/record/4903981",
   "about": "Performance assessment",
   "datePublished": "2021-06-05",
@@ -197,7 +221,25 @@
 </tr>
 <tr>
 <td>license</td>
+<td><ul>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+</tr>
+<tr>
+<td>name</td>
+<td>Creative Commons Attribution 4.0 International</td>
+</tr>
+<tr>
+<td>alternateName</td>
+<td>CC BY 4.0</td>
+</tr>
+<tr>
+<td>url</td>
 <td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">https://creativecommons.org/licenses/by/4.0/</a></td>
+</tr></tbody>
+</table></li>
+<hr></hr></ul></td>
 </tr>
 <tr>
 <td>url</td>
@@ -311,7 +353,13 @@
     "Medline",
     "text-mining"
   ],
-  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "name": "Creative Commons Attribution 4.0 International",
+    "alternateName": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
   "url": "https://zenodo.org/record/5035290",
   "about": "Pattern-matching ontological annotation",
   "datePublished": "2021-06-27",
@@ -379,7 +427,25 @@
 </tr>
 <tr>
 <td>license</td>
+<td><ul>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+</tr>
+<tr>
+<td>name</td>
+<td>Creative Commons Attribution 4.0 International</td>
+</tr>
+<tr>
+<td>alternateName</td>
+<td>CC BY 4.0</td>
+</tr>
+<tr>
+<td>url</td>
 <td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">https://creativecommons.org/licenses/by/4.0/</a></td>
+</tr></tbody>
+</table></li>
+<hr></hr></ul></td>
 </tr>
 <tr>
 <td>url</td>
@@ -528,7 +594,13 @@
     "TREC GEnomics Track 2005",
     "relevance assessment"
   ],
-  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "name": "Creative Commons Attribution 4.0 International",
+    "alternateName": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
   "url": "https://zenodo.org/record/7324822",
   "about": "Document-to-document relevant assessment for TREC Genomics Track 2005",
   "datePublished": "2022-11-15",
@@ -612,7 +684,25 @@
 </tr>
 <tr>
 <td>license</td>
+<td><ul>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+</tr>
+<tr>
+<td>name</td>
+<td>Creative Commons Attribution 4.0 International</td>
+</tr>
+<tr>
+<td>alternateName</td>
+<td>CC BY 4.0</td>
+</tr>
+<tr>
+<td>url</td>
 <td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">https://creativecommons.org/licenses/by/4.0/</a></td>
+</tr></tbody>
+</table></li>
+<hr></hr></ul></td>
 </tr>
 <tr>
 <td>url</td>
@@ -734,7 +824,13 @@
     "TREC Genomics Track 2005",
     "relevance assessment"
   ],
-  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "name": "Creative Commons Attribution 4.0 International",
+    "alternateName": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
   "url": "https://zenodo.org/record/7338056",
   "about": "Inter-annotator aggreement for relevance assessment",
   "datePublished": "2022-11-19",
@@ -806,7 +902,25 @@
 </tr>
 <tr>
 <td>license</td>
+<td><ul>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+</tr>
+<tr>
+<td>name</td>
+<td>Creative Commons Attribution 4.0 International</td>
+</tr>
+<tr>
+<td>alternateName</td>
+<td>CC BY 4.0</td>
+</tr>
+<tr>
+<td>url</td>
 <td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">https://creativecommons.org/licenses/by/4.0/</a></td>
+</tr></tbody>
+</table></li>
+<hr></hr></ul></td>
 </tr>
 <tr>
 <td>url</td>
@@ -912,7 +1026,13 @@
     "Word embeddings",
     "Document embeddings"
   ],
-  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "name": "Creative Commons Attribution 4.0 International",
+    "alternateName": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
   "url": "https://zenodo.org/record/7793384",
   "measurementTechnique": [
     "Word embeddings",

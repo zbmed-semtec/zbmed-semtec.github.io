@@ -50,7 +50,21 @@
 </tr>
 <tr>
 <td>license</td>
-<td><a href="https://spdx.org/licenses/Apache-2.0.html" target="_blank">https://spdx.org/licenses/Apache-2.0.html</a></td>
+<td><ul>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://spdx.org/licenses/Apache-2.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+</tr>
+<tr>
+<td>name</td>
+<td>APACHE LICENSE, VERSION 2.0</td>
+</tr>
+<tr>
+<td>url</td>
+<td><a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">https://www.apache.org/licenses/LICENSE-2.0</a></td>
+</tr></tbody>
+</table></li>
+<hr></hr></ul></td>
 </tr>
 <tr>
 <td>citation</td>
@@ -105,7 +119,12 @@
       "givenName": "Leyla Jael"
     }
   ],
-  "license": "https://spdx.org/licenses/Apache-2.0.html",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/Apache-2.0.html",
+    "name": "APACHE LICENSE, VERSION 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+  },
   "citation": [
     "Georgi L, Castro LJ. BioHackathon Outcomes GitHub Medatada. GitHub 2020. https://github.com/zbmed-semtec/BioHackOutcomes",
     "Castro LJ, Martin C, Lazarov G, Cernoskova D, Takatsuki T, Harrow J, and Rebholz-Schuhmann D. (2021, August 10). Measuring outcomes and impact from the BioHackathon Europe. https://doi.org/10.37044/osf.io/3dxhg"
@@ -228,7 +247,25 @@
 </tr>
 <tr>
 <td>license</td>
-<td><a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a></td>
+<td><ul>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+</tr>
+<tr>
+<td>name</td>
+<td>Creative Commons Attribution 4.0 International</td>
+</tr>
+<tr>
+<td>alternateName</td>
+<td>CC BY 4.0</td>
+</tr>
+<tr>
+<td>url</td>
+<td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">https://creativecommons.org/licenses/by/4.0/</a></td>
+</tr></tbody>
+</table></li>
+<hr></hr></ul></td>
 </tr>
 <tr>
 <td>citation</td>
@@ -305,7 +342,13 @@
       "givenName": "Leyla Jael"
     }
   ],
-  "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "name": "Creative Commons Attribution 4.0 International",
+    "alternateName": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
   "citation": "Giraldo O, Geist L, Qui\u00f1ones N, Solanki D, Rebholz-Schuhmann D, Castro LJ. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2023. doi:10.5281/zenodo.8089518",
   "codeRepository": "https://github.com/zbmed-semtec/maSMPs",
   "programmingLanguage": [
@@ -426,7 +469,21 @@
 </tr>
 <tr>
 <td>license</td>
-<td><a href="https://spdx.org/licenses/GPL-3.0-only.html" target="_blank">https://spdx.org/licenses/GPL-3.0-only.html</a></td>
+<td><ul>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://spdx.org/licenses/GPL-3.0-only.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+</tr>
+<tr>
+<td>name</td>
+<td>GPLv3</td>
+</tr>
+<tr>
+<td>url</td>
+<td><a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">https://www.gnu.org/licenses/gpl-3.0.en.html</a></td>
+</tr></tbody>
+</table></li>
+<hr></hr></ul></td>
 </tr>
 <tr>
 <td>codeRepository</td>
@@ -499,7 +556,12 @@
       "givenName": "Leyla Jael"
     }
   ],
-  "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/GPL-3.0-only.html",
+    "name": "GPLv3",
+    "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+  },
   "codeRepository": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
   "programmingLanguage": [
     "JavaScript",
@@ -577,7 +639,21 @@
 </tr>
 <tr>
 <td>license</td>
-<td><a href="https://spdx.org/licenses/GPL-3.0-only.html" target="_blank">https://spdx.org/licenses/GPL-3.0-only.html</a></td>
+<td><ul>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://spdx.org/licenses/GPL-3.0-only.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+</tr>
+<tr>
+<td>name</td>
+<td>GPLv3</td>
+</tr>
+<tr>
+<td>url</td>
+<td><a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">https://www.gnu.org/licenses/gpl-3.0.en.html</a></td>
+</tr></tbody>
+</table></li>
+<hr></hr></ul></td>
 </tr>
 <tr>
 <td>citation</td>
@@ -638,7 +714,12 @@
       "givenName": "Dietrich"
     }
   ],
-  "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/GPL-3.0-only.html",
+    "name": "GPLv3",
+    "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+  },
   "citation": [
     "Ravinder R, Castro LJ, and Rebholz-Schuhmann D. (2023). Protein Function Embeddings: First Beta Release of Datasets (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7793384",
     "Ravinder R, Castro LJ, and Rebholz-Schuhmann D. (2023). Protein Function Embeddings: First Beta Release (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7781870"
@@ -747,7 +828,21 @@
 </tr>
 <tr>
 <td>license</td>
-<td><a href="https://spdx.org/licenses/GPL-3.0-only.html" target="_blank">https://spdx.org/licenses/GPL-3.0-only.html</a></td>
+<td><ul>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://spdx.org/licenses/GPL-3.0-only.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+</tr>
+<tr>
+<td>name</td>
+<td>GPLv3</td>
+</tr>
+<tr>
+<td>url</td>
+<td><a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">https://www.gnu.org/licenses/gpl-3.0.en.html</a></td>
+</tr></tbody>
+</table></li>
+<hr></hr></ul></td>
 </tr>
 <tr>
 <td>citation</td>
@@ -820,7 +915,12 @@
       "givenName": "Leyla Jael"
     }
   ],
-  "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/GPL-3.0-only.html",
+    "name": "GPLv3",
+    "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+  },
   "citation": [
     "Qui\u00f1ones N, Canales C, Torres J, Rebholz-Schuhmann D, and Castro LJ. Topic categorization for Medline Abstracts. GitHub 2022. https://github.com/zbmed-semtec/topic-categorization-system",
     "Qui\u00f1ones N, Canales C, Torres J, Rebholz-Schuhmann D, Castro LJ, Aristizabal A. Multilabel-classification task for Medline abstracts - Poster. 2023. In: SWAT4HCLS 2023 poster archival. PUBLISSO. https://doi.org/10.4126/FRL01-006440395",
@@ -957,7 +1057,21 @@
 </tr>
 <tr>
 <td>license</td>
-<td><a href="https://spdx.org/licenses/MIT.html" target="_blank">https://spdx.org/licenses/MIT.html</a></td>
+<td><ul>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://spdx.org/licenses/MIT.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+</tr>
+<tr>
+<td>name</td>
+<td>MIT License</td>
+</tr>
+<tr>
+<td>url</td>
+<td><a href="https://opensource.org/license/mit/" target="_blank">https://opensource.org/license/mit/</a></td>
+</tr></tbody>
+</table></li>
+<hr></hr></ul></td>
 </tr>
 <tr>
 <td>citation</td>
@@ -1040,7 +1154,12 @@
       "givenName": "Leyla Jael"
     }
   ],
-  "license": "https://spdx.org/licenses/MIT.html",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/MIT.html",
+    "name": "MIT License",
+    "url": "https://opensource.org/license/mit/"
+  },
   "citation": "Talha M, Geist L, Fellerhof T, Ravinder R, Giraldo O, Rebholz-Schuhmann D, and Castro LJ. (2022). TREC-doc-2-doc-relevance assessment interface (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7341391",
   "codeRepository": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
   "programmingLanguage": [
@@ -1105,7 +1224,21 @@
 </tr>
 <tr>
 <td>license</td>
-<td><a href="https://spdx.org/licenses/MIT.html" target="_blank">https://spdx.org/licenses/MIT.html</a></td>
+<td><ul>
+<li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
+<tbody>
+<tr><a href="https://spdx.org/licenses/MIT.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+</tr>
+<tr>
+<td>name</td>
+<td>MIT License</td>
+</tr>
+<tr>
+<td>url</td>
+<td><a href="https://opensource.org/license/mit/" target="_blank">https://opensource.org/license/mit/</a></td>
+</tr></tbody>
+</table></li>
+<hr></hr></ul></td>
 </tr>
 <tr>
 <td>codeRepository</td>
@@ -1156,7 +1289,12 @@
       "givenName": "Leyla Jael"
     }
   ],
-  "license": "https://spdx.org/licenses/MIT.html",
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/MIT.html",
+    "name": "MIT License",
+    "url": "https://opensource.org/license/mit/"
+  },
   "codeRepository": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
   "programmingLanguage": [
     "Python",
