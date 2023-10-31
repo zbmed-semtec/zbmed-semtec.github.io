@@ -11,14 +11,6 @@
 <td>givenName</td>
 <td>Andrea</td>
 </tr>
-<tr>
-<td>url</td>
-<td><ul>
-<li><a href="http://url1" target="_blank">http://url1</a></li>
-<hr></hr>
-<li>url2</li>
-<hr></hr></ul></td>
-</tr>
 </tbody>
 </table>
 
@@ -28,11 +20,7 @@
   "@type": "Person",
   "@id": "https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama",
   "familyName": "Robayo-Gama",
-  "givenName": "Andrea",
-  "url": [
-    "http://url1",
-    "url2"
-  ]
+  "givenName": "Andrea"
 }
 </script>
 
