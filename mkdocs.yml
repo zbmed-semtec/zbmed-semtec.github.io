@@ -3,14 +3,15 @@ site_url: https://zbmed-semtec.github.io/
 nav:
     - Home: index.md
     - Projects : 
-      - STELLA Living Labs : projects/2018_STELLA.md
-      - NFDI4DataScience : projects/2021_NFDI4DataScience.md
       - OntoClue : projects/2021_OntoClue.md
       - maSMPs: projects/2022_maSMP.md
       - TREC doc2doc: projects/2022_TREC_doc2doc.md
     - Software: software.md
     - Vocabularies: vocabularies.md
     - Datasets: datasets.md
+    - Consortia: 
+      - STELLA Living Labs: consortia/2018_STELLA.md
+      - NFDI4DataScience: consortia/2021_NFDI4DataScience.md
     - Current members: current_members.md
     - Previous members: previous_members.md
 markdown_extensions:

@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org/",
+  "@id": "https://gepris.dfg.de/gepris/projekt/407518790",
+  "@type": "ResearchProject",
+  "name": "STELLA Living Labs", 
+  "foundingDate": ["2018-12-01", "2023-08-01"],
+  "description": "The DFG-funded STELLA project aims to create an evaluation infrastructure that allows to evaluate search and recommendation services within productive web-based search systems with real users.",
+  "keywords": "Evaluation framework, A/B testing, Interlinking, Information Retrieval, Recommendation System",
+  "url": [
+    "https://stella-project.org/", 
+    "https://www.th-koeln.de/en/information-science-and-communication-studies/stella---infrastructures-for-living-labs_68533.php",
+    "https://zbmed-semtec.github.io/consortia/2018_STELLA"
+  ],
+  "parentOrganization": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://ror.org/018afyw53",
+      "name": "GESIS - Leibniz-Institut für Sozialwissenschaften", 
+      "alternateName": "GESIS - Leibniz Institut for the Social Sciences", 
+      "url": "https://www.gesis.org/"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://ror.org/014nnvj65",
+      "name": "Technische Hochschule Köln", 
+      "alternateName": "TH Köln - University of Applied Sciences ",
+      "url": "https://www.th-koeln.de/"
+    },
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://ror.org/0259fwx54",
+      "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften", 
+      "alternateName": "ZB MED Information Centre for Life Sciences", 
+      "url": "https://zbmed.de/"
+    }
+  ],
+  "subOrganization": [
+    {
+    "@type": "ResearchProject",
+    "@id": "https://zbmed-semtec.github.io/projects/2021_OntoClue",
+    "name": "OntoClue"
+    }, 
+    {
+      "@type": "ResearchProject",
+      "@id": "https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc",
+      "name": "TREC document-to-document relevance assessment"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "Grant",
+      "funder": {
+        "@type": "Organization",
+        "@id": "https://ror.org/018mejw64",
+        "name": "Deutsche Forschungsgemeinschaft", 
+        "alternateName": "German Research Foundation",
+        "url": "http://www.dfg.de/en/"  
+      },
+      "identifier": "407518790",
+      "description": "Project no. 407518790 (corresponding to the STELLA project)"
+    }
+  ]
+}

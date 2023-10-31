@@ -11,7 +11,7 @@ def createTableLink(data):
         data: The JSON data, which should be checked.
 
     Returns:
-        created Link für the Table.
+        created Link for the Table.
     """
     if not isinstance(data, dict):
         return data
@@ -337,9 +337,18 @@ def fromMetadatatoDocs():
     metadataPath = os.path.join(currentPath, "metadata")
     docsPath = os.path.join(currentPath, "docs")
 
-    docsProjectPath = docsPath + "/projects/"
-    shutil.rmtree(docsProjectPath)
-    os.makedirs(docsProjectPath)
+    #Some metadata folder will create a subfolder in docs rather than an MD file. 
+    #In particular, those corresponding to research project as they have to be rendered individually.
+    docsSubfolders = ['consortia', 'projects', 'theses']
+    docsSubfoldersPath = [(docsPath + "/") + subfolder for subfolder in docsSubfolders]
+    docsSubfoldersPath = [subfolder + "/" for subfolder in docsSubfoldersPath] 
+
+    for subfolder in docsSubfoldersPath:
+        try:
+          shutil.rmtree(subfolder)
+        finally:  
+          os.makedirs(subfolder)
+    #End of creation of subfolders
 
     allMetadata = []
 
@@ -364,18 +373,28 @@ def fromMetadatatoDocs():
                 allMetadata.append(data)
 
                 md = ""
-                if mdFolderName == 'projects':
-                    md = f'# {mdFolderName.capitalize()} metadata\n\n'
-                    md += processProjectData(data, jsonFileURL)
-                    docFileProjectsPath = os.path.join(docsProjectPath, jsonFileName.removesuffix('.json') + ".md")
-                    with open(docFileProjectsPath, "a", encoding="utf-8") as mdDocFile:
-                        mdDocFile.write(md)    
-                        mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
-                else:                                         
-                    md = generateMDTableFromJSON(data, jsonFileURL)                    
-                    with open(docFilePath, "a", encoding="utf-8") as mdDocFile:
-                        mdDocFile.write(md)    
-                        mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
+                folderIndex = -1
+                try:
+                  folderIndex = docsSubfolders.index(mdFolderName)
+                  md = f'# {mdFolderName.capitalize()} metadata\n\n'
+                  md += processProjectData(data, jsonFileURL)
+                  docFileProjectsPath = os.path.join(docsSubfoldersPath[folderIndex], jsonFileName.removesuffix('.json') + ".md")
+                  with open(docFileProjectsPath, "a", encoding="utf-8") as mdDocFile:
+                    mdDocFile.write(md)    
+                    mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
+                except:
+                  md = generateMDTableFromJSON(data, jsonFileURL)                    
+                  with open(docFilePath, "a", encoding="utf-8") as mdDocFile:
+                    mdDocFile.write(md)    
+                    mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')    
+
+                #if mdFolderName in docsSubfolders:
+                    #process for metadata that needs subfolders in docs
+                    #need to get the fodler name as well from docsSubfoldersPath (same index)
+                    #
+                    
+                #else:                                         
+                    
     
     #needs to find way not to append the json-ld multiple times
     #with open(docsPath+"/index.md", "a", encoding="utf-8") as indexFile :

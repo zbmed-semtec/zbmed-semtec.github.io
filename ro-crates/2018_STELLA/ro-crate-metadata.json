@@ -4,7 +4,7 @@
     {
       "@type": "CreativeWork",
       "@id": "ro-crate-metadata.json",
-      "http://purl.org/dc/terms/conformsTo": { 
+      "conformsTo": { 
         "@id": "https://w3id.org/ro/crate/1.1"
       },
       "description": "RO-Crate metadata file descriptor corresponding to the research project STELLA",
