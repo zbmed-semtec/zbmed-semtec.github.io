@@ -3,6 +3,8 @@ import json
 import subprocess
 import shutil
 
+docsSubfolders = ['consortia', 'projects', 'theses']
+
 def createTableLink(data):
     """
     Checks the JSON data if there is @id and @type. If both exists the link will be created with the value of @id.
@@ -318,7 +320,32 @@ def processProjectData(data, jsonFileURL):
 
     return md
 
+def prepareDocsSubfolder(docsPath):
+    """
+    Function that creates subfolders in the docs folder for those metadata folders corresponding to research projects.
+    Some metadata folder will create a subfolder in docs rather than an MD file. 
+    In particular, those corresponding to research project as they have to be rendered individually.
+    The list of metadata folders used in this function are collected in a global variable docsSubfolders.
+    Note: (limitation) The use of docsSubfoldersPath supposed the exact same order as docsSubfolders.
 
+    Parameter/Input:
+        docsPath: The path to the local docs folder
+
+    Returns:
+        A list with the local path for all docs subfolders corresponding to research projects
+    """
+    docsSubfoldersPath = [(docsPath + "/") + subfolder for subfolder in docsSubfolders]
+    docsSubfoldersPath = [subfolder + "/" for subfolder in docsSubfoldersPath] 
+
+    for subfolder in docsSubfoldersPath:
+        try:
+            shutil.rmtree(subfolder)
+        except:
+            pass
+        finally:  
+            os.makedirs(subfolder)
+    
+    return docsSubfoldersPath
 
 def fromMetadatatoDocs():
     """
@@ -336,20 +363,8 @@ def fromMetadatatoDocs():
     currentPath = os.getcwd()
     metadataPath = os.path.join(currentPath, "metadata")
     docsPath = os.path.join(currentPath, "docs")
-
-    #Some metadata folder will create a subfolder in docs rather than an MD file. 
-    #In particular, those corresponding to research project as they have to be rendered individually.
-    docsSubfolders = ['consortia', 'projects', 'theses']
-    docsSubfoldersPath = [(docsPath + "/") + subfolder for subfolder in docsSubfolders]
-    docsSubfoldersPath = [subfolder + "/" for subfolder in docsSubfoldersPath] 
-
-    for subfolder in docsSubfoldersPath:
-        try:
-          shutil.rmtree(subfolder)
-        finally:  
-          os.makedirs(subfolder)
-    #End of creation of subfolders
-
+    docsSubfoldersPath = prepareDocsSubfolder(docsPath)
+    
     allMetadata = []
 
     metadataFolderList = os.listdir(metadataPath)
@@ -387,18 +402,6 @@ def fromMetadatatoDocs():
                   with open(docFilePath, "a", encoding="utf-8") as mdDocFile:
                     mdDocFile.write(md)    
                     mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')    
-
-                #if mdFolderName in docsSubfolders:
-                    #process for metadata that needs subfolders in docs
-                    #need to get the fodler name as well from docsSubfoldersPath (same index)
-                    #
-                    
-                #else:                                         
-                    
-    
-    #needs to find way not to append the json-ld multiple times
-    #with open(docsPath+"/index.md", "a", encoding="utf-8") as indexFile :
-        #indexFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(allMetadata, indent=2)}\n</script>\n\n')
-            
+       
         
 fromMetadatatoDocs()
