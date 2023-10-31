@@ -1,0 +1,99 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+      {
+        "@id": "ro-crate-metadata.json",
+        "@type": "CreativeWork",
+        "conformsTo": {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        "about": {
+          "@id": "./"
+        }
+      },
+      {
+        "@id": "./",
+        "@type": [
+          "Dataset"
+        ],
+        "name": "TREC Document-to-Document Relevance Assessment",
+        "description": "This dataset is for the TREC Document to Document Relevance assessment along with its metadata and has a list, via hasParts of its outcomes.",
+        "datePublished": "2022-06-01",
+        "license": {
+          "@type": "CreativeWork",
+          "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+          "name": "Creative Commons Attribution 4.0 International", 
+          "alternateName": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "keywords": [
+            "TREC", "doc-2-doc", "document relevance", "doc2doc relevance"
+            ], 
+        "hasPart": [
+          {
+            "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance"
+          },
+          {
+            "@id": "10.5281/zenodo.7341391"
+          },
+          {
+            "@id": "10.5281/zenodo.7338056"
+          },
+          {
+            "@id": "10.5281/zenodo.7324822"
+          },
+          {
+            "@id": "https://ceur-ws.org/Vol-3415/paper-12.pdf"
+          }
+        ]  
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+        "datePublished": "2023-00-00",
+        "name": "TREC Document to Document Relevance Assessment: Software",
+        "description": "This is the software source code facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track along with its metadata.",
+        "url": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+        "citation": "Talha, M., Geist, L., Fellerhof, T., Ravinder, R., Giraldo, O., Rebholz-Schuhmann, D., & Castro, L. J. (2022). My Research Software (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.7341391",
+        "programmingLanguage": [
+          "Python"
+          ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "10.5281/zenodo.7341391",
+        "name": "TREC Document to Document Relevance Assessment: Software Release ",
+        "description": "This is the software release of the source code facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track along with its metadata.",
+        "url" : "https://zenodo.org/records/7341391",
+        "citation": "Talha, M., Geist, L., Fellerhof, T., Ravinder, R., Giraldo, O., Rebholz-Schuhmann, D., & Castro, L. J. (2022). TREC-doc-2-doc-relevance assessment interface (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7341391",
+        "softwareVersion": "1.0.0",
+        "dataPublished": "2022-11-21" 
+        
+      },
+      {
+        "@type": "Dataset",
+        "@id": "10.5281/zenodo.7338056",
+        "name": "Fleiss kappa for doc-2-doc relevance assessment: Dataset",
+        "description": "This is dataset corresponds to the Fleiss Kappa for the document to document relevance assessment along with its metadata.",
+        "@url": "https://zenodo.org/records/7338056",
+        "citation": "Olga Giraldo, Dhwani Solanki, Dietrich Rebholz-Schuhmann, & Leyla Jael Castro. (2022). Fleiss kappa for doc-2-doc relevance assessment (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7338056", 
+        "dataPublished": "2022-11-19" 
+      },
+      {
+        "@type": "Dataset",
+        "@id": "10.5281/zenodo.7324822",
+        "name": "Document-to-document relevant assessment for TREC Genomics Track 2005: Dataset",
+        "description": "This dataset corresponds to the document to document relevance judgements on the TREC Genomics Dataset along with its metadata.",
+        "@url": "https://zenodo.org/records/7324822",
+        "citation": "Olga Giraldo, Dhwani Solanki, Fernanda Cadena, Andrea Robayo-Gama, Dietrich Rebholz-Schuhmann, & Leyla Jael Castro. (2022). Document-to-document relevant assessment for TREC Genomics Track 2005 (1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7324822",
+        "dataPublished": "2022-11-15" 
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "@id": "https://ceur-ws.org/Vol-3415/paper-12.pdf",
+        "name": "Document-to-document relevance assessment for TREC Genomics Track 2005",
+        "citation": "Giraldo, O. L., Cadena, M. F., Robayo-Gama, A., Solanki, D., Fellerhoff, T., Geist, L., Ravinder, R., Talha, M., Rebholz-Schuhmann, D., & Castro, L. J. (2023). Document-to-document relevance assessment for TREC Genomics Track 2005. In Proceedings of the Semantic Web Applications and Tools for Healthcare and Life Sciences (SWAT4HCLS 2023) (pp. 98-101).",
+        "dataPublished": "2023-06-22"
+        }
+    ]
+}
