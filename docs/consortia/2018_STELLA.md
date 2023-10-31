@@ -12,6 +12,12 @@ The DFG-funded STELLA project aims to create an evaluation infrastructure that a
 Evaluation framework, A/B testing, Interlinking, Information Retrieval, Recommendation System
 ### Url
 
+- URL: <a href="https://stella-project.org/" target="_blank">https://stella-project.org/</a>
+
+- URL: <a href="https://www.th-koeln.de/en/information-science-and-communication-studies/stella---infrastructures-for-living-labs_68533.php" target="_blank">https://www.th-koeln.de/en/information-science-and-communication-studies/stella---infrastructures-for-living-labs_68533.php</a>
+
+- URL: <a href="https://zbmed-semtec.github.io/consortia/2018_STELLA" target="_blank">https://zbmed-semtec.github.io/consortia/2018_STELLA</a>
+
 ### Parent organization, consortium or research project
 
 #### GESIS - Leibniz-Institut für Sozialwissenschaften

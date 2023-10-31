@@ -182,7 +182,15 @@ def renderInnerList(lst):
         listMD += "\n<hr></hr>"
     return listMD
 
-
+def renderUrlAsHref(val):
+    md = ""
+    if isinstance(val, list):
+        for elem in val:
+            md += f'- URL: <a href="{elem}" target="_blank">{elem}</a>\n\n'
+    else: 
+        md += f'- URL: <a href="{val}" target="_blank">{val}</a>\n\n'
+    
+    return md
 
 def generateMDTableFromJSON(jsonData, jsonFileURL):
     """
@@ -199,6 +207,9 @@ def generateMDTableFromJSON(jsonData, jsonFileURL):
     jsonData = complexDataInList(jsonData)
     jsonData = createTableLink(jsonData)
 
+    """
+    Why is this loop before another loop on the same collection?
+    Does not seem to modify anything
     for property, value in jsonData.items():
         if property == "name":
             md += f'## {renderProperty(property, value)}\n'
@@ -207,7 +218,7 @@ def generateMDTableFromJSON(jsonData, jsonFileURL):
             md += f'### {renderProperty("Name", value + " " + familyName)}\n'
         if property == "familyName" and "givenName" not in jsonData:
             md += f'### {renderProperty("Name", value)}\n'
-
+    """
     linkValue = jsonData.get("@link", "")
     if linkValue:
         md += f'<p>{createGetJsonLink(jsonFileURL)} | {linkValue}</p>\n'
@@ -251,7 +262,7 @@ def processNamesInProject(item) :
     for prop, val in item.items(): 
         if prop not in ["@type", "@id", "name", "funder", "givenName", "familyName"]:
             if prop == 'url':
-                md += f'- URL: <a href="{val}" target="_blank">{val}</a>\n\n'
+                md += renderUrlAsHref(val)
             else :
                 md += f'- {prop.capitalize()}: {val}\n'
     return md
@@ -289,15 +300,17 @@ def processProjectData(data, jsonFileURL):
             else :
                 md += f'### {property.capitalize()}\n\n'
 
-            if isinstance(value, list):
+            #ToDo: analyze and refactor code
+            if property == 'url':
+                md += renderUrlAsHref(value)
+            elif isinstance(value, list):
                 for item in value:
                     if isinstance(item, (dict, list)):
                         for mdFolderName in item:
                             subItem = item.get(mdFolderName, "")
                             if (isinstance(subItem,(dict, list))):
                                 md += processNamesInProject(subItem) 
-                        md += processNamesInProject(item) 
-            
+                        md += processNamesInProject(item)             
             elif isinstance(value, dict):
                 for subProperty, subValue in value.items():
                     if isinstance(subValue, (dict, list)):

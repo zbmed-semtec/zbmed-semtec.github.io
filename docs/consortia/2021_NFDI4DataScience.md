@@ -12,6 +12,10 @@ The vision of NFDI4DataScience consortium (NFDI4DS) is to support all steps of t
 NFDI, Data Science, Artificial Intelligence
 ### Url
 
+- URL: <a href="https://www.nfdi4datascience.de/" target="_blank">https://www.nfdi4datascience.de/</a>
+
+- URL: <a href="https://zbmed-semtec.github.io/consortia/2021_NFDI4DataScience" target="_blank">https://zbmed-semtec.github.io/consortia/2021_NFDI4DataScience</a>
+
 ### Parent organization, consortium or research project
 
 #### Nationale Forschungsdaten Infrastruktur

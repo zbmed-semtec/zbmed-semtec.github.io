@@ -1,6 +1,5 @@
 # Previous_members metadata
 
-### Andrea Robayo-Gama
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\previous_members\andrea-robayo-gama.json" target="_blank"> Get JSON-LD</a> | <a href="https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
@@ -12,6 +11,14 @@
 <td>givenName</td>
 <td>Andrea</td>
 </tr>
+<tr>
+<td>url</td>
+<td><ul>
+<li><a href="http://url1" target="_blank">http://url1</a></li>
+<hr></hr>
+<li>url2</li>
+<hr></hr></ul></td>
+</tr>
 </tbody>
 </table>
 
@@ -21,11 +28,14 @@
   "@type": "Person",
   "@id": "https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama",
   "familyName": "Robayo-Gama",
-  "givenName": "Andrea"
+  "givenName": "Andrea",
+  "url": [
+    "http://url1",
+    "url2"
+  ]
 }
 </script>
 
-### Ashley Ritchie
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\previous_members\ashley-ritchie.json" target="_blank"> Get JSON-LD</a> | <a href="https://zbmed-semtec.github.io/previous_members/#ashley-ritchie" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
@@ -50,7 +60,6 @@
 }
 </script>
 
-###  Maria Fernanda Cadena
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\previous_members\cadena_0000-0002-5915-8895.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-5915-8895" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
@@ -75,7 +84,6 @@
 }
 </script>
 
-### Vishnu Vardhan Dadi
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\previous_members\dadi_0000-0002-3082-7522.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-3082-7522" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
@@ -100,7 +108,6 @@
 }
 </script>
 
-### Tim Fellerhoff
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\previous_members\fellerhoff_0000-0002-8725-1317.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-8725-1317" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
@@ -125,7 +132,6 @@
 }
 </script>
 
-### Olga Giraldo
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\previous_members\giraldo_0000-0003-2978-8922.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0003-2978-8922" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
@@ -150,7 +156,6 @@
 }
 </script>
 
-### Honey Lahoria
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\previous_members\lahoria_0009-0004-0369-5677.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0004-0369-5677" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
@@ -175,7 +180,6 @@
 }
 </script>
 
-### Georgi Lazarov
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\previous_members\lazarov_0000-0002-0762-4305.json" target="_blank"> Get JSON-LD</a> | <a href="http://orcid.org/0000-0002-0762-4305" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
@@ -200,7 +204,6 @@
 }
 </script>
 
-### Muhammad Talha
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\previous_members\muhammad-talha.json" target="_blank"> Get JSON-LD</a> | <a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
@@ -225,7 +228,6 @@
 }
 </script>
 
-### Guillermo Rocamora Pérez
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\previous_members\rocamora_0000-0002-4795-3648.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-4795-3648" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
@@ -250,7 +252,6 @@
 }
 </script>
 
-### Benjamin Wolff
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\previous_members\wolff_0000-0001-9345-8958.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0001-9345-8958" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
