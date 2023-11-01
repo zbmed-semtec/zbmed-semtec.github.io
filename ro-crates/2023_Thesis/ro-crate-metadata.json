@@ -17,7 +17,7 @@
         "Dataset"
       ],
       "name": "Protein Function Embeddings : A Master Thesis",
-      "description": "This dataset is about a Master Thesis project that encapsulates research focused on enhancing protein function annotations by leveraging protein function information through embeddings using two text-driven embedding techniques, Word2doc2Vec and Hybrid-Word2doc2Vec. This includes the metadata and a list via hasParts of its outcomes even if thez are dependent on each other.",
+      "description": "This dataset is about a Master Thesis project that encapsulates research focused on enhancing protein function annotations by leveraging protein function information through embeddings using two text-driven embedding techniques, Word2doc2Vec and Hybrid-Word2doc2Vec. This includes the metadata and a list, via hasPart of its outcomes even if thez are dependent on each other.",
       "datePublished": "2023-04-17",
       "license": {
         "@type": "CreativeWork",

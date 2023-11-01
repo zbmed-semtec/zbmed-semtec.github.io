@@ -17,7 +17,7 @@
           "Dataset"
         ],
         "name": "Machine-actionable Software Management Plans",
-        "description": "This dataset corresponds to machine actionable Software Management Plans which is an extension of the RDA machine-actionable Data Management Plan (maDMP) application profile and its corresponding DMP Common Standard ontology (DCSO) in order to cover the case of ELIXIR Software Management Plans (SMP). This includes its metadata and has a list, via hasParts of its outcomes.",
+        "description": "This dataset corresponds to machine actionable Software Management Plans which is an extension of the RDA machine-actionable Data Management Plan (maDMP) application profile and its corresponding DMP Common Standard ontology (DCSO) in order to cover the case of ELIXIR Software Management Plans (SMP). This includes its metadata and has a list, via hasPart of its outcomes.",
         "datePublished": "2022-09-01",
         "license": {
           "@type": "CreativeWork",
@@ -125,13 +125,6 @@
         
       },
       {
-        "@type": "ScholarlyArticle",
-        "@id": "https://doi.org/10.52825/cordi.v1i.279",
-        "name": "Machine-Actionable Metadata for Software and Software Management Plans for NFDI",
-        "@url": "https://doi.org/10.52825/cordi.v1i.279",
-        "datePublished": "2022-09-07" 
-      },
-      {
         "@type": "DigitalDocument",
         "@id": "10.5281/zenodo.8349183",
         "name": "Machine-Actionable Metadata for Software and Software Management Plans for NFDI - Presentation",
@@ -146,6 +139,12 @@
         "url": "https://doi.org/10.5281/zenodo.8087357",
         "citation": "Giraldo, O., Cardoso, J., Martin del Pico, E., Gaignard, A., Geist, L., Grossmann, Y. V., Psomopoulos, F., Papadopoulou, E., Solanki, D., & Castro, L. J. (2023). Workshop machine-actionable Software Management Plans. Zenodo. https://doi.org/10.5281/zenodo.8087357",
         "datePublished": "2023-06-27"
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "@id": "https://doi.org/10.52825/cordi.v1i.279",
+        "name": "Machine-Actionable Metadata for Software and Software Management Plans for NFDI",
+        "datePublished": "2022-09-07" 
       },
       {
         "@type": "ScholarlyArticle",
@@ -179,6 +178,5 @@
         "citation": "Olga Giraldo, Renato Alves, Dimitrios Bampalikis, Jose M Fernandez, Eva Martin del Pico, Fotis E Psomopoulos, Allegra Via, & Leyla Jael Castro. (2022). A FAIRification roadmap for ELIXIR Software Management Plans - Poster. First International Conference on FAIR Digital Objects (FDO2022). Zenodo. https://doi.org/10.5281/zenodo.7249674",
         "datePublished": "2022-10-25"
         }
-        
     ]
 }

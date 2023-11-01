@@ -17,7 +17,7 @@
           "Dataset"
         ],
         "name": "TREC Document-to-Document Relevance Assessment",
-        "description": "This dataset is for the TREC Document to Document Relevance assessment along with its metadata and has a list, via hasParts of its outcomes.",
+        "description": "This dataset is for the TREC Document to Document Relevance assessment along with its metadata and has a list, via hasPart of its outcomes.",
         "datePublished": "2022-06-01",
         "license": {
           "@type": "CreativeWork",
