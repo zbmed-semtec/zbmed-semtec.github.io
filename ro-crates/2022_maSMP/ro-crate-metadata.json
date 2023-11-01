@@ -1,0 +1,184 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+      {
+        "@id": "ro-crate-metadata.json",
+        "@type": "CreativeWork",
+        "conformsTo": {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        "about": {
+          "@id": "./"
+        }
+      },
+      {
+        "@id": "./",
+        "@type": [
+          "Dataset"
+        ],
+        "name": "Machine-actionable Software Management Plans",
+        "description": "This dataset corresponds to machine actionable Software Management Plans which is an extension of the RDA machine-actionable Data Management Plan (maDMP) application profile and its corresponding DMP Common Standard ontology (DCSO) in order to cover the case of ELIXIR Software Management Plans (SMP). This includes its metadata and has a list, via hasParts of its outcomes.",
+        "datePublished": "2022-09-01",
+        "license": {
+          "@type": "CreativeWork",
+          "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+          "name": "Creative Commons Attribution 4.0 International", 
+          "alternateName": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "keywords": [
+            "machine-actionalibity", "software management plans", "rsearch software", "controlled vocabulary", "metadata schema", "ongoing", "SMP"
+            ], 
+        "author" :  [
+            {
+              "@type": "Person",
+              "@id": "https://orcid.org/0000-0002-2910-7982",
+              "givenName": "Lukas",
+              "familyName": "Geist"
+            },
+            {
+              "@type": "Person",
+              "@id": "https://orcid.org/0000-0002-5037-0443",
+              "givenName": "Nelson",
+              "familyName": "Quiñones"
+            },
+            {
+              "@type": "Person",
+              "@id": "https://orcid.org/0009-0004-1529-0095",
+              "givenName": "Dhwani",
+              "familyName": "Solanki"
+            },
+            {
+              "@type": "Person",
+              "@id": "https://orcid.org/0000-0002-1018-0370",
+              "givenName": "Dietrich",
+              "familyName": "Rebholz-Schuhmann"
+            },
+            {
+              "@type": "Person",
+              "@id": "https://orcid.org/0000-0003-3986-0510",
+              "givenName": "Leyla Jael",
+              "familyName": "Castro"
+            }
+          ],
+          "alumni": [
+            {
+              "@type": "Person",
+              "@id": "https://orcid.org/0000-0003-2978-8922",
+              "givenName": "Olga",
+              "familyName": "Giraldo"
+            }
+          ],
+        "hasPart": [
+          {
+            "@id": "https://github.com/zbmed-semtec/maSMPs"
+          },
+          {
+            "@id": "10.5281/zenodo.8089518"
+          },
+          {
+            "@id": "https://doi.org/10.52825/cordi.v1i.279"
+          },
+          {
+            "@id": "10.5281/zenodo.8349183"
+          },
+          {
+            "@id": "10.5281/zenodo.8087357"
+          },
+          {
+            "@id": "https://doi.org/10.4126/FRL01-006444988"
+          },
+          {
+            "@id": "https://ceur-ws.org/Vol-3415/paper-31.pdf"
+          },
+          {
+            "@id": "https://doi.org/10.4126/FRL01-006440396"
+          },
+          {
+            "@id": "https://doi.org/10.3897/rio.8.e94608" 
+          },
+          {
+            "@id": "10.5281/zenodo.7249674"
+          }
+        ]  
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://github.com/zbmed-semtec/maSMPs",
+        "datePublished": "2022-11-29",
+        "name": "Metadata model for machine-actionable Software Management Plans: Software",
+        "description": "This is the software source code facilitating the creation of a metadata model for machine actionable software management plans along with its metadata.",
+        "url": "https://github.com/zbmed-semtec/maSMPs",
+        "citation": "Giraldo O, Geist L, Quiñones N, Solanki D, Rebholz-Schuhmann D, Castro LJ. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2023. doi:10.5281/zenodo.8089518",
+        "programmingLanguage": [
+          "JavaScript", "Python"
+          ]
+      },
+      {
+        "@type": "DefinedTermSet",
+        "@id": "10.5281/zenodo.8089518",
+        "name": "maSMP Ontology",
+        "description": "This is an ontology representing the metadata elements of a maSMP along with its metadata.",
+        "url" : "https://doi.org/10.5281/zenodo.8089518",
+        "citation": "Giraldo Olga, Geist Lukas, Quiñones Nelson, Solanki Dhwani, Rebholz-Schuhmann Dietrich, & Castro Leyla Jael. (2023). machine-actionable Software Management Plan Ontology (maSMP Ontology) (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.8089518",
+        "datePublished": "2023-06-28" 
+        
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "@id": "https://doi.org/10.52825/cordi.v1i.279",
+        "name": "Machine-Actionable Metadata for Software and Software Management Plans for NFDI",
+        "@url": "https://doi.org/10.52825/cordi.v1i.279",
+        "datePublished": "2022-09-07" 
+      },
+      {
+        "@type": "DigitalDocument",
+        "@id": "10.5281/zenodo.8349183",
+        "name": "Machine-Actionable Metadata for Software and Software Management Plans for NFDI - Presentation",
+        "@url": "https://doi.org/10.5281/zenodo.8349183",
+        "citation": "Giraldo, O., Dessi, D., Dietze, S., Rebholz-Schuhmann, D., & Castro, L. J. (2023, September 15). Machine-Actionable Metadata for Software and Software Management Plans for NFDI - Presentation. Zenodo. https://doi.org/10.5281/zenodo.8349183",
+        "datePublished": "2022-09-15" 
+      },
+      {
+        "@type": "Report",
+        "@id": "10.5281/zenodo.8087357",
+        "name": "Workshop machine-actionable Software Management Plans",
+        "url": "https://doi.org/10.5281/zenodo.8087357",
+        "citation": "Giraldo, O., Cardoso, J., Martin del Pico, E., Gaignard, A., Geist, L., Grossmann, Y. V., Psomopoulos, F., Papadopoulou, E., Solanki, D., & Castro, L. J. (2023). Workshop machine-actionable Software Management Plans. Zenodo. https://doi.org/10.5281/zenodo.8087357",
+        "datePublished": "2023-06-27"
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "@id": "https://doi.org/10.4126/FRL01-006444988",
+        "name": "A metadata schema for machine-actionable Software Management Plans",
+        "datePublished": "2023-06-16"
+      },
+      {
+        "@type": "ScholarlyArticle",
+        "@id": "https://ceur-ws.org/Vol-3415/paper-12.pdf",
+        "name": "A metadata analysis for machine-actionable Software Management Plans",
+        "datePublished": "2023-06-22"
+      },
+      {
+        "@type": "Poster",
+        "@id": "https://doi.org/10.4126/FRL01-006440396",
+        "name": "A metadata analysis for machine-actionable Software Management Plans - Poster",
+        "datePublished": "2023-03-01"
+       },
+       {
+        "@type": "ScholarlyArticle",
+        "@id": "https://doi.org/10.3897/rio.8.e94608",
+        "name": "A FAIRification roadmap for ELIXIR Software Management Plans",
+        "datePublished": "2022-10-12"
+        },
+        {
+        "@type": "Poster",
+        "@id": "10.5281/zenodo.7249674",
+        "name": "A FAIRification roadmap for ELIXIR Software Management Plans - Poster",
+        "url": "https://doi.org/10.5281/zenodo.7249674",
+        "citation": "Olga Giraldo, Renato Alves, Dimitrios Bampalikis, Jose M Fernandez, Eva Martin del Pico, Fotis E Psomopoulos, Allegra Via, & Leyla Jael Castro. (2022). A FAIRification roadmap for ELIXIR Software Management Plans - Poster. First International Conference on FAIR Digital Objects (FDO2022). Zenodo. https://doi.org/10.5281/zenodo.7249674",
+        "datePublished": "2022-10-25"
+        }
+        
+    ]
+}
