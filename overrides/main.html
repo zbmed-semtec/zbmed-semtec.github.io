@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  {{page.title}}
+  {% if page.title == "maSMP - Semantic Technologies team at ZB MED" %}
+    <link href="https://github.com/zbmed-semtec/maSMPs">
+    <link rel="describedby" type="application/ld+json" href="https://ro-crate-metadata-maSMP.json">
+  {% elif page.title == "TREC doc2doc - Semantic Technologies team at ZB MED" %}
+    <link href="https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance">
+    <link rel="describedby" type="application/ld+json" href="https://ro-crate-metadata-trec.json">
+  {% elif page.title == "OntoClue - Semantic Technologies team at ZB MED" %}
+    <link href="https://github.com/zbmed-semtec/OntoClue">
+    <link rel="describedby" type="application/ld+json" href="https://ro-crate-metadata-ontoclue.json">  
+  {% endif %}
+{% endblock %}
