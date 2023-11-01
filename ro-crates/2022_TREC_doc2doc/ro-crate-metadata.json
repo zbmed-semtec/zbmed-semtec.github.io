@@ -39,8 +39,8 @@
 
       {
         "@id": "https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc",
-        "@type": "http://schema.org/ResearchProject",
-        "http://schema.org/alumni": [
+        "@type": "ResearchProject",
+        "alumni": [
           {
             "@id": "https://orcid.org/0000-0002-5915-8895"
           },
@@ -75,24 +75,24 @@
             "@id": "https://orcid.org/0000-0003-3986-0510"
           }
         ],
-        "http://schema.org/department": {
+        "department": {
           "@id": "https://zbmed-semtec.github.io/"
         },
-        "http://schema.org/description": "[TREC 2005 Genomics Track data](https://trec.nist.gov/data/t14_genomics.html) provide document-to-topic relevance assessment. In this project we analyze a document-to-document relevance assessment for a subset of the TREC collection using manual annotation for the judgement. The inter-annotator agreement is evaluated with Fleiss' Kappa.",
-        "http://schema.org/dissolutionDate": {
-          "@type": "http://schema.org/Date",
+        "description": "[TREC 2005 Genomics Track data](https://trec.nist.gov/data/t14_genomics.html) provide document-to-topic relevance assessment. In this project we analyze a document-to-document relevance assessment for a subset of the TREC collection using manual annotation for the judgement. The inter-annotator agreement is evaluated with Fleiss' Kappa.",
+        "dissolutionDate": {
+          "@type": "Date",
           "@value": "2023-03-31"
         },
-        "http://schema.org/foundingDate": {
-          "@type": "http://schema.org/Date",
+        "foundingDate": {
+          "@type": "Date",
           "@value": "2022-06-01"
         },
-        "http://schema.org/funding": {
+        "funding": {
           "@id": "https://gepris.dfg.de/gepris/projekt/407518790"
         },
-        "http://schema.org/keywords": "document relevance, doc2doc relevance",
-        "http://schema.org/name": "TREC document-to-document relevance assessment",
-        "http://schema.org/parentOrganization": [
+        "keywords": "document relevance, doc2doc relevance",
+        "name": "TREC document-to-document relevance assessment",
+        "parentOrganization": [
           {
             "@id": "https://ror.org/0259fwx54"
           },
@@ -181,106 +181,106 @@
       },
       {
         "@id": "ttps://gepris.dfg.de/gepris/projekt/407518790#project",
-        "@type": "http://schema.org/ResearchProject",
-        "http://schema.org/name": "STELLA Living Labs Project"
+        "@type": "ResearchProject",
+        "name": "STELLA Living Labs Project"
       },
       {
         "@id": "https://gepris.dfg.de/gepris/projekt/407518790",
-        "@type": "http://schema.org/Grant",
-        "http://schema.org/description": "Project no. 407518790 (corresponding to the STELLA project)",
-        "http://schema.org/funder": {
+        "@type": "Grant",
+        "description": "Project no. 407518790 (corresponding to the STELLA project)",
+        "funder": {
           "@id": "https://ror.org/018mejw64"
         },
-        "http://schema.org/identifier": "407518790"
+        "identifier": "407518790"
       },
       {
         "@id": "https://orcid.org/0000-0002-1018-0370",
-        "@type": "http://schema.org/Person",
-        "http://schema.org/familyName": "Rebholz-Schuhmann",
-        "http://schema.org/givenName": "Dietrich"
+        "@type": "Person",
+        "familyName": "Rebholz-Schuhmann",
+        "givenName": "Dietrich"
       },
       {
         "@id": "https://orcid.org/0000-0002-2910-7982",
-        "@type": "http://schema.org/Person",
-        "http://schema.org/familyName": "Geist",
-        "http://schema.org/givenName": "Lukas"
+        "@type": "Person",
+        "familyName": "Geist",
+        "givenName": "Lukas"
       },
       {
         "@id": "https://orcid.org/0000-0002-5037-0443",
-        "@type": "http://schema.org/Person",
-        "http://schema.org/familyName": "Quiñones",
-        "http://schema.org/givenName": "Nelson"
+        "@type": "Person",
+        "familyName": "Quiñones",
+        "givenName": "Nelson"
       },
       {
         "@id": "https://orcid.org/0000-0002-5915-8895",
-        "@type": "http://schema.org/Person",
-        "http://schema.org/familyName": "Cadena",
-        "http://schema.org/givenName": " Maria Fernanda"
+        "@type": "Person",
+        "familyName": "Cadena",
+        "givenName": " Maria Fernanda"
       },
       {
         "@id": "https://orcid.org/0000-0002-8725-1317",
-        "@type": "http://schema.org/Person",
-        "http://schema.org/familyName": "Fellerhoff",
-        "http://schema.org/givenName": "Tim"
+        "@type": "Person",
+        "familyName": "Fellerhoff",
+        "givenName": "Tim"
       },
       {
         "@id": "https://orcid.org/0000-0003-2978-8922",
-        "@type": "http://schema.org/Person",
-        "http://schema.org/familyName": "Giraldo",
-        "http://schema.org/givenName": "Olga"
+        "@type": "Person",
+        "familyName": "Giraldo",
+        "givenName": "Olga"
       },
       {
         "@id": "https://orcid.org/0000-0003-3986-0510",
-        "@type": "http://schema.org/Person",
-        "http://schema.org/familyName": "Castro",
-        "http://schema.org/givenName": "Leyla Jael"
+        "@type": "Person",
+        "familyName": "Castro",
+        "givenName": "Leyla Jael"
       },
       {
         "@id": "https://orcid.org/0009-0004-1529-0095",
-        "@type": "http://schema.org/Person",
-        "http://schema.org/familyName": "Solanki",
-        "http://schema.org/givenName": "Dhwani"
+        "@type": "Person",
+        "familyName": "Solanki",
+        "givenName": "Dhwani"
       },
       {
         "@id": "https://orcid.org/0009-0004-4484-6283",
-        "@type": "http://schema.org/Person",
-        "http://schema.org/familyName": "Ravinder",
-        "http://schema.org/givenName": "Rohitha"
+        "@type": "Person",
+        "familyName": "Ravinder",
+        "givenName": "Rohitha"
       },
       {
         "@id": "https://ror.org/018mejw64",
-        "@type": "http://schema.org/Organization",
-        "http://schema.org/alternateName": "German Research Foundation",
-        "http://schema.org/name": "Deutsche Forschungsgemeinschaft",
-        "http://schema.org/url": {
+        "@type": "Organization",
+        "alternateName": "German Research Foundation",
+        "name": "Deutsche Forschungsgemeinschaft",
+        "url": {
           "@id": "http://www.dfg.de/en/"
         }
       },
       {
         "@id": "https://ror.org/0259fwx54",
-        "@type": "http://schema.org/ResearchOrganization",
-        "http://schema.org/alternateName": "ZB MED Information Centre for Life Sciences",
-        "http://schema.org/name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
-        "http://schema.org/url": {
+        "@type": "ResearchOrganization",
+        "alternateName": "ZB MED Information Centre for Life Sciences",
+        "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+        "url": {
           "@id": "https://zbmed.de/"
         }
       },
       {
         "@id": "https://zbmed-semtec.github.io/",
-        "@type": "http://schema.org/ResearchOrganization",
-        "http://schema.org/name": "Semantic Technologies team at ZB MED"
+        "@type": "ResearchOrganization",
+        "name": "Semantic Technologies team at ZB MED"
       },
       {
         "@id": "https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama",
-        "@type": "http://schema.org/Person",
-        "http://schema.org/familyName": "Robayo-Gama",
-        "http://schema.org/givenName": "Andrea"
+        "@type": "Person",
+        "familyName": "Robayo-Gama",
+        "givenName": "Andrea"
       },
       {
         "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha",
-        "@type": "http://schema.org/Person",
-        "http://schema.org/familyName": "Muhammad",
-        "http://schema.org/givenName": "Talha"
+        "@type": "Person",
+        "familyName": "Muhammad",
+        "givenName": "Talha"
       }
     ]
 }
