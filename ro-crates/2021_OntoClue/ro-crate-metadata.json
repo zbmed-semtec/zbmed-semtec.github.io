@@ -1,0 +1,151 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+      {
+        "@id": "ro-crate-metadata.json",
+        "@type": "CreativeWork",
+        "conformsTo": {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        "about": {
+          "@id": "./"
+        }
+      },
+      {
+        "@id": "./",
+        "@type": [
+          "Dataset"
+        ],
+        "name": "OntoClue",
+        "description": "This dataset is about the OntoClue project described with its metadata and has a list, via hasPart, of its outcomes.",
+        "datePublished": "2022-09-01",
+        "license": {
+          "@type": "CreativeWork",
+          "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+          "name": "Creative Commons Attribution 4.0 International", 
+          "alternateName": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "keywords": [
+            "machine-actionalibity", "software management plans", "rsearch software", "controlled vocabulary", "metadata schema", "ongoing", "SMP"
+            ], 
+        "author": [
+            {
+                "@type": "Person",
+                "@id": "https://orcid.org/0000-0002-2910-7982",
+                "givenName": "Lukas",
+                "familyName": "Geist"
+              },
+              {
+                "@type": "Person",
+                "@id": "https://orcid.org/0000-0002-5037-0443",
+                "givenName": "Nelson",
+                "familyName": "Quiñones"
+              },
+              {
+                "@type": "Person",
+                "@id": "https://orcid.org/0009-0004-4484-6283",
+                "givenName": "Rohitha",
+                "familyName": "Ravinder"
+              },
+              {
+                "@type": "Person",
+                "@id": "https://orcid.org/0000-0002-1018-0370",
+                "givenName": "Dietrich",
+                "familyName": "Rebholz-Schuhmann"
+              },
+              {
+                "@type": "Person",
+                "@id": "https://orcid.org/0000-0003-3986-0510",
+                "givenName": "Leyla Jael",
+                "familyName": "Castro"
+              }
+        ],
+        "alumni": [
+            {
+              "@type": "Person",
+              "@id": "https://orcid.org/0000-0002-3082-7522",
+              "givenName": "Dadi",
+              "familyName": "Vishnu Vardhan"
+            },
+            {
+              "@type": "Person",
+              "@id": "https://orcid.org/0000-0002-8725-1317",
+              "givenName": "Tim",
+              "familyName": "Fellerhoff"
+            },
+            {
+              "@type": "Person",
+              "@id": "https://orcid.org/0000-0002-0762-4305",
+              "givenName": "Georgi",
+              "familyName": "Lazarov"
+            },
+            {
+              "@type": "Person",
+              "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha",
+              "givenName": "Muhammad",
+              "familyName": "Talha"
+            },
+            {
+              "@type": "Person",
+              "@id": "https://orcid.org/0000-0002-4795-3648",
+              "givenName": "Guilermo",
+              "familyName": "Rocamora Perez"
+            },
+            {
+              "@type": "Person",
+              "@id": "https://orcid.org/0000-0001-9345-8958",
+              "givenName": "Benjamin",
+              "familyName": "Wolff"
+            }
+          ],
+          "hasPart": [
+            {
+                "@id": "https://doi.org/10.4126/FRL01-006440397" 
+            },
+            {
+                "@id": "https://ceur-ws.org/Vol-3415/paper-38.pdf" 
+            },
+            {
+                "@id": "https://ceur-ws.org/Vol-2918/short3.pdf" 
+            },
+            {
+                "@id": "https://doi.org/10.5281/zenodo.5035290" 
+            },
+            {
+                "@id": "https://doi.org/10.5281/zenodo.4903981"
+            }
+          ]
+        },
+            {
+            "@type": "ScholarlyArticle",
+            "@id": "https://doi.org/10.4126/FRL01-006440397",
+            "name": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus",
+            "datePublished": "2023-06-22"
+            },
+            {
+            "@type": "Poster",
+            "@id": "https://ceur-ws.org/Vol-3415/paper-38.pdf",
+            "name": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster",
+            "datePublished": "2023-03-01"
+            },
+            {
+            "@type": "ScholarlyArticle",
+            "@id": "https://ceur-ws.org/Vol-2918/short3.pdf",
+            "name": "Ontology Clustering with OWL2Vec*",
+            "datePublished": "2021-07-28"
+            },
+            {
+            "@type": "DataCatalog",
+            "@id": "https://doi.org/10.5281/zenodo.5035290",
+            "name": "Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool",
+            "datePublished": "2021-06-27"
+            },
+            {
+            "@type": "DataCatalog",
+            "@id": "https://doi.org/10.5281/zenodo.4903981",
+            "name": "Whatizit performance evaluation against CRAFT corpus",
+            "datePublished": "2021-06-05"
+            }
+]
+}
