@@ -3,7 +3,10 @@ import json
 import subprocess
 import shutil
 
-docsSubfolders = ['consortia', 'projects', 'theses']
+DOCS_SUBFOLDERS = ['consortia', 'projects', 'theses']
+MAPPINGS = [("employee", "Current project members"), ("alumni", "Previous project members"), ("member", "External contributors"), ("knowsAbout", "Outcomes"), ("parentOrganization", "Parent organization, consortium or research project"), ("subOrganization", "Sub-projects")]
+MAPPINGS_FROM = [i[0] for i in MAPPINGS]
+MAPPINGS_TO = [i[1] for i in MAPPINGS]
 
 def createTableLink(data):
     """
@@ -257,7 +260,7 @@ def processNamesInProject(item) :
         idURL = item["@id"]
         md += f'<a href="{idURL}" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
     for prop, val in item.items(): 
-        if prop not in ["@type", "@id", "name", "funder", "givenName", "familyName"]:
+        if prop not in ["@type", "@id", "name", "http://purl.org/dc/terms/conformsTo", "funder", "givenName", "familyName"]:
             if prop == 'url':
                 md += renderUrlAsHref(val)
             else :
@@ -274,26 +277,13 @@ def processProjectData(data, jsonFileURL):
     Returns:
         A markdown text with the rendered metadata.
     """
-    mappings = [("employee", "Current project members"), ("alumni", "Previous project members"), ("member", "External contributors"), ("knowsAbout", "Outcomes"), ("parentOrganization", "Parent organization, consortium or research project"), ("subOrganization", "Sub-projects")]
-    mappings_from = [i[0] for i in mappings]
-    mappings_to = [i[1] for i in mappings]
-
     md = ""
 
     for property, value in data.items():
-        if property == 'name':
-            md += f'## {value}\n\n'
-            md += f'<p>{createGetJsonLink(jsonFileURL)}</p>\n'
-
-        if property == "foundingDate" :
-            md += f'_Started in {value}_\n'
-        elif property == 'dissolutionDate':
-            md += f'_Concluded in {value}_\n'
-
-        if property not in ["@type", "@id", "@context", "name", "dissolutionDate", "foundingDate"]:
-            if property in mappings_from :
-                i = mappings_from.index(property)
-                md += f'### {mappings_to[i]}\n\n'
+        if property not in ["@type", "@id", "@context", "http://purl.org/dc/terms/conformsTo", "name", "dissolutionDate", "foundingDate"]:
+            if property in MAPPINGS_FROM :
+                i = MAPPINGS_FROM.index(property)
+                md += f'### {MAPPINGS_TO[i]}\n\n'
             else :
                 md += f'### {property.capitalize()}\n\n'
 
@@ -301,8 +291,12 @@ def processProjectData(data, jsonFileURL):
             if property == 'url':
                 md += renderUrlAsHref(value)
             elif isinstance(value, list):
+                #knowsAbout is a list of objects
+                #there is a bug with inner lists (keywords) and objects (license) inside those objects
                 for item in value:
                     if isinstance(item, (dict, list)):
+                        #each item is an object/dict
+                        #loop on each key, value pair
                         for mdFolderName in item:
                             subItem = item.get(mdFolderName, "")
                             if (isinstance(subItem,(dict, list))):
@@ -327,6 +321,13 @@ def processProjectData(data, jsonFileURL):
                                     md += f'- {subProperty.capitalize()}: {subValue}\n'
             else:
                 md += f'{value}\n'
+        elif property == 'name':
+            md += f'## {value}\n\n'
+            md += f'<p>{createGetJsonLink(jsonFileURL)}</p>\n'
+        elif property == "foundingDate" :
+            md += f'_Started in {value}_\n'
+        elif property == 'dissolutionDate':
+            md += f'_Concluded in {value}_\n'
 
     return md
 
@@ -344,9 +345,9 @@ def prepareDocsSubfolder(docsPath):
     Returns:
         A list with the local path for all docs subfolders corresponding to research projects
     """
-    docsSubfoldersPath = [(docsPath + "/") + subfolder for subfolder in docsSubfolders]
+    docsSubfoldersPath = [(docsPath + "/") + subfolder for subfolder in DOCS_SUBFOLDERS]
     docsSubfoldersPath = [subfolder + "/" for subfolder in docsSubfoldersPath] 
-
+    
     for subfolder in docsSubfoldersPath:
         try:
             shutil.rmtree(subfolder)
@@ -400,7 +401,7 @@ def fromMetadatatoDocs():
                 md = ""
                 folderIndex = -1
                 try:
-                  folderIndex = docsSubfolders.index(mdFolderName)
+                  folderIndex = DOCS_SUBFOLDERS.index(mdFolderName)
                   md = f'# {mdFolderName.capitalize()} metadata\n\n'
                   md += processProjectData(data, jsonFileURL)
                   docFileProjectsPath = os.path.join(docsSubfoldersPath[folderIndex], jsonFileName.removesuffix('.json') + ".md")
