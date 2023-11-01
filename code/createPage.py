@@ -3,6 +3,8 @@ import json
 import subprocess
 import shutil
 
+docsSubfolders = ['consortia', 'projects', 'theses']
+
 def createTableLink(data):
     """
     Checks the JSON data if there is @id and @type. If both exists the link will be created with the value of @id.
@@ -11,7 +13,7 @@ def createTableLink(data):
         data: The JSON data, which should be checked.
 
     Returns:
-        created Link für the Table.
+        created Link for the Table.
     """
     if not isinstance(data, dict):
         return data
@@ -180,7 +182,15 @@ def renderInnerList(lst):
         listMD += "\n<hr></hr>"
     return listMD
 
-
+def renderUrlAsHref(val):
+    md = ""
+    if isinstance(val, list):
+        for elem in val:
+            md += f'- URL: <a href="{elem}" target="_blank">{elem}</a>\n\n'
+    else: 
+        md += f'- URL: <a href="{val}" target="_blank">{val}</a>\n\n'
+    
+    return md
 
 def generateMDTableFromJSON(jsonData, jsonFileURL):
     """
@@ -197,6 +207,9 @@ def generateMDTableFromJSON(jsonData, jsonFileURL):
     jsonData = complexDataInList(jsonData)
     jsonData = createTableLink(jsonData)
 
+    """
+    Why is this loop before another loop on the same collection?
+    Does not seem to modify anything
     for property, value in jsonData.items():
         if property == "name":
             md += f'## {renderProperty(property, value)}\n'
@@ -205,7 +218,7 @@ def generateMDTableFromJSON(jsonData, jsonFileURL):
             md += f'### {renderProperty("Name", value + " " + familyName)}\n'
         if property == "familyName" and "givenName" not in jsonData:
             md += f'### {renderProperty("Name", value)}\n'
-
+    """
     linkValue = jsonData.get("@link", "")
     if linkValue:
         md += f'<p>{createGetJsonLink(jsonFileURL)} | {linkValue}</p>\n'
@@ -249,7 +262,7 @@ def processNamesInProject(item) :
     for prop, val in item.items(): 
         if prop not in ["@type", "@id", "name", "funder", "givenName", "familyName"]:
             if prop == 'url':
-                md += f'- URL: <a href="{val}" target="_blank">{val}</a>\n\n'
+                md += renderUrlAsHref(val)
             else :
                 md += f'- {prop.capitalize()}: {val}\n'
     return md
@@ -287,15 +300,17 @@ def processProjectData(data, jsonFileURL):
             else :
                 md += f'### {property.capitalize()}\n\n'
 
-            if isinstance(value, list):
+            #ToDo: analyze and refactor code
+            if property == 'url':
+                md += renderUrlAsHref(value)
+            elif isinstance(value, list):
                 for item in value:
                     if isinstance(item, (dict, list)):
                         for mdFolderName in item:
                             subItem = item.get(mdFolderName, "")
                             if (isinstance(subItem,(dict, list))):
                                 md += processNamesInProject(subItem) 
-                        md += processNamesInProject(item) 
-            
+                        md += processNamesInProject(item)             
             elif isinstance(value, dict):
                 for subProperty, subValue in value.items():
                     if isinstance(subValue, (dict, list)):
@@ -318,7 +333,32 @@ def processProjectData(data, jsonFileURL):
 
     return md
 
+def prepareDocsSubfolder(docsPath):
+    """
+    Function that creates subfolders in the docs folder for those metadata folders corresponding to research projects.
+    Some metadata folder will create a subfolder in docs rather than an MD file. 
+    In particular, those corresponding to research project as they have to be rendered individually.
+    The list of metadata folders used in this function are collected in a global variable docsSubfolders.
+    Note: (limitation) The use of docsSubfoldersPath supposed the exact same order as docsSubfolders.
 
+    Parameter/Input:
+        docsPath: The path to the local docs folder
+
+    Returns:
+        A list with the local path for all docs subfolders corresponding to research projects
+    """
+    docsSubfoldersPath = [(docsPath + "/") + subfolder for subfolder in docsSubfolders]
+    docsSubfoldersPath = [subfolder + "/" for subfolder in docsSubfoldersPath] 
+
+    for subfolder in docsSubfoldersPath:
+        try:
+            shutil.rmtree(subfolder)
+        except:
+            pass
+        finally:  
+            os.makedirs(subfolder)
+    
+    return docsSubfoldersPath
 
 def fromMetadatatoDocs():
     """
@@ -336,11 +376,8 @@ def fromMetadatatoDocs():
     currentPath = os.getcwd()
     metadataPath = os.path.join(currentPath, "metadata")
     docsPath = os.path.join(currentPath, "docs")
-
-    docsProjectPath = docsPath + "/projects/"
-    shutil.rmtree(docsProjectPath)
-    os.makedirs(docsProjectPath)
-
+    docsSubfoldersPath = prepareDocsSubfolder(docsPath)
+    
     allMetadata = []
 
     metadataFolderList = os.listdir(metadataPath)
@@ -364,22 +401,20 @@ def fromMetadatatoDocs():
                 allMetadata.append(data)
 
                 md = ""
-                if mdFolderName == 'projects':
-                    md = f'# {mdFolderName.capitalize()} metadata\n\n'
-                    md += processProjectData(data, jsonFileURL)
-                    docFileProjectsPath = os.path.join(docsProjectPath, jsonFileName.removesuffix('.json') + ".md")
-                    with open(docFileProjectsPath, "a", encoding="utf-8") as mdDocFile:
-                        mdDocFile.write(md)    
-                        mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
-                else:                                         
-                    md = generateMDTableFromJSON(data, jsonFileURL)                    
-                    with open(docFilePath, "a", encoding="utf-8") as mdDocFile:
-                        mdDocFile.write(md)    
-                        mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
-    
-    #needs to find way not to append the json-ld multiple times
-    #with open(docsPath+"/index.md", "a", encoding="utf-8") as indexFile :
-        #indexFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(allMetadata, indent=2)}\n</script>\n\n')
-            
+                folderIndex = -1
+                try:
+                  folderIndex = docsSubfolders.index(mdFolderName)
+                  md = f'# {mdFolderName.capitalize()} metadata\n\n'
+                  md += processProjectData(data, jsonFileURL)
+                  docFileProjectsPath = os.path.join(docsSubfoldersPath[folderIndex], jsonFileName.removesuffix('.json') + ".md")
+                  with open(docFileProjectsPath, "a", encoding="utf-8") as mdDocFile:
+                    mdDocFile.write(md)    
+                    mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
+                except:
+                  md = generateMDTableFromJSON(data, jsonFileURL)                    
+                  with open(docFilePath, "a", encoding="utf-8") as mdDocFile:
+                    mdDocFile.write(md)    
+                    mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')    
+       
         
 fromMetadatatoDocs()
