@@ -2,7 +2,7 @@
 
 _Combining semantic technologies and data analytics_
 
-We are a multidisciplinary Research and Development team combining semantic technologies and data analytics. We work on the development of softare components and services to support and improve research on information retrieval, data science and literature-based knowledge discovery with a particular focus on reproducibility. Our areas of application include the evaluation of experimental retrieval and recommendation systems, practical support to FAIR+R principles for software and data science, and data analytics from the combination of ontologies and literature-extracted data in the Life Sciences domain.
+We are a multidisciplinary Research and Development team combining semantic technologies and data analytics. We work on the development of software components and services to support and improve research on information retrieval, data science and literature-based knowledge discovery with a particular focus on reproducibility. Our areas of application include the evaluation of experimental retrieval and recommendation systems, practical support to FAIR+R principles for software and data science, and data analytics from the combination of ontologies and literature-extracted data in the Life Sciences domain.
 
 Here you will find information about our team as well as the projects we work on together with the research artifacts that we have produced.
 
