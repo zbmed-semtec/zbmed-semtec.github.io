@@ -99,6 +99,13 @@
           {
             "@id": "ttps://gepris.dfg.de/gepris/projekt/407518790#project"
           }
+        ],
+        "knowsAbout": [
+          { "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance" },
+          { "@id": "https://doi.org/10.5281/zenodo.7341391" },
+          { "@id": "https://doi.org/10.5281/zenodo.7338056" },
+          { "@id": "https://doi.org/10.5281/zenodo.7324822" },
+          { "@id": "https://ceur-ws.org/Vol-3415/paper-12.pdf" }
         ]
       },
       {
@@ -180,7 +187,7 @@
         "datePublished": "2023-06-22"
       },
       {
-        "@id": "ttps://gepris.dfg.de/gepris/projekt/407518790#project",
+        "@id": "https://gepris.dfg.de/gepris/projekt/407518790#project",
         "@type": "ResearchProject",
         "name": "STELLA Living Labs Project"
       },
