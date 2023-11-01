@@ -4,7 +4,7 @@
   "@id": "https://doi.org/10.5281/zenodo.7338056",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT", 
 
-  "identifier": "https://doi.org/10.5281/zenodo.7338056",
+  "identifier": "DOI:10.5281/zenodo.7338056",
   "name": "Fleiss kappa for doc-2-doc relevance assessment",
   "description": "Fleiss' kappa measuring inter-annotator agreement on a document-to-document relevance assessment task. The table contains 7 columns, the first one presents the topics, 8 in total. The second column shows the “reference articles”, represented by their PubMed-ID and organized by topic. The third column shows the Fleiss’ Kappa results. The fourth column shows the interpretation of the Fleiss' Kappa results being: i) “Poor” results <0.20, ii) “Fair” results within 0.21 - 0.40, and iii) “Moderate” results within 0.41 - 0.60. The fifth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Relevant” regarding its corresponding “reference article”. The sixth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Partially relevant” regarding its corresponding “reference article”. The seventh column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Non-relevant” regarding its corresponding “reference article”",
   "keywords":  [

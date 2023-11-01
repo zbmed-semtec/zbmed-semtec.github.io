@@ -405,7 +405,7 @@
 <tbody>
 <tr>
 <td>identifier</td>
-<td><a href="https://doi.org/10.5281/zenodo.7324822" target="_blank">https://doi.org/10.5281/zenodo.7324822</a></td>
+<td>DOI:10.5281/zenodo.7324822</td>
 </tr>
 <tr>
 <td>name</td>
@@ -586,7 +586,7 @@
   "@type": "Dataset",
   "@id": "https://doi.org/10.5281/zenodo.7324822",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT",
-  "identifier": "https://doi.org/10.5281/zenodo.7324822",
+  "identifier": "DOI:10.5281/zenodo.7324822",
   "name": "Document-to-document relevant assessment for TREC Genomics Track 2005",
   "description": "A CSV table with document-to-document relevance assessment judgements on a subset of the TREC Genomics Track 2005 produced by four annotators. The 'raw data document evaluation' contains six columns, first row consecutive id, second original TREC topic, third PubMed Id used as reference document, fourth PMID used to evaluate the relevance wrt the reference document, fifth the relevance score (2 definitely relevant, 1 partially relevant, 0 non-relevant), and sixth annotator id",
   "keywords": [
@@ -660,7 +660,7 @@
 <tbody>
 <tr>
 <td>identifier</td>
-<td><a href="https://doi.org/10.5281/zenodo.7338056" target="_blank">https://doi.org/10.5281/zenodo.7338056</a></td>
+<td>DOI:10.5281/zenodo.7338056</td>
 </tr>
 <tr>
 <td>name</td>
@@ -815,7 +815,7 @@
   "@type": "Dataset",
   "@id": "https://doi.org/10.5281/zenodo.7338056",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT",
-  "identifier": "https://doi.org/10.5281/zenodo.7338056",
+  "identifier": "DOI:10.5281/zenodo.7338056",
   "name": "Fleiss kappa for doc-2-doc relevance assessment",
   "description": "Fleiss' kappa measuring inter-annotator agreement on a document-to-document relevance assessment task. The table contains 7 columns, the first one presents the topics, 8 in total. The second column shows the \u201creference articles\u201d, represented by their PubMed-ID and organized by topic. The third column shows the Fleiss\u2019 Kappa results. The fourth column shows the interpretation of the Fleiss' Kappa results being: i) \u201cPoor\u201d results <0.20, ii) \u201cFair\u201d results within 0.21 - 0.40, and iii) \u201cModerate\u201d results within 0.41 - 0.60. The fifth column shows the PubMed-IDs of evaluation articles rated by the four annotators as \u201cRelevant\u201d regarding its corresponding \u201creference article\u201d. The sixth column shows the PubMed-IDs of evaluation articles rated by the four annotators as \u201cPartially relevant\u201d regarding its corresponding \u201creference article\u201d. The seventh column shows the PubMed-IDs of evaluation articles rated by the four annotators as \u201cNon-relevant\u201d regarding its corresponding \u201creference article\u201d",
   "keywords": [

@@ -4,7 +4,7 @@
   "@id": "https://doi.org/10.5281/zenodo.7324822",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT", 
 
-  "identifier": "https://doi.org/10.5281/zenodo.7324822",
+  "identifier": "DOI:10.5281/zenodo.7324822",
   "name": "Document-to-document relevant assessment for TREC Genomics Track 2005",
   "description": "A CSV table with document-to-document relevance assessment judgements on a subset of the TREC Genomics Track 2005 produced by four annotators. The 'raw data document evaluation' contains six columns, first row consecutive id, second original TREC topic, third PubMed Id used as reference document, fourth PMID used to evaluate the relevance wrt the reference document, fifth the relevance score (2 definitely relevant, 1 partially relevant, 0 non-relevant), and sixth annotator id",
   "keywords":  [

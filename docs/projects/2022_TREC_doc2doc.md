@@ -52,7 +52,7 @@ document relevance, doc2doc relevance
 
 #### STELLA Living Labs Project
 
-<a href="https://stella-project.org/" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ResearchProject</a>
+<a href="ttps://gepris.dfg.de/gepris/projekt/407518790#project" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ResearchProject</a>
 
 ### Funding
 
@@ -62,6 +62,8 @@ document relevance, doc2doc relevance
 
 - Alternatename: German Research Foundation
 - URL: <a href="http://www.dfg.de/en/" target="_blank">http://www.dfg.de/en/</a>
+
+<a href="https://gepris.dfg.de/gepris/projekt/407518790" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Grant</a>
 
 - Identifier: 407518790
 - Description: Project no. 407518790 (corresponding to the STELLA project)
@@ -76,12 +78,20 @@ document relevance, doc2doc relevance
 
 <a href="https://doi.org/10.5281/zenodo.7341391" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit SoftwareApplication</a>
 
+- Http://purl.org/dc/terms/conformsto: https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE
+- Description: The code, data and docs at this release aim at facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track. A doc-2-doc relevance assessment takes one document as reference and assess a second document regarding its relevance to the reference one. This doc-2-doc collection will be used to evaluate the doc-2-doc recommendations approaches that we are working on.
+- URL: <a href="https://zenodo.org/records/7341391" target="_blank">https://zenodo.org/records/7341391</a>
+
 - Softwareversion: 1.0.0
 - Datepublished: 2022-11-21
 #### TREC-doc-2-doc-relevance
 
 <a href="https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a>
 
+- Description: This is the software source code facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track along with its metadata.
+- URL: <a href="https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance" target="_blank">https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance</a>
+
+- Targetproduct: {'@id': 'https://doi.org/10.5281/zenodo.7341391'}
 #### Fleiss kappa for doc-2-doc relevance assessment
 
 <a href="https://doi.org/10.5281/zenodo.7338056" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Dataset</a>
@@ -187,13 +197,14 @@ document relevance, doc2doc relevance
     },
     {
       "@type": "ResearchProject",
-      "@id": "https://stella-project.org/",
+      "@id": "ttps://gepris.dfg.de/gepris/projekt/407518790#project",
       "name": "STELLA Living Labs Project"
     }
   ],
   "funding": [
     {
       "@type": "Grant",
+      "@id": "https://gepris.dfg.de/gepris/projekt/407518790",
       "funder": {
         "@type": "Organization",
         "@id": "https://ror.org/018mejw64",
@@ -215,14 +226,22 @@ document relevance, doc2doc relevance
     {
       "@type": "SoftwareApplication",
       "@id": "https://doi.org/10.5281/zenodo.7341391",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
       "name": "TREC-doc-2-doc-relevance assessment interface",
+      "description": "The code, data and docs at this release aim at facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track. A doc-2-doc relevance assessment takes one document as reference and assess a second document regarding its relevance to the reference one. This doc-2-doc collection will be used to evaluate the doc-2-doc recommendations approaches that we are working on.",
+      "url": "https://zenodo.org/records/7341391",
       "softwareVersion": "1.0.0",
       "datePublished": "2022-11-21"
     },
     {
       "@type": "SoftwareSourceCode",
       "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
-      "name": "TREC-doc-2-doc-relevance"
+      "name": "TREC-doc-2-doc-relevance",
+      "description": "This is the software source code facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track along with its metadata.",
+      "url": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+      "targetProduct": {
+        "@id": "https://doi.org/10.5281/zenodo.7341391"
+      }
     },
     {
       "@type": "Dataset",

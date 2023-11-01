@@ -13,12 +13,10 @@
       },
       {
         "@id": "./",
-        "@type": [
-          "Dataset"
-        ],
-        "name": "TREC Document-to-Document Relevance Assessment",
-        "description": "This dataset is for the TREC Document to Document Relevance assessment along with its metadata and has a list, via hasPart of its outcomes.",
-        "datePublished": "2022-06-01",
+        "@type": ["Dataset"],
+        "name": "RO-crate for the reearch project 'TREC Document-to-Document Relevance Assessment'",
+        "description": "This RO-crate describes the research project 'TREC Document-to-Document Relevance Assessment' including metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprenhensive view of the research outcomes.",
+        "datePublished": "2023-11-01",
         "license": {
           "@type": "CreativeWork",
           "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
@@ -27,43 +25,101 @@
           "url": "https://creativecommons.org/licenses/by/4.0/"
         },
         "keywords": [
-            "TREC", "doc-2-doc", "document relevance", "doc2doc relevance"
-            ], 
+          "TREC", "doc-2-doc", "document relevance", "doc2doc relevance"
+        ],
+        "about": { "@id": "https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc/"},
         "hasPart": [
-          {
-            "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance"
-          },
-          {
-            "@id": "10.5281/zenodo.7341391"
-          },
-          {
-            "@id": "10.5281/zenodo.7338056"
-          },
-          {
-            "@id": "10.5281/zenodo.7324822"
-          },
-          {
-            "@id": "https://ceur-ws.org/Vol-3415/paper-12.pdf"
-          }
+          { "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance" },
+          { "@id": "https://doi.org/10.5281/zenodo.7341391" },
+          { "@id": "https://doi.org/10.5281/zenodo.7338056" },
+          { "@id": "https://doi.org/10.5281/zenodo.7324822" },
+          { "@id": "https://ceur-ws.org/Vol-3415/paper-12.pdf" }
         ]  
+      },
+
+      {
+        "@id": "https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc",
+        "@type": "http://schema.org/ResearchProject",
+        "http://schema.org/alumni": [
+          {
+            "@id": "https://orcid.org/0000-0002-5915-8895"
+          },
+          {
+            "@id": "https://orcid.org/0000-0002-8725-1317"
+          },
+          {
+            "@id": "https://orcid.org/0000-0002-2910-7982"
+          },
+          {
+            "@id": "https://orcid.org/0000-0003-2978-8922"
+          },
+          {
+            "@id": "https://orcid.org/0000-0002-5037-0443"
+          },
+          {
+            "@id": "https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama"
+          },
+          {
+            "@id": "https://orcid.org/0009-0004-4484-6283"
+          },
+          {
+            "@id": "https://orcid.org/0009-0004-1529-0095"
+          },
+          {
+            "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"
+          },
+          {
+            "@id": "https://orcid.org/0000-0002-1018-0370"
+          },
+          {
+            "@id": "https://orcid.org/0000-0003-3986-0510"
+          }
+        ],
+        "http://schema.org/department": {
+          "@id": "https://zbmed-semtec.github.io/"
+        },
+        "http://schema.org/description": "[TREC 2005 Genomics Track data](https://trec.nist.gov/data/t14_genomics.html) provide document-to-topic relevance assessment. In this project we analyze a document-to-document relevance assessment for a subset of the TREC collection using manual annotation for the judgement. The inter-annotator agreement is evaluated with Fleiss' Kappa.",
+        "http://schema.org/dissolutionDate": {
+          "@type": "http://schema.org/Date",
+          "@value": "2023-03-31"
+        },
+        "http://schema.org/foundingDate": {
+          "@type": "http://schema.org/Date",
+          "@value": "2022-06-01"
+        },
+        "http://schema.org/funding": {
+          "@id": "https://gepris.dfg.de/gepris/projekt/407518790"
+        },
+        "http://schema.org/keywords": "document relevance, doc2doc relevance",
+        "http://schema.org/name": "TREC document-to-document relevance assessment",
+        "http://schema.org/parentOrganization": [
+          {
+            "@id": "https://ror.org/0259fwx54"
+          },
+          {
+            "@id": "ttps://gepris.dfg.de/gepris/projekt/407518790#project"
+          }
+        ]
       },
       {
         "@type": "SoftwareSourceCode",
         "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
-        "datePublished": "2023-00-00",
-        "name": "TREC Document to Document Relevance Assessment: Software",
+        "dateCreated": "2022-02-22",
+        "name": "TREC-doc-2-doc-relevance",
         "description": "This is the software source code facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track along with its metadata.",
         "url": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
         "citation": "Talha, M., Geist, L., Fellerhof, T., Ravinder, R., Giraldo, O., Rebholz-Schuhmann, D., & Castro, L. J. (2022). My Research Software (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.7341391",
         "programmingLanguage": [
           "Python"
-          ]
+          ],
+        "targetProduct": { "@id": "https://doi.org/10.5281/zenodo.7341391" }
       },
       {
         "@type": "SoftwareApplication",
-        "@id": "10.5281/zenodo.7341391",
-        "name": "TREC Document to Document Relevance Assessment: Software Release ",
-        "description": "This is the software release of the source code facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track along with its metadata.",
+        "@id": "https://doi.org/10.5281/zenodo.7341391",
+        "conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
+        "name": "TREC-doc-2-doc-relevance assessment interface",
+        "description": "The code, data and docs at this repo aim at facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track. A doc-2-doc relevance assessment takes one document as reference and assess a second document regarding its relevance to the reference one. This doc-2-doc collection will be used to evaluate the doc-2-doc recommendations approaches that we are working on.",
         "url" : "https://zenodo.org/records/7341391",
         "citation": "Talha, M., Geist, L., Fellerhof, T., Ravinder, R., Giraldo, O., Rebholz-Schuhmann, D., & Castro, L. J. (2022). TREC-doc-2-doc-relevance assessment interface (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7341391",
         "softwareVersion": "1.0.0",
@@ -72,28 +128,159 @@
       },
       {
         "@type": "Dataset",
-        "@id": "10.5281/zenodo.7338056",
-        "name": "Fleiss kappa for doc-2-doc relevance assessment: Dataset",
-        "description": "This is dataset corresponds to the Fleiss Kappa for the document to document relevance assessment along with its metadata.",
-        "@url": "https://zenodo.org/records/7338056",
+        "@id": "https://doi.org/10.5281/zenodo.7338056",
+        "conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT", 
+
+        "identifier": "DOI:10.5281/zenodo.7338056",
+        "name": "Fleiss kappa for doc-2-doc relevance assessment",
+        "description": "Fleiss' kappa measuring inter-annotator agreement on a document-to-document relevance assessment task. The table contains 7 columns, the first one presents the topics, 8 in total. The second column shows the “reference articles”, represented by their PubMed-ID and organized by topic. The third column shows the Fleiss’ Kappa results. The fourth column shows the interpretation of the Fleiss' Kappa results being: i) “Poor” results <0.20, ii) “Fair” results within 0.21 - 0.40, and iii) “Moderate” results within 0.41 - 0.60. The fifth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Relevant” regarding its corresponding “reference article”. The sixth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Partially relevant” regarding its corresponding “reference article”. The seventh column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Non-relevant” regarding its corresponding “reference article”",
+        "keywords":  [
+          "Fleiss' Kappa", "Inter-annoator agreement", "TREC Genomics Track 2005", "relevance assessment"
+        ], 
+        "license": {
+          "@type": "CreativeWork",
+          "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+          "name": "Creative Commons Attribution 4.0 International", 
+          "alternateName": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "url": "https://zenodo.org/record/7338056",
         "citation": "Olga Giraldo, Dhwani Solanki, Dietrich Rebholz-Schuhmann, & Leyla Jael Castro. (2022). Fleiss kappa for doc-2-doc relevance assessment (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7338056", 
         "datePublished": "2022-11-19" 
       },
       {
         "@type": "Dataset",
-        "@id": "10.5281/zenodo.7324822",
-        "name": "Document-to-document relevant assessment for TREC Genomics Track 2005: Dataset",
-        "description": "This dataset corresponds to the document to document relevance judgements on the TREC Genomics Dataset along with its metadata.",
-        "@url": "https://zenodo.org/records/7324822",
+        "@id": "https://doi.org/10.5281/zenodo.7324822",
+        "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT", 
+
+        "identifier": "DOI:10.5281/zenodo.7324822",
+        "name": "Document-to-document relevant assessment for TREC Genomics Track 2005",
+        "description": "A CSV table with document-to-document relevance assessment judgements on a subset of the TREC Genomics Track 2005 produced by four annotators. The 'raw data document evaluation' contains six columns, first row consecutive id, second original TREC topic, third PubMed Id used as reference document, fourth PMID used to evaluate the relevance wrt the reference document, fifth the relevance score (2 definitely relevant, 1 partially relevant, 0 non-relevant), and sixth annotator id",
+        "keywords":  [
+          "Document-to-document relevance", "TREC GEnomics Track 2005", "relevance assessment"
+        ], 
+        "license": {
+          "@type": "CreativeWork",
+          "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+          "name": "Creative Commons Attribution 4.0 International", 
+          "alternateName": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "url": "https://zenodo.org/record/7324822",
         "citation": "Olga Giraldo, Dhwani Solanki, Fernanda Cadena, Andrea Robayo-Gama, Dietrich Rebholz-Schuhmann, & Leyla Jael Castro. (2022). Document-to-document relevant assessment for TREC Genomics Track 2005 (1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7324822",
         "datePublished": "2022-11-15" 
       },
       {
         "@type": "ScholarlyArticle",
         "@id": "https://ceur-ws.org/Vol-3415/paper-12.pdf",
+        "conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+        "identifier": "CEUR:Vol-3415/paper-12",
         "name": "Document-to-document relevance assessment for TREC Genomics Track 2005",
         "citation": "Giraldo, O. L., Cadena, M. F., Robayo-Gama, A., Solanki, D., Fellerhoff, T., Geist, L., Ravinder, R., Talha, M., Rebholz-Schuhmann, D., & Castro, L. J. (2023). Document-to-document relevance assessment for TREC Genomics Track 2005. In Proceedings of the Semantic Web Applications and Tools for Healthcare and Life Sciences (SWAT4HCLS 2023) (pp. 98-101).",
         "datePublished": "2023-06-22"
+      },
+      {
+        "@id": "ttps://gepris.dfg.de/gepris/projekt/407518790#project",
+        "@type": "http://schema.org/ResearchProject",
+        "http://schema.org/name": "STELLA Living Labs Project"
+      },
+      {
+        "@id": "https://gepris.dfg.de/gepris/projekt/407518790",
+        "@type": "http://schema.org/Grant",
+        "http://schema.org/description": "Project no. 407518790 (corresponding to the STELLA project)",
+        "http://schema.org/funder": {
+          "@id": "https://ror.org/018mejw64"
+        },
+        "http://schema.org/identifier": "407518790"
+      },
+      {
+        "@id": "https://orcid.org/0000-0002-1018-0370",
+        "@type": "http://schema.org/Person",
+        "http://schema.org/familyName": "Rebholz-Schuhmann",
+        "http://schema.org/givenName": "Dietrich"
+      },
+      {
+        "@id": "https://orcid.org/0000-0002-2910-7982",
+        "@type": "http://schema.org/Person",
+        "http://schema.org/familyName": "Geist",
+        "http://schema.org/givenName": "Lukas"
+      },
+      {
+        "@id": "https://orcid.org/0000-0002-5037-0443",
+        "@type": "http://schema.org/Person",
+        "http://schema.org/familyName": "Quiñones",
+        "http://schema.org/givenName": "Nelson"
+      },
+      {
+        "@id": "https://orcid.org/0000-0002-5915-8895",
+        "@type": "http://schema.org/Person",
+        "http://schema.org/familyName": "Cadena",
+        "http://schema.org/givenName": " Maria Fernanda"
+      },
+      {
+        "@id": "https://orcid.org/0000-0002-8725-1317",
+        "@type": "http://schema.org/Person",
+        "http://schema.org/familyName": "Fellerhoff",
+        "http://schema.org/givenName": "Tim"
+      },
+      {
+        "@id": "https://orcid.org/0000-0003-2978-8922",
+        "@type": "http://schema.org/Person",
+        "http://schema.org/familyName": "Giraldo",
+        "http://schema.org/givenName": "Olga"
+      },
+      {
+        "@id": "https://orcid.org/0000-0003-3986-0510",
+        "@type": "http://schema.org/Person",
+        "http://schema.org/familyName": "Castro",
+        "http://schema.org/givenName": "Leyla Jael"
+      },
+      {
+        "@id": "https://orcid.org/0009-0004-1529-0095",
+        "@type": "http://schema.org/Person",
+        "http://schema.org/familyName": "Solanki",
+        "http://schema.org/givenName": "Dhwani"
+      },
+      {
+        "@id": "https://orcid.org/0009-0004-4484-6283",
+        "@type": "http://schema.org/Person",
+        "http://schema.org/familyName": "Ravinder",
+        "http://schema.org/givenName": "Rohitha"
+      },
+      {
+        "@id": "https://ror.org/018mejw64",
+        "@type": "http://schema.org/Organization",
+        "http://schema.org/alternateName": "German Research Foundation",
+        "http://schema.org/name": "Deutsche Forschungsgemeinschaft",
+        "http://schema.org/url": {
+          "@id": "http://www.dfg.de/en/"
         }
+      },
+      {
+        "@id": "https://ror.org/0259fwx54",
+        "@type": "http://schema.org/ResearchOrganization",
+        "http://schema.org/alternateName": "ZB MED Information Centre for Life Sciences",
+        "http://schema.org/name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+        "http://schema.org/url": {
+          "@id": "https://zbmed.de/"
+        }
+      },
+      {
+        "@id": "https://zbmed-semtec.github.io/",
+        "@type": "http://schema.org/ResearchOrganization",
+        "http://schema.org/name": "Semantic Technologies team at ZB MED"
+      },
+      {
+        "@id": "https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama",
+        "@type": "http://schema.org/Person",
+        "http://schema.org/familyName": "Robayo-Gama",
+        "http://schema.org/givenName": "Andrea"
+      },
+      {
+        "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha",
+        "@type": "http://schema.org/Person",
+        "http://schema.org/familyName": "Muhammad",
+        "http://schema.org/givenName": "Talha"
+      }
     ]
 }

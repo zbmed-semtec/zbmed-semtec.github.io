@@ -67,7 +67,7 @@ Evaluation framework, A/B testing, Interlinking, Information Retrieval, Recommen
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
-  "@id": "https://gepris.dfg.de/gepris/projekt/407518790",
+  "@id": "https://gepris.dfg.de/gepris/projekt/407518790#project",
   "@type": "ResearchProject",
   "name": "STELLA Living Labs",
   "foundingDate": [
