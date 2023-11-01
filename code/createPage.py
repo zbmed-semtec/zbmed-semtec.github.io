@@ -207,9 +207,6 @@ def generateMDTableFromJSON(jsonData, jsonFileURL):
     jsonData = complexDataInList(jsonData)
     jsonData = createTableLink(jsonData)
 
-    """
-    Why is this loop before another loop on the same collection?
-    Does not seem to modify anything
     for property, value in jsonData.items():
         if property == "name":
             md += f'## {renderProperty(property, value)}\n'
@@ -218,7 +215,7 @@ def generateMDTableFromJSON(jsonData, jsonFileURL):
             md += f'### {renderProperty("Name", value + " " + familyName)}\n'
         if property == "familyName" and "givenName" not in jsonData:
             md += f'### {renderProperty("Name", value)}\n'
-    """
+    
     linkValue = jsonData.get("@link", "")
     if linkValue:
         md += f'<p>{createGetJsonLink(jsonFileURL)} | {linkValue}</p>\n'
