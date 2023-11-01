@@ -4,7 +4,7 @@
   "@id": "https://doi.org/10.5281/zenodo.4903981",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT", 
 
-  "identifier": "https://doi.org/10.5281/zenodo.4903981",
+  "identifier": "DOI:10.5281/zenodo.4903981",
   "name": "Whatizit performance evaluation against CRAFT corpus",
   "description": "Whatizit performance evaluation against CRAFT corpus wrt Gene Ontology annotations",
   "keywords":  [

@@ -4,7 +4,7 @@
   "@id": "https://doi.org/10.5281/zenodo.5035290",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT", 
 
-  "identifier": "https://doi.org/10.5281/zenodo.5035290",
+  "identifier": "DOI:10.5281/zenodo.5035290",
   "name": "Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool",
   "description": "Gene Ontology annotations for Medline abstracts from 2015 to 2019 using Whatizit",
   "keywords":  [
