@@ -13,12 +13,10 @@
       },
       {
         "@id": "./",
-        "@type": [
-          "Dataset"
-        ],
-        "name": "Machine-actionable Software Management Plans",
-        "description": "This dataset corresponds to machine actionable Software Management Plans which is an extension of the RDA machine-actionable Data Management Plan (maDMP) application profile and its corresponding DMP Common Standard ontology (DCSO) in order to cover the case of ELIXIR Software Management Plans (SMP). This includes its metadata and has a list, via hasPart of its outcomes.",
-        "datePublished": "2022-09-01",
+        "@type": ["Dataset"],
+        "name": "RO-Crate for the research project 'Machine-actionable Software Management Plans'",
+        "description": "This RO-Crate describes the research project 'Machine-actionable Software Management Plans' including  metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprenhensive view of the research outcomes.",
+        "datePublished": "2022-11-02",
         "license": {
           "@type": "CreativeWork",
           "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
@@ -29,85 +27,85 @@
         "keywords": [
             "machine-actionalibity", "software management plans", "rsearch software", "controlled vocabulary", "metadata schema", "ongoing", "SMP"
             ], 
-        "author" :  [
-            {
-              "@type": "Person",
-              "@id": "https://orcid.org/0000-0002-2910-7982",
-              "givenName": "Lukas",
-              "familyName": "Geist"
-            },
-            {
-              "@type": "Person",
-              "@id": "https://orcid.org/0000-0002-5037-0443",
-              "givenName": "Nelson",
-              "familyName": "Quiñones"
-            },
-            {
-              "@type": "Person",
-              "@id": "https://orcid.org/0009-0004-1529-0095",
-              "givenName": "Dhwani",
-              "familyName": "Solanki"
-            },
-            {
-              "@type": "Person",
-              "@id": "https://orcid.org/0000-0002-1018-0370",
-              "givenName": "Dietrich",
-              "familyName": "Rebholz-Schuhmann"
-            },
-            {
-              "@type": "Person",
-              "@id": "https://orcid.org/0000-0003-3986-0510",
-              "givenName": "Leyla Jael",
-              "familyName": "Castro"
-            }
-          ],
-          "alumni": [
-            {
-              "@type": "Person",
-              "@id": "https://orcid.org/0000-0003-2978-8922",
-              "givenName": "Olga",
-              "familyName": "Giraldo"
-            }
-          ],
+        "about": { "@id": "https://zbmed-semtec.github.io/projects/2022_maSMP/"},
         "hasPart": [
+          {"@id": "https://github.com/zbmed-semtec/maSMPs"},
+          {"@id": "https://doi.org/10.5281/zenodo.8089518"},
+          {"@id": "https://doi.org/10.52825/cordi.v1i.279"},
+          {"@id": "https://doi.org/10.5281/zenodo.8349183"},
+          {"@id": "https://doi.org/10.5281/zenodo.8087357"},
+          {"@id": "https://doi.org/10.4126/FRL01-006444988"},
+          {"@id": "https://ceur-ws.org/Vol-3415/paper-31.pdf"},
+          {"@id": "https://doi.org/10.4126/FRL01-006440396"},
+          {"@id": "https://doi.org/10.3897/rio.8.e94608"},
+          {"@id": "https://doi.org/10.5281/zenodo.7249674"}
+        ]
+      },
+      {
+        "@id": "https://zbmed-semtec.github.io/projects/2022_maSMP",
+        "@type": "http://schema.org/ResearchProject",
+        "department": {
+          "@id": "https://zbmed-semtec.github.io/"
+        },
+        "description": "Our project corresponds to an extension of the RDA machine-actionable Data Management Plan (maDMP) application profile and its corresponding DMP Common Standard ontology (DCSO) in order to cover the case of ELIXIR Software Management Plans (SMP). Similar to DMPs, SMPs help formalize a set of structures and goals that ensure the software is accessible and reusable in the short, medium and long term. Although targeting the life sciences community, most of the elements of the ELIXIR SMPs are domain agnostic and could be used by other communities as well. DMPs and SMPs can be presented as text-based documents, sometimes guided by a set of questions corresponding to key points related to the lifecycle of either data or software. The RDA DMP Common Standards working group defined a maDMP to overcome limitations of text-based documents. We propose a similar path for the ELIXIR SMPs so they turn into machine-actionable SMPs (maSMPs).",
+        "foundingDate": "2022-09-01",
+        "employee": [
           {
-            "@id": "https://github.com/zbmed-semtec/maSMPs"
+            "@id": "https://orcid.org/0000-0002-2910-7982"
           },
           {
-            "@id": "10.5281/zenodo.8089518"
+            "@id": "https://orcid.org/0000-0002-5037-0443"
           },
           {
-            "@id": "https://doi.org/10.52825/cordi.v1i.279"
+            "@id": "https://orcid.org/0009-0004-1529-0095"
           },
           {
-            "@id": "10.5281/zenodo.8349183"
+            "@id": "https://orcid.org/0000-0002-1018-0370"
           },
           {
-            "@id": "10.5281/zenodo.8087357"
-          },
-          {
-            "@id": "https://doi.org/10.4126/FRL01-006444988"
-          },
-          {
-            "@id": "https://ceur-ws.org/Vol-3415/paper-31.pdf"
-          },
-          {
-            "@id": "https://doi.org/10.4126/FRL01-006440396"
-          },
-          {
-            "@id": "https://doi.org/10.3897/rio.8.e94608" 
-          },
-          {
-            "@id": "10.5281/zenodo.7249674"
+            "@id": "https://orcid.org/0000-0003-3986-0510"
           }
-        ]  
+        ],
+        "member": [
+            {
+              "@id": "https://orcid.org/0000-0003-0057-8788"
+            },
+            {
+              "@id": "https://orcid.org/0000-0001-8324-2897"
+            },
+            {
+              "@id": "https://orcid.org/0000-0002-3597-8557"
+            },
+            {
+              "@id": "https://orcid.org/0000-0002-2880-8947"
+            },
+            {
+              "@id": "https://orcid.org/0000-0002-0222-4273"
+            },
+            {
+              "@id": "https://orcid.org/0000-0002-0893-8509"
+            }
+        ],
+        "alumni": [
+          {"@id": "https://orcid.org/0000-0003-2978-8922"}
+        ],
+        "name": "Machine-Actionable Metadata for Software and Software Management Plans",
+        "funding": {
+          "@id": "https://ror.org/018mejw64"
+        },
+        "parentOrganization": [
+            {
+              "@id": "https://ror.org/0259fwx54"
+            }
+        ],
+        "keywords": "ongoing, machine-actionability, software management plans, research software, controlled vocabulary, metadata schema"
       },
       {
         "@type": "SoftwareSourceCode",
         "@id": "https://github.com/zbmed-semtec/maSMPs",
         "datePublished": "2022-11-29",
-        "name": "Metadata model for machine-actionable Software Management Plans: Software",
-        "description": "This is the software source code facilitating the creation of a metadata model for machine actionable software management plans along with its metadata.",
+        "name": "maSMPs",
+        "description": "This project corresponds to an extension of the Research Data Alliance (RDA) machine-actionable Data Management Plan (maDMP) application profile and its corresponding DMP Common Standard ontology (DCSO) in order to cover the case of ELIXIR Software Management Plans (SMPs). Similar to DMPs, SMPs help formalize a set of structures and goals that ensure the software is accessible and reusable in the short, medium and long term. Although targeting the life sciences community, most of the elements of the ELIXIR SMPs are domain agnostic and could be used by other communities as well. DMPs and SMPs can be presented as text-based documents, sometimes guided by a set of questions corresponding to key points related to the lifecycle of either data or software. The RDA DMP Common Standards working group defined a maDMP to overcome limitations of text-based documents. We propose a similar path for the ELIXIR SMPs so they turn into machine-actionable SMPs (maSMPs).",
         "url": "https://github.com/zbmed-semtec/maSMPs",
         "citation": "Giraldo O, Geist L, Quiñones N, Solanki D, Rebholz-Schuhmann D, Castro LJ. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2023. doi:10.5281/zenodo.8089518",
         "programmingLanguage": [
@@ -116,45 +114,58 @@
       },
       {
         "@type": "DefinedTermSet",
-        "@id": "10.5281/zenodo.8089518",
-        "name": "maSMP Ontology",
-        "description": "This is an ontology representing the metadata elements of a maSMP along with its metadata.",
-        "url" : "https://doi.org/10.5281/zenodo.8089518",
+        "@id": "https://doi.org/10.5281/zenodo.8089518",
+        "name": "machine-actionable Software Management Plan Ontology (maSMP Ontology)",
+        "description": "This is a metadata model in the form of an ontology representing the necessary metadata elements for a maSMP. The metadata model includes entities involved in software management planning; such as an SMP itself, software source code, software release, documentation, authors and their relations. We are reusing terms mainly from schema.org and from DCSO, with some few additions of our own.",
+        "url" : "https://zenodo.org/records/8089518",
         "citation": "Giraldo Olga, Geist Lukas, Quiñones Nelson, Solanki Dhwani, Rebholz-Schuhmann Dietrich, & Castro Leyla Jael. (2023). machine-actionable Software Management Plan Ontology (maSMP Ontology) (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.8089518",
         "datePublished": "2023-06-28" 
         
       },
       {
         "@type": "DigitalDocument",
-        "@id": "10.5281/zenodo.8349183",
+        "@id": "https://doi.org/10.5281/zenodo.8349183",
         "name": "Machine-Actionable Metadata for Software and Software Management Plans for NFDI - Presentation",
-        "@url": "https://doi.org/10.5281/zenodo.8349183",
+        "@url": "https://zenodo.org/records/8349183",
+        "description": "Research data is on its way to be recognized as a first-class citizen in research; however, and despite its importance for science, software still has a long way to go. Recent initiatives are paving the way, including FAIR for Research Software and Software Management Plans. A step further towards machine-actionability is adding a structured metadata layer. Here we discuss some metadata elements useful to represent software and integrate it into management plans, and how it could be of benefit for NFDI.",
         "citation": "Giraldo, O., Dessi, D., Dietze, S., Rebholz-Schuhmann, D., & Castro, L. J. (2023, September 15). Machine-Actionable Metadata for Software and Software Management Plans for NFDI - Presentation. Zenodo. https://doi.org/10.5281/zenodo.8349183",
         "datePublished": "2022-09-15" 
       },
       {
         "@type": "Report",
-        "@id": "10.5281/zenodo.8087357",
+        "@id": "https://doi.org/10.5281/zenodo.8087357",
         "name": "Workshop machine-actionable Software Management Plans",
-        "url": "https://doi.org/10.5281/zenodo.8087357",
+        "url": "https://zenodo.org/records/8087357",
+        "description": "The purpose of the workshop was validating the metadata schema support maSMPs [2, 3], improving its alignment with existing SMPs, and identifying gaps wrt ELIXIR SMPs and RDMO SMPs [4] and Research Data Alliance (RDA) maDMPs [5, 6]. The workshop counted with the participation of 10 people, from ELIXIR Software Development Best Practices Group, Bioschemas [7], RDMO SMPs, RDA DMP Common Standards Working Group, ARGOS and ZB MED. In addition to the resources represented by participants, we also include Codemeta [8] in the analysis. Here we present a report of what happened and what was achieved.",
         "citation": "Giraldo, O., Cardoso, J., Martin del Pico, E., Gaignard, A., Geist, L., Grossmann, Y. V., Psomopoulos, F., Papadopoulou, E., Solanki, D., & Castro, L. J. (2023). Workshop machine-actionable Software Management Plans. Zenodo. https://doi.org/10.5281/zenodo.8087357",
         "datePublished": "2023-06-27"
       },
       {
         "@type": "ScholarlyArticle",
         "@id": "https://doi.org/10.52825/cordi.v1i.279",
+        "conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+        "identifier": "",
         "name": "Machine-Actionable Metadata for Software and Software Management Plans for NFDI",
+        "license": {
+          "@type": "CreativeWork",
+          "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+          "name": "Creative Commons Attribution 4.0 International", 
+          "alternateName": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
         "datePublished": "2022-09-07" 
       },
       {
         "@type": "ScholarlyArticle",
         "@id": "https://doi.org/10.4126/FRL01-006444988",
+        "conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
         "name": "A metadata schema for machine-actionable Software Management Plans",
         "datePublished": "2023-06-16"
       },
       {
         "@type": "ScholarlyArticle",
         "@id": "https://ceur-ws.org/Vol-3415/paper-12.pdf",
+        "conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
         "name": "A metadata analysis for machine-actionable Software Management Plans",
         "datePublished": "2023-06-22"
       },
@@ -167,12 +178,13 @@
        {
         "@type": "ScholarlyArticle",
         "@id": "https://doi.org/10.3897/rio.8.e94608",
+        "conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
         "name": "A FAIRification roadmap for ELIXIR Software Management Plans",
         "datePublished": "2022-10-12"
         },
         {
         "@type": "Poster",
-        "@id": "10.5281/zenodo.7249674",
+        "@id": "https://doi.org/10.5281/zenodo.7249674",
         "name": "A FAIRification roadmap for ELIXIR Software Management Plans - Poster",
         "url": "https://doi.org/10.5281/zenodo.7249674",
         "citation": "Olga Giraldo, Renato Alves, Dimitrios Bampalikis, Jose M Fernandez, Eva Martin del Pico, Fotis E Psomopoulos, Allegra Via, & Leyla Jael Castro. (2022). A FAIRification roadmap for ELIXIR Software Management Plans - Poster. First International Conference on FAIR Digital Objects (FDO2022). Zenodo. https://doi.org/10.5281/zenodo.7249674",
