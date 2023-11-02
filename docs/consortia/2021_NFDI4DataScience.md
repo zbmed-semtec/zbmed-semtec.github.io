@@ -41,6 +41,8 @@ NFDI, Data Science, Artificial Intelligence
 - Alternatename: German Research Foundation
 - URL: <a href="http://www.dfg.de/en/" target="_blank">http://www.dfg.de/en/</a>
 
+<a href="https://gepris.dfg.de/gepris/projekt/460234259" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Grant</a>
+
 - Identifier: 460234259
 - Description: Project no. 460234259 (corresponding to the NFDI4DataScience consortium)
 
@@ -48,7 +50,7 @@ NFDI, Data Science, Artificial Intelligence
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
-  "@id": "https://gepris.dfg.de/gepris/projekt/460234259",
+  "@id": "https://gepris.dfg.de/gepris/projekt/460234259#project",
   "@type": "ResearchProject",
   "name": "NFDI4DataScience",
   "foundingDate": "2021-10-01",
@@ -78,6 +80,7 @@ NFDI, Data Science, Artificial Intelligence
   "funding": [
     {
       "@type": "Grant",
+      "@id": "https://gepris.dfg.de/gepris/projekt/460234259",
       "funder": {
         "@type": "Organization",
         "@id": "https://ror.org/018mejw64",

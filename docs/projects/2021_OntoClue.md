@@ -53,11 +53,11 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
 
 #### NFDI4DataScience
 
-<a href="https://www.nfdi4datascience.de/" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Consortium</a>
+<a href="https://gepris.dfg.de/gepris/projekt/460234259#project" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Consortium</a>
 
 #### STELLA Living Labs Project
 
-<a href="https://stella-project.org/" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ResearchProject</a>
+<a href="ttps://gepris.dfg.de/gepris/projekt/407518790#project" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ResearchProject</a>
 
 ### Funding
 
@@ -68,6 +68,8 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
 - Alternatename: German Research Foundation
 - URL: <a href="http://www.dfg.de/en/" target="_blank">http://www.dfg.de/en/</a>
 
+<a href="https://gepris.dfg.de/gepris/projekt/460234259" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Grant</a>
+
 - Identifier: 460234259
 - Description: Project no. 460234259 (corresponding to the NFDI4DataScience consortium)
 #### Deutsche Forschungsgemeinschaft
@@ -77,6 +79,8 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
 - Alternatename: German Research Foundation
 - URL: <a href="http://www.dfg.de/en/" target="_blank">http://www.dfg.de/en/</a>
 
+<a href="https://gepris.dfg.de/gepris/projekt/407518790" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Grant</a>
+
 - Identifier: 407518790
 - Description: Project no. 407518790 (corresponding to the STELLA project)
 ### Outcomes
@@ -85,25 +89,54 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
 
 <a href="https://doi.org/10.4126/FRL01-006440397" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
 
+- Identifier: DOI:10.4126/FRL01-006440397s
 - Datepublished: 2023-06-22
 #### OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster
 
 <a href="https://ceur-ws.org/Vol-3415/paper-38.pdf" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Poster</a>
 
+- Identifier: CEUR:Vol-3415/paper-38
 - Datepublished: 2023-03-01
 #### Ontology Clustering with OWL2Vec*
 
 <a href="https://ceur-ws.org/Vol-2918/short3.pdf" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
 
+- Identifier: CEUR:Vol-2918/short3
 - Datepublished: 2021-07-28
+#### Creative Commons Attribution 4.0 International
+
+<a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork</a>
+
+- Alternatename: CC BY 4.0
+- URL: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">https://creativecommons.org/licenses/by/4.0/</a>
+
 #### Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool
 
 <a href="https://doi.org/10.5281/zenodo.5035290" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit DataCatalog</a>
 
+- Identifier: DOI:10.5281/zenodo.5035290
+- Description: Gene Ontology annotations for Medline abstracts from 2015 to 2019 using Whatizit
+- Keywords: Whatizit, Semantic annotation, Medline, text-mining
+- License: {'@type': 'CreativeWork', '@id': 'https://spdx.org/licenses/CC-BY-4.0.html', 'name': 'Creative Commons Attribution 4.0 International', 'alternateName': 'CC BY 4.0', 'url': 'https://creativecommons.org/licenses/by/4.0/'}
+- URL: <a href="https://zenodo.org/record/5035290" target="_blank">https://zenodo.org/record/5035290</a>
+
 - Datepublished: 2021-06-27
+#### Creative Commons Attribution 4.0 International
+
+<a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork</a>
+
+- Alternatename: CC BY 4.0
+- URL: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">https://creativecommons.org/licenses/by/4.0/</a>
+
 #### Whatizit performance evaluation against CRAFT corpus
 
 <a href="https://doi.org/10.5281/zenodo.4903981" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit DataCatalog</a>
+
+- Identifier: DOI:10.5281/zenodo.4903981
+- Description: Whatizit performance evaluation against CRAFT corpus wrt Gene Ontology annotations
+- Keywords: Whatizit, Semantic annotation, CRAFT, manual annotation, performance
+- License: {'@type': 'CreativeWork', '@id': 'https://spdx.org/licenses/CC-BY-4.0.html', 'name': 'Creative Commons Attribution 4.0 International', 'alternateName': 'CC BY 4.0', 'url': 'https://creativecommons.org/licenses/by/4.0/'}
+- URL: <a href="https://zenodo.org/record/4903981" target="_blank">https://zenodo.org/record/4903981</a>
 
 - Datepublished: 2021-06-05
 ### External contributors
@@ -208,18 +241,19 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
     },
     {
       "@type": "Consortium",
-      "@id": "https://www.nfdi4datascience.de/",
+      "@id": "https://gepris.dfg.de/gepris/projekt/460234259#project",
       "name": "NFDI4DataScience"
     },
     {
       "@type": "ResearchProject",
-      "@id": "https://stella-project.org/",
+      "@id": "ttps://gepris.dfg.de/gepris/projekt/407518790#project",
       "name": "STELLA Living Labs Project"
     }
   ],
   "funding": [
     {
       "@type": "Grant",
+      "@id": "https://gepris.dfg.de/gepris/projekt/460234259",
       "funder": {
         "@type": "Organization",
         "@id": "https://ror.org/018mejw64",
@@ -232,6 +266,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
     },
     {
       "@type": "Grant",
+      "@id": "https://gepris.dfg.de/gepris/projekt/407518790",
       "funder": {
         "@type": "Organization",
         "@id": "https://ror.org/018mejw64",
@@ -247,31 +282,60 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
     {
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.4126/FRL01-006440397",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "DOI:10.4126/FRL01-006440397s",
       "name": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus",
       "datePublished": "2023-06-22"
     },
     {
       "@type": "Poster",
       "@id": "https://ceur-ws.org/Vol-3415/paper-38.pdf",
+      "identifier": "CEUR:Vol-3415/paper-38",
       "name": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster",
       "datePublished": "2023-03-01"
     },
     {
       "@type": "ScholarlyArticle",
       "@id": "https://ceur-ws.org/Vol-2918/short3.pdf",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "CEUR:Vol-2918/short3",
       "name": "Ontology Clustering with OWL2Vec*",
       "datePublished": "2021-07-28"
     },
     {
       "@type": "DataCatalog",
       "@id": "https://doi.org/10.5281/zenodo.5035290",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT",
+      "identifier": "DOI:10.5281/zenodo.5035290",
       "name": "Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool",
+      "description": "Gene Ontology annotations for Medline abstracts from 2015 to 2019 using Whatizit",
+      "keywords": "Whatizit, Semantic annotation, Medline, text-mining",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "url": "https://zenodo.org/record/5035290",
       "datePublished": "2021-06-27"
     },
     {
       "@type": "DataCatalog",
       "@id": "https://doi.org/10.5281/zenodo.4903981",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT",
+      "identifier": "DOI:10.5281/zenodo.4903981",
       "name": "Whatizit performance evaluation against CRAFT corpus",
+      "description": "Whatizit performance evaluation against CRAFT corpus wrt Gene Ontology annotations",
+      "keywords": "Whatizit, Semantic annotation, CRAFT, manual annotation, performance",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "url": "https://zenodo.org/record/4903981",
       "datePublished": "2021-06-05"
     }
   ],

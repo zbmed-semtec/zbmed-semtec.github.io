@@ -6,7 +6,7 @@
 <tbody>
 <tr>
 <td>identifier</td>
-<td><a href="https://doi.org/10.5281/zenodo.4903981" target="_blank">https://doi.org/10.5281/zenodo.4903981</a></td>
+<td>DOI:10.5281/zenodo.4903981</td>
 </tr>
 <tr>
 <td>name</td>
@@ -141,7 +141,7 @@
   "@type": "DataCatalog",
   "@id": "https://doi.org/10.5281/zenodo.4903981",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT",
-  "identifier": "https://doi.org/10.5281/zenodo.4903981",
+  "identifier": "DOI:10.5281/zenodo.4903981",
   "name": "Whatizit performance evaluation against CRAFT corpus",
   "description": "Whatizit performance evaluation against CRAFT corpus wrt Gene Ontology annotations",
   "keywords": [
@@ -197,7 +197,7 @@
 <tbody>
 <tr>
 <td>identifier</td>
-<td><a href="https://doi.org/10.5281/zenodo.5035290" target="_blank">https://doi.org/10.5281/zenodo.5035290</a></td>
+<td>DOI:10.5281/zenodo.5035290</td>
 </tr>
 <tr>
 <td>name</td>
@@ -344,7 +344,7 @@
   "@type": "DataCatalog",
   "@id": "https://doi.org/10.5281/zenodo.5035290",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT",
-  "identifier": "https://doi.org/10.5281/zenodo.5035290",
+  "identifier": "DOI:10.5281/zenodo.5035290",
   "name": "Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool",
   "description": "Gene Ontology annotations for Medline abstracts from 2015 to 2019 using Whatizit",
   "keywords": [
@@ -878,7 +878,7 @@
 <tbody>
 <tr>
 <td>identifier</td>
-<td><a href="https://doi.org/10.5281/zenodo.7793384" target="_blank">https://doi.org/10.5281/zenodo.7793384</a></td>
+<td>DOI:10.5281/zenodo.7793384</td>
 </tr>
 <tr>
 <td>name</td>
@@ -1017,7 +1017,7 @@
   "@type": "DataCatalog",
   "@id": "https://doi.org/10.5281/zenodo.7793384",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT",
-  "identifier": "https://doi.org/10.5281/zenodo.7793384",
+  "identifier": "DOI:10.5281/zenodo.7793384",
   "name": "Protein Function Embeddings: First Beta Release of Datasets",
   "description": "Datasets generated from a thesis work that explores how information for protein functions can be exploited through embeddings so that the produced information can be used to improve protein function annotations",
   "keywords": [

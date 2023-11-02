@@ -54,6 +54,8 @@ ongoing, machine-actionability, software management plans, research software, co
 - Alternatename: German Research Foundation
 - URL: <a href="http://www.dfg.de/en/" target="_blank">http://www.dfg.de/en/</a>
 
+<a href="https://gepris.dfg.de/gepris/projekt/460234259" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Grant</a>
+
 - Identifier: 460234259
 - Description: Project no. 460234259 (corresponding to the NFDI4DataScience consortium)
 #### European Union’s Horizon 2020 research and innovation programme
@@ -61,6 +63,8 @@ ongoing, machine-actionability, software management plans, research software, co
 <a href="https://eoscfuture-grants.eu/" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Organization</a>
 
 - URL: <a href="https://eoscfuture-grants.eu/" target="_blank">https://eoscfuture-grants.eu/</a>
+
+<a href="https://gepris.dfg.de/gepris/projekt/101017536" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Grant</a>
 
 - Identifier: 101017536
 - Description: Grant agreement No 101017536, part of the Research Data Alliance and European Open Science Cloud Future call 2022
@@ -79,41 +83,49 @@ ongoing, machine-actionability, software management plans, research software, co
 
 <a href="https://doi.org/10.52825/cordi.v1i.279" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
 
+- Identifier: DOI:10.52825/cordi.v1i.279
 - Datepublished: 2023-09-07
 #### Machine-Actionable Metadata for Software and Software Management Plans for NFDI - Presentation
 
 <a href="https://doi.org/10.5281/zenodo.8349183" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit DigitalDocument</a>
 
+- Identifier: DOI:10.5281/zenodo.8349183
 - Datepublished: 2023-09-15
 #### Workshop machine-actionable Software Management Plans
 
 <a href="https://doi.org/10.5281/zenodo.8087357" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Report</a>
 
+- Identifier: DOI:10.5281/zenodo.8087357
 - Datepublished: 2023-06-27
 #### A metadata schema for machine-actionable Software Management Plans
 
 <a href="https://doi.org/10.4126/FRL01-006444988" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
 
+- Identifier: DOI:10.4126/FRL01-006444988
 - Datepublished: 2023-06-16
 #### A metadata analysis for machine-actionable Software Management Plans
 
 <a href="https://ceur-ws.org/Vol-3415/paper-31.pdf" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
 
+- Identifier: CEUR:Vol-3415/paper-31
 - Datepublished: 2023-06-22
 #### A metadata analysis for machine-actionable Software Management Plans - Poster
 
 <a href="https://doi.org/10.4126/FRL01-006440396" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Poster</a>
 
+- Identifier: DOI:0.4126/FRL01-006440396
 - Datepublished: 2023-03-01
 #### A FAIRification roadmap for ELIXIR Software Management Plans
 
 <a href="https://doi.org/10.3897/rio.8.e94608" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ScholarlyArticle</a>
 
+- Identifier: DOI:10.3897/rio.8.e94608
 - Datepublished: 2022-10-12
 #### A FAIRification roadmap for ELIXIR Software Management Plans - Poster
 
 <a href="https://doi.org/10.5281/zenodo.7249674" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Poster</a>
 
+- Identifier: DOI:10.5281/zenodo.7249674
 - Datepublished: 2022-10-25
 ### External contributors
 
@@ -202,6 +214,7 @@ ongoing, machine-actionability, software management plans, research software, co
   "funding": [
     {
       "@type": "Grant",
+      "@id": "https://gepris.dfg.de/gepris/projekt/460234259",
       "funder": {
         "@type": "Organization",
         "@id": "https://ror.org/018mejw64",
@@ -214,6 +227,7 @@ ongoing, machine-actionability, software management plans, research software, co
     },
     {
       "@type": "Grant",
+      "@id": "https://gepris.dfg.de/gepris/projekt/101017536",
       "funder": {
         "@type": "Organization",
         "@id": "https://eoscfuture-grants.eu/",
@@ -239,48 +253,60 @@ ongoing, machine-actionability, software management plans, research software, co
     {
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.52825/cordi.v1i.279",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "DOI:10.52825/cordi.v1i.279",
       "name": "Machine-Actionable Metadata for Software and Software Management Plans for NFDI",
       "datePublished": "2023-09-07"
     },
     {
       "@type": "DigitalDocument",
       "@id": "https://doi.org/10.5281/zenodo.8349183",
+      "identifier": "DOI:10.5281/zenodo.8349183",
       "name": "Machine-Actionable Metadata for Software and Software Management Plans for NFDI - Presentation",
       "datePublished": "2023-09-15"
     },
     {
       "@type": "Report",
       "@id": "https://doi.org/10.5281/zenodo.8087357",
+      "identifier": "DOI:10.5281/zenodo.8087357",
       "name": "Workshop machine-actionable Software Management Plans",
       "datePublished": "2023-06-27"
     },
     {
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.4126/FRL01-006444988",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "DOI:10.4126/FRL01-006444988",
       "name": "A metadata schema for machine-actionable Software Management Plans",
       "datePublished": "2023-06-16"
     },
     {
       "@type": "ScholarlyArticle",
       "@id": "https://ceur-ws.org/Vol-3415/paper-31.pdf",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "CEUR:Vol-3415/paper-31",
       "name": "A metadata analysis for machine-actionable Software Management Plans",
       "datePublished": "2023-06-22"
     },
     {
       "@type": "Poster",
       "@id": "https://doi.org/10.4126/FRL01-006440396",
+      "identifier": "DOI:0.4126/FRL01-006440396",
       "name": "A metadata analysis for machine-actionable Software Management Plans - Poster",
       "datePublished": "2023-03-01"
     },
     {
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.3897/rio.8.e94608",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "DOI:10.3897/rio.8.e94608",
       "name": "A FAIRification roadmap for ELIXIR Software Management Plans",
       "datePublished": "2022-10-12"
     },
     {
       "@type": "Poster",
       "@id": "https://doi.org/10.5281/zenodo.7249674",
+      "identifier": "DOI:10.5281/zenodo.7249674",
       "name": "A FAIRification roadmap for ELIXIR Software Management Plans - Poster",
       "datePublished": "2022-10-25"
     }

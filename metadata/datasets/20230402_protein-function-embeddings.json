@@ -4,7 +4,7 @@
   "@id": "https://doi.org/10.5281/zenodo.7793384",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT", 
 
-  "identifier": "https://doi.org/10.5281/zenodo.7793384",
+  "identifier": "DOI:10.5281/zenodo.7793384",
   "name": "Protein Function Embeddings: First Beta Release of Datasets",
   "description": "Datasets generated from a thesis work that explores how information for protein functions can be exploited through embeddings so that the produced information can be used to improve protein function annotations",
   "keywords":  [
