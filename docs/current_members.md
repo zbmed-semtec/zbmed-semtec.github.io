@@ -1,5 +1,35 @@
 # Current_members metadata
 
+### Muskaan Chopra
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/chopra_0000-0002-7672-9186.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-7672-9186" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
+<tbody>
+<tr>
+<td>familyName</td>
+<td>Chopra</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Muskaan</td>
+</tr>
+<tr>
+<td>jobTitle</td>
+<td>Student assistant</td>
+</tr>
+</tbody>
+</table>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0002-7672-9186",
+  "familyName": "Chopra",
+  "givenName": "Muskaan",
+  "jobTitle": "Student assistant"
+}
+</script>
+
 ### Lukas Geist
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/geist_0000-0002-2910-7982.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="http://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
@@ -26,6 +56,36 @@
   "@id": "http://orcid.org/0000-0002-2910-7982",
   "familyName": "Geist",
   "givenName": "Lukas",
+  "jobTitle": "Student assistant"
+}
+</script>
+
+### Soudeh Jahanshahi
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/jahanshahi_0009-0000-9203-2437.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0000-9203-2437" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
+<tbody>
+<tr>
+<td>familyName</td>
+<td>Jahanshahi</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Soudeh</td>
+</tr>
+<tr>
+<td>jobTitle</td>
+<td>Student assistant</td>
+</tr>
+</tbody>
+</table>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0009-0000-9203-2437",
+  "familyName": "Jahanshahi",
+  "givenName": "Soudeh",
   "jobTitle": "Student assistant"
 }
 </script>

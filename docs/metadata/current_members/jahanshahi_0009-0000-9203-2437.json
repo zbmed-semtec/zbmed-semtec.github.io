@@ -1,0 +1,9 @@
+{ 
+  "@context": "https://schema.org",
+
+  "@type": "Person",
+  "@id": "https://orcid.org/0009-0000-9203-2437",
+  "familyName": "Jahanshahi", 
+  "givenName": "Soudeh",
+  "jobTitle": "Student assistant" 
+}
