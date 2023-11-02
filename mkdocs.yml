@@ -28,7 +28,7 @@ theme:
   name: material
   custom_dir: overrides
   palette:
-    primary: deep-orange
+    primary: orange
     accent: orange
   logo: https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/semtec.png
   extrahead:
