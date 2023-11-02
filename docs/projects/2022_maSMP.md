@@ -2,12 +2,8 @@
 
 ## Machine-actionable Software Management Plans
 
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\projects\2022_maSMP.json" target="_blank" download="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\projects\2022_maSMP.json"> Get JSON-LD</a></p>
-
-<p><img src = "/images/get.svg" alt="Get RO-Crate"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/ro-crates/2022_maSMP/ro-crate-metadata.json" target="_blank"> Get RO-Crate for this project</a></p>
-
-<p><img src = "/images/get.svg" alt="Render HTML Preview for RO-Crate"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/ro-crates/2022_maSMP/ro-crate-preview.html" target="_blank"> Render HTML Preview for RO-Crate</a></p>
-
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\projects\2022_maSMP.json" target="_blank"> Get JSON-LD</a></p>
+<p><img src = "/images/get.svg" alt="Get RO-Crate"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/ro-crates/2022_maSMP/ro-crate-metadata.json" target="_blank"> Get RO Crate</a></p>
 _Started in 2022-09-01_
 ### Description
 

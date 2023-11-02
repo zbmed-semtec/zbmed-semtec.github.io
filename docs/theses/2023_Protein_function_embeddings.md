@@ -3,6 +3,7 @@
 ## Protein function embeddings
 
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\theses\2023_Protein_function_embeddings.json" target="_blank"> Get JSON-LD</a></p>
+<p><img src = "/images/get.svg" alt="Get RO-Crate"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/ro-crates/2023_Protein_function_embeddings/ro-crate-metadata.json" target="_blank"> Get RO Crate</a></p>
 _Started in 2022-10-17_
 _Concluded in 2023-04-17_
 ### Description

@@ -13,8 +13,8 @@
       },
       {
         "@id": "./",
-        "@type": ["Dataset"],
-        "name": "RO-crate for the reearch project 'TREC Document-to-Document Relevance Assessment'",
+        "@type": "Dataset",
+        "name": "RO-crate for the research project 'TREC Document-to-Document Relevance Assessment'",
         "description": "This RO-crate describes the research project 'TREC Document-to-Document Relevance Assessment' including metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprenhensive view of the research outcomes.",
         "datePublished": "2023-11-01",
         "license": {
@@ -254,7 +254,7 @@
         "familyName": "Ravinder",
         "givenName": "Rohitha"
       },
-      {
+     {
         "@id": "https://ror.org/018mejw64",
         "@type": "Organization",
         "alternateName": "German Research Foundation",
@@ -268,7 +268,7 @@
         "@type": "ResearchOrganization",
         "alternateName": "ZB MED Information Centre for Life Sciences",
         "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
-        "url": {
+        "url": { 
           "@id": "https://zbmed.de/"
         }
       },
