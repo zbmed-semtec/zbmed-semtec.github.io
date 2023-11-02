@@ -55,6 +55,18 @@ def createGetROCrateLink(rocrateFileURL) :
     """
     return f'<img src = "/images/get.svg" alt="Get RO-Crate"/><a href="{rocrateFileURL}" target="_blank" download="ro-crate-metadata.json"> Get RO Crate</a>'
 
+def createHTMLLink(htmlFileURL) :
+    """
+    Checks the get HTML link from the HTML URL.
+
+    Parameter/Input:
+        rocrateFileURL: The RO-Crate HTML preview file URL.
+
+    Returns:
+        HTML link.
+    """
+    return f'<img src = "/images/preview.svg" alt="RO-Crate HTML Preview"/><a href="{htmlFileURL}" id="open-preview" target="_blank"> RO-Crate HTML Preview</a>'
+
 def complexDataInList(data):
     """
     Converts complex JSON element into a single element list.
@@ -280,12 +292,14 @@ def processNamesInProject(item) :
                 md += f'- {prop.capitalize()}: {val}\n'
     return md
 
-def processProjectData(data, jsonFileURL, rocrateFileURL):
+def processProjectData(data, jsonFileURL, rocrateFileURL, htmlFileURL):
     """
     Process JSON data for the "project" subfolder in "metadata" and generate Markdown file in "docs".
 
     Parameters/Input:
-        jsonFilePath: Path to the JSON file.
+        jsonFileURL: Path to the JSON file.
+        rocrateFileURL: Path to the RO-Crate file.
+        htmlFileURL: Path to the RO-Crate HTML preview file.
 
     Returns:
         A markdown text with the rendered metadata.
@@ -339,6 +353,8 @@ def processProjectData(data, jsonFileURL, rocrateFileURL):
             md += f'<p>{createGetJsonLink(jsonFileURL)}</p>\n'
             if rocrateFileURL != "":
                 md += f'<p>{createGetROCrateLink(rocrateFileURL)}</p>\n'
+            if htmlFileURL != "":
+                md += f'<p>{createHTMLLink(htmlFileURL)}</p>\n'
         elif property == "foundingDate" :
             md += f'_Started in {value}_\n'
         elif property == 'dissolutionDate':
@@ -423,8 +439,9 @@ def fromMetadatatoDocs():
                   rocrateFileURL = ""
                   if mdFolderName in RO_CRATE_SUBFOLDERS:
                     rocrateFileURL = f"../../metadata/{mdFolderName}/{fileNameNoExt}/ro-crate-metadata.json"
+                    htmlFileURL = f"../../metadata/{mdFolderName}/{fileNameNoExt}/ro-crate-preview.html"
                   md = f'# {mdFolderName.capitalize()} metadata\n\n'
-                  md += processProjectData(data, jsonFileURL, rocrateFileURL)
+                  md += processProjectData(data, jsonFileURL, rocrateFileURL, htmlFileURL)
                   docFileProjectsPath = os.path.join(docsSubfoldersPath[folderIndex], jsonFileName.removesuffix('.json') + ".md")
                   with open(docFileProjectsPath, "a", encoding="utf-8") as mdDocFile:
                     mdDocFile.write(md)    

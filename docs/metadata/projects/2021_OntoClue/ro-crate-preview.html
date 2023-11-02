@@ -1,0 +1,618 @@
+
+
+<html>
+<head>
+
+
+<script type="application/ld+json"> 
+  {
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "RO-crate for the research project 'OntoClue'",
+      "description": "This RO-crate describes the research project 'OntoClue' including metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprenhensive view of the research outcomes.",
+      "datePublished": "2023-11-02",
+      "license": {
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html"
+      },
+      "keywords": [
+        "machine-actionalibity",
+        "software management plans",
+        "rsearch software",
+        "controlled vocabulary",
+        "metadata schema",
+        "ongoing",
+        "SMP"
+      ],
+      "about": {
+        "@id": "https://zbmed-semtec.github.io/projects/2021_OntoClue/"
+      },
+      "hasPart": [
+        {
+          "@id": "https://doi.org/10.4126/FRL01-006440397"
+        },
+        {
+          "@id": "https://ceur-ws.org/Vol-3415/paper-38.pdf"
+        },
+        {
+          "@id": "https://ceur-ws.org/Vol-2918/short3.pdf"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.5035290"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.4903981"
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.4126/FRL01-006440397",
+      "@type": "ScholarlyArticle",
+      "conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "DOI:10.4126/FRL01-006440397",
+      "name": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus",
+      "license": {
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html"
+      },
+      "datePublished": "2023-06-22"
+    },
+    {
+      "@id": "https://ceur-ws.org/Vol-3415/paper-38.pdf",
+      "@type": "Poster",
+      "name": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster",
+      "identifier": "CEUR:Vol-3415/paper-38",
+      "datePublished": "2023-03-01"
+    },
+    {
+      "@id": "https://ceur-ws.org/Vol-2918/short3.pdf",
+      "@type": "ScholarlyArticle",
+      "conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "CEUR:Vol-2918/short3",
+      "name": "Ontology Clustering with OWL2Vec*",
+      "datePublished": "2021-07-28"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.5035290",
+      "@type": "DataCatalog",
+      "name": "Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool",
+      "identifier": "DOI:10.5281/zenodo.5035290",
+      "datePublished": "2021-06-27"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.4903981",
+      "@type": "DataCatalog",
+      "name": "Whatizit performance evaluation against CRAFT corpus",
+      "identifier": "DOI:10.5281/zenodo.4903981",
+      "datePublished": "2021-06-05"
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/projects/2021_OntoClue",
+      "@type": "ResearchProject",
+      "department": {
+        "@id": "https://zbmed-semtec.github.io/"
+      },
+      "description": "OntoClue aims to provide a framework to optimize and compare document-similarity and doc2doc-relevance approaches based on word-embeddings and document-embeddings. Using the [RELISH dataset](https://figshare.com/projects/RELISH-DB/60095), each approach creates document-embeddings and calculates the Cosine Similarity. An optimizer finds the best hyperparameter combination that naturally (i.e., with no further tuning or training) resembles better the three document relevance assessments cominf from RELISH. The approaches are compared using Precision (P@N) and Normalized Discounted Cumulative Gain (NDCG@N). [TREC 2005 Genomics Track data](https://trec.nist.gov/data/t14_genomics.html) has also been analyzed using a repurposed version that transforms document-to-topic relevance into document-to-document relevance. The main focus of this project relies on RELISH.",
+      "foundingDate": "2021-01-01",
+      "employee": [
+        {
+          "@id": "https://orcid.org/0000-0002-2910-7982"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5037-0443"
+        },
+        {
+          "@id": "https://orcid.org/0009-0004-4484-6283"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1018-0370"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        }
+      ],
+      "alumni": [
+        {
+          "@id": "https://orcid.org/0000-0002-3082-7522"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-8725-1317"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-0762-4305"
+        },
+        {
+          "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-4795-3648"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-9345-8958"
+        }
+      ],
+      "name": "OntoClue",
+      "funding": [
+        {
+          "@id": "https://ror.org/018mejw64"
+        },
+        {
+          "@id": "https://gepris.dfg.de/gepris/projekt/460234259"
+        },
+        {
+          "@id": "https://gepris.dfg.de/gepris/projekt/407518790"
+        }
+      ],
+      "keywords": "word-embeddings, document-embeddings, ontology-embeddings, document similarity, document relevance, doc2doc relevance, ontology enrichment",
+      "parentOrganization": [
+        {
+          "@id": "https://ror.org/0259fwx54"
+        },
+        {
+          "@id": "https://gepris.dfg.de/gepris/projekt/460234259#project"
+        },
+        {
+          "@id": "https://gepris.dfg.de/gepris/projekt/407518790#project"
+        }
+      ],
+      "knowsAbout": [
+        {
+          "@id": "https://doi.org/10.4126/FRL01-006440397"
+        },
+        {
+          "@id": "https://ceur-ws.org/Vol-3415/paper-38.pdf"
+        },
+        {
+          "@id": "https://ceur-ws.org/Vol-2918/short3.pdf"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.5035290"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.4903981"
+        }
+      ]
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/",
+      "@type": "ResearchOrganization",
+      "name": "Semantic Technologies team at ZB MED"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2910-7982",
+      "@type": "Person",
+      "givenName": "Lukas",
+      "familyName": "Geist"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5037-0443",
+      "@type": "Person",
+      "givenName": "Nelson",
+      "familyName": "Quiñones"
+    },
+    {
+      "@id": "https://orcid.org/0009-0004-4484-6283",
+      "@type": "Person",
+      "givenName": "Rohitha",
+      "familyName": "Ravinder"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "@type": "Person",
+      "givenName": "Dietrich",
+      "familyName": "Rebholz-Schuhmann"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "@type": "Person",
+      "givenName": "Leyla Jael",
+      "familyName": "Castro"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3082-7522",
+      "@type": "Person",
+      "givenName": "Dadi",
+      "familyName": "Vishnu Vardhan"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8725-1317",
+      "@type": "Person",
+      "givenName": "Tim",
+      "familyName": "Fellerhoff"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0762-4305",
+      "@type": "Person",
+      "givenName": "Georgi",
+      "familyName": "Lazarov"
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha",
+      "@type": "Person",
+      "givenName": "Muhammad",
+      "familyName": "Talha"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4795-3648",
+      "@type": "Person",
+      "givenName": "Guilermo",
+      "familyName": "Rocamora Perez"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9345-8958",
+      "@type": "Person",
+      "givenName": "Benjamin",
+      "familyName": "Wolff"
+    },
+    {
+      "@id": "https://ror.org/018mejw64",
+      "@type": "Organization",
+      "alternateName": "German Research Foundation",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "url": {
+        "@id": "http://www.dfg.de/en/"
+      }
+    },
+    {
+      "@id": "https://gepris.dfg.de/gepris/projekt/460234259",
+      "@type": "Grant",
+      "description": "Project no. 460234259 (corresponding to the NFDI4DataScience consortium)",
+      "funder": {
+        "@id": "https://ror.org/018mejw64"
+      },
+      "identifier": "460234259"
+    },
+    {
+      "@id": "https://gepris.dfg.de/gepris/projekt/407518790",
+      "@type": "Grant",
+      "description": "Project no. 407518790 (corresponding to the STELLA project)",
+      "funder": {
+        "@id": "https://ror.org/018mejw64"
+      },
+      "identifier": "407518790"
+    },
+    {
+      "@id": "https://ror.org/0259fwx54",
+      "@type": "ResearchOrganization",
+      "alternateName": "ZB MED Information Centre for Life Sciences",
+      "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+      "url": {
+        "@id": "https://zbmed.de/"
+      }
+    },
+    {
+      "@id": "https://gepris.dfg.de/gepris/projekt/460234259#project",
+      "@type": "Consortium",
+      "name": "NFDI4DataScience"
+    },
+    {
+      "@id": "https://gepris.dfg.de/gepris/projekt/407518790#project",
+      "@type": "ResearchProject",
+      "name": "STELLA Living Labs Project"
+    }
+  ]
+}
+</script>
+
+    
+<!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script -->
+<script src="https://unpkg.com/ro-crate-html@0.1/dist/ro-crate-dynamic.min.js"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta charset='utf-8'/>
+<style>
+
+table.table {
+  padding-bottom: 300px;
+}
+</style>
+</head>
+
+
+<body>
+
+  <nav class="navbar">
+
+    <ul class="nav navbar-nav" >
+        <li ><a href="#"><span class="glyphicon glyphicon-home dataset_name">&nbsp;RO-crate for the research project 'OntoClue'</span></a></li>
+    </ul>
+
+  </nav>
+<div class="container">
+<div class="jumbotron">
+<h4 class="citation"></h3>
+<h3 class="item_name">RO-crate for the research project 'OntoClue'</h4>
+
+
+<a href="./ro-crate-metadata.json">⬇️🏷️ Download all the metadata for <span class='name'>RO-crate for the research project 'OntoClue'</span> in JSON-LD format</a>
+
+
+<div id="check"></div>
+
+
+</div>
+
+
+
+<div id="summary">
+<div class='all-meta'>
+           <div>
+            <h3> RO-crate for the research project 'OntoClue'</h3>
+            
+            
+            
+            
+        <div id="./">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><span>./</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>RO-crate for the research project 'OntoClue'</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>Dataset</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>This RO-crate describes the research project 'OntoClue' including metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprenhensive view of the research outcomes.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2023-11-02</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><a href="https://spdx.org/licenses/CC-BY-4.0.html">https://spdx.org/licenses/CC-BY-4.0.html</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">keywords<span>&nbsp;</span><a href="http://schema.org/keywords">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><span>machine-actionalibity</span></li>
+                        
+                        <li><span>software management plans</span></li>
+                        
+                        <li><span>rsearch software</span></li>
+                        
+                        <li><span>controlled vocabulary</span></li>
+                        
+                        <li><span>metadata schema</span></li>
+                        
+                        <li><span>ongoing</span></li>
+                        
+                        <li><span>SMP</span></li>
+                        </ul></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">about<span>&nbsp;</span><a href="http://schema.org/about">[?]</a></th>
+            <td style='text-align:left'><a href="https://zbmed-semtec.github.io/projects/2021_OntoClue/">https://zbmed-semtec.github.io/projects/2021_OntoClue/</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#https%3A//doi.org/10.4126/FRL01-006440397">OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus</a></li>
+                        
+                        <li><a href="#https%3A//ceur-ws.org/Vol-3415/paper-38.pdf">OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster</a></li>
+                        
+                        <li><a href="#https%3A//ceur-ws.org/Vol-2918/short3.pdf">Ontology Clustering with OWL2Vec*</a></li>
+                        
+                        <li><a href="#https%3A//doi.org/10.5281/zenodo.5035290">Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool</a></li>
+                        
+                        <li><a href="#https%3A//doi.org/10.5281/zenodo.4903981">Whatizit performance evaluation against CRAFT corpus</a></li>
+                        </ul></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">about<span>&nbsp;</span><a href="http://schema.org/about">[?]</a></th>
+            <td style='text-align:left'><a href="#ro-crate-metadata.json">ro-crate-metadata.json</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/><hr/><br/><br/><hr/><br/><br/>
+           <div>
+            <h3><a href="https://doi.org/10.4126/FRL01-006440397">Go to: </a> OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus</h3>
+            
+            
+            
+            
+        <div id="https://doi.org/10.4126/FRL01-006440397">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://doi.org/10.4126/FRL01-006440397">https://doi.org/10.4126/FRL01-006440397</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>ScholarlyArticle</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2023-06-22</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">conformsTo<span>&nbsp;</span><a href="http://purl.org/dc/terms/conformsTo">[?]</a></th>
+            <td style='text-align:left'><a href="https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT">https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">identifier<span>&nbsp;</span><a href="http://schema.org/identifier">[?]</a></th>
+            <td style='text-align:left'><span>DOI:10.4126/FRL01-006440397</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><a href="https://spdx.org/licenses/CC-BY-4.0.html">https://spdx.org/licenses/CC-BY-4.0.html</a></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">RO-crate for the research project 'OntoClue'</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">knowsAbout<span>&nbsp;</span><a href="http://schema.org/knowsAbout">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//zbmed-semtec.github.io/projects/2021_OntoClue">OntoClue</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="https://ceur-ws.org/Vol-3415/paper-38.pdf">Go to: </a> OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster</h3>
+            
+            
+            
+            
+        <div id="https://ceur-ws.org/Vol-3415/paper-38.pdf">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://ceur-ws.org/Vol-3415/paper-38.pdf">https://ceur-ws.org/Vol-3415/paper-38.pdf</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>Poster</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2023-03-01</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">identifier<span>&nbsp;</span><a href="http://schema.org/identifier">[?]</a></th>
+            <td style='text-align:left'><span>CEUR:Vol-3415/paper-38</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">RO-crate for the research project 'OntoClue'</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">knowsAbout<span>&nbsp;</span><a href="http://schema.org/knowsAbout">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//zbmed-semtec.github.io/projects/2021_OntoClue">OntoClue</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="https://ceur-ws.org/Vol-2918/short3.pdf">Go to: </a> Ontology Clustering with OWL2Vec*</h3>
+            
+            
+            
+            
+        <div id="https://ceur-ws.org/Vol-2918/short3.pdf">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://ceur-ws.org/Vol-2918/short3.pdf">https://ceur-ws.org/Vol-2918/short3.pdf</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Ontology Clustering with OWL2Vec*</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>ScholarlyArticle</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2021-07-28</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">conformsTo<span>&nbsp;</span><a href="http://purl.org/dc/terms/conformsTo">[?]</a></th>
+            <td style='text-align:left'><a href="https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT">https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">identifier<span>&nbsp;</span><a href="http://schema.org/identifier">[?]</a></th>
+            <td style='text-align:left'><span>CEUR:Vol-2918/short3</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">RO-crate for the research project 'OntoClue'</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">knowsAbout<span>&nbsp;</span><a href="http://schema.org/knowsAbout">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//zbmed-semtec.github.io/projects/2021_OntoClue">OntoClue</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="https://doi.org/10.5281/zenodo.5035290">Go to: </a> Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool</h3>
+            
+            
+            
+            
+        <div id="https://doi.org/10.5281/zenodo.5035290">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://doi.org/10.5281/zenodo.5035290">https://doi.org/10.5281/zenodo.5035290</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>DataCatalog</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2021-06-27</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">identifier<span>&nbsp;</span><a href="http://schema.org/identifier">[?]</a></th>
+            <td style='text-align:left'><span>DOI:10.5281/zenodo.5035290</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">RO-crate for the research project 'OntoClue'</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">knowsAbout<span>&nbsp;</span><a href="http://schema.org/knowsAbout">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//zbmed-semtec.github.io/projects/2021_OntoClue">OntoClue</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="https://doi.org/10.5281/zenodo.4903981">Go to: </a> Whatizit performance evaluation against CRAFT corpus</h3>
+            
+            
+            
+            
+        <div id="https://doi.org/10.5281/zenodo.4903981">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://doi.org/10.5281/zenodo.4903981">https://doi.org/10.5281/zenodo.4903981</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Whatizit performance evaluation against CRAFT corpus</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>DataCatalog</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2021-06-05</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">identifier<span>&nbsp;</span><a href="http://schema.org/identifier">[?]</a></th>
+            <td style='text-align:left'><span>DOI:10.5281/zenodo.4903981</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">RO-crate for the research project 'OntoClue'</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">knowsAbout<span>&nbsp;</span><a href="http://schema.org/knowsAbout">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//zbmed-semtec.github.io/projects/2021_OntoClue">OntoClue</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/></div>
+</div>
+
+
+
+
+
+</body>
+</html>

@@ -4,6 +4,7 @@
 
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../../metadata/projects/2022_TREC_doc2doc.json" target="_blank" download="metadata.json"> Get JSON-LD</a></p>
 <p><img src = "/images/get.svg" alt="Get RO-Crate"/><a href="../../metadata/projects/2022_TREC_doc2doc/ro-crate-metadata.json" target="_blank" download="ro-crate-metadata.json"> Get RO Crate</a></p>
+<p><img src = "/images/preview.svg" alt="RO-Crate HTML Preview"/><a href="../../metadata/projects/2022_TREC_doc2doc/ro-crate-preview.html" id="open-preview" target="_blank"> RO-Crate HTML Preview</a></p>
 _Started in 2022-06-01_
 _Concluded in 2023-03-31_
 ### Description

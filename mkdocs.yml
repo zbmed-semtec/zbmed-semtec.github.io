@@ -28,6 +28,13 @@ theme:
   name: material
   custom_dir: overrides
   palette:
-    primary: orange
+    primary: deep-orange
     accent: orange
   logo: https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/semtec.png
+  extrahead:
+  - |
+    <script>
+      function openHTMLPreview() {
+        window.open('metadata/projects/ro-crate-preview.html', '_blank');
+      }
+    </script>
