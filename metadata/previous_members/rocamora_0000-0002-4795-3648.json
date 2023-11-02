@@ -1,8 +1,0 @@
-{ 
-  "@context": "https://schema.org",
-
-  "@type": "Person",
-  "@id": "https://orcid.org/0000-0002-4795-3648",
-  "familyName": "Rocamora Pérez", 
-  "givenName": "Guillermo"
-}

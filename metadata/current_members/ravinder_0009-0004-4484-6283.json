@@ -1,9 +1,0 @@
-{ 
-  "@context": "https://schema.org",
-
-  "@type": "Person",
-  "@id": "https://orcid.org/0009-0004-4484-6283",
-  "familyName": "Ravinder", 
-  "givenName": "Rohitha",
-  "jobTitle": "Research Software Engineer and Data Scientist"  
-}
