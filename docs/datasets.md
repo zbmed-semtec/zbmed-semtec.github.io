@@ -1,7 +1,7 @@
 # Datasets metadata
 
 ## Whatizit performance evaluation against CRAFT corpus
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/datasets/20210605_whatizit_against_craft_annotation_performance.json" target="_blank"> Get JSON-LD</a> | <a href="https://doi.org/10.5281/zenodo.4903981" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit DataCatalog</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/datasets/20210605_whatizit_against_craft_annotation_performance.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://doi.org/10.5281/zenodo.4903981" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit DataCatalog</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -192,7 +192,7 @@
 </script>
 
 ## Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/datasets/20210627_annotated-medline-abstracts-2015-2019.json" target="_blank"> Get JSON-LD</a> | <a href="https://doi.org/10.5281/zenodo.5035290" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit DataCatalog</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/datasets/20210627_annotated-medline-abstracts-2015-2019.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://doi.org/10.5281/zenodo.5035290" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit DataCatalog</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -400,7 +400,7 @@
 </script>
 
 ## Document-to-document relevant assessment for TREC Genomics Track 2005
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/datasets/20221115_trec-doc-2-doc-relevance-assessment.json" target="_blank"> Get JSON-LD</a> | <a href="https://doi.org/10.5281/zenodo.7324822" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Dataset</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/datasets/20221115_trec-doc-2-doc-relevance-assessment.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://doi.org/10.5281/zenodo.7324822" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Dataset</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -655,7 +655,7 @@
 </script>
 
 ## Fleiss kappa for doc-2-doc relevance assessment
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/datasets/20221119_fleiss-kappa-doc2doc-relevance-assessment.json" target="_blank"> Get JSON-LD</a> | <a href="https://doi.org/10.5281/zenodo.7338056" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Dataset</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/datasets/20221119_fleiss-kappa-doc2doc-relevance-assessment.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://doi.org/10.5281/zenodo.7338056" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Dataset</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -873,7 +873,7 @@
 </script>
 
 ## Protein Function Embeddings: First Beta Release of Datasets
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/datasets/20230402_protein-function-embeddings.json" target="_blank"> Get JSON-LD</a> | <a href="https://doi.org/10.5281/zenodo.7793384" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit DataCatalog</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/datasets/20230402_protein-function-embeddings.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://doi.org/10.5281/zenodo.7793384" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit DataCatalog</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>

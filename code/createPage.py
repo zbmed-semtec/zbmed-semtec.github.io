@@ -4,6 +4,7 @@ import subprocess
 import shutil
 
 DOCS_SUBFOLDERS = ['consortia', 'projects', 'theses']
+RO_CRATE_SUBFOLDERS = ['projects', 'theses']
 MAPPINGS = [("employee", "Current project members"), ("alumni", "Previous project members"), ("member", "External contributors"), ("knowsAbout", "Outcomes"), ("parentOrganization", "Parent organization, consortium or research project"), ("subOrganization", "Sub-projects")]
 MAPPINGS_FROM = [i[0] for i in MAPPINGS]
 MAPPINGS_TO = [i[1] for i in MAPPINGS]
@@ -40,7 +41,7 @@ def createGetJsonLink(jsonFileURL) :
     Returns:
         JSON-LD link.
     """
-    return f'<img src = "/images/get.svg" alt="Get JSON-LD"/><a href="{jsonFileURL}" target="_blank"> Get JSON-LD</a>'
+    return f'<img src = "/images/get.svg" alt="Get JSON-LD"/><a href="{jsonFileURL}" target="_blank" download="metadata.json"> Get JSON-LD</a>'
 
 def createGetROCrateLink(rocrateFileURL) :
     """
@@ -52,7 +53,7 @@ def createGetROCrateLink(rocrateFileURL) :
     Returns:
         RO-Crate JSON-LD link.
     """
-    return f'<img src = "/images/get.svg" alt="Get RO-Crate"/><a href="{rocrateFileURL}" target="_blank" download={rocrateFileURL}> Get RO Crate</a>'
+    return f'<img src = "/images/get.svg" alt="Get RO-Crate"/><a href="{rocrateFileURL}" target="_blank" download="ro-crate-metadata.json"> Get RO Crate</a>'
 
 def complexDataInList(data):
     """
@@ -336,7 +337,8 @@ def processProjectData(data, jsonFileURL, rocrateFileURL):
         elif property == 'name':
             md += f'## {value}\n\n'
             md += f'<p>{createGetJsonLink(jsonFileURL)}</p>\n'
-            md += f'<p>{createGetROCrateLink(rocrateFileURL)}</p>\n'
+            if rocrateFileURL != "":
+                md += f'<p>{createGetROCrateLink(rocrateFileURL)}</p>\n'
         elif property == "foundingDate" :
             md += f'_Started in {value}_\n'
         elif property == 'dissolutionDate':
@@ -418,14 +420,17 @@ def fromMetadatatoDocs():
                 try:
                   folderIndex = DOCS_SUBFOLDERS.index(mdFolderName)                                    
                   jsonFileURL = f"../../metadata/{mdFolderName}/{fileNameNoExt}.json"
-                  rocrateFileURL = f"../../metadata/{mdFolderName}/{fileNameNoExt}_ro-crate-metadata.json"
+                  rocrateFileURL = ""
+                  if mdFolderName in RO_CRATE_SUBFOLDERS:
+                    rocrateFileURL = f"../../metadata/{mdFolderName}/{fileNameNoExt}/ro-crate-metadata.json"
                   md = f'# {mdFolderName.capitalize()} metadata\n\n'
                   md += processProjectData(data, jsonFileURL, rocrateFileURL)
                   docFileProjectsPath = os.path.join(docsSubfoldersPath[folderIndex], jsonFileName.removesuffix('.json') + ".md")
                   with open(docFileProjectsPath, "a", encoding="utf-8") as mdDocFile:
                     mdDocFile.write(md)    
                     mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
-                except:
+                except Exception as e:
+                  #print(e)
                   jsonFileURL = f"../metadata/{mdFolderName}/{fileNameNoExt}.json"
                   md = generateMDTableFromJSON(data, jsonFileURL)                    
                   with open(docFilePath, "a", encoding="utf-8") as mdDocFile:

@@ -2,8 +2,8 @@
 
 ## OntoClue
 
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../../metadata/projects/2021_OntoClue.json" target="_blank"> Get JSON-LD</a></p>
-<p><img src = "/images/get.svg" alt="Get RO-Crate"/><a href="../../metadata/projects/2021_OntoClue_ro-crate-metadata.json" target="_blank" download=../../metadata/projects/2021_OntoClue_ro-crate-metadata.json> Get RO Crate</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../../metadata/projects/2021_OntoClue.json" target="_blank" download="metadata.json"> Get JSON-LD</a></p>
+<p><img src = "/images/get.svg" alt="Get RO-Crate"/><a href="../../metadata/projects/2021_OntoClue/ro-crate-metadata.json" target="_blank" download="ro-crate-metadata.json"> Get RO Crate</a></p>
 _Started in 2021-01-01_
 ### Description
 
