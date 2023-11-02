@@ -6,6 +6,8 @@ nav:
       - OntoClue : projects/2021_OntoClue.md
       - maSMPs: projects/2022_maSMP.md
       - TREC doc2doc: projects/2022_TREC_doc2doc.md
+    - Theses:
+      - Protein function embeddings: theses/2023_Protein_function_embeddings.md  
     - Software: software.md
     - Vocabularies: vocabularies.md
     - Datasets: datasets.md
