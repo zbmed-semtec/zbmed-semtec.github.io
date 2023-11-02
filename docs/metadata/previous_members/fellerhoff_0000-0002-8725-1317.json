@@ -1,0 +1,8 @@
+{ 
+  "@context": "https://schema.org",
+
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0002-8725-1317",
+  "familyName": "Fellerhoff", 
+  "givenName": "Tim"
+}

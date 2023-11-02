@@ -1,0 +1,71 @@
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.7324822",
+  "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT", 
+
+  "identifier": "DOI:10.5281/zenodo.7324822",
+  "name": "Document-to-document relevant assessment for TREC Genomics Track 2005",
+  "description": "A CSV table with document-to-document relevance assessment judgements on a subset of the TREC Genomics Track 2005 produced by four annotators. The 'raw data document evaluation' contains six columns, first row consecutive id, second original TREC topic, third PubMed Id used as reference document, fourth PMID used to evaluate the relevance wrt the reference document, fifth the relevance score (2 definitely relevant, 1 partially relevant, 0 non-relevant), and sixth annotator id",
+  "keywords":  [
+    "Document-to-document relevance", "TREC GEnomics Track 2005", "relevance assessment"
+  ], 
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "name": "Creative Commons Attribution 4.0 International", 
+    "alternateName": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "url": "https://zenodo.org/record/7324822",
+  
+  "about": "Document-to-document relevant assessment for TREC Genomics Track 2005",
+  "datePublished": "2022-11-15", 
+  "measurementTechnique": "Manual curation",
+  "variableMeasured": "Document-to-document relevance assessment",
+  "encodingFormat": "text/csv",
+  "isAccessibleForFree": true,
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2978-8922",
+      "familyName": "Giraldo", 
+      "givenName": "Olga"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-1529-0095",
+      "familyName": "Solanki", 
+      "givenName": "Dhwani"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5915-8895",
+      "familyName": "Cadena", 
+      "givenName": " Maria Fernanda"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zbmed-semtec.github.io/people/#andrea-robayo-gama",
+      "familyName": "Robayo-Gama", 
+      "givenName": "Andrea"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "familyName": "Rebholz-Schuhmann", 
+      "givenName": "Dietrich"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "familyName": "Castro", 
+      "givenName": "Leyla Jael"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://zenodo.org/",
+    "name": "Zenodo"
+  }
+}

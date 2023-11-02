@@ -1,0 +1,206 @@
+{
+  "@context": "https://schema.org/",
+  "@id": "https://zbmed-semtec.github.io/projects/2022_maSMP",
+  "@type": "ResearchProject",
+  "name": "Machine-actionable Software Management Plans", 
+  "foundingDate": "2022-09-01",
+  "description": "Our project corresponds to an extension of the RDA machine-actionable Data Management Plan (maDMP) application profile and its corresponding DMP Common Standard ontology (DCSO) in order to cover the case of ELIXIR Software Management Plans (SMP). Similar to DMPs, SMPs help formalize a set of structures and goals that ensure the software is accessible and reusable in the short, medium and long term. Although targeting the life sciences community, most of the elements of the ELIXIR SMPs are domain agnostic and could be used by other communities as well. DMPs and SMPs can be presented as text-based documents, sometimes guided by a set of questions corresponding to key points related to the lifecycle of either data or software. The RDA DMP Common Standards working group defined a maDMP to overcome limitations of text-based documents. We propose a similar path for the ELIXIR SMPs so they turn into machine-actionable SMPs (maSMPs).",
+  "keywords": "ongoing, machine-actionability, software management plans, research software, controlled vocabulary, metadata schema",
+  "employee": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2910-7982",
+      "givenName": "Lukas",
+      "familyName": "Geist"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5037-0443",
+      "givenName": "Nelson",
+      "familyName": "Quiñones"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-1529-0095",
+      "givenName": "Dhwani",
+      "familyName": "Solanki"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "givenName": "Dietrich",
+      "familyName": "Rebholz-Schuhmann"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "givenName": "Leyla Jael",
+      "familyName": "Castro"
+    }
+  ],
+  "alumni": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2978-8922",
+      "givenName": "Olga",
+      "familyName": "Giraldo"
+    }
+  ],
+  "department": {
+    "@type": "ResearchOrganization",
+    "@id": "https://zbmed-semtec.github.io/",
+    "name": "Semantic Technologies team at ZB MED"
+  },
+  "parentOrganization": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://ror.org/0259fwx54",
+      "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften", 
+      "alternateName": "ZB MED Information Centre for Life Sciences", 
+      "url": "https://zbmed.de/"
+    },
+    {
+      "@type": "Consortium",
+      "@id": "https://www.nfdi4datascience.de/",
+      "name": "NFDI4DataScience"
+    }
+  ],  
+  "funding": [
+    {
+      "@type": "Grant",
+      "@id": "https://gepris.dfg.de/gepris/projekt/460234259",
+      "funder": {
+        "@type": "Organization",
+        "@id": "https://ror.org/018mejw64",
+        "name": "Deutsche Forschungsgemeinschaft", 
+        "alternateName": "German Research Foundation",
+        "url": "http://www.dfg.de/en/"  
+      },
+      "identifier": "460234259",
+      "description": "Project no. 460234259 (corresponding to the NFDI4DataScience consortium)"
+    },
+    {
+      "@type": "Grant",
+      "@id": "https://gepris.dfg.de/gepris/projekt/101017536",
+      "funder": {
+        "@type": "Organization",
+        "@id": "https://eoscfuture-grants.eu/",
+        "name": "European Union’s Horizon 2020 research and innovation programme", 
+        "url": "https://eoscfuture-grants.eu/"  
+      },
+      "identifier": "101017536",
+      "description": "Grant agreement No 101017536, part of the Research Data Alliance and European Open Science Cloud Future call 2022"
+    }
+  ],
+  "knowsAbout": [
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://github.com/zbmed-semtec/maSMPs",
+      "name": "Metadata model for machine-actionable Software Management Plans"
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://doi.org/10.5281/zenodo.8089518",
+      "name": "maSMP Ontology",
+      "datePublished": "2023-06-28"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.52825/cordi.v1i.279",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "DOI:10.52825/cordi.v1i.279",
+      "name": "Machine-Actionable Metadata for Software and Software Management Plans for NFDI",
+      "datePublished": "2023-09-07"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://doi.org/10.5281/zenodo.8349183",
+      "identifier": "DOI:10.5281/zenodo.8349183",
+      "name": "Machine-Actionable Metadata for Software and Software Management Plans for NFDI - Presentation",
+      "datePublished": "2023-09-15"
+    },
+    {
+      "@type": "Report",
+      "@id": "https://doi.org/10.5281/zenodo.8087357",
+      "identifier": "DOI:10.5281/zenodo.8087357",
+      "name": "Workshop machine-actionable Software Management Plans",
+      "datePublished": "2023-06-27"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.4126/FRL01-006444988",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "DOI:10.4126/FRL01-006444988",
+      "name": "A metadata schema for machine-actionable Software Management Plans",
+      "datePublished": "2023-06-16"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://ceur-ws.org/Vol-3415/paper-31.pdf",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "CEUR:Vol-3415/paper-31",
+      "name": "A metadata analysis for machine-actionable Software Management Plans",
+      "datePublished": "2023-06-22"
+    },
+    {
+      "@type": "Poster",
+      "@id": "https://doi.org/10.4126/FRL01-006440396",
+      "identifier": "DOI:0.4126/FRL01-006440396",
+      "name": "A metadata analysis for machine-actionable Software Management Plans - Poster",
+      "datePublished": "2023-03-01"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.3897/rio.8.e94608",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "DOI:10.3897/rio.8.e94608",
+      "name": "A FAIRification roadmap for ELIXIR Software Management Plans",
+      "datePublished": "2022-10-12"
+    },
+    {
+      "@type": "Poster",
+      "@id": "https://doi.org/10.5281/zenodo.7249674",
+      "identifier": "DOI:10.5281/zenodo.7249674",
+      "name": "A FAIRification roadmap for ELIXIR Software Management Plans - Poster",
+      "datePublished": "2022-10-25"
+    }
+  ],
+  "member": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0057-8788", 
+      "givenName": "Joao",
+      "familyName": "Cardoso"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8324-2897", 
+      "givenName": "Eva",
+      "familyName": "Martin del Pico"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3597-8557", 
+      "givenName": "Alban",
+      "familyName": "Gaignard"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2880-8947", 
+      "givenName": "Yves Vincent",
+      "familyName": "Grossman"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0222-4273", 
+      "givenName": "Fotis",
+      "familyName": "Psomopoulos"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0893-8509", 
+      "givenName": "Elli",
+      "familyName": "Papadopoulou"
+    }
+  ]
+}

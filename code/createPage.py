@@ -52,7 +52,7 @@ def createGetROCrateLink(rocrateFileURL) :
     Returns:
         RO-Crate JSON-LD raw link.
     """
-    return f'<img src = "/images/get.svg" alt="Get RO-Crate"/><a href="{rocrateFileURL.replace("github.com", "raw.githubusercontent.com").replace("blob/", "")}" target="_blank"> Get RO Crate</a>'
+    return f'<img src = "/images/get.svg" alt="Get RO-Crate"/><a href="{rocrateFileURL}" target="_blank" download={rocrateFileURL}> Get RO Crate</a>'
 
 def complexDataInList(data):
     """
@@ -404,11 +404,11 @@ def fromMetadatatoDocs():
             mdDocFile.write(md)
 
         for jsonFileName in allJsonFileList:
+            if "ro-crate" in jsonFileName:
+                continue
+
             jsonFilePath = os.path.join(mdFolderPath, jsonFileName)
-            jsonFileURL = repoURL + "/blob/main/" + jsonFilePath[jsonFilePath.index("metadata"):]
-            rocrateFileName = jsonFileName.removesuffix('.json')
-            rocrateFilePath = f"ro-crates/{rocrateFileName}/ro-crate-metadata.json"
-            rocrateFileURL = repoURL + "/blob/main/" + rocrateFilePath
+            jsonFileURL = repoURL + "/blob/main/" + jsonFilePath[jsonFilePath.index("metadata"):]            
             with open(jsonFilePath, "r", encoding="utf-8") as jsonFile:
                 data = json.load(jsonFile)
                 allMetadata.append(data)
@@ -417,6 +417,8 @@ def fromMetadatatoDocs():
                 folderIndex = -1
                 try:
                   folderIndex = DOCS_SUBFOLDERS.index(mdFolderName)
+                  rocrateFileName = jsonFileName.removesuffix('.json')
+                  rocrateFileURL = f"../../metadata/{mdFolderName}/{rocrateFileName}_ro-crate-metadata.json"
                   md = f'# {mdFolderName.capitalize()} metadata\n\n'
                   md += processProjectData(data, jsonFileURL, rocrateFileURL)
                   docFileProjectsPath = os.path.join(docsSubfoldersPath[folderIndex], jsonFileName.removesuffix('.json') + ".md")
