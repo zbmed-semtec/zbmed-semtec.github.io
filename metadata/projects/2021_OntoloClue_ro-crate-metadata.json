@@ -13,7 +13,7 @@
       },
       {
         "@id": "./",
-        "@type": "Dataset",
+        "@type": ["Dataset"],
         "name": "RO-crate for the research project 'OntoClue'",
         "description": "This RO-crate describes the research project 'OntoClue' including metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprenhensive view of the research outcomes.",
         "datePublished": "2023-11-02",
@@ -229,7 +229,7 @@
           "name": "NFDI4DataScience"
         },
         {
-          "@id": "ttps://gepris.dfg.de/gepris/projekt/407518790#project",
+          "@id": "https://gepris.dfg.de/gepris/projekt/407518790#project",
           "@type": "ResearchProject",
           "name": "STELLA Living Labs Project"
         },

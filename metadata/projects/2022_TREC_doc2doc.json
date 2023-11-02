@@ -82,7 +82,7 @@
     },
     {
       "@type": "ResearchProject",
-      "@id": "ttps://gepris.dfg.de/gepris/projekt/407518790#project",
+      "@id": "https://gepris.dfg.de/gepris/projekt/407518790#project",
       "name": "STELLA Living Labs Project"
     }
   ],   

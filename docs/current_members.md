@@ -1,7 +1,7 @@
 # Current_members metadata
 
 ### Lukas Geist
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\current_members\geist_0000-0002-2910-7982.json" target="_blank"> Get JSON-LD</a> | <a href="http://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/geist_0000-0002-2910-7982.json" target="_blank"> Get JSON-LD</a> | <a href="http://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -31,7 +31,7 @@
 </script>
 
 ### Nelson Quiñones
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\current_members\quinones_0000-0002-5037-0443.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-5037-0443" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/quinones_0000-0002-5037-0443.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-5037-0443" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -61,7 +61,7 @@
 </script>
 
 ### Rohitha Ravinder
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\current_members\ravinder_0009-0004-4484-6283.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0004-4484-6283" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/ravinder_0009-0004-4484-6283.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0004-4484-6283" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -91,7 +91,7 @@
 </script>
 
 ### Dhwani Solanki
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\current_members\solanki_0009-0004-1529-0095.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0004-1529-0095" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/solanki_0009-0004-1529-0095.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0004-1529-0095" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -121,7 +121,7 @@
 </script>
 
 ### Dietrich Rebholz-Schuhmann
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\current_members\z_drs_0000-0002-1018-0370.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-1018-0370" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/z_drs_0000-0002-1018-0370.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-1018-0370" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -151,7 +151,7 @@
 </script>
 
 ### Leyla Jael Castro
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\current_members\z_ljc_0000-0003-3986-0510.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/z_ljc_0000-0003-3986-0510.json" target="_blank"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>

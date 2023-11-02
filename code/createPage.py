@@ -32,25 +32,25 @@ def createTableLink(data):
 
 def createGetJsonLink(jsonFileURL) :
     """
-    Checks the get raw JSON-LD link from the JSON file URL.
+    Checks the get JSON-LD link from the JSON file URL.
 
     Parameter/Input:
         jsonFileURL: The JSON file URL.
 
     Returns:
-        JSON-LD raw link.
+        JSON-LD link.
     """
-    return f'<img src = "/images/get.svg" alt="Get JSON-LD"/><a href="{jsonFileURL.replace("github.com", "raw.githubusercontent.com").replace("blob/", "")}" target="_blank"> Get JSON-LD</a>'
+    return f'<img src = "/images/get.svg" alt="Get JSON-LD"/><a href="{jsonFileURL}" target="_blank"> Get JSON-LD</a>'
 
 def createGetROCrateLink(rocrateFileURL) :
     """
-    Checks the get raw RO-Crate JSON-LD link from the RO-Crate JSON file URL.
+    Checks the get RO-Crate JSON-LD link from the RO-Crate JSON file URL.
 
     Parameter/Input:
         rocrateFileURL: The RO-Crate JSON file URL.
 
     Returns:
-        RO-Crate JSON-LD raw link.
+        RO-Crate JSON-LD link.
     """
     return f'<img src = "/images/get.svg" alt="Get RO-Crate"/><a href="{rocrateFileURL}" target="_blank" download={rocrateFileURL}> Get RO Crate</a>'
 
@@ -407,18 +407,18 @@ def fromMetadatatoDocs():
             if "ro-crate" in jsonFileName:
                 continue
 
-            jsonFilePath = os.path.join(mdFolderPath, jsonFileName)
-            jsonFileURL = repoURL + "/blob/main/" + jsonFilePath[jsonFilePath.index("metadata"):]            
+            jsonFilePath = os.path.join(mdFolderPath, jsonFileName)            
             with open(jsonFilePath, "r", encoding="utf-8") as jsonFile:
                 data = json.load(jsonFile)
                 allMetadata.append(data)
 
                 md = ""
                 folderIndex = -1
+                fileNameNoExt = jsonFileName.removesuffix('.json')
                 try:
-                  folderIndex = DOCS_SUBFOLDERS.index(mdFolderName)
-                  rocrateFileName = jsonFileName.removesuffix('.json')
-                  rocrateFileURL = f"../../metadata/{mdFolderName}/{rocrateFileName}_ro-crate-metadata.json"
+                  folderIndex = DOCS_SUBFOLDERS.index(mdFolderName)                                    
+                  jsonFileURL = f"../../metadata/{mdFolderName}/{fileNameNoExt}.json"
+                  rocrateFileURL = f"../../metadata/{mdFolderName}/{fileNameNoExt}_ro-crate-metadata.json"
                   md = f'# {mdFolderName.capitalize()} metadata\n\n'
                   md += processProjectData(data, jsonFileURL, rocrateFileURL)
                   docFileProjectsPath = os.path.join(docsSubfoldersPath[folderIndex], jsonFileName.removesuffix('.json') + ".md")
@@ -426,6 +426,7 @@ def fromMetadatatoDocs():
                     mdDocFile.write(md)    
                     mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
                 except:
+                  jsonFileURL = f"../metadata/{mdFolderName}/{fileNameNoExt}.json"
                   md = generateMDTableFromJSON(data, jsonFileURL)                    
                   with open(docFilePath, "a", encoding="utf-8") as mdDocFile:
                     mdDocFile.write(md)    

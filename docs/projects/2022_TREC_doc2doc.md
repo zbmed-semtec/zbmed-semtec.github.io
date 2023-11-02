@@ -2,7 +2,7 @@
 
 ## TREC document-to-document relevance assessment
 
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\projects\2022_TREC_doc2doc.json" target="_blank"> Get JSON-LD</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../../metadata/projects/2022_TREC_doc2doc.json" target="_blank"> Get JSON-LD</a></p>
 <p><img src = "/images/get.svg" alt="Get RO-Crate"/><a href="../../metadata/projects/2022_TREC_doc2doc_ro-crate-metadata.json" target="_blank" download=../../metadata/projects/2022_TREC_doc2doc_ro-crate-metadata.json> Get RO Crate</a></p>
 _Started in 2022-06-01_
 _Concluded in 2023-03-31_
@@ -53,7 +53,7 @@ document relevance, doc2doc relevance
 
 #### STELLA Living Labs Project
 
-<a href="ttps://gepris.dfg.de/gepris/projekt/407518790#project" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ResearchProject</a>
+<a href="https://gepris.dfg.de/gepris/projekt/407518790#project" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ResearchProject</a>
 
 ### Funding
 
@@ -225,7 +225,7 @@ document relevance, doc2doc relevance
     },
     {
       "@type": "ResearchProject",
-      "@id": "ttps://gepris.dfg.de/gepris/projekt/407518790#project",
+      "@id": "https://gepris.dfg.de/gepris/projekt/407518790#project",
       "name": "STELLA Living Labs Project"
     }
   ],

@@ -13,7 +13,7 @@
       },
       {
         "@id": "./",
-        "@type": "Dataset",
+        "@type": ["Dataset"],
         "name": "RO-Crate for the research project 'Machine-actionable Software Management Plans'",
         "description": "This RO-Crate describes the research project 'Machine-actionable Software Management Plans' including  metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprenhensive view of the research outcomes.",
         "datePublished": "2023-11-02",
@@ -213,7 +213,7 @@
         "@type": "Poster",
         "@id": "https://doi.org/10.5281/zenodo.7249674",
         "name": "A FAIRification roadmap for ELIXIR Software Management Plans - Poster",
-        "identifier": "DOI:10.5281/zenodo.7249674",
+        "identifier": "DOI.10.5281/zenodo.7249674",
         "url": "https://doi.org/10.5281/zenodo.7249674",
         "citation": "Olga Giraldo, Renato Alves, Dimitrios Bampalikis, Jose M Fernandez, Eva Martin del Pico, Fotis E Psomopoulos, Allegra Via, & Leyla Jael Castro. (2022). A FAIRification roadmap for ELIXIR Software Management Plans - Poster. First International Conference on FAIR Digital Objects (FDO2022). Zenodo. https://doi.org/10.5281/zenodo.7249674",
         "datePublished": "2022-10-25"

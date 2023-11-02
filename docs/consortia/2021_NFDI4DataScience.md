@@ -2,7 +2,7 @@
 
 ## NFDI4DataScience
 
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\consortia\2021_NFDI4DataScience.json" target="_blank"> Get JSON-LD</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../../metadata/consortia/2021_NFDI4DataScience.json" target="_blank"> Get JSON-LD</a></p>
 <p><img src = "/images/get.svg" alt="Get RO-Crate"/><a href="../../metadata/consortia/2021_NFDI4DataScience_ro-crate-metadata.json" target="_blank" download=../../metadata/consortia/2021_NFDI4DataScience_ro-crate-metadata.json> Get RO Crate</a></p>
 _Started in 2021-10-01_
 ### Description

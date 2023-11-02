@@ -2,7 +2,7 @@
 
 ## STELLA Living Labs
 
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/metadata\consortia\2018_STELLA.json" target="_blank"> Get JSON-LD</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../../metadata/consortia/2018_STELLA.json" target="_blank"> Get JSON-LD</a></p>
 <p><img src = "/images/get.svg" alt="Get RO-Crate"/><a href="../../metadata/consortia/2018_STELLA_ro-crate-metadata.json" target="_blank" download=../../metadata/consortia/2018_STELLA_ro-crate-metadata.json> Get RO Crate</a></p>
 _Started in ['2018-12-01', '2023-08-01']_
 ### Description
