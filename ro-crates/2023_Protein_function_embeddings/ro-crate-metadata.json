@@ -1,0 +1,93 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": [
+        "Dataset"
+      ],
+      "name": "Protein Function Embeddings : A Master Thesis",
+      "description": "This dataset is about a Master Thesis project that encapsulates research focused on enhancing protein function annotations by leveraging protein function information through embeddings using two text-driven embedding techniques, Word2doc2Vec and Hybrid-Word2doc2Vec. This includes the metadata and a list, via hasPart of its outcomes even if thez are dependent on each other.",
+      "datePublished": "2023-04-17",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "keywords":  [
+        "Protein Function", "Word2doc2Vec", "Hybrid-Word2doc2Vec"
+        ], 
+      "author" : {
+          "@type": "Person",
+          "@id": "https://orcid.org/0009-0004-4484-6283",
+          "familyName": "Ravinder", 
+          "givenName": "Rohitha"
+        },
+      "hasPart": [
+        {
+          "@id": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis"
+        },
+        {
+          "@id": "10.5281/zenodo.7781869"
+        },
+        {
+          "@id": "10.5281/zenodo.7793383"
+        },
+        {
+          "@id": "https://ceur-ws.org/Vol-3415/paper-21.pdf"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",
+      "datePublished": "2023-06-21",
+      "name": "Protein-function-embeddings-thesis: Software",
+      "description": "This is the Software Source Code corresponding to the thesis along with its metadata.",
+      "url": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",
+      "citation": "Ravinder, R., Jael Castro, L., & Rebholz-Schuhmann, D. (2022). Comparative analysis of protein function text-based embeddings and their applicability to prediction tasks (Version 1.0.0) [Computer software]. https://github.com/zbmed-semtec/protein_function_embeddings_thesis",
+      "programmingLanguage": [
+        "Python"
+        ]
+    },
+  {
+    "@type": "SoftwareApplication",
+    "@id": "10.5281/zenodo.7781869",
+    "name": "Protein-function-embeddings-thesis: Software Release",
+    "description": "This is the Software release of the source code corresponding to the thesis along with its metadata.",
+    "url": "https://zenodo.org/records/7781870",
+    "citation": "Ravinder, R., Castro, L. J., & Rebholz-Schuhmann, D. (2023). Protein Function Embeddings: First Beta Release (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7781870",
+    "softwareVersion": "v1.0.1",
+    "datePublished": "2023-03-29"
+  },
+  {
+    "@type": "Dataset",
+    "@id": "10.5281/zenodo.7793383",
+    "name": "Protein-function-embeddings-thesis: Dataset",
+    "description": "This is the Dataset release corresponding to the thesis along with its metadata.",
+    "url": "https://zenodo.org/doi/10.5281/zenodo.7793383",
+    "citation": "Ravinder, R., Castro, L. J., & Rebholz-Schuhmann, D. (2023). Protein Function Embeddings: First Beta Release of Datasets (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7793384",
+    "version": "v1.0.0" ,
+    "datePublished": "2023-04-02"
+  },
+  {
+    "@type": "ScholarlyArticle",
+    "@id": "https://ceur-ws.org/Vol-3415/paper-21.pdf",
+    "name": "Comparative analysis of protein function text-based embeddings and their applicability to prediction tasks",
+    "datePublished": "2023",
+    "citation": "Ravinder, R., Castro, L. J., Hofmann-Apitius, M., & Rebholz-Schuhmann, D. (2023). Comparative analysis of protein function text-based embeddings and their applicability to prediction tasks. In Proceedings of the Semantic Web Applications and Tools for Healthcare and Life Sciences (SWAT4HCLS 2023) (pp. 124-125)"
+  }
+  ]
+}
