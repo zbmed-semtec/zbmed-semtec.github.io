@@ -387,8 +387,8 @@ def fromMetadatatoDocs():
     """
     repoURL = getCurrentGitUrl().rsplit(".git", 1)[0]
     currentPath = os.getcwd()
-    metadataPath = os.path.join(currentPath, "metadata")
     docsPath = os.path.join(currentPath, "docs")
+    metadataPath = os.path.join(currentPath, "docs/metadata")
     docsSubfoldersPath = prepareDocsSubfolder(docsPath)
     
     allMetadata = []
