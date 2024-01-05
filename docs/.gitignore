@@ -1,0 +1,12 @@
+Gemfile.lock
+temp/
+
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+.DS_Store*
+
+site/
+venv/
