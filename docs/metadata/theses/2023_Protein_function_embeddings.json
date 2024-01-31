@@ -1,12 +1,13 @@
 {
   "@context": "https://schema.org/",
-  "@id": "https://zbmed-semtec.github.io/theses/2023_Protein_function_embeddings",
+  "@id": "https://w3id.org/zbmed-semtec/theses/2023_Protein_function_embeddings",
   "@type": "ResearchProject",
   "name": "Protein function embeddings", 
   "foundingDate": "2022-10-17",
   "dissolutionDate": "2023-04-17",
   "description": "This research project corresponds to a Master Thesis that encapsulates research focused on enhancing protein function annotations by leveraging protein function information through embeddings using two text-driven embedding techniques, Word2doc2Vec and Hybrid-Word2doc2Vec. This includes the metadata and a list, via hasPart of its outcomes even if thez are dependent on each other.",
   "keywords": "Protein Function, Word2doc2Vec, Hybrid-Word2doc2Vec",
+  "url": "https://zbmed-semtec.github.io/theses/2023_Protein_function_embeddings",
   "alumni": [
     {
       "@type": "Person",
@@ -23,8 +24,9 @@
     },
     {
       "@type": "ResearchOrganization",
-      "@id": "https://zbmed-semtec.github.io/",
-      "name": "Semantic Technologies team at ZB MED"
+      "@id": "https://w3id.org/zbmed-semtec",
+      "name": "Semantic Technologies team at ZB MED",
+      "url": "https://zbmed-semtec.github.io/"
     }
   ],
   "parentOrganization": [
@@ -49,7 +51,21 @@
       "url": "http://www.b-it-center.de/"
     }
   ], 
-  "knowsAbout": [
+  "knowsAbout": [ 
+    {
+      "@type": "Thesis",
+      "@id": "https://doi.org/10.4126/FRL01-006472635",
+      "identifier": "DOI:10.4126/FRL01-006472635",
+      "name": "Comparative analysis of protein function text-based embeddings and its potential for prediction tasks : master thesis",
+      "dateCreated": "2023-04-17",
+      "author": {
+        "@type": "Person",
+        "@id": "https://orcid.org/0009-0004-4484-6283",
+        "givenName": "Rohitha",
+        "familyName": "Ravinder"
+      },
+      "url": "https://repository.publisso.de/resource/frl:6472635"
+    },
     {
       "@type": "SoftwareSourceCode",
       "@id": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",

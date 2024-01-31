@@ -1,12 +1,13 @@
 {
   "@context": "https://schema.org/",
-  "@id": "https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc",
+  "@id": "https://w3id.org/zbmed-semtec/projects/2022_TREC_doc2doc",
   "@type": "ResearchProject",  
   "name": "TREC document-to-document relevance assessment", 
   "foundingDate": "2022-06-01",
   "dissolutionDate": "2023-03-31",
   "description": "[TREC 2005 Genomics Track data](https://trec.nist.gov/data/t14_genomics.html) provide document-to-topic relevance assessment. In this project we analyze a document-to-document relevance assessment for a subset of the TREC collection using manual annotation for the judgement. The inter-annotator agreement is evaluated with Fleiss' Kappa.",
   "keywords": "document relevance, doc2doc relevance",
+  "url": "https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc",
   "alumni": [
     {
       "@type": "Person",
@@ -69,8 +70,9 @@
   ],
   "department": {
     "@type": "ResearchOrganization",
-    "@id": "https://zbmed-semtec.github.io/",
-    "name": "Semantic Technologies team at ZB MED"
+    "@id": "https://w3id.org/zbmed-semtec",
+    "name": "Semantic Technologies team at ZB MED",
+    "url": "https://zbmed-semtec.github.io/"
   },
   "parentOrganization": [
     {
@@ -82,8 +84,9 @@
     },
     {
       "@type": "ResearchProject",
-      "@id": "https://gepris.dfg.de/gepris/projekt/407518790#project",
-      "name": "STELLA Living Labs Project"
+      "@id": "https://stella-project.org",
+      "name": "STELLA Living Labs Project",
+      "url": "https://stella-project.org/index.html"
     }
   ],   
   "funding": [
@@ -108,7 +111,20 @@
       "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
       "identifier": "CEUR:Vol-3415/paper-12",
       "name": "Document-to-document relevance assessment for TREC Genomics Track 2005",
-      "datePublished": "2023-06-22"
+      "datePublished": "2023-06-22",
+      "url": "https://ceur-ws.org/Vol-3415/paper-12.pdf#",
+      "author": [
+        {"@id": "https://orcid.org/0000-0003-2978-8922"},
+        {"@id": "https://orcid.org/0000-0002-5915-8895"},
+        {"@id": "https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama"},
+        {"@id": "https://orcid.org/0009-0004-1529-0095"},
+        {"@id": "https://orcid.org/0000-0002-8725-1317"},
+        {"@id": "http://orcid.org/0000-0002-2910-7982"},
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},
+        {"@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
     },{
       "@type": "SoftwareApplication",
       "@id": "https://doi.org/10.5281/zenodo.7341391",
@@ -117,14 +133,32 @@
       "description": "The code, data and docs at this release aim at facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track. A doc-2-doc relevance assessment takes one document as reference and assess a second document regarding its relevance to the reference one. This doc-2-doc collection will be used to evaluate the doc-2-doc recommendations approaches that we are working on.",
       "url": "https://zenodo.org/records/7341391",
       "softwareVersion": "1.0.0",
-      "datePublished": "2022-11-21"
+      "datePublished": "2022-11-21",
+      "author": [
+        {"@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"},
+        {"@id": "http://orcid.org/0000-0002-2910-7982"},
+        {"@id": "https://orcid.org/0000-0002-8725-1317"},
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},
+        {"@id": "https://orcid.org/0000-0003-2978-8922"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
     },{
       "@type": "SoftwareSourceCode",
       "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
       "name": "TREC-doc-2-doc-relevance",
       "description": "This is the software source code facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track along with its metadata.",
       "url": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
-      "targetProduct": { "@id": "https://doi.org/10.5281/zenodo.7341391" }
+      "targetProduct": { "@id": "https://doi.org/10.5281/zenodo.7341391" },
+      "author": [
+        {"@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"},
+        {"@id": "http://orcid.org/0000-0002-2910-7982"},
+        {"@id": "https://orcid.org/0000-0002-8725-1317"},
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},
+        {"@id": "https://orcid.org/0000-0003-2978-8922"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
     },{
       "@type": "Dataset",
       "@id": "https://doi.org/10.5281/zenodo.7338056",
@@ -141,7 +175,13 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       "url": "https://zenodo.org/record/7338056",
-      "datePublished": "2022-11-19"
+      "datePublished": "2022-11-19",
+      "author": [                
+        {"@id": "https://orcid.org/0000-0003-2978-8922"},
+        {"@id": "https://orcid.org/0009-0004-1529-0095"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
     },{
       "@type": "Dataset",
       "@id": "https://doi.org/10.5281/zenodo.7324822",
@@ -158,7 +198,15 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       "url": "https://zenodo.org/record/7324822",
-      "datePublished": "2022-11-15"
+      "datePublished": "2022-11-15",
+      "author": [                
+        {"@id": "https://orcid.org/0000-0003-2978-8922"},
+        {"@id": "https://orcid.org/0009-0004-1529-0095"},
+        {"@id": "https://orcid.org/0000-0002-5915-8895"},
+        {"@id": "https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
     }
   ]
 }
