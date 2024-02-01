@@ -10,9 +10,27 @@
   "employee": [
     {
       "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7672-9186",
+      "givenName": "Muskaan",
+      "familyName": "Chopra"
+    },
+    {
+      "@type": "Person",
       "@id": "https://orcid.org/0000-0002-2910-7982",
       "givenName": "Lukas",
       "familyName": "Geist"
+    },
+    {
+      "@type": "Person",
+      "@id": "#",
+      "givenName": "Endri",
+      "familyName": "Gupta"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0000-9203-2437",
+      "givenName": "Soudeh",
+      "familyName": "Jahanshahi"
     },
     {
       "@type": "Person",
@@ -25,6 +43,12 @@
       "@id": "https://orcid.org/0009-0004-4484-6283",
       "givenName": "Rohitha",
       "familyName": "Ravinder"
+    },
+    {
+      "@type": "Person",
+      "@id": "#",
+      "givenName": "Suhasini",
+      "familyName": "Venkatesh"
     },
     {
       "@type": "Person",
@@ -57,6 +81,12 @@
       "@id": "https://orcid.org/0000-0002-0762-4305",
       "givenName": "Georgi",
       "familyName": "Lazarov"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7672-9186",
+      "givenName": "Sarker Sunzid",
+      "familyName": "Mahmud"
     },
     {
       "@type": "Person",
@@ -100,13 +130,14 @@
     {
       "@type": "Consortium",
       "@id": "https://gepris.dfg.de/gepris/projekt/460234259#project",
-      "name": "NFDI4DataScience"
+      "name": "NFDI4DataScience",
+      "url": "https://www.nfdi4datascience.de/"
     },
     {
       "@type": "ResearchProject",
-      "@id": "https://stella-project.org",
+      "@id": "https://gepris.dfg.de/gepris/projekt/407518790#project",
       "name": "STELLA Living Labs Project",
-      "url": "https://stella-project.org/index.html"
+      "url": "https://stella-project.org"
     }
   ],  
   "funding": [
@@ -140,32 +171,84 @@
   "knowsAbout": [
     {
       "@type": "ScholarlyArticle",
-      "@id": "https://doi.org/10.4126/FRL01-006440397",
-      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
-      "identifier": "DOI:10.4126/FRL01-006440397s", 
-      "name": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus",
-      "datePublished": "2023-06-22"
+      "@id": "https://ceur-ws.org/Vol-3466/paper5.pdf",
+      "identifier": "CEUR:Vol-3466/paper5",
+      "alternativeHeadline": "Ravinder R, Fellerhof T, Dadi V, Geist L, Talha M, Rebholz-Schuhmann D, et al. A Comparison of Vector-based Approaches for Document Similarity Using the RELISH Corpus. Proceedings of the 6th Workshop on Semantic Web Solutions for Large-Scale Biomedical Data Analytics co-located with ESWC 2023. CEUR; 2023. Available: https://ceur-ws.org/Vol-3466/paper5.pdf",
+      "name": "A Comparison of Vector-based Approaches for Document Similarity Using the RELISH Corpus",
+      "datePublished": "2023-03-01",
+      "url": "https://ceur-ws.org/Vol-3466/paper5.pdf#",
+      "author": [
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},
+        {"@id": "https://orcid.org/0000-0002-8725-1317"},
+        {"@id": "https://orcid.org/0000-0002-3082-7522"},
+        {"@id": "https://orcid.org/0000-0002-2910-7982"},
+        {"@id": "https://orcid.org/0000-0002-4795-3648"},
+        {"@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
     }, 
     {
       "@type": "Poster",
+      "@id": "https://doi.org/10.4126/FRL01-006440397",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "DOI:10.4126/FRL01-006440397s", 
+      "citation": "Ravinder R, Fellerhoff T, Dadi VV, Geist L, Rocamora G, Talha M, et al. OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster. ZB MED - Informationszentrum Lebenswissenschaften; 2023. Available: https://repository.publisso.de/resource/frl:6440397",
+      "name": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus",
+      "datePublished": "2023-06-22",
+      "url": "https://repository.publisso.de/resource/frl:6440397",
+      "author": [
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},
+        {"@id": "https://orcid.org/0000-0002-8725-1317"},
+        {"@id": "https://orcid.org/0000-0002-3082-7522"},
+        {"@id": "https://orcid.org/0000-0002-2910-7982"},
+        {"@id": "https://orcid.org/0000-0002-4795-3648"},
+        {"@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
+    }, 
+    {
+      "@type": "ScholarlyArticle",
       "@id": "https://ceur-ws.org/Vol-3415/paper-38.pdf",
       "identifier": "CEUR:Vol-3415/paper-38",
+      "alternativeHeadline": "Ravinder R, Fellerhoff T, Dadi V, Geist L, Rocamora G, Talha M, et al. OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus. CEUR; 2023. Available: https://ceur-ws.org/Vol-3415/paper-38.pdf",
       "name": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster",
-      "datePublished": "2023-03-01"
+      "datePublished": "2023-03-01",
+      "url": "https://ceur-ws.org/Vol-3415/paper-38.pdf#",
+      "author": [
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},
+        {"@id": "https://orcid.org/0000-0002-8725-1317"},
+        {"@id": "https://orcid.org/0000-0002-3082-7522"},
+        {"@id": "https://orcid.org/0000-0002-2910-7982"},
+        {"@id": "https://orcid.org/0000-0002-4795-3648"},
+        {"@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
     }, 
     {
       "@type": "ScholarlyArticle",
       "@id": "https://ceur-ws.org/Vol-2918/short3.pdf",
       "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
       "identifier": "CEUR:Vol-2918/short3",
+      "alternativeHeadline": "Ritchie A, Chen J, Castro LJ, Rebholz-Schuhmann D, Jimenez-Ruiz E. Ontology Clustering with OWL2Vec*. CEUR Workshop Proceedings. Online: CEUR Workshop Proceedings; 2021. Available: http://ceur-ws.org/",
       "name": "Ontology Clustering with OWL2Vec*",
-      "datePublished": "2021-07-28"
+      "datePublished": "2021-07-28",
+      "author": [
+        {"@id": "https://zbmed-semtec.github.io/previous_members/#ashley-ritchie"},
+        {"@id": "https://chenjiaoyan.github.io/"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},        
+        {"@id": "https://orcid.org/0000-0002-9083-4599"}
+      ]
     }, 
     {
       "@type": "DataCatalog",
       "@id": "https://doi.org/10.5281/zenodo.5035290",
       "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT", 
       "identifier": "DOI:10.5281/zenodo.5035290",
+      "citation": "Lazarov G, Wolff B, Castro LJ, Rebholz-Schuhmann D. Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool. Zenodo; 2021. doi:10.5281/zenodo.5035290",
       "name": "Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool",
       "description": "Gene Ontology annotations for Medline abstracts from 2015 to 2019 using Whatizit",
       "keywords":  "Whatizit, Semantic annotation, Medline, text-mining", 
@@ -177,13 +260,20 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       "url": "https://zenodo.org/record/5035290",
-      "datePublished": "2021-06-27"
+      "datePublished": "2021-06-27",
+      "author": [
+        {"@id": "https://orcid.org/0000-0002-0762-4305"},
+        {"@id": "https://orcid.org/0000-0001-9345-8958"},        
+        {"@id": "https://orcid.org/0000-0003-3986-0510"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"}
+      ]
     }, 
     {
       "@type": "DataCatalog",
       "@id": "https://doi.org/10.5281/zenodo.4903981",
       "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT", 
       "identifier": "DOI:10.5281/zenodo.4903981",
+      "citation": "Lazarov G, Castro LJ, Rebholz-Schuhmann D. Whatizit performance evaluation against CRAFT corpus. Zenodo; 2021. doi:10.5281/zenodo.4903981",
       "name": "Whatizit performance evaluation against CRAFT corpus",
       "description": "Whatizit performance evaluation against CRAFT corpus wrt Gene Ontology annotations",
       "keywords": "Whatizit, Semantic annotation, CRAFT, manual annotation, performance", 
@@ -195,7 +285,12 @@
         "url": "https://creativecommons.org/licenses/by/4.0/"
       },
       "url": "https://zenodo.org/record/4903981",
-      "datePublished": "2021-06-05"
+      "datePublished": "2021-06-05",
+      "author": [
+        {"@id": "https://orcid.org/0000-0002-0762-4305"},       
+        {"@id": "https://orcid.org/0000-0003-3986-0510"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"}
+      ]
     }
   ],
   "member": [

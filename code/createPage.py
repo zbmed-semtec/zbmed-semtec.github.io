@@ -5,7 +5,7 @@ import shutil
 
 DOCS_SUBFOLDERS = ['consortia', 'projects', 'theses']
 RO_CRATE_SUBFOLDERS = ['projects', 'theses']
-MAPPINGS = [("employee", "Current project members"), ("alumni", "Previous project members"), ("member", "External contributors"), ("knowsAbout", "Outcomes"), ("parentOrganization", "Parent organization, consortium or research project"), ("subOrganization", "Sub-projects")]
+MAPPINGS = [("employee", "Current project members"), ("alumni", "Previous project members"), ("alternativeHeadline", "Cite as"), ("citation", "Cite as"), ("member", "External contributors"), ("knowsAbout", "Outcomes"), ("parentOrganization", "Parent organization, consortium or research project"), ("subOrganization", "Sub-projects")]
 MAPPINGS_FROM = [i[0] for i in MAPPINGS]
 MAPPINGS_TO = [i[1] for i in MAPPINGS]
 
