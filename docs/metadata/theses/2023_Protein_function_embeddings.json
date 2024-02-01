@@ -61,6 +61,13 @@
       "name": "Comparative analysis of protein function text-based embeddings and its potential for prediction tasks : master thesis",
       "dateCreated": "2023-04-17",
       "url": "https://repository.publisso.de/resource/frl:6472635",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "author": {"@id": "https://orcid.org/0009-0004-4484-6283"}
     },
     {
@@ -72,7 +79,13 @@
       "description": "This is the Software Source Code corresponding to the thesis along with its metadata.",
       "url": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis#",
       "programmingLanguage": "Python",
-      "targetApplication": { "@id": "https://doi.org/10.5281/zenodo.7781869" },
+      "targetProduct": { "@id": "https://doi.org/10.5281/zenodo.7781869" },
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/GPL-3.0-only.html",
+        "name": "GPL-3.0-only", 
+        "url": "https://www.gnu.org/licenses/gpl-3.0-standalone.html"
+      },
       "author": [
         {"@id": "https://orcid.org/0009-0004-4484-6283"},
         {"@id": "https://orcid.org/0000-0003-3986-0510"},
@@ -90,6 +103,12 @@
       "url": "https://zenodo.org/records/7781870",
       "softwareVersion": "v1.0.1",
       "datePublished": "2023-03-29",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/GPL-3.0-only.html",
+        "name": "GPL-3.0-only", 
+        "url": "https://www.gnu.org/licenses/gpl-3.0-standalone.html"
+      },
       "author": [
         {"@id": "https://orcid.org/0009-0004-4484-6283"},
         {"@id": "https://orcid.org/0000-0003-3986-0510"},
@@ -107,6 +126,13 @@
       "url": "https://zenodo.org/records/7793384",      
       "version": "v1.0.0" ,
       "datePublished": "2023-04-02",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "author": [
         {"@id": "https://orcid.org/0009-0004-4484-6283"},
         {"@id": "https://orcid.org/0000-0003-3986-0510"},
@@ -122,6 +148,13 @@
       "name": "Comparative analysis of protein function text-based embeddings and their applicability to prediction tasks",
       "datePublished": "2023-06-22",
       "url": "https://ceur-ws.org/Vol-3415/paper-21.pdf#",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "author": [
         {"@id": "https://orcid.org/0009-0004-4484-6283"},        
         {"@id": "https://orcid.org/0000-0003-3986-0510"},

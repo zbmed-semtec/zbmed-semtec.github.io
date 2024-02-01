@@ -45,20 +45,15 @@ Evaluation framework, A/B testing, Interlinking, Information Retrieval, Recommen
 
 #### OntoClue
 
-<a href="https://zbmed-semtec.github.io/projects/2021_OntoClue" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ResearchProject</a>
+<a href="https://w3id.org/zbmed-semtec/projects/2021_OntoClue" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ResearchProject</a>
 
 #### TREC document-to-document relevance assessment
 
-<a href="https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ResearchProject</a>
+<a href="https://w3id.org/zbmed-semtec/projects/2022_TREC_doc2doc" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit ResearchProject</a>
 
 ### Funding
 
-#### Deutsche Forschungsgemeinschaft
-
-<a href="https://ror.org/018mejw64" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Organization</a>
-
-- Alternatename: German Research Foundation
-- URL: <a href="http://www.dfg.de/en/" target="_blank">http://www.dfg.de/en/</a>
+<a href="https://gepris.dfg.de/gepris/projekt/407518790" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Grant</a>
 
 - Identifier: 407518790
 - Description: Project no. 407518790 (corresponding to the STELLA project)
@@ -107,18 +102,19 @@ Evaluation framework, A/B testing, Interlinking, Information Retrieval, Recommen
   "subOrganization": [
     {
       "@type": "ResearchProject",
-      "@id": "https://zbmed-semtec.github.io/projects/2021_OntoClue",
+      "@id": "https://w3id.org/zbmed-semtec/projects/2021_OntoClue",
       "name": "OntoClue"
     },
     {
       "@type": "ResearchProject",
-      "@id": "https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc",
+      "@id": "https://w3id.org/zbmed-semtec/projects/2022_TREC_doc2doc",
       "name": "TREC document-to-document relevance assessment"
     }
   ],
   "funding": [
     {
       "@type": "Grant",
+      "@id": "https://gepris.dfg.de/gepris/projekt/407518790",
       "funder": {
         "@type": "Organization",
         "@id": "https://ror.org/018mejw64",

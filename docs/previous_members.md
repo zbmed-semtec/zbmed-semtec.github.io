@@ -200,6 +200,36 @@
 }
 </script>
 
+### Sarker Sunzid Mahmud
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/previous_members/mahmud_0009-0003-8268-9090.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-7672-9186" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
+<tbody>
+<tr>
+<td>familyName</td>
+<td>Mahmud</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Sarker Sunzid</td>
+</tr>
+<tr>
+<td>jobTitle</td>
+<td>Student assistant</td>
+</tr>
+</tbody>
+</table>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0002-7672-9186",
+  "familyName": "Mahmud",
+  "givenName": "Sarker Sunzid",
+  "jobTitle": "Student assistant"
+}
+</script>
+
 ### Muhammad Talha
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/previous_members/muhammad-talha.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">

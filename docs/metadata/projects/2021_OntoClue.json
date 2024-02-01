@@ -176,6 +176,13 @@
       "alternativeHeadline": "Ravinder R, Fellerhof T, Dadi V, Geist L, Talha M, Rebholz-Schuhmann D, et al. A Comparison of Vector-based Approaches for Document Similarity Using the RELISH Corpus. Proceedings of the 6th Workshop on Semantic Web Solutions for Large-Scale Biomedical Data Analytics co-located with ESWC 2023. CEUR; 2023. Available: https://ceur-ws.org/Vol-3466/paper5.pdf",
       "name": "A Comparison of Vector-based Approaches for Document Similarity Using the RELISH Corpus",
       "datePublished": "2023-03-01",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://ceur-ws.org/Vol-3466/paper5.pdf#",
       "author": [
         {"@id": "https://orcid.org/0009-0004-4484-6283"},
@@ -196,6 +203,13 @@
       "citation": "Ravinder R, Fellerhoff T, Dadi VV, Geist L, Rocamora G, Talha M, et al. OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster. ZB MED - Informationszentrum Lebenswissenschaften; 2023. Available: https://repository.publisso.de/resource/frl:6440397",
       "name": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus",
       "datePublished": "2023-06-22",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://repository.publisso.de/resource/frl:6440397",
       "author": [
         {"@id": "https://orcid.org/0009-0004-4484-6283"},
@@ -215,6 +229,13 @@
       "alternativeHeadline": "Ravinder R, Fellerhoff T, Dadi V, Geist L, Rocamora G, Talha M, et al. OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus. CEUR; 2023. Available: https://ceur-ws.org/Vol-3415/paper-38.pdf",
       "name": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster",
       "datePublished": "2023-03-01",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://ceur-ws.org/Vol-3415/paper-38.pdf#",
       "author": [
         {"@id": "https://orcid.org/0009-0004-4484-6283"},
@@ -235,6 +256,14 @@
       "alternativeHeadline": "Ritchie A, Chen J, Castro LJ, Rebholz-Schuhmann D, Jimenez-Ruiz E. Ontology Clustering with OWL2Vec*. CEUR Workshop Proceedings. Online: CEUR Workshop Proceedings; 2021. Available: http://ceur-ws.org/",
       "name": "Ontology Clustering with OWL2Vec*",
       "datePublished": "2021-07-28",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "url": "https://ceur-ws.org/Vol-2918/short3.pdf#",
       "author": [
         {"@id": "https://zbmed-semtec.github.io/previous_members/#ashley-ritchie"},
         {"@id": "https://chenjiaoyan.github.io/"},

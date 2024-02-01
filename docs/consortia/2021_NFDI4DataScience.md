@@ -34,13 +34,6 @@ NFDI, Data Science, Artificial Intelligence
 
 ### Funding
 
-#### Deutsche Forschungsgemeinschaft
-
-<a href="https://ror.org/018mejw64" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Organization</a>
-
-- Alternatename: German Research Foundation
-- URL: <a href="http://www.dfg.de/en/" target="_blank">http://www.dfg.de/en/</a>
-
 <a href="https://gepris.dfg.de/gepris/projekt/460234259" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Grant</a>
 
 - Identifier: 460234259

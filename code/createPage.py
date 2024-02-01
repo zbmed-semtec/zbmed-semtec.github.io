@@ -2,10 +2,11 @@ import os
 import json
 import subprocess
 import shutil
+import traceback
 
 DOCS_SUBFOLDERS = ['consortia', 'projects', 'theses']
 RO_CRATE_SUBFOLDERS = ['projects', 'theses']
-MAPPINGS = [("employee", "Current project members"), ("alumni", "Previous project members"), ("alternativeHeadline", "Cite as"), ("citation", "Cite as"), ("member", "External contributors"), ("knowsAbout", "Outcomes"), ("parentOrganization", "Parent organization, consortium or research project"), ("subOrganization", "Sub-projects")]
+MAPPINGS = [("employee", "Current project members"), ("alumni", "Previous project members"), ("alternativeHeadline", "Cite as"), ("citation", "Cite as"), ("member", "External contributors"), ("knowsAbout", "Outcomes"), ("parentOrganization", "Parent organization, consortium or research project"), ("subOrganization", "Sub-projects"), ("targetproduct", "Release")]
 MAPPINGS_FROM = [i[0] for i in MAPPINGS]
 MAPPINGS_TO = [i[1] for i in MAPPINGS]
 
@@ -284,12 +285,52 @@ def processNamesInProject(item) :
         subTypeURL = item["@type"]
         idURL = item["@id"]
         md += f'<a href="{idURL}" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit {subTypeURL}</a>\n\n'
-    for prop, val in item.items(): 
-        if prop not in ["@type", "@id", "name", "http://purl.org/dc/terms/conformsTo", "funder", "givenName", "familyName"]:
-            if prop == 'url':
-                md += renderUrlAsHref(val)
-            else :
-                md += f'- {prop.capitalize()}: {val}\n'
+    if isinstance(item, (dict)):        
+        for prop, val in item.items(): 
+            if prop not in ["@type", "@id", "name", "http://purl.org/dc/terms/conformsTo", "funder", "givenName", "familyName"]:
+                if prop == 'url':
+                    md += renderUrlAsHref(val)
+                elif prop == 'license':
+                    try:
+                        idURL = val["@id"]
+                        md += f'- License: <a href="{idURL}" target="_blank">{idURL}</a> \n'
+                    except:
+                        md += f'- License: {val}\n'
+                elif (prop == 'author'):
+                    try:
+                        if isinstance(val, list):
+                            md += f'- {prop.capitalize()}s: '
+                            for elem in val:
+                                idURL = elem["@id"]
+                                md += f'<a href="{idURL}" target="_blank">{idURL}</a>. '
+                            md += '\n'
+                        else:
+                            md += f'- {prop.capitalize()}: '
+                            idURL = val["@id"]
+                            md += f'<a href="{idURL}" target="_blank">{idURL}</a> \n'
+                    except:
+                        pass
+                elif (prop == 'targetProduct'):
+                    try:
+                        if isinstance(val, list):
+                            md += f'- Releases: '
+                            for elem in val:
+                                idURL = elem["@id"]
+                                md += f'<a href="{idURL}" target="_blank">{idURL}</a>. '
+                            md += '\n'
+                        else:
+                            md += f'- Release: '
+                            idURL = val["@id"]
+                            md += f'<a href="{idURL}" target="_blank">{idURL}</a> \n'
+                    except:
+                        pass
+                else :
+                    if prop in MAPPINGS_FROM :
+                        i = MAPPINGS_FROM.index(prop)
+                        md += f'- {MAPPINGS_TO[i]}: '
+                    else :
+                        md += f'- {prop.capitalize()}: '
+                    md += f'{val}\n'
     return md
 
 def processProjectData(data, jsonFileURL, rocrateFileURL, htmlFileURL):
@@ -324,10 +365,9 @@ def processProjectData(data, jsonFileURL, rocrateFileURL, htmlFileURL):
                     if isinstance(item, (dict, list)):
                         #each item is an object/dict
                         #loop on each key, value pair
-                        for mdFolderName in item:
-                            subItem = item.get(mdFolderName, "")
-                            if (isinstance(subItem,(dict, list))):
-                                md += processNamesInProject(subItem) 
+                        #for keyPair in item:
+                        #    valuePair = item.get(keyPair, "")
+                        #    md += processKeyValuePair(keyPair, valuePair)                             
                         md += processNamesInProject(item)             
             elif isinstance(value, dict):
                 for subProperty, subValue in value.items():
@@ -437,6 +477,7 @@ def fromMetadatatoDocs():
                   folderIndex = DOCS_SUBFOLDERS.index(mdFolderName)                                    
                   jsonFileURL = f"../../metadata/{mdFolderName}/{fileNameNoExt}.json"
                   rocrateFileURL = ""
+                  htmlFileURL = ""
                   if mdFolderName in RO_CRATE_SUBFOLDERS:
                     rocrateFileURL = f"../../metadata/{mdFolderName}/{fileNameNoExt}/ro-crate-metadata.json"
                     htmlFileURL = f"../../metadata/{mdFolderName}/{fileNameNoExt}/ro-crate-preview.html"
@@ -447,7 +488,9 @@ def fromMetadatatoDocs():
                     mdDocFile.write(md)    
                     mdDocFile.write(f'\n\n<script type="application/ld+json">\n{json.dumps(data, indent=2)}\n</script>\n\n')
                 except Exception as e:
-                  #print(e)
+                  print(jsonFileName)
+                  print(e)
+                  #print(traceback.format_exc())
                   jsonFileURL = f"../metadata/{mdFolderName}/{fileNameNoExt}.json"
                   md = generateMDTableFromJSON(data, jsonFileURL)                    
                   with open(docFilePath, "a", encoding="utf-8") as mdDocFile:

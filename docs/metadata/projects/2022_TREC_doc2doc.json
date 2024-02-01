@@ -110,8 +110,16 @@
       "@id": "https://ceur-ws.org/Vol-3415/paper-12.pdf",
       "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
       "identifier": "CEUR:Vol-3415/paper-12",
+      "alternativeHeadline": "Giraldo O, Cadena MF, Robayo-Gama A, Solanki D, Fellerhoff T, Geist L, et al. Document-to-document relevance assessment for TREC Genomics Track 2005. CEUR; 2023. Available: https://ceur-ws.org/Vol-3415/paper-12.pdf",
       "name": "Document-to-document relevance assessment for TREC Genomics Track 2005",
       "datePublished": "2023-06-22",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://ceur-ws.org/Vol-3415/paper-12.pdf#",
       "author": [
         {"@id": "https://orcid.org/0000-0003-2978-8922"},
@@ -129,11 +137,19 @@
       "@type": "SoftwareApplication",
       "@id": "https://doi.org/10.5281/zenodo.7341391",
       "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
+      "identifier": "DOI:10.5281/zenodo.7341391",
+      "citation": "Talha M, Geist L, Fellerhof T, Ravinder R, Giraldo O, Rebholz-Schuhmann D, et al. TREC-doc-2-doc-relevance assessment interface. Zenodo; 2022. doi:10.5281/zenodo.7341391",
       "name": "TREC-doc-2-doc-relevance assessment interface",
       "description": "The code, data and docs at this release aim at facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track. A doc-2-doc relevance assessment takes one document as reference and assess a second document regarding its relevance to the reference one. This doc-2-doc collection will be used to evaluate the doc-2-doc recommendations approaches that we are working on.",
       "url": "https://zenodo.org/records/7341391",
       "softwareVersion": "1.0.0",
       "datePublished": "2022-11-21",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/MIT.html",
+        "name": "MIT License", 
+        "url": "https://opensource.org/license/mit/"
+      },
       "author": [
         {"@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"},
         {"@id": "http://orcid.org/0000-0002-2910-7982"},
@@ -146,10 +162,17 @@
     },{
       "@type": "SoftwareSourceCode",
       "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+      "citation": "Talha M, Geist L, Fellerhof T, Ravinder R, Giraldo O, Rebholz-Schuhmann D, et al. TREC-doc-2-doc-relevance [Software source code]. GitHub; 2022.",
       "name": "TREC-doc-2-doc-relevance",
       "description": "This is the software source code facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track along with its metadata.",
       "url": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
       "targetProduct": { "@id": "https://doi.org/10.5281/zenodo.7341391" },
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/MIT.html",
+        "name": "MIT License", 
+        "url": "https://opensource.org/license/mit/"
+      },
       "author": [
         {"@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"},
         {"@id": "http://orcid.org/0000-0002-2910-7982"},
@@ -164,6 +187,7 @@
       "@id": "https://doi.org/10.5281/zenodo.7338056",
       "conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT", 
       "identifier": "DOI:10.5281/zenodo.7338056",
+      "citation": "Giraldo O, Solanki D, Rebholz-Schuhmann D, Castro LJ. Fleiss kappa for doc-2-doc relevance assessment. Zenodo; 2022. doi:10.5281/zenodo.7338056",
       "name": "Fleiss kappa for doc-2-doc relevance assessment",
       "description": "Fleiss' kappa measuring inter-annotator agreement on a document-to-document relevance assessment task. The table contains 7 columns, the first one presents the topics, 8 in total. The second column shows the “reference articles”, represented by their PubMed-ID and organized by topic. The third column shows the Fleiss’ Kappa results. The fourth column shows the interpretation of the Fleiss' Kappa results being: i) “Poor” results <0.20, ii) “Fair” results within 0.21 - 0.40, and iii) “Moderate” results within 0.41 - 0.60. The fifth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Relevant” regarding its corresponding “reference article”. The sixth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Partially relevant” regarding its corresponding “reference article”. The seventh column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Non-relevant” regarding its corresponding “reference article”",
       "keywords": "Fleiss' Kappa, Inter-annoator agreement, TREC Genomics Track 2005, relevance assessment", 
@@ -187,6 +211,7 @@
       "@id": "https://doi.org/10.5281/zenodo.7324822",
       "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT", 
       "identifier": "DOI:10.5281/zenodo.7324822",
+      "citation": "Giraldo O, Solanki D, Cadena F, Robayo-Gama A, Rebholz-Schuhmann D, Castro LJ. Document-to-document relevant assessment for TREC Genomics Track 2005. Zenodo; 2022. doi:10.5281/zenodo.7324822",
       "name": "Document-to-document relevant assessment for TREC Genomics Track 2005",
       "description": "A CSV table with document-to-document relevance assessment judgements on a subset of the TREC Genomics Track 2005 produced by four annotators. The 'raw data document evaluation' contains six columns, first row consecutive id, second original TREC topic, third PubMed Id used as reference document, fourth PMID used to evaluate the relevance wrt the reference document, fifth the relevance score (2 definitely relevant, 1 partially relevant, 0 non-relevant), and sixth annotator id",
       "keywords": "Document-to-document relevance, TREC GEnomics Track 2005, relevance assessment", 

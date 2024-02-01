@@ -105,6 +105,13 @@
       "citation": "Castro LJ, Giraldo O, Geist L, Quiñones N, Solanki D, Rebholz-Schuhmann D. Metadata model for machine-actionable Software Management Plans [Software source code and vocabulary]. GitHub; 2024.",
       "name": "Metadata model for machine-actionable Software Management Plans",
       "url": "https://github.com/zbmed-semtec/maSMPs#",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "author": [
         {"@id": "https://orcid.org/0000-0003-3986-0510"},
         {"@id": "https://orcid.org/0000-0003-2978-8922"},
@@ -122,6 +129,13 @@
       "name": "machine-actionable Software Management Plan Ontology (maSMP Ontology)",
       "datePublished": "2024-01-29",
       "version": "2.1.0",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://zenodo.org/records/10582073",
       "author": [
         {"@id": "https://orcid.org/0000-0003-3986-0510"},
@@ -140,6 +154,13 @@
       "name": "Usage guidance (aka profiles) for the machine-actionable Software Management Plan Ontology",
       "datePublished": "2024-01-29",
       "version": "2.1.1",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://zenodo.org/records/10582121",
       "author": [
         {"@id": "https://orcid.org/0000-0003-3986-0510"},
@@ -157,6 +178,13 @@
       "identifier": "DOI:10.5281/zenodo.10374839",
       "name": "Five Minutes to Write a Software Management Plan – A Machine-actionable Approach to Simplify the Creation of SMPs",
       "datePublished": "2023-09-07",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://zenodo.org/records/10374839",
       "author":[
         {"@id": "https://orcid.org/0000-0003-3986-0510"},
@@ -179,6 +207,13 @@
       "alternativeHeadline": "Giraldo O, Dessi D, Dietze S, Rebholz-Schuhmann D, Castro LJ. Machine-Actionable Metadata for Software and Software Management Plans for NFDI. Proceedings of the Conference on Research Data Infrastructure. 2023. doi:10.52825/cordi.v1i.279",
       "name": "Machine-Actionable Metadata for Software and Software Management Plans for NFDI",
       "datePublished": "2023-09-07",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://www.tib-op.org/ojs/index.php/CoRDI/article/view/279",
       "author":[
         {"@id": "https://orcid.org/0000-0003-2978-8922"},
@@ -195,6 +230,13 @@
       "citation": "Giraldo O, Dessi D, Dietze S, Rebholz-Schuhmann D, Castro LJ. Machine-Actionable Metadata for Software and Software Management Plans for NFDI - Presentation. 2023 Sep 15. doi:10.5281/zenodo.8349183",
       "name": "Machine-Actionable Metadata for Software and Software Management Plans for NFDI - Presentation",
       "datePublished": "2023-09-15",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://zenodo.org/records/8349183",
       "author":[
         {"@id": "https://orcid.org/0000-0003-2978-8922"},
@@ -211,6 +253,13 @@
       "alternativeHeadline": "Giraldo O, Cardoso J, Martin del Pico E, Gaignard A, Geist L, Grossmann YV, et al. Workshop machine-actionable Software Management Plans. Zenodo; 2023 Jun. doi:10.5281/zenodo.8087357",
       "name": "Workshop machine-actionable Software Management Plans",
       "datePublished": "2023-06-27",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://zenodo.org/records/8087357",
       "author": [
         {"@id": "https://orcid.org/0000-0003-2978-8922"},
@@ -233,6 +282,13 @@
       "alternativeHeadline": "Giraldo O, Geist L, Quiñones N, Solanki D, Alves R, Bampalikis D, et al. A metadata schema for machine-actionable Software Management Plans. PUBLISSO-FRL; 2023. doi:10.4126/FRL01-006444988",
       "name": "A metadata schema for machine-actionable Software Management Plans",
       "datePublished": "2023-06-16",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://repository.publisso.de/resource/frl:6444988",
       "author": [
         {"@id": "https://orcid.org/0000-0003-2978-8922"},
@@ -257,6 +313,13 @@
       "alternativeHeadline": "Giraldo O, Alves R, Bampalikis D, Fernández JM, Martin Del Pico E, Posomopoulos F, et al. A metadata analysis for machine-actionable Software Management Plans. CEUR; 2023. Available: https://ceur-ws.org/Vol-3415/paper-31.pdf",
       "name": "A metadata analysis for machine-actionable Software Management Plans",
       "datePublished": "2023-06-22",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://ceur-ws.org/Vol-3415/paper-31.pdf#",
       "author": [
         {"@id": "https://orcid.org/0000-0003-2978-8922"},
@@ -278,6 +341,13 @@
       "citation": "Giraldo O, Alves R, Bampalikis D, Fernández González JM, Martin Del Pico E, Psomopoulos F, et al. A metadata analysis for machine-actionable Software Mng Plans - Poster. Poster presented at: SWAT4HCLS 2023; ZB MED - Informationszentrum Lebenswissenschaften; 2023. Available: https://repository.publisso.de/resource/frl:6440396",
       "name": "A metadata analysis for machine-actionable Software Management Plans - Poster",
       "datePublished": "2023-03-01",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://repository.publisso.de/resource/frl:6440396",
       "author": [
         {"@id": "https://orcid.org/0000-0003-2978-8922"},
@@ -300,6 +370,13 @@
       "alternativeHeadline": "Giraldo O, Alves R, Bampalikis D, Fernandez J, Pico EM del, Psomopoulos F, et al. A FAIRification roadmap for ELIXIR Software Management Plans. Research Ideas and Outcomes. Pensoft Publishers; 2022. p. e94608. doi:10.3897/rio.8.e94608",
       "name": "A FAIRification roadmap for ELIXIR Software Management Plans",
       "datePublished": "2022-10-12",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://riojournal.com/article/94608/",
       "author": [
         {"@id": "https://orcid.org/0000-0003-2978-8922"},
@@ -319,6 +396,13 @@
       "citation": "Giraldo O, Alves R, Bampalikis D, Fernandez JM, Pico EM del, Psomopoulos FE, et al. A FAIRification roadmap for ELIXIR Software Management Plans - Poster. 2022 Oct 25. doi:10.5281/zenodo.7249674",
       "name": "A FAIRification roadmap for ELIXIR Software Management Plans - Poster",
       "datePublished": "2022-10-25",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
       "url": "https://zenodo.org/records/7249674",
       "author": [
         {"@id": "https://orcid.org/0000-0003-2978-8922"},
