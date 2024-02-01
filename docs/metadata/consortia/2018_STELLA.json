@@ -37,18 +37,19 @@
   "subOrganization": [
     {
     "@type": "ResearchProject",
-    "@id": "https://zbmed-semtec.github.io/projects/2021_OntoClue",
+    "@id": "https://w3id.org/zbmed-semtec/projects/2021_OntoClue",
     "name": "OntoClue"
     }, 
     {
       "@type": "ResearchProject",
-      "@id": "https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc",
+      "@id": "https://w3id.org/zbmed-semtec/projects/2022_TREC_doc2doc",
       "name": "TREC document-to-document relevance assessment"
     }
   ],
   "funding": [
     {
       "@type": "Grant",
+      "@id": "https://gepris.dfg.de/gepris/projekt/407518790",
       "funder": {
         "@type": "Organization",
         "@id": "https://ror.org/018mejw64",
