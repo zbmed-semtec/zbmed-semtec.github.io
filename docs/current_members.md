@@ -104,7 +104,7 @@
 </tr>
 <tr>
 <td>jobTitle</td>
-<td>Student assistant</td>
+<td>Research Software Engineer</td>
 </tr>
 </tbody>
 </table>
@@ -114,9 +114,9 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0000-0002-5037-0443",
-  "familyName": "Qui\u00f1ones",
+  "familyName": "Quiñones",
   "givenName": "Nelson",
-  "jobTitle": "Student assistant"
+  "jobTitle": "Research Software Engineer"
 }
 </script>
 
