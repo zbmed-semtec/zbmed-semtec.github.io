@@ -165,7 +165,7 @@
       "citation": "Talha M, Geist L, Fellerhof T, Ravinder R, Giraldo O, Rebholz-Schuhmann D, et al. TREC-doc-2-doc-relevance [Software source code]. GitHub; 2022.",
       "name": "TREC-doc-2-doc-relevance",
       "description": "This is the software source code facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track along with its metadata.",
-      "url": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+      "url": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance#",
       "targetProduct": { "@id": "https://doi.org/10.5281/zenodo.7341391" },
       "license": {
         "@type": "CreativeWork",
