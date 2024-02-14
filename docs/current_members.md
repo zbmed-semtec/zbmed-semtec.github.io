@@ -60,6 +60,36 @@
 }
 </script>
 
+### Endri Gupta
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/gupta_0009-0005-4756-6268.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="http://orcid.org/0009-0005-4756-6268" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
+<tbody>
+<tr>
+<td>familyName</td>
+<td>Gupta</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>endri</td>
+</tr>
+<tr>
+<td>jobTitle</td>
+<td>Student assistant</td>
+</tr>
+</tbody>
+</table>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "http://orcid.org/0009-0005-4756-6268",
+  "familyName": "Gupta",
+  "givenName": "Endri",
+  "jobTitle": "Student assistant"
+}
+</script>
+
 ### Soudeh Jahanshahi
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/jahanshahi_0009-0000-9203-2437.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0000-9203-2437" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
