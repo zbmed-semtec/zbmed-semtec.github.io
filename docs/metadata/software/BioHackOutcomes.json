@@ -1,5 +1,5 @@
 { 
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@type": "SoftwareSourceCode",
   "@id": "https://github.com/zbmed-semtec/BioHackOutcomes",
 
@@ -10,7 +10,7 @@
   "author": [
     {
         "@type": "Person",
-        "@id": "http://orcid.org/0000-0002-0762-4305",
+        "@id": "https://orcid.org/0000-0002-0762-4305",
         "familyName": "Lazarov", 
         "givenName": "Georgi"
     },
@@ -23,7 +23,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/Apache-2.0.html",
+    "@id": "http://spdx.org/licenses/Apache-2.0",
     "name": "APACHE LICENSE, VERSION 2.0",
     "url": "https://www.apache.org/licenses/LICENSE-2.0"
   },

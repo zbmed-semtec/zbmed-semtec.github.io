@@ -42,7 +42,7 @@ NFDI, Data Science, Artificial Intelligence
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@id": "https://gepris.dfg.de/gepris/projekt/460234259#project",
   "@type": "ResearchProject",
   "name": "NFDI4DataScience",

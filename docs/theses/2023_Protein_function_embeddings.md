@@ -68,7 +68,7 @@ Protein Function, Word2doc2Vec, Hybrid-Word2doc2Vec
 - Datecreated: 2023-04-17
 - URL: <a href="https://repository.publisso.de/resource/frl:6472635" target="_blank">https://repository.publisso.de/resource/frl:6472635</a>
 
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - Author: <a href="https://orcid.org/0009-0004-4484-6283" target="_blank">https://orcid.org/0009-0004-4484-6283</a> 
 #### Protein-function-embeddings-thesis
 
@@ -81,7 +81,7 @@ Protein Function, Word2doc2Vec, Hybrid-Word2doc2Vec
 
 - Programminglanguage: Python
 - Release: <a href="https://doi.org/10.5281/zenodo.7781869" target="_blank">https://doi.org/10.5281/zenodo.7781869</a> 
-- License: <a href="https://spdx.org/licenses/GPL-3.0-only.html" target="_blank">https://spdx.org/licenses/GPL-3.0-only.html</a> 
+- License: <a href="http://spdx.org/licenses/GPL-3.0-only" target="_blank">http://spdx.org/licenses/GPL-3.0-only</a> 
 - Authors: <a href="https://orcid.org/0009-0004-4484-6283" target="_blank">https://orcid.org/0009-0004-4484-6283</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. 
 #### Protein Function Embeddings: First Beta Release
 
@@ -94,7 +94,7 @@ Protein Function, Word2doc2Vec, Hybrid-Word2doc2Vec
 
 - Softwareversion: v1.0.1
 - Datepublished: 2023-03-29
-- License: <a href="https://spdx.org/licenses/GPL-3.0-only.html" target="_blank">https://spdx.org/licenses/GPL-3.0-only.html</a> 
+- License: <a href="http://spdx.org/licenses/GPL-3.0-only" target="_blank">http://spdx.org/licenses/GPL-3.0-only</a> 
 - Authors: <a href="https://orcid.org/0009-0004-4484-6283" target="_blank">https://orcid.org/0009-0004-4484-6283</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. 
 #### Protein Function Embeddings: First Beta Release of Datasets
 
@@ -108,7 +108,7 @@ Protein Function, Word2doc2Vec, Hybrid-Word2doc2Vec
 
 - Version: v1.0.0
 - Datepublished: 2023-04-02
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - Authors: <a href="https://orcid.org/0009-0004-4484-6283" target="_blank">https://orcid.org/0009-0004-4484-6283</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. 
 #### Comparative analysis of protein function text-based embeddings and their applicability to prediction tasks
 
@@ -119,7 +119,7 @@ Protein Function, Word2doc2Vec, Hybrid-Word2doc2Vec
 - Datepublished: 2023-06-22
 - URL: <a href="https://ceur-ws.org/Vol-3415/paper-21.pdf#" target="_blank">https://ceur-ws.org/Vol-3415/paper-21.pdf#</a>
 
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - Authors: <a href="https://orcid.org/0009-0004-4484-6283" target="_blank">https://orcid.org/0009-0004-4484-6283</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. <a href="https://orcid.org/0000-0001-9012-6720" target="_blank">https://orcid.org/0000-0001-9012-6720</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. 
 ### External contributors
 
@@ -135,7 +135,7 @@ Protein Function, Word2doc2Vec, Hybrid-Word2doc2Vec
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@id": "https://w3id.org/zbmed-semtec/theses/2023_Protein_function_embeddings",
   "@type": "ResearchProject",
   "name": "Protein function embeddings",
@@ -199,7 +199,7 @@ Protein Function, Word2doc2Vec, Hybrid-Word2doc2Vec
       "url": "https://repository.publisso.de/resource/frl:6472635",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -222,7 +222,7 @@ Protein Function, Word2doc2Vec, Hybrid-Word2doc2Vec
       },
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/GPL-3.0-only.html",
+        "@id": "http://spdx.org/licenses/GPL-3.0-only",
         "name": "GPL-3.0-only",
         "url": "https://www.gnu.org/licenses/gpl-3.0-standalone.html"
       },
@@ -251,7 +251,7 @@ Protein Function, Word2doc2Vec, Hybrid-Word2doc2Vec
       "datePublished": "2023-03-29",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/GPL-3.0-only.html",
+        "@id": "http://spdx.org/licenses/GPL-3.0-only",
         "name": "GPL-3.0-only",
         "url": "https://www.gnu.org/licenses/gpl-3.0-standalone.html"
       },
@@ -280,7 +280,7 @@ Protein Function, Word2doc2Vec, Hybrid-Word2doc2Vec
       "datePublished": "2023-04-02",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -308,7 +308,7 @@ Protein Function, Word2doc2Vec, Hybrid-Word2doc2Vec
       "url": "https://ceur-ws.org/Vol-3415/paper-21.pdf#",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"

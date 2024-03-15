@@ -1,5 +1,5 @@
 { 
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@type": "SoftwareSourceCode",
   "@id": "https://github.com/zbmed-semtec/topic-categorization-system",
 
@@ -41,7 +41,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/GPL-3.0-only.html",
+    "@id": "http://spdx.org/licenses/GPL-3.0-only",
     "name": "GPLv3",
     "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
   },

@@ -21,7 +21,7 @@
 <td><ul>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="http://orcid.org/0000-0002-0762-4305" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person Object</a>
+<tr><a href="https://orcid.org/0000-0002-0762-4305" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person Object</a>
 </tr>
 <tr>
 <td>familyName</td>
@@ -53,7 +53,7 @@
 <td><ul>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://spdx.org/licenses/Apache-2.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+<tr><a href="http://spdx.org/licenses/Apache-2.0" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
 </tr>
 <tr>
 <td>name</td>
@@ -99,7 +99,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@type": "SoftwareSourceCode",
   "@id": "https://github.com/zbmed-semtec/BioHackOutcomes",
   "name": "BioHackOutcomes",
@@ -108,7 +108,7 @@
   "author": [
     {
       "@type": "Person",
-      "@id": "http://orcid.org/0000-0002-0762-4305",
+      "@id": "https://orcid.org/0000-0002-0762-4305",
       "familyName": "Lazarov",
       "givenName": "Georgi"
     },
@@ -121,7 +121,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/Apache-2.0.html",
+    "@id": "http://spdx.org/licenses/Apache-2.0",
     "name": "APACHE LICENSE, VERSION 2.0",
     "url": "https://www.apache.org/licenses/LICENSE-2.0"
   },
@@ -176,7 +176,7 @@
 <hr></hr>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="http://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person Object</a>
+<tr><a href="https://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person Object</a>
 </tr>
 <tr>
 <td>familyName</td>
@@ -250,7 +250,7 @@
 <td><ul>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+<tr><a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
 </tr>
 <tr>
 <td>name</td>
@@ -298,7 +298,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@type": "SoftwareSourceCode",
   "@id": "https://github.com/zbmed-semtec/maSMPs",
   "name": "Metadata model for machine-actionable Software Management Plans",
@@ -313,7 +313,7 @@
     },
     {
       "@type": "Person",
-      "@id": "http://orcid.org/0000-0002-2910-7982",
+      "@id": "https://orcid.org/0000-0002-2910-7982",
       "familyName": "Geist",
       "givenName": "Lukas"
     },
@@ -344,7 +344,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "@id": "http://spdx.org/licenses/CC-BY-4.0",
     "name": "Creative Commons Attribution 4.0 International",
     "alternateName": "CC BY 4.0",
     "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -472,7 +472,7 @@
 <td><ul>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://spdx.org/licenses/GPL-3.0-only.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+<tr><a href="http://spdx.org/licenses/GPL-3.0-only" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
 </tr>
 <tr>
 <td>name</td>
@@ -512,7 +512,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@type": "SoftwareSourceCode",
   "@id": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
   "name": "Mowl-graph2doc2vec",
@@ -558,7 +558,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/GPL-3.0-only.html",
+    "@id": "http://spdx.org/licenses/GPL-3.0-only",
     "name": "GPLv3",
     "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
   },
@@ -642,7 +642,7 @@
 <td><ul>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://spdx.org/licenses/GPL-3.0-only.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+<tr><a href="http://spdx.org/licenses/GPL-3.0-only" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
 </tr>
 <tr>
 <td>name</td>
@@ -688,7 +688,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@type": "SoftwareSourceCode",
   "@id": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",
   "name": "Protein-function-embeddings-thesis",
@@ -716,7 +716,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/GPL-3.0-only.html",
+    "@id": "http://spdx.org/licenses/GPL-3.0-only",
     "name": "GPLv3",
     "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
   },
@@ -831,7 +831,7 @@
 <td><ul>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://spdx.org/licenses/GPL-3.0-only.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+<tr><a href="http://spdx.org/licenses/GPL-3.0-only" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
 </tr>
 <tr>
 <td>name</td>
@@ -877,7 +877,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@type": "SoftwareSourceCode",
   "@id": "https://github.com/zbmed-semtec/topic-categorization-system",
   "name": "Topic-categorization-system",
@@ -917,7 +917,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/GPL-3.0-only.html",
+    "@id": "http://spdx.org/licenses/GPL-3.0-only",
     "name": "GPLv3",
     "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
   },
@@ -972,7 +972,7 @@
 <hr></hr>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="http://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person Object</a>
+<tr><a href="https://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person Object</a>
 </tr>
 <tr>
 <td>familyName</td>
@@ -1060,7 +1060,7 @@
 <td><ul>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://spdx.org/licenses/MIT.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+<tr><a href="http://spdx.org/licenses/MIT" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
 </tr>
 <tr>
 <td>name</td>
@@ -1104,7 +1104,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@type": "SoftwareSourceCode",
   "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
   "name": "TREC-doc-2-doc-relevance",
@@ -1119,7 +1119,7 @@
     },
     {
       "@type": "Person",
-      "@id": "http://orcid.org/0000-0002-2910-7982",
+      "@id": "https://orcid.org/0000-0002-2910-7982",
       "familyName": "Geist",
       "givenName": "Lukas"
     },
@@ -1156,7 +1156,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/MIT.html",
+    "@id": "http://spdx.org/licenses/MIT",
     "name": "MIT License",
     "url": "https://opensource.org/license/mit/"
   },
@@ -1227,7 +1227,7 @@
 <td><ul>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://spdx.org/licenses/MIT.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+<tr><a href="http://spdx.org/licenses/MIT" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
 </tr>
 <tr>
 <td>name</td>
@@ -1269,7 +1269,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@type": "SoftwareSourceCode",
   "@id": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
   "name": "Zbmed-semtec.github.io",
@@ -1291,7 +1291,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/MIT.html",
+    "@id": "http://spdx.org/licenses/MIT",
     "name": "MIT License",
     "url": "https://opensource.org/license/mit/"
   },

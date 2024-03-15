@@ -1,5 +1,5 @@
 { 
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
 
   "@type": "Person",
   "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha",

@@ -17,7 +17,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama",
   "familyName": "Robayo-Gama",
@@ -42,7 +42,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://zbmed-semtec.github.io/previous_members/#ashley-ritchie",
   "familyName": "Ritchie",
@@ -67,7 +67,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0000-0002-5915-8895",
   "familyName": "Cadena",
@@ -92,7 +92,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0000-0002-3082-7522",
   "familyName": "Dadi",
@@ -117,7 +117,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0000-0002-8725-1317",
   "familyName": "Fellerhoff",
@@ -142,7 +142,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0000-0003-2978-8922",
   "familyName": "Giraldo",
@@ -167,7 +167,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0009-0004-0369-5677",
   "familyName": "Lahoria",
@@ -176,7 +176,7 @@
 </script>
 
 ### Georgi Lazarov
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/previous_members/lazarov_0000-0002-0762-4305.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="http://orcid.org/0000-0002-0762-4305" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/previous_members/lazarov_0000-0002-0762-4305.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-0762-4305" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -192,9 +192,9 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
-  "@id": "http://orcid.org/0000-0002-0762-4305",
+  "@id": "https://orcid.org/0000-0002-0762-4305",
   "familyName": "Lazarov",
   "givenName": "Georgi"
 }
@@ -221,7 +221,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0000-0002-7672-9186",
   "familyName": "Mahmud",
@@ -247,7 +247,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha",
   "familyName": "Talha",
@@ -272,7 +272,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0000-0002-4795-3648",
   "familyName": "Rocamora P\u00e9rez",
@@ -297,7 +297,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0000-0001-9345-8958",
   "familyName": "Wolff",

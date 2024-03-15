@@ -1,5 +1,5 @@
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@id": "https://gepris.dfg.de/gepris/projekt/407518790#project",
   "@type": "ResearchProject",
   "name": "STELLA Living Labs", 

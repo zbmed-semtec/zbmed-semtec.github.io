@@ -35,7 +35,7 @@
 <td><ul>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+<tr><a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
 </tr>
 <tr>
 <td>name</td>
@@ -137,7 +137,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "DataCatalog",
   "@id": "https://doi.org/10.5281/zenodo.4903981",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT",
@@ -153,7 +153,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "@id": "http://spdx.org/licenses/CC-BY-4.0",
     "name": "Creative Commons Attribution 4.0 International",
     "alternateName": "CC BY 4.0",
     "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -224,7 +224,7 @@
 <td><ul>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+<tr><a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
 </tr>
 <tr>
 <td>name</td>
@@ -340,7 +340,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "DataCatalog",
   "@id": "https://doi.org/10.5281/zenodo.5035290",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT",
@@ -355,7 +355,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "@id": "http://spdx.org/licenses/CC-BY-4.0",
     "name": "Creative Commons Attribution 4.0 International",
     "alternateName": "CC BY 4.0",
     "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -430,7 +430,7 @@
 <td><ul>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+<tr><a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
 </tr>
 <tr>
 <td>name</td>
@@ -582,7 +582,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Dataset",
   "@id": "https://doi.org/10.5281/zenodo.7324822",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT",
@@ -596,7 +596,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "@id": "http://spdx.org/licenses/CC-BY-4.0",
     "name": "Creative Commons Attribution 4.0 International",
     "alternateName": "CC BY 4.0",
     "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -687,7 +687,7 @@
 <td><ul>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+<tr><a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
 </tr>
 <tr>
 <td>name</td>
@@ -811,7 +811,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Dataset",
   "@id": "https://doi.org/10.5281/zenodo.7338056",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT",
@@ -826,7 +826,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "@id": "http://spdx.org/licenses/CC-BY-4.0",
     "name": "Creative Commons Attribution 4.0 International",
     "alternateName": "CC BY 4.0",
     "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -905,7 +905,7 @@
 <td><ul>
 <li><table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black; border-right: 1px solid black;">
 <tbody>
-<tr><a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
+<tr><a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit CreativeWork Object</a>
 </tr>
 <tr>
 <td>name</td>
@@ -1013,7 +1013,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "DataCatalog",
   "@id": "https://doi.org/10.5281/zenodo.7793384",
   "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT",
@@ -1028,7 +1028,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "@id": "http://spdx.org/licenses/CC-BY-4.0",
     "name": "Creative Commons Attribution 4.0 International",
     "alternateName": "CC BY 4.0",
     "url": "https://creativecommons.org/licenses/by/4.0/"

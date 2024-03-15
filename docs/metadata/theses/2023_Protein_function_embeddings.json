@@ -1,5 +1,5 @@
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@id": "https://w3id.org/zbmed-semtec/theses/2023_Protein_function_embeddings",
   "@type": "ResearchProject",
   "name": "Protein function embeddings", 
@@ -63,7 +63,7 @@
       "url": "https://repository.publisso.de/resource/frl:6472635",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International", 
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -82,7 +82,7 @@
       "targetProduct": { "@id": "https://doi.org/10.5281/zenodo.7781869" },
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/GPL-3.0-only.html",
+        "@id": "http://spdx.org/licenses/GPL-3.0-only",
         "name": "GPL-3.0-only", 
         "url": "https://www.gnu.org/licenses/gpl-3.0-standalone.html"
       },
@@ -105,7 +105,7 @@
       "datePublished": "2023-03-29",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/GPL-3.0-only.html",
+        "@id": "http://spdx.org/licenses/GPL-3.0-only",
         "name": "GPL-3.0-only", 
         "url": "https://www.gnu.org/licenses/gpl-3.0-standalone.html"
       },
@@ -128,7 +128,7 @@
       "datePublished": "2023-04-02",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International", 
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -150,7 +150,7 @@
       "url": "https://ceur-ws.org/Vol-3415/paper-21.pdf#",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International", 
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"

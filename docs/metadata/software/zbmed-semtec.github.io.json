@@ -1,5 +1,5 @@
 {
-  "@context": "https://schema.org/", 
+  "@context": "http://schema.org/", 
   "@type": "SoftwareSourceCode",
   "@id": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
 
@@ -23,7 +23,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/MIT.html",
+    "@id": "http://spdx.org/licenses/MIT",
     "name": "MIT License",
     "url": "https://opensource.org/license/mit/"
   },

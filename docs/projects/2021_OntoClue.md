@@ -102,7 +102,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
 - Identifier: CEUR:Vol-3466/paper5
 - Cite as: Ravinder R, Fellerhof T, Dadi V, Geist L, Talha M, Rebholz-Schuhmann D, et al. A Comparison of Vector-based Approaches for Document Similarity Using the RELISH Corpus. Proceedings of the 6th Workshop on Semantic Web Solutions for Large-Scale Biomedical Data Analytics co-located with ESWC 2023. CEUR; 2023. Available: https://ceur-ws.org/Vol-3466/paper5.pdf
 - Datepublished: 2023-03-01
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://ceur-ws.org/Vol-3466/paper5.pdf#" target="_blank">https://ceur-ws.org/Vol-3466/paper5.pdf#</a>
 
 - Authors: <a href="https://orcid.org/0009-0004-4484-6283" target="_blank">https://orcid.org/0009-0004-4484-6283</a>. <a href="https://orcid.org/0000-0002-8725-1317" target="_blank">https://orcid.org/0000-0002-8725-1317</a>. <a href="https://orcid.org/0000-0002-3082-7522" target="_blank">https://orcid.org/0000-0002-3082-7522</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-4795-3648" target="_blank">https://orcid.org/0000-0002-4795-3648</a>. <a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank">https://zbmed-semtec.github.io/previous_members/#muhammad-talha</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
@@ -113,7 +113,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
 - Identifier: DOI:10.4126/FRL01-006440397s
 - Cite as: Ravinder R, Fellerhoff T, Dadi VV, Geist L, Rocamora G, Talha M, et al. OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster. ZB MED - Informationszentrum Lebenswissenschaften; 2023. Available: https://repository.publisso.de/resource/frl:6440397
 - Datepublished: 2023-06-22
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://repository.publisso.de/resource/frl:6440397" target="_blank">https://repository.publisso.de/resource/frl:6440397</a>
 
 - Authors: <a href="https://orcid.org/0009-0004-4484-6283" target="_blank">https://orcid.org/0009-0004-4484-6283</a>. <a href="https://orcid.org/0000-0002-8725-1317" target="_blank">https://orcid.org/0000-0002-8725-1317</a>. <a href="https://orcid.org/0000-0002-3082-7522" target="_blank">https://orcid.org/0000-0002-3082-7522</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-4795-3648" target="_blank">https://orcid.org/0000-0002-4795-3648</a>. <a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank">https://zbmed-semtec.github.io/previous_members/#muhammad-talha</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
@@ -124,7 +124,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
 - Identifier: CEUR:Vol-3415/paper-38
 - Cite as: Ravinder R, Fellerhoff T, Dadi V, Geist L, Rocamora G, Talha M, et al. OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus. CEUR; 2023. Available: https://ceur-ws.org/Vol-3415/paper-38.pdf
 - Datepublished: 2023-03-01
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://ceur-ws.org/Vol-3415/paper-38.pdf#" target="_blank">https://ceur-ws.org/Vol-3415/paper-38.pdf#</a>
 
 - Authors: <a href="https://orcid.org/0009-0004-4484-6283" target="_blank">https://orcid.org/0009-0004-4484-6283</a>. <a href="https://orcid.org/0000-0002-8725-1317" target="_blank">https://orcid.org/0000-0002-8725-1317</a>. <a href="https://orcid.org/0000-0002-3082-7522" target="_blank">https://orcid.org/0000-0002-3082-7522</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-4795-3648" target="_blank">https://orcid.org/0000-0002-4795-3648</a>. <a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank">https://zbmed-semtec.github.io/previous_members/#muhammad-talha</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
@@ -135,7 +135,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
 - Identifier: CEUR:Vol-2918/short3
 - Cite as: Ritchie A, Chen J, Castro LJ, Rebholz-Schuhmann D, Jimenez-Ruiz E. Ontology Clustering with OWL2Vec*. CEUR Workshop Proceedings. Online: CEUR Workshop Proceedings; 2021. Available: http://ceur-ws.org/
 - Datepublished: 2021-07-28
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://ceur-ws.org/Vol-2918/short3.pdf#" target="_blank">https://ceur-ws.org/Vol-2918/short3.pdf#</a>
 
 - Authors: <a href="https://zbmed-semtec.github.io/previous_members/#ashley-ritchie" target="_blank">https://zbmed-semtec.github.io/previous_members/#ashley-ritchie</a>. <a href="https://chenjiaoyan.github.io/" target="_blank">https://chenjiaoyan.github.io/</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. <a href="https://orcid.org/0000-0002-9083-4599" target="_blank">https://orcid.org/0000-0002-9083-4599</a>. 
@@ -147,7 +147,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
 - Cite as: Lazarov G, Wolff B, Castro LJ, Rebholz-Schuhmann D. Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool. Zenodo; 2021. doi:10.5281/zenodo.5035290
 - Description: Gene Ontology annotations for Medline abstracts from 2015 to 2019 using Whatizit
 - Keywords: Whatizit, Semantic annotation, Medline, text-mining
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://zenodo.org/record/5035290" target="_blank">https://zenodo.org/record/5035290</a>
 
 - Datepublished: 2021-06-27
@@ -160,7 +160,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
 - Cite as: Lazarov G, Castro LJ, Rebholz-Schuhmann D. Whatizit performance evaluation against CRAFT corpus. Zenodo; 2021. doi:10.5281/zenodo.4903981
 - Description: Whatizit performance evaluation against CRAFT corpus wrt Gene Ontology annotations
 - Keywords: Whatizit, Semantic annotation, CRAFT, manual annotation, performance
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://zenodo.org/record/4903981" target="_blank">https://zenodo.org/record/4903981</a>
 
 - Datepublished: 2021-06-05
@@ -173,7 +173,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@id": "https://w3id.org/zbmed-semtec/projects/2021_OntoClue",
   "@type": "ResearchProject",
   "name": "OntoClue",
@@ -352,7 +352,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
       "datePublished": "2023-03-01",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -395,7 +395,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
       "datePublished": "2023-06-22",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -437,7 +437,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
       "datePublished": "2023-03-01",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -480,7 +480,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
       "datePublished": "2021-07-28",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -515,7 +515,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
       "keywords": "Whatizit, Semantic annotation, Medline, text-mining",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -548,7 +548,7 @@ word-embeddings, document-embeddings, ontology-embeddings, document similarity, 
       "keywords": "Whatizit, Semantic annotation, CRAFT, manual annotation, performance",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"

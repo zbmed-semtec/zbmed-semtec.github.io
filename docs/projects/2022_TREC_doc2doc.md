@@ -79,10 +79,10 @@ document relevance, doc2doc relevance
 - Identifier: CEUR:Vol-3415/paper-12
 - Cite as: Giraldo O, Cadena MF, Robayo-Gama A, Solanki D, Fellerhoff T, Geist L, et al. Document-to-document relevance assessment for TREC Genomics Track 2005. CEUR; 2023. Available: https://ceur-ws.org/Vol-3415/paper-12.pdf
 - Datepublished: 2023-06-22
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://ceur-ws.org/Vol-3415/paper-12.pdf#" target="_blank">https://ceur-ws.org/Vol-3415/paper-12.pdf#</a>
 
-- Authors: <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-5915-8895" target="_blank">https://orcid.org/0000-0002-5915-8895</a>. <a href="https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama" target="_blank">https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama</a>. <a href="https://orcid.org/0009-0004-1529-0095" target="_blank">https://orcid.org/0009-0004-1529-0095</a>. <a href="https://orcid.org/0000-0002-8725-1317" target="_blank">https://orcid.org/0000-0002-8725-1317</a>. <a href="http://orcid.org/0000-0002-2910-7982" target="_blank">http://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0009-0004-4484-6283" target="_blank">https://orcid.org/0009-0004-4484-6283</a>. <a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank">https://zbmed-semtec.github.io/previous_members/#muhammad-talha</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
+- Authors: <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-5915-8895" target="_blank">https://orcid.org/0000-0002-5915-8895</a>. <a href="https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama" target="_blank">https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama</a>. <a href="https://orcid.org/0009-0004-1529-0095" target="_blank">https://orcid.org/0009-0004-1529-0095</a>. <a href="https://orcid.org/0000-0002-8725-1317" target="_blank">https://orcid.org/0000-0002-8725-1317</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0009-0004-4484-6283" target="_blank">https://orcid.org/0009-0004-4484-6283</a>. <a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank">https://zbmed-semtec.github.io/previous_members/#muhammad-talha</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
 #### TREC-doc-2-doc-relevance assessment interface
 
 <a href="https://doi.org/10.5281/zenodo.7341391" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit SoftwareApplication</a>
@@ -94,8 +94,8 @@ document relevance, doc2doc relevance
 
 - Softwareversion: 1.0.0
 - Datepublished: 2022-11-21
-- License: <a href="https://spdx.org/licenses/MIT.html" target="_blank">https://spdx.org/licenses/MIT.html</a> 
-- Authors: <a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank">https://zbmed-semtec.github.io/previous_members/#muhammad-talha</a>. <a href="http://orcid.org/0000-0002-2910-7982" target="_blank">http://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-8725-1317" target="_blank">https://orcid.org/0000-0002-8725-1317</a>. <a href="https://orcid.org/0009-0004-4484-6283" target="_blank">https://orcid.org/0009-0004-4484-6283</a>. <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
+- License: <a href="http://spdx.org/licenses/MIT" target="_blank">http://spdx.org/licenses/MIT</a> 
+- Authors: <a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank">https://zbmed-semtec.github.io/previous_members/#muhammad-talha</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-8725-1317" target="_blank">https://orcid.org/0000-0002-8725-1317</a>. <a href="https://orcid.org/0009-0004-4484-6283" target="_blank">https://orcid.org/0009-0004-4484-6283</a>. <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
 #### TREC-doc-2-doc-relevance
 
 <a href="https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit SoftwareSourceCode</a>
@@ -105,8 +105,8 @@ document relevance, doc2doc relevance
 - URL: <a href="https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance" target="_blank">https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance</a>
 
 - Release: <a href="https://doi.org/10.5281/zenodo.7341391" target="_blank">https://doi.org/10.5281/zenodo.7341391</a> 
-- License: <a href="https://spdx.org/licenses/MIT.html" target="_blank">https://spdx.org/licenses/MIT.html</a> 
-- Authors: <a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank">https://zbmed-semtec.github.io/previous_members/#muhammad-talha</a>. <a href="http://orcid.org/0000-0002-2910-7982" target="_blank">http://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-8725-1317" target="_blank">https://orcid.org/0000-0002-8725-1317</a>. <a href="https://orcid.org/0009-0004-4484-6283" target="_blank">https://orcid.org/0009-0004-4484-6283</a>. <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
+- License: <a href="http://spdx.org/licenses/MIT" target="_blank">http://spdx.org/licenses/MIT</a> 
+- Authors: <a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank">https://zbmed-semtec.github.io/previous_members/#muhammad-talha</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-8725-1317" target="_blank">https://orcid.org/0000-0002-8725-1317</a>. <a href="https://orcid.org/0009-0004-4484-6283" target="_blank">https://orcid.org/0009-0004-4484-6283</a>. <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
 #### Fleiss kappa for doc-2-doc relevance assessment
 
 <a href="https://doi.org/10.5281/zenodo.7338056" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Dataset</a>
@@ -116,7 +116,7 @@ document relevance, doc2doc relevance
 - Cite as: Giraldo O, Solanki D, Rebholz-Schuhmann D, Castro LJ. Fleiss kappa for doc-2-doc relevance assessment. Zenodo; 2022. doi:10.5281/zenodo.7338056
 - Description: Fleiss' kappa measuring inter-annotator agreement on a document-to-document relevance assessment task. The table contains 7 columns, the first one presents the topics, 8 in total. The second column shows the “reference articles”, represented by their PubMed-ID and organized by topic. The third column shows the Fleiss’ Kappa results. The fourth column shows the interpretation of the Fleiss' Kappa results being: i) “Poor” results <0.20, ii) “Fair” results within 0.21 - 0.40, and iii) “Moderate” results within 0.41 - 0.60. The fifth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Relevant” regarding its corresponding “reference article”. The sixth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Partially relevant” regarding its corresponding “reference article”. The seventh column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Non-relevant” regarding its corresponding “reference article”
 - Keywords: Fleiss' Kappa, Inter-annoator agreement, TREC Genomics Track 2005, relevance assessment
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://zenodo.org/record/7338056" target="_blank">https://zenodo.org/record/7338056</a>
 
 - Datepublished: 2022-11-19
@@ -129,7 +129,7 @@ document relevance, doc2doc relevance
 - Cite as: Giraldo O, Solanki D, Cadena F, Robayo-Gama A, Rebholz-Schuhmann D, Castro LJ. Document-to-document relevant assessment for TREC Genomics Track 2005. Zenodo; 2022. doi:10.5281/zenodo.7324822
 - Description: A CSV table with document-to-document relevance assessment judgements on a subset of the TREC Genomics Track 2005 produced by four annotators. The 'raw data document evaluation' contains six columns, first row consecutive id, second original TREC topic, third PubMed Id used as reference document, fourth PMID used to evaluate the relevance wrt the reference document, fifth the relevance score (2 definitely relevant, 1 partially relevant, 0 non-relevant), and sixth annotator id
 - Keywords: Document-to-document relevance, TREC GEnomics Track 2005, relevance assessment
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://zenodo.org/record/7324822" target="_blank">https://zenodo.org/record/7324822</a>
 
 - Datepublished: 2022-11-15
@@ -138,7 +138,7 @@ document relevance, doc2doc relevance
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@id": "https://w3id.org/zbmed-semtec/projects/2022_TREC_doc2doc",
   "@type": "ResearchProject",
   "name": "TREC document-to-document relevance assessment",
@@ -262,7 +262,7 @@ document relevance, doc2doc relevance
       "datePublished": "2023-06-22",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -285,7 +285,7 @@ document relevance, doc2doc relevance
           "@id": "https://orcid.org/0000-0002-8725-1317"
         },
         {
-          "@id": "http://orcid.org/0000-0002-2910-7982"
+          "@id": "https://orcid.org/0000-0002-2910-7982"
         },
         {
           "@id": "https://orcid.org/0009-0004-4484-6283"
@@ -314,7 +314,7 @@ document relevance, doc2doc relevance
       "datePublished": "2022-11-21",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/MIT.html",
+        "@id": "http://spdx.org/licenses/MIT",
         "name": "MIT License",
         "url": "https://opensource.org/license/mit/"
       },
@@ -323,7 +323,7 @@ document relevance, doc2doc relevance
           "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"
         },
         {
-          "@id": "http://orcid.org/0000-0002-2910-7982"
+          "@id": "https://orcid.org/0000-0002-2910-7982"
         },
         {
           "@id": "https://orcid.org/0000-0002-8725-1317"
@@ -354,7 +354,7 @@ document relevance, doc2doc relevance
       },
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/MIT.html",
+        "@id": "http://spdx.org/licenses/MIT",
         "name": "MIT License",
         "url": "https://opensource.org/license/mit/"
       },
@@ -363,7 +363,7 @@ document relevance, doc2doc relevance
           "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"
         },
         {
-          "@id": "http://orcid.org/0000-0002-2910-7982"
+          "@id": "https://orcid.org/0000-0002-2910-7982"
         },
         {
           "@id": "https://orcid.org/0000-0002-8725-1317"
@@ -393,7 +393,7 @@ document relevance, doc2doc relevance
       "keywords": "Fleiss' Kappa, Inter-annoator agreement, TREC Genomics Track 2005, relevance assessment",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -426,7 +426,7 @@ document relevance, doc2doc relevance
       "keywords": "Document-to-document relevance, TREC GEnomics Track 2005, relevance assessment",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"

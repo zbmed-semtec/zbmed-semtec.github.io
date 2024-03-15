@@ -21,7 +21,7 @@
       "datePublished": "2023-04-17",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International", 
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"

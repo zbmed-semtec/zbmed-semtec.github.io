@@ -21,7 +21,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0000-0002-7672-9186",
   "familyName": "Chopra",
@@ -31,7 +31,7 @@
 </script>
 
 ### Lukas Geist
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/geist_0000-0002-2910-7982.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="http://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/geist_0000-0002-2910-7982.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -51,9 +51,9 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
-  "@id": "http://orcid.org/0000-0002-2910-7982",
+  "@id": "https://orcid.org/0000-0002-2910-7982",
   "familyName": "Geist",
   "givenName": "Lukas",
   "jobTitle": "Student assistant"
@@ -61,7 +61,7 @@
 </script>
 
 ### Endri Gupta
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/gupta_0009-0005-4756-6268.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="http://orcid.org/0009-0005-4756-6268" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/gupta_0009-0005-4756-6268.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0005-4756-6268" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -81,9 +81,9 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
-  "@id": "http://orcid.org/0009-0005-4756-6268",
+  "@id": "https://orcid.org/0009-0005-4756-6268",
   "familyName": "Gupta",
   "givenName": "Endri",
   "jobTitle": "Student assistant"
@@ -111,7 +111,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0009-0000-9203-2437",
   "familyName": "Jahanshahi",
@@ -141,7 +141,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0000-0002-5037-0443",
   "familyName": "Quiñones",
@@ -171,7 +171,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0009-0004-4484-6283",
   "familyName": "Ravinder",
@@ -201,7 +201,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0009-0004-1529-0095",
   "familyName": "Solanki",
@@ -231,7 +231,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0000-0002-1018-0370",
   "familyName": "Rebholz-Schuhmann",
@@ -261,7 +261,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0000-0003-3986-0510",
   "familyName": "Castro",

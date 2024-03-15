@@ -125,7 +125,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@type": "DefinedTermSet",
   "@id": "https://doi.org/10.5281/zenodo.10582121",
   "identifier": "DOI:10.5281/zenodo.10582121",
@@ -300,7 +300,7 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@type": "DefinedTermSet",
   "@id": "https://doi.org/10.5281/zenodo.7806638",
   "identifier": "DOI:10.5281/zenodo.7806638",

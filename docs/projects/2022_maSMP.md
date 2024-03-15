@@ -76,7 +76,7 @@ ongoing, machine-actionability, software management plans, research software, co
 - Cite as: Castro LJ, Giraldo O, Geist L, Quiñones N, Solanki D, Rebholz-Schuhmann D. Metadata model for machine-actionable Software Management Plans [Software source code and vocabulary]. GitHub; 2024.
 - URL: <a href="https://github.com/zbmed-semtec/maSMPs#" target="_blank">https://github.com/zbmed-semtec/maSMPs#</a>
 
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - Authors: <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-5037-0443" target="_blank">https://orcid.org/0000-0002-5037-0443</a>. <a href="https://orcid.org/0009-0004-1529-0095" target="_blank">https://orcid.org/0009-0004-1529-0095</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. 
 #### machine-actionable Software Management Plan Ontology (maSMP Ontology)
 
@@ -86,7 +86,7 @@ ongoing, machine-actionability, software management plans, research software, co
 - Cite as: Castro LJ, Giraldo O, Geist L, Quiñones N, Solanki D, Rebholz-Schuhmann D. Usage guidance (aka profiles) for the machine-actionable Software Management Plan Ontology. Zenodo; 2024. doi:10.5281/zenodo.10582121
 - Datepublished: 2024-01-29
 - Version: 2.1.0
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://zenodo.org/records/10582073" target="_blank">https://zenodo.org/records/10582073</a>
 
 - Authors: <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-5037-0443" target="_blank">https://orcid.org/0000-0002-5037-0443</a>. <a href="https://orcid.org/0009-0004-1529-0095" target="_blank">https://orcid.org/0009-0004-1529-0095</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. 
@@ -98,7 +98,7 @@ ongoing, machine-actionability, software management plans, research software, co
 - Cite as: Castro LJ, Giraldo O, Geist L, Quiñones N, Solanki D, Rebholz-Schuhmann D. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2024. doi:10.5281/zenodo.10582073
 - Datepublished: 2024-01-29
 - Version: 2.1.1
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://zenodo.org/records/10582121" target="_blank">https://zenodo.org/records/10582121</a>
 
 - Authors: <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-5037-0443" target="_blank">https://orcid.org/0000-0002-5037-0443</a>. <a href="https://orcid.org/0009-0004-1529-0095" target="_blank">https://orcid.org/0009-0004-1529-0095</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. 
@@ -109,7 +109,7 @@ ongoing, machine-actionability, software management plans, research software, co
 - Cite as: Castro LJ, Geist L, Gonzalez E, Gonzalez-Ocanto M, Grossmann YV, Pronk T, et al. Five Minutes to Write a Software Management Plan – A Machine-actionable Approach to Simplify the Creation of SMPs. Zenodo; 2023. doi:10.5281/zenodo.10374839
 - Identifier: DOI:10.5281/zenodo.10374839
 - Datepublished: 2023-09-07
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://zenodo.org/records/10374839" target="_blank">https://zenodo.org/records/10374839</a>
 
 - Authors: <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0003-4112-6825" target="_blank">https://orcid.org/0000-0003-4112-6825</a>. <a href="https://orcid.org/0000-0001-5485-9724" target="_blank">https://orcid.org/0000-0001-5485-9724</a>. <a href="https://orcid.org/0000-0002-2880-8947" target="_blank">https://orcid.org/0000-0002-2880-8947</a>. <a href="https://orcid.org/0000-0001-9334-7190" target="_blank">https://orcid.org/0000-0001-9334-7190</a>. <a href="https://orcid.org/0009-0004-1529-0095" target="_blank">https://orcid.org/0009-0004-1529-0095</a>. <a href="https://orcid.org/0000-0002-9994-1462" target="_blank">https://orcid.org/0000-0002-9994-1462</a>. <a href="https://orcid.org/0000-0001-8958-4601" target="_blank">https://orcid.org/0000-0001-8958-4601</a>. <a href="https://orcid.org/0000-0003-1909-4353" target="_blank">https://orcid.org/0000-0003-1909-4353</a>. 
@@ -120,7 +120,7 @@ ongoing, machine-actionability, software management plans, research software, co
 - Identifier: DOI:10.52825/cordi.v1i.279
 - Cite as: Giraldo O, Dessi D, Dietze S, Rebholz-Schuhmann D, Castro LJ. Machine-Actionable Metadata for Software and Software Management Plans for NFDI. Proceedings of the Conference on Research Data Infrastructure. 2023. doi:10.52825/cordi.v1i.279
 - Datepublished: 2023-09-07
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://www.tib-op.org/ojs/index.php/CoRDI/article/view/279" target="_blank">https://www.tib-op.org/ojs/index.php/CoRDI/article/view/279</a>
 
 - Authors: <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://dblp.uni-trier.de/pid/204/9864.html" target="_blank">https://dblp.uni-trier.de/pid/204/9864.html</a>. <a href="https://orcid.org/0009-0001-4364-9243" target="_blank">https://orcid.org/0009-0001-4364-9243</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
@@ -131,7 +131,7 @@ ongoing, machine-actionability, software management plans, research software, co
 - Identifier: DOI:10.5281/zenodo.8349183
 - Cite as: Giraldo O, Dessi D, Dietze S, Rebholz-Schuhmann D, Castro LJ. Machine-Actionable Metadata for Software and Software Management Plans for NFDI - Presentation. 2023 Sep 15. doi:10.5281/zenodo.8349183
 - Datepublished: 2023-09-15
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://zenodo.org/records/8349183" target="_blank">https://zenodo.org/records/8349183</a>
 
 - Authors: <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://dblp.uni-trier.de/pid/204/9864.html" target="_blank">https://dblp.uni-trier.de/pid/204/9864.html</a>. <a href="https://orcid.org/0009-0001-4364-9243" target="_blank">https://orcid.org/0009-0001-4364-9243</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
@@ -142,7 +142,7 @@ ongoing, machine-actionability, software management plans, research software, co
 - Identifier: DOI:10.5281/zenodo.8087357
 - Cite as: Giraldo O, Cardoso J, Martin del Pico E, Gaignard A, Geist L, Grossmann YV, et al. Workshop machine-actionable Software Management Plans. Zenodo; 2023 Jun. doi:10.5281/zenodo.8087357
 - Datepublished: 2023-06-27
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://zenodo.org/records/8087357" target="_blank">https://zenodo.org/records/8087357</a>
 
 - Authors: <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0003-0057-8788" target="_blank">https://orcid.org/0000-0003-0057-8788</a>. <a href="https://orcid.org/0000-0001-8324-2897" target="_blank">https://orcid.org/0000-0001-8324-2897</a>. <a href="https://orcid.org/0000-0002-3597-8557" target="_blank">https://orcid.org/0000-0002-3597-8557</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-2880-8947" target="_blank">https://orcid.org/0000-0002-2880-8947</a>. <a href="https://orcid.org/0000-0002-0222-4273" target="_blank">https://orcid.org/0000-0002-0222-4273</a>. <a href="https://orcid.org/0000-0002-0893-8509" target="_blank">https://orcid.org/0000-0002-0893-8509</a>. <a href="https://orcid.org/0009-0004-1529-0095" target="_blank">https://orcid.org/0009-0004-1529-0095</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
@@ -153,7 +153,7 @@ ongoing, machine-actionability, software management plans, research software, co
 - Identifier: DOI:10.4126/FRL01-006444988
 - Cite as: Giraldo O, Geist L, Quiñones N, Solanki D, Alves R, Bampalikis D, et al. A metadata schema for machine-actionable Software Management Plans. PUBLISSO-FRL; 2023. doi:10.4126/FRL01-006444988
 - Datepublished: 2023-06-16
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://repository.publisso.de/resource/frl:6444988" target="_blank">https://repository.publisso.de/resource/frl:6444988</a>
 
 - Authors: <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-5037-0443" target="_blank">https://orcid.org/0000-0002-5037-0443</a>. <a href="https://orcid.org/0009-0004-1529-0095" target="_blank">https://orcid.org/0009-0004-1529-0095</a>. <a href="https://orcid.org/0000-0002-7212-0234" target="_blank">https://orcid.org/0000-0002-7212-0234</a>. <a href="https://orcid.org/0000-0002-2078-3079" target="_blank">https://orcid.org/0000-0002-2078-3079</a>. <a href="https://orcid.org/0000-0002-4806-5140" target="_blank">https://orcid.org/0000-0002-4806-5140</a>. <a href="https://orcid.org/0000-0001-8324-2897" target="_blank">https://orcid.org/0000-0001-8324-2897</a>. <a href="https://orcid.org/0000-0002-0222-4273" target="_blank">https://orcid.org/0000-0002-0222-4273</a>. <a href="https://orcid.org/0000-0002-3398-5462" target="_blank">https://orcid.org/0000-0002-3398-5462</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
@@ -164,7 +164,7 @@ ongoing, machine-actionability, software management plans, research software, co
 - Identifier: CEUR:Vol-3415/paper-31
 - Cite as: Giraldo O, Alves R, Bampalikis D, Fernández JM, Martin Del Pico E, Posomopoulos F, et al. A metadata analysis for machine-actionable Software Management Plans. CEUR; 2023. Available: https://ceur-ws.org/Vol-3415/paper-31.pdf
 - Datepublished: 2023-06-22
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://ceur-ws.org/Vol-3415/paper-31.pdf#" target="_blank">https://ceur-ws.org/Vol-3415/paper-31.pdf#</a>
 
 - Authors: <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-7212-0234" target="_blank">https://orcid.org/0000-0002-7212-0234</a>. <a href="https://orcid.org/0000-0002-2078-3079" target="_blank">https://orcid.org/0000-0002-2078-3079</a>. <a href="https://orcid.org/0000-0002-4806-5140" target="_blank">https://orcid.org/0000-0002-4806-5140</a>. <a href="https://orcid.org/0000-0001-8324-2897" target="_blank">https://orcid.org/0000-0001-8324-2897</a>. <a href="https://orcid.org/0000-0002-0222-4273" target="_blank">https://orcid.org/0000-0002-0222-4273</a>. <a href="https://orcid.org/0000-0002-5037-0443" target="_blank">https://orcid.org/0000-0002-5037-0443</a>. <a href="https://orcid.org/0009-0004-1529-0095" target="_blank">https://orcid.org/0009-0004-1529-0095</a>. <a href="https://orcid.org/0000-0002-3398-5462" target="_blank">https://orcid.org/0000-0002-3398-5462</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
@@ -175,7 +175,7 @@ ongoing, machine-actionability, software management plans, research software, co
 - Identifier: DOI:0.4126/FRL01-006440396
 - Cite as: Giraldo O, Alves R, Bampalikis D, Fernández González JM, Martin Del Pico E, Psomopoulos F, et al. A metadata analysis for machine-actionable Software Mng Plans - Poster. Poster presented at: SWAT4HCLS 2023; ZB MED - Informationszentrum Lebenswissenschaften; 2023. Available: https://repository.publisso.de/resource/frl:6440396
 - Datepublished: 2023-03-01
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://repository.publisso.de/resource/frl:6440396" target="_blank">https://repository.publisso.de/resource/frl:6440396</a>
 
 - Authors: <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-7212-0234" target="_blank">https://orcid.org/0000-0002-7212-0234</a>. <a href="https://orcid.org/0000-0002-2078-3079" target="_blank">https://orcid.org/0000-0002-2078-3079</a>. <a href="https://orcid.org/0000-0002-4806-5140" target="_blank">https://orcid.org/0000-0002-4806-5140</a>. <a href="https://orcid.org/0000-0001-8324-2897" target="_blank">https://orcid.org/0000-0001-8324-2897</a>. <a href="https://orcid.org/0000-0002-0222-4273" target="_blank">https://orcid.org/0000-0002-0222-4273</a>. <a href="https://orcid.org/0000-0002-5037-0443" target="_blank">https://orcid.org/0000-0002-5037-0443</a>. <a href="https://orcid.org/0009-0004-1529-0095" target="_blank">https://orcid.org/0009-0004-1529-0095</a>. <a href="https://orcid.org/0000-0002-3398-5462" target="_blank">https://orcid.org/0000-0002-3398-5462</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
@@ -186,7 +186,7 @@ ongoing, machine-actionability, software management plans, research software, co
 - Identifier: DOI:10.3897/rio.8.e94608
 - Cite as: Giraldo O, Alves R, Bampalikis D, Fernandez J, Pico EM del, Psomopoulos F, et al. A FAIRification roadmap for ELIXIR Software Management Plans. Research Ideas and Outcomes. Pensoft Publishers; 2022. p. e94608. doi:10.3897/rio.8.e94608
 - Datepublished: 2022-10-12
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://riojournal.com/article/94608/" target="_blank">https://riojournal.com/article/94608/</a>
 
 - Authors: <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-7212-0234" target="_blank">https://orcid.org/0000-0002-7212-0234</a>. <a href="https://orcid.org/0000-0002-2078-3079" target="_blank">https://orcid.org/0000-0002-2078-3079</a>. <a href="https://orcid.org/0000-0002-4806-5140" target="_blank">https://orcid.org/0000-0002-4806-5140</a>. <a href="https://orcid.org/0000-0001-8324-2897" target="_blank">https://orcid.org/0000-0001-8324-2897</a>. <a href="https://orcid.org/0000-0002-0222-4273" target="_blank">https://orcid.org/0000-0002-0222-4273</a>. <a href="https://orcid.org/0000-0002-3398-5462" target="_blank">https://orcid.org/0000-0002-3398-5462</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
@@ -197,7 +197,7 @@ ongoing, machine-actionability, software management plans, research software, co
 - Identifier: DOI:10.5281/zenodo.7249674
 - Cite as: Giraldo O, Alves R, Bampalikis D, Fernandez JM, Pico EM del, Psomopoulos FE, et al. A FAIRification roadmap for ELIXIR Software Management Plans - Poster. 2022 Oct 25. doi:10.5281/zenodo.7249674
 - Datepublished: 2022-10-25
-- License: <a href="https://spdx.org/licenses/CC-BY-4.0.html" target="_blank">https://spdx.org/licenses/CC-BY-4.0.html</a> 
+- License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - URL: <a href="https://zenodo.org/records/7249674" target="_blank">https://zenodo.org/records/7249674</a>
 
 - Authors: <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-7212-0234" target="_blank">https://orcid.org/0000-0002-7212-0234</a>. <a href="https://orcid.org/0000-0002-2078-3079" target="_blank">https://orcid.org/0000-0002-2078-3079</a>. <a href="https://orcid.org/0000-0002-4806-5140" target="_blank">https://orcid.org/0000-0002-4806-5140</a>. <a href="https://orcid.org/0000-0001-8324-2897" target="_blank">https://orcid.org/0000-0001-8324-2897</a>. <a href="https://orcid.org/0000-0002-0222-4273" target="_blank">https://orcid.org/0000-0002-0222-4273</a>. <a href="https://orcid.org/0000-0002-3398-5462" target="_blank">https://orcid.org/0000-0002-3398-5462</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
@@ -239,7 +239,7 @@ ongoing, machine-actionability, software management plans, research software, co
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@id": "https://w3id.org/zbmed-semtec/projects/2022_maSMP",
   "@type": "ResearchProject",
   "name": "Machine-actionable Software Management Plans",
@@ -347,7 +347,7 @@ ongoing, machine-actionability, software management plans, research software, co
       "url": "https://github.com/zbmed-semtec/maSMPs#",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -383,7 +383,7 @@ ongoing, machine-actionability, software management plans, research software, co
       "version": "2.1.0",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -420,7 +420,7 @@ ongoing, machine-actionability, software management plans, research software, co
       "version": "2.1.1",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -456,7 +456,7 @@ ongoing, machine-actionability, software management plans, research software, co
       "datePublished": "2023-09-07",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -505,7 +505,7 @@ ongoing, machine-actionability, software management plans, research software, co
       "datePublished": "2023-09-07",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -538,7 +538,7 @@ ongoing, machine-actionability, software management plans, research software, co
       "datePublished": "2023-09-15",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -571,7 +571,7 @@ ongoing, machine-actionability, software management plans, research software, co
       "datePublished": "2023-06-27",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -620,7 +620,7 @@ ongoing, machine-actionability, software management plans, research software, co
       "datePublished": "2023-06-16",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -675,7 +675,7 @@ ongoing, machine-actionability, software management plans, research software, co
       "datePublished": "2023-06-22",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -723,7 +723,7 @@ ongoing, machine-actionability, software management plans, research software, co
       "datePublished": "2023-03-01",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -772,7 +772,7 @@ ongoing, machine-actionability, software management plans, research software, co
       "datePublished": "2022-10-12",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -814,7 +814,7 @@ ongoing, machine-actionability, software management plans, research software, co
       "datePublished": "2022-10-25",
       "license": {
         "@type": "CreativeWork",
-        "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
         "name": "Creative Commons Attribution 4.0 International",
         "alternateName": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/"

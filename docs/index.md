@@ -16,15 +16,15 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
 <script type="application/ld+json">
 [
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
-    "@id": "http://orcid.org/0000-0002-2910-7982",
+    "@id": "https://orcid.org/0000-0002-2910-7982",
     "familyName": "Geist",
     "givenName": "Lukas",
     "jobTitle": "Student assistant"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://orcid.org/0000-0002-5037-0443",
     "familyName": "Qui\u00f1ones",
@@ -32,7 +32,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     "jobTitle": "Student assistant"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://orcid.org/0009-0004-4484-6283",
     "familyName": "Ravinder",
@@ -40,7 +40,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     "jobTitle": "Research Software Engineer and Data Scientist"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://orcid.org/0009-0004-1529-0095",
     "familyName": "Solanki",
@@ -48,7 +48,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     "jobTitle": "Student assistant"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://orcid.org/0000-0002-1018-0370",
     "familyName": "Rebholz-Schuhmann",
@@ -56,7 +56,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     "jobTitle": "Scientific Director"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://orcid.org/0000-0003-3986-0510",
     "familyName": "Castro",
@@ -64,7 +64,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     "jobTitle": "Team leader"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "DataCatalog",
     "@id": "https://doi.org/10.5281/zenodo.4903981",
     "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT",
@@ -111,7 +111,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     }
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "DataCatalog",
     "@id": "https://doi.org/10.5281/zenodo.5035290",
     "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT",
@@ -163,7 +163,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     }
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Dataset",
     "@id": "https://doi.org/10.5281/zenodo.7324822",
     "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT",
@@ -228,7 +228,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     }
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Dataset",
     "@id": "https://doi.org/10.5281/zenodo.7338056",
     "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT",
@@ -282,7 +282,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     }
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "DataCatalog",
     "@id": "https://doi.org/10.5281/zenodo.7793384",
     "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT",
@@ -332,84 +332,84 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     }
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama",
     "familyName": "Robayo-Gama",
     "givenName": "Andrea"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://zbmed-semtec.github.io/previous_members/#ashley-ritchie",
     "familyName": "Ritchie",
     "givenName": "Ashley"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://orcid.org/0000-0002-5915-8895",
     "familyName": "Cadena",
     "givenName": " Maria Fernanda"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://orcid.org/0000-0002-3082-7522",
     "familyName": "Dadi",
     "givenName": "Vishnu Vardhan"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://orcid.org/0000-0002-8725-1317",
     "familyName": "Fellerhoff",
     "givenName": "Tim"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://orcid.org/0000-0003-2978-8922",
     "familyName": "Giraldo",
     "givenName": "Olga"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://orcid.org/0009-0004-0369-5677",
     "familyName": "Lahoria",
     "givenName": "Honey"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
-    "@id": "http://orcid.org/0000-0002-0762-4305",
+    "@id": "https://orcid.org/0000-0002-0762-4305",
     "familyName": "Lazarov",
     "givenName": "Georgi"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha",
     "familyName": "Talha",
     "givenName": "Muhammad"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://orcid.org/0000-0002-4795-3648",
     "familyName": "Rocamora P\u00e9rez",
     "givenName": "Guillermo"
   },
   {
-    "@context": "https://schema.org",
+    "@context": "http://schema.org",
     "@type": "Person",
     "@id": "https://orcid.org/0000-0001-9345-8958",
     "familyName": "Wolff",
     "givenName": "Benjamin"
   },
   {
-    "@context": "https://schema.org/",
+    "@context": "http://schema.org/",
     "@id": "https://zbmed-semtec.github.io/projects/2028_STELLA",
     "@type": "ResearchProject",
     "name": "STELLA Living Labs",
@@ -592,7 +592,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     ]
   },
   {
-    "@context": "https://schema.org/",
+    "@context": "http://schema.org/",
     "@id": "https://zbmed-semtec.github.io/projects/2021_NFDI4DataScience",
     "@type": "ResearchProject",
     "name": "NFDI4DataScience",
@@ -632,7 +632,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     ]
   },
   {
-    "@context": "https://schema.org/",
+    "@context": "http://schema.org/",
     "@id": "https://zbmed-semtec.github.io/projects/2021_OntoClue",
     "@type": "ResearchProject",
     "name": "OntoClue",
@@ -807,7 +807,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     ]
   },
   {
-    "@context": "https://schema.org/",
+    "@context": "http://schema.org/",
     "@id": "https://zbmed-semtec.github.io/projects/2022_maSMP",
     "@type": "ResearchProject",
     "name": "Machine-actionable Software Management Plans",
@@ -999,7 +999,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     ]
   },
   {
-    "@context": "https://schema.org/",
+    "@context": "http://schema.org/",
     "@id": "https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc",
     "@type": "ResearchProject",
     "name": "TREC document-to-document relevance assessment",
@@ -1142,7 +1142,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     ]
   },
   {
-    "@context": "https://schema.org/",
+    "@context": "http://schema.org/",
     "@type": "SoftwareSourceCode",
     "@id": "https://github.com/zbmed-semtec/BioHackOutcomes",
     "name": "BioHackOutcomes",
@@ -1151,7 +1151,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     "author": [
       {
         "@type": "Person",
-        "@id": "http://orcid.org/0000-0002-0762-4305",
+        "@id": "https://orcid.org/0000-0002-0762-4305",
         "familyName": "Lazarov",
         "givenName": "Georgi"
       },
@@ -1162,7 +1162,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
         "givenName": "Leyla Jael"
       }
     ],
-    "license": "https://spdx.org/licenses/Apache-2.0.html",
+    "license": "http://spdx.org/licenses/Apache-2.0",
     "citation": [
       "Georgi L, Castro LJ. BioHackathon Outcomes GitHub Medatada. GitHub 2020. https://github.com/zbmed-semtec/BioHackOutcomes",
       "Castro LJ, Martin C, Lazarov G, Cernoskova D, Takatsuki T, Harrow J, and Rebholz-Schuhmann D. (2021, August 10). Measuring outcomes and impact from the BioHackathon Europe. https://doi.org/10.37044/osf.io/3dxhg"
@@ -1178,7 +1178,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     ]
   },
   {
-    "@context": "https://schema.org/",
+    "@context": "http://schema.org/",
     "@type": "SoftwareSourceCode",
     "@id": "https://github.com/zbmed-semtec/maSMPs",
     "name": "Metadata model for machine-actionable Software Management Plans",
@@ -1193,7 +1193,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
       },
       {
         "@type": "Person",
-        "@id": "http://orcid.org/0000-0002-2910-7982",
+        "@id": "https://orcid.org/0000-0002-2910-7982",
         "familyName": "Geist",
         "givenName": "Lukas"
       },
@@ -1222,7 +1222,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
         "givenName": "Leyla Jael"
       }
     ],
-    "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "license": "http://spdx.org/licenses/CC-BY-4.0",
     "citation": "Giraldo O, Geist L, Qui\u00f1ones N, Solanki D, Rebholz-Schuhmann D, Castro LJ. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2023. doi:10.5281/zenodo.8089518",
     "codeRepository": "https://github.com/zbmed-semtec/maSMPs",
     "programmingLanguage": [
@@ -1236,7 +1236,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     ]
   },
   {
-    "@context": "https://schema.org/",
+    "@context": "http://schema.org/",
     "@type": "SoftwareSourceCode",
     "@id": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
     "name": "Mowl-graph2doc2vec",
@@ -1280,7 +1280,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
         "givenName": "Leyla Jael"
       }
     ],
-    "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+    "license": "http://spdx.org/licenses/GPL-3.0-only",
     "codeRepository": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
     "programmingLanguage": [
       "JavaScript",
@@ -1293,7 +1293,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     ]
   },
   {
-    "@context": "https://schema.org/",
+    "@context": "http://schema.org/",
     "@type": "SoftwareSourceCode",
     "@id": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",
     "name": "Protein-function-embeddings-thesis",
@@ -1319,7 +1319,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
         "givenName": "Dietrich"
       }
     ],
-    "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+    "license": "http://spdx.org/licenses/GPL-3.0-only",
     "citation": [
       "Ravinder R, Castro LJ, and Rebholz-Schuhmann D. (2023). Protein Function Embeddings: First Beta Release of Datasets (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7793384",
       "Ravinder R, Castro LJ, and Rebholz-Schuhmann D. (2023). Protein Function Embeddings: First Beta Release (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7781870"
@@ -1335,7 +1335,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     ]
   },
   {
-    "@context": "https://schema.org/",
+    "@context": "http://schema.org/",
     "@type": "SoftwareSourceCode",
     "@id": "https://github.com/zbmed-semtec/topic-categorization-system",
     "name": "Topic-categorization-system",
@@ -1373,7 +1373,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
         "givenName": "Leyla Jael"
       }
     ],
-    "license": "https://spdx.org/licenses/GPL-3.0-only.html",
+    "license": "http://spdx.org/licenses/GPL-3.0-only",
     "citation": [
       "Qui\u00f1ones N, Canales C, Torres J, Rebholz-Schuhmann D, and Castro LJ. Topic categorization for Medline Abstracts. GitHub 2022. https://github.com/zbmed-semtec/topic-categorization-system",
       "Qui\u00f1ones N, Canales C, Torres J, Rebholz-Schuhmann D, Castro LJ, Aristizabal A. Multilabel-classification task for Medline abstracts - Poster. 2023. In: SWAT4HCLS 2023 poster archival. PUBLISSO. https://doi.org/10.4126/FRL01-006440395",
@@ -1389,7 +1389,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     ]
   },
   {
-    "@context": "https://schema.org/",
+    "@context": "http://schema.org/",
     "@type": "SoftwareSourceCode",
     "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
     "name": "TREC-doc-2-doc-relevance",
@@ -1404,7 +1404,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
       },
       {
         "@type": "Person",
-        "@id": "http://orcid.org/0000-0002-2910-7982",
+        "@id": "https://orcid.org/0000-0002-2910-7982",
         "familyName": "Geist",
         "givenName": "Lukas"
       },
@@ -1439,7 +1439,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
         "givenName": "Leyla Jael"
       }
     ],
-    "license": "https://spdx.org/licenses/MIT.html",
+    "license": "http://spdx.org/licenses/MIT",
     "citation": "Talha M, Geist L, Fellerhof T, Ravinder R, Giraldo O, Rebholz-Schuhmann D, and Castro LJ. (2022). TREC-doc-2-doc-relevance assessment interface (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7341391",
     "codeRepository": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
     "programmingLanguage": [
@@ -1453,7 +1453,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     ]
   },
   {
-    "@context": "https://schema.org/",
+    "@context": "http://schema.org/",
     "@type": "SoftwareSourceCode",
     "@id": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
     "name": "Zbmed-semtec.github.io",
@@ -1473,7 +1473,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
         "givenName": "Leyla Jael"
       }
     ],
-    "license": "https://spdx.org/licenses/MIT.html",
+    "license": "http://spdx.org/licenses/MIT",
     "codeRepository": "https://github.com/zbmed-semtec/zbmed-semtec.github.io",
     "programmingLanguage": [
       "Python",
@@ -1487,7 +1487,7 @@ If you are a bachelor student interested in doing their Praxisprojekt with us, f
     ]
   },
   {
-    "@context": "https://schema.org/",
+    "@context": "http://schema.org/",
     "@type": "DefinedTermSet",
     "@id": "https://doi.org/10.5281/zenodo.8089518",
     "name": "maSMP Ontology",

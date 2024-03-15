@@ -1,5 +1,5 @@
 { 
-  "@context": "https://schema.org/",
+  "@context": "http://schema.org/",
   "@type": "SoftwareSourceCode",
   "@id": "https://github.com/zbmed-semtec/maSMPs",
 
@@ -16,7 +16,7 @@
     },    
     {
         "@type": "Person",
-        "@id": "http://orcid.org/0000-0002-2910-7982",
+        "@id": "https://orcid.org/0000-0002-2910-7982",
         "familyName": "Geist", 
         "givenName": "Lukas"
     },
@@ -47,7 +47,7 @@
   ],
   "license": {
     "@type": "CreativeWork",
-    "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "@id": "http://spdx.org/licenses/CC-BY-4.0",
     "name": "Creative Commons Attribution 4.0 International", 
     "alternateName": "CC BY 4.0",
     "url": "https://creativecommons.org/licenses/by/4.0/"
