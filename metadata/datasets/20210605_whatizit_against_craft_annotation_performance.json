@@ -1,0 +1,51 @@
+{ 
+  "@context": "http://schema.org", 
+  "@type": "DataCatalog",
+  "@id": "https://doi.org/10.5281/zenodo.4903981",
+  "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT", 
+
+  "identifier": "DOI:10.5281/zenodo.4903981",
+  "name": "Whatizit performance evaluation against CRAFT corpus",
+  "description": "Whatizit performance evaluation against CRAFT corpus wrt Gene Ontology annotations",
+  "keywords":  [
+    "Whatizit", "Semantic annotation", "CRAFT", "manual annotation", "performance"
+  ], 
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "http://spdx.org/licenses/CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International", 
+    "alternateName": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "url": "https://zenodo.org/record/4903981",
+  
+  "about": "Performance assessment",
+  "datePublished": "2021-06-05", 
+  "encodingFormat": "text/csv",
+  "isAccessibleForFree": true,
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0762-4305",
+      "familyName": "Georgi", 
+      "givenName": "Lazarov"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "familyName": "Rebholz-Schuhmann", 
+      "givenName": "Dietrich"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "familyName": "Castro", 
+      "givenName": "Leyla Jael"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://zenodo.org/",
+    "name": "Zenodo"
+  }
+}
