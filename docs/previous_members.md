@@ -1,55 +1,5 @@
 # Previous_members metadata
 
-### Andrea Robayo-Gama
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/previous_members/andrea-robayo-gama.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
-<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
-<tbody>
-<tr>
-<td>familyName</td>
-<td>Robayo-Gama</td>
-</tr>
-<tr>
-<td>givenName</td>
-<td>Andrea</td>
-</tr>
-</tbody>
-</table>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Person",
-  "@id": "https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama",
-  "familyName": "Robayo-Gama",
-  "givenName": "Andrea"
-}
-</script>
-
-### Ashley Ritchie
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/previous_members/ashley-ritchie.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://zbmed-semtec.github.io/previous_members/#ashley-ritchie" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
-<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
-<tbody>
-<tr>
-<td>familyName</td>
-<td>Ritchie</td>
-</tr>
-<tr>
-<td>givenName</td>
-<td>Ashley</td>
-</tr>
-</tbody>
-</table>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Person",
-  "@id": "https://zbmed-semtec.github.io/previous_members/#ashley-ritchie",
-  "familyName": "Ritchie",
-  "givenName": "Ashley"
-}
-</script>
-
 ###  Maria Fernanda Cadena
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/previous_members/cadena_0000-0002-5915-8895.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-5915-8895" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
@@ -72,6 +22,31 @@
   "@id": "https://orcid.org/0000-0002-5915-8895",
   "familyName": "Cadena",
   "givenName": " Maria Fernanda"
+}
+</script>
+
+### Muskaan Chopra
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/previous_members/chopra_0000-0002-7672-9186.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-7672-9186" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
+<tbody>
+<tr>
+<td>familyName</td>
+<td>Chopra</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Muskaan</td>
+</tr>
+</tbody>
+</table>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0002-7672-9186",
+  "familyName": "Chopra",
+  "givenName": "Muskaan"
 }
 </script>
 
@@ -150,6 +125,56 @@
 }
 </script>
 
+### Endri Gupta
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/gupta_0009-0005-4756-6268.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0005-4756-6268" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
+<tbody>
+<tr>
+<td>familyName</td>
+<td>Gupta</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>endri</td>
+</tr>
+</tbody>
+</table>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0009-0005-4756-6268",
+  "familyName": "Gupta",
+  "givenName": "Endri"
+}
+</script>
+
+### Soudeh Jahanshahi
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/jahanshahi_0009-0000-9203-2437.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0000-9203-2437" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
+<tbody>
+<tr>
+<td>familyName</td>
+<td>Jahanshahi</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Soudeh</td>
+</tr>
+</tbody>
+</table>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0009-0000-9203-2437",
+  "familyName": "Jahanshahi",
+  "givenName": "Soudeh"
+}
+</script>
+
 ### Honey Lahoria
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/previous_members/lahoria_0009-0004-0369-5677.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0004-0369-5677" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
@@ -212,10 +237,6 @@
 <td>givenName</td>
 <td>Sarker Sunzid</td>
 </tr>
-<tr>
-<td>jobTitle</td>
-<td>Student assistant</td>
-</tr>
 </tbody>
 </table>
 
@@ -225,33 +246,57 @@
   "@type": "Person",
   "@id": "https://orcid.org/0000-0002-7672-9186",
   "familyName": "Mahmud",
-  "givenName": "Sarker Sunzid",
-  "jobTitle": "Student assistant"
+  "givenName": "Sarker Sunzid"
 }
 </script>
 
-### Muhammad Talha
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/previous_members/muhammad-talha.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://zbmed-semtec.github.io/previous_members/#muhammad-talha" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+### Ashley Ritchie
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/previous_members/ritchie-ashley.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://www.linkedin.com/in/ashleynritchie#id" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
 <td>familyName</td>
-<td>Talha</td>
+<td>Ritchie</td>
 </tr>
 <tr>
 <td>givenName</td>
-<td>Muhammad</td>
+<td>Ashley</td>
 </tr>
 </tbody>
 </table>
 
 <script type="application/ld+json">
-{
+{ 
   "@context": "http://schema.org",
   "@type": "Person",
-  "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha",
-  "familyName": "Talha",
-  "givenName": "Muhammad"
+  "@id": "https://www.linkedin.com/in/ashleynritchie#id",
+  "familyName": "Ritchie", 
+  "givenName": "Ashley"
+}
+</script>
+
+### Andrea Robayo-Gama
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/previous_members/robayo-gama-andrea.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://www.linkedin.com/in/andrea-robayo-gama-12713b160#id" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
+<tbody>
+<tr>
+<td>familyName</td>
+<td>Robayo-Gama</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Andrea</td>
+</tr>
+</tbody>
+</table>
+
+<script type="application/ld+json">
+{ 
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "@id": "https://www.linkedin.com/in/andrea-robayo-gama-12713b160#id",
+  "familyName": "Robayo-Gama", 
+  "givenName": "Andrea"
 }
 </script>
 
@@ -275,8 +320,33 @@
   "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0000-0002-4795-3648",
-  "familyName": "Rocamora P\u00e9rez",
+  "familyName": "Rocamora Perez",
   "givenName": "Guillermo"
+}
+</script>
+
+### Muhammad Talha
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/previous_members/talha-muhammad.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://www.linkedin.com/in/muhammad-talha-90a835119#id" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
+<tbody>
+<tr>
+<td>familyName</td>
+<td>Talha</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Muhammad</td>
+</tr>
+</tbody>
+</table>
+
+<script type="application/ld+json">
+{ 
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "@id": "https://www.linkedin.com/in/muhammad-talha-90a835119#id",
+  "familyName": "Talha", 
+  "givenName": "Muhammad"
 }
 </script>
 

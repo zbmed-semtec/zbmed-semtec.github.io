@@ -1,35 +1,5 @@
 # Current_members metadata
 
-### Muskaan Chopra
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/chopra_0000-0002-7672-9186.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-7672-9186" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
-<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
-<tbody>
-<tr>
-<td>familyName</td>
-<td>Chopra</td>
-</tr>
-<tr>
-<td>givenName</td>
-<td>Muskaan</td>
-</tr>
-<tr>
-<td>jobTitle</td>
-<td>Student assistant</td>
-</tr>
-</tbody>
-</table>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Person",
-  "@id": "https://orcid.org/0000-0002-7672-9186",
-  "familyName": "Chopra",
-  "givenName": "Muskaan",
-  "jobTitle": "Student assistant"
-}
-</script>
-
 ### Lukas Geist
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/geist_0000-0002-2910-7982.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-2910-7982" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
@@ -44,7 +14,7 @@
 </tr>
 <tr>
 <td>jobTitle</td>
-<td>Student assistant</td>
+<td>Research Software Engineer</td>
 </tr>
 </tbody>
 </table>
@@ -56,67 +26,7 @@
   "@id": "https://orcid.org/0000-0002-2910-7982",
   "familyName": "Geist",
   "givenName": "Lukas",
-  "jobTitle": "Student assistant"
-}
-</script>
-
-### Endri Gupta
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/gupta_0009-0005-4756-6268.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0005-4756-6268" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
-<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
-<tbody>
-<tr>
-<td>familyName</td>
-<td>Gupta</td>
-</tr>
-<tr>
-<td>givenName</td>
-<td>endri</td>
-</tr>
-<tr>
-<td>jobTitle</td>
-<td>Student assistant</td>
-</tr>
-</tbody>
-</table>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Person",
-  "@id": "https://orcid.org/0009-0005-4756-6268",
-  "familyName": "Gupta",
-  "givenName": "Endri",
-  "jobTitle": "Student assistant"
-}
-</script>
-
-### Soudeh Jahanshahi
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/jahanshahi_0009-0000-9203-2437.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0000-9203-2437" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
-<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
-<tbody>
-<tr>
-<td>familyName</td>
-<td>Jahanshahi</td>
-</tr>
-<tr>
-<td>givenName</td>
-<td>Soudeh</td>
-</tr>
-<tr>
-<td>jobTitle</td>
-<td>Student assistant</td>
-</tr>
-</tbody>
-</table>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Person",
-  "@id": "https://orcid.org/0009-0000-9203-2437",
-  "familyName": "Jahanshahi",
-  "givenName": "Soudeh",
-  "jobTitle": "Student assistant"
+  "jobTitle": "Research Software Engineer"
 }
 </script>
 
@@ -194,7 +104,7 @@
 </tr>
 <tr>
 <td>jobTitle</td>
-<td>Student assistant</td>
+<td>Data Scientist</td>
 </tr>
 </tbody>
 </table>
@@ -206,7 +116,37 @@
   "@id": "https://orcid.org/0009-0004-1529-0095",
   "familyName": "Solanki",
   "givenName": "Dhwani",
-  "jobTitle": "Student assistant"
+  "jobTitle": "Data Scientist"
+}
+</script>
+
+### Suhasini Venkatesh
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/venkatesh.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://www.linkedin.com/in/suhasini-venkatesh-5b1159121#id" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
+<tbody>
+<tr>
+<td>familyName</td>
+<td>Venkatesh</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Suhasini</td>
+</tr>
+<tr>
+<td>jobTitle</td>
+<td>Research Software Engineer</td>
+</tr>
+</tbody>
+</table>
+
+<script type="application/ld+json">
+{ 
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "@id": "https://www.linkedin.com/in/suhasini-venkatesh-5b1159121#id",
+  "familyName": "Venkatesh", 
+  "givenName": "Suhasini",
+  "jobTitle": "Research Software Engineer"
 }
 </script>
 
