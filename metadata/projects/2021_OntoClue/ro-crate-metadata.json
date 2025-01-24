@@ -1,0 +1,278 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+      {
+        "@id": "ro-crate-metadata.json",
+        "@type": "CreativeWork",
+        "conformsTo": {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        "about": {
+          "@id": "./"
+        }
+      },
+      {
+        "@id": "./",
+        "@type": ["Dataset"],
+        "name": "RO-crate for the research project 'OntoClue'",
+        "description": "This RO-crate describes the research project 'OntoClue' including metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprenhensive view of the research outcomes.",
+        "datePublished": "2023-11-02",
+        "license": {
+          "@type": "CreativeWork",
+          "@id": "http://spdx.org/licenses/CC-BY-4.0",
+          "name": "Creative Commons Attribution 4.0 International", 
+          "alternateName": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "keywords": [
+            "machine-actionalibity", "software management plans", "rsearch software", "controlled vocabulary", "metadata schema", "ongoing", "SMP"
+        ], 
+        "about": { "@id": "https://zbmed-semtec.github.io/projects/2021_OntoClue/"},
+        "hasPart": [
+          { "@id": "https://doi.org/10.4126/FRL01-006440397" },
+          { "@id": "https://ceur-ws.org/Vol-3415/paper-38.pdf" },
+          { "@id": "https://ceur-ws.org/Vol-2918/short3.pdf" },
+          { "@id": "https://doi.org/10.5281/zenodo.5035290" },
+          { "@id": "https://doi.org/10.5281/zenodo.4903981" }
+        ]
+      },
+      {
+        "@id": "https://zbmed-semtec.github.io/projects/2021_OntoClue",
+        "@type": "ResearchProject",
+        "department": {
+          "@id": "https://zbmed-semtec.github.io/"
+        },
+        "description": "OntoClue aims to provide a framework to optimize and compare document-similarity and doc2doc-relevance approaches based on word-embeddings and document-embeddings. Using the [RELISH dataset](https://figshare.com/projects/RELISH-DB/60095), each approach creates document-embeddings and calculates the Cosine Similarity. An optimizer finds the best hyperparameter combination that naturally (i.e., with no further tuning or training) resembles better the three document relevance assessments cominf from RELISH. The approaches are compared using Precision (P@N) and Normalized Discounted Cumulative Gain (NDCG@N). [TREC 2005 Genomics Track data](https://trec.nist.gov/data/t14_genomics.html) has also been analyzed using a repurposed version that transforms document-to-topic relevance into document-to-document relevance. The main focus of this project relies on RELISH.",
+        "foundingDate": "2021-01-01",
+        "employee": [
+          {
+            "@id": "https://orcid.org/0000-0002-2910-7982"
+          },
+          {
+            "@id": "https://orcid.org/0000-0002-5037-0443"
+          },
+          {
+            "@id": "https://orcid.org/0009-0004-4484-6283"
+          },
+          {
+            "@id": "https://orcid.org/0000-0002-1018-0370"
+          },
+          {
+            "@id": "https://orcid.org/0000-0003-3986-0510"
+          }
+        ],
+        "alumni": [
+          {
+            "@id": "https://orcid.org/0000-0002-3082-7522"
+          },
+          {
+            "@id": "https://orcid.org/0000-0002-8725-1317"
+          },
+          {
+            "@id": "https://orcid.org/0000-0002-0762-4305"
+          },
+          {
+            "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"
+          },
+          {
+            "@id": "https://orcid.org/0000-0002-4795-3648"
+          },
+          {
+            "@id": "https://orcid.org/0000-0001-9345-8958"
+          }
+        ],
+        "name": "OntoClue",
+        "funding": [
+          {
+            "@id": "https://ror.org/018mejw64"
+          },
+          {
+            "@id": "https://gepris.dfg.de/gepris/projekt/460234259"
+          },
+          {
+            "@id": "https://gepris.dfg.de/gepris/projekt/407518790"
+          }
+      ],
+        "keywords": "word-embeddings, document-embeddings, ontology-embeddings, document similarity, document relevance, doc2doc relevance, ontology enrichment",
+        "parentOrganization": [
+          {
+            "@id": "https://ror.org/0259fwx54"
+          },
+          {
+            "@id": "https://gepris.dfg.de/gepris/projekt/460234259#project"
+          },
+          {
+            "@id": "https://gepris.dfg.de/gepris/projekt/407518790#project"
+          }
+        ],
+        "knowsAbout": [
+          { "@id": "https://doi.org/10.4126/FRL01-006440397" },
+          { "@id": "https://ceur-ws.org/Vol-3415/paper-38.pdf" },
+          { "@id": "https://ceur-ws.org/Vol-2918/short3.pdf" },
+          { "@id": "https://doi.org/10.5281/zenodo.5035290" },
+          { "@id": "https://doi.org/10.5281/zenodo.4903981" }
+        ]
+      },
+      {
+          "@type": "ScholarlyArticle",
+          "@id": "https://doi.org/10.4126/FRL01-006440397",
+          "conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+          "identifier": "DOI:10.4126/FRL01-006440397",
+          "name": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus",
+          "license": {
+            "@type": "CreativeWork",
+            "@id": "http://spdx.org/licenses/CC-BY-4.0",
+            "name": "Creative Commons Attribution 4.0 International", 
+            "alternateName": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          },
+          "datePublished": "2023-06-22"
+        },
+        {
+          "@type": "Poster",
+          "@id": "https://ceur-ws.org/Vol-3415/paper-38.pdf",
+          "name": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster",
+          "identifier": "CEUR:Vol-3415/paper-38",
+          "datePublished": "2023-03-01"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "@id": "https://ceur-ws.org/Vol-2918/short3.pdf",
+          "conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+          "identifier": "CEUR:Vol-2918/short3",
+          "name": "Ontology Clustering with OWL2Vec*",
+          "datePublished": "2021-07-28"
+        },
+        {
+          "@type": "DataCatalog",
+          "@id": "https://doi.org/10.5281/zenodo.5035290",
+          "name": "Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool",
+          "identifier": "DOI:10.5281/zenodo.5035290",
+          "datePublished": "2021-06-27"
+        },
+        {
+          "@type": "DataCatalog",
+          "@id": "https://doi.org/10.5281/zenodo.4903981",
+          "name": "Whatizit performance evaluation against CRAFT corpus",
+          "identifier": "DOI:10.5281/zenodo.4903981",
+          "datePublished": "2021-06-05"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2910-7982",
+          "@type": "Person",
+          "givenName": "Lukas",
+          "familyName": "Geist"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5037-0443",
+          "@type": "Person",
+          "givenName": "Nelson",
+          "familyName": "Quiñones"
+        },
+        {
+          "@id": "https://orcid.org/0009-0004-4484-6283",
+          "@type": "Person",
+          "givenName": "Rohitha",
+          "familyName": "Ravinder"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1018-0370",
+          "@type": "Person",
+          "givenName": "Dietrich",
+          "familyName": "Rebholz-Schuhmann"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510",
+          "@type": "Person",
+          "givenName": "Leyla Jael",
+          "familyName": "Castro"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3082-7522",
+          "@type": "Person",
+          "givenName": "Dadi",
+          "familyName": "Vishnu Vardhan"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-8725-1317",
+          "@type": "Person",
+          "givenName": "Tim",
+          "familyName": "Fellerhoff"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-0762-4305",
+          "@type": "Person",
+          "givenName": "Georgi",
+          "familyName": "Lazarov"
+        },
+        {
+          "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha",
+          "@type": "Person",
+          "givenName": "Muhammad",
+          "familyName": "Talha"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-4795-3648",
+          "@type": "Person",
+          "givenName": "Guilermo",
+          "familyName": "Rocamora Perez"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-9345-8958",
+          "@type": "Person",
+          "givenName": "Benjamin",
+          "familyName": "Wolff"
+        },
+        {
+          "@id": "https://gepris.dfg.de/gepris/projekt/460234259#project",
+          "@type": "Consortium",
+          "name": "NFDI4DataScience"
+        },
+        {
+          "@id": "https://gepris.dfg.de/gepris/projekt/407518790#project",
+          "@type": "ResearchProject",
+          "name": "STELLA Living Labs Project"
+        },
+        {
+          "@id": "https://gepris.dfg.de/gepris/projekt/460234259",
+          "@type": "Grant",
+          "description": "Project no. 460234259 (corresponding to the NFDI4DataScience consortium)",
+          "funder": {
+            "@id": "https://ror.org/018mejw64" 
+          },
+          "identifier": "460234259"
+        },
+        {
+          "@id": "https://gepris.dfg.de/gepris/projekt/407518790",
+          "@type": "Grant",
+          "description": "Project no. 407518790 (corresponding to the STELLA project)",
+          "funder": {
+            "@id": "https://ror.org/018mejw64" 
+          },
+          "identifier": "407518790"
+        },
+        {
+          "@id": "https://ror.org/018mejw64",
+          "@type": "Organization",
+          "alternateName": "German Research Foundation",
+          "name": "Deutsche Forschungsgemeinschaft",
+          "url": {
+            "@id": "http://www.dfg.de/en/"
+          }
+        },
+        {
+          "@id": "https://ror.org/0259fwx54",
+          "@type": "ResearchOrganization",
+          "alternateName": "ZB MED Information Centre for Life Sciences",
+          "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+          "url": { 
+            "@id": "https://zbmed.de/"
+          }
+        },
+        {
+          "@id": "https://zbmed-semtec.github.io/",
+          "@type": "ResearchOrganization",
+          "name": "Semantic Technologies team at ZB MED"
+        }
+    ]
+}

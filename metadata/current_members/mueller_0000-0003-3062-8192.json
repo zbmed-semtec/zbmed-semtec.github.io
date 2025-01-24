@@ -1,0 +1,9 @@
+{ 
+  "@context": "http://schema.org",
+
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0003-3062-8192",
+  "familyName": "Mueller", 
+  "givenName": "Bernd",
+  "jobTitle": "Research Software Engineer"
+}

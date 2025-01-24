@@ -1,0 +1,192 @@
+{
+  "@context": "http://schema.org/",
+  "@id": "https://w3id.org/zbmed-semtec/theses/2023_Protein_function_embeddings",
+  "@type": "ResearchProject",
+  "name": "Protein function embeddings", 
+  "foundingDate": "2022-10-17",
+  "dissolutionDate": "2023-04-17",
+  "description": "This research project corresponds to a Master Thesis that encapsulates research focused on enhancing protein function annotations by leveraging protein function information through embeddings using two text-driven embedding techniques, Word2doc2Vec and Hybrid-Word2doc2Vec. This includes the metadata and a list, via hasPart of its outcomes even if thez are dependent on each other.",
+  "keywords": "Protein Function, Word2doc2Vec, Hybrid-Word2doc2Vec",
+  "url": "https://zbmed-semtec.github.io/theses/2023_Protein_function_embeddings",
+  "alumni": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-4484-6283",
+      "givenName": "Rohitha",
+      "familyName": "Ravinder"
+    }
+  ],
+  "department": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://www.b-it-center.de/b-it-programmes/msc-in-life-science-informatics/",
+      "name": "M.Sc. in Life Science Informatics",
+      "url": "https://www.b-it-center.de/b-it-programmes/msc-in-life-science-informatics/description"
+    },
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://w3id.org/zbmed-semtec",
+      "name": "Semantic Technologies team at ZB MED",
+      "url": "https://zbmed-semtec.github.io/"
+    }
+  ],
+  "parentOrganization": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://ror.org/0259fwx54",
+      "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften", 
+      "alternateName": "ZB MED Information Centre for Life Sciences", 
+      "url": "https://zbmed.de/"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://ror.org/041nas322",
+      "name": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+      "alternateName": "University of Bonn",
+      "url": "http://www3.uni-bonn.de/the-university"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://ror.org/054zhq066",
+      "name": "Bonn Aachen International Center for Information Technology",
+      "url": "http://www.b-it-center.de/"
+    }
+  ], 
+  "knowsAbout": [ 
+    {
+      "@type": "Thesis",
+      "@id": "https://doi.org/10.4126/FRL01-006472635",
+      "identifier": "DOI:10.4126/FRL01-006472635",
+      "alternativeHeadline": "Ravinder R. Comparative analysis of protein functiontext-based embeddings and its potential forprediction tasks. Master Thesis. 2023. doi:10.4126/FRL01-006472635",
+      "name": "Comparative analysis of protein function text-based embeddings and its potential for prediction tasks : master thesis",
+      "dateCreated": "2023-04-17",
+      "url": "https://repository.publisso.de/resource/frl:6472635",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": {"@id": "https://orcid.org/0009-0004-4484-6283"}
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis",
+      "citation": "Ravinder, R., Castro, LJ., & Rebholz-Schuhmann, D. (2023). Protein-function-embeddings-thesis [Software source code]. https://github.com/zbmed-semtec/protein_function_embeddings_thesis",
+      "datePublished": "2023-06-21",
+      "name": "Protein-function-embeddings-thesis",
+      "description": "This is the Software Source Code corresponding to the thesis along with its metadata.",
+      "url": "https://github.com/zbmed-semtec/protein-function-embeddings-thesis#",
+      "programmingLanguage": "Python",
+      "targetProduct": { "@id": "https://doi.org/10.5281/zenodo.7781869" },
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/GPL-3.0-only",
+        "name": "GPL-3.0-only", 
+        "url": "https://www.gnu.org/licenses/gpl-3.0-standalone.html"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"}
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://doi.org/10.5281/zenodo.7781869",
+      "identifier": "DOI:10.5281/zenodo.7781869",
+      "citation": "Ravinder, R., Castro, LJ., & Rebholz-Schuhmann, D. (2023). Protein Function Embeddings: First Beta Release (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.7781870",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
+      "name": "Protein Function Embeddings: First Beta Release",
+      "description": "This is the Software release of the source code corresponding to the thesis along with its metadata.",
+      "url": "https://zenodo.org/records/7781870",
+      "softwareVersion": "v1.0.1",
+      "datePublished": "2023-03-29",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/GPL-3.0-only",
+        "name": "GPL-3.0-only", 
+        "url": "https://www.gnu.org/licenses/gpl-3.0-standalone.html"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"}
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://doi.org/10.5281/zenodo.7793383",
+      "conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT", 
+      "identifier": "DOI:10.5281/zenodo.7793383",
+      "citation": "Ravinder, R., Castro, LJ., & Rebholz-Schuhmann, D. (2023). Protein Function Embeddings: First Beta Release of Datasets (v1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7793384",
+      "name": "Protein Function Embeddings: First Beta Release of Datasets",
+      "description": "This is the Dataset release corresponding to the thesis along with its metadata.",
+      "url": "https://zenodo.org/records/7793384",      
+      "version": "v1.0.0" ,
+      "datePublished": "2023-04-02",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"}
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://ceur-ws.org/Vol-3415/paper-21.pdf",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "CEUR:Vol-3415/paper-21",
+      "alternativeHeadline": "Ravinder, R., Castro, LJ., Hofmann-Apitius, M., & Rebholz-Schuhmann, D. (2023). Comparative analysis of protein function text-based embeddings and their applicability to prediction tasks. In Proceedings of the Semantic Web Applications and Tools for Healthcare and Life Sciences (SWAT4HCLS 2023) (pp. 124-125)",
+      "name": "Comparative analysis of protein function text-based embeddings and their applicability to prediction tasks",
+      "datePublished": "2023-06-22",
+      "url": "https://ceur-ws.org/Vol-3415/paper-21.pdf#",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},        
+        {"@id": "https://orcid.org/0000-0003-3986-0510"},
+        {"@id": "https://orcid.org/0000-0001-9012-6720"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"}
+      ]
+    }
+  ],
+  "member": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2978-8922",
+      "givenName": "Olga",
+      "familyName": "Giraldo"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "givenName": "Leyla Jael",
+      "familyName": "Castro"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9012-6720", 
+      "givenName": "Martin",
+      "familyName": "Hoffmann-Apitius"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "givenName": "Dietrich",
+      "familyName": "Rebholz-Schuhmann"
+    }
+  ]
+}

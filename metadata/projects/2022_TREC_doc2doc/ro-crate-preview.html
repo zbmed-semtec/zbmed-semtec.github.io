@@ -1,0 +1,693 @@
+
+
+<html>
+<head>
+
+
+<script type="application/ld+json"> 
+  {
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "RO-crate for the reearch project 'TREC Document-to-Document Relevance Assessment'",
+      "description": "This RO-crate describes the research project 'TREC Document-to-Document Relevance Assessment' including metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprenhensive view of the research outcomes.",
+      "datePublished": "2023-11-01",
+      "license": {
+        "@id": "http://spdx.org/licenses/CC-BY-4.0"
+      },
+      "keywords": [
+        "TREC",
+        "doc-2-doc",
+        "document relevance",
+        "doc2doc relevance"
+      ],
+      "about": {
+        "@id": "https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc/"
+      },
+      "hasPart": [
+        {
+          "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.7341391"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.7338056"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.7324822"
+        },
+        {
+          "@id": "https://ceur-ws.org/Vol-3415/paper-12.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+      "@type": "SoftwareSourceCode",
+      "dateCreated": "2022-02-22",
+      "name": "TREC-doc-2-doc-relevance",
+      "description": "This is the software source code facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track along with its metadata.",
+      "url": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance",
+      "citation": "Talha, M., Geist, L., Fellerhof, T., Ravinder, R., Giraldo, O., Rebholz-Schuhmann, D., & Castro, L. J. (2022). My Research Software (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.7341391",
+      "programmingLanguage": "Python",
+      "targetProduct": {
+        "@id": "https://doi.org/10.5281/zenodo.7341391"
+      }
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.7341391",
+      "@type": "SoftwareApplication",
+      "conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
+      "name": "TREC-doc-2-doc-relevance assessment interface",
+      "description": "The code, data and docs at this repo aim at facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track. A doc-2-doc relevance assessment takes one document as reference and assess a second document regarding its relevance to the reference one. This doc-2-doc collection will be used to evaluate the doc-2-doc recommendations approaches that we are working on.",
+      "url": "https://zenodo.org/records/7341391",
+      "citation": "Talha, M., Geist, L., Fellerhof, T., Ravinder, R., Giraldo, O., Rebholz-Schuhmann, D., & Castro, L. J. (2022). TREC-doc-2-doc-relevance assessment interface (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7341391",
+      "softwareVersion": "1.0.0",
+      "datePublished": "2022-11-21"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.7338056",
+      "@type": "Dataset",
+      "conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT",
+      "identifier": "DOI:10.5281/zenodo.7338056",
+      "name": "Fleiss kappa for doc-2-doc relevance assessment",
+      "description": "Fleiss' kappa measuring inter-annotator agreement on a document-to-document relevance assessment task. The table contains 7 columns, the first one presents the topics, 8 in total. The second column shows the “reference articles”, represented by their PubMed-ID and organized by topic. The third column shows the Fleiss’ Kappa results. The fourth column shows the interpretation of the Fleiss' Kappa results being: i) “Poor” results <0.20, ii) “Fair” results within 0.21 - 0.40, and iii) “Moderate” results within 0.41 - 0.60. The fifth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Relevant” regarding its corresponding “reference article”. The sixth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Partially relevant” regarding its corresponding “reference article”. The seventh column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Non-relevant” regarding its corresponding “reference article”",
+      "keywords": [
+        "Fleiss' Kappa",
+        "Inter-annoator agreement",
+        "TREC Genomics Track 2005",
+        "relevance assessment"
+      ],
+      "license": {
+        "@id": "http://spdx.org/licenses/CC-BY-4.0"
+      },
+      "url": "https://zenodo.org/record/7338056",
+      "citation": "Olga Giraldo, Dhwani Solanki, Dietrich Rebholz-Schuhmann, & Leyla Jael Castro. (2022). Fleiss kappa for doc-2-doc relevance assessment (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7338056",
+      "datePublished": "2022-11-19"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.7324822",
+      "@type": "Dataset",
+      "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/Dataset/1.1-DRAFT",
+      "identifier": "DOI:10.5281/zenodo.7324822",
+      "name": "Document-to-document relevant assessment for TREC Genomics Track 2005",
+      "description": "A CSV table with document-to-document relevance assessment judgements on a subset of the TREC Genomics Track 2005 produced by four annotators. The 'raw data document evaluation' contains six columns, first row consecutive id, second original TREC topic, third PubMed Id used as reference document, fourth PMID used to evaluate the relevance wrt the reference document, fifth the relevance score (2 definitely relevant, 1 partially relevant, 0 non-relevant), and sixth annotator id",
+      "keywords": [
+        "Document-to-document relevance",
+        "TREC GEnomics Track 2005",
+        "relevance assessment"
+      ],
+      "license": {
+        "@id": "http://spdx.org/licenses/CC-BY-4.0"
+      },
+      "url": "https://zenodo.org/record/7324822",
+      "citation": "Olga Giraldo, Dhwani Solanki, Fernanda Cadena, Andrea Robayo-Gama, Dietrich Rebholz-Schuhmann, & Leyla Jael Castro. (2022). Document-to-document relevant assessment for TREC Genomics Track 2005 (1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7324822",
+      "datePublished": "2022-11-15"
+    },
+    {
+      "@id": "https://ceur-ws.org/Vol-3415/paper-12.pdf",
+      "@type": "ScholarlyArticle",
+      "conformsTo": "https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT",
+      "identifier": "CEUR:Vol-3415/paper-12",
+      "name": "Document-to-document relevance assessment for TREC Genomics Track 2005",
+      "citation": "Giraldo, O. L., Cadena, M. F., Robayo-Gama, A., Solanki, D., Fellerhoff, T., Geist, L., Ravinder, R., Talha, M., Rebholz-Schuhmann, D., & Castro, L. J. (2023). Document-to-document relevance assessment for TREC Genomics Track 2005. In Proceedings of the Semantic Web Applications and Tools for Healthcare and Life Sciences (SWAT4HCLS 2023) (pp. 98-101).",
+      "datePublished": "2023-06-22"
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc",
+      "@type": "ResearchProject",
+      "alumni": [
+        {
+          "@id": "https://orcid.org/0000-0002-5915-8895"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-8725-1317"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2910-7982"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-2978-8922"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5037-0443"
+        },
+        {
+          "@id": "https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama"
+        },
+        {
+          "@id": "https://orcid.org/0009-0004-4484-6283"
+        },
+        {
+          "@id": "https://orcid.org/0009-0004-1529-0095"
+        },
+        {
+          "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1018-0370"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        }
+      ],
+      "department": {
+        "@id": "https://zbmed-semtec.github.io/"
+      },
+      "description": "[TREC 2005 Genomics Track data](https://trec.nist.gov/data/t14_genomics.html) provide document-to-topic relevance assessment. In this project we analyze a document-to-document relevance assessment for a subset of the TREC collection using manual annotation for the judgement. The inter-annotator agreement is evaluated with Fleiss' Kappa.",
+      "dissolutionDate": {
+        "@id": "entity-1"
+      },
+      "foundingDate": {
+        "@id": "entity-2"
+      },
+      "funding": {
+        "@id": "https://gepris.dfg.de/gepris/projekt/407518790"
+      },
+      "keywords": "document relevance, doc2doc relevance",
+      "name": "TREC document-to-document relevance assessment",
+      "parentOrganization": [
+        {
+          "@id": "https://ror.org/0259fwx54"
+        },
+        {
+          "@id": "https://gepris.dfg.de/gepris/projekt/407518790#project"
+        }
+      ],
+      "knowsAbout": [
+        {
+          "@id": "https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.7341391"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.7338056"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.7324822"
+        },
+        {
+          "@id": "https://ceur-ws.org/Vol-3415/paper-12.pdf"
+        }
+      ]
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5915-8895",
+      "@type": "Person",
+      "familyName": "Cadena",
+      "givenName": " Maria Fernanda"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8725-1317",
+      "@type": "Person",
+      "familyName": "Fellerhoff",
+      "givenName": "Tim"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2910-7982",
+      "@type": "Person",
+      "familyName": "Geist",
+      "givenName": "Lukas"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2978-8922",
+      "@type": "Person",
+      "familyName": "Giraldo",
+      "givenName": "Olga"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5037-0443",
+      "@type": "Person",
+      "familyName": "Quiñones",
+      "givenName": "Nelson"
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/previous_members/#andrea-robayo-gama",
+      "@type": "Person",
+      "familyName": "Robayo-Gama",
+      "givenName": "Andrea"
+    },
+    {
+      "@id": "https://orcid.org/0009-0004-4484-6283",
+      "@type": "Person",
+      "familyName": "Ravinder",
+      "givenName": "Rohitha"
+    },
+    {
+      "@id": "https://orcid.org/0009-0004-1529-0095",
+      "@type": "Person",
+      "familyName": "Solanki",
+      "givenName": "Dhwani"
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/previous_members/#muhammad-talha",
+      "@type": "Person",
+      "familyName": "Muhammad",
+      "givenName": "Talha"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "@type": "Person",
+      "familyName": "Rebholz-Schuhmann",
+      "givenName": "Dietrich"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "@type": "Person",
+      "familyName": "Castro",
+      "givenName": "Leyla Jael"
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/",
+      "@type": "ResearchOrganization",
+      "name": "Semantic Technologies team at ZB MED"
+    },
+    {
+      "@id": "https://gepris.dfg.de/gepris/projekt/407518790",
+      "@type": "Grant",
+      "description": "Project no. 407518790 (corresponding to the STELLA project)",
+      "funder": {
+        "@id": "https://ror.org/018mejw64"
+      },
+      "identifier": "407518790"
+    },
+    {
+      "@id": "https://ror.org/0259fwx54",
+      "@type": "ResearchOrganization",
+      "alternateName": "ZB MED Information Centre for Life Sciences",
+      "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+      "url": {
+        "@id": "https://zbmed.de/"
+      }
+    },
+    {
+      "@id": "https://gepris.dfg.de/gepris/projekt/407518790#project",
+      "@type": "ResearchProject",
+      "name": "STELLA Living Labs Project"
+    },
+    {
+      "@id": "https://ror.org/018mejw64",
+      "@type": "Organization",
+      "alternateName": "German Research Foundation",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "url": {
+        "@id": "http://www.dfg.de/en/"
+      }
+    }
+  ]
+}
+</script>
+
+    
+<!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script -->
+<script src="https://unpkg.com/ro-crate-html@0.1/dist/ro-crate-dynamic.min.js"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta charset='utf-8'/>
+<style>
+
+table.table {
+  padding-bottom: 300px;
+}
+</style>
+</head>
+
+
+<body>
+
+  <nav class="navbar">
+
+    <ul class="nav navbar-nav" >
+        <li ><a href="#"><span class="glyphicon glyphicon-home dataset_name">&nbsp;RO-crate for the reearch project 'TREC Document-to-Document Relevance Assessment'</span></a></li>
+    </ul>
+
+  </nav>
+<div class="container">
+<div class="jumbotron">
+<h4 class="citation"></h3>
+<h3 class="item_name">RO-crate for the reearch project 'TREC Document-to-Document Relevance Assessment'</h4>
+
+
+<a href="./ro-crate-metadata.json">⬇️🏷️ Download all the metadata for <span class='name'>RO-crate for the reearch project 'TREC Document-to-Document Relevance Assessment'</span> in JSON-LD format</a>
+
+
+<div id="check"></div>
+
+
+</div>
+
+
+
+<div id="summary">
+<div class='all-meta'>
+           <div>
+            <h3> RO-crate for the reearch project 'TREC Document-to-Document Relevance Assessment'</h3>
+            
+            
+            
+            
+        <div id="./">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><span>./</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>RO-crate for the reearch project 'TREC Document-to-Document Relevance Assessment'</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>Dataset</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>This RO-crate describes the research project 'TREC Document-to-Document Relevance Assessment' including metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprenhensive view of the research outcomes.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2023-11-01</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><a href="http://spdx.org/licenses/CC-BY-4.0">http://spdx.org/licenses/CC-BY-4.0</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">keywords<span>&nbsp;</span><a href="http://schema.org/keywords">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><span>TREC</span></li>
+                        
+                        <li><span>doc-2-doc</span></li>
+                        
+                        <li><span>document relevance</span></li>
+                        
+                        <li><span>doc2doc relevance</span></li>
+                        </ul></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">about<span>&nbsp;</span><a href="http://schema.org/about">[?]</a></th>
+            <td style='text-align:left'><a href="https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc/">https://zbmed-semtec.github.io/projects/2022_TREC_doc2doc/</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#https%3A//github.com/zbmed-semtec/TREC-doc-2-doc-relevance">TREC-doc-2-doc-relevance</a></li>
+                        
+                        <li><a href="#https%3A//doi.org/10.5281/zenodo.7341391">TREC-doc-2-doc-relevance assessment interface</a></li>
+                        
+                        <li><a href="#https%3A//doi.org/10.5281/zenodo.7338056">Fleiss kappa for doc-2-doc relevance assessment</a></li>
+                        
+                        <li><a href="#https%3A//doi.org/10.5281/zenodo.7324822">Document-to-document relevant assessment for TREC Genomics Track 2005</a></li>
+                        
+                        <li><a href="#https%3A//ceur-ws.org/Vol-3415/paper-12.pdf">Document-to-document relevance assessment for TREC Genomics Track 2005</a></li>
+                        </ul></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">about<span>&nbsp;</span><a href="http://schema.org/about">[?]</a></th>
+            <td style='text-align:left'><a href="#ro-crate-metadata.json">ro-crate-metadata.json</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/><hr/><br/><br/><hr/><br/><br/>
+           <div>
+            <h3><a href="https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance">Go to: </a> TREC-doc-2-doc-relevance</h3>
+            
+            
+            
+            
+        <div id="https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance">https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>TREC-doc-2-doc-relevance</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>SoftwareSourceCode</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>This is the software source code facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track along with its metadata.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">dateCreated<span>&nbsp;</span><a href="http://schema.org/dateCreated">[?]</a></th>
+            <td style='text-align:left'><span>2022-02-22</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">url<span>&nbsp;</span><a href="http://schema.org/url">[?]</a></th>
+            <td style='text-align:left'><a href="https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance">https://github.com/zbmed-semtec/TREC-doc-2-doc-relevance</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">citation<span>&nbsp;</span><a href="http://schema.org/citation">[?]</a></th>
+            <td style='text-align:left'><span>Talha, M., Geist, L., Fellerhof, T., Ravinder, R., Giraldo, O., Rebholz-Schuhmann, D., & Castro, L. J. (2022). My Research Software (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.7341391</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">programmingLanguage<span>&nbsp;</span><a href="http://schema.org/programmingLanguage">[?]</a></th>
+            <td style='text-align:left'><span>Python</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">targetProduct<span>&nbsp;</span><a href="http://schema.org/targetProduct">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//doi.org/10.5281/zenodo.7341391">TREC-doc-2-doc-relevance assessment interface</a></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">RO-crate for the reearch project 'TREC Document-to-Document Relevance Assessment'</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">knowsAbout<span>&nbsp;</span><a href="http://schema.org/knowsAbout">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//zbmed-semtec.github.io/projects/2022_TREC_doc2doc">TREC document-to-document relevance assessment</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="https://doi.org/10.5281/zenodo.7341391">Go to: </a> TREC-doc-2-doc-relevance assessment interface</h3>
+            
+            
+            
+            
+        <div id="https://doi.org/10.5281/zenodo.7341391">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://doi.org/10.5281/zenodo.7341391">https://doi.org/10.5281/zenodo.7341391</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>TREC-doc-2-doc-relevance assessment interface</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>SoftwareApplication</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>The code, data and docs at this repo aim at facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track. A doc-2-doc relevance assessment takes one document as reference and assess a second document regarding its relevance to the reference one. This doc-2-doc collection will be used to evaluate the doc-2-doc recommendations approaches that we are working on.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2022-11-21</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">conformsTo<span>&nbsp;</span><a href="http://purl.org/dc/terms/conformsTo">[?]</a></th>
+            <td style='text-align:left'><a href="https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE">https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">url<span>&nbsp;</span><a href="http://schema.org/url">[?]</a></th>
+            <td style='text-align:left'><a href="https://zenodo.org/records/7341391">https://zenodo.org/records/7341391</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">citation<span>&nbsp;</span><a href="http://schema.org/citation">[?]</a></th>
+            <td style='text-align:left'><span>Talha, M., Geist, L., Fellerhof, T., Ravinder, R., Giraldo, O., Rebholz-Schuhmann, D., & Castro, L. J. (2022). TREC-doc-2-doc-relevance assessment interface (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7341391</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">softwareVersion<span>&nbsp;</span><a href="http://schema.org/softwareVersion">[?]</a></th>
+            <td style='text-align:left'><span>1.0.0</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">RO-crate for the reearch project 'TREC Document-to-Document Relevance Assessment'</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">knowsAbout<span>&nbsp;</span><a href="http://schema.org/knowsAbout">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//zbmed-semtec.github.io/projects/2022_TREC_doc2doc">TREC document-to-document relevance assessment</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">targetProduct<span>&nbsp;</span><a href="http://schema.org/targetProduct">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//github.com/zbmed-semtec/TREC-doc-2-doc-relevance">TREC-doc-2-doc-relevance</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="https://doi.org/10.5281/zenodo.7338056">Go to: </a> Fleiss kappa for doc-2-doc relevance assessment</h3>
+            
+            
+            
+            
+        <div id="https://doi.org/10.5281/zenodo.7338056">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://doi.org/10.5281/zenodo.7338056">https://doi.org/10.5281/zenodo.7338056</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Fleiss kappa for doc-2-doc relevance assessment</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>Dataset</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>Fleiss' kappa measuring inter-annotator agreement on a document-to-document relevance assessment task. The table contains 7 columns, the first one presents the topics, 8 in total. The second column shows the “reference articles”, represented by their PubMed-ID and organized by topic. The third column shows the Fleiss’ Kappa results. The fourth column shows the interpretation of the Fleiss' Kappa results being: i) “Poor” results <0.20, ii) “Fair” results within 0.21 - 0.40, and iii) “Moderate” results within 0.41 - 0.60. The fifth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Relevant” regarding its corresponding “reference article”. The sixth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Partially relevant” regarding its corresponding “reference article”. The seventh column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Non-relevant” regarding its corresponding “reference article”</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2022-11-19</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">conformsTo<span>&nbsp;</span><a href="http://purl.org/dc/terms/conformsTo">[?]</a></th>
+            <td style='text-align:left'><a href="https://bioschemas.org/profiles/Dataset/1.1-DRAFT">https://bioschemas.org/profiles/Dataset/1.1-DRAFT</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">identifier<span>&nbsp;</span><a href="http://schema.org/identifier">[?]</a></th>
+            <td style='text-align:left'><span>DOI:10.5281/zenodo.7338056</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">keywords<span>&nbsp;</span><a href="http://schema.org/keywords">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><span>Fleiss' Kappa</span></li>
+                        
+                        <li><span>Inter-annoator agreement</span></li>
+                        
+                        <li><span>TREC Genomics Track 2005</span></li>
+                        
+                        <li><span>relevance assessment</span></li>
+                        </ul></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><a href="http://spdx.org/licenses/CC-BY-4.0">http://spdx.org/licenses/CC-BY-4.0</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">url<span>&nbsp;</span><a href="http://schema.org/url">[?]</a></th>
+            <td style='text-align:left'><a href="https://zenodo.org/record/7338056">https://zenodo.org/record/7338056</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">citation<span>&nbsp;</span><a href="http://schema.org/citation">[?]</a></th>
+            <td style='text-align:left'><span>Olga Giraldo, Dhwani Solanki, Dietrich Rebholz-Schuhmann, & Leyla Jael Castro. (2022). Fleiss kappa for doc-2-doc relevance assessment (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7338056</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">RO-crate for the reearch project 'TREC Document-to-Document Relevance Assessment'</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">knowsAbout<span>&nbsp;</span><a href="http://schema.org/knowsAbout">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//zbmed-semtec.github.io/projects/2022_TREC_doc2doc">TREC document-to-document relevance assessment</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="https://doi.org/10.5281/zenodo.7324822">Go to: </a> Document-to-document relevant assessment for TREC Genomics Track 2005</h3>
+            
+            
+            
+            
+        <div id="https://doi.org/10.5281/zenodo.7324822">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://doi.org/10.5281/zenodo.7324822">https://doi.org/10.5281/zenodo.7324822</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Document-to-document relevant assessment for TREC Genomics Track 2005</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>Dataset</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>A CSV table with document-to-document relevance assessment judgements on a subset of the TREC Genomics Track 2005 produced by four annotators. The 'raw data document evaluation' contains six columns, first row consecutive id, second original TREC topic, third PubMed Id used as reference document, fourth PMID used to evaluate the relevance wrt the reference document, fifth the relevance score (2 definitely relevant, 1 partially relevant, 0 non-relevant), and sixth annotator id</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2022-11-15</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">http://purl.org/dc/terms/conformsTo<span>&nbsp;</span><a href="http://purl.org/dc/terms/conformsTo">[?]</a></th>
+            <td style='text-align:left'><a href="https://bioschemas.org/profiles/Dataset/1.1-DRAFT">https://bioschemas.org/profiles/Dataset/1.1-DRAFT</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">identifier<span>&nbsp;</span><a href="http://schema.org/identifier">[?]</a></th>
+            <td style='text-align:left'><span>DOI:10.5281/zenodo.7324822</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">keywords<span>&nbsp;</span><a href="http://schema.org/keywords">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><span>Document-to-document relevance</span></li>
+                        
+                        <li><span>TREC GEnomics Track 2005</span></li>
+                        
+                        <li><span>relevance assessment</span></li>
+                        </ul></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><a href="http://spdx.org/licenses/CC-BY-4.0">http://spdx.org/licenses/CC-BY-4.0</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">url<span>&nbsp;</span><a href="http://schema.org/url">[?]</a></th>
+            <td style='text-align:left'><a href="https://zenodo.org/record/7324822">https://zenodo.org/record/7324822</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">citation<span>&nbsp;</span><a href="http://schema.org/citation">[?]</a></th>
+            <td style='text-align:left'><span>Olga Giraldo, Dhwani Solanki, Fernanda Cadena, Andrea Robayo-Gama, Dietrich Rebholz-Schuhmann, & Leyla Jael Castro. (2022). Document-to-document relevant assessment for TREC Genomics Track 2005 (1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7324822</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">RO-crate for the reearch project 'TREC Document-to-Document Relevance Assessment'</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">knowsAbout<span>&nbsp;</span><a href="http://schema.org/knowsAbout">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//zbmed-semtec.github.io/projects/2022_TREC_doc2doc">TREC document-to-document relevance assessment</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="https://ceur-ws.org/Vol-3415/paper-12.pdf">Go to: </a> Document-to-document relevance assessment for TREC Genomics Track 2005</h3>
+            
+            
+            
+            
+        <div id="https://ceur-ws.org/Vol-3415/paper-12.pdf">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://ceur-ws.org/Vol-3415/paper-12.pdf">https://ceur-ws.org/Vol-3415/paper-12.pdf</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Document-to-document relevance assessment for TREC Genomics Track 2005</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>ScholarlyArticle</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2023-06-22</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">conformsTo<span>&nbsp;</span><a href="http://purl.org/dc/terms/conformsTo">[?]</a></th>
+            <td style='text-align:left'><a href="https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT">https://bioschemas.org/profiles/ScholarlyArticle/0.3-DRAFT</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">identifier<span>&nbsp;</span><a href="http://schema.org/identifier">[?]</a></th>
+            <td style='text-align:left'><span>CEUR:Vol-3415/paper-12</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">citation<span>&nbsp;</span><a href="http://schema.org/citation">[?]</a></th>
+            <td style='text-align:left'><span>Giraldo, O. L., Cadena, M. F., Robayo-Gama, A., Solanki, D., Fellerhoff, T., Geist, L., Ravinder, R., Talha, M., Rebholz-Schuhmann, D., & Castro, L. J. (2023). Document-to-document relevance assessment for TREC Genomics Track 2005. In Proceedings of the Semantic Web Applications and Tools for Healthcare and Life Sciences (SWAT4HCLS 2023) (pp. 98-101).</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">RO-crate for the reearch project 'TREC Document-to-Document Relevance Assessment'</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">knowsAbout<span>&nbsp;</span><a href="http://schema.org/knowsAbout">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//zbmed-semtec.github.io/projects/2022_TREC_doc2doc">TREC document-to-document relevance assessment</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/></div>
+</div>
+
+
+
+
+
+</body>
+</html>

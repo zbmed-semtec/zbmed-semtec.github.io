@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "DefinedTermSet",
+  "@id": "https://doi.org/10.5281/zenodo.10582121",
+  "identifier": "DOI:10.5281/zenodo.10582121",
+  "citation": "Castro LJ, Giraldo O, Geist L, Quiñones N, Solanki D, Rebholz-Schuhmann D. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2024. doi:10.5281/zenodo.10582073",
+  "name": "Usage guidance (aka profiles) for the machine-actionable Software Management Plan Ontology",
+  "description": "Usage guidance (aka profiles) for types and properties in the maSMP metadata schema (aka maSMP Ontology). Each profile correponds to a type and indicates whether properties are minimum, recommended or optional together with their cardinality.",
+  "keywords": "machine-actionability, software management plans, research software, controlled vocabulary, metadata schema",
+  "archivedAt": "https://zenodo.org/records/10582121",  
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "givenName": "Leyla Jael",
+      "familyName": "Castro"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2978-8922",
+      "givenName": "Olga",
+      "familyName": "Giraldo"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2910-7982",
+      "givenName": "Lukas",
+      "familyName": "Geist"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Nelson",
+      "familyName": "Quiñones"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "givenName": "Dietrich",
+      "familyName": "Rebholz-Schuhmann"
+    }    
+  ],
+  "datePublished": "2024-01-29",
+  "version": "2.1.1",
+  "url": "https://zenodo.org/records/10582121",
+  "creativeWorkStatus": ["Published", "In-progress"]
+}

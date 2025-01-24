@@ -1,0 +1,9 @@
+{ 
+  "@context": "http://schema.org",
+
+  "@type": "Person",
+  "@id": "https://orcid.org/0000-0002-5037-0443",
+  "familyName": "Quiñones", 
+  "givenName": "Nelson",
+  "jobTitle": "Research Software Engineer" 
+}

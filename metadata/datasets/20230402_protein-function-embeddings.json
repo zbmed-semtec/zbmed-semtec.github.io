@@ -1,0 +1,51 @@
+{ 
+  "@context": "http://schema.org", 
+  "@type": "DataCatalog",
+  "@id": "https://doi.org/10.5281/zenodo.7793384",
+  "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/profiles/DataCatalog/0.4-DRAFT", 
+
+  "identifier": "DOI:10.5281/zenodo.7793384",
+  "name": "Protein Function Embeddings: First Beta Release of Datasets",
+  "description": "Datasets generated from a thesis work that explores how information for protein functions can be exploited through embeddings so that the produced information can be used to improve protein function annotations",
+  "keywords":  [
+    "Protein function", "Protein function embeddings", "Word embeddings", "Document embeddings"
+  ], 
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "http://spdx.org/licenses/CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International", 
+    "alternateName": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "url": "https://zenodo.org/record/7793384",
+  "measurementTechnique": ["Word embeddings", "Document embeddings", "Cosine similarity"],
+  
+  "about": "Protein Function Embeddings",
+  "datePublished": "2023-04-02", 
+  "isAccessibleForFree": true,
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-4484-6283",
+      "familyName": "Ravinder", 
+      "givenName": "Rohitha"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "familyName": "Castro", 
+      "givenName": "Leyla Jael"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "familyName": "Rebholz-Schuhmann", 
+      "givenName": "Dietrich"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://zenodo.org/",
+    "name": "Zenodo"
+  }
+}
