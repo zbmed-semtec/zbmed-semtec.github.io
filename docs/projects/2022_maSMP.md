@@ -467,6 +467,48 @@ ongoing, machine-actionability, software management plans, research software, co
       ]
     },
     {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://github.com/zbmed-semtec/maSMP-metadata-extraction",
+      "citation": "Venkatesh, S., Quiñones, N., Solanki, D., Rebholz-Schuhmann, D., & Castro, L. J. (2025). maSMPs metadata extraction . [Software source code]. GitHub; 2025.",
+      "name": "maSMPs metadata extraction",
+      "url": "https://github.com/zbmed-semtec/maSMP-metadata-extraction#",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/AGPL-3.0-or-later.html",
+        "name": "GNU Affero General Public License v3.0 or later", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0009-0005-7305-3052"},
+        {"@id": "https://orcid.org/0000-0002-5037-0443"},
+        {"@id": "https://orcid.org/0009-0004-1529-0095"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://doi.org/10.5281/zenodo.14918499",
+      "citation": "Venkatesh, S., Quiñones, N., Solanki, D., Rebholz-Schuhmann, D., & Castro, L. J. (2025). v0.1.0-beta pre-release maSMPs metadata extraction (v0.1.0-beta). Zenodo. https://doi.org/10.5281/zenodo.14918500",
+      "name": "v0.1.0-beta pre-release maSMPs metadata extraction",
+      "url": "https://zenodo.org/records/14918499",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "https://spdx.org/licenses/AGPL-3.0-or-later.html",
+        "name": "GNU Affero General Public License v3.0 or later", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0009-0005-7305-3052"},
+        {"@id": "https://orcid.org/0000-0002-5037-0443"},
+        {"@id": "https://orcid.org/0009-0004-1529-0095"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
+    },
+    {
       "@type": "Article",
       "@id": "https://doi.org/10.5281/zenodo.10374839",
       "alternativeHeadline": "Castro LJ, Geist L, Gonzalez E, Gonzalez-Ocanto M, Grossmann YV, Pronk T, et al. Five Minutes to Write a Software Management Plan \u2013 A Machine-actionable Approach to Simplify the Creation of SMPs. Zenodo; 2023. doi:10.5281/zenodo.10374839",
