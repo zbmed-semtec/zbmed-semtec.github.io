@@ -26,6 +26,8 @@ ongoing, machine-actionability, software management plans, research software, co
 
 - Dhwani Solanki		<a href="https://orcid.org/0009-0004-1529-0095" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
+- Suhasini Venkatesh		<a href="https://orcid.org/0009-0005-7305-3052" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a>
+
 - Dietrich Rebholz-Schuhmann		<a href="https://orcid.org/0000-0002-1018-0370" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a>
 
 - Leyla Jael Castro		<a href="https://orcid.org/0000-0003-3986-0510" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a>
@@ -67,6 +69,7 @@ ongoing, machine-actionability, software management plans, research software, co
 
 - Identifier: 101017536
 - Description: Grant agreement No 101017536, part of the Research Data Alliance and European Open Science Cloud Future call 2022
+
 ### Outcomes
 
 #### Metadata model for machine-actionable Software Management Plans
@@ -78,6 +81,7 @@ ongoing, machine-actionability, software management plans, research software, co
 
 - License: <a href="http://spdx.org/licenses/CC-BY-4.0" target="_blank">http://spdx.org/licenses/CC-BY-4.0</a> 
 - Authors: <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-5037-0443" target="_blank">https://orcid.org/0000-0002-5037-0443</a>. <a href="https://orcid.org/0009-0004-1529-0095" target="_blank">https://orcid.org/0009-0004-1529-0095</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. 
+
 #### machine-actionable Software Management Plan Ontology (maSMP Ontology)
 
 <a href="https://doi.org/10.5281/zenodo.7806638" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit DefinedTermSet</a>
@@ -90,6 +94,7 @@ ongoing, machine-actionability, software management plans, research software, co
 - URL: <a href="https://zenodo.org/records/10582073" target="_blank">https://zenodo.org/records/10582073</a>
 
 - Authors: <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-5037-0443" target="_blank">https://orcid.org/0000-0002-5037-0443</a>. <a href="https://orcid.org/0009-0004-1529-0095" target="_blank">https://orcid.org/0009-0004-1529-0095</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. 
+
 #### Usage guidance (aka profiles) for the machine-actionable Software Management Plan Ontology
 
 <a href="https://doi.org/10.5281/zenodo.10582121" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit DefinedTermSet</a>
@@ -102,6 +107,20 @@ ongoing, machine-actionability, software management plans, research software, co
 - URL: <a href="https://zenodo.org/records/10582121" target="_blank">https://zenodo.org/records/10582121</a>
 
 - Authors: <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. <a href="https://orcid.org/0000-0003-2978-8922" target="_blank">https://orcid.org/0000-0003-2978-8922</a>. <a href="https://orcid.org/0000-0002-2910-7982" target="_blank">https://orcid.org/0000-0002-2910-7982</a>. <a href="https://orcid.org/0000-0002-5037-0443" target="_blank">https://orcid.org/0000-0002-5037-0443</a>. <a href="https://orcid.org/0009-0004-1529-0095" target="_blank">https://orcid.org/0009-0004-1529-0095</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. 
+
+#### maSMP metadata extraction
+
+<a href="https://doi.org/10.5281/zenodo.14918499" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit SoftwareApplication</a>
+
+- Identifier: DOI:10.5281/zenodo.14918499
+- Cite as: Venkatesh, S., Quiñones, N., Solanki, D., Rebholz-Schuhmann, D., & Castro, L. J. (2025). v0.1.0-beta pre-release maSMPs metadata extraction (v0.1.0-beta). Zenodo. doi:10.5281/zenodo.14918500
+- Datepublished: 2025-02-24
+- Version: 0.1.0-beta
+- License: <a href="https://spdx.org/licenses/AGPL-3.0-or-later.html" target="_blank">https://spdx.org/licenses/AGPL-3.0-or-later.html</a> 
+- URL: <a href="https://zenodo.org/records/14918499" target="_blank">https://zenodo.org/records/14918499</a>
+
+- Authors: <a href="https://orcid.org/0009-0005-7305-3052" target="_blank">https://orcid.org/0009-0005-7305-3052</a>. <a href="https://orcid.org/0000-0002-5037-0443" target="_blank">https://orcid.org/0000-0002-5037-0443</a>. <a href="https://orcid.org/0009-0004-1529-0095" target="_blank">https://orcid.org/0009-0004-1529-0095</a>. <a href="https://orcid.org/0000-0002-1018-0370" target="_blank">https://orcid.org/0000-0002-1018-0370</a>. <a href="https://orcid.org/0000-0003-3986-0510" target="_blank">https://orcid.org/0000-0003-3986-0510</a>. 
+
 #### Five Minutes to Write a Software Management Plan – A Machine-actionable Approach to Simplify the Creation of SMPs
 
 <a href="https://doi.org/10.5281/zenodo.10374839" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Article</a>
