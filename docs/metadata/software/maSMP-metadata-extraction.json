@@ -1,0 +1,57 @@
+{ 
+  "@context": "http://schema.org/",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://github.com/zbmed-semtec/maSMP-metadata-extraction",
+
+  "name": "maSMPs metadata extraction",
+  "description": "A tool for transforming GitHub repositories into FAIR (Findable, Accessible, Interoperable, and Reusable) and machine-actionable metadata, enabling better data discovery and automation.",
+  "url": "https://github.com/zbmed-semtec/maSMP-metadata-extraction#",
+
+  "author": [
+    {
+        "@id": "https://orcid.org/0009-0005-7305-3052",
+        "@type": "Person",
+        "familyName": "Venkatesh", 
+        "givenName": "Suhasini"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5037-0443",
+      "@type": "Person",
+      "familyName": "Quiñones", 
+      "givenName": "Nelson"
+    },
+    {
+      "@id": "https://orcid.org/0009-0004-1529-0095",
+      "@type": "Person",
+      "familyName": "Solanki", 
+      "givenName": "Dwhani"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "@type": "Person",
+      "familyName": "Rebholz-Schuhmann", 
+      "givenName": "Dietrich"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "@type": "Person",
+      "familyName": "Castro", 
+      "givenName": "Leyla Jael"
+    }
+  ],
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "https://spdx.org/licenses/AGPL-3.0-or-later.html",
+    "name": "GNU Affero General Public License v3.0 or later", 
+    "alternateName": "CC BY 4.0",
+    "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+  },
+  "citation": "Venkatesh, S., Quiñones, N., Solanki, D., Rebholz-Schuhmann, D., & Castro, L. J. (2025). maSMPs metadata extraction . [Software source code]. GitHub; 2025.",
+  "codeRepository": "https://github.com/zbmed-semtec/maSMP-metadata-extraction#",
+  "programmingLanguage": [
+    "Vue", "Python", "Javascript"
+    ],
+  "keywords":  [
+    "Software Management Plan", "Machine-actionable", "SMP", "Metadata extraction"
+    ] 
+}

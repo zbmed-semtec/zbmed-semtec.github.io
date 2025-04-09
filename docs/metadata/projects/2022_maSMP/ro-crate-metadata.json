@@ -113,6 +113,8 @@
         "keywords": "ongoing, machine-actionability, software management plans, research software, controlled vocabulary, metadata schema",
         "knowsAbout": [
           {"@id": "https://github.com/zbmed-semtec/maSMPs"},
+          {"@id": "https://github.com/zbmed-semtec/maSMP-metadata-extraction"},
+          {"@id": "https://doi.org/10.5281/zenodo.14918499"}, 
           {"@id": "https://doi.org/10.5281/zenodo.8089518"},
           {"@id": "https://doi.org/10.52825/cordi.v1i.279"},
           {"@id": "https://doi.org/10.5281/zenodo.8349183"},
@@ -130,12 +132,42 @@
         "datePublished": "2022-11-29",
         "name": "maSMPs",
         "description": "This project corresponds to an extension of the Research Data Alliance (RDA) machine-actionable Data Management Plan (maDMP) application profile and its corresponding DMP Common Standard ontology (DCSO) in order to cover the case of ELIXIR Software Management Plans (SMPs). Similar to DMPs, SMPs help formalize a set of structures and goals that ensure the software is accessible and reusable in the short, medium and long term. Although targeting the life sciences community, most of the elements of the ELIXIR SMPs are domain agnostic and could be used by other communities as well. DMPs and SMPs can be presented as text-based documents, sometimes guided by a set of questions corresponding to key points related to the lifecycle of either data or software. The RDA DMP Common Standards working group defined a maDMP to overcome limitations of text-based documents. We propose a similar path for the ELIXIR SMPs so they turn into machine-actionable SMPs (maSMPs).",
-        "url": "https://github.com/zbmed-semtec/maSMPs",
+        "url": "https://github.com/zbmed-semtec/maSMPs#",
         "citation": "Giraldo O, Geist L, Quiñones N, Solanki D, Rebholz-Schuhmann D, Castro LJ. machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo; 2023. doi:10.5281/zenodo.8089518",
         "programmingLanguage": [
           "JavaScript", "Python"
           ]
       },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://github.com/zbmed-semtec/maSMP-metadata-extraction",
+      "citation": "Venkatesh, S., Quiñones, N., Solanki, D., Rebholz-Schuhmann, D., & Castro, L. J. (2025). maSMPs metadata extraction . [Software source code]. GitHub; 2025.",
+      "name": "maSMPs metadata extraction",
+      "url": "https://github.com/zbmed-semtec/maSMP-metadata-extraction#",
+      "license": {"@id": "https://spdx.org/licenses/AGPL-3.0-or-later.html"},
+      "author": [
+        {"@id": "https://orcid.org/0009-0005-7305-3052"},
+        {"@id": "https://orcid.org/0000-0002-5037-0443"},
+        {"@id": "https://orcid.org/0009-0004-1529-0095"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://doi.org/10.5281/zenodo.14918499",
+      "citation": "Venkatesh, S., Quiñones, N., Solanki, D., Rebholz-Schuhmann, D., & Castro, L. J. (2025). v0.1.0-beta pre-release maSMPs metadata extraction (v0.1.0-beta). Zenodo. https://doi.org/10.5281/zenodo.14918500",
+      "name": "v0.1.0-beta pre-release maSMPs metadata extraction",
+      "url": "https://zenodo.org/records/14918499",
+      "license": {"@id": "https://spdx.org/licenses/AGPL-3.0-or-later.html"},
+      "author": [
+        {"@id": "https://orcid.org/0009-0005-7305-3052"},
+        {"@id": "https://orcid.org/0000-0002-5037-0443"},
+        {"@id": "https://orcid.org/0009-0004-1529-0095"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
+    },
       {
         "@type": "DefinedTermSet",
         "@id": "https://doi.org/10.5281/zenodo.8089518",
@@ -237,6 +269,12 @@
         "familyName": "Solanki"
       },
       {
+        "@id": "https://orcid.org/0009-0005-7305-3052", 
+        "@type": "Person",
+        "givenName": "Suhasini",
+        "familyName": "Venkatesh"
+      },
+      {
         "@id": "https://orcid.org/0000-0002-1018-0370",
         "@type": "Person",
         "givenName": "Dietrich",
@@ -335,6 +373,13 @@
           "url": {
             "@id": "https://zbmed.de/"
           }
+        },
+        {
+          "@type": "CreativeWork",
+          "@id": "https://spdx.org/licenses/AGPL-3.0-or-later.html",
+          "name": "GNU Affero General Public License v3.0 or later", 
+          "alternateName": "CC BY 4.0",
+          "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
         }
       ]
 }
