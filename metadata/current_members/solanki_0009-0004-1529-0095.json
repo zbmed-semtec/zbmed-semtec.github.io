@@ -1,0 +1,9 @@
+{ 
+  "@context": "http://schema.org",
+
+  "@type": "Person",
+  "@id": "https://orcid.org/0009-0004-1529-0095",
+  "familyName": "Solanki", 
+  "givenName": "Dhwani",
+  "jobTitle": "Data Scientist" 
+}

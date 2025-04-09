@@ -1,0 +1,62 @@
+{ 
+  "@context": "http://schema.org/",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
+
+  "name": "Mowl-graph2doc2vec",
+  "description": "A repository to explore the use of ontology-based graphs (generated with MOWL) as background knowledge for scientific articles similarity.",
+  "url": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
+
+  "author": [
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-5037-0443",
+        "familyName": "Quiñones", 
+        "givenName": "Nelson"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://zbmed-semtec.github.io/people/#Rahaf-Alayed",
+        "familyName": "Alayed", 
+        "givenName": "Rahaf"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0001-6954-2973",
+        "familyName": "Aljohani", 
+        "givenName": "Layan"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0002-3119-5109",
+        "familyName": "Alqhtani", 
+        "givenName": "Asmaa"
+    },
+    {
+        "@type": "Person",
+        "@id": "https://cemse.kaust.edu.sa/people/person/maria-g-gomez-castillo",
+        "familyName": "Gomez Castillo", 
+        "givenName": "Maria G."
+    },
+    {
+        "@type": "Person",
+        "@id": "https://orcid.org/0000-0003-3986-0510",
+        "familyName": "Castro", 
+        "givenName": "Leyla Jael"
+    }
+  ],
+  "license": {
+    "@type": "CreativeWork",
+    "@id": "http://spdx.org/licenses/GPL-3.0-only",
+    "name": "GPLv3",
+    "url": "https://www.gnu.org/licenses/gpl-3.0.en.html"
+  },
+
+  "codeRepository": "https://github.com/zbmed-semtec/mowl-graph2doc2vec",
+  "programmingLanguage": [
+    "JavaScript", "Python"
+    ],
+  "keywords":  [
+    "BioHackathon MENA 2023", "Graph embeddings", "Word embeddings"
+    ]
+}
