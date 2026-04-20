@@ -1,0 +1,10 @@
+{ 
+  "@context": "http://schema.org",
+
+  "@type": "Person",
+  "@id": "https://orcid.org/0009-0001-0404-4866",
+  "familyName": "Shahid", 
+  "givenName": "Ali",
+  "jobTitle": "Research Software Engineer" 
+}
+
