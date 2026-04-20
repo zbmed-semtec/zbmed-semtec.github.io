@@ -1,5 +1,35 @@
 # Current_members metadata
 
+### Ali Shahid
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/shahid_0009-0001-0404-4866.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0001-0404-4866" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
+<tbody>
+<tr>
+<td>familyName</td>
+<td>Shahid</td>
+</tr>
+<tr>
+<td>givenName</td>
+<td>Ali</td>
+</tr>
+<tr>
+<td>jobTitle</td>
+<td>Research Software Engineer</td>
+</tr>
+</tbody>
+</table>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0009-0001-0404-4866",
+  "familyName": "Shahid",
+  "givenName": "Ali",
+  "jobTitle": "Research Software Engineer"
+}
+</script>
+
 ### Maryam Sefidbari
 <p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/sefidbari_0009−0008−7998−3965.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0008-7998-3965" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
