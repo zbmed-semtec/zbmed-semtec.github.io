@@ -1,0 +1,9 @@
+{ 
+  "@context": "http://schema.org",
+
+  "@type": "Person",
+  "@id": "https://orcid.org/0009-0007-2843-0554",
+  "familyName": "Heddur Nagendra", 
+  "givenName": "Pradyumna",
+  "jobTitle": "Research Software Engineer"
+}
