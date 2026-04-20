@@ -1,7 +1,7 @@
 # Previous_members metadata
 
 ### Nelson Quiñones
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/quinones_0000-0002-5037-0443.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-5037-0443" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/previous_members/quinones_0000-0002-5037-0443.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0000-0002-5037-0443" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
