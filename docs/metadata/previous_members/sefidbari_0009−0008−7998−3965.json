@@ -1,0 +1,9 @@
+{ 
+  "@context": "http://schema.org",
+
+  "@type": "Person",
+  "@id": "https://orcid.org/0009−0008−7998−3965",
+  "familyName": "Sefidbari", 
+  "givenName": "Maryam",
+  "jobTitle": "Research Software Engineer" 
+}
