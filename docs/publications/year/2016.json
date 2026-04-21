@@ -1,0 +1,451 @@
+[
+  {
+    "key": "WKBHGPBQ",
+    "version": 2691,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/WKBHGPBQ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/WKBHGPBQ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Müller and Hagelstein",
+      "parsedDate": "2016-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "WKBHGPBQ",
+      "version": 2691,
+      "itemType": "manuscript",
+      "title": "Beyond Metadata - Enriching Life Science Publications in LIVIVO with Semantic Entities from the Linked Data Cloud",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexandra",
+          "lastName": "Hagelstein"
+        }
+      ],
+      "abstractNote": "Queries in literature search engines are usually conducted on metadata derived from scientific publications. The search engine LIVIVO holds a...",
+      "manuscriptType": "",
+      "institution": "",
+      "place": "",
+      "date": "2016-06",
+      "numPages": "",
+      "number": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://www.researchgate.net/publication/304904048_Beyond_Metadata_-_Enriching_Life_Science_Publications_in_LIVIVO_with_Semantic_Entities_from_the_Linked_Data_Cloud",
+      "accessDate": "2020-09-18T10:04:37Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "muellerb@zbmed.de"
+        }
+      ],
+      "collections": [
+        "HP5DUSPZ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-22T09:45:24Z",
+      "dateModified": "2020-09-22T09:45:24Z"
+    }
+  },
+  {
+    "key": "MBZFRKWQ",
+    "version": 11703,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/MBZFRKWQ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/MBZFRKWQ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Iyappan et al.",
+      "parsedDate": "2016-01-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "MBZFRKWQ",
+      "version": 11703,
+      "itemType": "journalArticle",
+      "title": "Towards a Pathway Inventory of the Human Brain for Modeling Disease Mechanisms Underlying Neurodegeneration",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Anandhi",
+          "lastName": "Iyappan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michaela",
+          "lastName": "Gündel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mohammad",
+          "lastName": "Shahid"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jiali",
+          "lastName": "Wang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hui",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Heinz-Theodor",
+          "lastName": "Mevissen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Juliane",
+          "lastName": "Fluck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Viktor",
+          "lastName": "Jirsa"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lia",
+          "lastName": "Domide"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Erfan",
+          "lastName": "Younesi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Martin",
+          "lastName": "Hofmann-Apitius"
+        }
+      ],
+      "abstractNote": "Molecular signaling pathways have been long used to demonstrate interactions among upstream causal molecules and downstream biological effects. They show the signal flow between cell compartments, the majority of which are represented as cartoons. Th",
+      "publicationTitle": "Journal of Alzheimer's Disease",
+      "publisher": "IOS Press",
+      "place": "",
+      "date": "2016-01-01",
+      "volume": "52",
+      "issue": "4",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1343-1360",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.3233/JAD-151178",
+      "citationKey": "",
+      "url": "https://content.iospress.com/articles/journal-of-alzheimers-disease/jad151178",
+      "accessDate": "2020-09-16T10:47:58Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1387-2877",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "content.iospress.com",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "fluck@zbmed.de"
+        },
+        {
+          "tag": "muellerb@zbmed.de"
+        }
+      ],
+      "collections": [
+        "HP5DUSPZ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-17T09:59:30Z",
+      "dateModified": "2020-09-18T10:02:31Z"
+    }
+  },
+  {
+    "key": "B5GNYCG4",
+    "version": 11704,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/B5GNYCG4",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/B5GNYCG4",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Oellrich et al.",
+      "parsedDate": "2016-09",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "B5GNYCG4",
+      "version": 11704,
+      "itemType": "journalArticle",
+      "title": "The digital revolution in phenotyping",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Anika",
+          "lastName": "Oellrich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nigel",
+          "lastName": "Collier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tudor",
+          "lastName": "Groza"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nigam",
+          "lastName": "Shah"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olivier",
+          "lastName": "Bodenreider"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mary Regina",
+          "lastName": "Boland"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ivo",
+          "lastName": "Georgiev"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hongfang",
+          "lastName": "Liu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kevin",
+          "lastName": "Livingston"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Augustin",
+          "lastName": "Luna"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ann-Marie",
+          "lastName": "Mallon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Prashanti",
+          "lastName": "Manda"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter N.",
+          "lastName": "Robinson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gabriella",
+          "lastName": "Rustici"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michelle",
+          "lastName": "Simon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Liqin",
+          "lastName": "Wang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rainer",
+          "lastName": "Winnenburg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michel",
+          "lastName": "Dumontier"
+        }
+      ],
+      "abstractNote": "Phenotypes have gained increased notoriety in the clinical and biological domain owing to their application in numerous areas such as the discovery of disease genes and drug targets, phylogenetics and pharmacogenomics. Phenotypes, defined as observable characteristics of organisms, can be seen as one of the bridges that lead to a translation of experimental findings into clinical applications and thereby support ‘bench to bedside’ efforts. However, to build this translational bridge, a common and universal understanding of phenotypes is required that goes beyond domain-specific definitions. To achieve this ambitious goal, a digital revolution is ongoing that enables the encoding of data in computer-readable formats and the data storage in specialized repositories, ready for integration, enabling translational research. While phenome research is an ongoing endeavor, the true potential hidden in the currently available data still needs to be unlocked, offering exciting opportunities for the forthcoming years. Here, we provide insights into the state-of-the-art in digital phenotyping, by means of representing, acquiring and analyzing phenotype data. In addition, we provide visions of this field for future research work that could enable better applications of phenotype data.",
+      "publicationTitle": "Briefings in Bioinformatics",
+      "publisher": "",
+      "place": "",
+      "date": "2016-9",
+      "volume": "17",
+      "issue": "5",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "819-830",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Brief Bioinform",
+      "DOI": "10.1093/bib/bbv083",
+      "citationKey": "",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5036847/",
+      "accessDate": "2020-09-17T09:09:32Z",
+      "PMID": "26420780",
+      "PMCID": "PMC5036847",
+      "ISSN": "1467-5463",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "PubMed Central",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "HP5DUSPZ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:40Z",
+      "dateModified": "2020-09-18T08:59:40Z"
+    }
+  }
+]

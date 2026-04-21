@@ -1,0 +1,441 @@
+[
+  {
+    "key": "XQKDFMVR",
+    "version": 3053,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/XQKDFMVR",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/XQKDFMVR",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Fluck et al.",
+      "parsedDate": "2018-11-21",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "XQKDFMVR",
+      "version": 3053,
+      "itemType": "document",
+      "title": "NFDI4Life Position Paper - Research Data Infrastructure for the Life Sciences - ZB MED soll die sich entfaltende Forschungsdateninfrastruktur koordinieren",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Juliane",
+          "lastName": "Fluck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Konrad",
+          "lastName": "Förstner"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thomas",
+          "lastName": "Gübitz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Birte",
+          "lastName": "Lindstädt"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ilja",
+          "lastName": "Zeitlin"
+        }
+      ],
+      "abstractNote": "",
+      "type": "",
+      "date": "2018-11-21",
+      "publisher": "Open Password",
+      "place": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://www.password-online.de/?wysija-page=1&controller=email&action=view&email_id=596&wysijap=subscriptions",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "fluck@zbmed.de"
+        },
+        {
+          "tag": "foerstner@zbmed.de"
+        },
+        {
+          "tag": "guebitz@zbmed.de"
+        },
+        {
+          "tag": "lindstaedt@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "JXZXPUDG"
+      ],
+      "relations": {},
+      "dateAdded": "2020-11-12T13:33:39Z",
+      "dateModified": "2020-11-30T12:32:43Z"
+    }
+  },
+  {
+    "key": "BIW9YHIY",
+    "version": 2991,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/BIW9YHIY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/BIW9YHIY",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/2350725/items/KU4FWP9W",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 2840833
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Garcia et al.",
+      "parsedDate": "2018-01-02",
+      "numChildren": 4
+    },
+    "data": {
+      "key": "BIW9YHIY",
+      "version": 2991,
+      "itemType": "journalArticle",
+      "title": "Biotea: semantics for Pubmed Central",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Alexander",
+          "lastName": "Garcia"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Federico",
+          "lastName": "Lopez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla",
+          "lastName": "Garcia"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Victor",
+          "lastName": "Bucheli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michel",
+          "lastName": "Dumontier"
+        }
+      ],
+      "abstractNote": "A significant portion of biomedical literature is represented in a manner that makes it difficult for consumers to find or aggregate content through a computational query. One approach to facilitate reuse of the scientific literature is to structure this information as linked data using standardized web technologies. In this paper we present the second version of Biotea, a semantic, linked data version of the open-access subset of PubMed Central that has been enhanced with specialized annotation pipelines that uses existing infrastructure from the National Center for Biomedical Ontology. We expose our models, services, software and datasets. Our infrastructure enables manual and semi-automatic annotation, resulting data are represented as RDF-based linked data and can be readily queried using the SPARQL query language. We illustrate the utility of our system with several use cases. Our datasets, methods and techniques are available at http://biotea.github.io.",
+      "publicationTitle": "PeerJ",
+      "publisher": "",
+      "place": "",
+      "date": "2018-01-02",
+      "volume": "6",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "e4201",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "PeerJ",
+      "DOI": "10.7717/peerj.4201",
+      "citationKey": "",
+      "url": "https://peerj.com/articles/4201",
+      "accessDate": "2019-12-20T11:56:12Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "2167-8359",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Biotea",
+      "language": "en",
+      "libraryCatalog": "peerj.com",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "BH2019"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        }
+      ],
+      "collections": [
+        "JXZXPUDG"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-25T11:17:15Z",
+      "dateModified": "2020-10-13T09:51:43Z"
+    }
+  },
+  {
+    "key": "UNIMKJ4M",
+    "version": 2430,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/UNIMKJ4M",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/UNIMKJ4M",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Barros et al.",
+      "parsedDate": "2018-06-12",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "UNIMKJ4M",
+      "version": 2430,
+      "itemType": "journalArticle",
+      "title": "Disease mentions in airport and hospital geolocations expose dominance of news events for disease concerns",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Joana M.",
+          "lastName": "Barros"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jim",
+          "lastName": "Duggan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "In recent years, Twitter has been applied to monitor diseases through its facility to monitor users’ comments and concerns in real-time. The analysis of tweets for disease mentions should reflect not only user specific concerns but also disease outbreaks. This requires the use of standard terminological resources and can be focused on selected geographic locations. In our study, we differentiate between hospital and airport locations to better distinguish disease outbreaks from background mentions of disease concerns.",
+      "publicationTitle": "Journal of Biomedical Semantics",
+      "publisher": "",
+      "place": "",
+      "date": "2018-06-12",
+      "volume": "9",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "18",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Journal of Biomedical Semantics",
+      "DOI": "10.1186/s13326-018-0186-9",
+      "citationKey": "",
+      "url": "https://doi.org/10.1186/s13326-018-0186-9",
+      "accessDate": "2020-09-16T09:55:56Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "2041-1480",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "BioMed Central",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "JXZXPUDG"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-16T11:37:35Z",
+      "dateModified": "2020-09-16T11:37:49Z"
+    }
+  },
+  {
+    "key": "GX2F3FMQ",
+    "version": 2313,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/GX2F3FMQ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/GX2F3FMQ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Müller",
+      "parsedDate": "2018-10-26",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "GX2F3FMQ",
+      "version": 2313,
+      "itemType": "presentation",
+      "title": "Epilepsy Ontology Similarities",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Slide Presentation",
+      "date": "2018-10-26",
+      "meetingName": "Current Trends in Applied Life Science Informatics",
+      "place": "Bonn",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://www.slideshare.net/secret/3ytgbMoqNcsPFR",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "muellerb@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "JXZXPUDG"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-07T11:41:35Z",
+      "dateModified": "2020-09-10T15:32:30Z"
+    }
+  }
+]

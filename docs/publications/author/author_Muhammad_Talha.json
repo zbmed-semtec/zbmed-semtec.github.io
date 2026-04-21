@@ -1,0 +1,663 @@
+[
+  {
+    "year": "2023",
+    "collection_hash": "PQHFVETK",
+    "item": {
+      "key": "H2CK4IXG",
+      "version": 9480,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/H2CK4IXG",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/H2CK4IXG",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "lastModifiedByUser": {
+          "id": 8466868,
+          "username": "julianschneider",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/julianschneider",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Ravinder et al.",
+        "parsedDate": "2023",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "H2CK4IXG",
+        "version": 9480,
+        "itemType": "conferencePaper",
+        "title": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Rohitha",
+            "lastName": "Ravinder"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Tim",
+            "lastName": "Fellerhoff"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Vishnu",
+            "lastName": "Dadi"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Lukas",
+            "lastName": "Geist"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Guillermo",
+            "lastName": "Rocamora"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Muhammad",
+            "lastName": "Talha"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "The continuous increase of biomedical scholarly publications makes it challenging to construct document recommendation algorithms to navigate through literature, an important feature for researchers to keep up with relevant publications. Understanding semantic relatedness and similarity between two documents could improve document recommendations. The objective of this study is performing a comparative analysis of vector-based approaches to assess document similarity in the RELISH corpus. Here we present our approach to compare five different techniques to generate vectors representing the text in the documents. These techniques employ a combination of various Natural Language Processing frameworks such as Word2Vec, Doc2Vec, dictionary-based Named Entity Recognition as well as state-of-the-art models based on BERT.",
+        "proceedingsTitle": "",
+        "conferenceName": "SWAT4HCLS 2023",
+        "publisher": "CEUR",
+        "place": "",
+        "date": "2023",
+        "eventPlace": "",
+        "volume": "",
+        "issue": "",
+        "numberOfVolumes": "",
+        "pages": "",
+        "series": "",
+        "seriesNumber": "",
+        "DOI": "",
+        "ISBN": "",
+        "citationKey": "",
+        "url": "https://ceur-ws.org/Vol-3415/paper-38.pdf",
+        "accessDate": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "Zotero",
+        "callNumber": "",
+        "rights": "All rights reserved",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "nfdi4ds"
+          },
+          {
+            "tag": "ontoclue"
+          },
+          {
+            "tag": "ravinder@zbmed.de"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "rebholz@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "stella-I"
+          },
+          {
+            "tag": "von ZB MED"
+          },
+          {
+            "tag": "⛔ No DOI found",
+            "type": 1
+          }
+        ],
+        "collections": [
+          "PQHFVETK"
+        ],
+        "relations": {},
+        "dateAdded": "2023-06-26T17:42:14Z",
+        "dateModified": "2024-07-01T10:06:20Z"
+      }
+    }
+  },
+  {
+    "year": "2023",
+    "collection_hash": "PQHFVETK",
+    "item": {
+      "key": "M44PSET8",
+      "version": 9480,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/M44PSET8",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/M44PSET8",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "lastModifiedByUser": {
+          "id": 8466868,
+          "username": "julianschneider",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/julianschneider",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Giraldo et al.",
+        "parsedDate": "2023",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "M44PSET8",
+        "version": 9480,
+        "itemType": "conferencePaper",
+        "title": "Document-to-document relevance assessment for TREC Genomics Track 2005",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Olga",
+            "lastName": "Giraldo"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "María Fernanda",
+            "lastName": "Cadena"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Andrea",
+            "lastName": "Robayo-Gama"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dhwani",
+            "lastName": "Solanki"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Tim",
+            "lastName": "Fellerhoff"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Lukas",
+            "lastName": "Geist"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Rohitha",
+            "lastName": "Ravinder"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Muhammad",
+            "lastName": "Talha"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "Here we present a doc-2-doc relevance assessment performed on a subset of the TREC Genomics Track 2005 collection. Our approach includes an experimental set up to manually assess doc-2-doc relevance and the corresponding analysis done on the results obtained from this experiment. The experiment takes one document as a reference and assesses a second document regarding its relevance to the reference one. The consistency of the assessments done by 4 domain experts was evaluated. The lack of agreement between annotators may be due to: i) The abstract lacks key information and/or ii) Lack of experience of the annotators in the evaluation of some topics.",
+        "proceedingsTitle": "",
+        "conferenceName": "SWAT4HCLS 2023",
+        "publisher": "CEUR",
+        "place": "",
+        "date": "2023",
+        "eventPlace": "",
+        "volume": "",
+        "issue": "",
+        "numberOfVolumes": "",
+        "pages": "",
+        "series": "",
+        "seriesNumber": "",
+        "DOI": "",
+        "ISBN": "",
+        "citationKey": "",
+        "url": "https://ceur-ws.org/Vol-3415/paper-12.pdf",
+        "accessDate": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "Zotero",
+        "callNumber": "",
+        "rights": "All rights reserved",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "giraldo@zbmed.de"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "rebholz@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "solanki@zbmed.de"
+          },
+          {
+            "tag": "stella-I"
+          },
+          {
+            "tag": "trec-doc2doc"
+          },
+          {
+            "tag": "von ZB MED"
+          },
+          {
+            "tag": "⛔ No DOI found",
+            "type": 1
+          }
+        ],
+        "collections": [
+          "PQHFVETK"
+        ],
+        "relations": {},
+        "dateAdded": "2023-06-26T17:22:13Z",
+        "dateModified": "2024-07-01T10:06:16Z"
+      }
+    }
+  },
+  {
+    "year": "2023",
+    "collection_hash": "PQHFVETK",
+    "item": {
+      "key": "LQSI22NT",
+      "version": 8768,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/LQSI22NT",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/LQSI22NT",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Ravinder et al.",
+        "parsedDate": "2023-08-09",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "LQSI22NT",
+        "version": 8768,
+        "itemType": "conferencePaper",
+        "title": "A Comparison of Vector-based Approaches for Document Similarity Using the RELISH Corpus",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Rohitha",
+            "lastName": "Ravinder"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Tim",
+            "lastName": "Fellerhof"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Vishnu",
+            "lastName": "Dadi"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Lukas",
+            "lastName": "Geist"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Muhammad",
+            "lastName": "Talha"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "The continuously increasing number of biomedical scholarly publications makes it challenging to construct document recommendation algorithms that can efficiently navigate through literature. Such algorithms would help researchers in finding similar, relevant, and related publications that align with their research interests. Natural Language Processing offers various alternatives to compare publications, ranging from entity recognition to document embeddings. In this paper, we present the results of a comparative analysis of vector-based approaches to assess document similarity in the RELISH corpus. We aim to determine the best approach that resembles relevance without the need for further training. Specifically, we employ five different techniques to generate vectors representing the text in the documents. These techniques employ a combination of various Natural Language Processing frameworks such as Word2Vec, Doc2Vec, dictionary-based Named Entity Recognition, and state-of-theart models based on BERT. To evaluate the document similarity obtained by these approaches, we utilize different evaluation metrics that account for relevance judgment, relevance search, and re-ranking of the relevance search. Our results demonstrate that the most promising approach is an in-house version of document embeddings, starting with word embeddings and using centroids to aggregate them by document.",
+        "proceedingsTitle": "Proceedings of the 6th Workshop on Semantic Web Solutions for Large-Scale Biomedical Data Analytics co-located with ESWC 2023",
+        "conferenceName": "SeWeBMeDa 2023",
+        "publisher": "CEUR",
+        "place": "",
+        "date": "2023-08-09",
+        "eventPlace": "",
+        "volume": "",
+        "issue": "",
+        "numberOfVolumes": "",
+        "pages": "",
+        "series": "",
+        "seriesNumber": "",
+        "DOI": "",
+        "ISBN": "",
+        "citationKey": "",
+        "url": "https://ceur-ws.org/Vol-3466/paper5.pdf",
+        "accessDate": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "Zotero",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "nfdi4ds"
+          },
+          {
+            "tag": "ontoClue"
+          },
+          {
+            "tag": "ravinder@zbmed.de"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "stella-I"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "PQHFVETK"
+        ],
+        "relations": {},
+        "dateAdded": "2024-02-01T15:52:25Z",
+        "dateModified": "2024-02-01T15:52:25Z"
+      }
+    }
+  },
+  {
+    "year": "2023",
+    "collection_hash": "PQHFVETK",
+    "item": {
+      "key": "8APNRXQ6",
+      "version": 8728,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/8APNRXQ6",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/8APNRXQ6",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Ravinder et al.",
+        "parsedDate": "2023",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "8APNRXQ6",
+        "version": 8728,
+        "itemType": "presentation",
+        "title": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster",
+        "creators": [
+          {
+            "creatorType": "presenter",
+            "firstName": "Rohitha",
+            "lastName": "Ravinder"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Tim",
+            "lastName": "Fellerhoff"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Vishnu Vardhan",
+            "lastName": "Dadi"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Lukas",
+            "lastName": "Geist"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Guillermo",
+            "lastName": "Rocamora"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Muhammad",
+            "lastName": "Talha"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "",
+        "presentationType": "Poster",
+        "date": "2023",
+        "meetingName": "SWAT4HCLS 2023",
+        "place": "",
+        "series": "",
+        "sessionTitle": "",
+        "DOI": "",
+        "citationKey": "",
+        "url": "https://repository.publisso.de/resource/frl:6440397",
+        "accessDate": "2023-04-06T15:24:41Z",
+        "shortTitle": "",
+        "language": "en",
+        "rights": "",
+        "extra": "Medium: application/pdf\nPublisher: ZB MED - Informationszentrum Lebenswissenschaften\nhttps://doi.org/10.4126/FRL01-006440397",
+        "tags": [
+          {
+            "tag": "Document similarity"
+          },
+          {
+            "tag": "Named Entity Recognition"
+          },
+          {
+            "tag": "Word embeddings"
+          },
+          {
+            "tag": "dadi@zbmed.de"
+          },
+          {
+            "tag": "fellerhoff@zbmed.de"
+          },
+          {
+            "tag": "geist@zbmed.de"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "nfdi4ds"
+          },
+          {
+            "tag": "ontoclue"
+          },
+          {
+            "tag": "ravinder@zbmed.de"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "rebholz@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "stella-I"
+          },
+          {
+            "tag": "talha@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "PQHFVETK"
+        ],
+        "relations": {},
+        "dateAdded": "2023-04-06T15:25:48Z",
+        "dateModified": "2024-01-31T22:30:24Z"
+      }
+    }
+  }
+]

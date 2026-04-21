@@ -1,0 +1,1834 @@
+[
+  {
+    "key": "TJMQBQZ5",
+    "version": 11704,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/TJMQBQZ5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/TJMQBQZ5",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Thompson et al.",
+      "parsedDate": "2011-10-12",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "TJMQBQZ5",
+      "version": 11704,
+      "itemType": "journalArticle",
+      "title": "The BioLexicon: a large-scale terminological resource for biomedical text mining",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Paul",
+          "lastName": "Thompson"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "John",
+          "lastName": "McNaught"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Simonetta",
+          "lastName": "Montemagni"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nicoletta",
+          "lastName": "Calzolari"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Riccardo",
+          "lastName": "del Gratta"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Vivian",
+          "lastName": "Lee"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Simone",
+          "lastName": "Marchi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Monica",
+          "lastName": "Monachini"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Piotr",
+          "lastName": "Pezik"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Valeria",
+          "lastName": "Quochi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "C. J.",
+          "lastName": "Rupp"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yutaka",
+          "lastName": "Sasaki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Giulia",
+          "lastName": "Venturi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sophia",
+          "lastName": "Ananiadou"
+        }
+      ],
+      "abstractNote": "BACKGROUND: Due to the rapidly expanding body of biomedical literature, biologists require increasingly sophisticated and efficient systems to help them to search for relevant information. Such systems should account for the multiple written variants used to represent biomedical concepts, and allow the user to search for specific pieces of knowledge (or events) involving these concepts, e.g., protein-protein interactions. Such functionality requires access to detailed information about words used in the biomedical literature. Existing databases and ontologies often have a specific focus and are oriented towards human use. Consequently, biological knowledge is dispersed amongst many resources, which often do not attempt to account for the large and frequently changing set of variants that appear in the literature. Additionally, such resources typically do not provide information about how terms relate to each other in texts to describe events.\nRESULTS: This article provides an overview of the design, construction and evaluation of a large-scale lexical and conceptual resource for the biomedical domain, the BioLexicon. The resource can be exploited by text mining tools at several levels, e.g., part-of-speech tagging, recognition of biomedical entities, and the extraction of events in which they are involved. As such, the BioLexicon must account for real usage of words in biomedical texts. In particular, the BioLexicon gathers together different types of terms from several existing data resources into a single, unified repository, and augments them with new term variants automatically extracted from biomedical literature. Extraction of events is facilitated through the inclusion of biologically pertinent verbs (around which events are typically organized) together with information about typical patterns of grammatical and semantic behaviour, which are acquired from domain-specific texts. In order to foster interoperability, the BioLexicon is modelled using the Lexical Markup Framework, an ISO standard.\nCONCLUSIONS: The BioLexicon contains over 2.2 M lexical entries and over 1.8 M terminological variants, as well as over 3.3 M semantic relations, including over 2 M synonymy relations. Its exploitation can benefit both application developers and users. We demonstrate some such benefits by describing integration of the resource into a number of different tools, and evaluating improvements in performance that this can bring.",
+      "publicationTitle": "BMC bioinformatics",
+      "publisher": "",
+      "place": "",
+      "date": "2011-10-12",
+      "volume": "12",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "397",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "BMC Bioinformatics",
+      "DOI": "10.1186/1471-2105-12-397",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "PMID": "21992002",
+      "PMCID": "PMC3228855",
+      "ISSN": "1471-2105",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "The BioLexicon",
+      "language": "eng",
+      "libraryCatalog": "PubMed",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Computational Biology"
+        },
+        {
+          "tag": "Data Mining"
+        },
+        {
+          "tag": "Databases, Factual"
+        },
+        {
+          "tag": "Humans"
+        },
+        {
+          "tag": "Semantics"
+        },
+        {
+          "tag": "Vocabulary, Controlled"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "E23H8UGA"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:20Z",
+      "dateModified": "2020-09-18T08:59:20Z"
+    }
+  },
+  {
+    "key": "EJNR9MEZ",
+    "version": 11704,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/EJNR9MEZ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/EJNR9MEZ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Hoehndorf et al.",
+      "parsedDate": "2011-04-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "EJNR9MEZ",
+      "version": 11704,
+      "itemType": "journalArticle",
+      "title": "A common layer of interoperability for biomedical ontologies based on OWL EL",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Hoehndorf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michel",
+          "lastName": "Dumontier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Anika",
+          "lastName": "Oellrich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sarala",
+          "lastName": "Wimalaratne"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Paul",
+          "lastName": "Schofield"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Georgios V.",
+          "lastName": "Gkoutos"
+        }
+      ],
+      "abstractNote": "Motivation: Ontologies are essential in biomedical research due to their ability to semantically integrate content from different scientific databases and resources. Their application improves capabilities for querying and mining biological knowledge. An increasing number of ontologies is being developed for this purpose, and considerable effort is invested into formally defining them in order to represent their semantics explicitly. However, current biomedical ontologies do not facilitate data integration and interoperability yet, since reasoning over these ontologies is very complex and cannot be performed efficiently or is even impossible. We propose the use of less expressive subsets of ontology representation languages to enable efficient reasoning and achieve the goal of genuine interoperability between ontologies., Results: We present and evaluate EL Vira, a framework that transforms OWL ontologies into the OWL EL subset, thereby enabling the use of tractable reasoning. We illustrate which OWL constructs and inferences are kept and lost following the conversion and demonstrate the performance gain of reasoning indicated by the significant reduction of processing time. We applied EL Vira to the open biomedical ontologies and provide a repository of ontologies resulting from this conversion. EL Vira creates a common layer of ontological interoperability that, for the first time, enables the creation of software solutions that can employ biomedical ontologies to perform inferences and answer complex queries to support scientific analyses., Availability and implementation: The EL Vira software is available from http://el-vira.googlecode.com and converted OBO ontologies and their mappings are available from http://bioonto.gen.cam.ac.uk/el-ont., Contact: rh497@cam.ac.uk",
+      "publicationTitle": "Bioinformatics",
+      "publisher": "",
+      "place": "",
+      "date": "2011-4-1",
+      "volume": "27",
+      "issue": "7",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1001-1008",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Bioinformatics",
+      "DOI": "10.1093/bioinformatics/btr058",
+      "citationKey": "",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3065691/",
+      "accessDate": "2020-09-14T09:34:07Z",
+      "PMID": "21343142",
+      "PMCID": "PMC3065691",
+      "ISSN": "1367-4803",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "PubMed Central",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "E23H8UGA"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:20Z",
+      "dateModified": "2020-09-18T08:59:20Z"
+    }
+  },
+  {
+    "key": "UEPEBIDC",
+    "version": 11704,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/UEPEBIDC",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/UEPEBIDC",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "McEntyre et al.",
+      "parsedDate": "2011-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "UEPEBIDC",
+      "version": 11704,
+      "itemType": "journalArticle",
+      "title": "UKPMC: a full text article resource for the life sciences",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Johanna R.",
+          "lastName": "McEntyre"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sophia",
+          "lastName": "Ananiadou"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stephen",
+          "lastName": "Andrews"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "William J.",
+          "lastName": "Black"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Richard",
+          "lastName": "Boulderstone"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Paula",
+          "lastName": "Buttery"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Chaplin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sandeepreddy",
+          "lastName": "Chevuru"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Norman",
+          "lastName": "Cobley"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lee-Ann",
+          "lastName": "Coleman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Paul",
+          "lastName": "Davey"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bharti",
+          "lastName": "Gupta"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lesley",
+          "lastName": "Haji-Gholam"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Craig",
+          "lastName": "Hawkins"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alan",
+          "lastName": "Horne"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Simon J.",
+          "lastName": "Hubbard"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jee-Hyub",
+          "lastName": "Kim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ian",
+          "lastName": "Lewin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Vic",
+          "lastName": "Lyte"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ross",
+          "lastName": "MacIntyre"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sami",
+          "lastName": "Mansoor"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Linda",
+          "lastName": "Mason"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "John",
+          "lastName": "McNaught"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Elizabeth",
+          "lastName": "Newbold"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Chikashi",
+          "lastName": "Nobata"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ernest",
+          "lastName": "Ong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sharmila",
+          "lastName": "Pillai"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Heather",
+          "lastName": "Rosie"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rob",
+          "lastName": "Rowbotham"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "C. J.",
+          "lastName": "Rupp"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter",
+          "lastName": "Stoehr"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Philip",
+          "lastName": "Vaughan"
+        }
+      ],
+      "abstractNote": "UK PubMed Central (UKPMC) is a full-text article database that extends the functionality of the original PubMed Central (PMC) repository. The UKPMC project was launched as the first ‘mirror’ site to PMC, which in analogy to the International Nucleotide Sequence Database Collaboration, aims to provide international preservation of the open and free-access biomedical literature. UKPMC (http://ukpmc.ac.uk) has undergone considerable development since its inception in 2007 and now includes both a UKPMC and PubMed search, as well as access to other records such as Agricola, Patents and recent biomedical theses. UKPMC also differs from PubMed/PMC in that the full text and abstract information can be searched in an integrated manner from one input box. Furthermore, UKPMC contains ‘Cited By’ information as an alternative way to navigate the literature and has incorporated text-mining approaches to semantically enrich content and integrate it with related database resources. Finally, UKPMC also offers added-value services (UKPMC+) that enable grantees to deposit manuscripts, link papers to grants, publish online portfolios and view citation information on their papers. Here we describe UKPMC and clarify the relationship between PMC and UKPMC, providing historical context and future directions, 10 years on from when PMC was first launched.",
+      "publicationTitle": "Nucleic Acids Research",
+      "publisher": "",
+      "place": "",
+      "date": "2011-1",
+      "volume": "39",
+      "issue": "Database issue",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "D58-D65",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Nucleic Acids Res",
+      "DOI": "10.1093/nar/gkq1063",
+      "citationKey": "",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3013671/",
+      "accessDate": "2020-09-14T09:20:44Z",
+      "PMID": "21062818",
+      "PMCID": "PMC3013671",
+      "ISSN": "0305-1048",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "UKPMC",
+      "language": "",
+      "libraryCatalog": "PubMed Central",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "E23H8UGA"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:20Z",
+      "dateModified": "2020-09-18T08:59:20Z"
+    }
+  },
+  {
+    "key": "IVRURSVJ",
+    "version": 2721,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/IVRURSVJ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/IVRURSVJ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann et al.",
+      "parsedDate": "2011-10-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "IVRURSVJ",
+      "version": 2721,
+      "itemType": "journalArticle",
+      "title": "Assessment of NER solutions against the first and second CALBC Silver Standard Corpus",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Antonio Jimeno",
+          "lastName": "Yepes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Chen",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Senay",
+          "lastName": "Kafkas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ian",
+          "lastName": "Lewin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ning",
+          "lastName": "Kang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter",
+          "lastName": "Corbett"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Milward"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ekaterina",
+          "lastName": "Buyko"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Elena",
+          "lastName": "Beisswanger"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kerstin",
+          "lastName": "Hornbostel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexandre",
+          "lastName": "Kouznetsov"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "René",
+          "lastName": "Witte"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jonas B.",
+          "lastName": "Laurila"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christopher JO",
+          "lastName": "Baker"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Cheng-Ju",
+          "lastName": "Kuo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Simone",
+          "lastName": "Clematide"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fabio",
+          "lastName": "Rinaldi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Richárd",
+          "lastName": "Farkas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "György",
+          "lastName": "Móra"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kazuo",
+          "lastName": "Hara"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Laura I.",
+          "lastName": "Furlong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Rautschka"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mariana Lara",
+          "lastName": "Neves"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alberto",
+          "lastName": "Pascual-Montano"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Qi",
+          "lastName": "Wei"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nigel",
+          "lastName": "Collier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Md Faisal Mahbub",
+          "lastName": "Chowdhury"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alberto",
+          "lastName": "Lavelli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rafael",
+          "lastName": "Berlanga"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Roser",
+          "lastName": "Morante"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Vincent",
+          "lastName": "Van Asch"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Walter",
+          "lastName": "Daelemans"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "José Luís",
+          "lastName": "Marina"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Erik",
+          "lastName": "van Mulligen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jan",
+          "lastName": "Kors"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Udo",
+          "lastName": "Hahn"
+        }
+      ],
+      "abstractNote": "Competitions in text mining have been used to measure the performance of automatic text processing solutions against a manually annotated gold standard corpus (GSC). The preparation of the GSC is time-consuming and costly and the final corpus consists at the most of a few thousand documents annotated with a limited set of semantic groups. To overcome these shortcomings, the CALBC project partners (PPs) have produced a large-scale annotated biomedical corpus with four different semantic groups through the harmonisation of annotations from automatic text mining solutions, the first version of the Silver Standard Corpus (SSC-I). The four semantic groups are chemical entities and drugs (CHED), genes and proteins (PRGE), diseases and disorders (DISO) and species (SPE). This corpus has been used for the First CALBC Challenge asking the participants to annotate the corpus with their text processing solutions.",
+      "publicationTitle": "Journal of Biomedical Semantics",
+      "publisher": "",
+      "place": "",
+      "date": "2011-10-06",
+      "volume": "2",
+      "issue": "5",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "S11",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Journal of Biomedical Semantics",
+      "DOI": "10.1186/2041-1480-2-S5-S11",
+      "citationKey": "",
+      "url": "https://doi.org/10.1186/2041-1480-2-S5-S11",
+      "accessDate": "2020-09-14T09:34:55Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "2041-1480",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "BioMed Central",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "E23H8UGA"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:20Z",
+      "dateModified": "2020-09-18T08:59:20Z"
+    }
+  },
+  {
+    "key": "8BB569H2",
+    "version": 2620,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/8BB569H2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/8BB569H2",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Kim and Rebholz-Schuhmann",
+      "parsedDate": "2011-10-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "8BB569H2",
+      "version": 2620,
+      "itemType": "journalArticle",
+      "title": "Improving the extraction of complex regulatory events from scientific text by using ontology-based inference",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jung-jae",
+          "lastName": "Kim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "The extraction of complex events from biomedical text is a challenging task and requires in-depth semantic analysis. Previous approaches associate lexical and syntactic resources with ontologies for the semantic analysis, but fall short in testing the benefits from the use of domain knowledge.",
+      "publicationTitle": "Journal of Biomedical Semantics",
+      "publisher": "",
+      "place": "",
+      "date": "2011-10-06",
+      "volume": "2",
+      "issue": "5",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "S3",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Journal of Biomedical Semantics",
+      "DOI": "10.1186/2041-1480-2-S5-S3",
+      "citationKey": "",
+      "url": "https://doi.org/10.1186/2041-1480-2-S5-S3",
+      "accessDate": "2020-09-14T09:57:40Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "2041-1480",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "BioMed Central",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "E23H8UGA"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:20Z",
+      "dateModified": "2020-09-18T08:59:20Z"
+    }
+  },
+  {
+    "key": "5CURZ4XA",
+    "version": 2618,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/5CURZ4XA",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/5CURZ4XA",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Yan et al.",
+      "parsedDate": "2011-07-26",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "5CURZ4XA",
+      "version": 2618,
+      "itemType": "conferencePaper",
+      "title": "Use of multiple ontologies to characterize the bioactivity of small molecules",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ying",
+          "lastName": "Yan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Janna",
+          "lastName": "Hastings"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jee-Hyub",
+          "lastName": "Kim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stefan",
+          "lastName": "Schulz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Steinbeck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "proceedingsTitle": "Proceedings of the 2nd International Conference on Biomedical Ontology",
+      "conferenceName": "ICBO-2011 International Conference on Biomedical Ontology",
+      "publisher": "",
+      "place": "Buffalo",
+      "date": "2011-07-26",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "http://ceur-ws.org/Vol-833/paper68.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "E23H8UGA"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:20Z",
+      "dateModified": "2020-09-18T08:59:20Z"
+    }
+  },
+  {
+    "key": "9C3SZVGT",
+    "version": 2617,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/9C3SZVGT",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/9C3SZVGT",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Hoehndorf et al.",
+      "parsedDate": "2011-07-18",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "9C3SZVGT",
+      "version": 2617,
+      "itemType": "journalArticle",
+      "title": "Interoperability between Biomedical Ontologies through Relation Expansion, Upper-Level Ontologies and Automatic Reasoning",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Hoehndorf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michel",
+          "lastName": "Dumontier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Anika",
+          "lastName": "Oellrich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Paul N.",
+          "lastName": "Schofield"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Georgios V.",
+          "lastName": "Gkoutos"
+        }
+      ],
+      "abstractNote": "Researchers design ontologies as a means to accurately annotate and integrate experimental data across heterogeneous and disparate data- and knowledge bases. Formal ontologies make the semantics of terms and relations explicit such that automated reasoning can be used to verify the consistency of knowledge. However, many biomedical ontologies do not sufficiently formalize the semantics of their relations and are therefore limited with respect to automated reasoning for large scale data integration and knowledge discovery. We describe a method to improve automated reasoning over biomedical ontologies and identify several thousand contradictory class definitions. Our approach aligns terms in biomedical ontologies with foundational classes in a top-level ontology and formalizes composite relations as class expressions. We describe the semi-automated repair of contradictions and demonstrate expressive queries over interoperable ontologies. Our work forms an important cornerstone for data integration, automatic inference and knowledge discovery based on formal representations of knowledge. Our results and analysis software are available at http://bioonto.de/pmwiki.php/Main/ReasonableOntologies.",
+      "publicationTitle": "PLOS ONE",
+      "publisher": "",
+      "place": "",
+      "date": "2011-07-18",
+      "volume": "6",
+      "issue": "7",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "e22006",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "PLOS ONE",
+      "DOI": "10.1371/journal.pone.0022006",
+      "citationKey": "",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0022006",
+      "accessDate": "2020-09-14T09:20:03Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1932-6203",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "PLoS Journals",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Animal anatomy"
+        },
+        {
+          "tag": "Fungal spores"
+        },
+        {
+          "tag": "Inflammation"
+        },
+        {
+          "tag": "Liver"
+        },
+        {
+          "tag": "Ontologies"
+        },
+        {
+          "tag": "Owls"
+        },
+        {
+          "tag": "Secretion"
+        },
+        {
+          "tag": "Semantics"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "E23H8UGA"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:20Z",
+      "dateModified": "2020-09-18T08:59:20Z"
+    }
+  },
+  {
+    "key": "EIZH6FPQ",
+    "version": 2615,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/EIZH6FPQ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/EIZH6FPQ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Croset et al.",
+      "parsedDate": "2011-03-21",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "EIZH6FPQ",
+      "version": 2615,
+      "itemType": "journalArticle",
+      "title": "A Semantic Model for Federated Queries Over a Normalized Corpus",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Samuel",
+          "lastName": "Croset"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Grabmüller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "We present here a model implemented in OWL which improves information retrieval and data integration of the corpus. The model is populated with entities from CALBC and some simple queries over it are presented.",
+      "publicationTitle": "Nature Precedings",
+      "publisher": "",
+      "place": "",
+      "date": "2011-03-21",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1-1",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1038/npre.2011.5823.2",
+      "citationKey": "",
+      "url": "https://www.nature.com/articles/npre.2011.5823.2",
+      "accessDate": "2020-09-14T09:34:35Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1756-0357",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "www.nature.com",
+      "callNumber": "",
+      "rights": "2011 The Author(s)",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "E23H8UGA"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:20Z",
+      "dateModified": "2020-09-18T08:59:20Z"
+    }
+  },
+  {
+    "key": "6P94RWKS",
+    "version": 2613,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/6P94RWKS",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/6P94RWKS",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann",
+      "parsedDate": "2011",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "6P94RWKS",
+      "version": 2613,
+      "itemType": "conferencePaper",
+      "title": "Semantic interoperability between literature and data resources: from genes to diseases",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "The analysis of gene-disease associations requires the integration of different data resources, e.g. the functional annotations of genes and proteins with expression studies. The scientific literature provides additional data for the interpretation of the phenotypic expression on the molecular and on the anatomical level [3]. This leads into the need to transform the literature into a representation which is semantically interoperable with the other biomedical data resources.\n The literature research team at the European Bioinformatics Institute has established solutions for the standardisation of the scientific literature and the integration into other data resources. The presentation will give an overview, will explain how ontological resources contribute to semantic interoperability and will show how relevant information can be extracted from the scientific literature.",
+      "proceedingsTitle": "DTMBIO '11",
+      "conferenceName": "",
+      "publisher": "",
+      "place": "",
+      "date": "2011",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.1145/2064696.2064698",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Semantic interoperability between literature and data resources",
+      "language": "",
+      "libraryCatalog": "Semantic Scholar",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "E23H8UGA"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:20Z",
+      "dateModified": "2020-09-18T08:59:20Z"
+    }
+  },
+  {
+    "key": "SLBX6AZ6",
+    "version": 2612,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/SLBX6AZ6",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/SLBX6AZ6",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Kafkas et al.",
+      "parsedDate": "2011",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "SLBX6AZ6",
+      "version": 2612,
+      "itemType": "journalArticle",
+      "title": "Diversity in the Interactions of Isoforms Linked to Clustered Transcripts: A Systematic Literature Analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Şenay",
+          "lastName": "Kafkas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ekrem",
+          "lastName": "Varoğlu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bahar",
+          "lastName": "Taneri"
+        }
+      ],
+      "abstractNote": "Existing protein-protein interactions databases cover only a portion of the interactome and interaction information on protein isoforms is underrepresented. This leads to a lack of information on the functional similarity of protein isoforms and the effects of transcript diversity on the protein interaction networks. We present a comprehensive automated literature analysis that extracts interactions involving human protein isoforms linked to clusters of transcripts with high sequence similarity and deliver them in a database called TBIID for knowledge discovery. We measure the interaction variability of the isoforms from the clustered transcripts by analysing the distribution of their interaction partners in TBIID. Almost all clusters analyzed (99%) contain isoforms with unique partners indicating that isoforms are specialized towards forming unique interactions and thus achieving functional diversity, which is similar to the results from public resources. TBIID is available at http://tbiid.emu.edu.tr containing most relevant candidates for future experiments focusing on understanding the isoform interaction networks and the resulting functional implications.",
+      "publicationTitle": "Journal of Proteomics & Bioinformatics",
+      "publisher": "",
+      "place": "",
+      "date": "2011",
+      "volume": "4",
+      "issue": "11",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1-10",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.4172/jpb.1000198",
+      "citationKey": "",
+      "url": "https://www.longdom.org/abstract/diversity-in-the-interactions-of-isoforms-linked-to-clustered-transcripts-a-systematic-literature-analysis-32318.html",
+      "accessDate": "2020-09-14T09:50:07Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0974-276X",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Diversity in the Interactions of Isoforms Linked to Clustered Transcripts",
+      "language": "en",
+      "libraryCatalog": "www.longdom.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "E23H8UGA"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:20Z",
+      "dateModified": "2020-09-18T08:59:20Z"
+    }
+  },
+  {
+    "key": "2B7Q62PT",
+    "version": 2611,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/2B7Q62PT",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/2B7Q62PT",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Hoehndorf et al.",
+      "parsedDate": "2011",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "2B7Q62PT",
+      "version": 2611,
+      "itemType": "journalArticle",
+      "title": "Ontology design patterns to disambiguate relations between genes and gene products in GENIA",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "R.",
+          "lastName": "Hoehndorf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Axel-Cyrille Ngonga",
+          "lastName": "Ngomo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sampo",
+          "lastName": "Pyysalo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "T.",
+          "lastName": "Ohta"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Oellrich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "MotivationAnnotated reference corpora play an important role in biomedical information extraction. A semantic annotation of the natural language texts in these reference corpora using formal ontologies is challenging due to the inherent ambiguity of natural language. The provision of formal definitions and axioms for semantic annotations offers the means for ensuring consistency as well as enables the development of verifiable annotation guidelines. Consistent semantic annotations facilitate the automatic discovery of new information through deductive inferences.ResultsWe provide a formal characterization of the relations used in the recent GENIA corpus annotations. For this purpose, we both select existing axiom systems based on the desired properties of the relations within the domain and develop new axioms for several relations. To apply this ontology of relations to the semantic annotation of text corpora, we implement two ontology design patterns. In addition, we provide a software application to convert annotated GENIA abstracts into OWL ontologies by combining both the ontology of relations and the design patterns. As a result, the GENIA abstracts become available as OWL ontologies and are amenable for automated verification, deductive inferences and other knowledge-based applications.AvailabilityDocumentation, implementation and examples are available from http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/.",
+      "publicationTitle": "J. Biomed. Semant.",
+      "publisher": "",
+      "place": "",
+      "date": "2011",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1186/2041-1480-2-S5-S1",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Semantic Scholar",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "E23H8UGA"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:20Z",
+      "dateModified": "2020-09-18T08:59:20Z"
+    }
+  },
+  {
+    "key": "JZP4Y4AY",
+    "version": 11704,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/JZP4Y4AY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/JZP4Y4AY",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Jimenez-Ruiz et al.",
+      "parsedDate": "2011-08-29",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "JZP4Y4AY",
+      "version": 11704,
+      "itemType": "conferencePaper",
+      "title": "Exploitation of Cross-References between Terminological Resources within the CALBC Context",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ernesto",
+          "lastName": "Jimenez-Ruiz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ian",
+          "lastName": "Lewin"
+        }
+      ],
+      "abstractNote": "In this paper we have analyzed current terminological resources in order to extract available cross-references (i.e. mappings) between biomedical terminologies. These cross-references have been applied within the CALBC challenge, an initiative which aims at automatically creating a large-scale and community-wide text corpus annotated with biomedical entities. We also show that cross-references are essential for a precise evaluation of the identifiers associated with the annotated entities by the CALBC systems.",
+      "proceedingsTitle": "22nd International Workshop on Database and Expert Systems Applications",
+      "conferenceName": "22nd International Workshop on Database and Expert Systems Applications",
+      "publisher": "",
+      "place": "Toulouse",
+      "date": "2011-08-29",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "455-459",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.1109/DEXA.2011.30",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "ISSN": "2378-3915",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "IEEE Xplore",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Bioinformatics"
+        },
+        {
+          "tag": "CALBC"
+        },
+        {
+          "tag": "CALBC context"
+        },
+        {
+          "tag": "Chemicals"
+        },
+        {
+          "tag": "Databases"
+        },
+        {
+          "tag": "Diseases"
+        },
+        {
+          "tag": "Proteins"
+        },
+        {
+          "tag": "Semantics"
+        },
+        {
+          "tag": "Unified modeling language"
+        },
+        {
+          "tag": "alignment"
+        },
+        {
+          "tag": "biomedical entities"
+        },
+        {
+          "tag": "biomedical terminologies"
+        },
+        {
+          "tag": "community-wide text corpus"
+        },
+        {
+          "tag": "cross-references"
+        },
+        {
+          "tag": "large-scale text corpus"
+        },
+        {
+          "tag": "mappings"
+        },
+        {
+          "tag": "medical information systems"
+        },
+        {
+          "tag": "normalization"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "terminological resources"
+        },
+        {
+          "tag": "thesaurus"
+        }
+      ],
+      "collections": [
+        "E23H8UGA"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:50:36Z",
+      "dateModified": "2020-09-18T08:50:36Z"
+    }
+  }
+]

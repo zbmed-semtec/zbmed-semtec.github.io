@@ -1,0 +1,2015 @@
+[
+  {
+    "key": "LSBDRZIS",
+    "version": 9476,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/LSBDRZIS",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/LSBDRZIS",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 8466868,
+        "username": "julianschneider",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/julianschneider",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann",
+      "parsedDate": "2010-09-09",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "LSBDRZIS",
+      "version": 9476,
+      "itemType": "journalArticle",
+      "title": "The ontology of primary immunodeficiency diseases (PIDs): using PIDs to rethink the ontology of phenotypes",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "The Ontology of Primary Immunodeficiency Diseases (PIDs)– Using PIDs to Rethink the Ontology of Phenotypes Nico Adams1, 3, Christian Hennig2, Robert Hoehndorf1, 3, Anika Oellrich1, Dietrich Rebholz-Schuhmann1, Gesine Hansen2 1European Bioinformatics",
+      "publicationTitle": "Proceedings of “Ontologies in Biomedicine and Life Sciences”. Institute for Medical Informatics, Statistics and Epidemiology (IMISE), University of Leipzig",
+      "publisher": "",
+      "place": "",
+      "date": "2010-09-09",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://www.academia.edu/32144056/The_ontology_of_primary_immunodeficiency_diseases_PIDs_using_PIDs_to_rethink_the_ontology_of_phenotypes",
+      "accessDate": "2020-09-14T08:17:18Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "The ontology of primary immunodeficiency diseases (PIDs)",
+      "language": "en",
+      "libraryCatalog": "www.academia.edu",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "⛔ No DOI found",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:57:45Z",
+      "dateModified": "2024-07-01T10:05:52Z"
+    }
+  },
+  {
+    "key": "AUDWFJG3",
+    "version": 9476,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/AUDWFJG3",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/AUDWFJG3",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 8466868,
+        "username": "julianschneider",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/julianschneider",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Jimenez-Ruiz et al.",
+      "parsedDate": "2010-12-07",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "AUDWFJG3",
+      "version": 9476,
+      "itemType": "journalArticle",
+      "title": "First steps in the logic-based assessment of post-composed phenotypic descriptions",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ernesto",
+          "lastName": "Jimenez-Ruiz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bernardo Cuenca",
+          "lastName": "Grau"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rafael",
+          "lastName": "Berlanga"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "In this paper we present a preliminary logic-based evaluation of the integration of post-composed phenotypic descriptions with domain ontologies. The evaluation has been performed using a description logic reasoner together with scalable techniques: ontology modularization and approximations of the logical difference between ontologies.",
+      "publicationTitle": "arXiv:1012.1659 [cs]",
+      "publisher": "",
+      "place": "",
+      "date": "2010-12-07",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/1012.1659",
+      "accessDate": "2020-09-14T08:56:12Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv: 1012.1659",
+      "tags": [
+        {
+          "tag": "Computer Science - Artificial Intelligence"
+        },
+        {
+          "tag": "Computer Science - Logic in Computer Science"
+        },
+        {
+          "tag": "J.3"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "⛔ No DOI found",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:58:47Z",
+      "dateModified": "2024-07-01T10:05:52Z"
+    }
+  },
+  {
+    "key": "W2ALAC33",
+    "version": 9476,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/W2ALAC33",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/W2ALAC33",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 8466868,
+        "username": "julianschneider",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/julianschneider",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Croset et al.",
+      "parsedDate": "2010-12-07",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "W2ALAC33",
+      "version": 9476,
+      "itemType": "journalArticle",
+      "title": "The CALBC RDF Triple Store: retrieval over large literature content",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Samuel",
+          "lastName": "Croset"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Grabmüller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Chen",
+          "lastName": "Li"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Silvestras",
+          "lastName": "Kavaliauskas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "Integration of the scientific literature into a biomedical research infrastructure requires the processing of the literature, identification of the contained named entities (NEs) and concepts, and to represent the content in a standardised way. The CALBC project partners (PPs) have produced a large-scale annotated biomedical corpus with four different semantic groups through the harmonisation of annotations from automatic text mining solutions (Silver Standard Corpus, SSC). The four semantic groups were chemical entities and drugs (CHED), genes and proteins (PRGE), diseases and disorders (DISO) and species (SPE). The content of the SSC has been fully integrated into RDF Triple Store (4,568,678 triples) and has been aligned with content from the GeneAtlas (182,840 triples), UniProtKb (12,552,239 triples for human) and the lexical resource LexEBI (BioLexicon). RDF Triple Store enables querying the scientific literature and bioinformatics resources at the same time for evidence of genetic causes, such as drug targets and disease involvement.",
+      "publicationTitle": "arXiv:1012.1650 [cs]",
+      "publisher": "",
+      "place": "",
+      "date": "2010-12-07",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/1012.1650",
+      "accessDate": "2020-09-14T08:13:52Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "The CALBC RDF Triple Store",
+      "language": "",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv: 1012.1650",
+      "tags": [
+        {
+          "tag": "Computer Science - Databases"
+        },
+        {
+          "tag": "Computer Science - Digital Libraries"
+        },
+        {
+          "tag": "J.3"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "⛔ No DOI found",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:58:47Z",
+      "dateModified": "2024-07-01T10:05:51Z"
+    }
+  },
+  {
+    "key": "QVHLA2K7",
+    "version": 11704,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/QVHLA2K7",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/QVHLA2K7",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Fuellen et al.",
+      "parsedDate": "2010-12",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "QVHLA2K7",
+      "version": 11704,
+      "itemType": "journalArticle",
+      "title": "Systems biology and bioinformatics in aging research: a workshop report",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Georg",
+          "lastName": "Fuellen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jörn",
+          "lastName": "Dengjel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Andreas",
+          "lastName": "Hoeflich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jan",
+          "lastName": "Hoeijemakers"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hans A.",
+          "lastName": "Kestler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Axel",
+          "lastName": "Kowald"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Steffen",
+          "lastName": "Priebe"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bernd",
+          "lastName": "Schmeck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ulf",
+          "lastName": "Schmitz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexandra",
+          "lastName": "Stolzing"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jürgen",
+          "lastName": "Sühnel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Wuttke"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julio",
+          "lastName": "Vera"
+        }
+      ],
+      "abstractNote": "In an \"aging society,\" health span extension is most important. As in 2010, talks in this series of meetings in Rostock-Warnemünde demonstrated that aging is an apparently very complex process, where computational work is most useful for gaining insights and to find interventions that counter aging and prevent or counteract aging-related diseases. The specific topics of this year's meeting entitled, \"RoSyBA: Rostock Symposium on Systems Biology and Bioinformatics in Ageing Research,\" were primarily related to \"Cancer and Aging\" and also had a focus on work funded by the German Federal Ministry of Education and Research (BMBF). The next meeting in the series, scheduled for September 20-21, 2013, will focus on the use of ontologies for computational research into aging, stem cells, and cancer. Promoting knowledge formalization is also at the core of the set of proposed action items concluding this report.",
+      "publicationTitle": "Rejuvenation Research",
+      "publisher": "",
+      "place": "",
+      "date": "2010-12",
+      "volume": "15",
+      "issue": "6",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "631-641",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Rejuvenation Res",
+      "DOI": "10.1089/rej.2012.1360",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "PMID": "22950424",
+      "PMCID": "",
+      "ISSN": "1557-8577",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Systems biology and bioinformatics in aging research",
+      "language": "eng",
+      "libraryCatalog": "PubMed",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Aging"
+        },
+        {
+          "tag": "Animals"
+        },
+        {
+          "tag": "Caenorhabditis elegans"
+        },
+        {
+          "tag": "Cellular Senescence"
+        },
+        {
+          "tag": "Computational Biology"
+        },
+        {
+          "tag": "Diet"
+        },
+        {
+          "tag": "Humans"
+        },
+        {
+          "tag": "Mice"
+        },
+        {
+          "tag": "Research"
+        },
+        {
+          "tag": "Stress, Physiological"
+        },
+        {
+          "tag": "Systems Biology"
+        },
+        {
+          "tag": "Zebrafish"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:58:47Z",
+      "dateModified": "2020-09-18T08:58:47Z"
+    }
+  },
+  {
+    "key": "X7X9TINE",
+    "version": 11704,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/X7X9TINE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/X7X9TINE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Hoehndorf et al.",
+      "parsedDate": "2010-12-15",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "X7X9TINE",
+      "version": 11704,
+      "itemType": "journalArticle",
+      "title": "Interoperability between phenotype and anatomy ontologies",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Hoehndorf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Anika",
+          "lastName": "Oellrich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "Motivation: Phenotypic information is important for the analysis of the molecular mechanisms underlying disease. A formal ontological representation of phenotypic information can help to identify, interpret and infer phenotypic traits based on experimental findings. The methods that are currently used to represent data and information about phenotypes fail to make the semantics of the phenotypic trait explicit and do not interoperate with ontologies of anatomy and other domains. Therefore, valuable resources for the analysis of phenotype studies remain unconnected and inaccessible to automated analysis and reasoning., Results: We provide a framework to formalize phenotypic descriptions and make their semantics explicit. Based on this formalization, we provide the means to integrate phenotypic descriptions with ontologies of other domains, in particular anatomy and physiology. We demonstrate how our framework leads to the capability to represent disease phenotypes, perform powerful queries that were not possible before and infer additional knowledge., Availability: http://bioonto.de/pmwiki.php/Main/PheneOntology, Contact: rh497@cam.ac.uk",
+      "publicationTitle": "Bioinformatics",
+      "publisher": "",
+      "place": "",
+      "date": "2010-12-15",
+      "volume": "26",
+      "issue": "24",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "3112-3118",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Bioinformatics",
+      "DOI": "10.1093/bioinformatics/btq578",
+      "citationKey": "",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2995119/",
+      "accessDate": "2020-09-14T08:51:33Z",
+      "PMID": "20971987",
+      "PMCID": "PMC2995119",
+      "ISSN": "1367-4803",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "PubMed Central",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:58:47Z",
+      "dateModified": "2020-09-18T08:58:47Z"
+    }
+  },
+  {
+    "key": "SXHGTDDI",
+    "version": 11704,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/SXHGTDDI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/SXHGTDDI",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann et al.",
+      "parsedDate": "2010-10",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "SXHGTDDI",
+      "version": 11704,
+      "itemType": "journalArticle",
+      "title": "Text-mining solutions for biomedical research: enabling integrative biology",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Anika",
+          "lastName": "Oellrich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Hoehndorf"
+        }
+      ],
+      "abstractNote": "In response to the unbridled growth of information in literature and biomedical databases, researchers require efficient means of handling and extracting information. As well as providing background information for research, scientific publications can be processed to transform textual information into database content or complex networks and can be integrated with existing knowledge resources to suggest novel hypotheses. Information extraction and text data analysis can be particularly relevant and helpful in genetics and biomedical research, in which up-to-date information about complex processes involving genes, proteins and phenotypes is crucial. Here we explore the latest advancements in automated literature analysis and its contribution to innovative research approaches.",
+      "publicationTitle": "Nature Reviews. Genetics",
+      "publisher": "",
+      "place": "",
+      "date": "2010-10-00",
+      "volume": "13",
+      "issue": "12",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "829-839",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Nat. Rev. Genet.",
+      "DOI": "10.1038/nrg3337",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "PMID": "23150036",
+      "PMCID": "",
+      "ISSN": "1471-0064",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Text-mining solutions for biomedical research",
+      "language": "eng",
+      "libraryCatalog": "PubMed",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Animals"
+        },
+        {
+          "tag": "Biomedical Research"
+        },
+        {
+          "tag": "Data Mining"
+        },
+        {
+          "tag": "Databases, Factual"
+        },
+        {
+          "tag": "Humans"
+        },
+        {
+          "tag": "Knowledge Bases"
+        },
+        {
+          "tag": "Publications"
+        },
+        {
+          "tag": "Systems Biology"
+        },
+        {
+          "tag": "Systems Integration"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:57:45Z",
+      "dateModified": "2020-09-18T08:57:45Z"
+    }
+  },
+  {
+    "key": "IQCY4BHV",
+    "version": 11704,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/IQCY4BHV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/IQCY4BHV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann and Nenadic",
+      "parsedDate": "2010-03-31",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "IQCY4BHV",
+      "version": 11704,
+      "itemType": "journalArticle",
+      "title": "Biomedical Semantics: the Hub for Biomedical Research 2.0",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Goran",
+          "lastName": "Nenadic"
+        }
+      ],
+      "abstractNote": "null",
+      "publicationTitle": "Journal of Biomedical Semantics",
+      "publisher": "",
+      "place": "",
+      "date": "2010-3-31",
+      "volume": "1",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "J Biomed Semantics",
+      "DOI": "10.1186/2041-1480-1-1",
+      "citationKey": "",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2895735/",
+      "accessDate": "2020-09-14T08:58:17Z",
+      "PMID": "20618983",
+      "PMCID": "PMC2895735",
+      "ISSN": "2041-1480",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Biomedical Semantics",
+      "language": "",
+      "libraryCatalog": "PubMed Central",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:57:45Z",
+      "dateModified": "2020-09-18T08:57:45Z"
+    }
+  },
+  {
+    "key": "A3QJCI86",
+    "version": 11704,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/A3QJCI86",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/A3QJCI86",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann et al.",
+      "parsedDate": "2010-02-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "A3QJCI86",
+      "version": 11704,
+      "itemType": "journalArticle",
+      "title": "Calbc silver standard corpus",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Antonio José Jimeno",
+          "lastName": "Yepes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Erik M.",
+          "lastName": "Van Mulligen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ning",
+          "lastName": "Kang"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jan",
+          "lastName": "Kors"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Milward"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter",
+          "lastName": "Corbett"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ekaterina",
+          "lastName": "Buyko"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Elena",
+          "lastName": "Beisswanger"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Udo",
+          "lastName": "Hahn"
+        }
+      ],
+      "abstractNote": "The CALBC initiative aims to provide a large-scale biomedical text corpus that contains semantic annotations for named entities of different kinds. The generation of this corpus requires that the annotations from different automatic annotation systems be harmonized. In the first phase, the annotation systems from five participants (EMBL-EBI, EMC Rotterdam, NLM, JULIE Lab Jena, and Linguamatics) were gathered. All annotations were delivered in a common annotation format that included concept identifiers in the boundary assignments and that enabled comparison and alignment of the results. During the harmonization phase, the results produced from those different systems were integrated in a single harmonized corpus (\"silver standard\" corpus) by applying a voting scheme. We give an overview of the processed data and the principles of harmonization — formal boundary reconciliation and semantic matching of named entities. Finally, all submissions of the participants were evaluated against that silver standard corpus. We found that species and disease annotations are better standardized amongst the partners than the annotations of genes and proteins. The raw corpus is now available for additional named entity annotations. Parts of it will be made available later on for a public challenge. We expect that we can improve corpus building activities both in terms of the numbers of named entity classes being covered, as well as the size of the corpus in terms of annotated documents.",
+      "publicationTitle": "Journal of Bioinformatics and Computational Biology",
+      "publisher": "Imperial College Press",
+      "place": "",
+      "date": "2010-02-01",
+      "volume": "08",
+      "issue": "01",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "163-179",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "J. Bioinform. Comput. Biol.",
+      "DOI": "10.1142/S0219720010004562",
+      "citationKey": "",
+      "url": "https://www.worldscientific.com/doi/abs/10.1142/S0219720010004562",
+      "accessDate": "2020-09-17T09:03:27Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0219-7200",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "worldscientific.com (Atypon)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:57:45Z",
+      "dateModified": "2020-09-18T08:57:45Z"
+    }
+  },
+  {
+    "key": "5A64PKWH",
+    "version": 2606,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/5A64PKWH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/5A64PKWH",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Kafkas et al.",
+      "parsedDate": "2010-10-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "5A64PKWH",
+      "version": 2606,
+      "itemType": "journalArticle",
+      "title": "Functional variation of alternative splice forms in their protein interaction networks: a literature mining approach",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Şenay",
+          "lastName": "Kafkas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ekrem",
+          "lastName": "Varoğlu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bahar",
+          "lastName": "Taneri"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "BMC Bioinformatics",
+      "publisher": "",
+      "place": "",
+      "date": "2010-10-06",
+      "volume": "11",
+      "issue": "5",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "P1",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "BMC Bioinformatics",
+      "DOI": "10.1186/1471-2105-11-S5-P1",
+      "citationKey": "",
+      "url": "https://doi.org/10.1186/1471-2105-11-S5-P1",
+      "accessDate": "2020-09-14T08:52:24Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1471-2105",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Functional variation of alternative splice forms in their protein interaction networks",
+      "language": "",
+      "libraryCatalog": "BioMed Central",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:57:45Z",
+      "dateModified": "2020-09-18T08:57:45Z"
+    }
+  },
+  {
+    "key": "GXBRFSVJ",
+    "version": 2603,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/GXBRFSVJ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/GXBRFSVJ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Hoehndorf et al.",
+      "parsedDate": "2010-08-31",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "GXBRFSVJ",
+      "version": 2603,
+      "itemType": "journalArticle",
+      "title": "Relations as patterns: bridging the gap between OBO and OWL",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Hoehndorf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Anika",
+          "lastName": "Oellrich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michel",
+          "lastName": "Dumontier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Janet",
+          "lastName": "Kelso"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Heinrich",
+          "lastName": "Herre"
+        }
+      ],
+      "abstractNote": "Most biomedical ontologies are represented in the OBO Flatfile Format, which is an easy-to-use graph-based ontology language. The semantics of the OBO Flatfile Format 1.2 enforces a strict predetermined interpretation of relationship statements between classes. It does not allow flexible specifications that provide better approximations of the intuitive understanding of the considered relations. If relations cannot be accurately expressed then ontologies built upon them may contain false assertions and hence lead to false inferences. Ontologies in the OBO Foundry must formalize the semantics of relations according to the OBO Relationship Ontology (RO). Therefore, being able to accurately express the intended meaning of relations is of crucial importance. Since the Web Ontology Language (OWL) is an expressive language with a formal semantics, it is suitable to de ne the meaning of relations accurately.",
+      "publicationTitle": "BMC Bioinformatics",
+      "publisher": "",
+      "place": "",
+      "date": "2010-08-31",
+      "volume": "11",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "441",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "BMC Bioinformatics",
+      "DOI": "10.1186/1471-2105-11-441",
+      "citationKey": "",
+      "url": "https://doi.org/10.1186/1471-2105-11-441",
+      "accessDate": "2020-09-14T08:09:46Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1471-2105",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Relations as patterns",
+      "language": "",
+      "libraryCatalog": "BioMed Central",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:57:45Z",
+      "dateModified": "2020-09-18T08:57:45Z"
+    }
+  },
+  {
+    "key": "WSMNABKY",
+    "version": 2602,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/WSMNABKY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/WSMNABKY",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Jimeno-Yepes et al.",
+      "parsedDate": "2010-07-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "WSMNABKY",
+      "version": 2602,
+      "itemType": "journalArticle",
+      "title": "Ontology refinement for improved information retrieval",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Antonio",
+          "lastName": "Jimeno-Yepes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rafael",
+          "lastName": "Berlanga-Llavori"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "Ontologies are frequently used in information retrieval being their main applications the expansion of queries, semantic indexing of documents and the organization of search results. Ontologies provide lexical items, allow conceptual normalization and provide different types of relations. However, the optimization of an ontology to perform information retrieval tasks is still unclear. In this paper, we use an ontology query model to analyze the usefulness of ontologies in effectively performing document searches. Moreover, we propose an algorithm to refine ontologies for information retrieval tasks with preliminary positive results.",
+      "publicationTitle": "Information Processing & Management",
+      "publisher": "",
+      "place": "",
+      "date": "2010-07-01",
+      "volume": "46",
+      "issue": "4",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "426-435",
+      "series": "Semantic Annotations in Information Retrieval",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Information Processing & Management",
+      "DOI": "10.1016/j.ipm.2009.05.008",
+      "citationKey": "",
+      "url": "http://www.sciencedirect.com/science/article/pii/S0306457309000636",
+      "accessDate": "2020-09-14T08:50:56Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "0306-4573",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "ScienceDirect",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Information extraction"
+        },
+        {
+          "tag": "Information retrieval"
+        },
+        {
+          "tag": "Lexicon cleansing"
+        },
+        {
+          "tag": "Ontology refinement"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:57:45Z",
+      "dateModified": "2020-09-18T08:57:45Z"
+    }
+  },
+  {
+    "key": "92IQN5SR",
+    "version": 2601,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/92IQN5SR",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/92IQN5SR",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann et al.",
+      "parsedDate": "2010-05-17",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "92IQN5SR",
+      "version": 2601,
+      "itemType": "conferencePaper",
+      "title": "The CALBC Silver Standard Corpus for Biomedical Named Entities: A Study in Harmonizing the Contributions from Four Independent Named Entity Taggers",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Antonio",
+          "lastName": "JImeno-Yepes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Erik M.",
+          "lastName": "van Mulligen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ning",
+          "lastName": "Kang"
+        }
+      ],
+      "abstractNote": "PDF | On Jan 1, 2010, Dietrich Rebholz-Schuhmann and others published The CALBC Silver Standard Corpus for Biomedical Named Entities: A Study in Harmonizing the Contributions from Four Independent Named Entity Taggers | Find, read and cite all the research you need on ResearchGate",
+      "proceedingsTitle": "Prodeedings of the International Conference on Language Resources and Evaluation",
+      "conferenceName": "LREC 2010",
+      "publisher": "",
+      "place": "Valletta",
+      "date": "2010-05-17",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://www.researchgate.net/publication/220746089_The_CALBC_Silver_Standard_Corpus_for_Biomedical_Named_Entities_A_Study_in_Harmonizing_the_Contributions_from_Four_Independent_Named_Entity_Taggers",
+      "accessDate": "2020-09-14T08:14:14Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "The CALBC Silver Standard Corpus for Biomedical Named Entities",
+      "language": "en",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:57:45Z",
+      "dateModified": "2020-09-18T08:57:45Z"
+    }
+  },
+  {
+    "key": "SB9G2G5B",
+    "version": 2600,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/SB9G2G5B",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/SB9G2G5B",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann et al.",
+      "parsedDate": "2010-04-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "SB9G2G5B",
+      "version": 2600,
+      "itemType": "journalArticle",
+      "title": "Measuring prediction capacity of individual verbs for the identification of protein interactions",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Antonio",
+          "lastName": "Jimeno-Yepes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Miguel",
+          "lastName": "Arregui"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Harald",
+          "lastName": "Kirsch"
+        }
+      ],
+      "abstractNote": "Motivation: The identification of events such as protein–protein interactions (PPIs) from the scientific literature is a complex task. One of the reasons is that there is no formal syntax to denote such relations in the scientific literature. Nonetheless, it is important to understand such relational event representations to improve information extraction solutions (e.g., for gene regulatory events). In this study, we analyze publicly available protein interaction corpora (AIMed, BioInfer, BioCreAtIve II) to determine the scope of verbs used to denote protein interactions and to measure their predictive capacity for the identification of PPI events. Our analysis is based on syntactical language patterns. This restriction has the advantage that the verb mention is used as the independent variable in the experiments enabling comparability of results in the usage of the verbs. The initial selection of verbs has been generated from a systematic analysis of the scientific literature and existing corpora for PPIs. We distinguish modifying interactions (MIs) such as posttranslational modifications (PTMs) from non-modifying interactions (NMIs) and assumed that MIs have a higher predictive capacity due to stronger scientific evidence proving the interaction. We found that MIs are less frequent in the corpus but can be extracted at the same precision levels as PPIs. A significant portion of correct PPI reportings in the BioCreAtIve II corpus use the verb “associate”, which semantically does not prove a relation. The performance of every monitored verb is listed and allows the selection of specific verbs to improve the performance of PPI extraction solutions. Programmatic access to the text processing modules is available online (www.ebi.ac.uk/webservices/whatizit/info.jsf) and the full analysis of Medline abstracts will be made through the Web pages of the Rebholz group.",
+      "publicationTitle": "Journal of Biomedical Informatics",
+      "publisher": "",
+      "place": "",
+      "date": "2010-04-01",
+      "volume": "43",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "200-207",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Journal of Biomedical Informatics",
+      "DOI": "10.1016/j.jbi.2009.09.007",
+      "citationKey": "",
+      "url": "http://www.sciencedirect.com/science/article/pii/S153204640900135X",
+      "accessDate": "2020-09-14T08:51:12Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1532-0464",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "ScienceDirect",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Information extraction"
+        },
+        {
+          "tag": "Protein-protein interaction"
+        },
+        {
+          "tag": "Semantic relations"
+        },
+        {
+          "tag": "Text mining"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:57:45Z",
+      "dateModified": "2020-09-18T08:57:45Z"
+    }
+  },
+  {
+    "key": "LX3Q9EMX",
+    "version": 2596,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/LX3Q9EMX",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/LX3Q9EMX",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Hoehndorf et al.",
+      "parsedDate": "2010-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "LX3Q9EMX",
+      "version": 2596,
+      "itemType": "conferencePaper",
+      "title": "Applying ontology design patterns to the implementation of relations in GENIA",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Hoehndorf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Axel-Cyrille",
+          "lastName": "Ngonga Ngomo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sampo",
+          "lastName": "Pyysalo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tomoko",
+          "lastName": "Ohta"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Anika",
+          "lastName": "Oellrich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "PDF | Motivation: Annotated reference corpora such as the GENIA corpus play an important role in biomedical infor-mation extraction. A semantic... | Find, read and cite all the research you need on ResearchGate",
+      "proceedingsTitle": "Proceedings of the Fourth International Symposium for Semantic Mining in Biomedicine",
+      "conferenceName": "Fourth International Symposium for Semantic Mining in Biomedicine",
+      "publisher": "",
+      "place": "Cambridge",
+      "date": "2010-01-00",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://www.researchgate.net/publication/221040353_Applying_ontology_design_patterns_to_the_implementation_of_relations_in_GENIA",
+      "accessDate": "2020-09-14T09:01:34Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:57:45Z",
+      "dateModified": "2020-09-18T08:57:45Z"
+    }
+  },
+  {
+    "key": "QI6D6LUX",
+    "version": 2585,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/QI6D6LUX",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/QI6D6LUX",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Hoehndorf et al.",
+      "parsedDate": "2010-06-21",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "QI6D6LUX",
+      "version": 2585,
+      "itemType": "conferencePaper",
+      "title": "Relational Patterns in OWL and Their Application to OBO",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "R.",
+          "lastName": "Hoehndorf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A.",
+          "lastName": "Oellrich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M.",
+          "lastName": "Dumontier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "H.",
+          "lastName": "Herre"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "Directed acyclic graphs are commonly used to represent ontologies in the biomedical domain. They provide an intuitive means to formalize relations that hold between ontological categories. However, their semantics is usually not explicit. We provide a semantics for a part of the OBO Flatfile Format by extending OWL with a method to express relational patterns. These patterns are OWL axioms with variables for classes. The variables can only be filled with named classes. Additionally, we provide a semantics for open patterns in OWL. Our method is applicable to the OBO Flatfile Format, and provides a means to design OWL ontologies using complex ontology design patterns. Therefore, it leads not only to an integration of the OBO Flatfile Format and OWL, but extends OWL with an intuitive interface for designing ontologies using complex definition patterns. A prototypic implementation and test results are available at http://bioonto.de/obo2owl.",
+      "proceedingsTitle": "Proceedings of the 7th International Workshop on OWL: Experiences and Directions",
+      "conferenceName": "OWLED 2010",
+      "publisher": "",
+      "place": "San Fransico",
+      "date": "2010-06-21",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Semantic Scholar",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:32:57Z",
+      "dateModified": "2020-09-18T08:34:15Z"
+    }
+  },
+  {
+    "key": "SHJFJD2S",
+    "version": 2562,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/SHJFJD2S",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/SHJFJD2S",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Oellrich and Rebholz-Schuhmann",
+      "parsedDate": "2010-09-10",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "SHJFJD2S",
+      "version": 2562,
+      "itemType": "conferencePaper",
+      "title": "A Classification of Existing Phenotypical Representations and Methods for Improvement",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Anika",
+          "lastName": "Oellrich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "proceedingsTitle": "OBML 2010 Workshop Proceedings",
+      "conferenceName": "OBML 2010",
+      "publisher": "",
+      "place": "Mannheim",
+      "date": "2010-09-10",
+      "eventPlace": "",
+      "volume": "2",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "4",
+      "series": "Journal of Biomedical Semantics",
+      "seriesNumber": "",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://jbiomedsem.biomedcentral.com/articles/supplements/volume-2-supplement-4",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BM2SUJF8"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-16T09:59:22Z",
+      "dateModified": "2020-09-17T11:56:58Z"
+    }
+  }
+]

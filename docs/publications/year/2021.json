@@ -1,0 +1,2385 @@
+[
+  {
+    "key": "ZI7CE7BH",
+    "version": 9480,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/ZI7CE7BH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/ZI7CE7BH",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 8466868,
+        "username": "julianschneider",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/julianschneider",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann et al.",
+      "parsedDate": "2021",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "ZI7CE7BH",
+      "version": 9480,
+      "itemType": "journalArticle",
+      "title": "Deep learning-based clustering approaches for bioinformatics",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "MR",
+          "lastName": "Karim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "O",
+          "lastName": "Beyan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A",
+          "lastName": "Zappa"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "IG",
+          "lastName": "Costa"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Briefings in bioinformatics",
+      "publisher": "",
+      "place": "",
+      "date": "2021",
+      "volume": "22",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "393-415",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1093/bib/bbz170",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-03-17T07:38:35Z",
+      "dateModified": "2024-07-01T10:06:14Z"
+    }
+  },
+  {
+    "key": "5VPM8IM5",
+    "version": 7492,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/5VPM8IM5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/5VPM8IM5",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/2350725/items/A489SE4E",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 422384
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2021-08-09",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "5VPM8IM5",
+      "version": 7492,
+      "itemType": "preprint",
+      "title": "Measuring outcomes and impact from the BioHackathon Europe",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Corinne",
+          "lastName": "Martin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Georgi",
+          "lastName": "Lazarov"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dana",
+          "lastName": "Cernoskova"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Terue",
+          "lastName": "Takatsuki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jennifer",
+          "lastName": "Harrow"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "genre": "Preprint",
+      "repository": "BioHackrXiv",
+      "archiveID": "",
+      "place": "",
+      "date": "2021-08-09",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.37044/osf.io/3dxhg",
+      "citationKey": "",
+      "url": "https://biohackrxiv.org/3dxhg/",
+      "accessDate": "2021-08-10T10:04:30Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "OSF Preprints",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-08-10T10:06:07Z",
+      "dateModified": "2023-06-30T20:34:26Z"
+    }
+  },
+  {
+    "key": "I83ZMTXQ",
+    "version": 7491,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/I83ZMTXQ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/I83ZMTXQ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2021",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "I83ZMTXQ",
+      "version": 7491,
+      "itemType": "conferencePaper",
+      "title": "DaMaLOS 2021 - Second Workshop on Data and Research Objects Management for Linked Open Science - Editorial Note : Co-located with the International Semantic Web Conference ISWC 2021",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Markus",
+          "lastName": "Stocker"
+        }
+      ],
+      "abstractNote": "",
+      "proceedingsTitle": "",
+      "conferenceName": "",
+      "publisher": "PUBLISSO",
+      "place": "",
+      "date": "2021",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.4126/FRL01-006429410",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://repository.publisso.de/resource/frl:6429410",
+      "accessDate": "2021-11-04T16:40:10Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "DaMaLOS 2021 - Second Workshop on Data and Research Objects Management for Linked Open Science - Editorial Note",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Datacite)",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "Medium: application/pdf",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-11-04T16:40:46Z",
+      "dateModified": "2023-06-30T20:34:19Z"
+    }
+  },
+  {
+    "key": "MMKMPH5Z",
+    "version": 11709,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/MMKMPH5Z",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/MMKMPH5Z",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/2350725/items/DQDICSDG",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Lazarov et al.",
+      "parsedDate": "2021-06-05",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "MMKMPH5Z",
+      "version": 11709,
+      "itemType": "report",
+      "title": "Whatizit performance evaluation against CRAFT corpus",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Georgi",
+          "lastName": "Lazarov"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "The Colorado Richly Annotated Full-Text (CRAFT) Corpus is a collection of 97 articles from the PubMed Central. I am utilizing a subset of CRAFT - i.e. the concept annotation to Gene Ontology. The annotations are separated for of the GO subdivisions - biological process, cellular component, and molecular function. The approach is extracting and combining the annotations from the files in order to be able to provide comprehensive overview on the corpus annotations and to allow comparison with Whatizit annotations where there is no subdivision separation. Whatizit Named-entity recognition tool which has been adapted to work with a dictionary based on Gene Ontology + including preferred and synonym terms for each GO Id, as applicable. Whatizit annotations are created on the same 97 articles from CRAFT corpus and performance is compared between both: - general statistics is generated - number of GO terms per article, number of articles per GO term, articles IDs per GO term, number of GO terms for the corpus - TF is calculated - IDF is calculated - merged dataframe is created for comparison - CRAFT annotations are \"gold standard\" and occurences are aligned.",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "Zenodo",
+      "place": "",
+      "date": "2021-06-05",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "10.5281/zenodo.4903981",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/4903981",
+      "accessDate": "2021-10-27T12:43:26Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "Type: Dataset",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-10-27T12:44:28Z",
+      "dateModified": "2023-06-30T20:33:29Z"
+    }
+  },
+  {
+    "key": "T426PJ2D",
+    "version": 7482,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/T426PJ2D",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/T426PJ2D",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/2350725/items/P7GDM6TP",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Lazarov et al.",
+      "parsedDate": "2021-06-27",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "T426PJ2D",
+      "version": 7482,
+      "itemType": "dataset",
+      "title": "Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Georgi",
+          "lastName": "Lazarov"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Benjamin",
+          "lastName": "Wolff"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "identifier": "",
+      "type": "",
+      "versionNumber": "",
+      "date": "2021-06-27",
+      "repository": "Zenodo",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.5035290",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/5035290",
+      "accessDate": "2021-10-27T12:44:37Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-10-27T12:45:02Z",
+      "dateModified": "2023-06-30T20:33:23Z"
+    }
+  },
+  {
+    "key": "8FEAY64X",
+    "version": 7479,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/8FEAY64X",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/8FEAY64X",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Schaer et al.",
+      "parsedDate": "2021",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "8FEAY64X",
+      "version": 7479,
+      "itemType": "conferencePaper",
+      "title": "Overview of LiLAS 2021 – Living Labs for Academic Search",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Philipp",
+          "lastName": "Schaer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timo",
+          "lastName": "Breuer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Benjamin",
+          "lastName": "Wolff"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Johann",
+          "lastName": "Schaible"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Narges",
+          "lastName": "Tavakolpoursaleh"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "K. Selçuk",
+          "lastName": "Candan"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Bogdan",
+          "lastName": "Ionescu"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Lorraine",
+          "lastName": "Goeuriot"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Birger",
+          "lastName": "Larsen"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Henning",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Alexis",
+          "lastName": "Joly"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Maria",
+          "lastName": "Maistro"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Florina",
+          "lastName": "Piroi"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Guglielmo",
+          "lastName": "Faggioli"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Nicola",
+          "lastName": "Ferro"
+        }
+      ],
+      "abstractNote": "The Living Labs for Academic Search (LiLAS) lab aims to strengthen the concept of user-centric living labs for academic search. The methodological gap between real-world and lab-based evaluation should be bridged by allowing lab participants to evaluate their retrieval approaches in two real-world academic search systems from life sciences and social sciences. This overview paper outlines the two academic search systems LIVIVO and GESIS Search, and their corresponding tasks within LiLAS, which are ad-hoc retrieval and dataset recommendation. The lab is based on a new evaluation infrastructure named STELLA that allows participants to submit results corresponding to their experimental systems in the form of pre-computed runs and Docker containers that can be integrated into production systems and generate experimental results in real-time. Both submission types are interleaved with the results provided by the productive systems allowing for a seamless presentation and evaluation. The evaluation of results and a meta-analysis of the different tasks and submission types complement this overview.",
+      "proceedingsTitle": "Experimental IR Meets Multilinguality, Multimodality, and Interaction",
+      "conferenceName": "",
+      "publisher": "Springer International Publishing",
+      "place": "Cham",
+      "date": "2021",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "394-418",
+      "series": "Lecture Notes in Computer Science",
+      "seriesNumber": "",
+      "DOI": "10.1007/978-3-030-85251-1_25",
+      "ISBN": "978-3-030-85251-1",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "wolff@zbmed.de"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-12-14T10:48:37Z",
+      "dateModified": "2023-06-30T20:32:57Z"
+    }
+  },
+  {
+    "key": "2M3DAGC4",
+    "version": 7473,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/2M3DAGC4",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/2M3DAGC4",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Schaer et al.",
+      "parsedDate": "2021",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "2M3DAGC4",
+      "version": 7473,
+      "itemType": "report",
+      "title": "Overview of LiLAS 2021 -- Living Labs for Academic Search",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Philipp",
+          "lastName": "Schaer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timo",
+          "lastName": "Breuer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Benjamin",
+          "lastName": "Wolff"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Johann",
+          "lastName": "Schaible"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Narges",
+          "lastName": "Tavakolpoursaleh"
+        }
+      ],
+      "abstractNote": "The Living Labs for Academic Search (LiLAS) lab aims to strengthen the concept of user-centric living labs for academic search. The methodological gap between real-world and lab-based evaluation should be bridged by allowing lab participants to evaluate their retrieval approaches in two real-world academic search systems from life sciences and social sciences. This overview paper outlines the two academic search systems LIVIVO and GESIS Search, and their corresponding tasks within LiLAS, which are ad-hoc retrieval and dataset recommendation. The lab is based on a new evaluation infrastructure named STELLA that allows participants to submit results corresponding to their experimental systems in the form of pre-computed runs and Docker containers that can be integrated into production systems and generate experimental results in real-time. Both submission types are interleaved with the results provided by the productive systems allowing for a seamless presentation and evaluation. The evaluation of results and a meta-analysis of the different tasks and submission types complement this overview.",
+      "reportNumber": "",
+      "reportType": "Preprint",
+      "institution": "",
+      "place": "",
+      "date": "2021",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "394-418",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2203.05430",
+      "accessDate": "2022-03-11T09:27:40Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "10.1007/978-3-030-85251-1_25\narXiv:2203.05430. Vol.12880",
+      "tags": [
+        {
+          "tag": "Computer Science - Information Retrieval",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "wolff@zbmed.de"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2022-03-11T09:30:32Z",
+      "dateModified": "2023-06-30T20:31:44Z"
+    }
+  },
+  {
+    "key": "XIAUUI29",
+    "version": 6954,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/XIAUUI29",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/XIAUUI29",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 7262539,
+        "username": "zbmed_frl_team",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/zbmed_frl_team",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 5700755,
+        "username": "lkuehnel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/lkuehnel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Fischer-Wagener et al.",
+      "parsedDate": "2021",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "XIAUUI29",
+      "version": 6954,
+      "itemType": "book",
+      "title": "Deutscher MeSH - bilinguale Fassung, 2021: CSV (comma-separated values)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Brigitte",
+          "lastName": "Fischer-Wagener"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marie",
+          "lastName": "Kumpf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthias",
+          "lastName": "Schmitz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gabriele",
+          "lastName": "Wollnik-Korn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Roman",
+          "lastName": "Baum"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Juliane",
+          "lastName": "Fluck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lisa",
+          "lastName": "Langnickel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julian",
+          "lastName": "Schneider"
+        }
+      ],
+      "abstractNote": "MeSH (Medical Subject Headings) ist ein medizinischer Thesaurus, der von der U. S. National Library of Medicine (NLM) herausgegeben und jährlich aktualisiert und um neue Begriffe erweitert wird. Er ist polyhierarchisch, konzeptbasiert aufgebaut und stellt vielfältige Verbindungen zwischen Fachbegriffen mit unterschiedlichen Merkmalen her. Die Anwendung des MeSH reicht von der Sacherschließung von Buch- und Medienbeständen über das Indexieren von Datenbanken bis zum Erstellen von Suchprofilen in Medizin und Biowissenschaften. Die deutschsprachige Übersetzung der MeSH-Termini erfolgt in enger Anlehnung an die amerikanische Vorlage, um den Charakter des Thesaurus zu erhalten. Für die deutschsprachige Fassung werden die Hauptschlagwörter der Originalfassung 1:1 übersetzt. Sie werden durch Synonyme ergänzt, die im deutschen Sprachraum gebräuchlich sind. Der Schwerpunkt der jeweils neuen Begriffe als auch deren Anzahl",
+      "series": "",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "2021",
+      "publisher": "ZB MED - Informationszentrum Lebenswissenschaften",
+      "place": "Köln ; Bonn",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "numPages": "",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://dx.doi.org/10.4126/FRL01-006428511",
+      "accessDate": "2021-09-20T07:42:32Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Deutscher MeSH - bilinguale Fassung, 2021",
+      "language": "de; eng",
+      "libraryCatalog": "DOI.org (Datacite)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "fischer-wagener@zbmed.de"
+        },
+        {
+          "tag": "kumpf@zbmed.de"
+        },
+        {
+          "tag": "mschmitz@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "wollnik-korn@zbmed.de"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-09-20T08:08:09Z",
+      "dateModified": "2023-02-13T09:55:46Z"
+    }
+  },
+  {
+    "key": "G24QM3R8",
+    "version": 6953,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/G24QM3R8",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/G24QM3R8",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 7262539,
+        "username": "zbmed_frl_team",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/zbmed_frl_team",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 5700755,
+        "username": "lkuehnel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/lkuehnel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Fischer-Wagener et al.",
+      "parsedDate": "2021",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "G24QM3R8",
+      "version": 6953,
+      "itemType": "book",
+      "title": "Deutscher MeSH - bilinguale Fassung, 2021: JSON-LD (JavaScript object notation for linked data)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Brigitte",
+          "lastName": "Fischer-Wagener"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marie",
+          "lastName": "Kumpf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthias",
+          "lastName": "Schmitz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gabriele",
+          "lastName": "Wollnik-Korn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Roman",
+          "lastName": "Baum"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Juliane",
+          "lastName": "Fluck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lisa",
+          "lastName": "Langnickel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julian",
+          "lastName": "Schneider"
+        }
+      ],
+      "abstractNote": "MeSH (Medical Subject Headings) ist ein medizinischer Thesaurus, der von der U. S. National Library of Medicine (NLM) herausgegeben und jährlich aktualisiert und um neue Begriffe erweitert wird. Er ist polyhierarchisch, konzeptbasiert aufgebaut und stellt vielfältige Verbindungen zwischen Fachbegriffen mit unterschiedlichen Merkmalen her. Die Anwendung des MeSH reicht von der Sacherschließung von Buch- und Medienbeständen über das Indexieren von Datenbanken bis zum Erstellen von Suchprofilen in Medizin und Biowissenschaften. Die deutschsprachige Übersetzung der MeSH-Termini erfolgt in enger Anlehnung an die amerikanische Vorlage, um den Charakter des Thesaurus zu erhalten. Für die deutschsprachige Fassung werden die Hauptschlagwörter der Originalfassung 1:1 übersetzt. Sie werden durch Synonyme ergänzt, die im deutschen Sprachraum gebräuchlich sind. Der Schwerpunkt der jeweils neuen Begriffe als auch deren Anzahl",
+      "series": "",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "2021",
+      "publisher": "ZB MED - Informationszentrum Lebenswissenschaften",
+      "place": "Köln ; Bonn",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "numPages": "",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://dx.doi.org/10.4126/FRL01-006428823",
+      "accessDate": "2021-09-20T07:42:32Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Deutscher MeSH - bilinguale Fassung, 2021",
+      "language": "de; eng",
+      "libraryCatalog": "DOI.org (Datacite)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "fischer-wagener@zbmed.de"
+        },
+        {
+          "tag": "kumpf@zbmed.de"
+        },
+        {
+          "tag": "mschmitz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "wollnik-korn@zbmed.de"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-09-20T08:07:48Z",
+      "dateModified": "2023-02-13T09:55:43Z"
+    }
+  },
+  {
+    "key": "J2PFWM7R",
+    "version": 6953,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/J2PFWM7R",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/J2PFWM7R",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 7262539,
+        "username": "zbmed_frl_team",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/zbmed_frl_team",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 5700755,
+        "username": "lkuehnel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/lkuehnel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Fischer-Wagener et al.",
+      "parsedDate": "2021",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "J2PFWM7R",
+      "version": 6953,
+      "itemType": "book",
+      "title": "Deutscher MeSH - bilinguale Fassung, 2021: RDF/XML (resource description framework/extensible markup language)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Brigitte",
+          "lastName": "Fischer-Wagener"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marie",
+          "lastName": "Kumpf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthias",
+          "lastName": "Schmitz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gabriele",
+          "lastName": "Wollnik-Korn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Roman",
+          "lastName": "Baum"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Juliane",
+          "lastName": "Fluck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lisa",
+          "lastName": "Langnickel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julian",
+          "lastName": "Schneider"
+        }
+      ],
+      "abstractNote": "MeSH (Medical Subject Headings) ist ein medizinischer Thesaurus, der von der U. S. National Library of Medicine (NLM) herausgegeben und jährlich aktualisiert und um neue Begriffe erweitert wird. Er ist polyhierarchisch, konzeptbasiert aufgebaut und stellt vielfältige Verbindungen zwischen Fachbegriffen mit unterschiedlichen Merkmalen her. Die Anwendung des MeSH reicht von der Sacherschließung von Buch- und Medienbeständen über das Indexieren von Datenbanken bis zum Erstellen von Suchprofilen in Medizin und Biowissenschaften. Die deutschsprachige Übersetzung der MeSH-Termini erfolgt in enger Anlehnung an die amerikanische Vorlage, um den Charakter des Thesaurus zu erhalten. Für die deutschsprachige Fassung werden die Hauptschlagwörter der Originalfassung 1:1 übersetzt. Sie werden durch Synonyme ergänzt, die im deutschen Sprachraum gebräuchlich sind. Der Schwerpunkt der jeweils neuen Begriffe als auch deren Anzahl",
+      "series": "",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "2021",
+      "publisher": "ZB MED - Informationszentrum Lebenswissenschaften",
+      "place": "Köln ; Bonn",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "numPages": "",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://dx.doi.org/10.4126/FRL01-006428822",
+      "accessDate": "2021-09-20T07:42:32Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Deutscher MeSH - bilinguale Fassung, 2021",
+      "language": "de; eng",
+      "libraryCatalog": "DOI.org (Datacite)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "fischer-wagener@zbmed.de"
+        },
+        {
+          "tag": "kumpf@zbmed.de"
+        },
+        {
+          "tag": "mschmitz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "wollnik-korn@zbmed.de"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-09-20T08:07:04Z",
+      "dateModified": "2023-02-13T09:55:39Z"
+    }
+  },
+  {
+    "key": "439XJAGC",
+    "version": 6952,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/439XJAGC",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/439XJAGC",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 7262539,
+        "username": "zbmed_frl_team",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/zbmed_frl_team",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 5700755,
+        "username": "lkuehnel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/lkuehnel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Fischer-Wagener et al.",
+      "parsedDate": "2021",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "439XJAGC",
+      "version": 6952,
+      "itemType": "book",
+      "title": "Deutscher MeSH - bilinguale Fassung, 2021: N-Triples",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Brigitte",
+          "lastName": "Fischer-Wagener"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marie",
+          "lastName": "Kumpf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthias",
+          "lastName": "Schmitz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gabriele",
+          "lastName": "Wollnik-Korn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Roman",
+          "lastName": "Baum"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Juliane",
+          "lastName": "Fluck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lisa",
+          "lastName": "Langnickel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julian",
+          "lastName": "Schneider"
+        }
+      ],
+      "abstractNote": "MeSH (Medical Subject Headings) ist ein medizinischer Thesaurus, der von der U. S. National Library of Medicine (NLM) herausgegeben und jährlich aktualisiert und um neue Begriffe erweitert wird. Er ist polyhierarchisch, konzeptbasiert aufgebaut und stellt vielfältige Verbindungen zwischen Fachbegriffen mit unterschiedlichen Merkmalen her. Die Anwendung des MeSH reicht von der Sacherschließung von Buch- und Medienbeständen über das Indexieren von Datenbanken bis zum Erstellen von Suchprofilen in Medizin und Biowissenschaften. Die deutschsprachige Übersetzung der MeSH-Termini erfolgt in enger Anlehnung an die amerikanische Vorlage, um den Charakter des Thesaurus zu erhalten. Für die deutschsprachige Fassung werden die Hauptschlagwörter der Originalfassung 1:1 übersetzt. Sie werden durch Synonyme ergänzt, die im deutschen Sprachraum gebräuchlich sind. Der Schwerpunkt der jeweils neuen Begriffe als auch deren Anzahl",
+      "series": "",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "2021",
+      "publisher": "ZB MED - Informationszentrum Lebenswissenschaften",
+      "place": "Köln ; Bonn",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "numPages": "",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://dx.doi.org/10.4126/FRL01-006428907",
+      "accessDate": "2021-09-20T07:42:32Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Deutscher MeSH - bilinguale Fassung, 2021",
+      "language": "de; eng",
+      "libraryCatalog": "DOI.org (Datacite)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "fischer-wagener@zbmed.de"
+        },
+        {
+          "tag": "kumpf@zbmed.de"
+        },
+        {
+          "tag": "mschmitz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "wollnik-korn@zbmed.de"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-09-20T08:07:27Z",
+      "dateModified": "2023-02-13T09:55:11Z"
+    }
+  },
+  {
+    "key": "9EUFQMCZ",
+    "version": 6952,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/9EUFQMCZ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/9EUFQMCZ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 7262539,
+        "username": "zbmed_frl_team",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/zbmed_frl_team",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 5700755,
+        "username": "lkuehnel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/lkuehnel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Fischer-Wagener et al.",
+      "parsedDate": "2021",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "9EUFQMCZ",
+      "version": 6952,
+      "itemType": "book",
+      "title": "Deutscher MeSH - bilinguale Fassung, 2021: Turtle (terse RDF triple language)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Brigitte",
+          "lastName": "Fischer-Wagener"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marie",
+          "lastName": "Kumpf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthias",
+          "lastName": "Schmitz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gabriele",
+          "lastName": "Wollnik-Korn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Roman",
+          "lastName": "Baum"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Juliane",
+          "lastName": "Fluck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lisa",
+          "lastName": "Langnickel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julian",
+          "lastName": "Schneider"
+        }
+      ],
+      "abstractNote": "MeSH (Medical Subject Headings) ist ein medizinischer Thesaurus, der von der U. S. National Library of Medicine (NLM) herausgegeben und jährlich aktualisiert und um neue Begriffe erweitert wird. Er ist polyhierarchisch, konzeptbasiert aufgebaut und stellt vielfältige Verbindungen zwischen Fachbegriffen mit unterschiedlichen Merkmalen her. Die Anwendung des MeSH reicht von der Sacherschließung von Buch- und Medienbeständen über das Indexieren von Datenbanken bis zum Erstellen von Suchprofilen in Medizin und Biowissenschaften. Die deutschsprachige Übersetzung der MeSH-Termini erfolgt in enger Anlehnung an die amerikanische Vorlage, um den Charakter des Thesaurus zu erhalten. Für die deutschsprachige Fassung werden die Hauptschlagwörter der Originalfassung 1:1 übersetzt. Sie werden durch Synonyme ergänzt, die im deutschen Sprachraum gebräuchlich sind. Der Schwerpunkt der jeweils neuen Begriffe als auch deren Anzahl",
+      "series": "",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "2021",
+      "publisher": "ZB MED - Informationszentrum Lebenswissenschaften",
+      "place": "Köln ; Bonn",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "numPages": "",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://dx.doi.org/10.4126/FRL01-006428824",
+      "accessDate": "2021-09-20T07:42:32Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Deutscher MeSH - bilinguale Fassung, 2021",
+      "language": "de; eng",
+      "libraryCatalog": "DOI.org (Datacite)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "fischer-wagener@zbmed.de"
+        },
+        {
+          "tag": "kumpf@zbmed.de"
+        },
+        {
+          "tag": "mschmitz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "wollnik-korn@zbmed.de"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-09-20T08:06:40Z",
+      "dateModified": "2023-02-13T09:55:09Z"
+    }
+  },
+  {
+    "key": "RGTAE594",
+    "version": 6952,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/RGTAE594",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/RGTAE594",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 7262539,
+        "username": "zbmed_frl_team",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/zbmed_frl_team",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 5700755,
+        "username": "lkuehnel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/lkuehnel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Fischer-Wagener et al.",
+      "parsedDate": "2021",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "RGTAE594",
+      "version": 6952,
+      "itemType": "book",
+      "title": "Deutscher MeSH - bilinguale Fassung, 2021: XML (extensible markup language)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Brigitte",
+          "lastName": "Fischer-Wagener"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marie",
+          "lastName": "Kumpf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthias",
+          "lastName": "Schmitz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gabriele",
+          "lastName": "Wollnik-Korn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Roman",
+          "lastName": "Baum"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Juliane",
+          "lastName": "Fluck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lisa",
+          "lastName": "Langnickel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Julian",
+          "lastName": "Schneider"
+        }
+      ],
+      "abstractNote": "MeSH (Medical Subject Headings) ist ein medizinischer Thesaurus, der von der U. S. National Library of Medicine (NLM) herausgegeben und jährlich aktualisiert und um neue Begriffe erweitert wird. Er ist polyhierarchisch, konzeptbasiert aufgebaut und stellt vielfältige Verbindungen zwischen Fachbegriffen mit unterschiedlichen Merkmalen her. Die Anwendung des MeSH reicht von der Sacherschließung von Buch- und Medienbeständen über das Indexieren von Datenbanken bis zum Erstellen von Suchprofilen in Medizin und Biowissenschaften. Die deutschsprachige Übersetzung der MeSH-Termini erfolgt in enger Anlehnung an die amerikanische Vorlage, um den Charakter des Thesaurus zu erhalten. Für die deutschsprachige Fassung werden die Hauptschlagwörter der Originalfassung 1:1 übersetzt. Sie werden durch Synonyme ergänzt, die im deutschen Sprachraum gebräuchlich sind. Der Schwerpunkt der jeweils neuen Begriffe als auch deren Anzahl",
+      "series": "",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "2021",
+      "publisher": "ZB MED - Informationszentrum Lebenswissenschaften",
+      "place": "Köln ; Bonn",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "numPages": "",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://dx.doi.org/10.4126/FRL01-006428906",
+      "accessDate": "2021-09-20T07:42:32Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Deutscher MeSH - bilinguale Fassung, 2021",
+      "language": "de; eng",
+      "libraryCatalog": "DOI.org (Datacite)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "fischer-wagener@zbmed.de"
+        },
+        {
+          "tag": "kumpf@zbmed.de"
+        },
+        {
+          "tag": "mschmitz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "wollnik-korn@zbmed.de"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-09-20T08:03:12Z",
+      "dateModified": "2023-02-13T09:55:06Z"
+    }
+  },
+  {
+    "key": "MHC9GR5X",
+    "version": 5732,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/MHC9GR5X",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/MHC9GR5X",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann",
+      "parsedDate": "2021-10-08",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "MHC9GR5X",
+      "version": 5732,
+      "itemType": "videoRecording",
+      "title": "ZB MED 2021 - Von der Evaluierung zur Entwicklung",
+      "creators": [
+        {
+          "creatorType": "director",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "videoRecordingFormat": "AGMB 2021",
+      "seriesTitle": "AGMB Tagung 2021",
+      "volume": "",
+      "numberOfVolumes": "",
+      "studio": "",
+      "place": "",
+      "date": "2021-10-08",
+      "runningTime": "",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://youtu.be/UaxeN-sqv4c",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2022-02-03T07:33:42Z",
+      "dateModified": "2022-02-04T07:10:02Z"
+    }
+  },
+  {
+    "key": "GG5Q6V5T",
+    "version": 5639,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/GG5Q6V5T",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/GG5Q6V5T",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann et al.",
+      "parsedDate": "2021-03-31",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "GG5Q6V5T",
+      "version": 5639,
+      "itemType": "videoRecording",
+      "title": "Mit starker Forschung für Mensch und Umwelt: ZB MED + BIBI 2025",
+      "creators": [
+        {
+          "creatorType": "director",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "director",
+          "firstName": "Jens",
+          "lastName": "Stoye"
+        },
+        {
+          "creatorType": "director",
+          "firstName": "Juliane",
+          "lastName": "Fluck"
+        },
+        {
+          "creatorType": "director",
+          "firstName": "Ursula",
+          "lastName": "Zängl"
+        },
+        {
+          "creatorType": "director",
+          "firstName": "Miriam",
+          "lastName": "Albers"
+        },
+        {
+          "creatorType": "director",
+          "firstName": "Ursula",
+          "lastName": "Arning"
+        },
+        {
+          "creatorType": "director",
+          "firstName": "Konrad",
+          "lastName": "Förstner"
+        },
+        {
+          "creatorType": "director",
+          "firstName": "Elke",
+          "lastName": "Roesner"
+        }
+      ],
+      "abstractNote": "",
+      "videoRecordingFormat": "",
+      "seriesTitle": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "studio": "",
+      "place": "",
+      "date": "2021-03-31",
+      "runningTime": "",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://youtu.be/rSXyDpu4Bjo",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "albers@zbmed.de"
+        },
+        {
+          "tag": "arning@zbmed.de"
+        },
+        {
+          "tag": "fluck@zbmed.de"
+        },
+        {
+          "tag": "foerstner@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "roesner@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "zaengl@zbmed.de"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2022-02-03T09:43:37Z",
+      "dateModified": "2022-02-03T09:46:42Z"
+    }
+  },
+  {
+    "key": "JM7C5GVQ",
+    "version": 7326,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/JM7C5GVQ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/JM7C5GVQ",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/2350725/items/QD7DGAXW",
+        "type": "application/json",
+        "attachmentType": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Müller",
+      "parsedDate": "2021-04-12",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "JM7C5GVQ",
+      "version": 7326,
+      "itemType": "dataset",
+      "title": "BioASQ Sub-Corpus for the Pharmacology of Epilepsy (BioPepsy)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        }
+      ],
+      "abstractNote": "The sub corpus contains Standoff Annotations for Drug Names and Terms from Epilepsy Ontologies with their Aggregations Recognized in the 2021 BioASQ corpus.  The terms for epilepsy ontologies are from NCBO BioPortal, namely from the ontologies EpSO, ESSO, EPILONT, EPISEM and FENICS: https://bioportal.bioontology.org/ontologies/EPSO https://bioportal.bioontology.org/ontologies/ESSO https://bioportal.bioontology.org/ontologies/EPILONT https://bioportal.bioontology.org/ontologies/EPISEM https://bioportal.bioontology.org/ontologies/FENICS The dictionary for the identificatin of drug names is derived from the DrugBank vocabulary available online at https://go.drugbank.com/releases/latest#open-data. The terms were identified using a custom implementation of a UIMA-based text mining wokflow that annotates free text with the UIMA ConceptMapper. Further descriptions of this workflow can be found in the following publications: Bernd Müller, Alexandra Hagelstein: Beyond Metadata: Enriching life science publications in Livivo with semantic entities from the linked data cloud. SEMANTiCS (Posters, Demos, SuCCESS) 2016 Bernd Müller, Alexandra Hagelstein, Thomas Gübitz: Life Science Ontologies in Literature Retrieval: A Comparison of Linked Data Sets for Use in Semantic Search on a Heterogeneous Corpus. EKAW (Satellite Events) 2016: 158-161 Bernd Müller, Christoph Poley, Jana Pössel, Alexandra Hagelstein, Thomas Gübitz: LIVIVO - the Vertical Search Engine for Life Sciences. Datenbank-Spektrum 17(1): 29-34 (2017) Bernd Müller, Dietrich Rebholz-Schuhmann: Selected Approaches Ranking Contextual Term for the BioASQ Multi-label Classification (Task6a and 7a). PKDD/ECML Workshops (2) 2019: 569-580 The file format is JSON. The file content is described as follows: bioasqepilepsy2021.json - All standoff annotations for each document in the 2021 BioASQ corpus aggepilepsy2021EPSOANDDrugNames.json - aggregation of frequencies for all standoff annotations in documents from the 2021 BioASQ corpus that contain terms from EpSO co-occurring with at least one drug name aggepilepsy2021ESSOANDDrugNames.json- aggregation of frequencies for all standoff annotations in documents from the 2021 BioASQ corpus that contain terms from ESSO co-occurring with at least one drug name aggepilepsy2021EPILONTANDDrugNames.json- aggregation of frequencies for all standoff annotations in documents from the 2021 BioASQ corpus that contain terms from EPILONT co-occurring with at least one drug name aggepilepsy2021EPISEMANDDrugNames.json- aggregation of frequencies for all standoff annotations in documents from the 2021 BioASQ corpus that contain terms from EPISEM co-occurring with at least one drug name aggepilepsy2021FENICSANDDrugNames.json- aggregation of frequencies for all standoff annotations in documents from the 2021 BioASQ corpus that contain terms from FENICS co-occurring with at least one drug name All JSON files should be importable into a collection of a MongoDB. Documents are identified by their PMIDs. Please cite this data as: Müller, Bernd. BioASQ Sub-Corpus for the Pharmacology of Epilepsy (BioPEpsy) 2021. ZENODO, 10.5281/zenodo.4680086",
+      "identifier": "",
+      "type": "",
+      "versionNumber": "",
+      "date": "2021-04-12",
+      "repository": "Zenodo",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.4680826",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/4680826",
+      "accessDate": "2021-10-26T09:28:15Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "bernd.mueller@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-10-26T09:29:45Z",
+      "dateModified": "2021-10-26T09:29:45Z"
+    }
+  },
+  {
+    "key": "VZ48Z587",
+    "version": 4172,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/VZ48Z587",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/VZ48Z587",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann et al.",
+      "parsedDate": "2021",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "VZ48Z587",
+      "version": 4172,
+      "itemType": "document",
+      "title": "DeepKneeExplainer: Explainable Knee Osteoarthritis Diagnosis from Radiographs and Magnetic Resonance Imaging",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "MR",
+          "lastName": "Karim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Z",
+          "lastName": "Döhmen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M",
+          "lastName": "Cochez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "O",
+          "lastName": "Beyan"
+        }
+      ],
+      "abstractNote": "",
+      "type": "",
+      "date": "2021",
+      "publisher": "IEEE Access",
+      "place": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-03-09T12:24:04Z",
+      "dateModified": "2021-03-19T08:25:57Z"
+    }
+  },
+  {
+    "key": "VXP3C6RM",
+    "version": 4157,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/VXP3C6RM",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/VXP3C6RM",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Karim et al.",
+      "parsedDate": "2021",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "VXP3C6RM",
+      "version": 4157,
+      "itemType": "document",
+      "title": "DeepKneeExplainer: Explainable Knee Osteoarthritis Diagnosis from Radiographs and Magnetic Resonance Imaging",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "MR",
+          "lastName": "Karim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J",
+          "lastName": "Jiao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "T",
+          "lastName": "Döhmen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "M",
+          "lastName": "Cochez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "O",
+          "lastName": "Beyan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "MR Karim, J Jiao, T Döhmen, M Cochez, O Beyan",
+      "type": "",
+      "date": "2021",
+      "publisher": "",
+      "place": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "TCIBCFWW"
+      ],
+      "relations": {},
+      "dateAdded": "2021-03-17T09:18:40Z",
+      "dateModified": "2021-03-17T09:21:08Z"
+    }
+  }
+]

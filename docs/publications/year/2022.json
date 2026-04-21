@@ -1,0 +1,1066 @@
+[
+  {
+    "key": "KEG7DTLP",
+    "version": 8764,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/KEG7DTLP",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/KEG7DTLP",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Giraldo et al.",
+      "parsedDate": "2022-11-15",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "KEG7DTLP",
+      "version": 8764,
+      "itemType": "dataset",
+      "title": "Document-to-document relevant assessment for TREC Genomics Track 2005",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fernanda",
+          "lastName": "Cadena"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Andrea",
+          "lastName": "Robayo-Gama"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "",
+      "identifier": "",
+      "type": "",
+      "versionNumber": "",
+      "date": "2022-11-15",
+      "repository": "Zenodo",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.7324822",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/7324822",
+      "accessDate": "2022-11-21T10:22:10Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "doc2doc"
+        },
+        {
+          "tag": "giraldo@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "stella-I"
+        },
+        {
+          "tag": "trec-doc2doc"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7CCAMA59"
+      ],
+      "relations": {},
+      "dateAdded": "2022-11-21T10:23:35Z",
+      "dateModified": "2024-01-31T22:50:08Z"
+    }
+  },
+  {
+    "key": "4J2J748U",
+    "version": 8763,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/4J2J748U",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/4J2J748U",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Giraldo et al.",
+      "parsedDate": "2022-11-19",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "4J2J748U",
+      "version": 8763,
+      "itemType": "dataset",
+      "title": "Fleiss kappa for doc-2-doc relevance assessment",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "",
+      "identifier": "",
+      "type": "",
+      "versionNumber": "",
+      "date": "2022-11-19",
+      "repository": "Zenodo",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.7338056",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/7338056",
+      "accessDate": "2022-11-21T10:24:36Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "doc2doc"
+        },
+        {
+          "tag": "giraldo@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "stella-I"
+        },
+        {
+          "tag": "trec-doc2doc"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7CCAMA59"
+      ],
+      "relations": {},
+      "dateAdded": "2022-11-21T10:25:24Z",
+      "dateModified": "2024-01-31T22:49:41Z"
+    }
+  },
+  {
+    "key": "ZYDRFT6W",
+    "version": 11695,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/ZYDRFT6W",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/ZYDRFT6W",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Talha et al.",
+      "parsedDate": "2022-11-21",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "ZYDRFT6W",
+      "version": 11695,
+      "itemType": "computerProgram",
+      "title": "TREC-doc-2-doc-relevance assessment interface",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Mohammad",
+          "lastName": "Talha"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Tim",
+          "lastName": "Fellerhof"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2022-11-21",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "All rights reserved",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/7341391",
+      "accessDate": "2022-11-21T11:26:51Z",
+      "DOI": "10.5281/zenodo.7341391",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "doc2doc"
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "giraldo@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "ontoclue"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "stella-I"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7CCAMA59"
+      ],
+      "relations": {},
+      "dateAdded": "2022-11-21T11:27:50Z",
+      "dateModified": "2024-01-31T22:38:11Z"
+    }
+  },
+  {
+    "key": "Y5Z6RVZ5",
+    "version": 11712,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/Y5Z6RVZ5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/Y5Z6RVZ5",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Giraldo et al.",
+      "parsedDate": "2022-12-10",
+      "numChildren": 2
+    },
+    "data": {
+      "key": "Y5Z6RVZ5",
+      "version": 11712,
+      "itemType": "conferencePaper",
+      "title": "A FAIRification roadmap for ELIXIR Software Management Plans",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Renato",
+          "lastName": "Alves"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dimitrios",
+          "lastName": "Bampalikis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jose",
+          "lastName": "Fernandez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eva Martin del",
+          "lastName": "Pico"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fotis",
+          "lastName": "Psomopoulos"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Allegra",
+          "lastName": "Via"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "",
+      "proceedingsTitle": "Research Ideas and Outcomes",
+      "conferenceName": "",
+      "publisher": "Pensoft Publishers",
+      "place": "",
+      "date": "12/10/2022 17:30:00",
+      "eventPlace": "",
+      "volume": "8",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "e94608",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.3897/rio.8.e94608",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://riojournal.com/article/94608/",
+      "accessDate": "2022-10-14T17:48:15Z",
+      "ISSN": "2367-7163",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "riojournal.com",
+      "callNumber": "",
+      "rights": "2022 Olga Giraldo, Renato Alves, Dimitrios Bampalikis, Jose Fernandez, Eva Martin del Pico, Fotis Psomopoulos, Allegra Via, Leyla Jael Castro",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "NFDI4DS"
+        },
+        {
+          "tag": "giraldo@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "masmp"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7CCAMA59"
+      ],
+      "relations": {},
+      "dateAdded": "2022-10-14T17:49:10Z",
+      "dateModified": "2023-10-05T22:17:08Z"
+    }
+  },
+  {
+    "key": "RN9X5UZD",
+    "version": 8158,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/RN9X5UZD",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/RN9X5UZD",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2022-09-30",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "RN9X5UZD",
+      "version": 8158,
+      "itemType": "conferencePaper",
+      "title": "NFDI4DataScience registry for reproducible Data Science and Artificial Intelligence",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zeyd",
+          "lastName": "Boukhers"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Adamantios",
+          "lastName": "Koumpis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Oya",
+          "lastName": "Beyan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "proceedingsTitle": "",
+      "conferenceName": "Workshop on Open Citations and Open Scholarly Metadata",
+      "publisher": "Zenodo",
+      "place": "Online",
+      "date": "2022-09-30",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.5281/zenodo.7129715",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/7129715",
+      "accessDate": "2022-09-30T16:31:50Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "NFDI4DS"
+        },
+        {
+          "tag": "giraldo@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7CCAMA59"
+      ],
+      "relations": {},
+      "dateAdded": "2022-09-30T16:34:09Z",
+      "dateModified": "2023-10-05T22:16:35Z"
+    }
+  },
+  {
+    "key": "M9EWSRKP",
+    "version": 11712,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/M9EWSRKP",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/M9EWSRKP",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Giraldo et al.",
+      "parsedDate": "2022-10-25",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "M9EWSRKP",
+      "version": 11712,
+      "itemType": "presentation",
+      "title": "A FAIRification roadmap for ELIXIR Software Management Plans - Poster",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Renato",
+          "lastName": "Alves"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dimitrios",
+          "lastName": "Bampalikis"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Jose M.",
+          "lastName": "Fernandez"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Eva Martin del",
+          "lastName": "Pico"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Fotis E.",
+          "lastName": "Psomopoulos"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Allegra",
+          "lastName": "Via"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "",
+      "date": "2022-10-25",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.7249674",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/7249674",
+      "accessDate": "2022-10-25T16:00:01Z",
+      "shortTitle": "",
+      "language": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "NFDI4DS"
+        },
+        {
+          "tag": "giraldo@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "masmp"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7CCAMA59"
+      ],
+      "relations": {},
+      "dateAdded": "2022-10-25T16:00:46Z",
+      "dateModified": "2023-10-05T22:15:56Z"
+    }
+  },
+  {
+    "key": "5SP6VF9D",
+    "version": 6439,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/5SP6VF9D",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/5SP6VF9D",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "ZB MED and Rebholz-Schuhmann",
+      "parsedDate": "2022-10-05",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "5SP6VF9D",
+      "version": 6439,
+      "itemType": "videoRecording",
+      "title": "NFDI4DataScience: registry for reproducible Data Science and Artificial Intelligence",
+      "creators": [
+        {
+          "creatorType": "director",
+          "firstName": "",
+          "lastName": "ZB MED"
+        },
+        {
+          "creatorType": "director",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "videoRecordingFormat": "",
+      "seriesTitle": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "studio": "",
+      "place": "",
+      "date": "2022-10-05",
+      "runningTime": "",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://www.youtube.com/watch?v=Too-OQ6jSfk",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7CCAMA59"
+      ],
+      "relations": {},
+      "dateAdded": "2022-11-02T11:04:50Z",
+      "dateModified": "2022-11-02T11:06:16Z"
+    }
+  },
+  {
+    "key": "MF76EBG2",
+    "version": 6801,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/MF76EBG2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/MF76EBG2",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/2350725/items/ZLCJTYWA",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 3020720
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Müller et al.",
+      "parsedDate": "2022-01-24",
+      "numChildren": 2
+    },
+    "data": {
+      "key": "MF76EBG2",
+      "version": 6801,
+      "itemType": "journalArticle",
+      "title": "Ontology-based identification and prioritization of candidate drugs for epilepsy from literature",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Journal of Biomedical Semantics",
+      "publisher": "",
+      "place": "",
+      "date": "2022-01-24",
+      "volume": "13",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "3",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Journal of Biomedical Semantics",
+      "DOI": "10.1186/s13326-021-00258-w",
+      "citationKey": "",
+      "url": "https://doi.org/10.1186/s13326-021-00258-w",
+      "accessDate": "2022-01-24T13:28:47Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "2041-1480",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "BioMed Central",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "bernd.mueller@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7CCAMA59"
+      ],
+      "relations": {},
+      "dateAdded": "2022-01-24T13:29:55Z",
+      "dateModified": "2022-07-04T11:54:10Z"
+    }
+  }
+]

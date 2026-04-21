@@ -1,0 +1,740 @@
+[
+  {
+    "key": "ER4ZYR2C",
+    "version": 9475,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/ER4ZYR2C",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/ER4ZYR2C",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 8466868,
+        "username": "julianschneider",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/julianschneider",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Krestyaninova et al.",
+      "parsedDate": "2012",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "ER4ZYR2C",
+      "version": 9475,
+      "itemType": "journalArticle",
+      "title": "Biobank Metaportal to Enhance Collaborative Research: sail.simbioms.org",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Maria",
+          "lastName": "Krestyaninova"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ola",
+          "lastName": "Spjuth"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Janna",
+          "lastName": "Hastings"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jörn",
+          "lastName": "Dietrich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Journal of Systemics, Cybernetics and Informatics",
+      "publisher": "",
+      "place": "",
+      "date": "2012-00-00",
+      "volume": "10",
+      "issue": "4",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "5-10",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "⛔ No DOI found",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "5BUVBGXQ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:35Z",
+      "dateModified": "2024-07-01T10:05:49Z"
+    }
+  },
+  {
+    "key": "9VCJK88X",
+    "version": 11703,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/9VCJK88X",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/9VCJK88X",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Oellrich et al.",
+      "parsedDate": "2012-06-14",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "9VCJK88X",
+      "version": 11703,
+      "itemType": "journalArticle",
+      "title": "Improving Disease Gene Prioritization by Comparing the Semantic Similarity of Phenotypes in Mice with Those of Human Diseases",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Anika",
+          "lastName": "Oellrich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Robert",
+          "lastName": "Hoehndorf"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Georgios V.",
+          "lastName": "Gkoutos"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "Despite considerable progress in understanding the molecular origins of hereditary human diseases, the molecular basis of several thousand genetic diseases still remains unknown. High-throughput phenotype studies are underway to systematically assess the phenotype outcome of targeted mutations in model organisms. Thus, comparing the similarity between experimentally identified phenotypes and the phenotypes associated with human diseases can be used to suggest causal genes underlying a disease. In this manuscript, we present a method for disease gene prioritization based on comparing phenotypes of mouse models with those of human diseases. For this purpose, either human disease phenotypes are “translated” into a mouse-based representation (using the Mammalian Phenotype Ontology), or mouse phenotypes are “translated” into a human-based representation (using the Human Phenotype Ontology). We apply a measure of semantic similarity and rank experimentally identified phenotypes in mice with respect to their phenotypic similarity to human diseases. Our method is evaluated on manually curated and experimentally verified gene–disease associations for human and for mouse. We evaluate our approach using a Receiver Operating Characteristic (ROC) analysis and obtain an area under the ROC curve of up to . Furthermore, we are able to confirm previous results that the Vax1 gene is involved in Septo-Optic Dysplasia and suggest Gdf6 and Marcks as further potential candidates. Our method significantly outperforms previous phenotype-based approaches of prioritizing gene–disease associations. To enable the adaption of our method to the analysis of other phenotype data, our software and prioritization results are freely available under a BSD licence at http://code.google.com/p/phenomeblast/wiki/CAMP. Furthermore, our method has been integrated in PhenomeNET and the results can be explored using the PhenomeBrowser at http://phenomebrowser.net.",
+      "publicationTitle": "PLoS ONE",
+      "publisher": "",
+      "place": "",
+      "date": "2012-6-14",
+      "volume": "7",
+      "issue": "6",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "PLoS One",
+      "DOI": "10.1371/journal.pone.0038937",
+      "citationKey": "",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3375301/",
+      "accessDate": "2020-09-17T09:05:17Z",
+      "PMID": "22719993",
+      "PMCID": "PMC3375301",
+      "ISSN": "1932-6203",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "PubMed Central",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "5BUVBGXQ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:35Z",
+      "dateModified": "2020-09-18T09:57:39Z"
+    }
+  },
+  {
+    "key": "MKMT2SRG",
+    "version": 2634,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/MKMT2SRG",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/MKMT2SRG",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Yan et al.",
+      "parsedDate": "2012-09",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "MKMT2SRG",
+      "version": 2634,
+      "itemType": "conferencePaper",
+      "title": "Towards Generating a Corpus Annotated for Prokaryote-Drug Relations",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ying",
+          "lastName": "Yan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Senay",
+          "lastName": "Kafkas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthew",
+          "lastName": "Conroy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "proceedingsTitle": "Proceedings of the 5th International Symposium on Semantic Mining in Biomedicine",
+      "conferenceName": "SMBM 2012",
+      "publisher": "",
+      "place": "Zürich",
+      "date": "2012-09-00",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "5BUVBGXQ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:35Z",
+      "dateModified": "2020-09-18T09:57:31Z"
+    }
+  },
+  {
+    "key": "IKJYAFDZ",
+    "version": 11703,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/IKJYAFDZ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/IKJYAFDZ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Liakata et al.",
+      "parsedDate": "2012-01-30",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "IKJYAFDZ",
+      "version": 11703,
+      "itemType": "journalArticle",
+      "title": "Three Hybrid Classifiers for the Detection of Emotions in Suicide Notes",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Maria",
+          "lastName": "Liakata"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jee-Hyub",
+          "lastName": "Kim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shyamasree",
+          "lastName": "Saha"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Janna",
+          "lastName": "Hastings"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "We describe our approach for creating a system able to detect emotions in suicide notes. Motivated by the sparse and imbalanced data as well as the complex annotation scheme, we have considered three hybrid approaches for distinguishing between the different categories. Each of the three approaches combines machine learning with manually derived rules, where the latter target very sparse emotion categories. The first approach considers the task as single label multi-class classification, where an SVM and a CRF classifier are trained to recognise fifteen different categories and their results are combined. Our second approach trains individual binary classifiers (SVM and CRF) for each of the fifteen sentence categories and returns the union of the classifiers as the final result. Finally, our third approach is a combination of binary and multi-class classifiers (SVM and CRF) trained on different subsets of the training data. We considered a number of different feature configurations. All three systems were tested on 300 unseen messages. Our second system had the best performance of the three, yielding an F1 score of 45.6% and a Precision of 60.1% whereas our best Recall (43.6%) was obtained using the third system.",
+      "publicationTitle": "Biomedical Informatics Insights",
+      "publisher": "",
+      "place": "",
+      "date": "2012-1-30",
+      "volume": "5",
+      "issue": "Suppl 1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "175-184",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Biomed Inform Insights",
+      "DOI": "10.4137/BII.S8967",
+      "citationKey": "",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3409474/",
+      "accessDate": "2020-09-14T09:27:42Z",
+      "PMID": "22879774",
+      "PMCID": "PMC3409474",
+      "ISSN": "1178-2226",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "PubMed Central",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "5BUVBGXQ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:35Z",
+      "dateModified": "2020-09-18T09:57:18Z"
+    }
+  },
+  {
+    "key": "5A28FAY6",
+    "version": 2556,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/5A28FAY6",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/5A28FAY6",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Younesi et al.",
+      "parsedDate": "2012-12-18",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "5A28FAY6",
+      "version": 2556,
+      "itemType": "journalArticle",
+      "title": "Mining biomarker information in biomedical literature",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Erfan",
+          "lastName": "Younesi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Luca",
+          "lastName": "Toldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph M.",
+          "lastName": "Friedrich"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Natalia",
+          "lastName": "Novac"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexander",
+          "lastName": "Scheer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Martin",
+          "lastName": "Hofmann-Apitius"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Juliane",
+          "lastName": "Fluck"
+        }
+      ],
+      "abstractNote": "For selection and evaluation of potential biomarkers, inclusion of already published information is of utmost importance. In spite of significant advancements in text- and data-mining techniques, the vast knowledge space of biomarkers in biomedical text has remained unexplored. Existing named entity recognition approaches are not sufficiently selective for the retrieval of biomarker information from the literature. The purpose of this study was to identify textual features that enhance the effectiveness of biomarker information retrieval for different indication areas and diverse end user perspectives.",
+      "publicationTitle": "BMC Medical Informatics and Decision Making",
+      "publisher": "",
+      "place": "",
+      "date": "2012-12-18",
+      "volume": "12",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "148",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "BMC Medical Informatics and Decision Making",
+      "DOI": "10.1186/1472-6947-12-148",
+      "citationKey": "",
+      "url": "https://doi.org/10.1186/1472-6947-12-148",
+      "accessDate": "2020-09-17T09:15:17Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1472-6947",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "BioMed Central",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "fluck@zbmed.de"
+        }
+      ],
+      "collections": [
+        "5BUVBGXQ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-17T09:59:02Z",
+      "dateModified": "2020-09-17T09:59:02Z"
+    }
+  },
+  {
+    "key": "QQZKJNFB",
+    "version": 11700,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/QQZKJNFB",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/QQZKJNFB",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ananiadou et al.",
+      "parsedDate": "2012-09",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "QQZKJNFB",
+      "version": 11700,
+      "itemType": "book",
+      "title": "Proceedings of the 5th International Symposium on Semantic Mining in Biomedicine (SMBM 2012)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Sophia",
+          "lastName": "Ananiadou"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sampo",
+          "lastName": "Pyysalo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fabio",
+          "lastName": "Rinaldi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tapio",
+          "lastName": "Salakoski"
+        }
+      ],
+      "abstractNote": "",
+      "series": "",
+      "seriesNumber": "",
+      "volume": "",
+      "numberOfVolumes": "",
+      "edition": "",
+      "date": "2012-09-00",
+      "publisher": "Institute of Computational Linguistics, University of Zurich",
+      "place": "Zurich",
+      "originalDate": "",
+      "originalPublisher": "",
+      "originalPlace": "",
+      "format": "",
+      "numPages": "",
+      "ISBN": "978-3-033-03823-3",
+      "DOI": "10.5167/uzh-64476",
+      "citationKey": "",
+      "url": "https://www.zora.uzh.ch/id/eprint/64476/",
+      "accessDate": "2020-09-14T09:29:55Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "www.zora.uzh.ch",
+      "callNumber": "",
+      "rights": "info:eu-repo/semantics/openAccess",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "5BUVBGXQ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-16T10:00:37Z",
+      "dateModified": "2020-09-16T10:00:37Z"
+    }
+  }
+]

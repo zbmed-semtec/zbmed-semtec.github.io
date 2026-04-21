@@ -1,0 +1,1403 @@
+[
+  {
+    "key": "KU3IR4T8",
+    "version": 9481,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/KU3IR4T8",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/KU3IR4T8",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 8466868,
+        "username": "julianschneider",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/julianschneider",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Garcia et al.",
+      "parsedDate": "2019-06-09",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "KU3IR4T8",
+      "version": 9481,
+      "itemType": "journalArticle",
+      "title": "Biotea-2-Bioschemas, facilitating structured markup for semantically annotated scholarly publications",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla",
+          "lastName": "Garcia"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexander",
+          "lastName": "Garcia"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Genomics & Informatics",
+      "publisher": "",
+      "place": "",
+      "date": "2019-06-09",
+      "volume": "17",
+      "issue": "2",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.5808%2FGI.2019.17.2.e14",
+      "citationKey": "",
+      "url": "https://genominfo.org/journal/view.php?doi=10.5808/GI.2019.17.2.e14",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "e14",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "⚠️ Invalid DOI",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "XFKSVXBJ"
+      ],
+      "relations": {},
+      "dateAdded": "2021-01-13T07:06:59Z",
+      "dateModified": "2024-07-01T10:06:20Z"
+    }
+  },
+  {
+    "key": "74ZF5JX2",
+    "version": 9480,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/74ZF5JX2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/74ZF5JX2",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 8466868,
+        "username": "julianschneider",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/julianschneider",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Barros et al.",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "74ZF5JX2",
+      "version": 9480,
+      "itemType": "journalArticle",
+      "title": "The validity of Google Trends search volumes for behavioral forecasting of national suicide rates in Ireland",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "JM",
+          "lastName": "Barros"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "R",
+          "lastName": "Melia"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "K",
+          "lastName": "Francis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "",
+          "lastName": "et al."
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "International journal of environmental research and public health",
+      "publisher": "",
+      "place": "",
+      "date": "",
+      "volume": "16",
+      "issue": "17",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "3201",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.3390/ijerph16173201",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "XFKSVXBJ"
+      ],
+      "relations": {},
+      "dateAdded": "2021-03-17T09:35:30Z",
+      "dateModified": "2024-07-01T10:06:14Z"
+    }
+  },
+  {
+    "key": "F25IZBM5",
+    "version": 9480,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/F25IZBM5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/F25IZBM5",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 8466868,
+        "username": "julianschneider",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/julianschneider",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Verma et al.",
+      "parsedDate": "2019",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "F25IZBM5",
+      "version": 9480,
+      "itemType": "conferencePaper",
+      "title": "Ranked MSD: A New Feature Ranking and Feature Selection Approach for Biomarker Identification",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "G",
+          "lastName": "Verma"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A",
+          "lastName": "Jha"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "proceedingsTitle": "",
+      "conferenceName": "International Cross-Domain Conference for Machine Learning and Knowledge",
+      "publisher": "",
+      "place": "",
+      "date": "2019",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.1007/978-3-030-29726-8_10",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "XFKSVXBJ"
+      ],
+      "relations": {},
+      "dateAdded": "2021-03-17T09:29:33Z",
+      "dateModified": "2024-07-01T10:06:13Z"
+    }
+  },
+  {
+    "key": "M8M2V8W6",
+    "version": 9480,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/M8M2V8W6",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/M8M2V8W6",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 8466868,
+        "username": "julianschneider",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/julianschneider",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Oliveira et al.",
+      "parsedDate": "2019",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "M8M2V8W6",
+      "version": 9480,
+      "itemType": "journalArticle",
+      "title": "Where to search top-K biomedical ontologies?",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "D",
+          "lastName": "Oliveira"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "As",
+          "lastName": "Butt"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A",
+          "lastName": "Haller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "R",
+          "lastName": "Sahay"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Briefings in bioinformatics",
+      "publisher": "",
+      "place": "",
+      "date": "2019",
+      "volume": "20",
+      "issue": "4",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1477-1491",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1093/bib/bby015",
+      "citationKey": "",
+      "url": "https://doi.org/10.1093/bib/bby015",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "XFKSVXBJ"
+      ],
+      "relations": {},
+      "dateAdded": "2021-03-17T09:32:28Z",
+      "dateModified": "2024-07-01T10:06:12Z"
+    }
+  },
+  {
+    "key": "CQTDFDFG",
+    "version": 9478,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/CQTDFDFG",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/CQTDFDFG",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 8466868,
+        "username": "julianschneider",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/julianschneider",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Müller and Rebholz-Schuhmann",
+      "parsedDate": "2019-12-20",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "CQTDFDFG",
+      "version": 9478,
+      "itemType": "journalArticle",
+      "title": "Die Versorgungsstrategie von ZB MED – Informationszentrum Lebenswissenschaften",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Elisabeth",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "GMS Medizin – Bibliothek – Information",
+      "publisher": "",
+      "place": "",
+      "date": "2019-12-20",
+      "volume": "19",
+      "issue": "3",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://www.egms.de/static/en/journals/mbi/2019-19/mbi000451.shtml",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "mueller@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "⛔ No DOI found",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "XFKSVXBJ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-07-28T09:49:17Z",
+      "dateModified": "2024-07-01T10:06:01Z"
+    }
+  },
+  {
+    "key": "CZ6IXGKE",
+    "version": 9474,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/CZ6IXGKE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/CZ6IXGKE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 8466868,
+        "username": "julianschneider",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/julianschneider",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Barros et al.",
+      "parsedDate": "2019-09-02",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "CZ6IXGKE",
+      "version": 9474,
+      "itemType": "journalArticle",
+      "title": "The Validity of Google Trends Search Volumes for Behavioral Forecasting of National Suicide Rates in Ireland",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Joana M.",
+          "lastName": "Barros"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ruth",
+          "lastName": "Melia"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kady",
+          "lastName": "Francis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "John",
+          "lastName": "Bogue"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mary",
+          "lastName": "O'Sullivan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Karen",
+          "lastName": "Young"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rebecca A.",
+          "lastName": "Bernert"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jim",
+          "lastName": "Duggan"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Int. J. Environ. Res. Public Health",
+      "publisher": "",
+      "place": "",
+      "date": "2019-09-02",
+      "volume": "16",
+      "issue": "17",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.3390/ijerph16173201",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "Article Nr. 3201",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "XFKSVXBJ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-07-31T09:07:26Z",
+      "dateModified": "2024-07-01T10:05:37Z"
+    }
+  },
+  {
+    "key": "H8JXBDIH",
+    "version": 4298,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/H8JXBDIH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/H8JXBDIH",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 5126095,
+        "username": "zbmed",
+        "name": "ZB MED - Information Centre for Life Sciences",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/zbmed",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Barros et al.",
+      "parsedDate": "2019-04",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "H8JXBDIH",
+      "version": 4298,
+      "itemType": "conferencePaper",
+      "title": "Unsupervised classification of health content on reddit",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "JM",
+          "lastName": "Barros"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "P",
+          "lastName": "Buitelaar"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "J",
+          "lastName": "Duggan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "proceedingsTitle": "Proceedings of the 9th International Conference on Digital Public Health",
+      "conferenceName": "International Conference on Digital Public Health",
+      "publisher": "",
+      "place": "",
+      "date": "2019-04",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "JM Barros, P , J Duggan, D Rebholz-Schuhmann",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://doi.org/10.1145/3357729.3357745",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "XFKSVXBJ"
+      ],
+      "relations": {},
+      "dateAdded": "2021-03-17T09:25:48Z",
+      "dateModified": "2021-05-27T10:12:36Z"
+    }
+  },
+  {
+    "key": "2FNDCW6N",
+    "version": 1831,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/2FNDCW6N",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/2FNDCW6N",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Müller et al.",
+      "parsedDate": "2019-02-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "2FNDCW6N",
+      "version": 1831,
+      "itemType": "presentation",
+      "title": "ZB MED: Living Labs mit LIVIVO",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Benjamin",
+          "lastName": "Wolff"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "",
+      "date": "2019-02-06",
+      "meetingName": "STELLA Kick-off",
+      "place": "Köln",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://www.zbmed.de/fileadmin/user_upload/stella-kickoff-060219-190401130826.pdf",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "muellerb@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "wolff@zbmed.de"
+        }
+      ],
+      "collections": [
+        "XFKSVXBJ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-08-03T11:51:29Z",
+      "dateModified": "2020-08-03T11:58:29Z"
+    }
+  },
+  {
+    "key": "UVGTF3RT",
+    "version": 1707,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/UVGTF3RT",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/UVGTF3RT",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Wolff et al.",
+      "parsedDate": "2019-04-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "UVGTF3RT",
+      "version": 1707,
+      "itemType": "presentation",
+      "title": "STELLA-Infrastructure for Living Labs, Einbindung in das Suchportal LIVIVO",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Benjamin",
+          "lastName": "Wolff"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "",
+      "date": "2019-04-01",
+      "meetingName": "Face 2 Face Meeting bei GESIS",
+      "place": "Köln",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://www.zbmed.de/fileadmin/user_upload/STELLA_praesentation_20190401.pdf",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "muellerb@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "wolff@zbmed.de"
+        }
+      ],
+      "collections": [
+        "XFKSVXBJ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-08-03T10:39:12Z",
+      "dateModified": "2020-08-03T10:43:14Z"
+    }
+  },
+  {
+    "key": "5XXJP7FN",
+    "version": 1501,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/5XXJP7FN",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/5XXJP7FN",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Breuer et al.",
+      "parsedDate": "2019-07-25",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "5XXJP7FN",
+      "version": 1501,
+      "itemType": "conferencePaper",
+      "title": "STELLA: Towards a Framework for the Reproducibility of Online Search Experiments",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Timo",
+          "lastName": "Breuer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Philipp",
+          "lastName": "Schaer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Narges",
+          "lastName": "Tavalkolpoursaleh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thomas",
+          "lastName": "Schaible"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Benjamin",
+          "lastName": "Wolff"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        }
+      ],
+      "abstractNote": "",
+      "proceedingsTitle": "Proceeding of the Open-Source IR Replicability Challenge (OSIRRC 2019). CEUR Workshop Proceedings CEUR-WS.org)",
+      "conferenceName": "SIGIR 2019",
+      "publisher": "",
+      "place": "Paris",
+      "date": "2019-07-25",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "8-11",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "ISBN": "1613-0073",
+      "citationKey": "",
+      "url": "http://ceur-ws.org/Vol-2409/position01.pdf",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "Englisch",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "muellerb@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "wolff@zbmed.de"
+        }
+      ],
+      "collections": [
+        "XFKSVXBJ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-07-31T10:26:58Z",
+      "dateModified": "2020-08-03T09:08:08Z"
+    }
+  },
+  {
+    "key": "4WAA2FW5",
+    "version": 1570,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/4WAA2FW5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/4WAA2FW5",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Müller and Rebholz-Schuhmann",
+      "parsedDate": "2019-07-03",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "4WAA2FW5",
+      "version": 1570,
+      "itemType": "presentation",
+      "title": "STELLA-Infrastructure for Living Labs, Milestone Meeting",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "",
+      "date": "2019-07-03",
+      "meetingName": "ZB MED Face 2 Face Meeting",
+      "place": "Köln",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://www.zbmed.de/fileadmin/user_upload/20190703stella-190716083456.pdf",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "muellerb@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "XFKSVXBJ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-08-03T08:35:25Z",
+      "dateModified": "2020-08-03T08:37:18Z"
+    }
+  },
+  {
+    "key": "BNZGT5IJ",
+    "version": 1399,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/BNZGT5IJ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/BNZGT5IJ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Müller and Rebholz-Schuhmann",
+      "parsedDate": "2019-07-03",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "BNZGT5IJ",
+      "version": 1399,
+      "itemType": "presentation",
+      "title": "Participation of ZB MED in the Task6a and Task7a of the BioASQ Challenge",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "",
+      "date": "2019-07-03",
+      "meetingName": "ZB MED Face 2 Face Meeting",
+      "place": "Köln",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://www.zbmed.de/fileadmin/user_upload/stella-f2f-030719-190716074018.pdf",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "muellerb@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "XFKSVXBJ"
+      ],
+      "relations": {},
+      "dateAdded": "2020-07-31T10:46:14Z",
+      "dateModified": "2020-07-31T10:52:07Z"
+    }
+  }
+]

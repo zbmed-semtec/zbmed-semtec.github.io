@@ -1,0 +1,378 @@
+[
+  {
+    "year": "2021",
+    "collection_hash": "TCIBCFWW",
+    "item": {
+      "key": "5VPM8IM5",
+      "version": 7492,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/5VPM8IM5",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/5VPM8IM5",
+          "type": "text/html"
+        },
+        "attachment": {
+          "href": "https://api.zotero.org/groups/2350725/items/A489SE4E",
+          "type": "application/json",
+          "attachmentType": "application/pdf",
+          "attachmentSize": 422384
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Castro et al.",
+        "parsedDate": "2021-08-09",
+        "numChildren": 1
+      },
+      "data": {
+        "key": "5VPM8IM5",
+        "version": 7492,
+        "itemType": "preprint",
+        "title": "Measuring outcomes and impact from the BioHackathon Europe",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Corinne",
+            "lastName": "Martin"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Georgi",
+            "lastName": "Lazarov"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dana",
+            "lastName": "Cernoskova"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Terue",
+            "lastName": "Takatsuki"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Jennifer",
+            "lastName": "Harrow"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          }
+        ],
+        "abstractNote": "",
+        "genre": "Preprint",
+        "repository": "BioHackrXiv",
+        "archiveID": "",
+        "place": "",
+        "date": "2021-08-09",
+        "series": "",
+        "seriesNumber": "",
+        "DOI": "10.37044/osf.io/3dxhg",
+        "citationKey": "",
+        "url": "https://biohackrxiv.org/3dxhg/",
+        "accessDate": "2021-08-10T10:04:30Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "",
+        "libraryCatalog": "OSF Preprints",
+        "callNumber": "",
+        "rights": "All rights reserved",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "TCIBCFWW"
+        ],
+        "relations": {},
+        "dateAdded": "2021-08-10T10:06:07Z",
+        "dateModified": "2023-06-30T20:34:26Z"
+      }
+    }
+  },
+  {
+    "year": "2021",
+    "collection_hash": "TCIBCFWW",
+    "item": {
+      "key": "MMKMPH5Z",
+      "version": 11709,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/MMKMPH5Z",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/MMKMPH5Z",
+          "type": "text/html"
+        },
+        "attachment": {
+          "href": "https://api.zotero.org/groups/2350725/items/DQDICSDG",
+          "type": "application/json",
+          "attachmentType": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "lastModifiedByUser": {
+          "id": 19315147,
+          "username": "KatLab23",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/katlab23",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Lazarov et al.",
+        "parsedDate": "2021-06-05",
+        "numChildren": 1
+      },
+      "data": {
+        "key": "MMKMPH5Z",
+        "version": 11709,
+        "itemType": "report",
+        "title": "Whatizit performance evaluation against CRAFT corpus",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Georgi",
+            "lastName": "Lazarov"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          }
+        ],
+        "abstractNote": "The Colorado Richly Annotated Full-Text (CRAFT) Corpus is a collection of 97 articles from the PubMed Central. I am utilizing a subset of CRAFT - i.e. the concept annotation to Gene Ontology. The annotations are separated for of the GO subdivisions - biological process, cellular component, and molecular function. The approach is extracting and combining the annotations from the files in order to be able to provide comprehensive overview on the corpus annotations and to allow comparison with Whatizit annotations where there is no subdivision separation. Whatizit Named-entity recognition tool which has been adapted to work with a dictionary based on Gene Ontology + including preferred and synonym terms for each GO Id, as applicable. Whatizit annotations are created on the same 97 articles from CRAFT corpus and performance is compared between both: - general statistics is generated - number of GO terms per article, number of articles per GO term, articles IDs per GO term, number of GO terms for the corpus - TF is calculated - IDF is calculated - merged dataframe is created for comparison - CRAFT annotations are \"gold standard\" and occurences are aligned.",
+        "reportNumber": "",
+        "reportType": "",
+        "institution": "Zenodo",
+        "place": "",
+        "date": "2021-06-05",
+        "seriesTitle": "",
+        "seriesNumber": "",
+        "pages": "",
+        "DOI": "10.5281/zenodo.4903981",
+        "ISBN": "",
+        "citationKey": "",
+        "url": "https://zenodo.org/record/4903981",
+        "accessDate": "2021-10-27T12:43:26Z",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "eng",
+        "libraryCatalog": "Zenodo",
+        "callNumber": "",
+        "rights": "",
+        "extra": "Type: Dataset",
+        "tags": [
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "rebholz@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "TCIBCFWW"
+        ],
+        "relations": {},
+        "dateAdded": "2021-10-27T12:44:28Z",
+        "dateModified": "2023-06-30T20:33:29Z"
+      }
+    }
+  },
+  {
+    "year": "2021",
+    "collection_hash": "TCIBCFWW",
+    "item": {
+      "key": "T426PJ2D",
+      "version": 7482,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/T426PJ2D",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/T426PJ2D",
+          "type": "text/html"
+        },
+        "attachment": {
+          "href": "https://api.zotero.org/groups/2350725/items/P7GDM6TP",
+          "type": "application/json",
+          "attachmentType": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Lazarov et al.",
+        "parsedDate": "2021-06-27",
+        "numChildren": 1
+      },
+      "data": {
+        "key": "T426PJ2D",
+        "version": 7482,
+        "itemType": "dataset",
+        "title": "Complete Medline abstracts corpus between 2015-2019 annotated Whatizit text annotation tool",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Georgi",
+            "lastName": "Lazarov"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Benjamin",
+            "lastName": "Wolff"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          }
+        ],
+        "abstractNote": "",
+        "identifier": "",
+        "type": "",
+        "versionNumber": "",
+        "date": "2021-06-27",
+        "repository": "Zenodo",
+        "repositoryLocation": "",
+        "format": "",
+        "DOI": "10.5281/zenodo.5035290",
+        "citationKey": "",
+        "url": "https://zenodo.org/record/5035290",
+        "accessDate": "2021-10-27T12:44:37Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "",
+        "libraryCatalog": "Zenodo",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "rebholz@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "TCIBCFWW"
+        ],
+        "relations": {},
+        "dateAdded": "2021-10-27T12:45:02Z",
+        "dateModified": "2023-06-30T20:33:23Z"
+      }
+    }
+  }
+]

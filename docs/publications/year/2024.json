@@ -1,0 +1,2550 @@
+[
+  {
+    "key": "YW9PC3QA",
+    "version": 11690,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/YW9PC3QA",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/YW9PC3QA",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2024-09-30",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "YW9PC3QA",
+      "version": 11690,
+      "itemType": "computerProgram",
+      "title": "word2doc2vec-doc-relevance",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "Word2doc2vec is an approach exploring and assessing literature-based document to document recommendations using word2vec combined with doc2vec, and applying it to the RELISH dataset.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2024-09-30",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/13861950",
+      "accessDate": "2025-10-09T16:26:34Z",
+      "DOI": "10.5281/zenodo.13861950",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: enc",
+      "tags": [
+        {
+          "tag": "document embeddings",
+          "type": 1
+        },
+        {
+          "tag": "document similarity",
+          "type": 1
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "ontoclue"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "word embeddings",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:27:29Z",
+      "dateModified": "2025-10-09T16:27:29Z"
+    }
+  },
+  {
+    "key": "K2FBY57W",
+    "version": 11690,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/K2FBY57W",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/K2FBY57W",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Luciani et al.",
+      "parsedDate": "2024-09-12",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "K2FBY57W",
+      "version": 11690,
+      "itemType": "computerProgram",
+      "title": "v1.0.0 web-based visualization for the RDA FAIR4ML ML lifecycle",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Aurélian",
+          "lastName": "Luciani"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Nelson",
+          "lastName": "Quinones"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "v1.0.0 Release\n\nFirst release of this web-based visualization for the ML lifecycle defined at https://doi.org/10.5281/zenodo.10407264.Not changes are expected unless there is an update of the Ml lifecycle.The table associated to the different steps can be configured with own information.\n\nFull Changelog: https://github.com/zbmed-semtec/ML-lifecycle-visualization/commits/v1.0.0",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2024-09-12",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15126201",
+      "accessDate": "2025-10-09T16:15:55Z",
+      "DOI": "10.5281/zenodo.15126201",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "FAIR4ML",
+          "type": 1
+        },
+        {
+          "tag": "ML lifecycle",
+          "type": 1
+        },
+        {
+          "tag": "Visualization",
+          "type": 1
+        },
+        {
+          "tag": "Web-app",
+          "type": 1
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:17:05Z",
+      "dateModified": "2025-10-09T16:17:05Z"
+    }
+  },
+  {
+    "key": "YN7EZRGE",
+    "version": 11691,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/YN7EZRGE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/YN7EZRGE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Geist et al.",
+      "parsedDate": "2024",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "YN7EZRGE",
+      "version": 11691,
+      "itemType": "dataset",
+      "title": "Deutscher MeSH - bilinguale Fassung, 2024",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Miriam",
+          "lastName": "Albers"
+        }
+      ],
+      "abstractNote": "",
+      "identifier": "",
+      "type": "XML",
+      "versionNumber": "",
+      "date": "2024",
+      "repository": "PUBLISSO",
+      "repositoryLocation": "",
+      "format": "application/pdf",
+      "DOI": "10.4126/FRL01-006490591",
+      "citationKey": "",
+      "url": "https://repository.publisso.de/resource/frl:6490591",
+      "accessDate": "2025-10-07T16:52:39Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "de",
+      "libraryCatalog": "DOI.org (Datacite)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Medizin und Gesundheit",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-07T16:55:07Z",
+      "dateModified": "2025-10-07T16:55:07Z"
+    }
+  },
+  {
+    "key": "R3WW52GL",
+    "version": 10813,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/R3WW52GL",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/R3WW52GL",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2024",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "R3WW52GL",
+      "version": 10813,
+      "itemType": "conferencePaper",
+      "title": "A Lightweight Approach to FDOs via Bioschemas, RO-Crate and Signposting on GitHub Pages",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Here we present a proof-of-concept using Bioschemas, RO-Crate and Signposting as a lightweight approach to FDOs describing research outcomes exposed on GitHub pages. Research artifacts produced by a research and development team, namely the SemTec team at ZB MED, are exposed via GitHub pages and enriched with structured metadata using schema.org and Bioschemas. Research artifacts corresponding to the same research project are put together in an RO-Crate. Signposting is used on the GitHub landing pages. The combination of these three elements facilitates rich FAIR metadata for research artifacts.",
+      "proceedingsTitle": "Open Conference Proceedings",
+      "conferenceName": "",
+      "publisher": "",
+      "place": "",
+      "date": "2024",
+      "eventPlace": "",
+      "volume": "5",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.52825/ocp.v5i.1188",
+      "ISBN": "ISSN:2749-5841",
+      "citationKey": "",
+      "url": "https://www.tib-op.org/ojs/index.php/ocp/article/view/1188",
+      "accessDate": "2025-03-21T14:56:32Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "www.tib-op.org",
+      "callNumber": "",
+      "rights": "Copyright (c) 2025 Rohitha Ravinder, Nelson Quiñones, Dietrich Rebholz-Schuhmann, Leyla Jael Castro",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "FDO",
+          "type": 1
+        },
+        {
+          "tag": "RO-Crate",
+          "type": 1
+        },
+        {
+          "tag": "Research Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Signposting",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "ndfi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2025-03-21T14:58:39Z",
+      "dateModified": "2025-03-21T15:01:28Z"
+    }
+  },
+  {
+    "key": "6BXG3TUH",
+    "version": 11066,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/6BXG3TUH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/6BXG3TUH",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 11184980,
+        "username": "Susanne_Ruhm",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/susanne_ruhm",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2024-12-12",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "6BXG3TUH",
+      "version": 11066,
+      "itemType": "conferencePaper",
+      "title": "Software metadata for BASE and NFDI",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nelson David",
+          "lastName": "Quiñones Virgen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "The abstract Software metadata for BASE and NFDI was submitted to the Base4NFDI User Conference 2024 (https://events.gwdg.de/event/658/), reviewed, and accepted for the Further fields Session.",
+      "proceedingsTitle": "",
+      "conferenceName": "",
+      "publisher": "Zenodo",
+      "place": "",
+      "date": "2024-12-12",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.5281/zenodo.14411599",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/14411599",
+      "accessDate": "2025-01-09T14:37:36Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "masmp"
+        },
+        {
+          "tag": "nfdi"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "software metadata"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2025-01-09T14:39:21Z",
+      "dateModified": "2025-01-09T14:39:21Z"
+    }
+  },
+  {
+    "key": "LTDSHP5U",
+    "version": 11716,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/LTDSHP5U",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/LTDSHP5U",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2024-10-11",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "LTDSHP5U",
+      "version": 11716,
+      "itemType": "presentation",
+      "title": "Using FAIR Signposting and RO-Crate at the German National Library of Medicine",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Daniel",
+          "lastName": "Turner"
+        }
+      ],
+      "abstractNote": "The team of participants from the German National Library of Medicine (ZB MED - Information Centre for Life Sciences) applied FAIR Signposting and RO-Crate to the team’s web pages as a proof-of-concept for later developments. The team web pages now support FAIR Signposting and RO-Crate for projects and theses, with the next step being implementation for software. \n\n\n\n\"Embrace the chance to ask experts. This is the fastest way to get help, as they are able to provide answers and recommendations. Regular research should target what the FAIR requirements and solutions are in your community and how solutions are connected.\".\n\n\n\n\nSupported applicant: Leyla Jael Castro, Rohitha Ravinder, Nelson Quiñones, German National Library of Medicine (ZB MED)\n\nFAIR-IMPACT Support: Daniel Turner, Digital Curation Centre (DCC)",
+      "presentationType": "",
+      "date": "2024-10-11",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.14246592",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/14246592",
+      "accessDate": "2024-12-06T11:01:31Z",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "RO-Crate"
+        },
+        {
+          "tag": "Signposting"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2024-12-06T11:02:36Z",
+      "dateModified": "2025-01-06T10:33:19Z"
+    }
+  },
+  {
+    "key": "TIYB6Q8M",
+    "version": 10192,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/TIYB6Q8M",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/TIYB6Q8M",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Solanki et al.",
+      "parsedDate": "2024",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "TIYB6Q8M",
+      "version": 10192,
+      "itemType": "conferencePaper",
+      "title": "Leveraging Artificial Intelligence and Metadata for Enhanced Microbiome data usage in Biomedical Research",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "proceedingsTitle": "",
+      "conferenceName": "AIKG-SD 2024",
+      "publisher": "PUBLISSO FRL",
+      "place": "Lünerburg, Germany",
+      "date": "2024",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.4126/FRL01-006488509",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://repository.publisso.de/resource/frl:6488509",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "Medium: application/pdf\nPublisher: ZB MED - Informationszentrum Lebenswissenschaften",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "poster"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2024-12-19T15:50:56Z",
+      "dateModified": "2024-12-19T15:50:56Z"
+    }
+  },
+  {
+    "key": "8Q65L2QU",
+    "version": 11716,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/8Q65L2QU",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/8Q65L2QU",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2024-01-29",
+      "numChildren": 2
+    },
+    "data": {
+      "key": "8Q65L2QU",
+      "version": 11716,
+      "itemType": "dataset",
+      "title": "Usage guidance (aka profiles) for the machine-actionable Software Management Plan Ontology",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "Usage guidance (aka profiles) including suggestions of mimimum, recommended and optional properties as well as property cardinality for the metadata schema/ontology maSMP (published at DOI:10.5281/zenodo.7806638, vr. 2.1.0). Although this is the first publicatoin of profiles separated from the metadata schema, we have decided to keep a relation in the versioning of the schema and the profiles, therefore these profiles correspond to vr. 2.1.1. These profiles are mostly based on the SMP metadata crosswalks from May 2023 and December 2023, and correspond to the types OuputManagementPlan, SoftwareManagementPlan, SoftwareRunAction and SoftwareTestAction defined in the maSMP metadata schema, and to the types schema:SoftwareApplication and schema:SoftwareSourceCode so the proposed properties for these two types are covered. The maSMP types and maSMP profiles can be visualized in the Data Discovery Engine (DDE) platform. Follow the links and you will get a summary of types and properties, and the corresponding profiles with usage guidelines (e.g., minimum, recommended and optional properties with cardinality). The profiles include recommendations on types and properties from: schema.org v23 Codemeta Bioschemas maSMP vr. 2.1.0 Acknowledgments  This project received funding (December 2022 to May 2023) from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101017536 which is part of the Research Data Alliance and European Open Science Cloud Future call 2022. More info.   The maSMP project is part of the NFDI4DataScience project funded by the German Research Foundation (DFG), project number 460234259.",
+      "identifier": "",
+      "type": "",
+      "versionNumber": "",
+      "date": "2024-01-29",
+      "repository": "Zenodo",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.10582121",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/10582121",
+      "accessDate": "2024-01-31T09:57:29Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Software Management Plan (SMP)"
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2024-01-31T09:58:56Z",
+      "dateModified": "2024-11-27T19:51:13Z"
+    }
+  },
+  {
+    "key": "H28TEXX8",
+    "version": 11716,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/H28TEXX8",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/H28TEXX8",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Fragkouli et al.",
+      "parsedDate": "2024-09-30",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "H28TEXX8",
+      "version": 11716,
+      "itemType": "journalArticle",
+      "title": "Synthetic data: how could it be used in infectious disease research?",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Styliani-Christina",
+          "lastName": "Fragkouli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla J",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fotis E",
+          "lastName": "Psomopoulos"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Núria",
+          "lastName": "Queralt-Rosinach"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Davide",
+          "lastName": "Cirillo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lisa C",
+          "lastName": "Crossman"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Future Microbiology",
+      "publisher": "Taylor & Francis",
+      "place": "",
+      "date": "2024-09-30",
+      "volume": "0",
+      "issue": "0",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1-6",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.1080/17460913.2024.2400853",
+      "citationKey": "",
+      "url": "https://doi.org/10.1080/17460913.2024.2400853",
+      "accessDate": "2024-09-30T14:02:23Z",
+      "PMID": "39345126",
+      "PMCID": "",
+      "ISSN": "1746-0913",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Synthetic data",
+      "language": "",
+      "libraryCatalog": "Taylor and Francis+NEJM",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "_eprint: https://doi.org/10.1080/17460913.2024.2400853",
+      "tags": [
+        {
+          "tag": "bacteria",
+          "type": 1
+        },
+        {
+          "tag": "deep learning",
+          "type": 1
+        },
+        {
+          "tag": "healthcare",
+          "type": 1
+        },
+        {
+          "tag": "infection",
+          "type": 1
+        },
+        {
+          "tag": "infectious disease",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "machine learning",
+          "type": 1
+        },
+        {
+          "tag": "microbiology",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "synthetic data",
+          "type": 1
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2024-09-30T14:03:48Z",
+      "dateModified": "2024-11-27T19:50:41Z"
+    }
+  },
+  {
+    "key": "4KCJH54B",
+    "version": 10125,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/4KCJH54B",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/4KCJH54B",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Fragkouli et al.",
+      "parsedDate": "2024-07-03",
+      "numChildren": 2
+    },
+    "data": {
+      "key": "4KCJH54B",
+      "version": 10125,
+      "itemType": "preprint",
+      "title": "Synthetic data: How could it be used for infectious disease research?",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Styliani-Christina",
+          "lastName": "Fragkouli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla J.",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fotis E.",
+          "lastName": "Psomopoulos"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Núria",
+          "lastName": "Queralt-Rosinach"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Davide",
+          "lastName": "Cirillo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lisa C.",
+          "lastName": "Crossman"
+        }
+      ],
+      "abstractNote": "Over the last three to five years, it has become possible to generate machine learning synthetic data for healthcare-related uses. However, concerns have been raised about potential negative factors associated with the possibilities of artificial dataset generation. These include the potential misuse of generative artificial intelligence (AI) in fields such as cybercrime, the use of deepfakes and fake news to deceive or manipulate, and displacement of human jobs across various market sectors. Here, we consider both current and future positive advances and possibilities with synthetic datasets. Synthetic data offers significant benefits, particularly in data privacy, research, in balancing datasets and reducing bias in machine learning models. Generative AI is an artificial intelligence genre capable of creating text, images, video or other data using generative models. The recent explosion of interest in GenAI was heralded by the invention and speedy move to use of large language models (LLM). These computational models are able to achieve general-purpose language generation and other natural language processing tasks and are based on transformer architectures, which made an evolutionary leap from previous neural network architectures. Fuelled by the advent of improved GenAI techniques and wide scale usage, this is surely the time to consider how synthetic data can be used to advance infectious disease research. In this commentary we aim to create an overview of the current and future position of synthetic data in infectious disease research.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2407.06211",
+      "place": "",
+      "date": "2024-07-03",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2407.06211",
+      "accessDate": "2024-07-10T11:57:10Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Synthetic data",
+      "language": "",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "arXiv:2407.06211 [cs, q-bio]",
+      "tags": [
+        {
+          "tag": "AI"
+        },
+        {
+          "tag": "Computer Science - Computers and Society",
+          "type": 1
+        },
+        {
+          "tag": "Computer Science - Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Quantitative Biology - Other Quantitative Biology",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2024-07-10T11:58:14Z",
+      "dateModified": "2024-11-27T19:50:26Z"
+    }
+  },
+  {
+    "key": "H678XWDC",
+    "version": 11717,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/H678XWDC",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/H678XWDC",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Solanki et al.",
+      "parsedDate": "2024",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "H678XWDC",
+      "version": 11717,
+      "itemType": "presentation",
+      "title": "MLentory, an FDO registry for machine learning models",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Nelson David",
+          "lastName": "Quiñones Virgen"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "",
+      "date": "2024",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.4126/FRL01-006473259",
+      "citationKey": "",
+      "url": "https://repositohttps://repository.publisso.de/resource/frl:6473259ry.publisso.de/resource/frl:6473259",
+      "accessDate": "2024-04-02T16:21:03Z",
+      "shortTitle": "",
+      "language": "en",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "FAIR",
+          "type": 1
+        },
+        {
+          "tag": "FDOs",
+          "type": 1
+        },
+        {
+          "tag": "Machine learning models",
+          "type": 1
+        },
+        {
+          "tag": "NFDI4DS"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "mlentory"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "registry",
+          "type": 1
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2024-04-02T16:24:27Z",
+      "dateModified": "2024-11-27T19:49:33Z"
+    }
+  },
+  {
+    "key": "YVX7W3RL",
+    "version": 11717,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/YVX7W3RL",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/YVX7W3RL",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2024-01-29",
+      "numChildren": 2
+    },
+    "data": {
+      "key": "YVX7W3RL",
+      "version": 11717,
+      "itemType": "dataset",
+      "title": "machine-actionable Software Management Plan Ontology (maSMP Ontology)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "We have defined a metadata schema in the form of an ontology representing the necessary metadata elements for a maSMP. The metadata schema includes entities involved in software management planning; such as an SMP itself, software source code, software release, documentation, authors and their relations. We are reusing terms mainly from schema.org and from the RDA-DMP-Common-Standard maDMP application profile, with some few additions of our own.   Vr.2.1.0 is better aligned to schema.org (i.e., use of schema:domainIncludes and schema:rangeIncludes). It includes four types: OuputManagementPlan, SoftwareManagementPlan, SoftwareRunAction and SoftwareTestAction, and additional properties for schema:CreativeWork, schema:SoftwareApplication and schema:SoftwareSourceCode.   The maSMP types and maSMP profiles (published at DOI:10.5281/zenodo.10582121) can be visualized in the Data Discovery Engine (DDE) platform. Follow the links and you will get a summary of types and properties, and the corresponding profiles with usage guidelines (e.g., minimum, recommended and optional properties with cardinality).   The schema is based on: schema.org v23 Codemeta Bioschemas ELIXIR SMP SMP metadata crosswalks from May 2023 and December 2023 RDA-DMP-Common-Standard maDMP application profile DataCite vr 4.4, particularly the description of output management plans Acknowledgments  This project received funding (December 2022 to May 2023) from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101017536 which is part of the Research Data Alliance and European Open Science Cloud Future call 2022. More info.   The maSMP project is part of the NFDI4DataScience project funded by the German Research Foundation (DFG), project number 460234259.",
+      "identifier": "",
+      "type": "",
+      "versionNumber": "",
+      "date": "2024-01-29",
+      "repository": "Zenodo",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.10582073",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/10582073",
+      "accessDate": "2024-01-31T09:54:17Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Software Management Plan (SMP)",
+          "type": 1
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP"
+        },
+        {
+          "tag": "machine-actionable",
+          "type": 1
+        },
+        {
+          "tag": "metadata model",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontology",
+          "type": 1
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "research software",
+          "type": 1
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2024-01-31T09:57:22Z",
+      "dateModified": "2024-11-27T19:48:49Z"
+    }
+  },
+  {
+    "key": "XLRWW6IK",
+    "version": 11717,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/XLRWW6IK",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/XLRWW6IK",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2024-10-28",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "XLRWW6IK",
+      "version": 11717,
+      "itemType": "dataset",
+      "title": "FAIR4ML-schema",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Garijo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jenifer Tabita",
+          "lastName": "Ciuciu-Kiss"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dan",
+          "lastName": "Katz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lars",
+          "lastName": "Eklund"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gnana",
+          "lastName": "Bharathy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Research Data Alliance FAIR4ML Task",
+          "lastName": "Force"
+        }
+      ],
+      "abstractNote": "An increasing amount of machine learning models are produced and shared in the Web by research scientists, ML enthusiast and ML developers. In this vocabulary we introduce a Schema.org extension for creating machine-readable representations of  Machine Learning models.",
+      "identifier": "",
+      "type": "",
+      "versionNumber": "",
+      "date": "2024-10-28",
+      "repository": "Zenodo",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.14002310",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/14002310",
+      "accessDate": "2024-11-08T14:15:54Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2024-11-08T14:16:58Z",
+      "dateModified": "2024-11-08T14:16:58Z"
+    }
+  },
+  {
+    "key": "ZMJHCBGP",
+    "version": 11717,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/ZMJHCBGP",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/ZMJHCBGP",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Solanki and Castro",
+      "parsedDate": "2024-10-25",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "ZMJHCBGP",
+      "version": 11717,
+      "itemType": "report",
+      "title": "Results from aligning the maSMP metadata schema to the RSMD guidelines",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Here we report on our final presentation and results from our aligning the machine-actionable Software Metadata Plan (maSMP) metadata schema to the Research Software MetaData (RSMD) guidelines. This activity was carried out as part of the FAIR-IMPACT support action to implement the RSDM guidelines and was identified with the ID OC-RSMD-11.\n\nThe RSMD guidelines target metadata providers for them to offer quality metadata while our maSMP supports structured metadata. To align them both, we worked with a spreadsheet, listing all the RSMD guidelines and then identifying the related types and properties from our types. \n\nThis report includes the following files:\n\n\n\nAlignment of maSMP metadata schema to RSMD.tsv --a tab separated values file corresponding to the alignment assessment between our maSMP metadata schema and the RSMD guidelines.\n\nOC-RSMD-11-final-slides.pptx --slides presented during the last workshop of the action call in PPTX format\n\nOC-RSMD-11-final-slides.odp --slides presented during the last workshop of the action call in ODP format\n\nOC-RSMD-11-final-slides.pdf --slides presented during the last workshop of the action call in PDF format\n\n\nAcknowledgements\n\nThe first version of the maSMP metadata schema was created thanks to funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101017536, part of the Research Data Alliance and European Open Science Cloud Future call 2022. \n\nSince June 2023, the maSMP project has been part of the NFDI4DataScience project funded by the German Research Foundation (DFG), project number 460234259. \n\nThe FAIR-Impact support action calls has received funding from the European Commission, grant “FAIR-IMPACT – Expanding FAIR Solutions across EOSC” number 101057344. The alignment activities reported here were carried out within the scope of the FAIR-Impact support action call for “Implementing the Research Software MetaData (RSMD) guidelines for better archiving, referencing, describing, and citing research software artefacts”, mentored by Morane Gruenpeter and Sabrina Grainger from the Software Heritage Foundation.",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "Zenodo",
+      "place": "",
+      "date": "2024-10-25",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "10.5281/zenodo.13993369",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/13993369",
+      "accessDate": "2024-10-25T17:46:02Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "SMP",
+          "type": 1
+        },
+        {
+          "tag": "Software management plans",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP",
+          "type": 1
+        },
+        {
+          "tag": "machine actionability",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2024-10-25T17:47:12Z",
+      "dateModified": "2024-10-25T17:47:12Z"
+    }
+  },
+  {
+    "key": "28V5MNGF",
+    "version": 9767,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/28V5MNGF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/28V5MNGF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5522163,
+        "username": "bwolff",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/bwolff",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Wolff et al.",
+      "parsedDate": "2024-05-27",
+      "numChildren": 4
+    },
+    "data": {
+      "key": "28V5MNGF",
+      "version": 9767,
+      "itemType": "presentation",
+      "title": "Enriched BERT Embeddings for Scholarly Publication Classification",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Benjamin",
+          "lastName": "Wolff"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "",
+          "lastName": "Seidlmayer, Eva"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "",
+          "lastName": "Förstner, Konrad"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "Poster",
+      "date": "2024-05-27",
+      "meetingName": "Natural Scientific Language Processing and Research Knowledge Graphs (NSLP 2024)",
+      "place": "Hersonnisos, Crete",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/11519537",
+      "accessDate": "",
+      "shortTitle": "",
+      "language": "en",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "BERT-Embeddings for scientific tasks"
+        },
+        {
+          "tag": "Enrichment of Scholarly Publications"
+        },
+        {
+          "tag": "Scholarly Publication Classification"
+        },
+        {
+          "tag": "seidlmayer@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "wolff@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2024-06-07T13:10:09Z",
+      "dateModified": "2024-09-16T09:57:59Z"
+    }
+  },
+  {
+    "key": "MVP634E3",
+    "version": 9361,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/MVP634E3",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/MVP634E3",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 19872,
+        "username": "konrad",
+        "name": "Konrad Förstner",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/konrad",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 5126095,
+        "username": "zbmed",
+        "name": "ZB MED - Information Centre for Life Sciences",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/zbmed",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Wolff et al.",
+      "parsedDate": "2024-05-07",
+      "numChildren": 3
+    },
+    "data": {
+      "key": "MVP634E3",
+      "version": 9361,
+      "itemType": "preprint",
+      "title": "Enriched BERT Embeddings for Scholarly Publication Classification",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Benjamin",
+          "lastName": "Wolff"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eva",
+          "lastName": "Seidlmayer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Konrad U.",
+          "lastName": "Förstner"
+        }
+      ],
+      "abstractNote": "With the rapid expansion of academic literature and the proliferation of preprints, researchers face growing challenges in manually organizing and labeling large volumes of articles. The NSLP 2024 FoRC Shared Task I addresses this challenge organized as a competition. The goal is to develop a classifier capable of predicting one of 123 predefined classes from the Open Research Knowledge Graph (ORKG) taxonomy of research fields for a given article.This paper presents our results. Initially, we enrich the dataset (containing English scholarly articles sourced from ORKG and arXiv), then leverage different pre-trained language Models (PLMs), specifically BERT, and explore their efficacy in transfer learning for this downstream task. Our experiments encompass feature-based and fine-tuned transfer learning approaches using diverse PLMs, optimized for scientific tasks, including SciBERT, SciNCL, and SPECTER2. We conduct hyperparameter tuning and investigate the impact of data augmentation from bibliographic databases such as OpenAlex, Semantic Scholar, and Crossref. Our results demonstrate that fine-tuning pre-trained models substantially enhances classification performance, with SPECTER2 emerging as the most accurate model. Moreover, enriching the dataset with additional metadata improves classification outcomes significantly, especially when integrating information from S2AG, OpenAlex and Crossref. Our best-performing approach achieves a weighted F1-score of 0.7415. Overall, our study contributes to the advancement of reliable automated systems for scholarly publication categorization, offering a potential solution to the laborious manual curation process, thereby facilitating researchers in efficiently locating relevant resources.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2405.04136",
+      "place": "",
+      "date": "2024-05-07",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2405.04136",
+      "accessDate": "2024-05-09T13:40:48Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2405.04136 [cs]",
+      "tags": [
+        {
+          "tag": "Computer Science - Artificial Intelligence"
+        },
+        {
+          "tag": "Computer Science - Computation and Language"
+        },
+        {
+          "tag": "by_DSS"
+        },
+        {
+          "tag": "foerstner@zbmed.de"
+        },
+        {
+          "tag": "preprint"
+        },
+        {
+          "tag": "seidlmayer@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "wolff@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2024-05-09T13:44:00Z",
+      "dateModified": "2024-06-07T09:34:13Z"
+    }
+  },
+  {
+    "key": "XER9XKQX",
+    "version": 11713,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/XER9XKQX",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/XER9XKQX",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2024",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "XER9XKQX",
+      "version": 11713,
+      "itemType": "presentation",
+      "title": "Designing a FAIRification game for Research Software - Poster",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Claudio",
+          "lastName": "Carta"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Bruna",
+          "lastName": "Dos Santos Vieira"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Johannes",
+          "lastName": "Keller"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Marco",
+          "lastName": "Roos"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "",
+      "date": "2024",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.4126/FRL01-006473216",
+      "citationKey": "",
+      "url": "https://repository.publisso.de/resource/frl:6473216",
+      "accessDate": "2024-04-02T17:55:20Z",
+      "shortTitle": "",
+      "language": "en",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "FAIRification",
+          "type": 1
+        },
+        {
+          "tag": "NFDI4DS"
+        },
+        {
+          "tag": "gamification",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "research software",
+          "type": 1
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2024-04-02T17:58:13Z",
+      "dateModified": "2024-04-02T17:58:13Z"
+    }
+  },
+  {
+    "key": "HWK9YY7K",
+    "version": 11711,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/HWK9YY7K",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/HWK9YY7K",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 19315147,
+        "username": "KatLab23",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/katlab23",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Soiland-Reyes et al.",
+      "parsedDate": "2024-01-09",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "HWK9YY7K",
+      "version": 11711,
+      "itemType": "preprint",
+      "title": "BioHackEU23 report: Enabling FAIR Digital Objects with RO-Crate, Signposting and Bioschemas",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Stian",
+          "lastName": "Soiland-Reyes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claus",
+          "lastName": "Weiland"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jonas",
+          "lastName": "Grieb"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexander",
+          "lastName": "Rogers"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christophe",
+          "lastName": "Blanchi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Herbert Van de",
+          "lastName": "Sompel"
+        }
+      ],
+      "abstractNote": "As part of the BioHackathon Europe 2023, we here report from the progress of the hackathon project #15: \"Enabling FAIR Digital Objects with RO-Crate, Signposting and Bioschemas\". We added Signposting to three existing resources, and made a Chrome browser extension to show Signposting headers. We added RO-Crate to two existing resources, and explored making a hybrid FDO using both a Handle PID Record and Signposting/RO-Crate approach.",
+      "genre": "",
+      "repository": "BioHackrXiv (OSF server)",
+      "archiveID": "",
+      "place": "",
+      "date": "2024-01-09",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.37044/osf.io/gmk2h",
+      "citationKey": "",
+      "url": "https://osf.io/gmk2h",
+      "accessDate": "2024-01-09T14:48:32Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en-us",
+      "libraryCatalog": "osf.io",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Bioschemas"
+        },
+        {
+          "tag": "FAIR"
+        },
+        {
+          "tag": "FDO"
+        },
+        {
+          "tag": "NFDI4DS"
+        },
+        {
+          "tag": "RO-Crates"
+        },
+        {
+          "tag": "Signposting"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BJCR564C"
+      ],
+      "relations": {},
+      "dateAdded": "2024-01-17T17:40:33Z",
+      "dateModified": "2024-01-26T11:28:49Z"
+    }
+  }
+]

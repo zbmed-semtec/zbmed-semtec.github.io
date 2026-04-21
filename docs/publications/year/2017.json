@@ -1,0 +1,410 @@
+[
+  {
+    "key": "SIBPNVCS",
+    "version": 2709,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/SIBPNVCS",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/SIBPNVCS",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Müller et al.",
+      "parsedDate": "2017-03",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "SIBPNVCS",
+      "version": 2709,
+      "itemType": "journalArticle",
+      "title": "LIVIVO – the Vertical Search Engine for Life Sciences",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Poley"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jana",
+          "lastName": "Pössel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexandra",
+          "lastName": "Hagelstein"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thomas",
+          "lastName": "Gübitz"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Datenbank-Spektrum",
+      "publisher": "",
+      "place": "",
+      "date": "2017-03",
+      "volume": "17",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "29-34",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Datenbank Spektrum",
+      "DOI": "10.1007/s13222-016-0245-2",
+      "citationKey": "",
+      "url": "http://link.springer.com/10.1007/s13222-016-0245-2",
+      "accessDate": "2020-09-18T10:16:17Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1618-2162, 1610-1995",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "guebitz@zbmed.de"
+        },
+        {
+          "tag": "muellerb@zbmed.de"
+        },
+        {
+          "tag": "poley@zbmed.de"
+        }
+      ],
+      "collections": [
+        "9HJNHH38"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-22T09:53:01Z",
+      "dateModified": "2020-09-22T09:53:01Z"
+    }
+  },
+  {
+    "key": "P46IIWSU",
+    "version": 2708,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/P46IIWSU",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/P46IIWSU",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Müller et al.",
+      "parsedDate": "2017",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "P46IIWSU",
+      "version": 2708,
+      "itemType": "conferencePaper",
+      "title": "Life Science Ontologies in Literature Retrieval: A Comparison of Linked Data Sets for Use in Semantic Search on a Heterogeneous Corpus",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexandra",
+          "lastName": "Hagelstein"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thomas",
+          "lastName": "Gübitz"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Paolo",
+          "lastName": "Ciancarini"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Francesco",
+          "lastName": "Poggi"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Matthew",
+          "lastName": "Horridge"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Jun",
+          "lastName": "Zhao"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Tudor",
+          "lastName": "Groza"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Mari Carmen",
+          "lastName": "Suarez-Figueroa"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Mathieu",
+          "lastName": "d'Aquin"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Valentina",
+          "lastName": "Presutti"
+        }
+      ],
+      "abstractNote": "Ontologies are modeled using specific concepts of the knowledge domain as well as using generic concepts. Life science ontologies like MeSH, Agrovoc, and DrugBank are helpful for searching through large corpora. The distinct linkage to either the agricultural domain or the medical domain cannot be resolved for generic concepts that were created when modeling the domain. In information retrieval, it is required to filter knowledge resources for domain specific concepts in order to avoid noise in search results caused by generic concepts. Here, we present an exploratory step towards evaluating concept frequencies amongst different knowledge domains when employing ontologies in the retrieval on a large corpus.",
+      "proceedingsTitle": "Knowledge Engineering and Knowledge Management",
+      "conferenceName": "",
+      "publisher": "Springer International Publishing",
+      "place": "Cham",
+      "date": "2017",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "158-161",
+      "series": "Lecture Notes in Computer Science",
+      "seriesNumber": "",
+      "DOI": "10.1007/978-3-319-58694-6_22",
+      "ISBN": "978-3-319-58694-6",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Life Science Ontologies in Literature Retrieval",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Life sciences"
+        },
+        {
+          "tag": "Linked open data"
+        },
+        {
+          "tag": "Named entity recognition"
+        },
+        {
+          "tag": "Semantic search"
+        },
+        {
+          "tag": "guebitz@zbmed.de"
+        },
+        {
+          "tag": "muellerb@zbmed.de"
+        }
+      ],
+      "collections": [
+        "9HJNHH38"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-22T09:52:09Z",
+      "dateModified": "2020-09-22T09:52:09Z"
+    }
+  },
+  {
+    "key": "RFIUHKT5",
+    "version": 2724,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/RFIUHKT5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/RFIUHKT5",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Jha et al.",
+      "parsedDate": "2017-09-19",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "RFIUHKT5",
+      "version": 2724,
+      "itemType": "journalArticle",
+      "title": "Towards precision medicine: discovering novel gynecological cancer biomarkers and pathways using linked data",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Alokkumar",
+          "lastName": "Jha"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yasar",
+          "lastName": "Khan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Muntazir",
+          "lastName": "Mehdi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Md Rezaul",
+          "lastName": "Karim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Qaiser",
+          "lastName": "Mehmood"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Achille",
+          "lastName": "Zappa"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ratnesh",
+          "lastName": "Sahay"
+        }
+      ],
+      "abstractNote": "Next Generation Sequencing (NGS) is playing a key role in therapeutic decision making for the cancer prognosis and treatment. The NGS technologies are producing a massive amount of sequencing datasets. Often, these datasets are published from the isolated and different sequencing facilities. Consequently, the process of sharing and aggregating multisite sequencing datasets are thwarted by issues such as the need to discover relevant data from different sources, built scalable repositories, the automation of data linkage, the volume of the data, efficient querying mechanism, and information rich intuitive visualisation.",
+      "publicationTitle": "Journal of Biomedical Semantics",
+      "publisher": "",
+      "place": "",
+      "date": "2017-09-19",
+      "volume": "8",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "40",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Journal of Biomedical Semantics",
+      "DOI": "10.1186/s13326-017-0146-9",
+      "citationKey": "",
+      "url": "https://doi.org/10.1186/s13326-017-0146-9",
+      "accessDate": "2020-09-16T11:40:00Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "2041-1480",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Towards precision medicine",
+      "language": "",
+      "libraryCatalog": "BioMed Central",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "9HJNHH38"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-18T08:59:45Z",
+      "dateModified": "2020-09-18T08:59:45Z"
+    }
+  }
+]

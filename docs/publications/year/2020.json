@@ -1,0 +1,1106 @@
+[
+  {
+    "key": "K4BVV4CB",
+    "version": 9480,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/K4BVV4CB",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/K4BVV4CB",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5147370,
+        "username": "berndmueller",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/berndmueller",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 8466868,
+        "username": "julianschneider",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/julianschneider",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Müller and Rebholz-Schuhmann",
+      "parsedDate": "2020-03-28",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "K4BVV4CB",
+      "version": 9480,
+      "itemType": "conferencePaper",
+      "title": "Selected Approaches Ranking Contextual Term for the BioASQ Multi-label Classification (Task6a and 7a)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Peggy",
+          "lastName": "Cellier"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Kurt",
+          "lastName": "Driessens"
+        }
+      ],
+      "abstractNote": "",
+      "proceedingsTitle": "Machine Learning and Knowledge Discovery in Databases",
+      "conferenceName": "Communications in Computer and Information Science",
+      "publisher": "Springer International Publishing",
+      "place": "Cham",
+      "date": "2020-03-28",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "569-580",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.1007/978-3-030-43887-6_52",
+      "ISBN": "978-3-030-43887-6",
+      "citationKey": "",
+      "url": "https://www.researchgate.net/publication/334883463_Selected_Approaches_Ranking_Contextual_Term_for_the_BioASQ_Multi-Label_Classification_Task6a_and_7a",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "muellerb@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "3SMVTH35"
+      ],
+      "relations": {
+        "owl:sameAs": "http://zotero.org/groups/2510458/items/ZTF7V89Z"
+      },
+      "dateAdded": "2020-06-24T17:04:01Z",
+      "dateModified": "2024-07-01T10:06:11Z"
+    }
+  },
+  {
+    "key": "DZXNSRTH",
+    "version": 9475,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/DZXNSRTH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/DZXNSRTH",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 8466868,
+        "username": "julianschneider",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/julianschneider",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Barros et al.",
+      "parsedDate": "2020-03",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "DZXNSRTH",
+      "version": 9475,
+      "itemType": "journalArticle",
+      "title": "The Application of Internet-Based Sources for Public HealthSurveillance (Infoveillance): Systematic Review",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Joana M",
+          "lastName": "Barros"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jim",
+          "lastName": "Duggan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "J Med Internet Res",
+      "publisher": "",
+      "place": "",
+      "date": "2020-03-00",
+      "volume": "22",
+      "issue": "3",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "e13680",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.2196/13680",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "3SMVTH35"
+      ],
+      "relations": {},
+      "dateAdded": "2020-06-02T10:16:36Z",
+      "dateModified": "2024-07-01T10:05:40Z"
+    }
+  },
+  {
+    "key": "YARB3MBQ",
+    "version": 7508,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/YARB3MBQ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/YARB3MBQ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 7262539,
+        "username": "zbmed_frl_team",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/zbmed_frl_team",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Garcia Castro et al.",
+      "parsedDate": "2020",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "YARB3MBQ",
+      "version": 7508,
+      "itemType": "conferencePaper",
+      "title": "DaMaLOS - First Workshop on Data and Research Objects Management for Linked Open Science : Co-located at the International Semantic Web Conference ISWC 2020",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Garcia Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sören",
+          "lastName": "Auer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maria-Esther",
+          "lastName": "Vidal"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "proceedingsTitle": "ISWC-DaMaLOS 2020",
+      "conferenceName": "1st Workshop on Research Data Management for Linked Open Science",
+      "publisher": "Publisso",
+      "place": "Online",
+      "date": "2020",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.4126/FRL01-006423280",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://repository.publisso.de/resource/frl:6423280",
+      "accessDate": "2021-01-11T08:14:47Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "DaMaLOS - First Workshop on Data and Research Objects Management for Linked Open Science",
+      "language": "en",
+      "libraryCatalog": "DOI.org (Datacite)",
+      "callNumber": "",
+      "rights": "https://creativecommons.org/licenses/by/4.0/",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "3SMVTH35"
+      ],
+      "relations": {},
+      "dateAdded": "2021-01-11T08:14:48Z",
+      "dateModified": "2023-06-30T20:36:07Z"
+    }
+  },
+  {
+    "key": "GEB8G3G8",
+    "version": 4470,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/GEB8G3G8",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/GEB8G3G8",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5126095,
+        "username": "zbmed",
+        "name": "ZB MED - Information Centre for Life Sciences",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/zbmed",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 8356782,
+        "username": "AnikaHoenscheid",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/anikahoenscheid",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann and Roesner",
+      "parsedDate": "2020-03-26",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "GEB8G3G8",
+      "version": 4470,
+      "itemType": "blogPost",
+      "title": "Informationen in Zeiten von Corona",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Elke",
+          "lastName": "Roesner"
+        }
+      ],
+      "abstractNote": "",
+      "blogTitle": "ZB MED-Blog",
+      "websiteType": "",
+      "date": "2020-03-26",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://doi.org/10.48664/y6e3-gr93",
+      "accessDate": "",
+      "ISSN": "",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "roesner@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "3SMVTH35"
+      ],
+      "relations": {},
+      "dateAdded": "2020-03-27T10:17:54Z",
+      "dateModified": "2021-08-19T13:42:43Z"
+    }
+  },
+  {
+    "key": "TC2DL2KL",
+    "version": 4258,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/TC2DL2KL",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/TC2DL2KL",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/2350725/items/I5FIAPJD",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 369693
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Schaer et al.",
+      "parsedDate": "2020",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "TC2DL2KL",
+      "version": 4258,
+      "itemType": "conferencePaper",
+      "title": "Living Labs for Academic Search at CLEF 2020",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Philipp",
+          "lastName": "Schaer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Johann",
+          "lastName": "Schaible"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Joemon M.",
+          "lastName": "Jose"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Emine",
+          "lastName": "Yilmaz"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "João",
+          "lastName": "Magalhães"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Pablo",
+          "lastName": "Castells"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Nicola",
+          "lastName": "Ferro"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Mário J.",
+          "lastName": "Silva"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Flávio",
+          "lastName": "Martins"
+        }
+      ],
+      "abstractNote": "The need for innovation in the field of academic search and IR, in general, is shown by the stagnating system performance in controlled evaluation campaigns, as demonstrated in TREC and CLEF meta-evaluation studies, as well as user studies in real systems of scientific information and digital libraries. The question of what constitutes relevance in academic search is multi-layered and a topic that drives research communities for years. The Living Labs for Academic Search (LiLAS) workshop has the goal to inspire the discussion on research and evaluation of academic search systems by strengthening the concept of living labs to the domain of academic search. We want to bring together IR researchers interested in online evaluations of academic search systems and foster knowledge on improving the search for academic resources like literature, research data, and the interlinking between these resources. The employed online evaluation approach based on a living lab infrastructure allows the direct connection to real-world academic search systems from the life sciences and the social sciences.",
+      "proceedingsTitle": "Advances in Information Retrieval",
+      "conferenceName": "ECIR",
+      "publisher": "Springer International Publishing",
+      "place": "Cham",
+      "date": "2020",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "580-586",
+      "series": "Lecture Notes in Computer Science",
+      "seriesNumber": "",
+      "DOI": "10.1007/978-3-030-45442-5_75",
+      "ISBN": "978-3-030-45442-5",
+      "citationKey": "",
+      "url": "",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "muellerb@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "3SMVTH35"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-24T19:13:33Z",
+      "dateModified": "2021-04-22T15:20:50Z"
+    }
+  },
+  {
+    "key": "9P6G86ZD",
+    "version": 4175,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/9P6G86ZD",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/9P6G86ZD",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Karim et al.",
+      "parsedDate": "2020",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "9P6G86ZD",
+      "version": 4175,
+      "itemType": "document",
+      "title": "Deepcovidexplainer: Explainable covid-19 diagnosisbased on chest x-ray images M Karim, T",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Md. Rezaul",
+          "lastName": "Karim"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Till",
+          "lastName": "Döhmen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stefan",
+          "lastName": "Decker"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Cochez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Oya",
+          "lastName": "Beyan"
+        }
+      ],
+      "abstractNote": "",
+      "type": "",
+      "date": "2020",
+      "publisher": "",
+      "place": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://arxiv.org/abs/2004.04582",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "3SMVTH35"
+      ],
+      "relations": {
+        "owl:sameAs": "http://zotero.org/groups/2350725/items/X9UUS3B2"
+      },
+      "dateAdded": "2021-03-17T08:29:27Z",
+      "dateModified": "2021-03-19T08:28:13Z"
+    }
+  },
+  {
+    "key": "75I9BL3G",
+    "version": 4049,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/75I9BL3G",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/75I9BL3G",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 7262539,
+        "username": "zbmed_frl_team",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/zbmed_frl_team",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann and ZB MED-Informationszentrum Lebenswissenschaften",
+      "parsedDate": "2020",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "75I9BL3G",
+      "version": 4049,
+      "itemType": "videoRecording",
+      "title": "Das forschende Informationszentrum und seine lebenswissenschaftliche Bibliothek auf Augenhöhe : Impulsreferat",
+      "creators": [
+        {
+          "creatorType": "director",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "director",
+          "name": "ZB MED-Informationszentrum Lebenswissenschaften"
+        }
+      ],
+      "abstractNote": "",
+      "videoRecordingFormat": "",
+      "seriesTitle": "Fachtagung \"Zukunft Wissenschaftlicher Bibliotheken?!\"",
+      "volume": "",
+      "numberOfVolumes": "",
+      "studio": "",
+      "place": "",
+      "date": "2020",
+      "runningTime": "",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://repository.publisso.de/resource/frl:6421573",
+      "accessDate": "2021-01-11T07:58:26Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "de",
+      "libraryCatalog": "DOI.org (Datacite)",
+      "callNumber": "",
+      "rights": "https://creativecommons.org/licenses/by-sa/4.0",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "3SMVTH35"
+      ],
+      "relations": {},
+      "dateAdded": "2021-01-11T07:58:27Z",
+      "dateModified": "2021-03-17T08:56:04Z"
+    }
+  },
+  {
+    "key": "UYPNPMUS",
+    "version": 4046,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/UYPNPMUS",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/UYPNPMUS",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 7262539,
+        "username": "zbmed_frl_team",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/zbmed_frl_team",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 5850909,
+        "username": "S.Dorschel",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/s.dorschel",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Albers et al.",
+      "parsedDate": "2020",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "UYPNPMUS",
+      "version": 4046,
+      "itemType": "videoRecording",
+      "title": "Die wissenschaftlichen Bibliotheken als unverzichtbarer Kooperationspartner der Wissenschaft : Diskussion und Chat",
+      "creators": [
+        {
+          "creatorType": "director",
+          "firstName": "Miriam",
+          "lastName": "Albers"
+        },
+        {
+          "creatorType": "director",
+          "firstName": "Sören",
+          "lastName": "Auer"
+        },
+        {
+          "creatorType": "director",
+          "firstName": "Anne",
+          "lastName": "Christensen"
+        },
+        {
+          "creatorType": "director",
+          "firstName": "Dietrich",
+          "lastName": "Nelle"
+        },
+        {
+          "creatorType": "director",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "director",
+          "firstName": "",
+          "lastName": "ZB MED - Informationszentrum Lebenswissenschaften"
+        }
+      ],
+      "abstractNote": "",
+      "videoRecordingFormat": "",
+      "seriesTitle": "Fachtagung \"Zukunft Wissenschaftlicher Bibliotheken?!\"",
+      "volume": "",
+      "numberOfVolumes": "",
+      "studio": "",
+      "place": "",
+      "date": "2020",
+      "runningTime": "",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://dx.doi.org/10.4126/FRL01-006421567",
+      "accessDate": "2021-01-11T07:24:17Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "de",
+      "libraryCatalog": "DOI.org (Datacite)",
+      "callNumber": "",
+      "rights": "https://creativecommons.org/licenses/by-sa/4.0",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "albers@zbmed.de"
+        },
+        {
+          "tag": "rebholz@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "3SMVTH35"
+      ],
+      "relations": {},
+      "dateAdded": "2021-01-11T07:24:18Z",
+      "dateModified": "2021-03-17T08:55:41Z"
+    }
+  },
+  {
+    "key": "WW6NVJSE",
+    "version": 3193,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/WW6NVJSE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/WW6NVJSE",
+        "type": "text/html"
+      },
+      "attachment": {
+        "href": "https://api.zotero.org/groups/2350725/items/2PP6K7TD",
+        "type": "application/json",
+        "attachmentType": "application/pdf",
+        "attachmentSize": 519401
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "lastModifiedByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Schaible et al.",
+      "parsedDate": "2020-03-01",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "WW6NVJSE",
+      "version": 3193,
+      "itemType": "journalArticle",
+      "title": "Evaluation Infrastructures for Academic Shared Tasks",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Johann",
+          "lastName": "Schaible"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Timo",
+          "lastName": "Breuer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Narges",
+          "lastName": "Tavakolpoursaleh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Benjamin",
+          "lastName": "Wolff"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Philipp",
+          "lastName": "Schaer"
+        }
+      ],
+      "abstractNote": "Academic search systems aid users in finding information covering specific topics of scientific interest and have evolved from early catalog-based library systems to modern web-scale systems. However, evaluating the performance of the underlying retrieval approaches remains a challenge. An increasing amount of requirements for producing accurate retrieval results have to be considered, e.g., close integration of the system’s users. Due to these requirements, small to mid-size academic search systems cannot evaluate their retrieval system in-house. Evaluation infrastructures for shared tasks alleviate this situation. They allow researchers to experiment with retrieval approaches in specific search and recommendation scenarios without building their own infrastructure. In this paper, we elaborate on the benefits and shortcomings of four state-of-the-art evaluation infrastructures on search and recommendation tasks concerning the following requirements: support for online and offline evaluations, domain specificity of shared tasks, and reproducibility of experiments and results. In addition, we introduce an evaluation infrastructure concept design aiming at reducing the shortcomings in shared tasks for search and recommender systems.",
+      "publicationTitle": "Datenbank-Spektrum",
+      "publisher": "",
+      "place": "",
+      "date": "2020-03-01",
+      "volume": "20",
+      "issue": "1",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "29-36",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Datenbank Spektrum",
+      "DOI": "10.1007/s13222-020-00335-x",
+      "citationKey": "",
+      "url": "https://doi.org/10.1007/s13222-020-00335-x",
+      "accessDate": "2020-09-24T19:11:10Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1610-1995",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "Springer Link",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "muellerb@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "wolff@zbmed.de"
+        }
+      ],
+      "collections": [
+        "3SMVTH35"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-24T19:11:10Z",
+      "dateModified": "2021-01-04T07:51:28Z"
+    }
+  }
+]

@@ -1,0 +1,2577 @@
+[
+  {
+    "year": "2012",
+    "collection_hash": "5BUVBGXQ",
+    "item": {
+      "key": "5A28FAY6",
+      "version": 2556,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/5A28FAY6",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/5A28FAY6",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 6771267,
+          "username": "Hunecke",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/hunecke",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Younesi et al.",
+        "parsedDate": "2012-12-18",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "5A28FAY6",
+        "version": 2556,
+        "itemType": "journalArticle",
+        "title": "Mining biomarker information in biomedical literature",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Erfan",
+            "lastName": "Younesi"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Luca",
+            "lastName": "Toldo"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Christoph M.",
+            "lastName": "Friedrich"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Natalia",
+            "lastName": "Novac"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Alexander",
+            "lastName": "Scheer"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Martin",
+            "lastName": "Hofmann-Apitius"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Juliane",
+            "lastName": "Fluck"
+          }
+        ],
+        "abstractNote": "For selection and evaluation of potential biomarkers, inclusion of already published information is of utmost importance. In spite of significant advancements in text- and data-mining techniques, the vast knowledge space of biomarkers in biomedical text has remained unexplored. Existing named entity recognition approaches are not sufficiently selective for the retrieval of biomarker information from the literature. The purpose of this study was to identify textual features that enhance the effectiveness of biomarker information retrieval for different indication areas and diverse end user perspectives.",
+        "publicationTitle": "BMC Medical Informatics and Decision Making",
+        "publisher": "",
+        "place": "",
+        "date": "2012-12-18",
+        "volume": "12",
+        "issue": "1",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "148",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "BMC Medical Informatics and Decision Making",
+        "DOI": "10.1186/1472-6947-12-148",
+        "citationKey": "",
+        "url": "https://doi.org/10.1186/1472-6947-12-148",
+        "accessDate": "2020-09-17T09:15:17Z",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "1472-6947",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "",
+        "libraryCatalog": "BioMed Central",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "fluck@zbmed.de"
+          }
+        ],
+        "collections": [
+          "5BUVBGXQ"
+        ],
+        "relations": {},
+        "dateAdded": "2020-09-17T09:59:02Z",
+        "dateModified": "2020-09-17T09:59:02Z"
+      }
+    }
+  },
+  {
+    "year": "2016",
+    "collection_hash": "HP5DUSPZ",
+    "item": {
+      "key": "WKBHGPBQ",
+      "version": 2691,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/WKBHGPBQ",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/WKBHGPBQ",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 6771267,
+          "username": "Hunecke",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/hunecke",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Müller and Hagelstein",
+        "parsedDate": "2016-06",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "WKBHGPBQ",
+        "version": 2691,
+        "itemType": "manuscript",
+        "title": "Beyond Metadata - Enriching Life Science Publications in LIVIVO with Semantic Entities from the Linked Data Cloud",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Alexandra",
+            "lastName": "Hagelstein"
+          }
+        ],
+        "abstractNote": "Queries in literature search engines are usually conducted on metadata derived from scientific publications. The search engine LIVIVO holds a...",
+        "manuscriptType": "",
+        "institution": "",
+        "place": "",
+        "date": "2016-06",
+        "numPages": "",
+        "number": "",
+        "DOI": "",
+        "citationKey": "",
+        "url": "https://www.researchgate.net/publication/304904048_Beyond_Metadata_-_Enriching_Life_Science_Publications_in_LIVIVO_with_Semantic_Entities_from_the_Linked_Data_Cloud",
+        "accessDate": "2020-09-18T10:04:37Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "muellerb@zbmed.de"
+          }
+        ],
+        "collections": [
+          "HP5DUSPZ"
+        ],
+        "relations": {},
+        "dateAdded": "2020-09-22T09:45:24Z",
+        "dateModified": "2020-09-22T09:45:24Z"
+      }
+    }
+  },
+  {
+    "year": "2016",
+    "collection_hash": "HP5DUSPZ",
+    "item": {
+      "key": "MBZFRKWQ",
+      "version": 11703,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/MBZFRKWQ",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/MBZFRKWQ",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 6771267,
+          "username": "Hunecke",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/hunecke",
+              "type": "text/html"
+            }
+          }
+        },
+        "lastModifiedByUser": {
+          "id": 19315147,
+          "username": "KatLab23",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/katlab23",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Iyappan et al.",
+        "parsedDate": "2016-01-01",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "MBZFRKWQ",
+        "version": 11703,
+        "itemType": "journalArticle",
+        "title": "Towards a Pathway Inventory of the Human Brain for Modeling Disease Mechanisms Underlying Neurodegeneration",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Anandhi",
+            "lastName": "Iyappan"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Michaela",
+            "lastName": "Gündel"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Mohammad",
+            "lastName": "Shahid"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Jiali",
+            "lastName": "Wang"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Hui",
+            "lastName": "Li"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Heinz-Theodor",
+            "lastName": "Mevissen"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Juliane",
+            "lastName": "Fluck"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Viktor",
+            "lastName": "Jirsa"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Lia",
+            "lastName": "Domide"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Erfan",
+            "lastName": "Younesi"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Martin",
+            "lastName": "Hofmann-Apitius"
+          }
+        ],
+        "abstractNote": "Molecular signaling pathways have been long used to demonstrate interactions among upstream causal molecules and downstream biological effects. They show the signal flow between cell compartments, the majority of which are represented as cartoons. Th",
+        "publicationTitle": "Journal of Alzheimer's Disease",
+        "publisher": "IOS Press",
+        "place": "",
+        "date": "2016-01-01",
+        "volume": "52",
+        "issue": "4",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "1343-1360",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "DOI": "10.3233/JAD-151178",
+        "citationKey": "",
+        "url": "https://content.iospress.com/articles/journal-of-alzheimers-disease/jad151178",
+        "accessDate": "2020-09-16T10:47:58Z",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "1387-2877",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "content.iospress.com",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "fluck@zbmed.de"
+          },
+          {
+            "tag": "muellerb@zbmed.de"
+          }
+        ],
+        "collections": [
+          "HP5DUSPZ"
+        ],
+        "relations": {},
+        "dateAdded": "2020-09-17T09:59:30Z",
+        "dateModified": "2020-09-18T10:02:31Z"
+      }
+    }
+  },
+  {
+    "year": "2017",
+    "collection_hash": "9HJNHH38",
+    "item": {
+      "key": "SIBPNVCS",
+      "version": 2709,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/SIBPNVCS",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/SIBPNVCS",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 6771267,
+          "username": "Hunecke",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/hunecke",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Müller et al.",
+        "parsedDate": "2017-03",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "SIBPNVCS",
+        "version": 2709,
+        "itemType": "journalArticle",
+        "title": "LIVIVO – the Vertical Search Engine for Life Sciences",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Christoph",
+            "lastName": "Poley"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Jana",
+            "lastName": "Pössel"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Alexandra",
+            "lastName": "Hagelstein"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Thomas",
+            "lastName": "Gübitz"
+          }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Datenbank-Spektrum",
+        "publisher": "",
+        "place": "",
+        "date": "2017-03",
+        "volume": "17",
+        "issue": "1",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "29-34",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "Datenbank Spektrum",
+        "DOI": "10.1007/s13222-016-0245-2",
+        "citationKey": "",
+        "url": "http://link.springer.com/10.1007/s13222-016-0245-2",
+        "accessDate": "2020-09-18T10:16:17Z",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "1618-2162, 1610-1995",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "DOI.org (Crossref)",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "guebitz@zbmed.de"
+          },
+          {
+            "tag": "muellerb@zbmed.de"
+          },
+          {
+            "tag": "poley@zbmed.de"
+          }
+        ],
+        "collections": [
+          "9HJNHH38"
+        ],
+        "relations": {},
+        "dateAdded": "2020-09-22T09:53:01Z",
+        "dateModified": "2020-09-22T09:53:01Z"
+      }
+    }
+  },
+  {
+    "year": "2017",
+    "collection_hash": "9HJNHH38",
+    "item": {
+      "key": "P46IIWSU",
+      "version": 2708,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/P46IIWSU",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/P46IIWSU",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 6771267,
+          "username": "Hunecke",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/hunecke",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Müller et al.",
+        "parsedDate": "2017",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "P46IIWSU",
+        "version": 2708,
+        "itemType": "conferencePaper",
+        "title": "Life Science Ontologies in Literature Retrieval: A Comparison of Linked Data Sets for Use in Semantic Search on a Heterogeneous Corpus",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Alexandra",
+            "lastName": "Hagelstein"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Thomas",
+            "lastName": "Gübitz"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Paolo",
+            "lastName": "Ciancarini"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Francesco",
+            "lastName": "Poggi"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Matthew",
+            "lastName": "Horridge"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Jun",
+            "lastName": "Zhao"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Tudor",
+            "lastName": "Groza"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Mari Carmen",
+            "lastName": "Suarez-Figueroa"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Mathieu",
+            "lastName": "d'Aquin"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Valentina",
+            "lastName": "Presutti"
+          }
+        ],
+        "abstractNote": "Ontologies are modeled using specific concepts of the knowledge domain as well as using generic concepts. Life science ontologies like MeSH, Agrovoc, and DrugBank are helpful for searching through large corpora. The distinct linkage to either the agricultural domain or the medical domain cannot be resolved for generic concepts that were created when modeling the domain. In information retrieval, it is required to filter knowledge resources for domain specific concepts in order to avoid noise in search results caused by generic concepts. Here, we present an exploratory step towards evaluating concept frequencies amongst different knowledge domains when employing ontologies in the retrieval on a large corpus.",
+        "proceedingsTitle": "Knowledge Engineering and Knowledge Management",
+        "conferenceName": "",
+        "publisher": "Springer International Publishing",
+        "place": "Cham",
+        "date": "2017",
+        "eventPlace": "",
+        "volume": "",
+        "issue": "",
+        "numberOfVolumes": "",
+        "pages": "158-161",
+        "series": "Lecture Notes in Computer Science",
+        "seriesNumber": "",
+        "DOI": "10.1007/978-3-319-58694-6_22",
+        "ISBN": "978-3-319-58694-6",
+        "citationKey": "",
+        "url": "",
+        "accessDate": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "Life Science Ontologies in Literature Retrieval",
+        "language": "en",
+        "libraryCatalog": "Springer Link",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "Life sciences"
+          },
+          {
+            "tag": "Linked open data"
+          },
+          {
+            "tag": "Named entity recognition"
+          },
+          {
+            "tag": "Semantic search"
+          },
+          {
+            "tag": "guebitz@zbmed.de"
+          },
+          {
+            "tag": "muellerb@zbmed.de"
+          }
+        ],
+        "collections": [
+          "9HJNHH38"
+        ],
+        "relations": {},
+        "dateAdded": "2020-09-22T09:52:09Z",
+        "dateModified": "2020-09-22T09:52:09Z"
+      }
+    }
+  },
+  {
+    "year": "2018",
+    "collection_hash": "JXZXPUDG",
+    "item": {
+      "key": "GX2F3FMQ",
+      "version": 2313,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/GX2F3FMQ",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/GX2F3FMQ",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 6771267,
+          "username": "Hunecke",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/hunecke",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Müller",
+        "parsedDate": "2018-10-26",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "GX2F3FMQ",
+        "version": 2313,
+        "itemType": "presentation",
+        "title": "Epilepsy Ontology Similarities",
+        "creators": [
+          {
+            "creatorType": "presenter",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          }
+        ],
+        "abstractNote": "",
+        "presentationType": "Slide Presentation",
+        "date": "2018-10-26",
+        "meetingName": "Current Trends in Applied Life Science Informatics",
+        "place": "Bonn",
+        "series": "",
+        "sessionTitle": "",
+        "DOI": "",
+        "citationKey": "",
+        "url": "https://www.slideshare.net/secret/3ytgbMoqNcsPFR",
+        "accessDate": "",
+        "shortTitle": "",
+        "language": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "muellerb@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "JXZXPUDG"
+        ],
+        "relations": {},
+        "dateAdded": "2020-09-07T11:41:35Z",
+        "dateModified": "2020-09-10T15:32:30Z"
+      }
+    }
+  },
+  {
+    "year": "2019",
+    "collection_hash": "XFKSVXBJ",
+    "item": {
+      "key": "2FNDCW6N",
+      "version": 1831,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/2FNDCW6N",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/2FNDCW6N",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 6771267,
+          "username": "Hunecke",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/hunecke",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Müller et al.",
+        "parsedDate": "2019-02-06",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "2FNDCW6N",
+        "version": 1831,
+        "itemType": "presentation",
+        "title": "ZB MED: Living Labs mit LIVIVO",
+        "creators": [
+          {
+            "creatorType": "presenter",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Benjamin",
+            "lastName": "Wolff"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          }
+        ],
+        "abstractNote": "",
+        "presentationType": "",
+        "date": "2019-02-06",
+        "meetingName": "STELLA Kick-off",
+        "place": "Köln",
+        "series": "",
+        "sessionTitle": "",
+        "DOI": "",
+        "citationKey": "",
+        "url": "https://www.zbmed.de/fileadmin/user_upload/stella-kickoff-060219-190401130826.pdf",
+        "accessDate": "",
+        "shortTitle": "",
+        "language": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "muellerb@zbmed.de"
+          },
+          {
+            "tag": "rebholz@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          },
+          {
+            "tag": "wolff@zbmed.de"
+          }
+        ],
+        "collections": [
+          "XFKSVXBJ"
+        ],
+        "relations": {},
+        "dateAdded": "2020-08-03T11:51:29Z",
+        "dateModified": "2020-08-03T11:58:29Z"
+      }
+    }
+  },
+  {
+    "year": "2019",
+    "collection_hash": "XFKSVXBJ",
+    "item": {
+      "key": "UVGTF3RT",
+      "version": 1707,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/UVGTF3RT",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/UVGTF3RT",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 6771267,
+          "username": "Hunecke",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/hunecke",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Wolff et al.",
+        "parsedDate": "2019-04-01",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "UVGTF3RT",
+        "version": 1707,
+        "itemType": "presentation",
+        "title": "STELLA-Infrastructure for Living Labs, Einbindung in das Suchportal LIVIVO",
+        "creators": [
+          {
+            "creatorType": "presenter",
+            "firstName": "Benjamin",
+            "lastName": "Wolff"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          }
+        ],
+        "abstractNote": "",
+        "presentationType": "",
+        "date": "2019-04-01",
+        "meetingName": "Face 2 Face Meeting bei GESIS",
+        "place": "Köln",
+        "series": "",
+        "sessionTitle": "",
+        "DOI": "",
+        "citationKey": "",
+        "url": "https://www.zbmed.de/fileadmin/user_upload/STELLA_praesentation_20190401.pdf",
+        "accessDate": "",
+        "shortTitle": "",
+        "language": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "muellerb@zbmed.de"
+          },
+          {
+            "tag": "rebholz@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          },
+          {
+            "tag": "wolff@zbmed.de"
+          }
+        ],
+        "collections": [
+          "XFKSVXBJ"
+        ],
+        "relations": {},
+        "dateAdded": "2020-08-03T10:39:12Z",
+        "dateModified": "2020-08-03T10:43:14Z"
+      }
+    }
+  },
+  {
+    "year": "2019",
+    "collection_hash": "XFKSVXBJ",
+    "item": {
+      "key": "5XXJP7FN",
+      "version": 1501,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/5XXJP7FN",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/5XXJP7FN",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 6771267,
+          "username": "Hunecke",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/hunecke",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Breuer et al.",
+        "parsedDate": "2019-07-25",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "5XXJP7FN",
+        "version": 1501,
+        "itemType": "conferencePaper",
+        "title": "STELLA: Towards a Framework for the Reproducibility of Online Search Experiments",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Timo",
+            "lastName": "Breuer"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Philipp",
+            "lastName": "Schaer"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Narges",
+            "lastName": "Tavalkolpoursaleh"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Thomas",
+            "lastName": "Schaible"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Benjamin",
+            "lastName": "Wolff"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          }
+        ],
+        "abstractNote": "",
+        "proceedingsTitle": "Proceeding of the Open-Source IR Replicability Challenge (OSIRRC 2019). CEUR Workshop Proceedings CEUR-WS.org)",
+        "conferenceName": "SIGIR 2019",
+        "publisher": "",
+        "place": "Paris",
+        "date": "2019-07-25",
+        "eventPlace": "",
+        "volume": "",
+        "issue": "",
+        "numberOfVolumes": "",
+        "pages": "8-11",
+        "series": "",
+        "seriesNumber": "",
+        "DOI": "",
+        "ISBN": "1613-0073",
+        "citationKey": "",
+        "url": "http://ceur-ws.org/Vol-2409/position01.pdf",
+        "accessDate": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "Englisch",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "muellerb@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          },
+          {
+            "tag": "wolff@zbmed.de"
+          }
+        ],
+        "collections": [
+          "XFKSVXBJ"
+        ],
+        "relations": {},
+        "dateAdded": "2020-07-31T10:26:58Z",
+        "dateModified": "2020-08-03T09:08:08Z"
+      }
+    }
+  },
+  {
+    "year": "2019",
+    "collection_hash": "XFKSVXBJ",
+    "item": {
+      "key": "4WAA2FW5",
+      "version": 1570,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/4WAA2FW5",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/4WAA2FW5",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 6771267,
+          "username": "Hunecke",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/hunecke",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Müller and Rebholz-Schuhmann",
+        "parsedDate": "2019-07-03",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "4WAA2FW5",
+        "version": 1570,
+        "itemType": "presentation",
+        "title": "STELLA-Infrastructure for Living Labs, Milestone Meeting",
+        "creators": [
+          {
+            "creatorType": "presenter",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "",
+            "lastName": "Rebholz-Schuhmann"
+          }
+        ],
+        "abstractNote": "",
+        "presentationType": "",
+        "date": "2019-07-03",
+        "meetingName": "ZB MED Face 2 Face Meeting",
+        "place": "Köln",
+        "series": "",
+        "sessionTitle": "",
+        "DOI": "",
+        "citationKey": "",
+        "url": "https://www.zbmed.de/fileadmin/user_upload/20190703stella-190716083456.pdf",
+        "accessDate": "",
+        "shortTitle": "",
+        "language": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "muellerb@zbmed.de"
+          },
+          {
+            "tag": "rebholz@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "XFKSVXBJ"
+        ],
+        "relations": {},
+        "dateAdded": "2020-08-03T08:35:25Z",
+        "dateModified": "2020-08-03T08:37:18Z"
+      }
+    }
+  },
+  {
+    "year": "2019",
+    "collection_hash": "XFKSVXBJ",
+    "item": {
+      "key": "BNZGT5IJ",
+      "version": 1399,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/BNZGT5IJ",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/BNZGT5IJ",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 6771267,
+          "username": "Hunecke",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/hunecke",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Müller and Rebholz-Schuhmann",
+        "parsedDate": "2019-07-03",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "BNZGT5IJ",
+        "version": 1399,
+        "itemType": "presentation",
+        "title": "Participation of ZB MED in the Task6a and Task7a of the BioASQ Challenge",
+        "creators": [
+          {
+            "creatorType": "presenter",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          }
+        ],
+        "abstractNote": "",
+        "presentationType": "",
+        "date": "2019-07-03",
+        "meetingName": "ZB MED Face 2 Face Meeting",
+        "place": "Köln",
+        "series": "",
+        "sessionTitle": "",
+        "DOI": "",
+        "citationKey": "",
+        "url": "https://www.zbmed.de/fileadmin/user_upload/stella-f2f-030719-190716074018.pdf",
+        "accessDate": "",
+        "shortTitle": "",
+        "language": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "muellerb@zbmed.de"
+          },
+          {
+            "tag": "rebholz@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "XFKSVXBJ"
+        ],
+        "relations": {},
+        "dateAdded": "2020-07-31T10:46:14Z",
+        "dateModified": "2020-07-31T10:52:07Z"
+      }
+    }
+  },
+  {
+    "year": "2020",
+    "collection_hash": "3SMVTH35",
+    "item": {
+      "key": "K4BVV4CB",
+      "version": 9480,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/K4BVV4CB",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/K4BVV4CB",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5147370,
+          "username": "berndmueller",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/berndmueller",
+              "type": "text/html"
+            }
+          }
+        },
+        "lastModifiedByUser": {
+          "id": 8466868,
+          "username": "julianschneider",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/julianschneider",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Müller and Rebholz-Schuhmann",
+        "parsedDate": "2020-03-28",
+        "numChildren": 1
+      },
+      "data": {
+        "key": "K4BVV4CB",
+        "version": 9480,
+        "itemType": "conferencePaper",
+        "title": "Selected Approaches Ranking Contextual Term for the BioASQ Multi-label Classification (Task6a and 7a)",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Peggy",
+            "lastName": "Cellier"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Kurt",
+            "lastName": "Driessens"
+          }
+        ],
+        "abstractNote": "",
+        "proceedingsTitle": "Machine Learning and Knowledge Discovery in Databases",
+        "conferenceName": "Communications in Computer and Information Science",
+        "publisher": "Springer International Publishing",
+        "place": "Cham",
+        "date": "2020-03-28",
+        "eventPlace": "",
+        "volume": "",
+        "issue": "",
+        "numberOfVolumes": "",
+        "pages": "569-580",
+        "series": "",
+        "seriesNumber": "",
+        "DOI": "10.1007/978-3-030-43887-6_52",
+        "ISBN": "978-3-030-43887-6",
+        "citationKey": "",
+        "url": "https://www.researchgate.net/publication/334883463_Selected_Approaches_Ranking_Contextual_Term_for_the_BioASQ_Multi-Label_Classification_Task6a_and_7a",
+        "accessDate": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "Springer Link",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "muellerb@zbmed.de"
+          },
+          {
+            "tag": "rebholz@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "3SMVTH35"
+        ],
+        "relations": {
+          "owl:sameAs": "http://zotero.org/groups/2510458/items/ZTF7V89Z"
+        },
+        "dateAdded": "2020-06-24T17:04:01Z",
+        "dateModified": "2024-07-01T10:06:11Z"
+      }
+    }
+  },
+  {
+    "year": "2020",
+    "collection_hash": "3SMVTH35",
+    "item": {
+      "key": "TC2DL2KL",
+      "version": 4258,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/TC2DL2KL",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/TC2DL2KL",
+          "type": "text/html"
+        },
+        "attachment": {
+          "href": "https://api.zotero.org/groups/2350725/items/I5FIAPJD",
+          "type": "application/json",
+          "attachmentType": "application/pdf",
+          "attachmentSize": 369693
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Schaer et al.",
+        "parsedDate": "2020",
+        "numChildren": 1
+      },
+      "data": {
+        "key": "TC2DL2KL",
+        "version": 4258,
+        "itemType": "conferencePaper",
+        "title": "Living Labs for Academic Search at CLEF 2020",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Philipp",
+            "lastName": "Schaer"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Johann",
+            "lastName": "Schaible"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Joemon M.",
+            "lastName": "Jose"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Emine",
+            "lastName": "Yilmaz"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "João",
+            "lastName": "Magalhães"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Pablo",
+            "lastName": "Castells"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Nicola",
+            "lastName": "Ferro"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Mário J.",
+            "lastName": "Silva"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Flávio",
+            "lastName": "Martins"
+          }
+        ],
+        "abstractNote": "The need for innovation in the field of academic search and IR, in general, is shown by the stagnating system performance in controlled evaluation campaigns, as demonstrated in TREC and CLEF meta-evaluation studies, as well as user studies in real systems of scientific information and digital libraries. The question of what constitutes relevance in academic search is multi-layered and a topic that drives research communities for years. The Living Labs for Academic Search (LiLAS) workshop has the goal to inspire the discussion on research and evaluation of academic search systems by strengthening the concept of living labs to the domain of academic search. We want to bring together IR researchers interested in online evaluations of academic search systems and foster knowledge on improving the search for academic resources like literature, research data, and the interlinking between these resources. The employed online evaluation approach based on a living lab infrastructure allows the direct connection to real-world academic search systems from the life sciences and the social sciences.",
+        "proceedingsTitle": "Advances in Information Retrieval",
+        "conferenceName": "ECIR",
+        "publisher": "Springer International Publishing",
+        "place": "Cham",
+        "date": "2020",
+        "eventPlace": "",
+        "volume": "",
+        "issue": "",
+        "numberOfVolumes": "",
+        "pages": "580-586",
+        "series": "Lecture Notes in Computer Science",
+        "seriesNumber": "",
+        "DOI": "10.1007/978-3-030-45442-5_75",
+        "ISBN": "978-3-030-45442-5",
+        "citationKey": "",
+        "url": "",
+        "accessDate": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "Springer Link",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "muellerb@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "3SMVTH35"
+        ],
+        "relations": {},
+        "dateAdded": "2020-09-24T19:13:33Z",
+        "dateModified": "2021-04-22T15:20:50Z"
+      }
+    }
+  },
+  {
+    "year": "2020",
+    "collection_hash": "3SMVTH35",
+    "item": {
+      "key": "WW6NVJSE",
+      "version": 3193,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/WW6NVJSE",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/WW6NVJSE",
+          "type": "text/html"
+        },
+        "attachment": {
+          "href": "https://api.zotero.org/groups/2350725/items/2PP6K7TD",
+          "type": "application/json",
+          "attachmentType": "application/pdf",
+          "attachmentSize": 519401
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "lastModifiedByUser": {
+          "id": 6771267,
+          "username": "Hunecke",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/hunecke",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Schaible et al.",
+        "parsedDate": "2020-03-01",
+        "numChildren": 1
+      },
+      "data": {
+        "key": "WW6NVJSE",
+        "version": 3193,
+        "itemType": "journalArticle",
+        "title": "Evaluation Infrastructures for Academic Shared Tasks",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Johann",
+            "lastName": "Schaible"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Timo",
+            "lastName": "Breuer"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Narges",
+            "lastName": "Tavakolpoursaleh"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Benjamin",
+            "lastName": "Wolff"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Philipp",
+            "lastName": "Schaer"
+          }
+        ],
+        "abstractNote": "Academic search systems aid users in finding information covering specific topics of scientific interest and have evolved from early catalog-based library systems to modern web-scale systems. However, evaluating the performance of the underlying retrieval approaches remains a challenge. An increasing amount of requirements for producing accurate retrieval results have to be considered, e.g., close integration of the system’s users. Due to these requirements, small to mid-size academic search systems cannot evaluate their retrieval system in-house. Evaluation infrastructures for shared tasks alleviate this situation. They allow researchers to experiment with retrieval approaches in specific search and recommendation scenarios without building their own infrastructure. In this paper, we elaborate on the benefits and shortcomings of four state-of-the-art evaluation infrastructures on search and recommendation tasks concerning the following requirements: support for online and offline evaluations, domain specificity of shared tasks, and reproducibility of experiments and results. In addition, we introduce an evaluation infrastructure concept design aiming at reducing the shortcomings in shared tasks for search and recommender systems.",
+        "publicationTitle": "Datenbank-Spektrum",
+        "publisher": "",
+        "place": "",
+        "date": "2020-03-01",
+        "volume": "20",
+        "issue": "1",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "29-36",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "Datenbank Spektrum",
+        "DOI": "10.1007/s13222-020-00335-x",
+        "citationKey": "",
+        "url": "https://doi.org/10.1007/s13222-020-00335-x",
+        "accessDate": "2020-09-24T19:11:10Z",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "1610-1995",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "Springer Link",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "muellerb@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          },
+          {
+            "tag": "wolff@zbmed.de"
+          }
+        ],
+        "collections": [
+          "3SMVTH35"
+        ],
+        "relations": {},
+        "dateAdded": "2020-09-24T19:11:10Z",
+        "dateModified": "2021-01-04T07:51:28Z"
+      }
+    }
+  },
+  {
+    "year": "2021",
+    "collection_hash": "TCIBCFWW",
+    "item": {
+      "key": "JM7C5GVQ",
+      "version": 7326,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/JM7C5GVQ",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/JM7C5GVQ",
+          "type": "text/html"
+        },
+        "attachment": {
+          "href": "https://api.zotero.org/groups/2350725/items/QD7DGAXW",
+          "type": "application/json",
+          "attachmentType": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Müller",
+        "parsedDate": "2021-04-12",
+        "numChildren": 1
+      },
+      "data": {
+        "key": "JM7C5GVQ",
+        "version": 7326,
+        "itemType": "dataset",
+        "title": "BioASQ Sub-Corpus for the Pharmacology of Epilepsy (BioPepsy)",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          }
+        ],
+        "abstractNote": "The sub corpus contains Standoff Annotations for Drug Names and Terms from Epilepsy Ontologies with their Aggregations Recognized in the 2021 BioASQ corpus.  The terms for epilepsy ontologies are from NCBO BioPortal, namely from the ontologies EpSO, ESSO, EPILONT, EPISEM and FENICS: https://bioportal.bioontology.org/ontologies/EPSO https://bioportal.bioontology.org/ontologies/ESSO https://bioportal.bioontology.org/ontologies/EPILONT https://bioportal.bioontology.org/ontologies/EPISEM https://bioportal.bioontology.org/ontologies/FENICS The dictionary for the identificatin of drug names is derived from the DrugBank vocabulary available online at https://go.drugbank.com/releases/latest#open-data. The terms were identified using a custom implementation of a UIMA-based text mining wokflow that annotates free text with the UIMA ConceptMapper. Further descriptions of this workflow can be found in the following publications: Bernd Müller, Alexandra Hagelstein: Beyond Metadata: Enriching life science publications in Livivo with semantic entities from the linked data cloud. SEMANTiCS (Posters, Demos, SuCCESS) 2016 Bernd Müller, Alexandra Hagelstein, Thomas Gübitz: Life Science Ontologies in Literature Retrieval: A Comparison of Linked Data Sets for Use in Semantic Search on a Heterogeneous Corpus. EKAW (Satellite Events) 2016: 158-161 Bernd Müller, Christoph Poley, Jana Pössel, Alexandra Hagelstein, Thomas Gübitz: LIVIVO - the Vertical Search Engine for Life Sciences. Datenbank-Spektrum 17(1): 29-34 (2017) Bernd Müller, Dietrich Rebholz-Schuhmann: Selected Approaches Ranking Contextual Term for the BioASQ Multi-label Classification (Task6a and 7a). PKDD/ECML Workshops (2) 2019: 569-580 The file format is JSON. The file content is described as follows: bioasqepilepsy2021.json - All standoff annotations for each document in the 2021 BioASQ corpus aggepilepsy2021EPSOANDDrugNames.json - aggregation of frequencies for all standoff annotations in documents from the 2021 BioASQ corpus that contain terms from EpSO co-occurring with at least one drug name aggepilepsy2021ESSOANDDrugNames.json- aggregation of frequencies for all standoff annotations in documents from the 2021 BioASQ corpus that contain terms from ESSO co-occurring with at least one drug name aggepilepsy2021EPILONTANDDrugNames.json- aggregation of frequencies for all standoff annotations in documents from the 2021 BioASQ corpus that contain terms from EPILONT co-occurring with at least one drug name aggepilepsy2021EPISEMANDDrugNames.json- aggregation of frequencies for all standoff annotations in documents from the 2021 BioASQ corpus that contain terms from EPISEM co-occurring with at least one drug name aggepilepsy2021FENICSANDDrugNames.json- aggregation of frequencies for all standoff annotations in documents from the 2021 BioASQ corpus that contain terms from FENICS co-occurring with at least one drug name All JSON files should be importable into a collection of a MongoDB. Documents are identified by their PMIDs. Please cite this data as: Müller, Bernd. BioASQ Sub-Corpus for the Pharmacology of Epilepsy (BioPEpsy) 2021. ZENODO, 10.5281/zenodo.4680086",
+        "identifier": "",
+        "type": "",
+        "versionNumber": "",
+        "date": "2021-04-12",
+        "repository": "Zenodo",
+        "repositoryLocation": "",
+        "format": "",
+        "DOI": "10.5281/zenodo.4680826",
+        "citationKey": "",
+        "url": "https://zenodo.org/record/4680826",
+        "accessDate": "2021-10-26T09:28:15Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "eng",
+        "libraryCatalog": "Zenodo",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "bernd.mueller@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "TCIBCFWW"
+        ],
+        "relations": {},
+        "dateAdded": "2021-10-26T09:29:45Z",
+        "dateModified": "2021-10-26T09:29:45Z"
+      }
+    }
+  },
+  {
+    "year": "2022",
+    "collection_hash": "7CCAMA59",
+    "item": {
+      "key": "MF76EBG2",
+      "version": 6801,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/MF76EBG2",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/MF76EBG2",
+          "type": "text/html"
+        },
+        "attachment": {
+          "href": "https://api.zotero.org/groups/2350725/items/ZLCJTYWA",
+          "type": "application/json",
+          "attachmentType": "application/pdf",
+          "attachmentSize": 3020720
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Müller et al.",
+        "parsedDate": "2022-01-24",
+        "numChildren": 2
+      },
+      "data": {
+        "key": "MF76EBG2",
+        "version": 6801,
+        "itemType": "journalArticle",
+        "title": "Ontology-based identification and prioritization of candidate drugs for epilepsy from literature",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "Journal of Biomedical Semantics",
+        "publisher": "",
+        "place": "",
+        "date": "2022-01-24",
+        "volume": "13",
+        "issue": "1",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "3",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "Journal of Biomedical Semantics",
+        "DOI": "10.1186/s13326-021-00258-w",
+        "citationKey": "",
+        "url": "https://doi.org/10.1186/s13326-021-00258-w",
+        "accessDate": "2022-01-24T13:28:47Z",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "2041-1480",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "",
+        "libraryCatalog": "BioMed Central",
+        "callNumber": "",
+        "rights": "All rights reserved",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "bernd.mueller@zbmed.de"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "rebholz@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "7CCAMA59"
+        ],
+        "relations": {},
+        "dateAdded": "2022-01-24T13:29:55Z",
+        "dateModified": "2022-07-04T11:54:10Z"
+      }
+    }
+  },
+  {
+    "year": "2026",
+    "collection_hash": "PMWZ7C5N",
+    "item": {
+      "key": "LGG6QVFX",
+      "version": 12125,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/LGG6QVFX",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/LGG6QVFX",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Ravinder et al.",
+        "parsedDate": "2026-03-13",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "LGG6QVFX",
+        "version": 12125,
+        "itemType": "computerProgram",
+        "title": "hybrid-doc-relevance-training",
+        "creators": [
+          {
+            "creatorType": "programmer",
+            "firstName": "Rohitha",
+            "lastName": "Ravinder"
+          },
+          {
+            "creatorType": "programmer",
+            "firstName": "Lukas",
+            "lastName": "Geist"
+          },
+          {
+            "creatorType": "programmer",
+            "firstName": "Nelson David",
+            "lastName": "Quiñones Virgen"
+          },
+          {
+            "creatorType": "programmer",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "programmer",
+            "firstName": "Dhwani",
+            "lastName": "Solanki"
+          },
+          {
+            "creatorType": "programmer",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "programmer",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "This software corresponds to Hybrid-doc-relevance-training which provides a set of hybrid embedding approaches for literature-based document-to-document similarity, leveraging the RELISH corpus along with integrating semantic understanding. It implements three distinct algorithms: pre-annotation, post-annotation, and post-reduction annotation, utilizing models such as Doc2Vec, Word2Vec, and FastText. The software combines these models with ontology-based background knowledge to improve document similarity, relevance, and recommendation. Detailed documentation is provided, including input data preprocessing and execution instructions for easy integration and use.",
+        "seriesTitle": "",
+        "versionNumber": "",
+        "date": "2026-03-13",
+        "system": "",
+        "company": "Zenodo",
+        "place": "",
+        "programmingLanguage": "",
+        "rights": "",
+        "citationKey": "",
+        "url": "https://zenodo.org/records/15094064",
+        "accessDate": "2026-03-31T14:23:44Z",
+        "DOI": "10.5281/zenodo.15094064",
+        "ISBN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "Zenodo",
+        "callNumber": "",
+        "shortTitle": "",
+        "extra": "Language: eng",
+        "tags": [
+          {
+            "tag": "MeSH"
+          },
+          {
+            "tag": "bernd.mueller@zbmed.de"
+          },
+          {
+            "tag": "biomedical literature",
+            "type": 1
+          },
+          {
+            "tag": "document-to-document similarity",
+            "type": 1
+          },
+          {
+            "tag": "embeddings",
+            "type": 1
+          },
+          {
+            "tag": "geis"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "nfdi4ds"
+          },
+          {
+            "tag": "ontoclue"
+          },
+          {
+            "tag": "quinones@zbmed.de"
+          },
+          {
+            "tag": "ravi"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "semantics",
+            "type": 1
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "stella"
+          },
+          {
+            "tag": "symbolic learning"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "PMWZ7C5N"
+        ],
+        "relations": {},
+        "dateAdded": "2026-03-31T14:26:38Z",
+        "dateModified": "2026-03-31T14:26:38Z"
+      }
+    }
+  },
+  {
+    "year": "2026",
+    "collection_hash": "PMWZ7C5N",
+    "item": {
+      "key": "D63FNGQX",
+      "version": 12121,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/D63FNGQX",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/D63FNGQX",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Ravinder et al.",
+        "parsedDate": "2026-03-13",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "D63FNGQX",
+        "version": 12121,
+        "itemType": "dataset",
+        "title": "Machine Learning Models, Embeddings, and Evaluation Results for the OntoClue Project",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Rohitha",
+            "lastName": "Ravinder"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Lukas",
+            "lastName": "Geist"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Nelson",
+            "lastName": "Quiñones"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Suhasini",
+            "lastName": "Venkatesh"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Solanki",
+            "lastName": "Dhwani"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "This release includes the machine learning models, embeddings, and evaluation results from the OntoClue project, which explores various text embedding techniques to evaluate document-to-document similarity in biomedical literature. The project leverages the RELISH Corpus, a curated dataset containing expert annotations of document pairs based on their relevance and similarity. This release features trained embedding models, the resulting embeddings, and the corresponding evaluation outcomes, including precision, cosine similarity and nDCG@N. For each approach there will 2 files corresponding to class distribution, and list all approach names. 3 vs 2 explanation",
+        "identifier": "",
+        "type": "AI Model",
+        "versionNumber": "",
+        "date": "2026-03-13",
+        "repository": "Zenodo",
+        "repositoryLocation": "",
+        "format": "",
+        "DOI": "10.5281/zenodo.14826813",
+        "citationKey": "",
+        "url": "https://zenodo.org/records/14826813",
+        "accessDate": "2026-03-31T14:11:59Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "",
+        "libraryCatalog": "Zenodo",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "AI model"
+          },
+          {
+            "tag": "bernd.mueller@zbmed.de"
+          },
+          {
+            "tag": "embeddings"
+          },
+          {
+            "tag": "geist@zbmed.de"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "nfdi4ds"
+          },
+          {
+            "tag": "ontoclue"
+          },
+          {
+            "tag": "quinones@zbmed.de"
+          },
+          {
+            "tag": "ravinder@zbmed.de"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "solanki@zbmed.de"
+          },
+          {
+            "tag": "stella"
+          },
+          {
+            "tag": "venkatesh@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "PMWZ7C5N"
+        ],
+        "relations": {},
+        "dateAdded": "2026-03-31T14:14:17Z",
+        "dateModified": "2026-03-31T14:14:17Z"
+      }
+    }
+  },
+  {
+    "year": "2026",
+    "collection_hash": "PMWZ7C5N",
+    "item": {
+      "key": "9GPV7VMS",
+      "version": 11937,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/9GPV7VMS",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/9GPV7VMS",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Venkatesh et al.",
+        "parsedDate": "2026-03-02",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "9GPV7VMS",
+        "version": 11937,
+        "itemType": "presentation",
+        "title": "Metadata for DiscoRSE, an Open Educational Resource for RSEs",
+        "creators": [
+          {
+            "creatorType": "presenter",
+            "firstName": "Suhasini",
+            "lastName": "Venkatesh"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Dhwani",
+            "lastName": "Solanki"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Eckhard",
+            "lastName": "Kadasch"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Christian",
+            "lastName": "Knüpfer"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Philipp",
+            "lastName": "Schäfer"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Florian",
+            "lastName": "Goth"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Frank",
+            "lastName": "Löffer"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "Findability, interoperability, and reusability of training materials, at least at an entry level, are easier to achieve by using rich and community-agreed metadata. Training materials for Research Software Engineers (RSEs) are commonly scattered along different platforms (e.g., dedicated Open Educational Resources (OERs), GitHub, Zenodo) and formats (text-based, Jupyter Notebooks, videos). Furthermore, they are also described using a disparate set of metadata schemas, vocabularies, and/or ontologies, making it more difficult for registries to aggregate materials and present them in a harmonized way.\n\nHere we present preliminary results from a community-driven initiative to address this challenge by leveraging schema.org, in particular its LearningResource type. Together with Quadriga, NFDI4DataScience, and DiscoRSE, we co-organized a hackathon in September 2025 that brought together 13 domain experts and metadata specialists representing various resources around the topic of training materials. The primary goal was to collaboratively develop ‘crosswalks’, i.e., a spreadsheet using LearningResource as a reference to identify commonalities and differences wrt those resources represented by the participants (AMB, Base4NFDI, Bioschemas, DALIA, DiscoRSE, ELIXIR Germany, m-TeSSX, NFDI4DataScience, Photon and Neutron Training,Quadriga, RDMT4NFDI, Skills4EOSC). This effort aimed to establish a lightweight yet robust common standard for describing RSE training content.\n\nThis talk will present the key outcomes of this hackathon, including the analysis of the crosswalks together with some of the challenges and opportunities identified from them. This includes, for instance, identifying gaps in the schema.org vocabulary and the most common elements across the platforms. The findings demonstrate the viability of using schema.org as an interoperability layer and provide a blueprint for a harmonized RSE training metadata ecosystem which we aim at realizing in our project DiscoRSE.\n\nThis work is part of deRSE26 - Conference for Research Software Engineering in Germany, see https://events.hifis.net/event/2945/contributions/21175/\n\nThis work has been partially funded by the Klaus Tschira Stiftung, as part of the support programme Scientific software.",
+        "presentationType": "",
+        "date": "2026-03-02",
+        "meetingName": "deRSE26 - Conference for Research Software Engineering in Germany (deRSE26)",
+        "place": "",
+        "series": "",
+        "sessionTitle": "",
+        "DOI": "10.5281/zenodo.18836950",
+        "citationKey": "",
+        "url": "https://zenodo.org/records/18836950",
+        "accessDate": "2026-03-10T10:19:31Z",
+        "shortTitle": "",
+        "language": "eng",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "DiscoRSE"
+          },
+          {
+            "tag": "Metadata",
+            "type": 1
+          },
+          {
+            "tag": "OER",
+            "type": 1
+          },
+          {
+            "tag": "RSE",
+            "type": 1
+          },
+          {
+            "tag": "Training materials",
+            "type": 1
+          },
+          {
+            "tag": "bernd.mueller@zbmed.de"
+          },
+          {
+            "tag": "deRSE26"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "solanki@zbmed.de"
+          },
+          {
+            "tag": "venkatesh@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "PMWZ7C5N"
+        ],
+        "relations": {},
+        "dateAdded": "2026-03-10T10:20:38Z",
+        "dateModified": "2026-03-10T10:20:38Z"
+      }
+    }
+  },
+  {
+    "year": "2026",
+    "collection_hash": "PMWZ7C5N",
+    "item": {
+      "key": "GSTRQDZX",
+      "version": 11936,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/GSTRQDZX",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/GSTRQDZX",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Müller et al.",
+        "parsedDate": "2026-03-02",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "GSTRQDZX",
+        "version": 11936,
+        "itemType": "presentation",
+        "title": "A comparison across SMPs",
+        "creators": [
+          {
+            "creatorType": "presenter",
+            "firstName": "Bernd",
+            "lastName": "Müller"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Dhwani",
+            "lastName": "Solanki"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Marisabel",
+            "lastName": "González-Ocanto"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "David",
+            "lastName": "Wallace"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Sabine",
+            "lastName": "Schönau"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Jürgen",
+            "lastName": "Windeck"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "Research software is fundamental for reproducibility of science. Initiatives such as the FAIR for Research Software Principles, ADORE.software, REUSE software, and the European Virtual Institute for Research Software Excellence (EVERSE) stress the importance of following good practices to maximize software reuse and sustainability. Software Management Plans (SMPs) complement the picture as they help formalize a set of structures and goals aligned to the implementation of best practices during software development, ensuring that software becomes accessible and reusable in the short-, medium- and long-term [1, 2]. Despite its importance, SMPs are not yet broadly used or required by funders (as it happens with Data Management Plans –DMPs) [3].\n\nAs software is used to process data, SMPs are a natural complement to DMPs. For this reason, in 2025, SMPs were integrated into the DMP4NFDI project. DMP4NFDI, one of the basic services for the National Research Data Infrastructure in Germany (NFDI),  aims at providing a Research Data Management service, namely the RDM Organiser (RDMO) [4], where users can find templates (i.e., questionnaires guiding RDM-related activities and outcomes) making it easier to collect data management information along the research cycle. DMP4NFDI’s goal is to standardise those templates across NFDI by providing a template framework [x]. Questions pertaining to software management will be added to the framework so researchers can manage both research artifacts at once. However, an immediate question arises: which questions are relevant to an SMP template? To answer this question it is necessary to understand the existing options and their relevance to researchers, particularly in Germany.\n\nIn this talk we will present a comparative analysis of five SMPs: ELIXIR SMP [5], eScience Center SMP [2], PreSOFT [6], Max Planck Digital Libraries SMP, Digital Research Alliance of Canada SMP [8], including commonalities and differences. We will finish with our own proposal for an SMP for RDMO and will gather feedback from the audience.\n\nThis work is part of the deRSE26 - Conference for Research Software Engineering in Germany, see https://events.hifis.net/event/2945/contributions/21138/\n\nThis work has been partially funded by Base4NFDI, through DMP4NFDI, under the grant agreement 521474032 provided by the Deutsche Forschungsgemeinschanft (DFG).",
+        "presentationType": "",
+        "date": "2026-03-02",
+        "meetingName": "deRSE26 - Conference for Research Software Engineering in Germany (deRSE26)",
+        "place": "",
+        "series": "",
+        "sessionTitle": "",
+        "DOI": "10.5281/zenodo.18838165",
+        "citationKey": "",
+        "url": "https://zenodo.org/records/18838165",
+        "accessDate": "2026-03-10T10:02:36Z",
+        "shortTitle": "",
+        "language": "eng",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "DMP4NFDI"
+          },
+          {
+            "tag": "Research management plans"
+          },
+          {
+            "tag": "SMP"
+          },
+          {
+            "tag": "bernd.mueller@zbmed.de"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "ocanto@zbmed.de"
+          },
+          {
+            "tag": "software metadata"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "PMWZ7C5N"
+        ],
+        "relations": {},
+        "dateAdded": "2026-03-10T10:10:35Z",
+        "dateModified": "2026-03-10T10:10:35Z"
+      }
+    }
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "year": "2023",
+    "collection_hash": "PQHFVETK",
+    "item": {
+      "key": "8APNRXQ6",
+      "version": 8728,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/8APNRXQ6",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/8APNRXQ6",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Ravinder et al.",
+        "parsedDate": "2023",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "8APNRXQ6",
+        "version": 8728,
+        "itemType": "presentation",
+        "title": "OntoClue, a framework to compare vector-based approaches for document relatedness using the RELISH corpus - Poster",
+        "creators": [
+          {
+            "creatorType": "presenter",
+            "firstName": "Rohitha",
+            "lastName": "Ravinder"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Tim",
+            "lastName": "Fellerhoff"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Vishnu Vardhan",
+            "lastName": "Dadi"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Lukas",
+            "lastName": "Geist"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Guillermo",
+            "lastName": "Rocamora"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Muhammad",
+            "lastName": "Talha"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "",
+        "presentationType": "Poster",
+        "date": "2023",
+        "meetingName": "SWAT4HCLS 2023",
+        "place": "",
+        "series": "",
+        "sessionTitle": "",
+        "DOI": "",
+        "citationKey": "",
+        "url": "https://repository.publisso.de/resource/frl:6440397",
+        "accessDate": "2023-04-06T15:24:41Z",
+        "shortTitle": "",
+        "language": "en",
+        "rights": "",
+        "extra": "Medium: application/pdf\nPublisher: ZB MED - Informationszentrum Lebenswissenschaften\nhttps://doi.org/10.4126/FRL01-006440397",
+        "tags": [
+          {
+            "tag": "Document similarity"
+          },
+          {
+            "tag": "Named Entity Recognition"
+          },
+          {
+            "tag": "Word embeddings"
+          },
+          {
+            "tag": "dadi@zbmed.de"
+          },
+          {
+            "tag": "fellerhoff@zbmed.de"
+          },
+          {
+            "tag": "geist@zbmed.de"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "nfdi4ds"
+          },
+          {
+            "tag": "ontoclue"
+          },
+          {
+            "tag": "ravinder@zbmed.de"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "rebholz@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "stella-I"
+          },
+          {
+            "tag": "talha@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "PQHFVETK"
+        ],
+        "relations": {},
+        "dateAdded": "2023-04-06T15:25:48Z",
+        "dateModified": "2024-01-31T22:30:24Z"
+      }
+    }
+  }
+]

@@ -1,0 +1,293 @@
+[
+  {
+    "year": "2026",
+    "collection_hash": "PMWZ7C5N",
+    "item": {
+      "key": "NIYXRXFR",
+      "version": 11938,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/NIYXRXFR",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/NIYXRXFR",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Sefidbari et al.",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "NIYXRXFR",
+        "version": 11938,
+        "itemType": "presentation",
+        "title": "Introducing ConnOSS - Connected Open-Source Software",
+        "creators": [
+          {
+            "creatorType": "presenter",
+            "firstName": "Maryam",
+            "lastName": "Sefidbari"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Suhasini",
+            "lastName": "Venkatesh"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Lu",
+            "lastName": "Gan"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Aida",
+            "lastName": "Jafarbigloo"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Stephan",
+            "lastName": "Ferenz"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Brigitte",
+            "lastName": "Mathiak"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Astrid",
+            "lastName": "Nieße"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Oliver",
+            "lastName": "Werth"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "Our project Connected Open-Source Software (ConnOSS) aims at providing an infrastructure to automatically extract, enrich, and harmonize research software metadata. Building on existing efforts based on schema.org, such as CodeMeta and Bioschemas, and together with its extraction and enrichment metadata pipeline, ConnOSS will increase metadata coverage beyond direct extraction (e.g., from GitHub API or citation files).  ConnOSS goals are summarized as follows:- reducing researcher effort, by automating metadata extraction, making it easier for research groups to align with good practices;- improving FAIRness, by providing high-quality, machine-actionable metadata, boosting the findability and overall FAIRness of the research software; and- facilitating aggregation, by enabling aggregators, knowledge graphs, and registries to easily access good quality metadata. Furthermore, the ConnOSS project emphasizes community support, providing adoption tutorials and corresponding training. The resulting extractors, AI models, and infrastructure, along with the extracted metadata provided also as a knowledge graph, will themselves adhere to FAIR and open-access practices. Visit ConnOSS webpage for more information, news, and latest developments, https://connoss-project.github.io/ This work is part of the deRSE26 - Conference for Research Software Engineering in Germany, see https://events.hifis.net/event/2945/contributions/21160/  ConnOSS is funded by the Deutsche Forschungsgemeinschaft (DFG) under grant number 561044496, as part of the \"Research Data and Software\" program within the Scientific Library Services and Information Systems (LIS) funding scheme.",
+        "presentationType": "",
+        "date": "",
+        "meetingName": "",
+        "place": "",
+        "series": "",
+        "sessionTitle": "",
+        "DOI": "10.5281/zenodo.18836442",
+        "citationKey": "",
+        "url": "https://zenodo.org/records/18836442",
+        "accessDate": "2026-03-10T10:38:41Z",
+        "shortTitle": "",
+        "language": "en",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "ConnOSS"
+          },
+          {
+            "tag": "FAIR4RS"
+          },
+          {
+            "tag": "Open Science"
+          },
+          {
+            "tag": "Software Metadata"
+          },
+          {
+            "tag": "deRSE26"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "sefidbari@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "venkatesh@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "PMWZ7C5N"
+        ],
+        "relations": {},
+        "dateAdded": "2026-03-10T10:47:07Z",
+        "dateModified": "2026-03-10T10:47:07Z"
+      }
+    }
+  },
+  {
+    "year": "2026",
+    "collection_hash": "PMWZ7C5N",
+    "item": {
+      "key": "PTQBQR2E",
+      "version": 11935,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/PTQBQR2E",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/PTQBQR2E",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Jafarbigloo et al.",
+        "parsedDate": "2026-03-02",
+        "numChildren": 1
+      },
+      "data": {
+        "key": "PTQBQR2E",
+        "version": 11935,
+        "itemType": "presentation",
+        "title": "ConnOSS and Metadata Extraction for Research Software",
+        "creators": [
+          {
+            "creatorType": "presenter",
+            "firstName": "Aida",
+            "lastName": "Jafarbigloo"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Brigitte",
+            "lastName": "Mathiak"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Lu",
+            "lastName": "Gan"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Maryam",
+            "lastName": "Sefidbari"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Oliver",
+            "lastName": "Werth"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Suhasini",
+            "lastName": "Venkatesh"
+          }
+        ],
+        "abstractNote": "Metadata and software descriptors help realize the FAIR principles for software. Various efforts exist around research software metadata (e.g., CodeMeta, Bioschemas, maSMP schema) as well as metadata extraction (e.g., SOMEF, HERMES, MAUS). Despite these efforts, existing tools and schemas remain fragmented, cover limited metadata, and are rarely built for large-scale, automated processing or enrichment with modern AI techniques. To address this gap, the Connected Open Source Software (ConnOSS) project aims to provide a consistent infrastructure for metadata extraction and publication, enabling researchers to create harmonized software descriptions and facilitating metadata harvesting by registries and aggregators. The project aims to analyze and extend existing research software metadata schemas, identify metadata sources, and develop a harmonized extraction pipeline from platforms like GitHub and GitLab. Machine learning models trained on a curated corpus plan to extract, enrich, and validate metadata from README files, addressing current automation gaps. A publication workflow then intends to make metadata accessible to humans and machines via GitHub/GitLab pages. In this poster we introduce ConnOSS and present a preliminary comparison across different research software metadata extractors which will be later used to define the requirements for the ConnOSS metadata extractor.\n\nThis work is part of the contributions to the deRSE 2026 Conference, see https://events.hifis.net/event/2945/contributions/21334/\n\nThis work has been supported by the German Research Foundation (DFG) through the project ConnOSS with project number 561044496.",
+        "presentationType": "Poster",
+        "date": "2026-03-02",
+        "meetingName": "",
+        "place": "",
+        "series": "",
+        "sessionTitle": "",
+        "DOI": "10.5281/zenodo.18835973",
+        "citationKey": "",
+        "url": "https://zenodo.org/records/18835973",
+        "accessDate": "2026-03-10T09:59:18Z",
+        "shortTitle": "",
+        "language": "eng",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "ConnOSS"
+          },
+          {
+            "tag": "Metadata",
+            "type": 1
+          },
+          {
+            "tag": "Metadata extraction",
+            "type": 1
+          },
+          {
+            "tag": "Research software",
+            "type": 1
+          },
+          {
+            "tag": "deRSE26"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "sefidbari@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "PMWZ7C5N"
+        ],
+        "relations": {},
+        "dateAdded": "2026-03-10T10:01:28Z",
+        "dateModified": "2026-03-10T10:01:28Z"
+      }
+    }
+  }
+]

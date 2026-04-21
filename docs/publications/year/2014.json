@@ -1,0 +1,132 @@
+[
+  {
+    "key": "744PACN6",
+    "version": 2564,
+    "library": {
+      "type": "group",
+      "id": 2350725,
+      "name": "Publikationen von ZB MED",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/2350725/items/744PACN6",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/2350725/items/744PACN6",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 6771267,
+        "username": "Hunecke",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/hunecke",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Rebholz-Schuhmann et al.",
+      "parsedDate": "2014-07-01",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "744PACN6",
+      "version": 2564,
+      "itemType": "journalArticle",
+      "title": "A case study: semantic integration of gene–disease associations for type 2 diabetes mellitus from literature and biomedical data resources",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Grabmüller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Silvestras",
+          "lastName": "Kavaliauskas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Samuel",
+          "lastName": "Croset"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter",
+          "lastName": "Woollard"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rolf",
+          "lastName": "Backofen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Wendy",
+          "lastName": "Filsell"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dominic",
+          "lastName": "Clark"
+        }
+      ],
+      "abstractNote": "In the Semantic Enrichment of the Scientific Literature (SESL) project, researchers from academia and from life science and publishing companies collaborated in a pre-competitive way to integrate and share information for type 2 diabetes mellitus (T2DM) in adults. This case study exposes benefits from semantic interoperability after integrating the scientific literature with biomedical data resources, such as UniProt Knowledgebase (UniProtKB) and the Gene Expression Atlas (GXA). We annotated scientific documents in a standardized way, by applying public terminological resources for diseases and proteins, and other text-mining approaches. Eventually, we compared the genetic causes of T2DM across the data resources to demonstrate the benefits from the SESL triple store. Our solution enables publishers to distribute their content with little overhead into remote data infrastructures, such as into any Virtual Knowledge Broker.",
+      "publicationTitle": "Drug Discovery Today",
+      "publisher": "",
+      "place": "",
+      "date": "2014-07-01",
+      "volume": "19",
+      "issue": "7",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "882-889",
+      "series": "Theme sections: •\tHuntington's Disease. Guest Editor: Craig Blackstone •\tExercise Physiology. Guest Editor: Pontus Almer Bostrom",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Drug Discovery Today",
+      "DOI": "10.1016/j.drudis.2013.10.024",
+      "citationKey": "",
+      "url": "http://www.sciencedirect.com/science/article/pii/S1359644613003917",
+      "accessDate": "2020-09-16T09:57:11Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1359-6446",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "A case study",
+      "language": "en",
+      "libraryCatalog": "ScienceDirect",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "rebholz@zbmed.de"
+        }
+      ],
+      "collections": [
+        "T52MWTAS"
+      ],
+      "relations": {},
+      "dateAdded": "2020-09-16T09:59:35Z",
+      "dateModified": "2020-09-17T11:58:29Z"
+    }
+  }
+]

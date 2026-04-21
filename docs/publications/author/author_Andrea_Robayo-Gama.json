@@ -1,0 +1,323 @@
+[
+  {
+    "year": "2022",
+    "collection_hash": "7CCAMA59",
+    "item": {
+      "key": "KEG7DTLP",
+      "version": 8764,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/KEG7DTLP",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/KEG7DTLP",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Giraldo et al.",
+        "parsedDate": "2022-11-15",
+        "numChildren": 1
+      },
+      "data": {
+        "key": "KEG7DTLP",
+        "version": 8764,
+        "itemType": "dataset",
+        "title": "Document-to-document relevant assessment for TREC Genomics Track 2005",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Olga",
+            "lastName": "Giraldo"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dhwani",
+            "lastName": "Solanki"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Fernanda",
+            "lastName": "Cadena"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Andrea",
+            "lastName": "Robayo-Gama"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "",
+        "identifier": "",
+        "type": "",
+        "versionNumber": "",
+        "date": "2022-11-15",
+        "repository": "Zenodo",
+        "repositoryLocation": "",
+        "format": "",
+        "DOI": "10.5281/zenodo.7324822",
+        "citationKey": "",
+        "url": "https://zenodo.org/record/7324822",
+        "accessDate": "2022-11-21T10:22:10Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "eng",
+        "libraryCatalog": "Zenodo",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "doc2doc"
+          },
+          {
+            "tag": "giraldo@zbmed.de"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "rebholz@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "solanki@zbmed.de"
+          },
+          {
+            "tag": "stella-I"
+          },
+          {
+            "tag": "trec-doc2doc"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "7CCAMA59"
+        ],
+        "relations": {},
+        "dateAdded": "2022-11-21T10:23:35Z",
+        "dateModified": "2024-01-31T22:50:08Z"
+      }
+    }
+  },
+  {
+    "year": "2023",
+    "collection_hash": "PQHFVETK",
+    "item": {
+      "key": "M44PSET8",
+      "version": 9480,
+      "library": {
+        "type": "group",
+        "id": 2350725,
+        "name": "Publikationen von ZB MED",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/2350725",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/2350725/items/M44PSET8",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/2350725/items/M44PSET8",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "lastModifiedByUser": {
+          "id": 8466868,
+          "username": "julianschneider",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/julianschneider",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Giraldo et al.",
+        "parsedDate": "2023",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "M44PSET8",
+        "version": 9480,
+        "itemType": "conferencePaper",
+        "title": "Document-to-document relevance assessment for TREC Genomics Track 2005",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Olga",
+            "lastName": "Giraldo"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "María Fernanda",
+            "lastName": "Cadena"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Andrea",
+            "lastName": "Robayo-Gama"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dhwani",
+            "lastName": "Solanki"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Tim",
+            "lastName": "Fellerhoff"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Lukas",
+            "lastName": "Geist"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Rohitha",
+            "lastName": "Ravinder"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Muhammad",
+            "lastName": "Talha"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "Here we present a doc-2-doc relevance assessment performed on a subset of the TREC Genomics Track 2005 collection. Our approach includes an experimental set up to manually assess doc-2-doc relevance and the corresponding analysis done on the results obtained from this experiment. The experiment takes one document as a reference and assesses a second document regarding its relevance to the reference one. The consistency of the assessments done by 4 domain experts was evaluated. The lack of agreement between annotators may be due to: i) The abstract lacks key information and/or ii) Lack of experience of the annotators in the evaluation of some topics.",
+        "proceedingsTitle": "",
+        "conferenceName": "SWAT4HCLS 2023",
+        "publisher": "CEUR",
+        "place": "",
+        "date": "2023",
+        "eventPlace": "",
+        "volume": "",
+        "issue": "",
+        "numberOfVolumes": "",
+        "pages": "",
+        "series": "",
+        "seriesNumber": "",
+        "DOI": "",
+        "ISBN": "",
+        "citationKey": "",
+        "url": "https://ceur-ws.org/Vol-3415/paper-12.pdf",
+        "accessDate": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "en",
+        "libraryCatalog": "Zotero",
+        "callNumber": "",
+        "rights": "All rights reserved",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "giraldo@zbmed.de"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "rebholz@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "solanki@zbmed.de"
+          },
+          {
+            "tag": "stella-I"
+          },
+          {
+            "tag": "trec-doc2doc"
+          },
+          {
+            "tag": "von ZB MED"
+          },
+          {
+            "tag": "⛔ No DOI found",
+            "type": 1
+          }
+        ],
+        "collections": [
+          "PQHFVETK"
+        ],
+        "relations": {},
+        "dateAdded": "2023-06-26T17:22:13Z",
+        "dateModified": "2024-07-01T10:06:16Z"
+      }
+    }
+  }
+]
