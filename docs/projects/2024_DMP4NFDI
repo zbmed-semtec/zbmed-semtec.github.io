@@ -6,3 +6,12 @@
 <p><img src = "/images/preview.svg" alt="RO-Crate HTML Preview"/><a href="../../metadata/projects/2024_DMP4NFDI/ro-crate-preview.html" id="open-preview" target="_blank"> RO-Crate HTML Preview</a></p>
 _Started in 2024-06-01_
 ### Description
+
+DMP4NFDI is a centralised Basic Service for managing data management plans (DMPs) and software management plans (SMPs) across the NFDI. It will host the open-source DMP tool RDMO, coordinate template creation, standardise content, and offer guidance and support to consortia staff responsible for DMPs. The service aims to enhance communication among stakeholders, support data collection and review processes, and foster interoperability by engaging consortia early on to refine requirements and develop standardised DMP templates. Ultimately, DMP4NFDI seeks to maximise the benefits of widespread DMP adoption by promoting interoperability and integration across the NFDI's research data ecosystem.
+### Keywords
+
+nfdi, dmp, smp, rdmo
+### Url
+
+- URL: <a href="https://zbmed-semtec.github.io/projects/2024_DMP4NFDI" target="_blank">https://zbmed-semtec.github.io/projects/2024_DMP4NFDI</a>
+
