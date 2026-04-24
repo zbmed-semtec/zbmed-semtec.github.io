@@ -1,0 +1,56 @@
+{
+    "@context": "http://schema.org/",
+    "@id": "https://w3id.org/zbmed-semtec/projects/2024_DMP4NFDI",
+    "@type": "ResearchProject",
+    "name": "DMP4NFDI", 
+    "foundingDate": "2024-06-01",
+    "description": "DMP4NFDI is a centralised Basic Service for managing data management plans (DMPs) and software management plans (SMPs) across the NFDI.",
+    "keywords": "nfdi, dmp, smp, rdmo",
+    "url": "https://zbmed-semtec.github.io/projects/2024_DMP4NFDI",
+    "employee": [
+    ],
+    "alumni": [
+    ],
+    "department": {
+      "@type": "ResearchOrganization",
+      "@id": "https://w3id.org/zbmed-semtec",
+      "name": "Semantic Technologies team at ZB MED",
+      "url": "https://zbmed-semtec.github.io/"
+    },
+    "parentOrganization": [
+      {
+        "@type": "ResearchOrganization",
+        "@id": "https://ror.org/0259fwx54",
+        "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften", 
+        "alternateName": "ZB MED Information Centre for Life Sciences", 
+        "url": "https://zbmed.de/"
+      },
+      {
+        "@type": "Consortium",
+        "@id": "https://gepris.dfg.de/gepris/projekt/460234259#project",
+        "name": "NFDI4DataScience",
+        "url": "https://www.nfdi4datascience.de/"
+      }
+    ],  
+    "funding": [
+      {
+        "@type": "Grant",
+        "@id": "https://gepris.dfg.de/gepris/projekt/460234259",
+        "funder": {
+          "@type": "Organization",
+          "@id": "https://ror.org/018mejw64",
+          "name": "Deutsche Forschungsgemeinschaft", 
+          "alternateName": "German Research Foundation",
+          "url": "http://www.dfg.de/en/"  
+        },
+        "identifier": "460234259",
+        "description": "Project no. 460234259 (corresponding to the NFDI4DataScience consortium)"
+      }
+    ],
+    "knowsAbout": [ 
+      
+    ],
+    "member": [
+    ]
+  }
+  
