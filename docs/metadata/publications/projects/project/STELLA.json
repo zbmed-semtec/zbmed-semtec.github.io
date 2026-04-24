@@ -1,0 +1,1542 @@
+[
+  {
+    "key": "N49QKM3Q",
+    "version": 178,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/N49QKM3Q",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/N49QKM3Q",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Giraldo et al.",
+      "parsedDate": "2022-11-19",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "N49QKM3Q",
+      "version": 178,
+      "itemType": "dataset",
+      "title": "Fleiss kappa for doc-2-doc relevance assessment",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Here we present a table summarizing the Fleiss’ kappa results. The Fleiss’ Kappa was calculated as a way to measure the degree of agreement between four annotators who evaluated the relevance of a set of documents (15 evaluation articles) regarding its corresponding “reference article”. The table contains 7 columns, the first one presents the topics, 8 in total. The second column shows the “reference articles”, represented by their PubMed-ID and organized by topic. The third column shows the Fleiss’ Kappa results. The fourth column shows the interpretation of the Fleiss' Kappa results being: i) “Poor” results <0.20, ii) “Fair” results within 0.21 - 0.40, and iii) “Moderate” results within 0.41 - 0.60. The fifth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Relevant” regarding its corresponding “reference article”. The sixth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Partially relevant” regarding its corresponding “reference article”. The seventh column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Non-relevant” regarding its corresponding “reference article”.   Acknowledgements  This work is part of the STELLA project funded by DFG (project no. 407518790). This work was supported by the BMBF-funded de.NBI Cloud within the German Network for Bioinformatics Infrastructure (de.NBI) (031A532B, 031A533A, 031A533B, 031A534A, 031A535A, 031A537A, 031A537B, 031A537C, 031A537D, 031A538A).",
+      "identifier": "",
+      "type": "",
+      "versionNumber": "",
+      "date": "2022-11-19",
+      "repository": "Zenodo",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.7338056",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/7338056",
+      "accessDate": "2022-11-21T10:24:36Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Fleiss kappa",
+          "type": 1
+        },
+        {
+          "tag": "Inter-annotator agreement",
+          "type": 1
+        },
+        {
+          "tag": "giraldo@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        }
+      ],
+      "collections": [
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-04-21T07:40:32Z",
+      "dateModified": "2026-04-21T07:40:32Z"
+    }
+  },
+  {
+    "key": "NX6MFLVE",
+    "version": 170,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/NX6MFLVE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/NX6MFLVE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "NX6MFLVE",
+      "version": 170,
+      "itemType": "computerProgram",
+      "title": "word2doc2vec-doc-relevance-training",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "This software repository provides an approach for exploring and evaluating literature-based document-to-document (doc-2-doc) recommendations using the Word2Vec technique. The methodology generates document-level embeddings by aggregating word embeddings into centroids. It utilizes the RELISH Corpus, a biomedical literature dataset curated by experts, containing pairwise document assessments.\n\nThe software workflow includes training Word2Vec models on a predefined training set, followed by the evaluation of doc-2-doc recommendations using a distinct test set. Additionally, Optuna is integrated for hyperparameter optimization of the trained Word2Vec models using the validation dataset, enabling fine-tuning of model performance.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15094699",
+      "accessDate": "2026-03-31T14:30:46Z",
+      "DOI": "10.5281/zenodo.15094699",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "biomedical literature",
+          "type": 1
+        },
+        {
+          "tag": "document-to-document similarity",
+          "type": 1
+        },
+        {
+          "tag": "embeddings",
+          "type": 1
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "ontoClue"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:32:26Z",
+      "dateModified": "2026-03-31T14:32:50Z"
+    }
+  },
+  {
+    "key": "8SR2H7IV",
+    "version": 167,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/8SR2H7IV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/8SR2H7IV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "8SR2H7IV",
+      "version": 167,
+      "itemType": "computerProgram",
+      "title": "doc2vec-doc-relevance-training",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "This software repository provides an approach for exploring and evaluating literature-based document-to-document (doc-2-doc) recommendations using the Doc2Vec technique.  It utilizes the RELISH Corpus, a biomedical literature dataset curated by experts, containing pairwise document assessments.\n\nThe software workflow includes training Doc2Vec models on a predefined training set, followed by the evaluation of doc-2-doc recommendations using a distinct test set. Additionally, Optuna is integrated for hyperparameter optimization of the trained Doc2Vec models using the validation dataset, enabling fine-tuning of model performance.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15095071",
+      "accessDate": "2026-03-31T14:28:55Z",
+      "DOI": "10.5281/zenodo.15095071",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "biomedical literature",
+          "type": 1
+        },
+        {
+          "tag": "document-to-document similarity",
+          "type": 1
+        },
+        {
+          "tag": "embeddings",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontoClue"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:30:00Z",
+      "dateModified": "2026-03-31T14:30:20Z"
+    }
+  },
+  {
+    "key": "RKXKJ9L9",
+    "version": 164,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/RKXKJ9L9",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/RKXKJ9L9",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "RKXKJ9L9",
+      "version": 164,
+      "itemType": "computerProgram",
+      "title": "fasttext2doc2vec-doc-relevance-training",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "This software repository provides an approach for exploring and evaluating literature-based document-to-document (doc-2-doc) recommendations using the FastText model. It leverages the FastText model to first generate word embeddings and then generates document embeddings by centroid aggregation of the word embeddings. It utilizes the RELISH Corpus, a biomedical literature dataset curated by experts, containing pairwise document assessments.\n\nThe software workflow includes training FastText models on a predefined training set, followed by the evaluation of doc-2-doc recommendations using a distinct test set. Additionally, Optuna is integrated for hyperparameter optimization of the trained FastText models using the validation dataset, enabling fine-tuning of model performance.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15095937",
+      "accessDate": "2026-03-31T14:27:04Z",
+      "DOI": "10.5281/zenodo.15095937",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "biomedical literature",
+          "type": 1
+        },
+        {
+          "tag": "document-to-document similarity",
+          "type": 1
+        },
+        {
+          "tag": "embeddings",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontoclue"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:27:55Z",
+      "dateModified": "2026-03-31T14:28:06Z"
+    }
+  },
+  {
+    "key": "AMW7TTAR",
+    "version": 161,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/AMW7TTAR",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/AMW7TTAR",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "AMW7TTAR",
+      "version": 161,
+      "itemType": "computerProgram",
+      "title": "hybrid-doc-relevance-training",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Nelson David",
+          "lastName": "Quiñones Virgen"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "This software corresponds to Hybrid-doc-relevance-training which provides a set of hybrid embedding approaches for literature-based document-to-document similarity, leveraging the RELISH corpus along with integrating semantic understanding. It implements three distinct algorithms: pre-annotation, post-annotation, and post-reduction annotation, utilizing models such as Doc2Vec, Word2Vec, and FastText. The software combines these models with ontology-based background knowledge to improve document similarity, relevance, and recommendation. Detailed documentation is provided, including input data preprocessing and execution instructions for easy integration and use.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15094064",
+      "accessDate": "2026-03-31T14:23:44Z",
+      "DOI": "10.5281/zenodo.15094064",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "MeSH"
+        },
+        {
+          "tag": "bernd.mueller@zbmed.de"
+        },
+        {
+          "tag": "biomedical literature",
+          "type": 1
+        },
+        {
+          "tag": "document-to-document similarity",
+          "type": 1
+        },
+        {
+          "tag": "embeddings",
+          "type": 1
+        },
+        {
+          "tag": "geis"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontoclue"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravi"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semantics",
+          "type": 1
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "symbolic learning"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:26:13Z",
+      "dateModified": "2026-03-31T14:26:30Z"
+    }
+  },
+  {
+    "key": "GZB3BK3J",
+    "version": 158,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/GZB3BK3J",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/GZB3BK3J",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "GZB3BK3J",
+      "version": 158,
+      "itemType": "computerProgram",
+      "title": "whatizit-dictionary-ner",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "This repository provides the code and documentation for a dictionary-based Named Entity Recognition (NER) approach aimed at generating TF-IDF vectors. It utilizes the Whatizit annotation tool to annotate input XML files against a controlled vocabulary, specifically the Medical Subject Headings (MeSH) ontology. The approach allows for the efficient extraction and representation of named entities in documents, facilitating document analysis and similarity assessments within the RELISH Corpus.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15096055",
+      "accessDate": "2026-03-31T14:21:55Z",
+      "DOI": "10.5281/zenodo.15096055",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "MeSH",
+          "type": 1
+        },
+        {
+          "tag": "NER",
+          "type": 1
+        },
+        {
+          "tag": "NER dictionary-based"
+        },
+        {
+          "tag": "biomedical literature",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontoclue"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "tf-idf",
+          "type": 1
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:23:06Z",
+      "dateModified": "2026-03-31T14:23:23Z"
+    }
+  },
+  {
+    "key": "MXGJB33J",
+    "version": 155,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/MXGJB33J",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/MXGJB33J",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "MXGJB33J",
+      "version": 155,
+      "itemType": "computerProgram",
+      "title": "bert-embeddings-doc-relevance",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "This repository presents an approach exploring and assessing literature-based doc-2-doc recommendations using BERT models with its application to the RELISH dataset. The dataset used is the RELISH Corpus, an expert-curated collection of biomedical literature consisting of pairwise document assessments. The workflow involves two main steps: First, BERT models are used without any fine-tuning, generating document embeddings to assess document recommendations. Second, the BERT models are fine-tuned on a specific training set derived from the RELISH dataset, and the resulting model is used to generate document recommendations on a separate test set. The performance of both the pretrained and fine-tuned models is then compared to assess the impact of fine-tuning on the quality of document recommendations.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/18969187",
+      "accessDate": "2026-03-31T14:20:13Z",
+      "DOI": "10.5281/zenodo.18969187",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "BERT"
+        },
+        {
+          "tag": "biomedical literature",
+          "type": 1
+        },
+        {
+          "tag": "document-to-document-similarity",
+          "type": 1
+        },
+        {
+          "tag": "embeddings",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontoclue"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:21:24Z",
+      "dateModified": "2026-03-31T14:21:48Z"
+    }
+  },
+  {
+    "key": "YYQYTEST",
+    "version": 152,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/YYQYTEST",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/YYQYTEST",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "YYQYTEST",
+      "version": 152,
+      "itemType": "computerProgram",
+      "title": "wmd-word2vec-training",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "This software repository provides an approach for exploring and evaluating literature-based document-to-document (doc-2-doc) recommendations using the Word2Vec technique. The methodology generates word-level embeddings using the Word2Vec model and leverages the Word Mover's Distance (WMD) to assess document similarity. It utilizes the RELISH Corpus, a biomedical literature dataset curated by experts, containing pairwise document assessments.\n\nThe software workflow includes training Word2Vec models on a predefined training set, followed by the evaluation of doc-2-doc recommendations using a distinct test set. Additionally, Optuna is integrated for hyperparameter optimization of the trained Word2Vec models using the validation dataset, enabling fine-tuning of model performance.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15095228",
+      "accessDate": "2026-03-31T14:16:16Z",
+      "DOI": "10.5281/zenodo.15095228",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "biomedical literature",
+          "type": 1
+        },
+        {
+          "tag": "document-to-document similarity",
+          "type": 1
+        },
+        {
+          "tag": "embeddings",
+          "type": 1
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontoclue"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "word mover's distance",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:18:09Z",
+      "dateModified": "2026-03-31T14:18:27Z"
+    }
+  },
+  {
+    "key": "I7IXFU57",
+    "version": 149,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/I7IXFU57",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/I7IXFU57",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "I7IXFU57",
+      "version": 149,
+      "itemType": "dataset",
+      "title": "Machine Learning Models, Embeddings, and Evaluation Results for the OntoClue Project",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Solanki",
+          "lastName": "Dhwani"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "This release includes the machine learning models, embeddings, and evaluation results from the OntoClue project, which explores various text embedding techniques to evaluate document-to-document similarity in biomedical literature. The project leverages the RELISH Corpus, a curated dataset containing expert annotations of document pairs based on their relevance and similarity. This release features trained embedding models, the resulting embeddings, and the corresponding evaluation outcomes, including precision, cosine similarity and nDCG@N. For each approach there will 2 files corresponding to class distribution, and list all approach names. 3 vs 2 explanation",
+      "identifier": "",
+      "type": "AI Model",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "repository": "Zenodo",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.14826813",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/14826813",
+      "accessDate": "2026-03-31T14:11:59Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "AI model"
+        },
+        {
+          "tag": "bernd.mueller@zbmed.de"
+        },
+        {
+          "tag": "embeddings"
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontoclue"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:14:38Z",
+      "dateModified": "2026-03-31T14:15:07Z"
+    }
+  },
+  {
+    "key": "BTX7VLQE",
+    "version": 95,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/BTX7VLQE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/BTX7VLQE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Giraldo et al.",
+      "parsedDate": "2022-11-15",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "BTX7VLQE",
+      "version": 95,
+      "itemType": "dataset",
+      "title": "Document-to-document relevant assessment for TREC Genomics Track 2005",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fernanda",
+          "lastName": "Cadena"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Andrea",
+          "lastName": "Robayo-Gama"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Here we present a table with document-to-document relevance assessment judgements on a subset of the TREC Genomics Track 2005 which corresponds to document-to-topic relevance assessments. This data was produced by four annotators to make it possible to analyze inter-annotator agreements as part of our future work. The data was produced with and in-house annotation tool tailored to the initial TREC data and the task at hand. The \"raw data document evaluation\" contains six columns, first row consecutive id, second original TREC topic, third PubMed Id used as reference document, fourth PMID used to evaluate the relevance wrt the reference document, fifth the relevance score (2 definitely relevant, 1 partially relevant, 0 non-relevant), and sixth annotator id.   Acknowledgements This work is part of the STELLA project funded by DFG (project no. 407518790). This work was supported by the BMBF-funded de.NBI Cloud within the German Network for Bioinformatics Infrastructure (de.NBI) (031A532B, 031A533A, 031A533B, 031A534A, 031A535A, 031A537A, 031A537B, 031A537C, 031A537D, 031A538A).",
+      "identifier": "",
+      "type": "",
+      "versionNumber": "",
+      "date": "2022-11-15",
+      "repository": "Zenodo",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.7324822",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/7324822",
+      "accessDate": "2022-11-21T10:22:10Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Relevance assessment",
+          "type": 1
+        },
+        {
+          "tag": "document similarity",
+          "type": 1
+        },
+        {
+          "tag": "giraldo@zbmed.de"
+        },
+        {
+          "tag": "literature manual curation",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        }
+      ],
+      "collections": [
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:52:44Z",
+      "dateModified": "2025-10-09T16:52:44Z"
+    }
+  },
+  {
+    "key": "6Q9LRTU2",
+    "version": 131,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/6Q9LRTU2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/6Q9LRTU2",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Talha et al.",
+      "parsedDate": "2022-11-21",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "6Q9LRTU2",
+      "version": 131,
+      "itemType": "computerProgram",
+      "title": "TREC-doc-2-doc-relevance assessment interface",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Mohammad",
+          "lastName": "Talha"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Tim",
+          "lastName": "Fellerhof"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "TREC-doc-2-doc-relevance The code, data and docs at this repo aim at facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track. A doc-2-doc relevance assessment takes one document as reference and assess a second document regarding its relevance to the reference one. This doc-2-doc collection will be used to evaluate the doc-2-doc recommendations approaches that we are working on. The TREC 2005 Genomics track corresponds to document-2-topic relevance assessment. Our assumption is that articles relevant to a topic will be more relevant to each other that those which are not relevant to the topic. This premise has been used before in previous approaches . With this TREC-doc-2-doc-relevance project, we want to double check this assumption by creating a doc-2-doc relevance assessment corpus based on TREC 2005 Genomics track. Data The TREC 2005 Genomics Track data can be found at https://trec.nist.gov/data/t14_genomics.html. The data used for the doc-2-doc relevance assessment and the assessments carried by four annotators can be found at https://zenodo.org/record/7324822 while the Fleiss Kappa data at https://zenodo.org/record/7338056. Releases v1.0.0 is the initial release of the TREC-doc-2-doc-relevance assessment interface. The tools has been used by four annotators on a corpus extracted from TREC 2005 Genomics Track. Acknowledgements This work is part of the STELLA project funded by DFG (project no. 407518790). This work was supported by the BMBF-funded de.NBI Cloud within the German Network for Bioinformatics Infrastructure (de.NBI) (031A532B, 031A533A, 031A533B, 031A534A, 031A535A, 031A537A, 031A537B, 031A537C, 031A537D, 031A538A).",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2022-11-21",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "All rights reserved",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/7341391",
+      "accessDate": "2022-11-21T11:26:51Z",
+      "DOI": "10.5281/zenodo.7341391",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Relevance assessment, Web Flask application, Python",
+          "type": 1
+        },
+        {
+          "tag": "giraldo@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        }
+      ],
+      "collections": [
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:51:05Z",
+      "dateModified": "2025-10-09T16:51:05Z"
+    }
+  }
+]

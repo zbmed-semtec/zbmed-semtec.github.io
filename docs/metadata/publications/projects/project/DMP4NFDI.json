@@ -1,0 +1,1140 @@
+[
+  {
+    "key": "YG8MSVIZ",
+    "version": 146,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/YG8MSVIZ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/YG8MSVIZ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ashokan et al.",
+      "parsedDate": "2026-03-02",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "YG8MSVIZ",
+      "version": 146,
+      "itemType": "presentation",
+      "title": "A metadata extraction tool for GitLab repositories",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Akhilan",
+          "lastName": "Ashokan"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Research software is fundamental to scientific reproducibility; however, its reuse is still difficult due to, for instance, poor documentation. Although READMEs are becoming more popular, they are not yet well and consistently adopted across disciplines, and often lack the depth required for other researchers to build upon existing work. Initiatives such as FAIR for Research Software (FAIR4RS), Software Management Plans (SMPs), and those around structured metadata for research software, e.g., CodeMeta and the NFDI Research Software Metadata Working Group, help increase awareness of the need to share and document software, together with its metadata. However, the adoption of machine-readable, semantically structured metadata, critical for achieving FAIRness, remains limited. Some of the factors for researchers not sharing metadata in a structured way are, for instance, lack of knowledge on how to do it, lack of time to provide data already in their repositories but in a different format, lack of awareness on good practices.\n\nBased on an extension to schema.org and CodeMeta including metadata relevant to SMPs, namely the machine-actionable SMP (maSMP) metadata schema, we have created a metadata extraction tool to retrieve information from GitHub repositories so researchers can easily get metadata for their GitHub repositories. In this talk, we will introduce an extension to this tool, now supporting metadata extraction from GitLab repositories. Our metadata extraction tool relies on an extraction, transformation and loading (ETL) pipeline offering an API and end-user web application. Thanks to its modularity, it could be integrated to projects such as Connected Open-Source Software (ConnOSS) and SMP platforms such as the Research Data Management Organiser (RDMO). Our GitHub/GitLab metadata extraction tool aims at enhancing research software quality, reproducibility, and documentation. By automating metadata extraction and aligning it with maSMP metadata schema and FAIR4RS principles, we will contribute to the adoption of better software management practices across all scientific fields.\n\nThis work is part of the deRSE26 - Conference for Research Software Engineering in Germany, see https://events.hifis.net/event/2945/contributions/21166/\n\nThis work has been partially supported by the German Research Foundation (DFG) through the project ConnOSS with project number 561044496 and DMP4NFDI through Base4NFDI with project number 521453681.",
+      "presentationType": "",
+      "date": "2026-03-02",
+      "meetingName": "deRSE26 - Conference for Research Software Engineering in Germany (deRSE26)",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.18837374",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/18837374",
+      "accessDate": "2026-03-10T10:47:33Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ConnOSS"
+        },
+        {
+          "tag": "DMP4NFDI"
+        },
+        {
+          "tag": "GitLab",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Metadata extraction",
+          "type": 1
+        },
+        {
+          "tag": "Research software",
+          "type": 1
+        },
+        {
+          "tag": "ashokan@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3",
+        "6NANTE5H",
+        "7QPWCF6A"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-10T10:49:26Z",
+      "dateModified": "2026-03-10T10:49:52Z"
+    }
+  },
+  {
+    "key": "HQ7Z4ISF",
+    "version": 141,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/HQ7Z4ISF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/HQ7Z4ISF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Müller et al.",
+      "parsedDate": "2026-03-02",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "HQ7Z4ISF",
+      "version": 141,
+      "itemType": "presentation",
+      "title": "A comparison across SMPs",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Marisabel",
+          "lastName": "González-Ocanto"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "David",
+          "lastName": "Wallace"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Sabine",
+          "lastName": "Schönau"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Jürgen",
+          "lastName": "Windeck"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Research software is fundamental for reproducibility of science. Initiatives such as the FAIR for Research Software Principles, ADORE.software, REUSE software, and the European Virtual Institute for Research Software Excellence (EVERSE) stress the importance of following good practices to maximize software reuse and sustainability. Software Management Plans (SMPs) complement the picture as they help formalize a set of structures and goals aligned to the implementation of best practices during software development, ensuring that software becomes accessible and reusable in the short-, medium- and long-term [1, 2]. Despite its importance, SMPs are not yet broadly used or required by funders (as it happens with Data Management Plans –DMPs) [3].\n\nAs software is used to process data, SMPs are a natural complement to DMPs. For this reason, in 2025, SMPs were integrated into the DMP4NFDI project. DMP4NFDI, one of the basic services for the National Research Data Infrastructure in Germany (NFDI),  aims at providing a Research Data Management service, namely the RDM Organiser (RDMO) [4], where users can find templates (i.e., questionnaires guiding RDM-related activities and outcomes) making it easier to collect data management information along the research cycle. DMP4NFDI’s goal is to standardise those templates across NFDI by providing a template framework [x]. Questions pertaining to software management will be added to the framework so researchers can manage both research artifacts at once. However, an immediate question arises: which questions are relevant to an SMP template? To answer this question it is necessary to understand the existing options and their relevance to researchers, particularly in Germany.\n\nIn this talk we will present a comparative analysis of five SMPs: ELIXIR SMP [5], eScience Center SMP [2], PreSOFT [6], Max Planck Digital Libraries SMP, Digital Research Alliance of Canada SMP [8], including commonalities and differences. We will finish with our own proposal for an SMP for RDMO and will gather feedback from the audience.\n\nThis work is part of the deRSE26 - Conference for Research Software Engineering in Germany, see https://events.hifis.net/event/2945/contributions/21138/\n\nThis work has been partially funded by Base4NFDI, through DMP4NFDI, under the grant agreement 521474032 provided by the Deutsche Forschungsgemeinschanft (DFG).",
+      "presentationType": "",
+      "date": "2026-03-02",
+      "meetingName": "deRSE26 - Conference for Research Software Engineering in Germany (deRSE26)",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.18838165",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/18838165",
+      "accessDate": "2026-03-10T10:02:36Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "DMP4NFDI"
+        },
+        {
+          "tag": "Research management plans"
+        },
+        {
+          "tag": "SMP"
+        },
+        {
+          "tag": "bernd.mueller@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "ocanto@zbmed.de"
+        },
+        {
+          "tag": "software metadata"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3",
+        "7QPWCF6A"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-10T10:10:21Z",
+      "dateModified": "2026-03-10T10:11:22Z"
+    }
+  },
+  {
+    "key": "H6RFH49Z",
+    "version": 137,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/H6RFH49Z",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/H6RFH49Z",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Windeck et al.",
+      "parsedDate": "2026-01-30",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "H6RFH49Z",
+      "version": 137,
+      "itemType": "presentation",
+      "title": "From Templates to Interoperability with the NFDI DMP Template Framework",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Jürgen",
+          "lastName": "Windeck"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Marisabel",
+          "lastName": "Gonzalez Ocanto"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Isabel A.",
+          "lastName": "Hohle"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Sabine",
+          "lastName": "Schönau"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "David",
+          "lastName": "Wallace"
+        }
+      ],
+      "abstractNote": "Achieving FAIRness for research data implies the application of best practices and machine-actionable metadata. Data management plans (DMPs) as a starting point for research data management activities can support both, when implemented as machine-actionable DMPs (maDMP). maDMP templates and tools tailored to community-specific needs communicate best practices and standardised workflows, provide up-to-date information on service offerings, and connect all stakeholders involved in the RDM process. In order to achieve this interconnection, a standard for DMP templates is needed that services can rely upon.The NFDI basic service in development, DMP4NFDI, works towards this goal by developing an NFDI-wide standard for DMPs, the NFDI DMP Template Framework, and providing a common tool connecting consortia and their RDM services: RDMO, the Research Data Management Organiser. DMP4NFDI is based on the work of the cross-consortia working group infra-dmp in NFDI section Common Infrastructures, and the vision developed in its workshops and discussions.",
+      "presentationType": "Poster",
+      "date": "2026-01-30",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.18433361",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/18433361",
+      "accessDate": "2026-02-05T14:26:27Z",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Base4NFDI",
+          "type": 1
+        },
+        {
+          "tag": "DMP",
+          "type": 1
+        },
+        {
+          "tag": "DMP4NFDI",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "ocanto@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7QPWCF6A"
+      ],
+      "relations": {
+        "owl:sameAs": "http://zotero.org/groups/2350725/items/LY3S8VVE"
+      },
+      "dateAdded": "2026-02-05T14:28:15Z",
+      "dateModified": "2026-02-05T14:28:15Z"
+    }
+  },
+  {
+    "key": "R86U8GNF",
+    "version": 135,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/R86U8GNF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/R86U8GNF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro",
+      "parsedDate": "2025-11-18",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "R86U8GNF",
+      "version": 135,
+      "itemType": "presentation",
+      "title": "An introduction to Software Management Plans",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Data Management Plans helps us describe the data lifecycle for those datasets used in our research projects, from data collection to publication and preservation. A Software Management Plan (SMP) plays a similar role but for software. SMPs aim to raise awareness on good practices for research software development, from casual to production software. In this talk we introduce SMPs and machine-actionable SMPs, together with their alignment to FAIR for Research Software.\n\nThis talk was presented at the Online Event Series: The future of Research Data Management on 2025-11-18, organized by the Humboldt University of Berlin.",
+      "presentationType": "",
+      "date": "2025-11-18",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.17642467",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/17642467",
+      "accessDate": "2025-12-16T17:08:54Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "DMP4NFDI"
+        },
+        {
+          "tag": "FAIR4RS",
+          "type": 1
+        },
+        {
+          "tag": "Research software",
+          "type": 1
+        },
+        {
+          "tag": "SMP",
+          "type": 1
+        },
+        {
+          "tag": "Software management plan",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "machine-actionability",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7QPWCF6A",
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-12-16T17:09:53Z",
+      "dateModified": "2025-12-16T17:10:05Z"
+    }
+  },
+  {
+    "key": "LME6SKHD",
+    "version": 135,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/LME6SKHD",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/LME6SKHD",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro",
+      "parsedDate": "2025-11-20",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "LME6SKHD",
+      "version": 135,
+      "itemType": "presentation",
+      "title": "Software Management Plans at a glance",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Software Management Plans are to software what Data Management Plans are to datasets. SMPs help us describe the research software lifecycle in a lightweight, from an software empty repository to its publication. SMPs aim to raise awareness around good practices for research software development. In this 10-minute talk, we will get a quick overview on what SMPs are and how they can be supported by metadata, so they become machine-actionable SMPs.\n\nThis talk was presented on 2025-11-20 as part of the webinar series \"Fortaleciendo capacidades y fomentando colaboración\" organized by La Referencia, the Research Software Alliance (ReSA) and Research Data Alliance (RDA).",
+      "presentationType": "",
+      "date": "2025-11-20",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.17659840",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/17659840",
+      "accessDate": "2025-12-16T17:05:18Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "DMP4NFDI"
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Software Management Plan",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "machine-actionability",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7QPWCF6A",
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-12-16T17:06:39Z",
+      "dateModified": "2025-12-16T17:06:48Z"
+    }
+  },
+  {
+    "key": "X4AXMAFN",
+    "version": 135,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/X4AXMAFN",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/X4AXMAFN",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro",
+      "parsedDate": "2025-11-19",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "X4AXMAFN",
+      "version": 135,
+      "itemType": "presentation",
+      "title": "Initiatives at ZB MED and NFDI on metadata for software and AI models",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Semantic metadata for research artifacts makes it easier to realize the FAIR principles while also providing a good overview for humans and machines. Such metadata for scholarly articles is well-covered, with metadata about datasets also getting momentum. However, metadata for other research artifacts, e.g., software and Artificial Intelligence (AI) models, is not yet that frequently provided. We will present our ongoing work extending schema.org with metadata for software (compatible with Software Management Plans) and AI models, including tools making easier for researchers to share metadata for their own research artifacts.",
+      "presentationType": "",
+      "date": "2025-11-19",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.17642991",
+      "citationKey": "",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.17642991",
+      "accessDate": "2025-12-16T17:00:48Z",
+      "shortTitle": "",
+      "language": "en",
+      "rights": "Creative Commons Attribution 4.0 International",
+      "extra": "Publisher: Zenodo\nVersion Number: v1.0.0",
+      "tags": [
+        {
+          "tag": "AI Model",
+          "type": 1
+        },
+        {
+          "tag": "ConnOSS"
+        },
+        {
+          "tag": "DMP4NFDI"
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Research Software",
+          "type": 1
+        },
+        {
+          "tag": "Software Management Plan",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "machine-actionability",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "6NANTE5H",
+        "7QPWCF6A",
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-12-16T17:02:45Z",
+      "dateModified": "2025-12-16T17:02:51Z"
+    }
+  },
+  {
+    "key": "Z5HNILXD",
+    "version": 51,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/Z5HNILXD",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/Z5HNILXD",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Solanki et al.",
+      "parsedDate": "2025-04-03",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "Z5HNILXD",
+      "version": 51,
+      "itemType": "dataset",
+      "title": "Crosswalks from the NFDI4DS hackathon \"machine-actionable Data Management Plan for NFDI\"",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Safial Islam",
+          "lastName": "Ayon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Martin",
+          "lastName": "Armbruster"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Katja",
+          "lastName": "Diederichs"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sara",
+          "lastName": "El-Gebali"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Giacomo",
+          "lastName": "Lanza"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Antonia",
+          "lastName": "Leidel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jimena",
+          "lastName": "Linares Gómez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olaf",
+          "lastName": "Michaelis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rajendran",
+          "lastName": "Rajapreethi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marco",
+          "lastName": "Reidelbach"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gabriel",
+          "lastName": "Schneider"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sabine",
+          "lastName": "Schönau"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Steinbeck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Wallace"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jürgen",
+          "lastName": "Windeck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xiao-Ran",
+          "lastName": "Zhou"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Summary\n\nFrom 28 to 30 October 2024, ZB MED Information Centre for Life Sciences organized a hackathon in Cologne within the scope of NFDI4DataScience with the purpose of identifying core elements for a machine-actionable Data Managemnt Plan (maDMP) across the German National Research Data Infrastructure (NFDI). We used as a starting/reference point the maDMP application profile from the Research Data Alliance DMP Commons Working Group. An additional element, ManagementPlan, was also included. Management Plan comes originally from DataCite v4.4, its representation as an extension proposed by the ZB MED/NFDI4DataScience machine-actionable Software Management Plan metadata schema was used.\n\nThis dataset comprises crosswalks corresponding to the following elements from the RDA maDMP: DMP, Project, Dataset, Distribution. The crosswalks were created following a template prepared by the organizers. Participants freely select a metadata schema or platform to be mapped with regards to the attributes in the RDA maDMP application profile. Crosswalks were created for DMP, Project, Dataset, and Distribution, while comments were provided by DMP and Dataset.\n\nThe list of files in this dataset is as follows:\n\n\n\nCrosswalk template: two spreadsheets (AllTemplates.ods and AllTemplates.xlsx) containing 13 tabs corresponding to the instructions (InstructionsAllTemplates.pdf and InstructionsAllTemplates.tsv), crosswalks templates for Management Plan (CrosswalkTemplate-MngPlan.tsv), DMP (CrosswalkTemplate-DMP.tsv), Project (CrosswalkTemplate-Project.tsv), Dataset (CrosswalkTemplate-Dataset.tsv), Distribution (CrosswalkTemplate-Distribution.tsv) and Host (CrosswalkTemplate-Host.tsv), and comment templates for all the same elements Management Plan (CommentsTemplate-MngPlan.tsv), DMP (CommentsTemplate-DMP.tsv), Project (CommentsTemplate-Project.tsv), Dataset (CommentsTemplate-Dataset.tsv), Distribution (CommentsTemplate-Distribution.tsv) and Host (CommentsTemplate-Host.tsv). The crosswalk templates are meant to be used to compare a source against the reference point while the comment templates are meant to be used to provide comments to the reference point. Eash tab/crosswalk is also provided as individual TSV files. The crosswalk and comment templates contain the following columns:\n\n\n\nCrosswalk for the reference source: Property, Range, Description, Cardinality (One, Many), Requirement (minimum, recommended, optional), Example\n\nCrosswalk for the mapped source: Property, Range, Description, Cardinality (One, Many), Requirement (minimum, recommended, optional), Recommended Vocabulary, Comment, Review\n\nComments for the reference source: Property, Range, Description, Cardinality (One, Many), Requirement (minimum, recommended, optional), Example\n\nComments for the mapped source: Comments to Property, Comments to Range, Comments to Description, Comments to Cardinality (One, Many), Comments to Requirement (minimum, recommended, optional), Recommended Vocabulary\n\n\n\nCrosswalk summary: two spreadsheets (Summary.ods and Summary.xlsx) containing six tabs corresponding to crosswalks summary for DMP (Summary-DMP.tsv), Project (Summary-Project.tsv), Dataset (Summary-Dataset.tsv), and Distribution (Summary-Distribution.tsv), and comments summary forDMP (Summary-Comments-DMP.tsv), and Dataset (Summary-Comments-Dataset.tsv). Eash tab/crosswalk is also provided as individual TSV files. The crosswalks and comments always contain the reference point (i.e, as defined by the RDA maDMP application profile) and the following mapped resources, separated by an empty (blue) column:\n\n\n\nCrosswalks for DMP: RDMO, DataPLAN, NFDIxCS, Horizon Europe, DFG Checklist, DataCite, and GFBio_DMPT\n\nComments to DMP: NFDIxCS\n\nCrosswalks for Project: RDMO, Metadata4Ing, NFDIxCS, Schema.org, and DFG Checklist\n\nCrosswalks for Dataset: RDMO, DataPLAN, Metadata4Ing, NFDIxCS, Horizon Europe, DFG Checklist, and DataCite\n\nComments to Dataset: NFDIxCS\n\nCrosswalks for Distribution: RDMO and Metadata4Ing\n\n\n\nCrosswalks to RDMO: two spreadsheets (RDMO.ods and RDMO.xlsx) containing four tabs corresponding to the crosswalks for DMP (RDMO-DMP.tsv), Project (RDMO-Project.tsv), Dataset (RDMO-Dataset.tsv) and Distribution (RDMO-Distribution.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to DataPLAN: two spreadsheets (DataPLAN.ods and DataPLAN.xlsx) containing two tabs corresponding to the crosswalks for DMP (DataPLAN-DMP.tsv) and Dataset (DataPLAN-Dataset.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to Metadata4Ing: two spreadsheets (Metadata4Ing.ods and Metadata4Ing.xlsx) containing three tabs corresponding to the crosswalks for Project (Metadata4Ing-Project.tsv), Dataset (Metadata4Ing-Dataset.tsv) and Distribution (Metadata4Ing-Distribution.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to NFDIxCS: two spreadsheets (NFDIxCS.ods and NFDIxCS.xlsx) containing five tabs corresponding to the crosswalks for DMP (NFDIxCS-DMP.tsv), Project (NFDIxCS-Project.tsv), and Dataset (NFDIxCS-Dataset.tsv), and additional comments for DMP (NFDIxCS-Comments-to-DMP.tsv) and Dataset (NFDIxCS-Comments-to-Dataset.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to Schema.org: two spreadsheets (SchemaOrg.ods and SchemaOrg.xlsx) containing one tab corresponding to the crosswalk for Project (SchemaOrg-Project.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to Horizon Europe as recorded in its RDMO template: two spreadsheets (HorizonEurope.ods and HorizonEurope.xlsx) containing two tabs corresponding to the crosswalks for DMP (HorizonEurope-DMP.tsv) and Dataset (HorizonEurope-Dataset.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to DFG Checklist as recorded in its template in RDMO: two spreadsheets (DFGChecklist.ods and RDFGChecklistMO.xlsx) containing three tabs corresponding to the crosswalks for DMP (DFGChecklist-DMP.tsv), Project (DFGChecklist-Project.tsv), and Dataset (DFGChecklist-Dataset.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to DataCite v4.5: two spreadsheets (DataCite.ods and DataCite.xlsx) containing two tabs corresponding to the crosswalks for DMP (DataCite-DMP.tsv) and Dataset (DataCite-Dataset.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to GFBio_DMPT: two spreadsheets (GFBio_DMPT.ods and GFBio_DMPT.xlsx) containing one tabs corresponding to the crosswalk for DMP (GFBio_DMPT-DMP.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\n\nMore information about the activities carried out during the hackathon and the analysis of the crosswalks will be available soon.\n\n \n\nAcknowledgements\n\nThe activities and discussion reported here were carried out during a hackathon organized by the Semantic Technologies team at ZB MED Information Centre from 28 to 30 October 2024 in Cologne, Germany, and sponsored by the NFDI4DataScience consortium. NFI4DataScience is funded by the German Research Foundation (Deutsche Forschungsgemeinschaft – DFG) under the grant No. 460234259\n\nThe DMP4NFDI team acknowledges the support of DFG - German Research Foundation - through the coordination fund (project number 521466146).\n\nDavid Wallace and Jürgen Windeck would like to thank the Federal Government and the Heads of Government of the Länder, as well as the Joint Science Conference (GWK), for their funding and support within the framework of the NFDI4ING consortium. Funded by the German Research Foundation (DFG) - project number 442146713.\n\nMarco Reidelbach is supported by MaRDI, funded by the Deutsche Forschungsgemeinschaft (DFG), project number 460135501, NFDI 29/1 “MaRDI – Mathematische Forschungsdateninitiative”.",
+      "identifier": "",
+      "type": "",
+      "versionNumber": "v1.0.0",
+      "date": "2025-04-03",
+      "repository": "Zenodo",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.15129830",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15129830",
+      "accessDate": "2025-04-15T17:01:35Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maDMPs"
+        },
+        {
+          "tag": "metadata"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7QPWCF6A",
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:14:50Z",
+      "dateModified": "2025-10-09T16:14:50Z"
+    }
+  },
+  {
+    "key": "SX8R4ZPU",
+    "version": 133,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/SX8R4ZPU",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/SX8R4ZPU",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Solanki et al.",
+      "parsedDate": "2025-05-26",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "SX8R4ZPU",
+      "version": 133,
+      "itemType": "report",
+      "title": "Identification of core elements for a machine-actionable Data Management Plan metadata schema in the NFDI",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Safial Islam",
+          "lastName": "Ayon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Martin",
+          "lastName": "Armbruster"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Katja",
+          "lastName": "Diederichs"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sara",
+          "lastName": "El-Gebali"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Giacomo",
+          "lastName": "Lanza"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Antonia",
+          "lastName": "Leidel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jimena",
+          "lastName": "Linares Gómez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olaf",
+          "lastName": "Michaelis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rajapreethi",
+          "lastName": "Rajendran"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marco",
+          "lastName": "Reidelbach"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gabriel",
+          "lastName": "Schneider"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sabine",
+          "lastName": "Schönau"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Steinbeck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Wallace"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jürgen",
+          "lastName": "Windeck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xiao-Ran",
+          "lastName": "Zhou"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "From 28 to 30 October 2024, ZB MED Information Centre for Life Sciences organized a hackathon in Cologne within the scope of NFDI4DataScience with the purpose of identifying core elements for a machine-actionable Data Managemnt Plan (maDMP) across the German National Research Data Infrastructure (NFDI). We used as starting/reference point the maDMP application profile from the Research Data Alliance DMP Commons Working Group. Here we report on the activities and findings. The dataset corresponding to crosswalks can be found at DOI:10.5281/zenodo.15129830\n\nAbstract:\n\nThe interoperability of data management plans (DMPs) across platforms and application profiles plays a key role in the implementation of good scientific practice and of the FAIR data principles. The application profile for \"machine-actionable DMPs\" published by the Research Data Alliance (RDA) marks an important step in this direction. More recently, networking initiatives such as the German National Research Data Infrastructure (NFDI) are collecting and generating templates for DMPs based on the needs of different subject-related communities and implemented in different DMP software tools. In a two-day hackathon we analyzed the RDA maDMP application profile, discussed the meaning and applicability of the proposed elements and aligned them to selected community-driven schemas and platforms for DMPs and for metadata. The results are available in the form of crosswalks and are intended to pave the way towards an maDMP based on schema.org to improve information exchange between DMP platforms and other research data services, and alignment between DMPs and Software Management Plans.\n\nData availability: DOI:10.5281/zenodo.15129830\n\nKeywords: data management plans, machine-actionability, metadata, crosswalks, NFDI",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "Zenodo",
+      "place": "",
+      "date": "2025-05-26",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "10.5281/zenodo.15130045",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15130045",
+      "accessDate": "2025-05-26T16:12:56Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "NFDI",
+          "type": 1
+        },
+        {
+          "tag": "crosswalks",
+          "type": 1
+        },
+        {
+          "tag": "data management plans",
+          "type": 1
+        },
+        {
+          "tag": "dmp4nfdi"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "machine-actionability",
+          "type": 1
+        },
+        {
+          "tag": "metadata",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7QPWCF6A",
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:14:22Z",
+      "dateModified": "2025-10-09T16:14:22Z"
+    }
+  }
+]

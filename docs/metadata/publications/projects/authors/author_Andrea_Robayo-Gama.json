@@ -1,0 +1,137 @@
+[
+  {
+    "project": "STELLA",
+    "collection_hash": "UAFVXV3R",
+    "item": {
+      "key": "BTX7VLQE",
+      "version": 95,
+      "library": {
+        "type": "group",
+        "id": 6239752,
+        "name": "SemTecTeam",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/semtecteam",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/6239752/items/BTX7VLQE",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam/items/BTX7VLQE",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Giraldo et al.",
+        "parsedDate": "2022-11-15",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "BTX7VLQE",
+        "version": 95,
+        "itemType": "dataset",
+        "title": "Document-to-document relevant assessment for TREC Genomics Track 2005",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Olga",
+            "lastName": "Giraldo"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dhwani",
+            "lastName": "Solanki"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Fernanda",
+            "lastName": "Cadena"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Andrea",
+            "lastName": "Robayo-Gama"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "Here we present a table with document-to-document relevance assessment judgements on a subset of the TREC Genomics Track 2005 which corresponds to document-to-topic relevance assessments. This data was produced by four annotators to make it possible to analyze inter-annotator agreements as part of our future work. The data was produced with and in-house annotation tool tailored to the initial TREC data and the task at hand. The \"raw data document evaluation\" contains six columns, first row consecutive id, second original TREC topic, third PubMed Id used as reference document, fourth PMID used to evaluate the relevance wrt the reference document, fifth the relevance score (2 definitely relevant, 1 partially relevant, 0 non-relevant), and sixth annotator id.   Acknowledgements This work is part of the STELLA project funded by DFG (project no. 407518790). This work was supported by the BMBF-funded de.NBI Cloud within the German Network for Bioinformatics Infrastructure (de.NBI) (031A532B, 031A533A, 031A533B, 031A534A, 031A535A, 031A537A, 031A537B, 031A537C, 031A537D, 031A538A).",
+        "identifier": "",
+        "type": "",
+        "versionNumber": "",
+        "date": "2022-11-15",
+        "repository": "Zenodo",
+        "repositoryLocation": "",
+        "format": "",
+        "DOI": "10.5281/zenodo.7324822",
+        "citationKey": "",
+        "url": "https://zenodo.org/record/7324822",
+        "accessDate": "2022-11-21T10:22:10Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "eng",
+        "libraryCatalog": "Zenodo",
+        "callNumber": "",
+        "rights": "All rights reserved",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "Relevance assessment",
+            "type": 1
+          },
+          {
+            "tag": "document similarity",
+            "type": 1
+          },
+          {
+            "tag": "giraldo@zbmed.de"
+          },
+          {
+            "tag": "literature manual curation",
+            "type": 1
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          }
+        ],
+        "collections": [
+          "UAFVXV3R"
+        ],
+        "relations": {},
+        "dateAdded": "2025-10-09T16:52:44Z",
+        "dateModified": "2025-10-09T16:52:44Z"
+      }
+    }
+  }
+]

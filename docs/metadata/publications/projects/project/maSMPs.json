@@ -1,0 +1,2052 @@
+[
+  {
+    "key": "YG8MSVIZ",
+    "version": 146,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/YG8MSVIZ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/YG8MSVIZ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ashokan et al.",
+      "parsedDate": "2026-03-02",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "YG8MSVIZ",
+      "version": 146,
+      "itemType": "presentation",
+      "title": "A metadata extraction tool for GitLab repositories",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Akhilan",
+          "lastName": "Ashokan"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Research software is fundamental to scientific reproducibility; however, its reuse is still difficult due to, for instance, poor documentation. Although READMEs are becoming more popular, they are not yet well and consistently adopted across disciplines, and often lack the depth required for other researchers to build upon existing work. Initiatives such as FAIR for Research Software (FAIR4RS), Software Management Plans (SMPs), and those around structured metadata for research software, e.g., CodeMeta and the NFDI Research Software Metadata Working Group, help increase awareness of the need to share and document software, together with its metadata. However, the adoption of machine-readable, semantically structured metadata, critical for achieving FAIRness, remains limited. Some of the factors for researchers not sharing metadata in a structured way are, for instance, lack of knowledge on how to do it, lack of time to provide data already in their repositories but in a different format, lack of awareness on good practices.\n\nBased on an extension to schema.org and CodeMeta including metadata relevant to SMPs, namely the machine-actionable SMP (maSMP) metadata schema, we have created a metadata extraction tool to retrieve information from GitHub repositories so researchers can easily get metadata for their GitHub repositories. In this talk, we will introduce an extension to this tool, now supporting metadata extraction from GitLab repositories. Our metadata extraction tool relies on an extraction, transformation and loading (ETL) pipeline offering an API and end-user web application. Thanks to its modularity, it could be integrated to projects such as Connected Open-Source Software (ConnOSS) and SMP platforms such as the Research Data Management Organiser (RDMO). Our GitHub/GitLab metadata extraction tool aims at enhancing research software quality, reproducibility, and documentation. By automating metadata extraction and aligning it with maSMP metadata schema and FAIR4RS principles, we will contribute to the adoption of better software management practices across all scientific fields.\n\nThis work is part of the deRSE26 - Conference for Research Software Engineering in Germany, see https://events.hifis.net/event/2945/contributions/21166/\n\nThis work has been partially supported by the German Research Foundation (DFG) through the project ConnOSS with project number 561044496 and DMP4NFDI through Base4NFDI with project number 521453681.",
+      "presentationType": "",
+      "date": "2026-03-02",
+      "meetingName": "deRSE26 - Conference for Research Software Engineering in Germany (deRSE26)",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.18837374",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/18837374",
+      "accessDate": "2026-03-10T10:47:33Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ConnOSS"
+        },
+        {
+          "tag": "DMP4NFDI"
+        },
+        {
+          "tag": "GitLab",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Metadata extraction",
+          "type": 1
+        },
+        {
+          "tag": "Research software",
+          "type": 1
+        },
+        {
+          "tag": "ashokan@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3",
+        "6NANTE5H",
+        "7QPWCF6A"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-10T10:49:26Z",
+      "dateModified": "2026-03-10T10:49:52Z"
+    }
+  },
+  {
+    "key": "HQ7Z4ISF",
+    "version": 141,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/HQ7Z4ISF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/HQ7Z4ISF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Müller et al.",
+      "parsedDate": "2026-03-02",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "HQ7Z4ISF",
+      "version": 141,
+      "itemType": "presentation",
+      "title": "A comparison across SMPs",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Marisabel",
+          "lastName": "González-Ocanto"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "David",
+          "lastName": "Wallace"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Sabine",
+          "lastName": "Schönau"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Jürgen",
+          "lastName": "Windeck"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Research software is fundamental for reproducibility of science. Initiatives such as the FAIR for Research Software Principles, ADORE.software, REUSE software, and the European Virtual Institute for Research Software Excellence (EVERSE) stress the importance of following good practices to maximize software reuse and sustainability. Software Management Plans (SMPs) complement the picture as they help formalize a set of structures and goals aligned to the implementation of best practices during software development, ensuring that software becomes accessible and reusable in the short-, medium- and long-term [1, 2]. Despite its importance, SMPs are not yet broadly used or required by funders (as it happens with Data Management Plans –DMPs) [3].\n\nAs software is used to process data, SMPs are a natural complement to DMPs. For this reason, in 2025, SMPs were integrated into the DMP4NFDI project. DMP4NFDI, one of the basic services for the National Research Data Infrastructure in Germany (NFDI),  aims at providing a Research Data Management service, namely the RDM Organiser (RDMO) [4], where users can find templates (i.e., questionnaires guiding RDM-related activities and outcomes) making it easier to collect data management information along the research cycle. DMP4NFDI’s goal is to standardise those templates across NFDI by providing a template framework [x]. Questions pertaining to software management will be added to the framework so researchers can manage both research artifacts at once. However, an immediate question arises: which questions are relevant to an SMP template? To answer this question it is necessary to understand the existing options and their relevance to researchers, particularly in Germany.\n\nIn this talk we will present a comparative analysis of five SMPs: ELIXIR SMP [5], eScience Center SMP [2], PreSOFT [6], Max Planck Digital Libraries SMP, Digital Research Alliance of Canada SMP [8], including commonalities and differences. We will finish with our own proposal for an SMP for RDMO and will gather feedback from the audience.\n\nThis work is part of the deRSE26 - Conference for Research Software Engineering in Germany, see https://events.hifis.net/event/2945/contributions/21138/\n\nThis work has been partially funded by Base4NFDI, through DMP4NFDI, under the grant agreement 521474032 provided by the Deutsche Forschungsgemeinschanft (DFG).",
+      "presentationType": "",
+      "date": "2026-03-02",
+      "meetingName": "deRSE26 - Conference for Research Software Engineering in Germany (deRSE26)",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.18838165",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/18838165",
+      "accessDate": "2026-03-10T10:02:36Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "DMP4NFDI"
+        },
+        {
+          "tag": "Research management plans"
+        },
+        {
+          "tag": "SMP"
+        },
+        {
+          "tag": "bernd.mueller@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "ocanto@zbmed.de"
+        },
+        {
+          "tag": "software metadata"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3",
+        "7QPWCF6A"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-10T10:10:21Z",
+      "dateModified": "2026-03-10T10:11:22Z"
+    }
+  },
+  {
+    "key": "BVF5JALX",
+    "version": 135,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/BVF5JALX",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/BVF5JALX",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Solanki et al.",
+      "parsedDate": "2025-11-05",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "BVF5JALX",
+      "version": 135,
+      "itemType": "conferencePaper",
+      "title": "Automated Metadata Extraction Compliant with Machine-actionable Software Management Plans",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Research software and the FAIR for Research Software (FAIR4RS) principles are gaining more attention from research communities in different domains due to their role in the reproducibility of science. The Software Management Plans (SMPs) are a nice complement to the FAIR4RS principles and research software good practices. A machine-actionable layer providing semantically structured metadata describing the research software would make it easier for machines to process the data and would enable, for instance, the creation of Knowledge Graphs for research software metadata and related artifacts, e.g., data processed by the software. To this end, we have created the machine-actionable SMPs (maSMPs) metadata schema based on schema.org, and compatible with Bioschemas and Codemeta. To make it easier for researchers, we are also working on a tool to automatically extract such metadata from GitHub repositories. Here we introduce our approach towards maSMPs and present our preliminary work on automatic metadata extraction from GitHub API. Keywords: Software Management Plans, machine-actionability, metadata&nbsp;",
+      "proceedingsTitle": "heiBOOKS",
+      "conferenceName": "E-Science-Tage 2025",
+      "publisher": "heiBOOKS",
+      "place": "Heidelberg, Germany",
+      "date": "2025-11-05",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.11588/heibooks.1652.c23951",
+      "ISBN": "978-3-911056-51-9",
+      "citationKey": "",
+      "url": "https://books.ub.uni-heidelberg.de/heibooks/catalog/book/1652/chapter/23951",
+      "accessDate": "2025-11-05T19:22:19Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "de",
+      "libraryCatalog": "books.ub.uni-heidelberg.de",
+      "callNumber": "",
+      "rights": "Copyright (c) 2025 Vincent Heuveline, Philipp Kling, Florian Heuschkel, Sophie G. Habinger, Cora F. Krömer; Petra Olschowski, Frauke Melchior, Oliver Koepler, Iryna Mozgova, Florian Nürnberger, Christoph Steinbeck, Jürgen Pleiss, Marco Reidelbach, Mattis thor Straten, Steffen Strohm, Florian Thiery, Matthias Renz, Paulina Anna Dąbrowska, Esther Schneidenbach, Eske Heister, Lena Simon, Wojtek Dabrowski, Renat Shigapov, Irene Schumm, Thomas Schmidt, Jan Kamlah, Larissa Will, Magdalene Cyra, Matthias Fingerhuth, Lioba Schreyer, Christina Schröder, Marcel Nellesen, Marius Politze, Petar Hristov, Katja Jansen, Ilona Lang, Harald Kaluza, Dorothea Strecker, Kerstin Soltau, Felix Bach, Roberto Cozatl, Anna Daudrich, Eva Eilert, Martin Reiter, Constantin Breß, Lea Sophie  Singson, Halima Saker, Simon Pirkl, Jens Krüger, Holger Gauza, Suvasini Thangaraj, Ursula Eberhardt, Alexander Kirbis, Lucas Beuter, Florian Fritze, Dorothea Iglezakis, Sarbani Roy, Björn Selent, Karoline Weinspach, Lena Steinmann, Tanja Hörner, Uta Bohnebeck, Rolf Drechsler, Frank Oliver Glöckner, Iris Pigeot, Roman Baum, Syphax Bouazouni, Jan Fillies, Naouel Karam, Pooya Oladazimi, Julia Sasse, Andrea Kuhn, Sarah Boelter, Romy Meyer, Wesley Preßler, Lucie Schmidt, Amélie Oberdorfer, Christoph Schmidt, Patrick Brunner, Stefan Bavendiek, Maria Büttner, Boris Jacob, Daniela Mertzen, Christian Riedel, Ian Wolff, Claus Spiecker, Linda Nierling, Christian Bonatto Minella, Angelina Sophie Dähms, Philippe Genêt, Lukas Weimer, Jens Dierkes, Daniela Hausen, Ute Trautwein-Bruns, Iqra Imran, Katharina Koch, Stephanie Werner, Robert Werth, Nadine Probol, Eike Quilling, Julia Stapels, Tuba Güden-Silber, Jessica Stegemann, Daniela Schneider, Jan Leendertse, Agnes Kleinhans, Michaela Leštáková, Kevin Logan, Peter F. Pelz, Sibylle K. Hassler, Peter Braesicke, Mirko Mälicke, Jörg Meyer, Carlos Zuleta Salmon, Stefan Hofmann, Michael Hoppe, Jonathan D. Geiger, Petra C. Steiner, Abdelmoneim Amer Desouki, Henrika H. Hüppe, Jan-Michael Haugwitz, Karoline Herrmann, Ina Elisabeth Klingele, Lioba Petter, Carsten Herbes, Gautam Kishore Shahi, Oliver Hummel, Sandra Göller, Anne Gärtner, Kristina Grüttemeier, Markus Rump, Johanna Vompras, Dhwani Solanki, Suhasini Venkatesh, Dietrich Rebholz-Schuhmann, Leyla Jael Castro, Mahadi Xion, Alexander Haller, Martin Baumann, Nick Kepper, Dirk von Suchodoletz, Marcel Tschöpe, Jonathan Bauer, Kevin Schneider, Timo Mühlhaus",
+      "extra": "DOI: 10.11588/heibooks.1652",
+      "tags": [
+        {
+          "tag": "Conference",
+          "type": 1
+        },
+        {
+          "tag": "FAIR data principles",
+          "type": 1
+        },
+        {
+          "tag": "Open Science",
+          "type": 1
+        },
+        {
+          "tag": "Research Data Management",
+          "type": 1
+        },
+        {
+          "tag": "gnd/1197084231",
+          "type": 1
+        },
+        {
+          "tag": "gnd/1215856822",
+          "type": 1
+        },
+        {
+          "tag": "gnd/1342271416",
+          "type": 1
+        },
+        {
+          "tag": "gnd/4032055-8",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2025-11-05T19:27:03Z",
+      "dateModified": "2025-11-05T19:27:03Z"
+    }
+  },
+  {
+    "key": "39GR5MHD",
+    "version": 131,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/39GR5MHD",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/39GR5MHD",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Giraldo et al.",
+      "parsedDate": "2022-10-25",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "39GR5MHD",
+      "version": 131,
+      "itemType": "presentation",
+      "title": "A FAIRification roadmap for ELIXIR Software Management Plans - Poster",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Renato",
+          "lastName": "Alves"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dimitrios",
+          "lastName": "Bampalikis"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Jose M.",
+          "lastName": "Fernandez"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Eva Martin del",
+          "lastName": "Pico"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Fotis E.",
+          "lastName": "Psomopoulos"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Allegra",
+          "lastName": "Via"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Similar to Data Management Plans, Software Management Plans help formalize a set of structures and goals that ensure the software is accessible and reusable in the short, medium and long term. The ELIXIR SMP (DOI:10.37044/osf.io/k8znb) has been developed by the ELIXIR Software Development Best Practices Group in the ELIXIR Tools Platform to support researchers in life sciences. Although targeting the life sciences community, most of the elements of the ELIXIR SMPs are domain agnostic and could be used by other communities as well. DMPs and SMPs can be presented as text-based documents, sometimes guided by a set of questions corresponding to key points related to the lifecycle of either data or software. The FAIRification road for ELIXIR SMPs include two main components: turning them into machine-actionable SMPs (maSMPs) and aligning them to FAIR Digital Objects (FDOs). Our maSMP version will be based on the machine-actionable DMPs proposed by the Research Data Alliance DMP Common Standards Working Group, which corresponds to a structured representation of the most common elements present in a DMP (DOI:10.15497/rda00039) while the alignment with FDOs will be supported by Research Object Crates (RO-Crates). An RO-Crate (DOI:10.3233/DS-210053) is an open, community-driven, and lightweight approach based on schema.org annotations. This poster corresponds to the FDO2022 conference publication https://riojournal.com/article/94608/element/4/8000890",
+      "presentationType": "",
+      "date": "2022-10-25",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.7249674",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/7249674",
+      "accessDate": "2022-10-25T16:00:01Z",
+      "shortTitle": "",
+      "language": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ELIXIR",
+          "type": 1
+        },
+        {
+          "tag": "FAIR Digital Objects",
+          "type": 1
+        },
+        {
+          "tag": "RO-crate",
+          "type": 1
+        },
+        {
+          "tag": "Software Management Plans",
+          "type": 1
+        },
+        {
+          "tag": "giraldo@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:53:04Z",
+      "dateModified": "2025-10-09T16:53:04Z"
+    }
+  },
+  {
+    "key": "CEVLGNNG",
+    "version": 131,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/CEVLGNNG",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/CEVLGNNG",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Giraldo et al.",
+      "parsedDate": "2022",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "CEVLGNNG",
+      "version": 131,
+      "itemType": "journalArticle",
+      "title": "A FAIRification roadmap for ELIXIR Software Management Plans - Poster",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Renato",
+          "lastName": "Alves"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dimitrios",
+          "lastName": "Bampalikis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jose M",
+          "lastName": "Fernandez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eva Martin Del",
+          "lastName": "Pico"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fotis E",
+          "lastName": "Psomopoulos"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Allegra",
+          "lastName": "Via"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "",
+      "publisher": "Zenodo",
+      "place": "",
+      "date": "2022",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "DOI": "10.5281/ZENODO.7249674",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/7249674",
+      "accessDate": "",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "Creative Commons Attribution 4.0 International",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ELIXIR"
+        },
+        {
+          "tag": "FAIR Digital Objects"
+        },
+        {
+          "tag": "RO-crate"
+        },
+        {
+          "tag": "Software Management Plans"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:53:04Z",
+      "dateModified": "2025-10-09T16:53:04Z"
+    }
+  },
+  {
+    "key": "4HVDGIH3",
+    "version": 131,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/4HVDGIH3",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/4HVDGIH3",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Giraldo et al.",
+      "parsedDate": "2023-06-27",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "4HVDGIH3",
+      "version": 131,
+      "itemType": "report",
+      "title": "Workshop machine-actionable Software Management Plans",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "João",
+          "lastName": "Cardoso"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eva",
+          "lastName": "Martin del Pico"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alban",
+          "lastName": "Gaignard"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yves Vincent",
+          "lastName": "Grossmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fotis",
+          "lastName": "Psomopoulos"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Elli",
+          "lastName": "Papadopoulou"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Workshop machine-actionable Software Management Plans Organizer: Semantic Technologies team at ZB MED Information Centre for Life Sciences Place: Cologne Date: 2023.05.31 Participants/Authors of this report: Olga Giraldo 1[0000-0003-2978-8922], João Cardoso 2[0000-0003-0057-8788], Eva Martin del Pico 3[0000-0001-8324-2897], Alban Gaignard 4[0000-0002-3597-8557], Lukas Geist 1, Yves Vincent Grossmann 5[0000-0002-2880-8947], Fotis Psomopoulos 6[0000-0002-0222-4273], Elli Papadopoulou 7[0000-0002-0893-8509], Dhwani Solanki 1, Leyla Jael Castro 1[0000-0003-3986-0510]   1 ZB MED Information Centre for Life Sciences 2 RDA DMP Common Standards Working Group 3 BSC-CNS 4 CNRS 5 Max Planck Digital Library 6 Centre for Research and Technology Hellas 7 ATHENA Research Center / OpenAIRE   Introduction The Semantic Technologies team at ZB MED initiated a project to add machine-actionability to the ELIXIR Software Management Plans (SMPs) [1] in December 2022. The initial phase of the project, funded by RDA/EOSC Future, concluded in May 2023 with a workshop where experts working with SMPs and machine-actionable Data Management Plans met together. The project will continue under the umbrella of the NFDI4DataScience consortium.   The purpose of the workshop was validating the metadata schema support maSMPs [2, 3], improving its alignment with existing SMPs, and identifying gaps wrt ELIXIR SMPs and RDMO SMPs [4] and Research Data Alliance (RDA) maDMPs [5, 6]. The workshop counted with the participation of 10 people, from ELIXIR Software Development Best Practices Group, Bioschemas [7], RDMO SMPs, RDA DMP Common Standards Working Group, ARGOS and ZB MED. In addition to the resources represented by participants, we also include Codemeta [8] in the analysis. Here we present a report of what happened and what was achieved.   Presentations We had five presentations as follows: The ELIXIR Software Management Plans (file P1_The ELIXIR Software Management Plan.pdf) Sustainable and FAIR Software in Research - A RDMO Catalogue for Software Management Plans (file P2_RDMO_SMP.pdf) RDA’s Approach to Machine Actionable Data Management Plans ( P3_maDMP.pdf) machine-actionable Software Management Plans (file P4_maSMP.pdf) (more) Findable bioinformatics softwares with Bioschemas (file P5_Bioschemas.pdf)   Ontology validation ELIXIR and RDMO  The complete set of properties from software source code and software release were analyzed. The first part of the analysis was focused on identifying which properties proposed in our metadata schema are covering the questions specified in the ELIXIR and RDMO SMP models. The coverage level has three possible values as follows: i) “yes” when the property fully covers one or more questions, ii) “partially” when the property covers either part of the questions or is related to them, iii) “not” when the property does not correspond to any question (however it could represent a possible improvement in the questionnaire if added). The reviewed properties from software source code is available in Table 1 (see file T1_maSMP-SoftwareSourceCode-ELIXIR-RDMO.tsv). The reviewed properties from software release are available in Table 2 (see file T2_maSMP-SoftwareRelease-ELIXIR-RDMO.tsv). Main outcomes of this stage are listed below: Identification of commonalities. It was possible to identify, from the ELIXIR and RDMO questionnaires, similar questions related to a specific property.  Example, “What programming languages are you using in your project?” (from ELIXIR), and “Which programming language(s) do you plan to use? (from RDMO) were linked to the property programmingLanguage. Identification of questions not covered by our metadata schema. It was possible to identify, from the same questionnaires, a subset of requirements difficult to represent in the proposed metadata schema.  Example, “How do you capture the environment?” (from ELIXIR), and “How is software documentation created?” (from RDMO). A list of questions not covered by our metadata schema is detailed in Table 3 (see file T3_maSMP_NotCovered.tsv).   Bioschemas y Codemeta The second part of the analysis was focused on identifying which properties proposed in our metadata schema are covering terminology from the ComputationalTool Profile in Bioschemas and terminology from Codemeta. Software source code alignment was only done against Codemeta because the terminology proposed at the ComputationalTool Profile in Bioschemas is suitable just for software release. The Software source code alignment to Codemeta, is available in Table 4 (see file T4_maSMP-SoftwareSourceCode-Codemeta.tsv). The Software release alignment to Codemeta and Bioschemas, is available in Table 5 (see file T5_maSMP-SoftwareRelease-Codemeta-Bioschemas.tsv). The coverage level has three possible values as follows: i) “yes” when the maSMP property is the same as the one used in the other vocabulary,, ii) “partially” when the maSMP property corresponds to a property with a different name in the other vocabularies,, iii) “not” when the maSMP property does not have a corresponding property in the other vocabularies.   RDA maDMP An initial draft mapping the maDMP, and corresponding ontology DCSO, to schema.org was created, see Table 6 (see file T6_maDMP-DCSO-schemaorg.tsv). This draft could be a starting point for the maSMP metadata schemas to include additional elements related to the actual plan, the project, the funders and so on.    Conclusions This workshop represented a first step to achieve an alignment between the different parties involved in the existing SMP models.   An enrichment of our metadata schemas was achieved. A new version of our metadata schema in the form of an ontology was obtained in order to increase the coverage of questions proposed by ELIXIR and /or RDMO. The ontology is available at Zenodo [9] and GitHub [10] while documentation is provided via GitHub pages.   Acknowledgements This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101017536 and is part of the Research Data Alliance and European Open Science Cloud Future call 2022. This project has received funding from NFDI4DataScience project funded by Deutsche Forschungsgemeinschaft DFG, project no. 460234259.   References Alves, R., Bampalikis, D., Castro, L., Fernández, J. M., Harrow, J., Kuzak, M., … Via, A. (2021, October 25). ELIXIR Software Management Plan for Life Sciences. https://doi.org/10.37044/osf.io/k8znb Giraldo, O., Geist, L., Quiñones, N., Solanki, D., Rebholz-Schuhmann, D., & Castro, L. J. (2023). Machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo. https://doi.org/10.5281/zenodo.7976401  Giraldo, O., Geist, L., Quiñones, N., Solanki, D., Alves, R., Bampalikis, D., Fernandez, J. M., Martin Del Pico, E., Psomopoulos, F. E., Via, A., Rebholz-Schuhmann, D., & Castro, L. J. (2023). A metadata schema for machine-actionable Software Management Plans [Application/pdf]. DaMaLOS 2023. https://doi.org/10.4126/FRL01-006444988  Klar, J., Michaelis, O., Engelhardt, C., Enke, H., Frenzel, J., Hausen, D., Jagusch, G., Kramer, C., Lindstädt, B., Ludwig, J., Heike, N., Straka, J., Strötgen, R., Ulrich, R., Wedlich-Zachodin, K., & Wuttke, U. (2023). Research Data Management Organizer (RDMO) [Python]. https://doi.org/10.5281/zenodo.596581  Miksa, T., Walk, P., & Neish, P. (2023). RDA DMP Common Standard for Machine-actionable Data Management Plans (1.1). https://doi.org/10.15497/rda00039  Cardoso, J., Castro, L. J., Ekaputra, F. J., Jacquemot, M. C., Suchánek, M., Miksa, T., & Borbinha, J. (2022). DCSO: Towards an ontology for machine-actionable data management plans. Journal of Biomedical Semantics, 13(1), 21. https://doi.org/10.1186/s13326-022-00274-4  Gray, A.J.G, Goble, C.A. and Jimenez, R., 2017. Bioschemas: From Potato Salad to Protein Annotation. In International Semantic Web Conference (Posters, Demos & Industry Tracks). Matthew B. Jones, Carl Boettiger, Abby Cabunoc Mayes, Arfon Smith, Peter Slaughter, Kyle Niemeyer, Yolanda Gil, Martin Fenner, Krzysztof Nowak, Mark Hahnel, Luke Coy, Alice Allen, Mercè Crosas, Ashley Sands, Neil Chue Hong, Patricia Cruse, Daniel S. Katz, Carole Goble. 2017. CodeMeta: an exchange schema for software metadata. Version 2.0. KNB Data Repository. https://doi.org/10.5063/schema/codemeta-2.0  Giraldo Olga, Geist Lukas, Quiñones Nelson, Solanki Dhwani, Rebholz-Schuhmann Dietrich, & Castro Leyla Jael. (2023). machine-actionable Software Management Plan Ontology (maSMP Ontology) (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.8089518 Giraldo O, Geist L, Quiñones, Lukas, Solanki, Dhwani, Rebholz-Schuhmann D, Castro LJ. maSMPs - Ontology and Software. 2023. Available: https://github.com/zbmed-semtec/maSMPs",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "Zenodo",
+      "place": "",
+      "date": "2023-06-27",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "10.5281/zenodo.8087357",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/8087357",
+      "accessDate": "2023-07-06T15:22:46Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Data Management Plans",
+          "type": 1
+        },
+        {
+          "tag": "Machine actionability",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Software Management Plans",
+          "type": 1
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "giraldo@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:45:47Z",
+      "dateModified": "2025-10-09T16:45:47Z"
+    }
+  },
+  {
+    "key": "MWPAKTES",
+    "version": 81,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/MWPAKTES",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/MWPAKTES",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2023",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "MWPAKTES",
+      "version": 81,
+      "itemType": "dataset",
+      "title": "Metadata crosswalks for software management plans at NFDI4DS hackathon maSMP 2023",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Esteban",
+          "lastName": "Gonzalez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yves Vincent",
+          "lastName": "Grossmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Carlos",
+          "lastName": "Utrilla"
+        }
+      ],
+      "abstractNote": "Software Management Plans (SMPs) help formalize a set of structures and goals that ensure the research software is accessible and reusable in the short, medium and long term. Although not as common as the Data Management Plans, SMPs are gaining attention, with different communities providing examples and guidance on around it (e.g., ELIXIR SMPs, eScience Center in the Netherlands SMP Guidance and the Max Plank Digital Libraries SMP).Machine-actionable SMPs (maSMPs) aim at providing a semantic layer on top of SMPs in the form of metadata schemas. Based on the ELIXIR SMPs and inspired by the work done on the Research Data Alliance (RDA) machine-actionable Data Management Plan (maDMP) application profile, the SemTec team at ZB MED has created an maSMP metadata schema using schema.org as base vocabulary. The latest version of such maSMP metadata schema takes advantage of the crosswalks created at the NFDI4DS hackathon on maSMPs 2023.11.28 to 2023-12-01 organized by the SemTec team at ZB MED. The crosswalks data corresponding to Max Plank Digital Library SMP, ELIXIR SMPs, and DataCite Metadata Schema 4.4 - OutputManagementPlan are included in this dataset collection. The files in the dataset collection are:\"2023.11.29 maSMP crosswalk - NFDI4DS hackathon - Software.csv\" - Crosswalk from the maSMP vr 2.0.0 to the Max Plank Digital Library SMP, SOMEF, and ELIXIR SMPs\"2023.11.29 maSMP crosswalk - NFDI4DS hackathon - MngPlan.csv\" - Crosswalk from the maSMP to DataCite Metadata Schema 4.4 - OutputManagementPlan and the Max Plank Digital Library SMP\"2023.11.29 maSMP crosswalk - NFDI4DS hackathon - RDMO-SMP.csv\" - Crosswalk from the Max Plank Digital Library SMP to metadata properties from different vocabularies\"Tables description.png\" - Image showing a crosswalk templateWe acknowledge the feedback provided by other participants in the NFDI4DS hackathon on maSMPs (Esteban Gonzalez ORCID:0000-0003-4112-6825, Yves Vincent Grossmann ORCID:0000-0002-2880-8947, Carlos Utrilla Guerrero ORCID:0000-0002-9994-1462, Mariaisabel Gonzalez-Ocanto ORCID:0000-0001-5485-9724,Thomas Pronk ORCID:0000-0001-9334-7190, David Wallace ORCID:0000-0001-8958-4601, Jürgen Windeck ORCID:0000-0003-1909-4353).The maSMP project is part of the NFDI4DataScience project funded by the German Research Foundation (DFG), project number 460234259. This dataset was created during the NFDI4DS hackathon on maSMPs at ZB MED 2023.",
+      "identifier": "",
+      "type": "CSV",
+      "versionNumber": "",
+      "date": "2023",
+      "repository": "",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.10275895",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/10275895",
+      "accessDate": "2023-12-07T12:26:40Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "zenodo.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:40:58Z",
+      "dateModified": "2025-10-09T16:40:58Z"
+    }
+  },
+  {
+    "key": "U38BEJTW",
+    "version": 80,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/U38BEJTW",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/U38BEJTW",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2023-12-14",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "U38BEJTW",
+      "version": 80,
+      "itemType": "preprint",
+      "title": "Five Minutes to Write a Software Management Plan – A Machine-actionable Approach to Simplify the Creation of SMPs",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Esteban",
+          "lastName": "Gonzalez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mariaisabel",
+          "lastName": "Gonzalez-Ocanto"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yves Vincent",
+          "lastName": "Grossmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thomas",
+          "lastName": "Pronk"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Carlos",
+          "lastName": "Utrilla Guerrero"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Wallace"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jürgen",
+          "lastName": "Windeck"
+        }
+      ],
+      "abstractNote": "Abstract: The Software Management Plan (SMP) is a relevant tool for handling research software. Despite benefits for research (e.g., low barrier for researchers, promotion of good practices), SMPs are not yet used across the board. A semi-automated approach can solve this problem. In the following document, we discuss a possible workflow for creating machine-actionable SMPs using various tools. This approach was developed during an NFDI4DataScience hackathon at the German National Library of Medicine (ZB Med) - Information Centre of Life Sciences on maSMPs at the end of 2023.",
+      "genre": "",
+      "repository": "Zenodo",
+      "archiveID": "",
+      "place": "",
+      "date": "2023-12-14",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.5281/zenodo.10374839",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/10374839",
+      "accessDate": "2023-12-15T14:21:40Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:40:37Z",
+      "dateModified": "2025-10-09T16:40:37Z"
+    }
+  },
+  {
+    "key": "UIEH6D2U",
+    "version": 76,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/UIEH6D2U",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/UIEH6D2U",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Giraldo et al.",
+      "parsedDate": "2023-06-28",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "UIEH6D2U",
+      "version": 76,
+      "itemType": "standard",
+      "title": "machine-actionable Software Management Plan Ontology (maSMP Ontology)",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "We have defined a metadata model in the form of an ontology representing the necessary metadata elements for a maSMP. The metadata model includes entities involved in software management planning; such as an SMP itself, software source code, software release, documentation, authors and their relations. We are reusing terms mainly from schema.org and from DCSO, with some few additions of our own. Acknowledgments  This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101017536 and is part of the Research Data Alliance and European Open Science Cloud Future call 2022. This project has been supported by the Good Practices Focus Group part of the ELIXIR Tools Platform. The work presented in this short paper was part of Project 17 at the BioHackathon Europe 2022.",
+      "organization": "",
+      "committee": "",
+      "type": "",
+      "number": "",
+      "versionNumber": "v 1.0.0",
+      "edition": "",
+      "status": "",
+      "date": "2023-06-28",
+      "publisher": "Zenodo",
+      "place": "",
+      "partNumber": "",
+      "partTitle": "",
+      "ISBN": "",
+      "DOI": "10.5281/zenodo.7806638",
+      "citationKey": "",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.7806638",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "numPages": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Software Management Plan (SMP)",
+          "type": 1
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP"
+        },
+        {
+          "tag": "machine-actionable",
+          "type": 1
+        },
+        {
+          "tag": "metadata model",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontology",
+          "type": 1
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "research software",
+          "type": 1
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:38:43Z",
+      "dateModified": "2025-10-09T16:38:43Z"
+    }
+  },
+  {
+    "key": "45J87B43",
+    "version": 75,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/45J87B43",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/45J87B43",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2024-01-29",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "45J87B43",
+      "version": 75,
+      "itemType": "standard",
+      "title": "Usage guidance (aka profiles) for the machine-actionable Software Management Plan Ontology",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olga",
+          "lastName": "Giraldo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "Usage guidance (aka profiles) including suggestions of mimimum, recommended and optional properties as well as property cardinality for the metadata schema/ontology maSMP (published at DOI:10.5281/zenodo.7806638, vr. 2.1.0). Although this is the first publicatoin of profiles separated from the metadata schema, we have decided to keep a relation in the versioning of the schema and the profiles, therefore these profiles correspond to vr. 2.1.1. These profiles are mostly based on the SMP metadata crosswalks from May 2023 and December 2023, and correspond to the types OuputManagementPlan, SoftwareManagementPlan, SoftwareRunAction and SoftwareTestAction defined in the maSMP metadata schema, and to the types schema:SoftwareApplication and schema:SoftwareSourceCode so the proposed properties for these two types are covered. The maSMP types and maSMP profiles can be visualized in the Data Discovery Engine (DDE) platform. Follow the links and you will get a summary of types and properties, and the corresponding profiles with usage guidelines (e.g., minimum, recommended and optional properties with cardinality). The profiles include recommendations on types and properties from: schema.org v23 Codemeta Bioschemas maSMP vr. 2.1.0 Acknowledgments  This project received funding (December 2022 to May 2023) from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101017536 which is part of the Research Data Alliance and European Open Science Cloud Future call 2022. More info.   The maSMP project is part of the NFDI4DataScience project funded by the German Research Foundation (DFG), project number 460234259.",
+      "organization": "",
+      "committee": "",
+      "type": "",
+      "number": "",
+      "versionNumber": "",
+      "edition": "",
+      "status": "",
+      "date": "2024-01-29",
+      "publisher": "Zenodo",
+      "place": "",
+      "partNumber": "",
+      "partTitle": "",
+      "ISBN": "",
+      "DOI": "10.5281/zenodo.10582121",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/10582121",
+      "accessDate": "2024-01-31T09:57:29Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "numPages": "",
+      "language": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Software Management Plan (SMP)"
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:38:14Z",
+      "dateModified": "2025-10-09T16:38:14Z"
+    }
+  },
+  {
+    "key": "SK27R9RE",
+    "version": 132,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/SK27R9RE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/SK27R9RE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro",
+      "parsedDate": "2024-09-19",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "SK27R9RE",
+      "version": 132,
+      "itemType": "presentation",
+      "title": "Introduction and tutorial on Metadata and SMPs for FAIR research software",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Introduction and tutorial on Metadata and SMPs for FAIR research software\n\nThis talk/tutorial is organized in four parts: Introduction to ELIXIR Software Management Plans, Metadata for Research Software, FAIR for Research Software, and machine-actionable Software Management Plans. Hands-on are included for part 2 (Metadata for Research Software) and part 3 (FAIR for Research Software). There is an optional part that will briefly introduce JSON/JSON-LD if needed. This talk/tutorial reuses training materials used in other tutorials, they are indicated in the slides as a link to the original material. \n\nKeywords: Research software, metadata, FAIR4RS\n\nDOI: 10.5281/zenodo.13799879",
+      "presentationType": "LearningResource",
+      "date": "2024-09-19",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.13799879",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/13799879",
+      "accessDate": "2024-09-19T21:03:52Z",
+      "shortTitle": "",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "NFDI4DS"
+        },
+        {
+          "tag": "Research software",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:32:27Z",
+      "dateModified": "2025-10-09T16:32:27Z"
+    }
+  },
+  {
+    "key": "89LL8MQI",
+    "version": 132,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/89LL8MQI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/89LL8MQI",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Solanki and Castro",
+      "parsedDate": "2024-10-25",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "89LL8MQI",
+      "version": 132,
+      "itemType": "report",
+      "title": "Results from aligning the maSMP metadata schema to the RSMD guidelines",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Here we report on our final presentation and results from our aligning the machine-actionable Software Metadata Plan (maSMP) metadata schema to the Research Software MetaData (RSMD) guidelines. This activity was carried out as part of the FAIR-IMPACT support action to implement the RSDM guidelines and was identified with the ID OC-RSMD-11.\n\nThe RSMD guidelines target metadata providers for them to offer quality metadata while our maSMP supports structured metadata. To align them both, we worked with a spreadsheet, listing all the RSMD guidelines and then identifying the related types and properties from our types. \n\nThis report includes the following files:\n\n\n\nAlignment of maSMP metadata schema to RSMD.tsv --a tab separated values file corresponding to the alignment assessment between our maSMP metadata schema and the RSMD guidelines.\n\nOC-RSMD-11-final-slides.pptx --slides presented during the last workshop of the action call in PPTX format\n\nOC-RSMD-11-final-slides.odp --slides presented during the last workshop of the action call in ODP format\n\nOC-RSMD-11-final-slides.pdf --slides presented during the last workshop of the action call in PDF format\n\n\nAcknowledgements\n\nThe first version of the maSMP metadata schema was created thanks to funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101017536, part of the Research Data Alliance and European Open Science Cloud Future call 2022. \n\nSince June 2023, the maSMP project has been part of the NFDI4DataScience project funded by the German Research Foundation (DFG), project number 460234259. \n\nThe FAIR-Impact support action calls has received funding from the European Commission, grant “FAIR-IMPACT – Expanding FAIR Solutions across EOSC” number 101057344. The alignment activities reported here were carried out within the scope of the FAIR-Impact support action call for “Implementing the Research Software MetaData (RSMD) guidelines for better archiving, referencing, describing, and citing research software artefacts”, mentored by Morane Gruenpeter and Sabrina Grainger from the Software Heritage Foundation.",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "Zenodo",
+      "place": "",
+      "date": "2024-10-25",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "10.5281/zenodo.13993369",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/13993369",
+      "accessDate": "2024-10-25T17:46:02Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "SMP",
+          "type": 1
+        },
+        {
+          "tag": "Software management plans",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP",
+          "type": 1
+        },
+        {
+          "tag": "machine actionability",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:30:07Z",
+      "dateModified": "2025-10-09T16:30:07Z"
+    }
+  },
+  {
+    "key": "2LJR38VP",
+    "version": 133,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/2LJR38VP",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/2LJR38VP",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Solanki et al.",
+      "parsedDate": "2025-02-21",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "2LJR38VP",
+      "version": 133,
+      "itemType": "computerProgram",
+      "title": "Release of pages code and metadata sources for maSMP",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Rebholz-Schuhmann",
+          "lastName": "Dietrich"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "This is the first release of the code used to create the website for maSMP metadata schema, currently in version 2.1.0. From now on, we will also archive releases of this source code. The live site is available at https://zbmed-semtec.github.io/maSMPs.\n\nWe only release the main branch as the gh-pages one is created out of the code in the main branch.\n\nIf you want to cite information from the website https://zbmed-semtec.github.io/maSMPs, please cite this record.\n\nIf you want to cite the maSMP metadata schema (preferred citation), please cite:\n\n\n\nmaSMP types and properties: Castro Leyla Jael, Giraldo Olga, Geist Lukas, Quiñones Nelson, Solanki Dhwani, & Rebholz-Schuhmann Dietrich. (2024). machine-actionable Software Management Plan Ontology (maSMP Ontology) (2.1.0). Zenodo. https://doi.org/10.5281/zenodo.10582073 \n\nmaSMP profiles: Castro, L. J., Giraldo, O., Geist, L., Quiñones, N., Solanki, D., & Rebholz-Schuhmann, D. (2024). Usage guidance (aka profiles) for the machine-actionable Software Management Plan Ontology (2.1.1). Zenodo. https://doi.org/10.5281/zenodo.10582121",
+      "seriesTitle": "",
+      "versionNumber": "v2.1.0",
+      "date": "2025-02-21",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/14904875",
+      "accessDate": "2025-02-21T09:51:43Z",
+      "DOI": "",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "GitHub pages",
+          "type": 1
+        },
+        {
+          "tag": "SMP",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP"
+        },
+        {
+          "tag": "machine-actionability",
+          "type": 1
+        },
+        {
+          "tag": "metadata",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "vocabulary",
+          "type": 1
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:23:29Z",
+      "dateModified": "2025-10-09T16:23:29Z"
+    }
+  },
+  {
+    "key": "NTFREAEZ",
+    "version": 133,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/NTFREAEZ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/NTFREAEZ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Venkatesh et al.",
+      "parsedDate": "2025-02-24",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "NTFREAEZ",
+      "version": 133,
+      "itemType": "computerProgram",
+      "title": "v0.1.0-beta pre-release maSMPs metadata extraction",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "maSMPs metadata extraction\n\nThis project is designed to automate the extraction of metadata from GitHub repositories to generate a Machine-Actionable Software Management Plan (maSMP). It consists of two main components:\n\n\n\nBackend - A FastAPI-based service that extracts metadata from GitHub and external sources.\n\nFrontend - A Vue 3 application providing a user-friendly interface to interact with the backend.\n\n\nv0.1.0-beta pre-release maSMPs metadata extraction\n\nThis is a beta pre-release including some initial functionality to extract metadata compliant to the maSMPs metadata schema (see https://zbmed-semtec.github.io/maSMPs/) from GitHub repositories. It focuses on metadata that can be clearly identified from the GitHub API, and files included in the source repo.\n\nWhat's Changed\n\n\n\nBackend for Automated Metadata Extraction by @ShriSuha in #21\n\nUpdate code to return version control system by @ShriSuha in #22\n\nMetadata extraction frontend by @ShriSuha in #23\n\nMetadata extraction backend by @ShriSuha in #24\n\nAdd Docker support for the application by @ShriSuha in #25\n\nMetadata extraction backend by @ShriSuha in #27\n\nBug Fix: Reference Publication doi assigned None by @ShriSuha in #28\n\n\nNew Contributors\n\n\n\n@ShriSuha made their first contribution in #21\n\n\nFull Changelog: https://github.com/zbmed-semtec/maSMP-metadata-extraction/commits/v0.1.0-beta",
+      "seriesTitle": "",
+      "versionNumber": "v0.1.0-beta",
+      "date": "2025-02-24",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/14918500",
+      "accessDate": "2025-02-24T15:35:04Z",
+      "DOI": "10.5281/zenodo.14918500",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "GitHub",
+          "type": 1
+        },
+        {
+          "tag": "SMP",
+          "type": 1
+        },
+        {
+          "tag": "Software Management Plan",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP",
+          "type": 1
+        },
+        {
+          "tag": "machine-actionability",
+          "type": 1
+        },
+        {
+          "tag": "metadata",
+          "type": 1
+        },
+        {
+          "tag": "metadata extraction",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:21:33Z",
+      "dateModified": "2025-10-09T16:21:33Z"
+    }
+  },
+  {
+    "key": "9HIS9578",
+    "version": 133,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/9HIS9578",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/9HIS9578",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Venkatesh and Castro",
+      "parsedDate": "2025-02-24",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "9HIS9578",
+      "version": 133,
+      "itemType": "presentation",
+      "title": "An introduction to machine-actionable Software Management Plans - Practical steps towards FAIR4RS",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Description: This talk/tutorial introduces Software Management Plans together with a machine-actionable layer based on schema.org metadata. It shows how different bits of maSMPs align and support FAIR4RS, including practical steps towards better descriptions of research software and its corresponding metadata. This talk/tutorial reuses training materials used in other tutorials, they are indicated in the slides as a link to the original material.\n\nKeywords: Research software, metadata, FAIR4RS, Software Management Plans, machine-actionability, SMP, maSMP\n\nGuiding questions:\n\n\n\n\n\nPart 1 - Introduction to Software Management Plans\n\n\n\n\n\n\nWhat is an SMP?\n\n\n\n\nWhat are the benefits of SMPs?\n\n\n\n\nWhich common practices for research software are included in SMPs?\n\n\n\n\n\nPart 2 - maSMP\n\n\n\n\n\n\nWhat is metadata and what are its benefits?\n\n\n\n\nHow research software metadata aligns to SMPs?\n\n\n\n\nHow maSMP metadata aligns to FAIR4RS?\n\n\n\n\nLearning Outcomes:\n\n\n\n\n\nDescribe what SMPs are and what maSMPs add to them\n\n\n\n\nDescribe what metadata including some examples of research software metadata\n\n\n\n\nIdentify common good practices supported by maSMPs aligned to FAIR4RS\n\n\n\nRequirements/Prerrequisites:\n\n\n\n\n\nBasic experience with research software development\n\n\n\n\nSome knowledge of Data Management Plans could be useful\n\n\n\nAdditional info:\n\n\n\n Time estimation 60 minutes\n\n Level Beginner / Introductory\n\n Published 2025-02-24\n\n Latest modification 2025-02-24\n\n License CC-By 4.0\n\n Version 1.0.0\n\n Identifier DOI:10.5281/zenodo.14866849.\n\n Citation Castro, L. J. (2025, February 13). An introduction to machine-actionable Software Management Plans - Practical steps towards FAIR4RS. 5th conference for Research Software Engineering in Germany (deRSE25), Karlsruhe, Germany. Zenodo. https://doi.org/10.5281/zenodo.14866849.",
+      "presentationType": "",
+      "date": "2025-02-24",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.14866849",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/14866849",
+      "accessDate": "2025-02-24T15:33:47Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "FAIR4RS",
+          "type": 1
+        },
+        {
+          "tag": "Research software",
+          "type": 1
+        },
+        {
+          "tag": "SMP",
+          "type": 1
+        },
+        {
+          "tag": "Software Management Plans",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP",
+          "type": 1
+        },
+        {
+          "tag": "machine-actionability",
+          "type": 1
+        },
+        {
+          "tag": "metadata",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5WQA4ZZ3"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:20:30Z",
+      "dateModified": "2025-10-09T16:20:30Z"
+    }
+  }
+]

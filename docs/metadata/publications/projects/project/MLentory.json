@@ -1,0 +1,1497 @@
+[
+  {
+    "key": "YCIGT9L7",
+    "version": 172,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/YCIGT9L7",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/YCIGT9L7",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-26",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "YCIGT9L7",
+      "version": 172,
+      "itemType": "presentation",
+      "title": "Two Use Cases on the Adoption of Webby FDOs",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Daniel",
+          "lastName": "Bauer"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Jonas",
+          "lastName": "Grieb"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Stian",
+          "lastName": "Soiland-Reyes"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Claus",
+          "lastName": "Weiland"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Abstract. FAIR Digital Objects (FDOs) extends FAIRness with a clear separation between data and metadata and typing, together with layers regarding PIDs and operations, making it easier for researchers and machines to access machine-actionable research artifacts. Webby FDOs have emerged as an FDO implementation, as its adoption becomes natural to those familiar with Linked Open Data and Semantic Web. Here we present two adoption stories in Germany from two different domains.\n\nThis poster was presented at the FDO Conference 2026.",
+      "presentationType": "Poster",
+      "date": "2026-03-26",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.19431876",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/19431876",
+      "accessDate": "2026-04-05T20:44:13Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "AI Model Card",
+          "type": 1
+        },
+        {
+          "tag": "Earth Sciences",
+          "type": 1
+        },
+        {
+          "tag": "FAIR Digital Object",
+          "type": 1
+        },
+        {
+          "tag": "NFDI",
+          "type": 1
+        },
+        {
+          "tag": "RO-Crate",
+          "type": 1
+        },
+        {
+          "tag": "Signposting",
+          "type": 1
+        },
+        {
+          "tag": "Webby FDO",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "QIRRIFID"
+      ],
+      "relations": {},
+      "dateAdded": "2026-04-05T20:46:01Z",
+      "dateModified": "2026-04-05T20:46:13Z"
+    }
+  },
+  {
+    "key": "M3ZI4IF6",
+    "version": 135,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/M3ZI4IF6",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/M3ZI4IF6",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Grieb et al.",
+      "parsedDate": "2025-11-11",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "M3ZI4IF6",
+      "version": 135,
+      "itemType": "presentation",
+      "title": "Implementing Webby FDOs via  Bioschemas, RO-Crate and Signposting",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Jonas",
+          "lastName": "Grieb"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Daniel",
+          "lastName": "Bauer"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Claus",
+          "lastName": "Weiland"
+        }
+      ],
+      "abstractNote": "Presentation given at the Ontologies4Chem Workshop 2025.Abstract: RO-Crate offers a streamlined way to bundle research outputs with their metadata, FAIR Signposting enables intuitive navigation of scholarly resources online. Together, these technologies create a web-friendly or, in short, webby implementation path for FAIR Digital Objects. The approach can be easily integrated into existing data infrastructures or used for ad-hoc research objects on standard web hosting platforms.This presentation highlights recent community advancements and the growing adoption of webby FAIR Digital Objects based on RO-Crate and FAIR Signposting.\n\n---\n\n'This work was supported by the de.NBI Cloud within the German Network for Bioinformatics Infrastructure (de.NBI) and ELIXIR-DE (Forschungszentrum Jülich and W-de.NBI-001, W-de.NBI-004, W-de.NBI-008, W-de.NBI-010, W-de.NBI-013, W-de.NBI-014, W-de.NBI-016, W-de.NBI-022).",
+      "presentationType": "",
+      "date": "2025-11-11",
+      "meetingName": "4th Ontologies4Chem Workshop – Ontologies for Chemistry (Ontologies4Chem 2025)",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.18016581",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/18016581",
+      "accessDate": "2026-01-26T15:23:20Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "FDO"
+        },
+        {
+          "tag": "RO-Crate"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "QIRRIFID"
+      ],
+      "relations": {},
+      "dateAdded": "2026-01-26T15:24:52Z",
+      "dateModified": "2026-01-26T15:24:52Z"
+    }
+  },
+  {
+    "key": "L3G6H6Z9",
+    "version": 135,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/L3G6H6Z9",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/L3G6H6Z9",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Solanki et al.",
+      "parsedDate": "2024",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "L3G6H6Z9",
+      "version": 135,
+      "itemType": "presentation",
+      "title": "MLentory, an FDO registry for machine learning models - Poster",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Nelson David",
+          "lastName": "Quiñones Virgen"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "",
+      "presentationType": "",
+      "date": "2024",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.4126/FRL01-006473259",
+      "citationKey": "",
+      "url": "https://repository.publisso.de/resource/frl:6473259ry.publisso.de/resource/frl:6473259",
+      "accessDate": "2024-04-02T16:21:03Z",
+      "shortTitle": "",
+      "language": "en",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "FAIR",
+          "type": 1
+        },
+        {
+          "tag": "FDOs",
+          "type": 1
+        },
+        {
+          "tag": "Machine learning models",
+          "type": 1
+        },
+        {
+          "tag": "NFDI4DS"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "registry",
+          "type": 1
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "QIRRIFID"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:08:43Z",
+      "dateModified": "2025-10-31T23:08:01Z"
+    }
+  },
+  {
+    "key": "QRQJ4JYB",
+    "version": 131,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/QRQJ4JYB",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/QRQJ4JYB",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder and Castro",
+      "parsedDate": "2025-09-17",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "QRQJ4JYB",
+      "version": 131,
+      "itemType": "presentation",
+      "title": "Implementing Webby  FAIR Digital Objects in MLentory",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "This presentation introduces the implementation of Webby FDOs in MLentory, a presentation part of the Workshp Research Data Infrastructured for Data Science (RDI4DS 2025), co-located with Infomatik Festival 2025. The corresponding abstract can be found at DOI:10.18420/inf2025_104.\n\nAbstract. Adhering to the FAIR principles remains a challenge for digital research artifacts especially when persistent identifiers and structured metadata are lacking. In this paper, we present the implementation of a lightweight approach to FAIR Digital Objects (FDOs) using the Webby FDO approach within MLentory, a registry for machine learning model metadata. Our implementation combines FAIR Signposting and RO-Crate to expose the metadata for ML models in a machine-actionable and interoperable format. We discuss practical considerations and limitations to this approach within MLentory and outline next steps for improving metadata completeness and archival access.\n\nFunding.\n\nThis work has been partially funded by the German Research Foundation (DFG – Deutsche Forschungsgemeinschaft) as part of the NFDI4DataScience consortium, grant No.460234259.\n\nThis work was supported by the de.NBI Cloud within the German Network for Bioinformatics Infrastructure (de.NBI) and ELIXIR-DE (Forschungszentrum Jülich and W-de.NBI-001, W-de.NBI-004, W-de.NBI-008, W-de.NBI-010, W-de.NBI-013, W-de.NBI-014, W-de.NBI-016, W-de.NBI-022).",
+      "presentationType": "",
+      "date": "2025-09-17",
+      "meetingName": "Informatik Festival 2025",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.17342700",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/17342700",
+      "accessDate": "2025-10-14T11:44:35Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "FAIR",
+          "type": 1
+        },
+        {
+          "tag": "FDO",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "RO-crate",
+          "type": 1
+        },
+        {
+          "tag": "Signposting",
+          "type": 1
+        },
+        {
+          "tag": "Webby FDOS",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "QIRRIFID"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-14T12:02:22Z",
+      "dateModified": "2025-10-17T15:34:28Z"
+    }
+  },
+  {
+    "key": "L8QDKUTI",
+    "version": 97,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/L8QDKUTI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/L8QDKUTI",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2025",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "L8QDKUTI",
+      "version": 97,
+      "itemType": "conferencePaper",
+      "title": "Implementing Webby FAIR Digital Objects in MLentory",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Adhering to the FAIR principles remains a challenge for digital research artifacts especially when persistent identifiers and structured metadata are lacking. In this paper, we present the implementation of a lightweight approach to FAIR Digital Objects (FDOs) using the Webby FDO approach within MLentory, a registry for machine learning model metadata. Our implementation combines FAIR Signposting and RO-Crate to expose the metadata for ML models in a machine-actionable and interoperable format. We discuss practical considerations and limitations to this approach within MLentory and outline next steps for improving metadata completeness and archival access.",
+      "proceedingsTitle": "",
+      "conferenceName": "INFORMATIK 2025",
+      "publisher": "Gesellschaft für Informatik e.V.",
+      "place": "",
+      "date": "2025",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "1207",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://dl.gi.de/handle/20.500.12116/47528",
+      "accessDate": "2025-10-14T11:39:48Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "dl.gi.de",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "FDOs"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "webby FDOs"
+        }
+      ],
+      "collections": [
+        "QIRRIFID"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-14T12:02:22Z",
+      "dateModified": "2025-10-14T12:02:22Z"
+    }
+  },
+  {
+    "key": "3UZAPLNC",
+    "version": 134,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/3UZAPLNC",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/3UZAPLNC",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Quiñones Virgen et al.",
+      "parsedDate": "2025-03-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "3UZAPLNC",
+      "version": 134,
+      "itemType": "presentation",
+      "title": "MLentory: A Machine Learning model registry with natural language queries",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Nelson David",
+          "lastName": "Quiñones Virgen"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Description\n\n\n\n\n\nThe rapid increase of Machine Learning (ML) models and the research associated with them has created a need for efficient tools to discover, understand, and utilize these resources. Researchers often need help traversing the large collection of ML repositories and finding models that align with their specific requirements, such as open-source availability, FAIR principles, and performance metrics. MLentory addresses this challenge by providing a comprehensive solution for ML model discovery.\n\nMLentory is a system that extracts, harmonizes, and stores metadata from diverse ML model repositories, including Hugging Face and OpenML. This metadata is harmonized using RDA FAIR4ML schema, stored into FAIR Digital Objects (FDOs), and indexed to enable efficient natural language-based search. By leveraging different information retrieval techniques, MLentory enables researchers to discover, compare, and dive into ML models tailored to their needs.\n\nThe core components of MLentory are an ETL pipeline, a backend service, and a frontend interface. The ETL pipeline, implemented using Python scripts, extracts metadata from various sources, transforms it into a standardized format, and loads it into a PostgreSQL database for historical tracking, a Virtuoso database for RDF-based knowledge representation, and an Elasticsearch module for efficient data indexing. Each stage of the pipeline operates independently within its own container.\n\nThen there is the backend module, built with FastAPI, which serves as the query engine, enabling users and other systems to retrieve information from the different data stores in MLentory. The natural language-based search leverages Elasticsearch for initial retrieval and then employs a self-hosted LLM powered by Ollama to refine search results through Retrieval Augmented Generation (RAG).\n\nFinally, the frontend module, developed using Vue3.js, provides a user-friendly interface that allows users to explore models using natural language and different search filters, and then delve into their version history. MLentory maintains a history of metadata changes for each model, allowing users to track their evolution and identify versions with the right compatibility for their needs.\n\nOne of the main features of MLentory is its highly decoupled architecture, where each component runs in its own Docker container, and Apache Kafka is used as a common framework for asynchronous communication between containers. Apache Kafka is built on the idea of having queues where publishers can write messages and consumers can read them. This modular design facilitates independent scaling, flexible technology choices, and isolated error handling.\n\nThe downside of a decoupled architecture is that maintenance and code standards become more difficult to enforce. Then, to ensure the quality and reliability of the system, a testing framework was implemented. It encompasses unit, integration, and coverage tests. Additionally, linting checks are employed to maintain code style and consistency. This framework is automated through a continuous integration (CI) pipeline deployed on CircleCI, guaranteeing that tests are executed after every code commit.",
+      "presentationType": "",
+      "date": "2025-03-06",
+      "meetingName": "deRSE25",
+      "place": "Karlsruhe, Germany",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.14981548",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/14981548",
+      "accessDate": "2025-03-06T12:38:05Z",
+      "shortTitle": "MLentory",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ETL",
+          "type": 1
+        },
+        {
+          "tag": "FAIR4ML",
+          "type": 1
+        },
+        {
+          "tag": "MLentory"
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Registry",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "QIRRIFID"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:08:30Z",
+      "dateModified": "2025-10-09T16:10:04Z"
+    }
+  },
+  {
+    "key": "ZN5WP8C3",
+    "version": 134,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/ZN5WP8C3",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/ZN5WP8C3",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Quiñones Virgen et al.",
+      "parsedDate": "2025-08-26",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "ZN5WP8C3",
+      "version": 134,
+      "itemType": "presentation",
+      "title": "MLentory: NFDI4DS registry for machine learning models and related artifacts",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Nelson David",
+          "lastName": "Quiñones Virgen"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "MLentory, part of the NFDI4DataScience service portfolio, provides a comprehensive and harmonized solution for ML model discovery. MLentory is a registry built on an Extraction, Transformation, and Loading (ETL) pipeline, complemented with a back-end providing a REST API and a front-end, facilitating seamless access to developers, end-users, and machines (via Webby FAIR Digital Objects).\n\nThis presentation corresponds to the abstract submission to CoRDI available at https://doi.org/10.5281/zenodo.16735315.\n\nFunding\n\nThis work has been partially funded by the German Research Foundation (DFG – Deutsche Forschungsgemeinschaft) as part of the NFDI4DataScience consortium, grant No. 460234259.",
+      "presentationType": "",
+      "date": "2025-08-26",
+      "meetingName": "2nd Conference on Research Data Infrastructure (CoRDI)",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.16954777",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/16954777",
+      "accessDate": "2025-10-09T15:21:14Z",
+      "shortTitle": "MLentory",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ETL pipeline",
+          "type": 1
+        },
+        {
+          "tag": "FAIR4ML",
+          "type": 1
+        },
+        {
+          "tag": "ML model",
+          "type": 1
+        },
+        {
+          "tag": "MLentory"
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Metadata extraction",
+          "type": 1
+        },
+        {
+          "tag": "NFDI4DS",
+          "type": 1
+        },
+        {
+          "tag": "Reproducibility",
+          "type": 1
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "QIRRIFID"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:22:37Z",
+      "dateModified": "2025-10-09T16:09:56Z"
+    }
+  },
+  {
+    "key": "D99XWT34",
+    "version": 134,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/D99XWT34",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/D99XWT34",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro",
+      "parsedDate": "2025-09-15",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "D99XWT34",
+      "version": 134,
+      "itemType": "presentation",
+      "title": "Tutorial: Introduction to MLentory, a metadata registry for AI models",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Name: Tutorial - Introduction to Machine Learning Model Cards\n\nDescription: This tutorial provides an overview of MLentory, including information on its motivation, the proposed solution, the data sources, and its use.\n\nKeywords: Machine learning model cards, FAIR4ML, metadata, schema.org, knowledge graph, webby FDO, \n\nLearning objectives:\n\n\n\n\n\nExplain what MLentory is.\n\n\n\n\nDescribe how to use MLentory.\n\n\n\n\nIdentify metadata exposed in MLentory.\n\n\n\nPrerequisites/requirements:\n\n\n\n\n\nSome knowledge about ML model cards\n\n\n\n\nSome knowledge about FAIR4ML\n\n\n\nAdditional info:\n\n\n\nTime estimation 30 minutes\n\n Level Beginner / Introductory\n\n Published 2025-09-15\n\n Latest modification 2025-09-15\n\n License CC-By 4.0\n\n Version 1.0.0\n\n Identifier: 10.5281/zenodo.17062651.\n\n Citation: Castro, L. J. (2025, September 15). Tutorial: Introduction to MLentory, a metadata registry for AI models. Zenodo. https://doi.org/10.5281/zenodo.17062651 \n\n\nOther tutorials in this series:\n\n\n\nCastro, L. J. (2025, September 15). Tutorial: Introduction to ML model cards. Zenodo. https://doi.org/10.5281/zenodo.17062307   \n\nCastro, L. J. (2025, September 15). Tutorial: Introduction to FAIR4ML, a vocabulary to describe FAIR AI models. Zenodo. https://doi.org/10.5281/zenodo.17062369",
+      "presentationType": "LearningResource",
+      "date": "2025-09-15",
+      "meetingName": "48th German Conference on Artificial Intelligence (KI2025)",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.17062651",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/17062651",
+      "accessDate": "2025-10-09T15:53:36Z",
+      "shortTitle": "Tutorial",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "AI model cards"
+        },
+        {
+          "tag": "MLentory"
+        },
+        {
+          "tag": "Metadata for AI"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "QIRRIFID"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:55:14Z",
+      "dateModified": "2025-10-09T15:55:14Z"
+    }
+  },
+  {
+    "key": "UFVK6ZGN",
+    "version": 135,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/UFVK6ZGN",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/UFVK6ZGN",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Quiñones Virgen and Castro",
+      "parsedDate": "2025-05-26",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "UFVK6ZGN",
+      "version": 135,
+      "itemType": "report",
+      "title": "MLentory Technical Design Document",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Nelson David",
+          "lastName": "Quiñones Virgen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "MLentory (https://mlentory.zbmed.de/) is centered around information on ML models, how to harmonize that data, and how to make it available and searchable on an FDO (FAIR Digital Object) registry. Our goal is to build a system that extracts ML (Machine Learning) model information from different platforms, normalizes that data in a common format, stores it, and shares it in a FDO registry to facilitate Information Retrieval and comparison/recommendation systems.\n\nThis TDD will help new contributors understand and old ones remember what decisions were made on the system's design, the motivation behind them, and their impact. The document focuses on the design of the ETL pipeline to collect, transform, and store extracted information.\n\nMLentory FDO registry is part of the NFDI4DataScience consortium, funded by the Deutsche Forschungsgemeinschaft (DFG —German Research Foundation) under the grant number 460234259.",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "",
+      "place": "",
+      "date": "2025-05-26",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "10.5281/zenodo.16943739",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/16943739",
+      "accessDate": "2025-09-01T10:53:54Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "FAIR4ML",
+          "type": 1
+        },
+        {
+          "tag": "ML model",
+          "type": 1
+        },
+        {
+          "tag": "ML model card",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "TDD",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "mlentory"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        }
+      ],
+      "collections": [
+        "QIRRIFID"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:08:46Z",
+      "dateModified": "2025-10-09T15:08:46Z"
+    }
+  },
+  {
+    "key": "H589U9IH",
+    "version": 12,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/H589U9IH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/H589U9IH",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2025-08-04",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "H589U9IH",
+      "version": 12,
+      "itemType": "conferencePaper",
+      "title": "Use of webby FDOs in NFDI - Use cases in Biodiversity and Data Science",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Bauer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jonas",
+          "lastName": "Grieb"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stian",
+          "lastName": "Soiland-Reyes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claus",
+          "lastName": "Weiland"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "FAIR Digital Objects (FDOs) [1] aim to make it easier for researchers to access research artifacts by standardizing the use of identifiers, types, metadata, and type-based operations, moving from a passive approach to FAIR to an actionable way. There are different ways to implement FDOs [2], all of them starting from the Permanent Identifier (PID) assigned to a research artifact. Webby FDOs [3] have emerged as an alternative for those familiar with Linked Open Data and Semantic Web [4]. Webby FDOs rely on (i) FAIR Signposting [5] to clearly point machines towards practical information, and RO-Crates [6] to expose metadata and downloadable files. FAIR Signposting uses typed web links to navigate from a landing page to other more machine-friendly resources, e.g., type and metadata, while RO-Crates provide a lightweight method to package research outputs along with their metadata.  The approach has already been adopted by several existing repositories covering a variety of domains including life sciences, data science and Earth and environmental sciences [7].  Senckenberg's AI4WildLIVE platform combines live biodiversity monitoring, Earth observation data (e.g. Copernicus data) and Senckenberg's large Citizen Science Community (>850 active participants in AI4WildLIVE [8]) to monitor and quantify ecosystem dynamics in response to increasing land use and deforestation. The platform provides an interconnected processing pipeline for annotations (i.a. taxonomic determinations) of data from camera traps involving both machine learning-based annotation and subsequent refinement by Citizen Scientists (Human-in-the-loop pipeline). AI4WildLIVE leverages on the Webby FDO approach using RO-Crate as packaging format for observations (capture events), components (sensors) and relations (annotations), handles as identifiers to persistently link the digital objects and FAIR Signposting to add a machine-interpretable mode of presentation of the digital objects to the platform's landing pages [9].  We will continue with the institutional implementations of webby FDOs and promote further adoption and alignment with community frameworks such as the FDO Forum [15]. The NFDI4DataScience registry for Machine Learning (ML) models, MLentory [10], aggregates and harmonizes metadata describing ML models hosted at various platforms, including Hugging Face [11] and OpenML [12]. MLentory has three main components, an Extraction, Transformation, and Loading (ETL) pipeline to process information from the original sources, a back-end built on top of FastAPI v0.115.11 [13], and a front-end using VueJS v3.15.1 [14]. Aggregated and harmonized metadata is exposed using Webby FDOs, type and metadata are indicated via FAIR Signposting, while the metadata together with downloadable files follows the detached mode for RO-Crates. MLentory uses the detached mode to point to the downloadable file in the original source rather than duplicating it. The detached mode is ideal for registris, such as MLentory, where the original data is hosted in an external repository.",
+      "proceedingsTitle": "",
+      "conferenceName": "CoRDI 2025",
+      "publisher": "Zenodo",
+      "place": "Aachen, Germany",
+      "date": "2025-08-04",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.5281/zenodo.16735336",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/16735336",
+      "accessDate": "2025-08-13T17:39:06Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "DOI: 10.5281/zenodo.16735336",
+      "tags": [
+        {
+          "tag": "FAIR Signposting",
+          "type": 1
+        },
+        {
+          "tag": "FDO implementation",
+          "type": 1
+        },
+        {
+          "tag": "Human-in-the-Loop",
+          "type": 1
+        },
+        {
+          "tag": "Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "RO-crate",
+          "type": 1
+        },
+        {
+          "tag": "Webby FDOs",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "QIRRIFID"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:07:18Z",
+      "dateModified": "2025-10-09T15:07:18Z"
+    }
+  },
+  {
+    "key": "I5QB8GZ2",
+    "version": 12,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/I5QB8GZ2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/I5QB8GZ2",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Quiñones et al.",
+      "parsedDate": "2025-08-04",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "I5QB8GZ2",
+      "version": 12,
+      "itemType": "conferencePaper",
+      "title": "MLentory: NFDI4DS registry for machine learning models and related artifacts",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Data Science and Artificial Intelligence, particularly machine/deep learning (ML) models, have become increasingly common in research offering powerful and accurate solutions for predictions, classifications, and clustering. However, the rapid explosion of ML models and different options to share them, make it difficult for researchers to find relevant models - whether similar to their own or ready to be used in their own research. As a result, researchers often need help navigating through such a large and heterogeneous collection of ML models. MLentory, part of the NFDI4DS portfolio, addresses this challenge by providing a comprehensive and harmonized solution for ML model discovery.  MLentory [1] is a registry built on an Extraction, Transformation, and Loading (ETL) pipeline, complemented with a back-end providing a REST API and a front-end, facilitating seamless access to developers, end-users, and machines. This is enabled through Webby FAIR Digital Objects (FDOs) [2] and metadata based on schema.org [3]. It aggregates, harmonizes, and stores metadata from various ML model repositories such as Hugging Face [8] and OpenML [9], with plans to integrate more, including AI4Life [10] and the DOME registry [11]. The metadata is processed using FAIR4ML and Croissant ML, structured into Webby FDOs, and indexed for efficient natural language-based conversational search. Webby FDOs are an implementation of FDOs using the common web and Linked Open Data technologies, in particular, Research Object Crate (RO-crate) [4] to pack research artifacts with their metadata and FAIR Signposting [5] for guiding machines to the key elements such as metadata, citations, and types. MLentory uses FAIR4ML [6] to describe ML models and Croissant ML [7] for dataset descriptions, both extending schema.org for enhanced interoperability.  MLentory ETL pipeline, implemented using Python scripts, extracts metadata from various sources, transforms it into a standardized format and loads it into a PostgreSQL database for historical version tracking. It uses a Virtuoso database for RDF-based knowledge representation and an Elasticsearch module for efficient data indexing. Each stage of the pipeline operates independently within its own Docker container. The back-end, built with FastAPI v0.115.11 [8], serves as a query engine, enabling developers to programmatically retrieve information from the different data stores in MLentory. The natural language-based search leverages Elasticsearch for initial retrieval, relying on a self-hosted Large Language Model (LLM) powered by Ollama [9] to refine search results through Retrieval Augmented Generation (RAG). Finally, the front-end module, developed using Vue3.js v3.15.1 [10], provides a user-friendly interface that allows users to explore models using natural language, filter them based on multiple criteria, e.g., ML task or license, and access their metadata version history.  MLentory will be officially launched during the second quarter of 2025. Its development will continue to improve retrieval, implement a recommendation system, and include more sources.",
+      "proceedingsTitle": "",
+      "conferenceName": "CoRDI 2025",
+      "publisher": "",
+      "place": "",
+      "date": "2025-08-04",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.5281/zenodo.16735316",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/16735316",
+      "accessDate": "2025-08-05T12:43:02Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "MLentory",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ETL pipeline",
+          "type": 1
+        },
+        {
+          "tag": "FAIR4ML",
+          "type": 1
+        },
+        {
+          "tag": "Machine Learning model",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Metadata extraction",
+          "type": 1
+        },
+        {
+          "tag": "NFDI4DS",
+          "type": 1
+        },
+        {
+          "tag": "Reproducibility",
+          "type": 1
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "QIRRIFID"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:07:15Z",
+      "dateModified": "2025-10-09T15:07:15Z"
+    }
+  }
+]

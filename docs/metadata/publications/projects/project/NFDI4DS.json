@@ -1,0 +1,4919 @@
+[
+  {
+    "key": "EJ7DN53B",
+    "version": 173,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/EJ7DN53B",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/EJ7DN53B",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Farrell et al.",
+      "parsedDate": "2026-03-20",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "EJ7DN53B",
+      "version": 173,
+      "itemType": "journalArticle",
+      "title": "Open and sustainable AI: challenges, opportunities and the road ahead in the life sciences",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Gavin",
+          "lastName": "Farrell"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eleni",
+          "lastName": "Adamidi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rafael",
+          "lastName": "Andrade Buono"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mihail",
+          "lastName": "Anton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Omar Abdelghani",
+          "lastName": "Attafi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Salvador",
+          "lastName": "Capella Gutierrez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Emidio",
+          "lastName": "Capriotti"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Davide",
+          "lastName": "Cirillo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lisa",
+          "lastName": "Crossman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christophe",
+          "lastName": "Dessimoz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexandros",
+          "lastName": "Dimopoulos"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Raúl",
+          "lastName": "Fernández-Díaz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Styliani-Christina",
+          "lastName": "Fragkouli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Carole",
+          "lastName": "Goble"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Wei",
+          "lastName": "Gu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "John M.",
+          "lastName": "Hancock"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alireza",
+          "lastName": "Khanteymoori"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tom",
+          "lastName": "Lenaerts"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fabio G.",
+          "lastName": "Liberante"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter",
+          "lastName": "Maccallum"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexander Miguel",
+          "lastName": "Monzon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Magnus",
+          "lastName": "Palmblad"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lucy",
+          "lastName": "Poveda"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ovidiu",
+          "lastName": "Radulescu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Denis C.",
+          "lastName": "Shields"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shoaib",
+          "lastName": "Sufi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thanasis",
+          "lastName": "Vergoulis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fotis",
+          "lastName": "Psomopoulos"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Silvio C. E.",
+          "lastName": "Tosatto"
+        }
+      ],
+      "abstractNote": "Artificial intelligence (AI) has seen transformative breakthroughs in the life sciences, expanding possibilities to interpret biological information at an unprecedented capacity. To maximize return on growing investments and accelerate progress, it is urgent to address long-standing research challenges arising from the rapid adoption of AI methods. We review the erosion of trust in AI outputs driven by poor reusability and reproducibility, and highlight their impact on environmental sustainability. Furthermore, we discuss the fragmented components of the AI ecosystem and lack of guiding pathways to support open and sustainable AI model development. In response, this Perspective introduces practical open and sustainable AI recommendations mapped to over 300 ecosystem components and provides guiding implementation pathways. Our work connects researchers with relevant AI resources, facilitating the implementation of sustainable, reusable and reproducible AI. Built upon community consensus and aligned to existing efforts, these outputs will aid future policy development and structured pathways for guiding AI implementation.",
+      "publicationTitle": "Nature Methods",
+      "publisher": "Nature Publishing Group",
+      "place": "",
+      "date": "2026-03-20",
+      "volume": "",
+      "issue": "",
+      "section": "",
+      "partNumber": "",
+      "partTitle": "",
+      "pages": "1-12",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Nat Methods",
+      "DOI": "10.1038/s41592-026-03037-6",
+      "citationKey": "",
+      "url": "https://www.nature.com/articles/s41592-026-03037-6",
+      "accessDate": "2026-04-05T20:50:47Z",
+      "PMID": "",
+      "PMCID": "",
+      "ISSN": "1548-7105",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Open and sustainable AI",
+      "language": "en",
+      "libraryCatalog": "www.nature.com",
+      "callNumber": "",
+      "rights": "2026 Springer Nature America, Inc.",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "AI challenges"
+        },
+        {
+          "tag": "Machine learning",
+          "type": 1
+        },
+        {
+          "tag": "Standards",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "sustainability"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2026-04-05T20:52:44Z",
+      "dateModified": "2026-04-05T20:52:44Z"
+    }
+  },
+  {
+    "key": "YCIGT9L7",
+    "version": 172,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/YCIGT9L7",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/YCIGT9L7",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-26",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "YCIGT9L7",
+      "version": 172,
+      "itemType": "presentation",
+      "title": "Two Use Cases on the Adoption of Webby FDOs",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Daniel",
+          "lastName": "Bauer"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Jonas",
+          "lastName": "Grieb"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Stian",
+          "lastName": "Soiland-Reyes"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Claus",
+          "lastName": "Weiland"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Abstract. FAIR Digital Objects (FDOs) extends FAIRness with a clear separation between data and metadata and typing, together with layers regarding PIDs and operations, making it easier for researchers and machines to access machine-actionable research artifacts. Webby FDOs have emerged as an FDO implementation, as its adoption becomes natural to those familiar with Linked Open Data and Semantic Web. Here we present two adoption stories in Germany from two different domains.\n\nThis poster was presented at the FDO Conference 2026.",
+      "presentationType": "Poster",
+      "date": "2026-03-26",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.19431876",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/19431876",
+      "accessDate": "2026-04-05T20:44:13Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "AI Model Card",
+          "type": 1
+        },
+        {
+          "tag": "Earth Sciences",
+          "type": 1
+        },
+        {
+          "tag": "FAIR Digital Object",
+          "type": 1
+        },
+        {
+          "tag": "NFDI",
+          "type": 1
+        },
+        {
+          "tag": "RO-Crate",
+          "type": 1
+        },
+        {
+          "tag": "Signposting",
+          "type": 1
+        },
+        {
+          "tag": "Webby FDO",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "QIRRIFID"
+      ],
+      "relations": {},
+      "dateAdded": "2026-04-05T20:46:01Z",
+      "dateModified": "2026-04-05T20:46:13Z"
+    }
+  },
+  {
+    "key": "NX6MFLVE",
+    "version": 170,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/NX6MFLVE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/NX6MFLVE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "NX6MFLVE",
+      "version": 170,
+      "itemType": "computerProgram",
+      "title": "word2doc2vec-doc-relevance-training",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "This software repository provides an approach for exploring and evaluating literature-based document-to-document (doc-2-doc) recommendations using the Word2Vec technique. The methodology generates document-level embeddings by aggregating word embeddings into centroids. It utilizes the RELISH Corpus, a biomedical literature dataset curated by experts, containing pairwise document assessments.\n\nThe software workflow includes training Word2Vec models on a predefined training set, followed by the evaluation of doc-2-doc recommendations using a distinct test set. Additionally, Optuna is integrated for hyperparameter optimization of the trained Word2Vec models using the validation dataset, enabling fine-tuning of model performance.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15094699",
+      "accessDate": "2026-03-31T14:30:46Z",
+      "DOI": "10.5281/zenodo.15094699",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "biomedical literature",
+          "type": 1
+        },
+        {
+          "tag": "document-to-document similarity",
+          "type": 1
+        },
+        {
+          "tag": "embeddings",
+          "type": 1
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "ontoClue"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:32:26Z",
+      "dateModified": "2026-03-31T14:32:50Z"
+    }
+  },
+  {
+    "key": "8SR2H7IV",
+    "version": 167,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/8SR2H7IV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/8SR2H7IV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "8SR2H7IV",
+      "version": 167,
+      "itemType": "computerProgram",
+      "title": "doc2vec-doc-relevance-training",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "This software repository provides an approach for exploring and evaluating literature-based document-to-document (doc-2-doc) recommendations using the Doc2Vec technique.  It utilizes the RELISH Corpus, a biomedical literature dataset curated by experts, containing pairwise document assessments.\n\nThe software workflow includes training Doc2Vec models on a predefined training set, followed by the evaluation of doc-2-doc recommendations using a distinct test set. Additionally, Optuna is integrated for hyperparameter optimization of the trained Doc2Vec models using the validation dataset, enabling fine-tuning of model performance.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15095071",
+      "accessDate": "2026-03-31T14:28:55Z",
+      "DOI": "10.5281/zenodo.15095071",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "biomedical literature",
+          "type": 1
+        },
+        {
+          "tag": "document-to-document similarity",
+          "type": 1
+        },
+        {
+          "tag": "embeddings",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontoClue"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:30:00Z",
+      "dateModified": "2026-03-31T14:30:20Z"
+    }
+  },
+  {
+    "key": "RKXKJ9L9",
+    "version": 164,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/RKXKJ9L9",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/RKXKJ9L9",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "RKXKJ9L9",
+      "version": 164,
+      "itemType": "computerProgram",
+      "title": "fasttext2doc2vec-doc-relevance-training",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "This software repository provides an approach for exploring and evaluating literature-based document-to-document (doc-2-doc) recommendations using the FastText model. It leverages the FastText model to first generate word embeddings and then generates document embeddings by centroid aggregation of the word embeddings. It utilizes the RELISH Corpus, a biomedical literature dataset curated by experts, containing pairwise document assessments.\n\nThe software workflow includes training FastText models on a predefined training set, followed by the evaluation of doc-2-doc recommendations using a distinct test set. Additionally, Optuna is integrated for hyperparameter optimization of the trained FastText models using the validation dataset, enabling fine-tuning of model performance.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15095937",
+      "accessDate": "2026-03-31T14:27:04Z",
+      "DOI": "10.5281/zenodo.15095937",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "biomedical literature",
+          "type": 1
+        },
+        {
+          "tag": "document-to-document similarity",
+          "type": 1
+        },
+        {
+          "tag": "embeddings",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontoclue"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:27:55Z",
+      "dateModified": "2026-03-31T14:28:06Z"
+    }
+  },
+  {
+    "key": "AMW7TTAR",
+    "version": 161,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/AMW7TTAR",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/AMW7TTAR",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "AMW7TTAR",
+      "version": 161,
+      "itemType": "computerProgram",
+      "title": "hybrid-doc-relevance-training",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Nelson David",
+          "lastName": "Quiñones Virgen"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "This software corresponds to Hybrid-doc-relevance-training which provides a set of hybrid embedding approaches for literature-based document-to-document similarity, leveraging the RELISH corpus along with integrating semantic understanding. It implements three distinct algorithms: pre-annotation, post-annotation, and post-reduction annotation, utilizing models such as Doc2Vec, Word2Vec, and FastText. The software combines these models with ontology-based background knowledge to improve document similarity, relevance, and recommendation. Detailed documentation is provided, including input data preprocessing and execution instructions for easy integration and use.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15094064",
+      "accessDate": "2026-03-31T14:23:44Z",
+      "DOI": "10.5281/zenodo.15094064",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "MeSH"
+        },
+        {
+          "tag": "bernd.mueller@zbmed.de"
+        },
+        {
+          "tag": "biomedical literature",
+          "type": 1
+        },
+        {
+          "tag": "document-to-document similarity",
+          "type": 1
+        },
+        {
+          "tag": "embeddings",
+          "type": 1
+        },
+        {
+          "tag": "geis"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontoclue"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravi"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semantics",
+          "type": 1
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "symbolic learning"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:26:13Z",
+      "dateModified": "2026-03-31T14:26:30Z"
+    }
+  },
+  {
+    "key": "GZB3BK3J",
+    "version": 158,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/GZB3BK3J",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/GZB3BK3J",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "GZB3BK3J",
+      "version": 158,
+      "itemType": "computerProgram",
+      "title": "whatizit-dictionary-ner",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "This repository provides the code and documentation for a dictionary-based Named Entity Recognition (NER) approach aimed at generating TF-IDF vectors. It utilizes the Whatizit annotation tool to annotate input XML files against a controlled vocabulary, specifically the Medical Subject Headings (MeSH) ontology. The approach allows for the efficient extraction and representation of named entities in documents, facilitating document analysis and similarity assessments within the RELISH Corpus.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15096055",
+      "accessDate": "2026-03-31T14:21:55Z",
+      "DOI": "10.5281/zenodo.15096055",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "MeSH",
+          "type": 1
+        },
+        {
+          "tag": "NER",
+          "type": 1
+        },
+        {
+          "tag": "NER dictionary-based"
+        },
+        {
+          "tag": "biomedical literature",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontoclue"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "tf-idf",
+          "type": 1
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:23:06Z",
+      "dateModified": "2026-03-31T14:23:23Z"
+    }
+  },
+  {
+    "key": "MXGJB33J",
+    "version": 155,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/MXGJB33J",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/MXGJB33J",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "MXGJB33J",
+      "version": 155,
+      "itemType": "computerProgram",
+      "title": "bert-embeddings-doc-relevance",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "This repository presents an approach exploring and assessing literature-based doc-2-doc recommendations using BERT models with its application to the RELISH dataset. The dataset used is the RELISH Corpus, an expert-curated collection of biomedical literature consisting of pairwise document assessments. The workflow involves two main steps: First, BERT models are used without any fine-tuning, generating document embeddings to assess document recommendations. Second, the BERT models are fine-tuned on a specific training set derived from the RELISH dataset, and the resulting model is used to generate document recommendations on a separate test set. The performance of both the pretrained and fine-tuned models is then compared to assess the impact of fine-tuning on the quality of document recommendations.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/18969187",
+      "accessDate": "2026-03-31T14:20:13Z",
+      "DOI": "10.5281/zenodo.18969187",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "BERT"
+        },
+        {
+          "tag": "biomedical literature",
+          "type": 1
+        },
+        {
+          "tag": "document-to-document-similarity",
+          "type": 1
+        },
+        {
+          "tag": "embeddings",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontoclue"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:21:24Z",
+      "dateModified": "2026-03-31T14:21:48Z"
+    }
+  },
+  {
+    "key": "YYQYTEST",
+    "version": 152,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/YYQYTEST",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/YYQYTEST",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "YYQYTEST",
+      "version": 152,
+      "itemType": "computerProgram",
+      "title": "wmd-word2vec-training",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "This software repository provides an approach for exploring and evaluating literature-based document-to-document (doc-2-doc) recommendations using the Word2Vec technique. The methodology generates word-level embeddings using the Word2Vec model and leverages the Word Mover's Distance (WMD) to assess document similarity. It utilizes the RELISH Corpus, a biomedical literature dataset curated by experts, containing pairwise document assessments.\n\nThe software workflow includes training Word2Vec models on a predefined training set, followed by the evaluation of doc-2-doc recommendations using a distinct test set. Additionally, Optuna is integrated for hyperparameter optimization of the trained Word2Vec models using the validation dataset, enabling fine-tuning of model performance.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15095228",
+      "accessDate": "2026-03-31T14:16:16Z",
+      "DOI": "10.5281/zenodo.15095228",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "biomedical literature",
+          "type": 1
+        },
+        {
+          "tag": "document-to-document similarity",
+          "type": 1
+        },
+        {
+          "tag": "embeddings",
+          "type": 1
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontoclue"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "word mover's distance",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:18:09Z",
+      "dateModified": "2026-03-31T14:18:27Z"
+    }
+  },
+  {
+    "key": "I7IXFU57",
+    "version": 149,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/I7IXFU57",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/I7IXFU57",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2026-03-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "I7IXFU57",
+      "version": 149,
+      "itemType": "dataset",
+      "title": "Machine Learning Models, Embeddings, and Evaluation Results for the OntoClue Project",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Solanki",
+          "lastName": "Dhwani"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bernd",
+          "lastName": "Müller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "This release includes the machine learning models, embeddings, and evaluation results from the OntoClue project, which explores various text embedding techniques to evaluate document-to-document similarity in biomedical literature. The project leverages the RELISH Corpus, a curated dataset containing expert annotations of document pairs based on their relevance and similarity. This release features trained embedding models, the resulting embeddings, and the corresponding evaluation outcomes, including precision, cosine similarity and nDCG@N. For each approach there will 2 files corresponding to class distribution, and list all approach names. 3 vs 2 explanation",
+      "identifier": "",
+      "type": "AI Model",
+      "versionNumber": "",
+      "date": "2026-03-13",
+      "repository": "Zenodo",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.14826813",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/14826813",
+      "accessDate": "2026-03-31T14:11:59Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "AI model"
+        },
+        {
+          "tag": "bernd.mueller@zbmed.de"
+        },
+        {
+          "tag": "embeddings"
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ontoclue"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "stella"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4",
+        "UAFVXV3R"
+      ],
+      "relations": {},
+      "dateAdded": "2026-03-31T14:14:38Z",
+      "dateModified": "2026-03-31T14:15:07Z"
+    }
+  },
+  {
+    "key": "PLZPQCAZ",
+    "version": 138,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/PLZPQCAZ",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/PLZPQCAZ",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Kutafina et al.",
+      "parsedDate": "2026-02-23",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "PLZPQCAZ",
+      "version": 138,
+      "itemType": "report",
+      "title": "Towards a Better Understanding of Personas in the NFDI Interdisciplinary Context",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ekaterina",
+          "lastName": "Kutafina"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jens",
+          "lastName": "Dierkes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Oya",
+          "lastName": "Beyan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Maria",
+          "lastName": "Christoforaki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christine",
+          "lastName": "Hennig"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Anna-Lena",
+          "lastName": "Lorenz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sonja",
+          "lastName": "Schimmler"
+        }
+      ],
+      "abstractNote": "Within the research infrastructure consortia, understanding user needs within diverse research communities through the establishment of personas is crucial for designing effective research infrastructure. However, the challenge of defining personas extends beyond individual domains—it requires a nuanced approach that accounts for the complexities of interdisciplinary collaboration. Furthermore, in interdisciplinary teams, researchers often navigate multiple roles, shifting responsibilities depending on the context in which they operate. Traditional persona models often fail to accommodate these fluid transitions, leading to gaps in infrastructure support and training programs.",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "Zenodo",
+      "place": "",
+      "date": "2026-02-23",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "10.5281/zenodo.18743752",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/18743752",
+      "accessDate": "2026-02-23T14:49:37Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Software personas"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2026-02-23T14:50:28Z",
+      "dateModified": "2026-02-23T14:50:28Z"
+    }
+  },
+  {
+    "key": "R86U8GNF",
+    "version": 135,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/R86U8GNF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/R86U8GNF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro",
+      "parsedDate": "2025-11-18",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "R86U8GNF",
+      "version": 135,
+      "itemType": "presentation",
+      "title": "An introduction to Software Management Plans",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Data Management Plans helps us describe the data lifecycle for those datasets used in our research projects, from data collection to publication and preservation. A Software Management Plan (SMP) plays a similar role but for software. SMPs aim to raise awareness on good practices for research software development, from casual to production software. In this talk we introduce SMPs and machine-actionable SMPs, together with their alignment to FAIR for Research Software.\n\nThis talk was presented at the Online Event Series: The future of Research Data Management on 2025-11-18, organized by the Humboldt University of Berlin.",
+      "presentationType": "",
+      "date": "2025-11-18",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.17642467",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/17642467",
+      "accessDate": "2025-12-16T17:08:54Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "DMP4NFDI"
+        },
+        {
+          "tag": "FAIR4RS",
+          "type": 1
+        },
+        {
+          "tag": "Research software",
+          "type": 1
+        },
+        {
+          "tag": "SMP",
+          "type": 1
+        },
+        {
+          "tag": "Software management plan",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "machine-actionability",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7QPWCF6A",
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-12-16T17:09:53Z",
+      "dateModified": "2025-12-16T17:10:05Z"
+    }
+  },
+  {
+    "key": "LME6SKHD",
+    "version": 135,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/LME6SKHD",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/LME6SKHD",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro",
+      "parsedDate": "2025-11-20",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "LME6SKHD",
+      "version": 135,
+      "itemType": "presentation",
+      "title": "Software Management Plans at a glance",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Software Management Plans are to software what Data Management Plans are to datasets. SMPs help us describe the research software lifecycle in a lightweight, from an software empty repository to its publication. SMPs aim to raise awareness around good practices for research software development. In this 10-minute talk, we will get a quick overview on what SMPs are and how they can be supported by metadata, so they become machine-actionable SMPs.\n\nThis talk was presented on 2025-11-20 as part of the webinar series \"Fortaleciendo capacidades y fomentando colaboración\" organized by La Referencia, the Research Software Alliance (ReSA) and Research Data Alliance (RDA).",
+      "presentationType": "",
+      "date": "2025-11-20",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.17659840",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/17659840",
+      "accessDate": "2025-12-16T17:05:18Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "DMP4NFDI"
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Software Management Plan",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "machine-actionability",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7QPWCF6A",
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-12-16T17:06:39Z",
+      "dateModified": "2025-12-16T17:06:48Z"
+    }
+  },
+  {
+    "key": "X4AXMAFN",
+    "version": 135,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/X4AXMAFN",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/X4AXMAFN",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro",
+      "parsedDate": "2025-11-19",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "X4AXMAFN",
+      "version": 135,
+      "itemType": "presentation",
+      "title": "Initiatives at ZB MED and NFDI on metadata for software and AI models",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Semantic metadata for research artifacts makes it easier to realize the FAIR principles while also providing a good overview for humans and machines. Such metadata for scholarly articles is well-covered, with metadata about datasets also getting momentum. However, metadata for other research artifacts, e.g., software and Artificial Intelligence (AI) models, is not yet that frequently provided. We will present our ongoing work extending schema.org with metadata for software (compatible with Software Management Plans) and AI models, including tools making easier for researchers to share metadata for their own research artifacts.",
+      "presentationType": "",
+      "date": "2025-11-19",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.17642991",
+      "citationKey": "",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.17642991",
+      "accessDate": "2025-12-16T17:00:48Z",
+      "shortTitle": "",
+      "language": "en",
+      "rights": "Creative Commons Attribution 4.0 International",
+      "extra": "Publisher: Zenodo\nVersion Number: v1.0.0",
+      "tags": [
+        {
+          "tag": "AI Model",
+          "type": 1
+        },
+        {
+          "tag": "ConnOSS"
+        },
+        {
+          "tag": "DMP4NFDI"
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Research Software",
+          "type": 1
+        },
+        {
+          "tag": "Software Management Plan",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "machine-actionability",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "6NANTE5H",
+        "7QPWCF6A",
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-12-16T17:02:45Z",
+      "dateModified": "2025-12-16T17:02:51Z"
+    }
+  },
+  {
+    "key": "AHEKDJUW",
+    "version": 98,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/AHEKDJUW",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/AHEKDJUW",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Farrell et al.",
+      "parsedDate": "2025-05-22",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "AHEKDJUW",
+      "version": 98,
+      "itemType": "preprint",
+      "title": "Open and Sustainable AI: challenges, opportunities and the road ahead in the life sciences",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Gavin",
+          "lastName": "Farrell"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Eleni",
+          "lastName": "Adamidi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rafael Andrade",
+          "lastName": "Buono"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mihail",
+          "lastName": "Anton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Omar Abdelghani",
+          "lastName": "Attafi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Salvador Capella",
+          "lastName": "Gutierrez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Emidio",
+          "lastName": "Capriotti"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Davide",
+          "lastName": "Cirillo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lisa",
+          "lastName": "Crossman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christophe",
+          "lastName": "Dessimoz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexandros",
+          "lastName": "Dimopoulos"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Raul",
+          "lastName": "Fernandez-Diaz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Styliani-Christina",
+          "lastName": "Fragkouli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Carole",
+          "lastName": "Goble"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Wei",
+          "lastName": "Gu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "John M.",
+          "lastName": "Hancock"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alireza",
+          "lastName": "Khanteymoori"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Tom",
+          "lastName": "Lenaerts"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fabio G.",
+          "lastName": "Liberante"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Peter",
+          "lastName": "Maccallum"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alexander Miguel",
+          "lastName": "Monzon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Magnus",
+          "lastName": "Palmblad"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lucy",
+          "lastName": "Poveda"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ovidiu",
+          "lastName": "Radulescu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Denis C.",
+          "lastName": "Shields"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Shoaib",
+          "lastName": "Sufi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thanasis",
+          "lastName": "Vergoulis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fotis",
+          "lastName": "Psomopoulos"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Silvio C. E.",
+          "lastName": "Tosatto"
+        }
+      ],
+      "abstractNote": "Artificial intelligence (AI) has recently seen transformative breakthroughs in the life sciences, expanding possibilities for researchers to interpret biological information at an unprecedented capacity, with novel applications and advances being made almost daily. In order to maximise return on the growing investments in AI-based life science research and accelerate this progress, it has become urgent to address the exacerbation of long-standing research challenges arising from the rapid adoption of AI methods. We review the increased erosion of trust in AI research outputs, driven by the issues of poor reusability and reproducibility, and highlight their consequent impact on environmental sustainability. Furthermore, we discuss the fragmented components of the AI ecosystem and lack of guiding pathways to best support Open and Sustainable AI (OSAI) model development. In response, this perspective introduces a practical set of OSAI recommendations directly mapped to over 300 components of the AI ecosystem. Our work connects researchers with relevant AI resources, facilitating the implementation of sustainable, reusable and transparent AI. Built upon life science community consensus and aligned to existing efforts, the outputs of this perspective are designed to aid the future development of policy and structured pathways for guiding AI implementation.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2505.16619",
+      "place": "",
+      "date": "2025-05-22",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.48550/arXiv.2505.16619",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2505.16619",
+      "accessDate": "2025-05-23T15:36:37Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Open and Sustainable AI",
+      "language": "",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2505.16619 [cs]",
+      "tags": [
+        {
+          "tag": "Computer Science - Artificial Intelligence",
+          "type": 1
+        },
+        {
+          "tag": "Quantitative Biology - Other Quantitative Biology",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-15T11:25:46Z",
+      "dateModified": "2025-10-15T11:25:46Z"
+    }
+  },
+  {
+    "key": "UIN2U9AI",
+    "version": 132,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/UIN2U9AI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/UIN2U9AI",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2023-09-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "UIN2U9AI",
+      "version": 132,
+      "itemType": "presentation",
+      "title": "Schema.org as a Lightweight Harmonization Approach for NFDI",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Juliane",
+          "lastName": "Fluck"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Daniel",
+          "lastName": "Arend"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Matthias",
+          "lastName": "Lange"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Daniel",
+          "lastName": "Martini"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Steffen",
+          "lastName": "Neumann"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Sonja",
+          "lastName": "Schimmler"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "Schema.org is a controlled vocabulary that makes it easier for web pages to describe their actual content in a semantic, structured and machine-processable way. It is recognized by major search engines and data aggregators, making it easier for researchers to expose metadata describing their research outcomes. Here we present how Schema.org is used (or planned to be used) by some NFDI consortia, becoming a lightweight approach to harmonize digital objects coming from different sources so they can be connected to each other in a meaningful way.",
+      "presentationType": "",
+      "date": "2023-09-13",
+      "meetingName": "",
+      "place": "Karlsruhe",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.8331237",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/8331237",
+      "accessDate": "2023-09-15T14:29:12Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Bioschemas",
+          "type": 1
+        },
+        {
+          "tag": "Harvesting",
+          "type": 1
+        },
+        {
+          "tag": "JSON-LD",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "OAI-PMH",
+          "type": 1
+        },
+        {
+          "tag": "Structured Markup",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "schema.org",
+          "type": 1
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:44:10Z",
+      "dateModified": "2025-10-09T16:44:10Z"
+    }
+  },
+  {
+    "key": "XC6PLHRX",
+    "version": 84,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/XC6PLHRX",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/XC6PLHRX",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2023-09",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "XC6PLHRX",
+      "version": 84,
+      "itemType": "conferencePaper",
+      "title": "Schema.org as a Lightweight Harmonization Approach for NFDI",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Juliane",
+          "lastName": "Fluck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Arend"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthias",
+          "lastName": "Lange"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Martini"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Steffen",
+          "lastName": "Neumann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sonja",
+          "lastName": "Schimmler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "proceedingsTitle": "Proceedings of the Conference on Research Data Infrastructure",
+      "conferenceName": "",
+      "publisher": "TIB Open Publishing",
+      "place": "",
+      "date": "2023-09",
+      "eventPlace": "",
+      "volume": "1",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.52825/cordi.v1i.280",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "http://dx.doi.org/10.52825/cordi.v1i.280",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:44:10Z",
+      "dateModified": "2025-10-09T16:44:10Z"
+    }
+  },
+  {
+    "key": "UN33SE5A",
+    "version": 132,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/UN33SE5A",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/UN33SE5A",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2023-09-15",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "UN33SE5A",
+      "version": 132,
+      "itemType": "presentation",
+      "title": "RO-Crates meets FAIR Digital Objects - Presentation",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Stian",
+          "lastName": "Soiland-Reyes"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "RO-Crates makes it easier to package research digital objects together with their metadata so both dependencies and context can be captured. Combined with FAIR good practices such as the use of persistent identifiers, inclusion of license, clear object provenance, and adherence to community standards, RO-crates provides a way to increase FAIRness in science. In this abstract we present the use of RO-Crates, combined with Linked Data best practices, as an implementation for lightweight FAIR Digital Objects, and its possible use in NFDI consortia. This poster was presented at CoRDI Conference 2023 (see https://doi.org/10.52825/cordi.v1i.396). This work has been supported by the Deutsche Forschungsgemeinschaft DFG (project no. 460234259 –NFDI4DataScience), the European Union’s Horizon 2020 research and innovation programme (grant agreement numbers 823830 –BioExcel-2, and 824087 –EOSC-Life), and the Horizon Europe programme (grant agreement 101046203 –BY-COVID).",
+      "presentationType": "Poster",
+      "date": "2023-09-15",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.8348924",
+      "citationKey": "",
+      "url": "https://zenodo.org/record/8348924",
+      "accessDate": "2023-09-15T14:28:01Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "FAIR",
+          "type": 1
+        },
+        {
+          "tag": "FAIR Digital Objects",
+          "type": 1
+        },
+        {
+          "tag": "RO-Crates",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:43:06Z",
+      "dateModified": "2025-10-09T16:43:06Z"
+    }
+  },
+  {
+    "key": "L45HU4LN",
+    "version": 83,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/L45HU4LN",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/L45HU4LN",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2023-09",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "L45HU4LN",
+      "version": 83,
+      "itemType": "conferencePaper",
+      "title": "RO-Crates Meets FAIR Digital Objects",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Stian",
+          "lastName": "Soiland-Reyes"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "",
+      "proceedingsTitle": "Proceedings of the Conference on Research Data Infrastructure",
+      "conferenceName": "",
+      "publisher": "",
+      "place": "",
+      "date": "2023-09",
+      "eventPlace": "",
+      "volume": "1",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://www.tib-op.org/ojs/index.php/CoRDI/article/view/396",
+      "accessDate": "",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:43:06Z",
+      "dateModified": "2025-10-09T16:43:06Z"
+    }
+  },
+  {
+    "key": "YLR2YFA5",
+    "version": 79,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/YLR2YFA5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/YLR2YFA5",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2023-12-19",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "YLR2YFA5",
+      "version": 79,
+      "itemType": "preprint",
+      "title": "Lifecycle for FAIR Machine Learning",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fotis",
+          "lastName": "Psomopoulos"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Beatriz",
+          "lastName": "Serrano-Solano"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Curtis",
+          "lastName": "Sharma"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kirubel Biruk",
+          "lastName": "Shiferaw"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yue",
+          "lastName": "Zhang"
+        }
+      ],
+      "abstractNote": "Abstract  Despite the advances in Machine Learning Operations and the availability of variation of the Machine Learning lifecycle, there is none yet aligned to the Findable, Accessible, Interoperable and Reusable (FAIR) principles. Here we present our proposal of such a lifecycle, including an initial analysis on which and how the FAIR principles apply together with some additional information on reporting best practices and existing resources that could support the different phases in the lifecycle. Keywords   Machine Learning lifecycle, ML lifecycle, FAIR, FAIR4ML",
+      "genre": "",
+      "repository": "Zenodo",
+      "archiveID": "",
+      "place": "",
+      "date": "2023-12-19",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.5281/zenodo.10407265",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/10407265",
+      "accessDate": "2023-12-19T19:02:41Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:40:20Z",
+      "dateModified": "2025-10-09T16:40:20Z"
+    }
+  },
+  {
+    "key": "KRKUFUES",
+    "version": 132,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/KRKUFUES",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/KRKUFUES",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Soiland-Reyes et al.",
+      "parsedDate": "2023-06-06",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "KRKUFUES",
+      "version": 132,
+      "itemType": "presentation",
+      "title": "Building lightweight FAIR data packages with Bioschemas and RO-Crate",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Stian",
+          "lastName": "Soiland-Reyes"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Núria",
+          "lastName": "Queralt Rosinach"
+        }
+      ],
+      "abstractNote": "Building lightweight FAIR data packages with Bioschemas and RO-Crate Workshop at ELIXIR All Hands meeting 2023 (AHM2023), Dublin, Ireland This document: DOI:10.5281/zenodo.10552615   Date: Tuesday 6 June 2023, 11:00 (local time, IST)  Chairs: Stian Soiland-Reyes (RO-Crate, ELIXIR-UK, BY-COVID, FAIR-IMPACT, EOSC-Life, EuroScienceGateway) Leyla Jael Castro  (Bioschemas, ELIXIR ML FG, NFDI4DataScience, ZB MED Information Centre for Life Sciences) Núria Queralt Rosinach (ELIXIR NL, ELIXIR ML FG, EJP RD) Co-organizers: José Mª Fernández (RO-Crate, ELIXIR-ES, EOSC-Life)  Justin Clark Casey (ELIXIR-EMBL)  Björn Grüning (ELIXIR-DE, Galaxy Europe, EuroScienceGateway)  Nick Juty (Bioschemas, ELIXIR-UK, FAIRplus, BY-COVID, FAIR-IMPACT)  Abstract:  RO-Crate is a community effort to practically achieve FAIR packaging of research objects (digital objects like data, methods, software) with structured metadata. RO-Crate uses well-established Web standards and FAIR principles. For common metadata representations, RO-Crate builds on schema.org, a mature and general mark-up vocabulary used by search engines including Google Dataset Search. RO-Crate is adapted by many EU/EOSC projects as a pragmatic implementation of the FAIR Digital Objects vision. Bioschemas are a set of opinionated profiles of schema.org types, improving findability of Web resources and data across life sciences, as well as domain-independent scientific objects. Bioschemas are developed in a community process and are deployed by multiple providers.   For life science researchers and data managers, these approaches are complementary: Bioschemas markup can be used within RO-Crate, and RO-Crate provides a long-term distribution/archive mechanism for datasets annotated with Bioschemas. Both communities are focusing on further tooling on the consumption side: building knowledge graphs, validators and simplifying machine-actionable FAIR resources for researcher-driven workflows. Both approaches can combine general and domain-specific metadata, forming profiles of existing ontologies or ad-hoc vocabularies to further describe resources.   In this workshop, focused on data/metadata resources, we will provide an overview of RO-Crate and Bioschemas showing how these lightweight approaches to FAIR data publishing can be used by ELIXIR data providers and consumers, illustrated by how these methods are already used by ELIXIR members and European projects. In a tutorial-like part we will use a running example, showing the thought process when going through the Bioschemas/RO-Crate recommendations in order to FAIRify the data – using a “just enough” metadata mentality. We will show how domain experts can expand descriptions. We will include generic and domain-specific use cases, such as the minimal metadata model for synthetic data, created by members of ELIXIR-ML and ELIXIR-HD Focus Groups. In the second half of the workshop we open the floor for discussions and gather feedback from early adopters on what ELIXIR users need to publish their outputs as FAIR Research Objects, helping future work on Bioschemas and RO-Crate to address any shortcomings in terms of tooling, training and documentation. Workshop organisers represent ELIXIR Tools, Compute, Data, and Interoperability platforms. It is relevant to many projects and community-driven efforts aligned with ELIXIR (e.g. EOSC-Life, BY-COVID, EOSC4Cancer, EJP RD). Bring-your-own-Data workshops with RO-Crate and Bioschemas are being planned for Q2/Q3 2023 to go more in depth. Agenda Time (IST) Tue 2023-06-06 11:00 Overview of FAIR data publishing with Bioschemas & RO-Crate Speaker:  Stian Soiland-Reyes, Leyla Jael Castro https://f1000research.com/slides/12-618 Source files at https://doi.org/10.5281/zenodo.10552449 11:15 A very brief introduction to making metadata with JSON-LD Speaker: Stian Soiland-Reyes https://f1000research.com/slides/12-619  Source files at https://doi.org/10.5281/zenodo.10552449 11:20 Tutorial: FAIRify a dataset using just enough metadata Speaker: Leyla Jael Castrohttps://f1000research.com/slides/12-623  Source files at https://doi.org/10.5281/zenodo.10552449 11:30 Tutorial: Packaging a dataset with its metadata as a RO-Crate Speaker: Stian Soiland-Reyes Link to material 11:40 Use case: Building a minimal metadata models for synthetic data Speaker: Núria Queralt Rosinachhttps://f1000research.com/slides/12-622  11:50 Open discussion, feedback and requirements from early adopters  Moderator: Leyla Jael Castro 12:20 Wrap-up and next steps Lead: Stian Soiland-Reyes",
+      "presentationType": "LearningResource",
+      "date": "2023-06-06",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.10568740",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/10568740",
+      "accessDate": "2024-01-25T14:47:35Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "bioschemas"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:39:28Z",
+      "dateModified": "2025-10-09T16:39:28Z"
+    }
+  },
+  {
+    "key": "37SQC3X4",
+    "version": 132,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/37SQC3X4",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/37SQC3X4",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Soiland-Reyes et al.",
+      "parsedDate": "2023-07-05",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "37SQC3X4",
+      "version": 132,
+      "itemType": "presentation",
+      "title": "Data exchange with RO-Crates and Knowledge Graphs",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Stian",
+          "lastName": "Soiland-Reyes"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "Data exchange with RO-Crates and Knowledge Graphs\n\nWorkshop at Open Science Festival 2023, Köln, Germany\n\nCitation: Soiland-Reyes, S., Castro, L. J., & Rebholz-Schuhmann, D. (2023, July 5). Data exchange with RO-Crates and Knowledge Graphs. Zenodo. https://doi.org/10.5281/zenodo.10552448 \n\n \n\nDate: Wednesday 5th July 2023 09:30-12:30 CEST\n\n\n\n\n\nRoom: Room John Nash (CECAD Lecture Hall)\n\n\n\n\nAgenda (below)\n\n\n\nChairs:\n\n\n\n\n\nStian Soiland-Reyes (RO-Crate, ELIXIR-UK, BY-COVID, FAIR-IMPACT, EOSC-Life, EuroScienceGateway)\n\n\n\n\nLeyla Jael Castro  (Bioschemas, NFDI4DataScience, ZB MED Information Centre for Life Sciences)\n\n\n\n\nDietrich Rebholz-Schuhmann (Scientific Director – ZB MED)\n\n\n\nAbstract: \n\nDigital Objects (e.g., data, software) and formal knowledge representations (e.g., structured metadata) form the two sides of the Linked Open Science coin: scientists want to exchange their data as Open Science material, possibly embedding it into RO-Crates, while they also want to share their findings and knowledge in a formalised representation, possibly deploying Knowledge Graph representations. What is the meeting point between data distributed via RO-Crates and that one part of a Knowledge Graph? Do RO-Crates and Knowledge Graphs serve different types of data or do they complement each other? What would be the dis/advantages of having Knowledge Graphs in RO-Crates or RO-Crates as nodes in Knowledge Graphs? In this workshop, we will first introduce RO-Crates and then have a round table open discussion to compare the potentials of the different approaches for capturing the data and the knowledge of the scientific world.\n\nRO-Crate is a community effort to practically achieve FAIR packaging of research objects (digital objects like data, methods, software) with structured metadata. RO-Crate uses well-established Web standards and FAIR principles. For common metadata representations, RO-Crate builds on schema.org, a mature and general mark-up vocabulary used by search engines including Google Dataset Search. RO-Crate is adapted by many EU/EOSC projects as a pragmatic implementation of the FAIR Digital Objects vision.\n\n \n\nAgenda\n\n\n\n\n\n\n\n\nTime (CEST)\n\n\n\nWed 2023-07-06\n\n\n\n\n\n09:30\n\n\n\nOverview of FAIR data publishing and RO-Crate\n\nSpeaker: Leyla Jael Castro, Stian Soiland-Reyes\n\nOverview of FAIR data publishing and RO-Crate (files included in this record)\n\n\n\n\n\n09:50\n\n\n\nA very brief introduction to making metadata with JSON-LD \n\nSpeaker: Stian Soiland-Reyes\n\nJSON-LD intro (files included in this record)\n\n\n\n\n\n10:00\n\n\n\nTutorial: FAIRify a dataset using just enough metadata \n\nSpeaker: Leyla Jael Castro\n\nFAIRify datasets with Bioschemas tutorial (files included in this record)\n\n\n\n\n\n10:30\n\n\n\nTutorial: Packaging a dataset with its metadata as a RO-Crate\n\nSpeaker: Stian Soiland-Reyes\n\nSee training material\n\n\n\n\n\n10:50\n\n\n\nMaking your own metadata profile\n\nSpeaker: Stian Soiland-Reyes\n\n\n\n\n\n11:00\n\n\n\nCoffee Break\n\n\n\n\n\n11:30\n\n\n\nDemo: Using Linked Data tooling to query knowledge graphs and challenges\n\nSpeaker: Stian Soiland-Reyes\n\nhttps://github.com/stain/ro-crate-sparql/blob/main/ro-crate-sparql.ipynb \n\n\n\n\n\n11:50\n\n\n\nOpen discussion, feedback and requirements from early adopters\n\nModerator: Dietrich Rebholz-Schuhmann\n\n\n\n\n\n12:20\n\n\n\nWrap-up and next steps\n\nLead: Stian Soiland-Reyes",
+      "presentationType": "LearningResource",
+      "date": "2023-07-05",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.10582226",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/10552448",
+      "accessDate": "2025-10-09T16:35:26Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Metadata"
+        },
+        {
+          "tag": "RO-Crate"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "schema.org"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:37:34Z",
+      "dateModified": "2025-10-09T16:37:34Z"
+    }
+  },
+  {
+    "key": "LRGHQUG6",
+    "version": 132,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/LRGHQUG6",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/LRGHQUG6",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro",
+      "parsedDate": "2024-05-24",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "LRGHQUG6",
+      "version": 132,
+      "itemType": "presentation",
+      "title": "machine-actionable Software Management Plans",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Archive of presentations about maSMPs, FAIR4RS and metadata for Research Software\n\nSimilar to DMPs, SMPs help formalize a set of structures and goals that ensure the software is accessible and reusable in the short, medium and long term. Although targeting the life sciences community, most of the elements of the ELIXIR SMPs are domain agnostic and could be used by other communities as well. DMPs and SMPs can be presented as text-based documents, sometimes guided by a set of questions corresponding to key points related to the lifecycle of either data or software. The RDA DMP Common Standards working group defined a machine-actionable DMP application profile to overcome limitations of text-based documents. We propose a similar path for the ELIXIR SMPs so they turn into machine-actionable SMPs (maSMPs). Via workshops and hackathons, we have extended the coverage of our maSMP metadata schema to other SMPs, e.g., DOI:10.5281/zenodo.7038280 by eScience Center in the Netherlands and https://rdm.mpdl.mpg.de/2022/12/09/smp-template-available/ by Max Planck Digital Library. \n\n\n\nMore information about the maSMP project at https://zbmed-semtec.github.io/maSMPs/ \n\nmaSMP metadata schema at https://doi.org/10.5281/zenodo.10582073\n\n\n \n\nList of presentations (not exhaustive but representative):\n\n\n\n2024-05-24 maSMPs, invited talk to a meeting of the NFDI-Infra RDM working group (see files 2024.05.24 - maSMPs at NFDI-RDM)\n\n2024-03-11 Research software, FAIR4RS and machine-actionable Software Management Plans, invited talk to an internal meeting of the TMF – Technologie- und Methodenplattform für die vernetzte medizinische Forschung e.V. (see files 2024.03.11 - maSMPs at TMF)\n\n2024-02-14 If you love data, you should love software, invited talk at Love Data Week at UniKoeln 2024 (see files 2024.02.14 - Love software - FAIR4RS FAIR4ML)\n\n2023-09-15 Machine-Actionable Metadata for Software and Software Management Plans for NFDI - Presentation (see DOI:10.5281/zenodo.8349183)\n\n2023-05-31 Machine-actionable Software Management Plans (see files 2023.05.31_maSMP_ZBMED-workshop)\n\n2022-10-25 A FAIRification roadmap for ELIXIR Software Management Plans (see DOI:10.5281/zenodo.7249674)\n\n\n \n\nIf you (partially) reuse any of the presentations archived here, plese cite them accordingly.",
+      "presentationType": "",
+      "date": "2024-05-24",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.11281952",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/11281952",
+      "accessDate": "2025-10-09T16:33:38Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Metadata"
+        },
+        {
+          "tag": "SMP"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maSMP"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:34:23Z",
+      "dateModified": "2025-10-09T16:34:23Z"
+    }
+  },
+  {
+    "key": "H7GPU2LS",
+    "version": 133,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/H7GPU2LS",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/H7GPU2LS",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder et al.",
+      "parsedDate": "2025-02-13",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "H7GPU2LS",
+      "version": 133,
+      "itemType": "computerProgram",
+      "title": "OntoClue Docker",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "This release contains the Docker container for the OntoClue project, designed to facilitate reproducible and efficient document-to-document similarity assessments using the RELISH Corpus.\n\nAbout OntoClue\n\nOntoClue is a project focused on evaluating document-to-document similarity through various embedding techniques. The project leverages the RELISH Corpus, a curated resource for benchmarking document similarity within biomedical literature. The RELISH Corpus consists of PubMed IDs (PMIDs) paired with expert-curated relevance assessments, classifying document pairs as relevant, partial, or irrelevant.\n\nThe OntoClue project explores multiple approaches, each accompanied by detailed explanations and documentation. These approaches are implemented in separate repositories, and users can run them individually according to the instructions provided.\n\nDockerized Version of OntoClue\n\nThis Docker container version of OntoClue ensures consistency and reproducibility across experiments, allowing users to train and evaluate neural network models on the RELISH Corpus with ease. The container streamlines the entire workflow, which includes the following steps:\n\n\n\nCloning the relevant repository: Each selected approach's repository is cloned, containing all the necessary code and configurations.\n\nDownloading pre-processed datasets: Based on the chosen approach (e.g., normal text vs annotated text), the appropriate datasets are automatically downloaded.\n\nRunning integrity tests: The pipeline includes tests to verify the integrity of the dataset and ensure the reproducibility of results.\n\nEvaluating models: Once the setup is complete, the models are evaluated to assess document-to-document similarity using the RELISH Corpus.\n\n\nWith this Docker container, users can execute the entire pipeline with a few simple commands, ensuring consistent results for document similarity assessments in biomedical literature.",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2025-02-13",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/14865428",
+      "accessDate": "2025-10-09T16:24:03Z",
+      "DOI": "10.5281/zenodo.14865428",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "docker",
+          "type": 1
+        },
+        {
+          "tag": "document-to-document similarity",
+          "type": 1
+        },
+        {
+          "tag": "embeddings",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "reproducibility",
+          "type": 1
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "stella"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "DEQT26D4"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:25:10Z",
+      "dateModified": "2025-10-09T16:25:10Z"
+    }
+  },
+  {
+    "key": "KEQUDYE5",
+    "version": 133,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/KEQUDYE5",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/KEQUDYE5",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder and Castro",
+      "parsedDate": "2025-02-21",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "KEQUDYE5",
+      "version": 133,
+      "itemType": "presentation",
+      "title": "An introduction to Signposting - Easy navigation to FDO layers",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Name: An introduction to Signposting - Easy navigation to FDO layers\n\nDescription: This presentation tutorial introduces the concept of Signposting and shows how it help finding FDO types and associated metadata.\n\nKeywords: FAIR Signposting, metadata, machine-actionability, FDOs, webby FDOs\n\nGuiding questions:\n\n\n\nWhat is FAIR Signposting?\n\nHow does it relate to webby FDOs?\n\n\nLearning outcomes:\n\n\n\nDescribe what is Signposting and its role in webby FDOs\n\nList the options to adding Signposting\n\n\nRequirements/Prerequisites:\n\n\n\nSome knowledge about the FAIR principles\n\nSome knowledge about FAIR Digital Objects\n\nBasic understanding of webby FDOs\n\nBasic understanding of HTML headers and header links\n\n\nAdditional info/metadata:\n\n\n\nTime estimation 10 minutes\n\nLevel Intermediate\n\nPublished 2025-02-21\n\nLatest modification 2025-02-21\n\nLicense CC-By 4.0\n\nVersion 1.0.0\n\nIdentifier DOI:10.5281/zenodo.14882785.\n\nCitation Ravinder, R., & Castro, L. J. (2025, February 21). An introduction to Signposting - Easy navigation to FDO layers. Zenodo. https://doi.org/10.5281/zenodo.14882785",
+      "presentationType": "LearningResource",
+      "date": "2025-02-21",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.14882785",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/14882785",
+      "accessDate": "2025-02-21T09:50:08Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "FAIR Signposting",
+          "type": 1
+        },
+        {
+          "tag": "FDOs",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "machine-actionability",
+          "type": 1
+        },
+        {
+          "tag": "metadata",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "webby FDOs",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:22:36Z",
+      "dateModified": "2025-10-09T16:22:54Z"
+    }
+  },
+  {
+    "key": "RGU3KB3W",
+    "version": 133,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/RGU3KB3W",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/RGU3KB3W",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder and Castro",
+      "parsedDate": "2025-02-21",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "RGU3KB3W",
+      "version": 133,
+      "itemType": "presentation",
+      "title": "An introduction to (webby) FAIR Digital Objects - A machine-actionable approach to FAIR",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Name: An introduction to (webby) FAIR Digital Objects - A machine-actionable approach to FAIR\n\nDescription: This presentation tutorial introduces the concept of FAIR digital object including some examples on how to implement them based on common web-based technologies, i.e., webby FDOs.\n\nKeywords: FAIR, machine-actionability, FDOs, webby FDOs\n\nGuiding questions:\n\n\n\n\n\nWhat are the FAIR principles?\n\n\n\n\nWhat is a FAIR digital object?\n\n\n\n\nWhat is the difference between FAIR and FDOs?\n\n\n\n\nWhat are webby FDOs?\n\n\n\nLearning outcomes:\n\n\n\n\n\nList the FAIR principles and describe their relevance to research\n\n\n\n\nDescribe what is a FAIR digital object including its main components\n\n\n\n\nDescribe what a webby FDO is\n\n\n\nRequirements/Prerequisites:\n\n\n\nSome knowledge of the Semantic Web and Linked Open Data would be an advantage\n\n\nAdditional info/metadata:\n\n\n\nTime estimation 15 minutes\n\n Level Beginner / Introductory\n\n Published 2025-02-21\n\n Latest modification 2025-02-21\n\n License CC-By 4.0\n\n Version 1.0.0\n\n Identifier DOI:10.5281/zenodo.14882665\n\n Citation Ravinder, R., & Castro, L. J. (2025, February 21). An introduction to (webby) FAIR Digital Objects - A machine-actionable approach to FAIR. Zenodo. https://doi.org/10.5281/zenodo.14882665",
+      "presentationType": "LearningResource",
+      "date": "2025-02-21",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.14882665",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/14882665",
+      "accessDate": "2025-02-21T09:48:54Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "FAIR",
+          "type": 1
+        },
+        {
+          "tag": "FDOs",
+          "type": 1
+        },
+        {
+          "tag": "RO-crate"
+        },
+        {
+          "tag": "Signposting"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "machine-actionability",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        },
+        {
+          "tag": "webby FDOs",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:22:14Z",
+      "dateModified": "2025-10-09T16:22:48Z"
+    }
+  },
+  {
+    "key": "IJDJL6TB",
+    "version": 133,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/IJDJL6TB",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/IJDJL6TB",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Ravinder and Castro",
+      "parsedDate": "2025-02-24",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "IJDJL6TB",
+      "version": 133,
+      "itemType": "presentation",
+      "title": "An Introduction to Schema.org and JSON-LD",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Name: An introduction to JSON-LD\n\nDescription: This presentation tutorial introduces Schema.org and JSON-LD, explaining their importance and providing examples of JSON-LD metadata in action.\n\nKeywords: metadata, structured data, linked data, semantic web, Schema.org, JSON-LD\n\nGuiding Questions\n\n\n\n\n\nWhat is Metadata?\n\n\n\n\nWhat is Schema.org?\n\n\n\n\nWhat is JSON-LD?\n\n\n\n\nWhat are the types of JSON-LD?\n\n\n\n\nHow can JSON-LD be visualized?\n\n\n\nLearning Outcomes\n\n\n\n\n\nUnderstand what metadata is and why it is essential for organizing, discovering, and reusing data.\n\n\n\n\nLearn the importance of Schema.org and why it is necessary.\n\n\n\n\nExplore JSON-LD, its structure, and its different types.\n\n\n\nRequirements/Pre-requisites\n\n\n\n\n\nSome knowledge of the Semantic Web and Linked Open Data would be an advantage\n\n\n\nAdditional info/Metadata\n\n\n\nTime estimation: 15 minutes\n\nLevel: Beginner / Introductory\n\nPublished: 2025-02-24\n\nLatest modification: 2025-02-24\n\nLicense: CC-By 4.0\n\nVersion: 1.0.0\n\nIdentifier: DOI:10.5281/zenodo.14920117\n\nCitation: Ravinder, R., & Castro, L. J. (2025, February 24). An introduction to Schema.org and JSON-LD. Zenodo. https://doi.org/10.5281/zenodo.14920117",
+      "presentationType": "LearningResource",
+      "date": "2025-02-24",
+      "meetingName": "5th conference for Research Software Engineering (deRSE25)",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.14920117",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/14920117",
+      "accessDate": "2025-10-09T16:17:45Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "json-ld",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "metadata",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "schema.org",
+          "type": 1
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:19:00Z",
+      "dateModified": "2025-10-09T16:19:00Z"
+    }
+  },
+  {
+    "key": "9UQE2KIB",
+    "version": 133,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/9UQE2KIB",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/9UQE2KIB",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Luciani et al.",
+      "parsedDate": "2024-09-12",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "9UQE2KIB",
+      "version": 133,
+      "itemType": "computerProgram",
+      "title": "v1.0.0 web-based visualization for the RDA FAIR4ML ML lifecycle",
+      "creators": [
+        {
+          "creatorType": "programmer",
+          "firstName": "Aurélian",
+          "lastName": "Luciani"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Lukas",
+          "lastName": "Geist"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Nelson",
+          "lastName": "Quinones"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "programmer",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "v1.0.0 Release\n\nFirst release of this web-based visualization for the ML lifecycle defined at https://doi.org/10.5281/zenodo.10407264.Not changes are expected unless there is an update of the Ml lifecycle.The table associated to the different steps can be configured with own information.\n\nFull Changelog: https://github.com/zbmed-semtec/ML-lifecycle-visualization/commits/v1.0.0",
+      "seriesTitle": "",
+      "versionNumber": "",
+      "date": "2024-09-12",
+      "system": "",
+      "company": "Zenodo",
+      "place": "",
+      "programmingLanguage": "",
+      "rights": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15126201",
+      "accessDate": "2025-10-09T16:15:55Z",
+      "DOI": "10.5281/zenodo.15126201",
+      "ISBN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "shortTitle": "",
+      "extra": "Language: eng",
+      "tags": [
+        {
+          "tag": "FAIR4ML",
+          "type": 1
+        },
+        {
+          "tag": "ML lifecycle",
+          "type": 1
+        },
+        {
+          "tag": "Visualization",
+          "type": 1
+        },
+        {
+          "tag": "Web-app",
+          "type": 1
+        },
+        {
+          "tag": "geist@zbmed.de"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:17:09Z",
+      "dateModified": "2025-10-09T16:17:09Z"
+    }
+  },
+  {
+    "key": "Z5HNILXD",
+    "version": 51,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/Z5HNILXD",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/Z5HNILXD",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Solanki et al.",
+      "parsedDate": "2025-04-03",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "Z5HNILXD",
+      "version": 51,
+      "itemType": "dataset",
+      "title": "Crosswalks from the NFDI4DS hackathon \"machine-actionable Data Management Plan for NFDI\"",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Safial Islam",
+          "lastName": "Ayon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Martin",
+          "lastName": "Armbruster"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Katja",
+          "lastName": "Diederichs"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sara",
+          "lastName": "El-Gebali"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Giacomo",
+          "lastName": "Lanza"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Antonia",
+          "lastName": "Leidel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jimena",
+          "lastName": "Linares Gómez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olaf",
+          "lastName": "Michaelis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rajendran",
+          "lastName": "Rajapreethi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marco",
+          "lastName": "Reidelbach"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gabriel",
+          "lastName": "Schneider"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sabine",
+          "lastName": "Schönau"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Steinbeck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Wallace"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jürgen",
+          "lastName": "Windeck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xiao-Ran",
+          "lastName": "Zhou"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Summary\n\nFrom 28 to 30 October 2024, ZB MED Information Centre for Life Sciences organized a hackathon in Cologne within the scope of NFDI4DataScience with the purpose of identifying core elements for a machine-actionable Data Managemnt Plan (maDMP) across the German National Research Data Infrastructure (NFDI). We used as a starting/reference point the maDMP application profile from the Research Data Alliance DMP Commons Working Group. An additional element, ManagementPlan, was also included. Management Plan comes originally from DataCite v4.4, its representation as an extension proposed by the ZB MED/NFDI4DataScience machine-actionable Software Management Plan metadata schema was used.\n\nThis dataset comprises crosswalks corresponding to the following elements from the RDA maDMP: DMP, Project, Dataset, Distribution. The crosswalks were created following a template prepared by the organizers. Participants freely select a metadata schema or platform to be mapped with regards to the attributes in the RDA maDMP application profile. Crosswalks were created for DMP, Project, Dataset, and Distribution, while comments were provided by DMP and Dataset.\n\nThe list of files in this dataset is as follows:\n\n\n\nCrosswalk template: two spreadsheets (AllTemplates.ods and AllTemplates.xlsx) containing 13 tabs corresponding to the instructions (InstructionsAllTemplates.pdf and InstructionsAllTemplates.tsv), crosswalks templates for Management Plan (CrosswalkTemplate-MngPlan.tsv), DMP (CrosswalkTemplate-DMP.tsv), Project (CrosswalkTemplate-Project.tsv), Dataset (CrosswalkTemplate-Dataset.tsv), Distribution (CrosswalkTemplate-Distribution.tsv) and Host (CrosswalkTemplate-Host.tsv), and comment templates for all the same elements Management Plan (CommentsTemplate-MngPlan.tsv), DMP (CommentsTemplate-DMP.tsv), Project (CommentsTemplate-Project.tsv), Dataset (CommentsTemplate-Dataset.tsv), Distribution (CommentsTemplate-Distribution.tsv) and Host (CommentsTemplate-Host.tsv). The crosswalk templates are meant to be used to compare a source against the reference point while the comment templates are meant to be used to provide comments to the reference point. Eash tab/crosswalk is also provided as individual TSV files. The crosswalk and comment templates contain the following columns:\n\n\n\nCrosswalk for the reference source: Property, Range, Description, Cardinality (One, Many), Requirement (minimum, recommended, optional), Example\n\nCrosswalk for the mapped source: Property, Range, Description, Cardinality (One, Many), Requirement (minimum, recommended, optional), Recommended Vocabulary, Comment, Review\n\nComments for the reference source: Property, Range, Description, Cardinality (One, Many), Requirement (minimum, recommended, optional), Example\n\nComments for the mapped source: Comments to Property, Comments to Range, Comments to Description, Comments to Cardinality (One, Many), Comments to Requirement (minimum, recommended, optional), Recommended Vocabulary\n\n\n\nCrosswalk summary: two spreadsheets (Summary.ods and Summary.xlsx) containing six tabs corresponding to crosswalks summary for DMP (Summary-DMP.tsv), Project (Summary-Project.tsv), Dataset (Summary-Dataset.tsv), and Distribution (Summary-Distribution.tsv), and comments summary forDMP (Summary-Comments-DMP.tsv), and Dataset (Summary-Comments-Dataset.tsv). Eash tab/crosswalk is also provided as individual TSV files. The crosswalks and comments always contain the reference point (i.e, as defined by the RDA maDMP application profile) and the following mapped resources, separated by an empty (blue) column:\n\n\n\nCrosswalks for DMP: RDMO, DataPLAN, NFDIxCS, Horizon Europe, DFG Checklist, DataCite, and GFBio_DMPT\n\nComments to DMP: NFDIxCS\n\nCrosswalks for Project: RDMO, Metadata4Ing, NFDIxCS, Schema.org, and DFG Checklist\n\nCrosswalks for Dataset: RDMO, DataPLAN, Metadata4Ing, NFDIxCS, Horizon Europe, DFG Checklist, and DataCite\n\nComments to Dataset: NFDIxCS\n\nCrosswalks for Distribution: RDMO and Metadata4Ing\n\n\n\nCrosswalks to RDMO: two spreadsheets (RDMO.ods and RDMO.xlsx) containing four tabs corresponding to the crosswalks for DMP (RDMO-DMP.tsv), Project (RDMO-Project.tsv), Dataset (RDMO-Dataset.tsv) and Distribution (RDMO-Distribution.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to DataPLAN: two spreadsheets (DataPLAN.ods and DataPLAN.xlsx) containing two tabs corresponding to the crosswalks for DMP (DataPLAN-DMP.tsv) and Dataset (DataPLAN-Dataset.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to Metadata4Ing: two spreadsheets (Metadata4Ing.ods and Metadata4Ing.xlsx) containing three tabs corresponding to the crosswalks for Project (Metadata4Ing-Project.tsv), Dataset (Metadata4Ing-Dataset.tsv) and Distribution (Metadata4Ing-Distribution.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to NFDIxCS: two spreadsheets (NFDIxCS.ods and NFDIxCS.xlsx) containing five tabs corresponding to the crosswalks for DMP (NFDIxCS-DMP.tsv), Project (NFDIxCS-Project.tsv), and Dataset (NFDIxCS-Dataset.tsv), and additional comments for DMP (NFDIxCS-Comments-to-DMP.tsv) and Dataset (NFDIxCS-Comments-to-Dataset.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to Schema.org: two spreadsheets (SchemaOrg.ods and SchemaOrg.xlsx) containing one tab corresponding to the crosswalk for Project (SchemaOrg-Project.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to Horizon Europe as recorded in its RDMO template: two spreadsheets (HorizonEurope.ods and HorizonEurope.xlsx) containing two tabs corresponding to the crosswalks for DMP (HorizonEurope-DMP.tsv) and Dataset (HorizonEurope-Dataset.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to DFG Checklist as recorded in its template in RDMO: two spreadsheets (DFGChecklist.ods and RDFGChecklistMO.xlsx) containing three tabs corresponding to the crosswalks for DMP (DFGChecklist-DMP.tsv), Project (DFGChecklist-Project.tsv), and Dataset (DFGChecklist-Dataset.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to DataCite v4.5: two spreadsheets (DataCite.ods and DataCite.xlsx) containing two tabs corresponding to the crosswalks for DMP (DataCite-DMP.tsv) and Dataset (DataCite-Dataset.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\nCrosswalks to GFBio_DMPT: two spreadsheets (GFBio_DMPT.ods and GFBio_DMPT.xlsx) containing one tabs corresponding to the crosswalk for DMP (GFBio_DMPT-DMP.tsv). Eash tab/crosswalk is also provided as individual TSV files.\n\n\nMore information about the activities carried out during the hackathon and the analysis of the crosswalks will be available soon.\n\n \n\nAcknowledgements\n\nThe activities and discussion reported here were carried out during a hackathon organized by the Semantic Technologies team at ZB MED Information Centre from 28 to 30 October 2024 in Cologne, Germany, and sponsored by the NFDI4DataScience consortium. NFI4DataScience is funded by the German Research Foundation (Deutsche Forschungsgemeinschaft – DFG) under the grant No. 460234259\n\nThe DMP4NFDI team acknowledges the support of DFG - German Research Foundation - through the coordination fund (project number 521466146).\n\nDavid Wallace and Jürgen Windeck would like to thank the Federal Government and the Heads of Government of the Länder, as well as the Joint Science Conference (GWK), for their funding and support within the framework of the NFDI4ING consortium. Funded by the German Research Foundation (DFG) - project number 442146713.\n\nMarco Reidelbach is supported by MaRDI, funded by the Deutsche Forschungsgemeinschaft (DFG), project number 460135501, NFDI 29/1 “MaRDI – Mathematische Forschungsdateninitiative”.",
+      "identifier": "",
+      "type": "",
+      "versionNumber": "v1.0.0",
+      "date": "2025-04-03",
+      "repository": "Zenodo",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.15129830",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15129830",
+      "accessDate": "2025-04-15T17:01:35Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "maDMPs"
+        },
+        {
+          "tag": "metadata"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7QPWCF6A",
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:14:50Z",
+      "dateModified": "2025-10-09T16:14:50Z"
+    }
+  },
+  {
+    "key": "SX8R4ZPU",
+    "version": 133,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/SX8R4ZPU",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/SX8R4ZPU",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Solanki et al.",
+      "parsedDate": "2025-05-26",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "SX8R4ZPU",
+      "version": 133,
+      "itemType": "report",
+      "title": "Identification of core elements for a machine-actionable Data Management Plan metadata schema in the NFDI",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Safial Islam",
+          "lastName": "Ayon"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Martin",
+          "lastName": "Armbruster"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Katja",
+          "lastName": "Diederichs"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sara",
+          "lastName": "El-Gebali"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Giacomo",
+          "lastName": "Lanza"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Antonia",
+          "lastName": "Leidel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jimena",
+          "lastName": "Linares Gómez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olaf",
+          "lastName": "Michaelis"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rajapreethi",
+          "lastName": "Rajendran"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Marco",
+          "lastName": "Reidelbach"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gabriel",
+          "lastName": "Schneider"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sabine",
+          "lastName": "Schönau"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christoph",
+          "lastName": "Steinbeck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Wallace"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jürgen",
+          "lastName": "Windeck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xiao-Ran",
+          "lastName": "Zhou"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "From 28 to 30 October 2024, ZB MED Information Centre for Life Sciences organized a hackathon in Cologne within the scope of NFDI4DataScience with the purpose of identifying core elements for a machine-actionable Data Managemnt Plan (maDMP) across the German National Research Data Infrastructure (NFDI). We used as starting/reference point the maDMP application profile from the Research Data Alliance DMP Commons Working Group. Here we report on the activities and findings. The dataset corresponding to crosswalks can be found at DOI:10.5281/zenodo.15129830\n\nAbstract:\n\nThe interoperability of data management plans (DMPs) across platforms and application profiles plays a key role in the implementation of good scientific practice and of the FAIR data principles. The application profile for \"machine-actionable DMPs\" published by the Research Data Alliance (RDA) marks an important step in this direction. More recently, networking initiatives such as the German National Research Data Infrastructure (NFDI) are collecting and generating templates for DMPs based on the needs of different subject-related communities and implemented in different DMP software tools. In a two-day hackathon we analyzed the RDA maDMP application profile, discussed the meaning and applicability of the proposed elements and aligned them to selected community-driven schemas and platforms for DMPs and for metadata. The results are available in the form of crosswalks and are intended to pave the way towards an maDMP based on schema.org to improve information exchange between DMP platforms and other research data services, and alignment between DMPs and Software Management Plans.\n\nData availability: DOI:10.5281/zenodo.15129830\n\nKeywords: data management plans, machine-actionability, metadata, crosswalks, NFDI",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "Zenodo",
+      "place": "",
+      "date": "2025-05-26",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "10.5281/zenodo.15130045",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15130045",
+      "accessDate": "2025-05-26T16:12:56Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "NFDI",
+          "type": 1
+        },
+        {
+          "tag": "crosswalks",
+          "type": 1
+        },
+        {
+          "tag": "data management plans",
+          "type": 1
+        },
+        {
+          "tag": "dmp4nfdi"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "machine-actionability",
+          "type": 1
+        },
+        {
+          "tag": "metadata",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "7QPWCF6A",
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:14:22Z",
+      "dateModified": "2025-10-09T16:14:22Z"
+    }
+  },
+  {
+    "key": "AVW2QPQV",
+    "version": 46,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/AVW2QPQV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/AVW2QPQV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Bolleman et al.",
+      "parsedDate": "2025-04-02",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "AVW2QPQV",
+      "version": 46,
+      "itemType": "preprint",
+      "title": "An assessment of Croissant ML metadata descriptors for AI-ready datasets",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jerven",
+          "lastName": "Bolleman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alban",
+          "lastName": "Gaignard"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Agoritsa",
+          "lastName": "Kalampaliki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matúš",
+          "lastName": "Kalaš"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Edwin Jun Kiat",
+          "lastName": "Ong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Núria Queralt",
+          "lastName": "Rosinach"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Steinberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claus",
+          "lastName": "Weiland"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daphne",
+          "lastName": "Wijnbergen"
+        }
+      ],
+      "abstractNote": "To advance the use of machine learning to address humanity’s grand challenges such as the understanding of disease conditions and biodiversity loss in the anthropocene, it is important to promote FAIR AI-ready datasets, since data scientists and bioinformaticians spend 80% of their time in data finding and preparation. Metadata descriptors for datasets are pivotal for the creation of machine learning models as they facilitate the definition of strategies for data discovery, feature selection, data cleaning, and data pre-processing. ML-ready datasets, whether by design or after pre-processing, can be enriched with metadata so they become FAIRer, i.e., autonomously discoverable and processable by machines (machine-actionable). Croissant ML is an extension of schema.org to better describe ML-ready datasets, released early 2024 and already adopted by some ML-model platforms such as Hugging Face (see Croissant ML viewer documentation) and OpenML. However, as it commonly happens with metadata, there are some limitations to the amount of metadata that can be automatically extracted. How much Croissant metadata can be programmatically extracted from ML-ready datasets? And how could this automation be improved? In this project, we explored answers to these two questions.",
+      "genre": "",
+      "repository": "OSF",
+      "archiveID": "",
+      "place": "",
+      "date": "2025-04-02",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.37044/osf.io/4sgdq_v1",
+      "citationKey": "",
+      "url": "https://osf.io/4sgdq_v1",
+      "accessDate": "2025-04-02T10:53:11Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en-us",
+      "libraryCatalog": "OSF Preprints",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "AI-ready",
+          "type": 1
+        },
+        {
+          "tag": "BioHackathon",
+          "type": 1
+        },
+        {
+          "tag": "Croissant ML",
+          "type": 1
+        },
+        {
+          "tag": "Knowledge Graph",
+          "type": 1
+        },
+        {
+          "tag": "MLentory"
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5J7T28PQ",
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:09:13Z",
+      "dateModified": "2025-10-09T16:10:21Z"
+    }
+  },
+  {
+    "key": "T9JSIPP2",
+    "version": 134,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/T9JSIPP2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/T9JSIPP2",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2025-08-26",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "T9JSIPP2",
+      "version": 134,
+      "itemType": "presentation",
+      "title": "Bioschemas and Schemas.science at NFDI",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Alban",
+          "lastName": "Gaignard"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Nick",
+          "lastName": "Juty"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Helena",
+          "lastName": "Schnitzer"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Phil",
+          "lastName": "Reed"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Carole",
+          "lastName": "Goble"
+        }
+      ],
+      "abstractNote": "Bioschemas is a community-driven initiative based on schema.org  and aiming to improve the findability of life sciences resources hosted on web pages.  Bioschemas specifications corresponding to cross-domain research artifacts are also exposed on its sister website schemas.science, currently hosting 7 cross-domain profiles: Dataset, DataRepository, ComputationalTool, ComputationalWorkflow, Course, CourseInstance and TrainingMaterial. Bioschemas, together with its sister Schemas.science, aim at making it easier for researchers to implement FAIR for a wide variety of research artifacts, and to make that methodology more consistently implementable in a domain and discipline agnostic manner.\n\nThis presentation corresponds to the abstract submission to CoRDI 2025, available at https://doi.org/10.5281/zenodo.16735849.\n\nFunding\n\nLJC work in Bioschemas has been partially supported by the NFDI4DataScience consortium funded by the German Research Foundation (DFG –Deutsche Forschungsgemeinschaft), project number 460234259.\n\nNJ has been supported in part by CLIMATE-ADAPT4EOSC (Grant agreement ID:10.3030/101188248)",
+      "presentationType": "",
+      "date": "2025-08-26",
+      "meetingName": "2nd Conference on Research Data Infrastructure (CoRDI)",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.16953923",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/16953923",
+      "accessDate": "2025-10-09T16:02:35Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Bioschemas",
+          "type": 1
+        },
+        {
+          "tag": "Machine-actionability",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Schema.org",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:03:57Z",
+      "dateModified": "2025-10-09T16:03:57Z"
+    }
+  },
+  {
+    "key": "DCVX4EB9",
+    "version": 134,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/DCVX4EB9",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/DCVX4EB9",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Solanki et al.",
+      "parsedDate": "2025-09-03",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "DCVX4EB9",
+      "version": 134,
+      "itemType": "presentation",
+      "title": "In silico protocols for reproducibility of machine learning approaches",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "This poster shows our in silico protocols approach to improve  reproducibility of Machine Learning (ML). It builds on top of SMART Protocols for wet-lab experiments to adapt them and extend them to cover Machine Learning experiments.\n\nLab-protocols often accompany wet-lab experiments as text-based documents describing the sequence of tasks and operations executed, including, e.g., references to equipment, reagents troubleshooting and tips. SMART Protocols provides a semantic layer for lab-protocols so, for instance, reagents are linked to (semantic) chemical databases such as ChEMBL.\n\nSimilarly to wet-lab experiments, ML experiments are also composed of inputs, steps and outputs and would benefit from semantically enriched in-silico protocols. We aim at providing a semantic layer, namely in-silico protocol, for ML experiments supporting FAIRness for ML, transparency and reproducible outcomes.\n\nMore information can be found at GitHub Repository.\n\nFunding\n\nThis work is partially funded by the German Research Foundation (DFG) under the grant No. 460234259 corresponding to NFDI4DataScience consortium.",
+      "presentationType": "Poster",
+      "date": "2025-09-03",
+      "meetingName": "ISMB/ECCB 2025 - BOKG",
+      "place": "Liverpool, UK",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/ZENODO.17048004",
+      "citationKey": "",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.17048004",
+      "accessDate": "2025-09-08T17:00:32Z",
+      "shortTitle": "",
+      "language": "en",
+      "rights": "Creative Commons Attribution 4.0 International",
+      "extra": "Publisher: Zenodo",
+      "tags": [
+        {
+          "tag": "MLOps",
+          "type": 1
+        },
+        {
+          "tag": "Machine Learning",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Reproducibility",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:56:10Z",
+      "dateModified": "2025-10-09T15:56:10Z"
+    }
+  },
+  {
+    "key": "2ZZD9CQA",
+    "version": 134,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/2ZZD9CQA",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/2ZZD9CQA",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro",
+      "parsedDate": "2025-09-15",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "2ZZD9CQA",
+      "version": 134,
+      "itemType": "presentation",
+      "title": "Tutorial: Introduction to ML model cards",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Name: Tutorial - Introduction to Machine Learning Model Cards\n\nDescription: This tutorial provides an overview of machine learning model cards. It defines what they are, explains their main sections, and discusses their importance for promoting transparency, mitigating bias, and managing risk in AI. The presentation concludes with practical guidance on how to use model cards.\n\nKeywords: Machine learning model cards, responsible AI, transparency, documentation, metadata\n\nLearning objectives:\n\n\n\n\n\nExplain what ML model cards are and their purpose.\n\n\n\n\nIdentify the main sections of a model card.\n\n\n\n\nExplain why model cards are important for responsible/transparent AI.\n\n\n\n\nDescribe how to use model cards in practice.\n\n\n\nPrerequisites/requirements:\n\n\n\n\n\nSome knowledge about machine/deep learning.\n\n\n\nAdditional information:\n\n\n\nTime estimation: 30 minutes\n\n Level: Beginner / Introductory\n\n Published: 2025-09-15\n\n Latest modification: 2025-09-15\n\n License: CC-By 4.0\n\n Version: 1.0.0\n\n Identifier: 10.5281/zenodo.17062307.\n\n Citation: Tutorial: Introduction to ML model cards. Zenodo. https://doi.org/10.5281/zenodo.17062307.\n\n\nOther tutorials in this series:\n\n\n\nCastro, L. J. (2025, September 15). Tutorial: Introduction to FAIR4ML, a vocabulary to describe FAIR AI models. Zenodo. https://doi.org/10.5281/zenodo.17062369  \n\nCastro, L. J. (2025, September 15). Tutorial: Introduction to MLentory, a metadata registry for AI models. Zenodo. https://doi.org/10.5281/zenodo.17062651",
+      "presentationType": "Lesson",
+      "date": "2025-09-15",
+      "meetingName": "48th German Conference on Artificial Intelligence (KI2025)",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.17062307",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/17062307",
+      "accessDate": "2025-10-09T15:40:51Z",
+      "shortTitle": "Tutorial",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Documentation",
+          "type": 1
+        },
+        {
+          "tag": "Machine learning",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Responsible AI",
+          "type": 1
+        },
+        {
+          "tag": "Transparency",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "machine learning model cards",
+          "type": 1
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:44:23Z",
+      "dateModified": "2025-10-09T15:50:41Z"
+    }
+  },
+  {
+    "key": "AL2X9T23",
+    "version": 134,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/AL2X9T23",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/AL2X9T23",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro and Rebholz-Schuhmann",
+      "parsedDate": "2025-09-15",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "AL2X9T23",
+      "version": 134,
+      "itemType": "presentation",
+      "title": "A walk through metadata for training materials",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        }
+      ],
+      "abstractNote": "Title: A walk through metadata for training materials.\n\n \n\nAbstract: In this talk, we will briefly introduce the subject of metadata with a focus on semantic metadata. We will then move to some semantic metadata available for training materials / learning resources. Rather than going in-depth, the aim is raising awareness of the options out there, some of their differences and similarities.",
+      "presentationType": "",
+      "date": "2025-09-15",
+      "meetingName": "Informatik Festival 2025",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.17063115",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/17063115",
+      "accessDate": "2025-10-09T15:39:23Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "DiscoRSE"
+        },
+        {
+          "tag": "Learning resources",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Semantics",
+          "type": 1
+        },
+        {
+          "tag": "Training materials",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "BRFBELHM",
+        "Q3MX26XL"
+      ],
+      "relations": {
+        "owl:sameAs": "http://zotero.org/groups/2350725/items/Q57HXQAW"
+      },
+      "dateAdded": "2025-10-09T15:48:22Z",
+      "dateModified": "2025-10-09T15:50:07Z"
+    }
+  }
+]

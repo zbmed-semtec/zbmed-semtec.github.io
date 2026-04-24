@@ -1,0 +1,1146 @@
+[
+  {
+    "project": "maSMPs",
+    "collection_hash": "5WQA4ZZ3",
+    "item": {
+      "key": "39GR5MHD",
+      "version": 131,
+      "library": {
+        "type": "group",
+        "id": 6239752,
+        "name": "SemTecTeam",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/semtecteam",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/6239752/items/39GR5MHD",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam/items/39GR5MHD",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Giraldo et al.",
+        "parsedDate": "2022-10-25",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "39GR5MHD",
+        "version": 131,
+        "itemType": "presentation",
+        "title": "A FAIRification roadmap for ELIXIR Software Management Plans - Poster",
+        "creators": [
+          {
+            "creatorType": "presenter",
+            "firstName": "Olga",
+            "lastName": "Giraldo"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Renato",
+            "lastName": "Alves"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Dimitrios",
+            "lastName": "Bampalikis"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Jose M.",
+            "lastName": "Fernandez"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Eva Martin del",
+            "lastName": "Pico"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Fotis E.",
+            "lastName": "Psomopoulos"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Allegra",
+            "lastName": "Via"
+          },
+          {
+            "creatorType": "presenter",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "Similar to Data Management Plans, Software Management Plans help formalize a set of structures and goals that ensure the software is accessible and reusable in the short, medium and long term. The ELIXIR SMP (DOI:10.37044/osf.io/k8znb) has been developed by the ELIXIR Software Development Best Practices Group in the ELIXIR Tools Platform to support researchers in life sciences. Although targeting the life sciences community, most of the elements of the ELIXIR SMPs are domain agnostic and could be used by other communities as well. DMPs and SMPs can be presented as text-based documents, sometimes guided by a set of questions corresponding to key points related to the lifecycle of either data or software. The FAIRification road for ELIXIR SMPs include two main components: turning them into machine-actionable SMPs (maSMPs) and aligning them to FAIR Digital Objects (FDOs). Our maSMP version will be based on the machine-actionable DMPs proposed by the Research Data Alliance DMP Common Standards Working Group, which corresponds to a structured representation of the most common elements present in a DMP (DOI:10.15497/rda00039) while the alignment with FDOs will be supported by Research Object Crates (RO-Crates). An RO-Crate (DOI:10.3233/DS-210053) is an open, community-driven, and lightweight approach based on schema.org annotations. This poster corresponds to the FDO2022 conference publication https://riojournal.com/article/94608/element/4/8000890",
+        "presentationType": "",
+        "date": "2022-10-25",
+        "meetingName": "",
+        "place": "",
+        "series": "",
+        "sessionTitle": "",
+        "DOI": "10.5281/zenodo.7249674",
+        "citationKey": "",
+        "url": "https://zenodo.org/record/7249674",
+        "accessDate": "2022-10-25T16:00:01Z",
+        "shortTitle": "",
+        "language": "",
+        "rights": "All rights reserved",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "ELIXIR",
+            "type": 1
+          },
+          {
+            "tag": "FAIR Digital Objects",
+            "type": 1
+          },
+          {
+            "tag": "RO-crate",
+            "type": 1
+          },
+          {
+            "tag": "Software Management Plans",
+            "type": 1
+          },
+          {
+            "tag": "giraldo@zbmed.de"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          }
+        ],
+        "collections": [
+          "5WQA4ZZ3"
+        ],
+        "relations": {},
+        "dateAdded": "2025-10-09T16:53:04Z",
+        "dateModified": "2025-10-09T16:53:04Z"
+      }
+    }
+  },
+  {
+    "project": "maSMPs",
+    "collection_hash": "5WQA4ZZ3",
+    "item": {
+      "key": "CEVLGNNG",
+      "version": 131,
+      "library": {
+        "type": "group",
+        "id": 6239752,
+        "name": "SemTecTeam",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/semtecteam",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/6239752/items/CEVLGNNG",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam/items/CEVLGNNG",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Giraldo et al.",
+        "parsedDate": "2022",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "CEVLGNNG",
+        "version": 131,
+        "itemType": "journalArticle",
+        "title": "A FAIRification roadmap for ELIXIR Software Management Plans - Poster",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Olga",
+            "lastName": "Giraldo"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Renato",
+            "lastName": "Alves"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dimitrios",
+            "lastName": "Bampalikis"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Jose M",
+            "lastName": "Fernandez"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Eva Martin Del",
+            "lastName": "Pico"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Fotis E",
+            "lastName": "Psomopoulos"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Allegra",
+            "lastName": "Via"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "",
+        "publicationTitle": "",
+        "publisher": "Zenodo",
+        "place": "",
+        "date": "2022",
+        "volume": "",
+        "issue": "",
+        "section": "",
+        "partNumber": "",
+        "partTitle": "",
+        "pages": "",
+        "series": "",
+        "seriesTitle": "",
+        "seriesText": "",
+        "journalAbbreviation": "",
+        "DOI": "10.5281/ZENODO.7249674",
+        "citationKey": "",
+        "url": "https://zenodo.org/record/7249674",
+        "accessDate": "",
+        "PMID": "",
+        "PMCID": "",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "",
+        "libraryCatalog": "",
+        "callNumber": "",
+        "rights": "Creative Commons Attribution 4.0 International",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "ELIXIR"
+          },
+          {
+            "tag": "FAIR Digital Objects"
+          },
+          {
+            "tag": "RO-crate"
+          },
+          {
+            "tag": "Software Management Plans"
+          }
+        ],
+        "collections": [
+          "5WQA4ZZ3"
+        ],
+        "relations": {},
+        "dateAdded": "2025-10-09T16:53:04Z",
+        "dateModified": "2025-10-09T16:53:04Z"
+      }
+    }
+  },
+  {
+    "project": "maSMPs",
+    "collection_hash": "5WQA4ZZ3",
+    "item": {
+      "key": "4HVDGIH3",
+      "version": 131,
+      "library": {
+        "type": "group",
+        "id": 6239752,
+        "name": "SemTecTeam",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/semtecteam",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/6239752/items/4HVDGIH3",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam/items/4HVDGIH3",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Giraldo et al.",
+        "parsedDate": "2023-06-27",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "4HVDGIH3",
+        "version": 131,
+        "itemType": "report",
+        "title": "Workshop machine-actionable Software Management Plans",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Olga",
+            "lastName": "Giraldo"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "João",
+            "lastName": "Cardoso"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Eva",
+            "lastName": "Martin del Pico"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Alban",
+            "lastName": "Gaignard"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Lukas",
+            "lastName": "Geist"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Yves Vincent",
+            "lastName": "Grossmann"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Fotis",
+            "lastName": "Psomopoulos"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Elli",
+            "lastName": "Papadopoulou"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dhwani",
+            "lastName": "Solanki"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "Workshop machine-actionable Software Management Plans Organizer: Semantic Technologies team at ZB MED Information Centre for Life Sciences Place: Cologne Date: 2023.05.31 Participants/Authors of this report: Olga Giraldo 1[0000-0003-2978-8922], João Cardoso 2[0000-0003-0057-8788], Eva Martin del Pico 3[0000-0001-8324-2897], Alban Gaignard 4[0000-0002-3597-8557], Lukas Geist 1, Yves Vincent Grossmann 5[0000-0002-2880-8947], Fotis Psomopoulos 6[0000-0002-0222-4273], Elli Papadopoulou 7[0000-0002-0893-8509], Dhwani Solanki 1, Leyla Jael Castro 1[0000-0003-3986-0510]   1 ZB MED Information Centre for Life Sciences 2 RDA DMP Common Standards Working Group 3 BSC-CNS 4 CNRS 5 Max Planck Digital Library 6 Centre for Research and Technology Hellas 7 ATHENA Research Center / OpenAIRE   Introduction The Semantic Technologies team at ZB MED initiated a project to add machine-actionability to the ELIXIR Software Management Plans (SMPs) [1] in December 2022. The initial phase of the project, funded by RDA/EOSC Future, concluded in May 2023 with a workshop where experts working with SMPs and machine-actionable Data Management Plans met together. The project will continue under the umbrella of the NFDI4DataScience consortium.   The purpose of the workshop was validating the metadata schema support maSMPs [2, 3], improving its alignment with existing SMPs, and identifying gaps wrt ELIXIR SMPs and RDMO SMPs [4] and Research Data Alliance (RDA) maDMPs [5, 6]. The workshop counted with the participation of 10 people, from ELIXIR Software Development Best Practices Group, Bioschemas [7], RDMO SMPs, RDA DMP Common Standards Working Group, ARGOS and ZB MED. In addition to the resources represented by participants, we also include Codemeta [8] in the analysis. Here we present a report of what happened and what was achieved.   Presentations We had five presentations as follows: The ELIXIR Software Management Plans (file P1_The ELIXIR Software Management Plan.pdf) Sustainable and FAIR Software in Research - A RDMO Catalogue for Software Management Plans (file P2_RDMO_SMP.pdf) RDA’s Approach to Machine Actionable Data Management Plans ( P3_maDMP.pdf) machine-actionable Software Management Plans (file P4_maSMP.pdf) (more) Findable bioinformatics softwares with Bioschemas (file P5_Bioschemas.pdf)   Ontology validation ELIXIR and RDMO  The complete set of properties from software source code and software release were analyzed. The first part of the analysis was focused on identifying which properties proposed in our metadata schema are covering the questions specified in the ELIXIR and RDMO SMP models. The coverage level has three possible values as follows: i) “yes” when the property fully covers one or more questions, ii) “partially” when the property covers either part of the questions or is related to them, iii) “not” when the property does not correspond to any question (however it could represent a possible improvement in the questionnaire if added). The reviewed properties from software source code is available in Table 1 (see file T1_maSMP-SoftwareSourceCode-ELIXIR-RDMO.tsv). The reviewed properties from software release are available in Table 2 (see file T2_maSMP-SoftwareRelease-ELIXIR-RDMO.tsv). Main outcomes of this stage are listed below: Identification of commonalities. It was possible to identify, from the ELIXIR and RDMO questionnaires, similar questions related to a specific property.  Example, “What programming languages are you using in your project?” (from ELIXIR), and “Which programming language(s) do you plan to use? (from RDMO) were linked to the property programmingLanguage. Identification of questions not covered by our metadata schema. It was possible to identify, from the same questionnaires, a subset of requirements difficult to represent in the proposed metadata schema.  Example, “How do you capture the environment?” (from ELIXIR), and “How is software documentation created?” (from RDMO). A list of questions not covered by our metadata schema is detailed in Table 3 (see file T3_maSMP_NotCovered.tsv).   Bioschemas y Codemeta The second part of the analysis was focused on identifying which properties proposed in our metadata schema are covering terminology from the ComputationalTool Profile in Bioschemas and terminology from Codemeta. Software source code alignment was only done against Codemeta because the terminology proposed at the ComputationalTool Profile in Bioschemas is suitable just for software release. The Software source code alignment to Codemeta, is available in Table 4 (see file T4_maSMP-SoftwareSourceCode-Codemeta.tsv). The Software release alignment to Codemeta and Bioschemas, is available in Table 5 (see file T5_maSMP-SoftwareRelease-Codemeta-Bioschemas.tsv). The coverage level has three possible values as follows: i) “yes” when the maSMP property is the same as the one used in the other vocabulary,, ii) “partially” when the maSMP property corresponds to a property with a different name in the other vocabularies,, iii) “not” when the maSMP property does not have a corresponding property in the other vocabularies.   RDA maDMP An initial draft mapping the maDMP, and corresponding ontology DCSO, to schema.org was created, see Table 6 (see file T6_maDMP-DCSO-schemaorg.tsv). This draft could be a starting point for the maSMP metadata schemas to include additional elements related to the actual plan, the project, the funders and so on.    Conclusions This workshop represented a first step to achieve an alignment between the different parties involved in the existing SMP models.   An enrichment of our metadata schemas was achieved. A new version of our metadata schema in the form of an ontology was obtained in order to increase the coverage of questions proposed by ELIXIR and /or RDMO. The ontology is available at Zenodo [9] and GitHub [10] while documentation is provided via GitHub pages.   Acknowledgements This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101017536 and is part of the Research Data Alliance and European Open Science Cloud Future call 2022. This project has received funding from NFDI4DataScience project funded by Deutsche Forschungsgemeinschaft DFG, project no. 460234259.   References Alves, R., Bampalikis, D., Castro, L., Fernández, J. M., Harrow, J., Kuzak, M., … Via, A. (2021, October 25). ELIXIR Software Management Plan for Life Sciences. https://doi.org/10.37044/osf.io/k8znb Giraldo, O., Geist, L., Quiñones, N., Solanki, D., Rebholz-Schuhmann, D., & Castro, L. J. (2023). Machine-actionable Software Management Plan Ontology (maSMP Ontology). Zenodo. https://doi.org/10.5281/zenodo.7976401  Giraldo, O., Geist, L., Quiñones, N., Solanki, D., Alves, R., Bampalikis, D., Fernandez, J. M., Martin Del Pico, E., Psomopoulos, F. E., Via, A., Rebholz-Schuhmann, D., & Castro, L. J. (2023). A metadata schema for machine-actionable Software Management Plans [Application/pdf]. DaMaLOS 2023. https://doi.org/10.4126/FRL01-006444988  Klar, J., Michaelis, O., Engelhardt, C., Enke, H., Frenzel, J., Hausen, D., Jagusch, G., Kramer, C., Lindstädt, B., Ludwig, J., Heike, N., Straka, J., Strötgen, R., Ulrich, R., Wedlich-Zachodin, K., & Wuttke, U. (2023). Research Data Management Organizer (RDMO) [Python]. https://doi.org/10.5281/zenodo.596581  Miksa, T., Walk, P., & Neish, P. (2023). RDA DMP Common Standard for Machine-actionable Data Management Plans (1.1). https://doi.org/10.15497/rda00039  Cardoso, J., Castro, L. J., Ekaputra, F. J., Jacquemot, M. C., Suchánek, M., Miksa, T., & Borbinha, J. (2022). DCSO: Towards an ontology for machine-actionable data management plans. Journal of Biomedical Semantics, 13(1), 21. https://doi.org/10.1186/s13326-022-00274-4  Gray, A.J.G, Goble, C.A. and Jimenez, R., 2017. Bioschemas: From Potato Salad to Protein Annotation. In International Semantic Web Conference (Posters, Demos & Industry Tracks). Matthew B. Jones, Carl Boettiger, Abby Cabunoc Mayes, Arfon Smith, Peter Slaughter, Kyle Niemeyer, Yolanda Gil, Martin Fenner, Krzysztof Nowak, Mark Hahnel, Luke Coy, Alice Allen, Mercè Crosas, Ashley Sands, Neil Chue Hong, Patricia Cruse, Daniel S. Katz, Carole Goble. 2017. CodeMeta: an exchange schema for software metadata. Version 2.0. KNB Data Repository. https://doi.org/10.5063/schema/codemeta-2.0  Giraldo Olga, Geist Lukas, Quiñones Nelson, Solanki Dhwani, Rebholz-Schuhmann Dietrich, & Castro Leyla Jael. (2023). machine-actionable Software Management Plan Ontology (maSMP Ontology) (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.8089518 Giraldo O, Geist L, Quiñones, Lukas, Solanki, Dhwani, Rebholz-Schuhmann D, Castro LJ. maSMPs - Ontology and Software. 2023. Available: https://github.com/zbmed-semtec/maSMPs",
+        "reportNumber": "",
+        "reportType": "",
+        "institution": "Zenodo",
+        "place": "",
+        "date": "2023-06-27",
+        "seriesTitle": "",
+        "seriesNumber": "",
+        "pages": "",
+        "DOI": "10.5281/zenodo.8087357",
+        "ISBN": "",
+        "citationKey": "",
+        "url": "https://zenodo.org/record/8087357",
+        "accessDate": "2023-07-06T15:22:46Z",
+        "ISSN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "eng",
+        "libraryCatalog": "Zenodo",
+        "callNumber": "",
+        "rights": "All rights reserved",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "Data Management Plans",
+            "type": 1
+          },
+          {
+            "tag": "Machine actionability",
+            "type": 1
+          },
+          {
+            "tag": "Metadata",
+            "type": 1
+          },
+          {
+            "tag": "Software Management Plans",
+            "type": 1
+          },
+          {
+            "tag": "geist@zbmed.de"
+          },
+          {
+            "tag": "giraldo@zbmed.de"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "maSMP"
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "solanki@zbmed.de"
+          }
+        ],
+        "collections": [
+          "5WQA4ZZ3"
+        ],
+        "relations": {},
+        "dateAdded": "2025-10-09T16:45:47Z",
+        "dateModified": "2025-10-09T16:45:47Z"
+      }
+    }
+  },
+  {
+    "project": "maSMPs",
+    "collection_hash": "5WQA4ZZ3",
+    "item": {
+      "key": "UIEH6D2U",
+      "version": 76,
+      "library": {
+        "type": "group",
+        "id": 6239752,
+        "name": "SemTecTeam",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/semtecteam",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/6239752/items/UIEH6D2U",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam/items/UIEH6D2U",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Giraldo et al.",
+        "parsedDate": "2023-06-28",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "UIEH6D2U",
+        "version": 76,
+        "itemType": "standard",
+        "title": "machine-actionable Software Management Plan Ontology (maSMP Ontology)",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Olga",
+            "lastName": "Giraldo"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Lukas",
+            "lastName": "Geist"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Nelson",
+            "lastName": "Quiñones"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dhwani",
+            "lastName": "Solanki"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "We have defined a metadata model in the form of an ontology representing the necessary metadata elements for a maSMP. The metadata model includes entities involved in software management planning; such as an SMP itself, software source code, software release, documentation, authors and their relations. We are reusing terms mainly from schema.org and from DCSO, with some few additions of our own. Acknowledgments  This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101017536 and is part of the Research Data Alliance and European Open Science Cloud Future call 2022. This project has been supported by the Good Practices Focus Group part of the ELIXIR Tools Platform. The work presented in this short paper was part of Project 17 at the BioHackathon Europe 2022.",
+        "organization": "",
+        "committee": "",
+        "type": "",
+        "number": "",
+        "versionNumber": "v 1.0.0",
+        "edition": "",
+        "status": "",
+        "date": "2023-06-28",
+        "publisher": "Zenodo",
+        "place": "",
+        "partNumber": "",
+        "partTitle": "",
+        "ISBN": "",
+        "DOI": "10.5281/zenodo.7806638",
+        "citationKey": "",
+        "url": "https://zenodo.org/doi/10.5281/zenodo.7806638",
+        "accessDate": "",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "numPages": "",
+        "language": "eng",
+        "libraryCatalog": "Zenodo",
+        "callNumber": "",
+        "rights": "All rights reserved",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "Software Management Plan (SMP)",
+            "type": 1
+          },
+          {
+            "tag": "geist@zbmed.de"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "maSMP"
+          },
+          {
+            "tag": "machine-actionable",
+            "type": 1
+          },
+          {
+            "tag": "metadata model",
+            "type": 1
+          },
+          {
+            "tag": "nfdi4ds"
+          },
+          {
+            "tag": "ontology",
+            "type": 1
+          },
+          {
+            "tag": "quinones@zbmed.de"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "research software",
+            "type": 1
+          },
+          {
+            "tag": "semtec"
+          },
+          {
+            "tag": "solanki@zbmed.de"
+          }
+        ],
+        "collections": [
+          "5WQA4ZZ3"
+        ],
+        "relations": {},
+        "dateAdded": "2025-10-09T16:38:43Z",
+        "dateModified": "2025-10-09T16:38:43Z"
+      }
+    }
+  },
+  {
+    "project": "maSMPs",
+    "collection_hash": "5WQA4ZZ3",
+    "item": {
+      "key": "45J87B43",
+      "version": 75,
+      "library": {
+        "type": "group",
+        "id": 6239752,
+        "name": "SemTecTeam",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/semtecteam",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/6239752/items/45J87B43",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam/items/45J87B43",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Castro et al.",
+        "parsedDate": "2024-01-29",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "45J87B43",
+        "version": 75,
+        "itemType": "standard",
+        "title": "Usage guidance (aka profiles) for the machine-actionable Software Management Plan Ontology",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Olga",
+            "lastName": "Giraldo"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Lukas",
+            "lastName": "Geist"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Nelson",
+            "lastName": "Quiñones"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dhwani",
+            "lastName": "Solanki"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          }
+        ],
+        "abstractNote": "Usage guidance (aka profiles) including suggestions of mimimum, recommended and optional properties as well as property cardinality for the metadata schema/ontology maSMP (published at DOI:10.5281/zenodo.7806638, vr. 2.1.0). Although this is the first publicatoin of profiles separated from the metadata schema, we have decided to keep a relation in the versioning of the schema and the profiles, therefore these profiles correspond to vr. 2.1.1. These profiles are mostly based on the SMP metadata crosswalks from May 2023 and December 2023, and correspond to the types OuputManagementPlan, SoftwareManagementPlan, SoftwareRunAction and SoftwareTestAction defined in the maSMP metadata schema, and to the types schema:SoftwareApplication and schema:SoftwareSourceCode so the proposed properties for these two types are covered. The maSMP types and maSMP profiles can be visualized in the Data Discovery Engine (DDE) platform. Follow the links and you will get a summary of types and properties, and the corresponding profiles with usage guidelines (e.g., minimum, recommended and optional properties with cardinality). The profiles include recommendations on types and properties from: schema.org v23 Codemeta Bioschemas maSMP vr. 2.1.0 Acknowledgments  This project received funding (December 2022 to May 2023) from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101017536 which is part of the Research Data Alliance and European Open Science Cloud Future call 2022. More info.   The maSMP project is part of the NFDI4DataScience project funded by the German Research Foundation (DFG), project number 460234259.",
+        "organization": "",
+        "committee": "",
+        "type": "",
+        "number": "",
+        "versionNumber": "",
+        "edition": "",
+        "status": "",
+        "date": "2024-01-29",
+        "publisher": "Zenodo",
+        "place": "",
+        "partNumber": "",
+        "partTitle": "",
+        "ISBN": "",
+        "DOI": "10.5281/zenodo.10582121",
+        "citationKey": "",
+        "url": "https://zenodo.org/records/10582121",
+        "accessDate": "2024-01-31T09:57:29Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "numPages": "",
+        "language": "",
+        "libraryCatalog": "Zenodo",
+        "callNumber": "",
+        "rights": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "Software Management Plan (SMP)"
+          },
+          {
+            "tag": "geist@zbmed.de"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "maSMP"
+          },
+          {
+            "tag": "nfdi4ds"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "solanki@zbmed.de"
+          },
+          {
+            "tag": "von ZB MED"
+          }
+        ],
+        "collections": [
+          "5WQA4ZZ3"
+        ],
+        "relations": {},
+        "dateAdded": "2025-10-09T16:38:14Z",
+        "dateModified": "2025-10-09T16:38:14Z"
+      }
+    }
+  },
+  {
+    "project": "STELLA",
+    "collection_hash": "UAFVXV3R",
+    "item": {
+      "key": "N49QKM3Q",
+      "version": 178,
+      "library": {
+        "type": "group",
+        "id": 6239752,
+        "name": "SemTecTeam",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/semtecteam",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/6239752/items/N49QKM3Q",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam/items/N49QKM3Q",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Giraldo et al.",
+        "parsedDate": "2022-11-19",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "N49QKM3Q",
+        "version": 178,
+        "itemType": "dataset",
+        "title": "Fleiss kappa for doc-2-doc relevance assessment",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Olga",
+            "lastName": "Giraldo"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dhwani",
+            "lastName": "Solanki"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "Here we present a table summarizing the Fleiss’ kappa results. The Fleiss’ Kappa was calculated as a way to measure the degree of agreement between four annotators who evaluated the relevance of a set of documents (15 evaluation articles) regarding its corresponding “reference article”. The table contains 7 columns, the first one presents the topics, 8 in total. The second column shows the “reference articles”, represented by their PubMed-ID and organized by topic. The third column shows the Fleiss’ Kappa results. The fourth column shows the interpretation of the Fleiss' Kappa results being: i) “Poor” results <0.20, ii) “Fair” results within 0.21 - 0.40, and iii) “Moderate” results within 0.41 - 0.60. The fifth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Relevant” regarding its corresponding “reference article”. The sixth column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Partially relevant” regarding its corresponding “reference article”. The seventh column shows the PubMed-IDs of evaluation articles rated by the four annotators as “Non-relevant” regarding its corresponding “reference article”.   Acknowledgements  This work is part of the STELLA project funded by DFG (project no. 407518790). This work was supported by the BMBF-funded de.NBI Cloud within the German Network for Bioinformatics Infrastructure (de.NBI) (031A532B, 031A533A, 031A533B, 031A534A, 031A535A, 031A537A, 031A537B, 031A537C, 031A537D, 031A538A).",
+        "identifier": "",
+        "type": "",
+        "versionNumber": "",
+        "date": "2022-11-19",
+        "repository": "Zenodo",
+        "repositoryLocation": "",
+        "format": "",
+        "DOI": "10.5281/zenodo.7338056",
+        "citationKey": "",
+        "url": "https://zenodo.org/record/7338056",
+        "accessDate": "2022-11-21T10:24:36Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "eng",
+        "libraryCatalog": "Zenodo",
+        "callNumber": "",
+        "rights": "All rights reserved",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "Fleiss kappa",
+            "type": 1
+          },
+          {
+            "tag": "Inter-annotator agreement",
+            "type": 1
+          },
+          {
+            "tag": "giraldo@zbmed.de"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          }
+        ],
+        "collections": [
+          "UAFVXV3R"
+        ],
+        "relations": {},
+        "dateAdded": "2026-04-21T07:40:32Z",
+        "dateModified": "2026-04-21T07:40:32Z"
+      }
+    }
+  },
+  {
+    "project": "STELLA",
+    "collection_hash": "UAFVXV3R",
+    "item": {
+      "key": "BTX7VLQE",
+      "version": 95,
+      "library": {
+        "type": "group",
+        "id": 6239752,
+        "name": "SemTecTeam",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/semtecteam",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/6239752/items/BTX7VLQE",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam/items/BTX7VLQE",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Giraldo et al.",
+        "parsedDate": "2022-11-15",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "BTX7VLQE",
+        "version": 95,
+        "itemType": "dataset",
+        "title": "Document-to-document relevant assessment for TREC Genomics Track 2005",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Olga",
+            "lastName": "Giraldo"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dhwani",
+            "lastName": "Solanki"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Fernanda",
+            "lastName": "Cadena"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Andrea",
+            "lastName": "Robayo-Gama"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "Here we present a table with document-to-document relevance assessment judgements on a subset of the TREC Genomics Track 2005 which corresponds to document-to-topic relevance assessments. This data was produced by four annotators to make it possible to analyze inter-annotator agreements as part of our future work. The data was produced with and in-house annotation tool tailored to the initial TREC data and the task at hand. The \"raw data document evaluation\" contains six columns, first row consecutive id, second original TREC topic, third PubMed Id used as reference document, fourth PMID used to evaluate the relevance wrt the reference document, fifth the relevance score (2 definitely relevant, 1 partially relevant, 0 non-relevant), and sixth annotator id.   Acknowledgements This work is part of the STELLA project funded by DFG (project no. 407518790). This work was supported by the BMBF-funded de.NBI Cloud within the German Network for Bioinformatics Infrastructure (de.NBI) (031A532B, 031A533A, 031A533B, 031A534A, 031A535A, 031A537A, 031A537B, 031A537C, 031A537D, 031A538A).",
+        "identifier": "",
+        "type": "",
+        "versionNumber": "",
+        "date": "2022-11-15",
+        "repository": "Zenodo",
+        "repositoryLocation": "",
+        "format": "",
+        "DOI": "10.5281/zenodo.7324822",
+        "citationKey": "",
+        "url": "https://zenodo.org/record/7324822",
+        "accessDate": "2022-11-21T10:22:10Z",
+        "archive": "",
+        "archiveLocation": "",
+        "shortTitle": "",
+        "language": "eng",
+        "libraryCatalog": "Zenodo",
+        "callNumber": "",
+        "rights": "All rights reserved",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "Relevance assessment",
+            "type": 1
+          },
+          {
+            "tag": "document similarity",
+            "type": 1
+          },
+          {
+            "tag": "giraldo@zbmed.de"
+          },
+          {
+            "tag": "literature manual curation",
+            "type": 1
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          }
+        ],
+        "collections": [
+          "UAFVXV3R"
+        ],
+        "relations": {},
+        "dateAdded": "2025-10-09T16:52:44Z",
+        "dateModified": "2025-10-09T16:52:44Z"
+      }
+    }
+  },
+  {
+    "project": "STELLA",
+    "collection_hash": "UAFVXV3R",
+    "item": {
+      "key": "6Q9LRTU2",
+      "version": 131,
+      "library": {
+        "type": "group",
+        "id": 6239752,
+        "name": "SemTecTeam",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/groups/semtecteam",
+            "type": "text/html"
+          }
+        }
+      },
+      "links": {
+        "self": {
+          "href": "https://api.zotero.org/groups/6239752/items/6Q9LRTU2",
+          "type": "application/json"
+        },
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam/items/6Q9LRTU2",
+          "type": "text/html"
+        }
+      },
+      "meta": {
+        "createdByUser": {
+          "id": 5871115,
+          "username": "ljgarciac",
+          "name": "",
+          "links": {
+            "alternate": {
+              "href": "https://www.zotero.org/ljgarciac",
+              "type": "text/html"
+            }
+          }
+        },
+        "creatorSummary": "Talha et al.",
+        "parsedDate": "2022-11-21",
+        "numChildren": 0
+      },
+      "data": {
+        "key": "6Q9LRTU2",
+        "version": 131,
+        "itemType": "computerProgram",
+        "title": "TREC-doc-2-doc-relevance assessment interface",
+        "creators": [
+          {
+            "creatorType": "programmer",
+            "firstName": "Mohammad",
+            "lastName": "Talha"
+          },
+          {
+            "creatorType": "programmer",
+            "firstName": "Lukas",
+            "lastName": "Geist"
+          },
+          {
+            "creatorType": "programmer",
+            "firstName": "Tim",
+            "lastName": "Fellerhof"
+          },
+          {
+            "creatorType": "programmer",
+            "firstName": "Rohitha",
+            "lastName": "Ravinder"
+          },
+          {
+            "creatorType": "programmer",
+            "firstName": "Olga",
+            "lastName": "Giraldo"
+          },
+          {
+            "creatorType": "programmer",
+            "firstName": "Dietrich",
+            "lastName": "Rebholz-Schuhmann"
+          },
+          {
+            "creatorType": "programmer",
+            "firstName": "Leyla Jael",
+            "lastName": "Castro"
+          }
+        ],
+        "abstractNote": "TREC-doc-2-doc-relevance The code, data and docs at this repo aim at facilitating the creation of a doc-2-doc relevance assessment on PMIDs used in the TREC 2005 Genomics track. A doc-2-doc relevance assessment takes one document as reference and assess a second document regarding its relevance to the reference one. This doc-2-doc collection will be used to evaluate the doc-2-doc recommendations approaches that we are working on. The TREC 2005 Genomics track corresponds to document-2-topic relevance assessment. Our assumption is that articles relevant to a topic will be more relevant to each other that those which are not relevant to the topic. This premise has been used before in previous approaches . With this TREC-doc-2-doc-relevance project, we want to double check this assumption by creating a doc-2-doc relevance assessment corpus based on TREC 2005 Genomics track. Data The TREC 2005 Genomics Track data can be found at https://trec.nist.gov/data/t14_genomics.html. The data used for the doc-2-doc relevance assessment and the assessments carried by four annotators can be found at https://zenodo.org/record/7324822 while the Fleiss Kappa data at https://zenodo.org/record/7338056. Releases v1.0.0 is the initial release of the TREC-doc-2-doc-relevance assessment interface. The tools has been used by four annotators on a corpus extracted from TREC 2005 Genomics Track. Acknowledgements This work is part of the STELLA project funded by DFG (project no. 407518790). This work was supported by the BMBF-funded de.NBI Cloud within the German Network for Bioinformatics Infrastructure (de.NBI) (031A532B, 031A533A, 031A533B, 031A534A, 031A535A, 031A537A, 031A537B, 031A537C, 031A537D, 031A538A).",
+        "seriesTitle": "",
+        "versionNumber": "",
+        "date": "2022-11-21",
+        "system": "",
+        "company": "Zenodo",
+        "place": "",
+        "programmingLanguage": "",
+        "rights": "All rights reserved",
+        "citationKey": "",
+        "url": "https://zenodo.org/record/7341391",
+        "accessDate": "2022-11-21T11:26:51Z",
+        "DOI": "10.5281/zenodo.7341391",
+        "ISBN": "",
+        "archive": "",
+        "archiveLocation": "",
+        "libraryCatalog": "Zenodo",
+        "callNumber": "",
+        "shortTitle": "",
+        "extra": "",
+        "tags": [
+          {
+            "tag": "Relevance assessment, Web Flask application, Python",
+            "type": 1
+          },
+          {
+            "tag": "giraldo@zbmed.de"
+          },
+          {
+            "tag": "ljgarcia@zbmed.de"
+          },
+          {
+            "tag": "rebholz-schuhmann@zbmed.de"
+          },
+          {
+            "tag": "semtec"
+          }
+        ],
+        "collections": [
+          "UAFVXV3R"
+        ],
+        "relations": {},
+        "dateAdded": "2025-10-09T16:51:05Z",
+        "dateModified": "2025-10-09T16:51:05Z"
+      }
+    }
+  }
+]

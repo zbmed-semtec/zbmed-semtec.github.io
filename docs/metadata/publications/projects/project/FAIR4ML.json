@@ -1,0 +1,1136 @@
+[
+  {
+    "key": "NEXFNI3W",
+    "version": 78,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/NEXFNI3W",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/NEXFNI3W",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2023-12-19",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "NEXFNI3W",
+      "version": 78,
+      "itemType": "dataset",
+      "title": "Towards metadata for machine learning - Crosswalk tables",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fynn",
+          "lastName": "Beuttenmüller"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zongxiong",
+          "lastName": "Chen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sefika",
+          "lastName": "Efeoglu"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Garijo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fotis",
+          "lastName": "Psomopoulos"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Beatriz",
+          "lastName": "Serrano-Solano"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Kirubel Biruk",
+          "lastName": "Shiferaw"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bianca",
+          "lastName": "Wentzel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Yue",
+          "lastName": "Zhang"
+        }
+      ],
+      "abstractNote": "Crosswalks for Machine Learning models and datasets used for training Here we present a collection of crosswalks for ML models (in TSV and XLSX formats) and datasets used for training (in TSV and XLSX formats). These crosswalks were created during an NFDI4DataScience hackathon organized by the Semantic Technologies team (SemTec) at ZB MED Information Centre for Life Sciences (ZB MED) with the aim of provindg a starting point for a common proposal towards a metadata schema for ML models based on schema.org. Files 2023.11.23 Metadata for ML - ML dataset Union.tsv: Crosswalks for datasets in TSV format 2023.11.23 Metadata for ML - ML dataset Union.xlsx: Crosswalks for datasets in XLSX format 2023.11.23 Metadata for ML - ML model union.tsv: Crosswalks for ML models in TSV format 2023.11.23 Metadata for ML - ML model union.xlsx: Crosswalks for ML models in XLSX format",
+      "identifier": "",
+      "type": "",
+      "versionNumber": "",
+      "date": "2023-12-19",
+      "repository": "Zenodo",
+      "repositoryLocation": "",
+      "format": "",
+      "DOI": "10.5281/zenodo.10407320",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/10407320",
+      "accessDate": "2023-12-19T19:00:35Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "All rights reserved",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        }
+      ],
+      "collections": [
+        "5J7T28PQ"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:39:59Z",
+      "dateModified": "2025-10-09T16:39:59Z"
+    }
+  },
+  {
+    "key": "AVW2QPQV",
+    "version": 46,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/AVW2QPQV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/AVW2QPQV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Bolleman et al.",
+      "parsedDate": "2025-04-02",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "AVW2QPQV",
+      "version": 46,
+      "itemType": "preprint",
+      "title": "An assessment of Croissant ML metadata descriptors for AI-ready datasets",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jerven",
+          "lastName": "Bolleman"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alban",
+          "lastName": "Gaignard"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Agoritsa",
+          "lastName": "Kalampaliki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matúš",
+          "lastName": "Kalaš"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Edwin Jun Kiat",
+          "lastName": "Ong"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Núria Queralt",
+          "lastName": "Rosinach"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Steinberg"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Claus",
+          "lastName": "Weiland"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daphne",
+          "lastName": "Wijnbergen"
+        }
+      ],
+      "abstractNote": "To advance the use of machine learning to address humanity’s grand challenges such as the understanding of disease conditions and biodiversity loss in the anthropocene, it is important to promote FAIR AI-ready datasets, since data scientists and bioinformaticians spend 80% of their time in data finding and preparation. Metadata descriptors for datasets are pivotal for the creation of machine learning models as they facilitate the definition of strategies for data discovery, feature selection, data cleaning, and data pre-processing. ML-ready datasets, whether by design or after pre-processing, can be enriched with metadata so they become FAIRer, i.e., autonomously discoverable and processable by machines (machine-actionable). Croissant ML is an extension of schema.org to better describe ML-ready datasets, released early 2024 and already adopted by some ML-model platforms such as Hugging Face (see Croissant ML viewer documentation) and OpenML. However, as it commonly happens with metadata, there are some limitations to the amount of metadata that can be automatically extracted. How much Croissant metadata can be programmatically extracted from ML-ready datasets? And how could this automation be improved? In this project, we explored answers to these two questions.",
+      "genre": "",
+      "repository": "OSF",
+      "archiveID": "",
+      "place": "",
+      "date": "2025-04-02",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.37044/osf.io/4sgdq_v1",
+      "citationKey": "",
+      "url": "https://osf.io/4sgdq_v1",
+      "accessDate": "2025-04-02T10:53:11Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en-us",
+      "libraryCatalog": "OSF Preprints",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "AI-ready",
+          "type": 1
+        },
+        {
+          "tag": "BioHackathon",
+          "type": 1
+        },
+        {
+          "tag": "Croissant ML",
+          "type": 1
+        },
+        {
+          "tag": "Knowledge Graph",
+          "type": 1
+        },
+        {
+          "tag": "MLentory"
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5J7T28PQ",
+        "BRFBELHM"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:09:13Z",
+      "dateModified": "2025-10-09T16:10:21Z"
+    }
+  },
+  {
+    "key": "ZVMPS73M",
+    "version": 134,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/ZVMPS73M",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/ZVMPS73M",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Solanki et al.",
+      "parsedDate": "2025-08-26",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "ZVMPS73M",
+      "version": 134,
+      "itemType": "presentation",
+      "title": "FAIR4ML, a vocabulary to describe Machine/Deep Learning models",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Jenifer Tabita",
+          "lastName": "Ciuciu-Kiss"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Nelson David",
+          "lastName": "Quiñones Virgen"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Daniel",
+          "lastName": "Garijo"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "FAIR4ML is an extension of the schema.org vocabulary, designed to describe ML model metadata.  We have followed a collaborative approach to create the FAIR4ML vocabulary. Initially proposed as a task force in the RDA FAIR4ML-IG, members of the IG contributed with use cases, competency questions, and analysis of descriptions provided by ML model hosting platforms (e.g., Hugging Face, OpenML).\n\nThis presentation corresponds to the abstract submission to CoRDI 2025 available at https://doi.org/10.5281/zenodo.16735333.\n\nFunding\n\nLJC, DS, NQ, SV, RR, and DRS work in FAIR4ML has been partially supported by the NFDI4DataScience consortium funded by the German Research Foundation (DFG –Deutsche Forschungsgemeinschaft), project number 460234259.",
+      "presentationType": "",
+      "date": "2025-08-26",
+      "meetingName": "2nd Conference on Research Data Infrastructure (CoRDI)",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.16954417",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/16954417",
+      "accessDate": "2025-10-09T16:00:41Z",
+      "shortTitle": "",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Controlled Vocabulary",
+          "type": 1
+        },
+        {
+          "tag": "ML models",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Semantics",
+          "type": 1
+        },
+        {
+          "tag": "fair4ml"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5J7T28PQ"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:02:04Z",
+      "dateModified": "2025-10-09T16:04:17Z"
+    }
+  },
+  {
+    "key": "32CU2TBH",
+    "version": 134,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/32CU2TBH",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/32CU2TBH",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro",
+      "parsedDate": "2025-09-15",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "32CU2TBH",
+      "version": 134,
+      "itemType": "presentation",
+      "title": "Tutorial: Introduction to FAIR4ML, a vocabulary to describe FAIR AI models",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Name: Tutorial - Introduction to FAIR4ML, a vocabulary to describe FAIR AI models\n\nDescription: This tutorial provides an introduction the FAIR4ML, a schema.org extension to represent AI models (particularly ML/DL models) based on ML model cards. It first introduces metadata at a high level to then deep into FAIR4ML, including the metadata schema, its use with JSON-LD, benefits, and next steps. If finished with an early adoption of FAIR4ML. This tutorial includes hands-on exercises.\n\nKeywords: Machine learning model cards, responsible AI, transparency, documentation, metadata, schema.org, FAIR4ML, controlled vocabulary\n\nLearning objectives:\n\n\n\n\n\nExplain what ML model cards are and their purpose.\n\n\n\n\nIdentify the main sections of a model card.\n\n\n\n\nExplain why model cards are important for responsible/transparent AI\n\n\n\nPrerequisites/requirements:\n\n\n\n\n\nBasic knowledge on ML model cards \n\n\n\n\n\n\nwhat they are\n\n\n\n\nwhat their purpose is\n\n\n\n\n\nSome knowledge on semantic data\n\n\n\n\n\n\nwhat a type/class is \n\n\n\n\nwhat a property/relation is and their relation to types/classes\n\n\n\n\nhow to “read” a triple\n\n\n\n\nAdditional information:\n\n\n\nTime estimation: 30 minutes\n\n Level: Beginner / Introductory\n\n Published: 2025-09-15\n\n Latest modification: 2025-09-15\n\n License: CC-By 4.0\n\n Version: 1.0.0\n\n Identifier: DOI:10.5281/zenodo.17062369.\n\n Citation: Castro, L. J. (2025, September 15). Tutorial: Introduction to FAIR4ML, a vocabulary to describe FAIR AI models. Zenodo. https://doi.org/10.5281/zenodo.17062369\n\n\nOther tutorials in this series:\n\n\n\nCastro, L. J. (2025, September 15). Tutorial: Introduction to ML model cards. Zenodo. https://doi.org/10.5281/zenodo.17062307   \n\nCastro, L. J. (2025, September 15). Tutorial: Introduction to MLentory, a metadata registry for AI models. Zenodo. https://doi.org/10.5281/zenodo.17062651",
+      "presentationType": "",
+      "date": "2025-09-15",
+      "meetingName": "48th German Conference on Artificial Intelligence (KI2025)",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/zenodo.17062369",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/17062369",
+      "accessDate": "2025-10-09T15:51:19Z",
+      "shortTitle": "Tutorial",
+      "language": "eng",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Controlled vocabulary",
+          "type": 1
+        },
+        {
+          "tag": "Documentation",
+          "type": 1
+        },
+        {
+          "tag": "FAIR4ML",
+          "type": 1
+        },
+        {
+          "tag": "Machine learning model cards",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Responsible AI",
+          "type": 1
+        },
+        {
+          "tag": "Transparency",
+          "type": 1
+        },
+        {
+          "tag": "fair4ml"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5J7T28PQ"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:52:28Z",
+      "dateModified": "2025-10-09T15:52:28Z"
+    }
+  },
+  {
+    "key": "QC525XH9",
+    "version": 26,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/QC525XH9",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/QC525XH9",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2024",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "QC525XH9",
+      "version": 26,
+      "itemType": "standard",
+      "title": "FAIR4ML metadata schema",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Garijo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jenifer Tabita",
+          "lastName": "Ciuciu-Kiss"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "",
+          "lastName": "RDA FAIR4ML Metadata Task Force"
+        }
+      ],
+      "abstractNote": "",
+      "organization": "",
+      "committee": "",
+      "type": "",
+      "number": "",
+      "versionNumber": "",
+      "edition": "",
+      "status": "",
+      "date": "2024",
+      "publisher": "",
+      "place": "",
+      "partNumber": "",
+      "partTitle": "",
+      "ISBN": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://rda-fair4ml.github.io/FAIR4ML-schema/release/0.0.1/index.html",
+      "accessDate": "2024-06-21T10:10:43Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "numPages": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "5J7T28PQ"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:13:23Z",
+      "dateModified": "2025-10-09T15:13:23Z"
+    }
+  },
+  {
+    "key": "ALMQUQU8",
+    "version": 26,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/ALMQUQU8",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/ALMQUQU8",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2024-10-28",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "ALMQUQU8",
+      "version": 26,
+      "itemType": "standard",
+      "title": "FAIR4ML-schema",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Garijo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jenifer Tabita",
+          "lastName": "Ciuciu-Kiss"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dan",
+          "lastName": "Katz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lars",
+          "lastName": "Eklund"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gnana",
+          "lastName": "Bharathy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "",
+          "lastName": "Research Data Alliance FAIR4ML Task"
+        }
+      ],
+      "abstractNote": "An increasing amount of machine learning models are produced and shared in the Web by research scientists, ML enthusiast and ML developers. In this vocabulary we introduce a Schema.org extension for creating machine-readable representations of  Machine Learning models.",
+      "organization": "",
+      "committee": "",
+      "type": "",
+      "number": "",
+      "versionNumber": "",
+      "edition": "",
+      "status": "",
+      "date": "2024-10-28",
+      "publisher": "Zenodo",
+      "place": "",
+      "partNumber": "",
+      "partTitle": "",
+      "ISBN": "",
+      "DOI": "10.5281/zenodo.14002310",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/14002310",
+      "accessDate": "2024-11-08T14:15:54Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "numPages": "",
+      "language": "",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5J7T28PQ"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:13:20Z",
+      "dateModified": "2025-10-09T15:13:20Z"
+    }
+  },
+  {
+    "key": "WVF5J8ME",
+    "version": 135,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/WVF5J8ME",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/WVF5J8ME",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Garijo and Castro",
+      "parsedDate": "2025-09-28",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "WVF5J8ME",
+      "version": 135,
+      "itemType": "presentation",
+      "title": "FAIR4ML report at the Emerging Technologies and Trends in Research Data and Software webinar",
+      "creators": [
+        {
+          "creatorType": "presenter",
+          "firstName": "Daniel",
+          "lastName": "Garijo"
+        },
+        {
+          "creatorType": "presenter",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "FAIR4ML report at the Emerging Technologies and Trends in Research Data and Software webinar",
+      "presentationType": "",
+      "date": "2025-09-28",
+      "meetingName": "",
+      "place": "",
+      "series": "",
+      "sessionTitle": "",
+      "DOI": "10.5281/ZENODO.17220253",
+      "citationKey": "",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.17220253",
+      "accessDate": "2025-10-01T15:44:06Z",
+      "shortTitle": "",
+      "language": "",
+      "rights": "Creative Commons Attribution 4.0 International",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "FAIR4ML"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        }
+      ],
+      "collections": [
+        "5J7T28PQ"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:11:13Z",
+      "dateModified": "2025-10-09T15:11:13Z"
+    }
+  },
+  {
+    "key": "Y2PKXR7J",
+    "version": 21,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/Y2PKXR7J",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/Y2PKXR7J",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Solanki et al.",
+      "parsedDate": "2025-08-04",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "Y2PKXR7J",
+      "version": 21,
+      "itemType": "conferencePaper",
+      "title": "FAIR4ML, a vocabulary to describe Machine/Deep Learning models",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Dhwani",
+          "lastName": "Solanki"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jenifer Tabita",
+          "lastName": "Ciuciu-Kiss"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nelson",
+          "lastName": "Quiñones"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Rohitha",
+          "lastName": "Ravinder"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dietrich",
+          "lastName": "Rebholz-Schuhmann"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Garijo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "York",
+          "lastName": "Sure-Vetter"
+        },
+        {
+          "creatorType": "editor",
+          "firstName": "Paul",
+          "lastName": "Groth"
+        }
+      ],
+      "abstractNote": "In recent years, we have seen an increase in the creation and usage of Machine/Deep Learning (abbreviated as ML in the text) models in most, if not all, scientific disciplines. ML models, like software, have become research artifacts themselves, with the need to provide rich descriptions and documentation to facilitate reuse, transparency, and reproducibility, while also adhering to common good practices for research. Despite their importance and applicability (e.g., predictions, classification, clustering), machine-readable metadata describing these models is not often  provided. Some efforts such as the ML Model Cards [1] and the Data, Optimization, Model, and Evaluation (DOME) [2] recommendations promote good reporting practices. However, there is still a gap when it comes to support rich structured semantic metadata as descriptions are still buried in text-based documents such as readmes, tables, reports and scholarly articles. To overcome this challenge, the Research Data Alliance (RDA) FAIR for Machine Learning Interest Group (FAIR4ML-IG) took over the task to create FAIR4ML [3], an extension of the schema.org [4] vocabulary, designed to describe ML model metadata. We decided on schema.org as it has been successfully extended by other research-related initiatives [5], including Bioschemas [6] to describe Life Science data in web pages and its sister-project Schemas.Science to describe research artifacts; Science on Schema.org [7] and RDA Research Metadata [8] to describe datasets and data repositories; Croissant ML [9] to describe datasets to be used in Artificial Intelligence applications; and CodeMeta [10] and machine-actionable Software Management Plans [11] to describe research software. By extending schema.org, our vocabulary FAIR4ML becomes compatible with these efforts.  We have followed a collaborative approach to create the FAIR4ML vocabulary. Initially proposed as a task force in the RDA FAIR4ML-IG, members of the IG contributed with use cases, competency questions, and analysis of descriptions provided by ML model hosting platforms (e.g., Hugging Face [12], OpenML [13]). Two groups proposed independent schemas that were later combined and harmonized, resulting in v0.0.1 [3]. The vocabulary has been further refined during hackathons, where we have worked on crosswalks to other schemas and ML model hosting platforms, the resulting version has not been yet published. We will continue tuning the vocabulary until reaching a stable version that fits most of the cases.  Although FAIR4ML vocabulary is still under development, it has already been adopted by two of the involved partners. InesData [14] uses FAIR4ML to describe a small set of models. MLentory [15], part of NFDI4DataScience service portfolio, uses FAIR4ML to harmonize metadata extracted and aggregated from multiple platforms, including Hugging Face and OpenML. Further adoption is already in consideration. For instance, FAIR4ML will be integrated into the NFDI4DS in-silico metadata protocol for reproducibility, a comprehensive view of core metadata needed to facilitate the reproducibility of ML models. Other collaborators like the Oak Ridge National Laboratory (ORLN) have shown interest in contributing to and extending FAIR4ML to describe provenance and results of their trained ML models.",
+      "proceedingsTitle": "",
+      "conferenceName": "CoRDI 2025",
+      "publisher": "Zenodo",
+      "place": "Aachen, Germany",
+      "date": "2025-08-04",
+      "eventPlace": "",
+      "volume": "",
+      "issue": "",
+      "numberOfVolumes": "",
+      "pages": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.5281/ZENODO.16735334",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/doi/10.5281/zenodo.16735334",
+      "accessDate": "2025-08-05T12:38:17Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "",
+      "callNumber": "",
+      "rights": "Creative Commons Attribution 4.0 International",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Controlled vocabulary",
+          "type": 1
+        },
+        {
+          "tag": "FAIR4ML"
+        },
+        {
+          "tag": "ML models",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Semantics",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi4ds"
+        },
+        {
+          "tag": "quinones@zbmed.de"
+        },
+        {
+          "tag": "ravinder@zbmed.de"
+        },
+        {
+          "tag": "rebholz-schuhmann@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "solanki@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "5J7T28PQ"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T15:08:06Z",
+      "dateModified": "2025-10-09T15:08:06Z"
+    }
+  }
+]

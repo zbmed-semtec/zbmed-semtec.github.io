@@ -1,0 +1,324 @@
+[
+  {
+    "key": "YM6WX39Y",
+    "version": 181,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/YM6WX39Y",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/YM6WX39Y",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "parsedDate": "2026-04-14",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "YM6WX39Y",
+      "version": 181,
+      "itemType": "report",
+      "title": "Empfehlung an die Konsortien und Mitglieder des Vereins  Nationale Forschungsdateninfrastruktur (NFDI) e.V.  zum Nachweis von NFDI-Datenrepositorien in re3data",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Heike",
+          "lastName": "Fliegl"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christin",
+          "lastName": "Henzen"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Matthias",
+          "lastName": "Löbe"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Oliver",
+          "lastName": "Koepler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Charlotte",
+          "lastName": "Neidiger"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Emanuel",
+          "lastName": "Söding"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thorsten",
+          "lastName": "Trippel"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ulrik",
+          "lastName": "Stervbo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Cord",
+          "lastName": "Wiljes"
+        }
+      ],
+      "abstractNote": "Dieses Dokument entstand im Rahmen der Task Force Metadata der Sektion (Meta)daten, Terminologien, Provenienz der Nationalen Forschungsdateninfrastruktur (NFDI) e.V. Die Empfehlung wurde auf Basis bewährter Nachnutzungen innerhalb der NFDI-Communities erarbeitet, beim 1. NFDI Metadaten Workshop im Januar 2025 vorgestellt und diskutiert sowie anschließend in einem konsensbildenden Prozess innerhalb der Task Force und der Sektion weiterentwickelt. Die vorliegende Fassung richtet sich als Release an die NFDI-Konsortien und ihre Mitglieder.\n\nDie Empfehlung verfolgt das Ziel, die Auffindbarkeit und Sichtbarkeit von NFDI-Datenrepositorien zu verbessern sowie einen nachhaltigen, qualitätsgesicherten Nachweis dieser Repositorien in re3data zu etablieren. Kernidee ist der Nachweis von NFDI-Repositorien in re3data und zu kuratieren. NFDI-Konsortien können Repositorien ihren wissenschaftlichen Communities zuordnen, und gemeinsam mit re3data soll eine Kennzeichnung von NFDI-Konsortien und Kollektionen eingeführt werden. Dies stärkt die Profilbildung der NFDI-Repositorien, fördert Transparenz und unterstützt eine FAIR-Kultur der Open Science.",
+      "reportNumber": "",
+      "reportType": "",
+      "institution": "Zenodo",
+      "place": "",
+      "date": "2026-04-14",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "10.5281/zenodo.19565419",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/19565419",
+      "accessDate": "2026-04-22T11:17:50Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "deu",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Data catalog"
+        },
+        {
+          "tag": "Daten-Repositorien",
+          "type": 1
+        },
+        {
+          "tag": "Forschungsdaten",
+          "type": 1
+        },
+        {
+          "tag": "Metadata"
+        },
+        {
+          "tag": "NFDI",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "re3data",
+          "type": 1
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "K7WS9APX"
+      ],
+      "relations": {},
+      "dateAdded": "2026-04-22T11:18:54Z",
+      "dateModified": "2026-04-22T11:18:54Z"
+    }
+  },
+  {
+    "key": "XJG4YFGP",
+    "version": 180,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/XJG4YFGP",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/XJG4YFGP",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Morsy et al.",
+      "parsedDate": "2026-04-20",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "XJG4YFGP",
+      "version": 180,
+      "itemType": "preprint",
+      "title": "The FAIR guiding principles for training  materials",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Sara",
+          "lastName": "Morsy"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Geert",
+          "lastName": "van Geest"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Allegra",
+          "lastName": "Via"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Helena",
+          "lastName": "Schnitzer"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Olivier",
+          "lastName": "Sand"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Patricia M",
+          "lastName": "Palagi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Melissa",
+          "lastName": "Burke"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Zoi",
+          "lastName": "Litou"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "FAIR T F",
+          "lastName": "Group"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fotis E",
+          "lastName": "Psomopoulos"
+        }
+      ],
+      "abstractNote": "Training materials are considered digital objects used to facilitate learning and support a wide range of educational activities. They are fundamental for knowledge transfer and play a pivotal role in advancing scientific research and capacity building in different scientific domains. \nThus, there is a clear need for a structured and sustainable framework that can facilitate its reuse and dissemination, increasing its impact. FAIR (findable, accessible, interoperable, reusable) principles are considered the most robust framework for the management of digital objects, including training materials. However, applying FAIR principles to training materials can be challenging, due to the diversity of formats and types of training materials of a single course. \nThis paper has focused on the adaptation of the FAIR principles specifically for training materials, with the objective of making their implementation more practical and relevant for trainers and trainees. Furthermore, key challenges associated with the FAIRification of training materials have been discussed. Addressing these challenges supports broader integration of FAIR principles throughout the lifecycle of training materials.",
+      "genre": "",
+      "repository": "MetaArXiv",
+      "archiveID": "8tzq5_v1",
+      "place": "",
+      "date": "2026-04-20",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "https://osf.io/preprints/metaarxiv/8tzq5_v1/",
+      "accessDate": "2026-04-21T07:35:54Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "",
+      "libraryCatalog": "OSF Preprints",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "Education",
+          "type": 1
+        },
+        {
+          "tag": "FAIR",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Research Infrastructure",
+          "type": 1
+        },
+        {
+          "tag": "Training",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "K7WS9APX"
+      ],
+      "relations": {},
+      "dateAdded": "2026-04-21T07:37:22Z",
+      "dateModified": "2026-04-21T07:37:22Z"
+    }
+  }
+]

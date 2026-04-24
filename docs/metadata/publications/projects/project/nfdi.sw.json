@@ -1,0 +1,282 @@
+[
+  {
+    "key": "MJA6QILX",
+    "version": 135,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/MJA6QILX",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/MJA6QILX",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Venkatesh et al.",
+      "parsedDate": "2025-12-11",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "MJA6QILX",
+      "version": 135,
+      "itemType": "report",
+      "title": "A preliminary assessment on CodeMeta support for FAIR and quality characteristics for Research Software",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Aida",
+          "lastName": "Jafarbigloo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Lu",
+          "lastName": "Gan"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        }
+      ],
+      "abstractNote": "Deliverable D2.5 “Quality criteria and metadata” for nfdi.software NFDI Base project\n\nHere we present our assessment on how CodeMeta aligns with and supports FAIR and quality indicators for research software. We first used a spreadsheet with CodeMeta as a reference point, assessing its support, property by property, to the FAIR for Research Software principles. We then built on top of the work done by the EOSC Task Force Ensure Software Quality, where the FAIR4RS principles were compared against software quality characteristics, adding an alignment to Codemeta properties. This report corresponds to the Deliverable D2.5 “Quality criteria and metadata” for nfdi.software NFDI Base project",
+      "reportNumber": "",
+      "reportType": "Deliverable nfdi.software",
+      "institution": "Zenodo",
+      "place": "",
+      "date": "2025-12-11",
+      "seriesTitle": "",
+      "seriesNumber": "",
+      "pages": "",
+      "DOI": "10.5281/zenodo.17897111",
+      "ISBN": "",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/17897111",
+      "accessDate": "2026-01-26T15:25:03Z",
+      "ISSN": "",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "eng",
+      "libraryCatalog": "Zenodo",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "FAIR4RS",
+          "type": 1
+        },
+        {
+          "tag": "Metadata",
+          "type": 1
+        },
+        {
+          "tag": "Research software",
+          "type": 1
+        },
+        {
+          "tag": "Software quality",
+          "type": 1
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "nfdi.sw"
+        },
+        {
+          "tag": "venkatesh@zbmed.de"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "58IWMWVW"
+      ],
+      "relations": {},
+      "dateAdded": "2026-01-26T15:27:26Z",
+      "dateModified": "2026-01-26T15:27:26Z"
+    }
+  },
+  {
+    "key": "AX5ESFQA",
+    "version": 47,
+    "library": {
+      "type": "group",
+      "id": 6239752,
+      "name": "SemTecTeam",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/groups/semtecteam",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/groups/6239752/items/AX5ESFQA",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/groups/semtecteam/items/AX5ESFQA",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "createdByUser": {
+        "id": 5871115,
+        "username": "ljgarciac",
+        "name": "",
+        "links": {
+          "alternate": {
+            "href": "https://www.zotero.org/ljgarciac",
+            "type": "text/html"
+          }
+        }
+      },
+      "creatorSummary": "Castro et al.",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "AX5ESFQA",
+      "version": 47,
+      "itemType": "preprint",
+      "title": "Initial concept for metadata exchange between nfdi.software and other Base4NFDI services",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Leyla Jael",
+          "lastName": "Castro"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Arnim",
+          "lastName": "Bleier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Roman",
+          "lastName": "Baum"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Björn",
+          "lastName": "Hagemeier"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thorsten",
+          "lastName": "Michels"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Wolfgang",
+          "lastName": "Pempe"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Martin",
+          "lastName": "Reinhardt"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jakob",
+          "lastName": "Voß"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Suhasini",
+          "lastName": "Venkatesh"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Jürgen",
+          "lastName": "Windeck"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Michael",
+          "lastName": "Zacharias"
+        }
+      ],
+      "abstractNote": "Abstract. Here we present our initial concept for metadata exchange with other Base4NFDI service. We first surveyed Base4NFDI projects to find out which Base projects would either consume or produce metadata for research software. Then conducted interviews with consumers and producers to figure out their needs based on common and distinctive metadata elements. Based on surveys and interviews, we present a diagram for a research software metadata exchange across Base4NFDI projects. Keywords. Research software, metadata, metadata exchange, interoperability",
+      "genre": "",
+      "repository": "",
+      "archiveID": "",
+      "place": "",
+      "date": "",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.5281/zenodo.15676106",
+      "citationKey": "",
+      "url": "https://zenodo.org/records/15676106",
+      "accessDate": "2025-07-11T14:53:52Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "zenodo.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [
+        {
+          "tag": "deliverable"
+        },
+        {
+          "tag": "ljgarcia@zbmed.de"
+        },
+        {
+          "tag": "metadata"
+        },
+        {
+          "tag": "nfdi.sw"
+        },
+        {
+          "tag": "research software"
+        },
+        {
+          "tag": "semtec"
+        },
+        {
+          "tag": "von ZB MED"
+        }
+      ],
+      "collections": [
+        "58IWMWVW"
+      ],
+      "relations": {},
+      "dateAdded": "2025-10-09T16:12:31Z",
+      "dateModified": "2025-10-09T16:12:31Z"
+    }
+  }
+]
