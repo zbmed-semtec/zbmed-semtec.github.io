@@ -1,0 +1,75 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+      {
+        "@id": "ro-crate-metadata.json",
+        "@type": "CreativeWork",
+        "conformsTo": {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        "about": {
+          "@id": "./"
+        }
+      },
+      {
+        "@id": "./",
+        "@type": ["Dataset"],
+        "name": "RO-crate for the research project 'DMP4NFDI'",
+        "description": "This RO-crate describes the research project 'DMP4NFDI' including metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprenhensive view of the research outcomes.",
+        "datePublished": "2023-11-02",
+        "license": {
+          "@type": "CreativeWork",
+          "@id": "http://spdx.org/licenses/CC-BY-4.0",
+          "name": "Creative Commons Attribution 4.0 International", 
+          "alternateName": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "keywords": [
+            "nfdi", "dmp", "smp", "rdmo"
+        ], 
+        "about": { "@id": "https://zbmed-semtec.github.io/projects/2024_DMP4NFDI/"},
+        "hasPart": [
+        ]
+      },
+      {
+        "@id": "https://zbmed-semtec.github.io/projects/2024_DMP4NFDI",
+        "@type": "ResearchProject",
+        "department": {
+          "@id": "https://zbmed-semtec.github.io/"
+        },
+        "description": "DMP4NFDI is a centralised Basic Service for managing data management plans (DMPs) and software management plans (SMPs) across the NFDI.",
+        "foundingDate": "2024-06-01",
+        "employee": [
+        ],
+        "alumni": [
+        ],
+        "name": "DMP4NFDI",
+        "funding": [
+      ],
+        "keywords": "nfdi, dmp, smp, rdmo",
+        "parentOrganization": [
+        ],
+        "knowsAbout": [
+        ]
+      },
+        {
+          "@id": "https://gepris.dfg.de/gepris/projekt/460234259#project",
+          "@type": "Consortium",
+          "name": "NFDI4DataScience"
+        },
+        {
+          "@id": "https://ror.org/0259fwx54",
+          "@type": "ResearchOrganization",
+          "alternateName": "ZB MED Information Centre for Life Sciences",
+          "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+          "url": { 
+            "@id": "https://zbmed.de/"
+          }
+        },
+        {
+          "@id": "https://zbmed-semtec.github.io/",
+          "@type": "ResearchOrganization",
+          "name": "Semantic Technologies team at ZB MED"
+        }
+    ]
+}
