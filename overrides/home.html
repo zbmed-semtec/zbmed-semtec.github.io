@@ -1,0 +1,187 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+
+  {% if page and page.is_homepage %}
+    <script>document.documentElement.classList.add("zb-homepage")</script>
+
+    <!-- ── Hero ──────────────────────────────────────────────────── -->
+    <section class="zb-lp-hero">
+      <div class="zb-lp-inner zb-lp-hero__inner">
+        <div class="zb-lp-hero__left">
+          <div class="zb-lp-tags">
+            <span class="zb-lp-tag">Semantic web</span>
+            <span class="zb-lp-tag">Data analytics</span>
+            <span class="zb-lp-tag">Life sciences</span>
+          </div>
+
+          <h1 class="zb-lp-title">Semantic technologies<br>team at ZB MED</h1>
+
+          <p class="zb-lp-desc">
+            A multidisciplinary R&amp;D team combining semantic technologies and data analytics, 
+            supporting reproducible research in information retrieval, data science and knowledge
+            discovery across the life sciences.
+
+            The Semantic Technologies team is part of the [BibLabs group](https://www.zbmed.de/en/research/research-at-zb-med/biblabs) at [ZB MED Information Centre for Life Sciences](https://www.zbmed.de/en). 
+          </p>
+
+          <div class="zb-lp-hero__btns">
+            <a class="zb-lp-btn zb-lp-btn--solid" href="{{ 'projects/' | url }}">Explore our work</a>
+            <a class="zb-lp-btn zb-lp-btn--ghost" href="{{ 'current_members/' | url }}">Meet the team →</a>
+          </div>
+        </div>
+
+        <div class="zb-lp-hero__deco" aria-hidden="true">
+          <img src="https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/semtec.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Feature cards ─────────────────────────────────────────── -->
+    <section class="zb-lp-features">
+      <div class="zb-lp-inner">
+        <div class="zb-lp-grid">
+
+          <div class="zb-lp-card">
+            <div class="zb-lp-card__icon">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+                <rect x="1.5" y="1.5" width="19" height="19" rx="4" stroke="#f57c00" stroke-width="1.8"/>
+                <rect x="6"   y="6"   width="10" height="10" rx="2" stroke="#f57c00" stroke-width="1.8"/>
+              </svg>
+            </div>
+            <h3 class="zb-lp-card__title">Ontologies &amp; vocabularies</h3>
+            <p  class="zb-lp-card__desc">Life sciences vocabularies enabling interoperability across datasets and research systems.</p>
+          </div>
+
+          <div class="zb-lp-card">
+            <div class="zb-lp-card__icon">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+                <line x1="3" y1="6"  x2="19" y2="6"  stroke="#f57c00" stroke-width="1.8" stroke-linecap="round"/>
+                <line x1="3" y1="11" x2="19" y2="11" stroke="#f57c00" stroke-width="1.8" stroke-linecap="round"/>
+                <line x1="3" y1="16" x2="13" y2="16" stroke="#f57c00" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="zb-lp-card__title">Text mining &amp; retrieval</h3>
+            <p  class="zb-lp-card__desc">Literature-based knowledge discovery from biomedical publications at scale.</p>
+          </div>
+
+          <div class="zb-lp-card">
+            <div class="zb-lp-card__icon">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+                <circle cx="7.5"  cy="11" r="3" fill="#f57c00"/>
+                <circle cx="14.5" cy="11" r="3" fill="#f57c00"/>
+              </svg>
+            </div>
+            <h3 class="zb-lp-card__title">Recommendation systems</h3>
+            <p  class="zb-lp-card__desc">Evaluation of experimental retrieval and recommendation engines for researchers.</p>
+          </div>
+
+          <div class="zb-lp-card">
+            <div class="zb-lp-card__icon">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+                <rect x="1.5" y="3"  width="19" height="13" rx="3"   stroke="#f57c00" stroke-width="1.8"/>
+                <line x1="7"  y1="19" x2="15"  y2="19"        stroke="#f57c00" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="zb-lp-card__title">Reproducibility &amp; FAIR</h3>
+            <p  class="zb-lp-card__desc">Practical support for FAIR+R principles in software and data science workflows.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Featured projects ─────────────────────────────────────── -->
+    <section class="zb-lp-features" style="background: #f1f1f1;">
+      <div class="zb-lp-inner">
+        <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:18px;">
+          <div>
+            <h2 style="margin:0 0 6px;font-weight:900;letter-spacing:-0.02em;">Featured Projects</h2>
+            <p style="margin:0;color:rgba(0,0,0,0.62);max-width:60ch;">
+              Software, tools, and resources developed by our team to support the life sciences community.
+            </p>
+          </div>
+          <a class="zb-lp-btn zb-lp-btn--ghost" href="{{ 'projects/' | url }}">View all projects →</a>
+        </div>
+
+        <div class="zb-grid" style="margin-top:0;">
+          <a class="zb-card zb-pcard" href="{{ 'projects/2021_OntoClue/' | url }}">
+            <div class="zb-pcard__body">
+              <div class="zb-pcard__tags">
+                <span class="zb-pcard__tag">Ontologies</span>
+                <span class="zb-pcard__tag">Literature recommendation</span>
+              </div>
+              <h3 class="zb-pcard__title">OntoClue</h3>
+              <p class="zb-pcard__desc">
+                Ontology-based label assignment supporting literature recommendations using ontologies and embeddings.
+              </p>
+            </div>
+            <div class="zb-pcard__footer">
+              <span>Project page</span><span class="zb-pcard__arrow">→</span>
+            </div>
+          </a>
+
+          <a class="zb-card zb-pcard" href="{{ 'projects/2022_maSMP/' | url }}">
+            <div class="zb-pcard__body">
+              <div class="zb-pcard__tags">
+                <span class="zb-pcard__tag">FAIR</span>
+                <span class="zb-pcard__tag">Software management</span>
+              </div>
+              <h3 class="zb-pcard__title">Machine-actionable Software Management Plans</h3>
+              <p class="zb-pcard__desc">
+                Extends machine-actionable DMP standards to cover ELIXIR Software Management Plans (SMPs).
+              </p>
+            </div>
+            <div class="zb-pcard__footer">
+              <span>Project page</span><span class="zb-pcard__arrow">→</span>
+            </div>
+          </a>
+
+          <a class="zb-card zb-pcard" href="{{ 'projects/MLentory/' | url }}">
+            <div class="zb-pcard__body">
+              <div class="zb-pcard__tags">
+                <span class="zb-pcard__tag">Machine learning</span>
+                <span class="zb-pcard__tag">Metadata</span>
+              </div>
+              <h3 class="zb-pcard__title">MLentory ETL Pipeline</h3>
+              <p class="zb-pcard__desc">
+                Explores APIs from ML platforms to harvest and harmonize ML model and dataset metadata.
+              </p>
+            </div>
+            <div class="zb-pcard__footer">
+              <span>Project page</span><span class="zb-pcard__arrow">→</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA ───────────────────────────────────────────────────── -->
+    <section class="zb-lp-cta">
+      <div class="zb-lp-inner zb-lp-cta__flex">
+        <div>
+          <p class="zb-lp-cta__heading">Join our team</p>
+          <p class="zb-lp-cta__sub">We're looking for motivated researchers. Visit our vacancies page.</p>
+        </div>
+        <a class="zb-lp-btn zb-lp-btn--solid"
+           href="https://www.zbmed.de/en/about/career/current-vacancies"
+           target="_blank" rel="noopener">Current vacancies →</a>
+      </div>
+    </section>
+
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  {% if page.is_homepage %}
+    {# Keep JSON-LD structured data for SEO but hide visible markdown content #}
+    <div hidden aria-hidden="true">{{ page.content }}</div>
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}
+
+{% block toc %}
+  {% if not page.is_homepage %}{{ super() }}{% endif %}
+{% endblock %}

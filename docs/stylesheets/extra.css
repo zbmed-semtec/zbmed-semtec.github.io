@@ -1,0 +1,1203 @@
+/* Visual polish + interactive helpers for MkDocs Material */
+
+:root {
+  --zb-accent: #f57c00;
+  --zb-surface: color-mix(in srgb, var(--md-default-bg-color) 92%, var(--zb-accent));
+  --zb-border: color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+}
+
+/* Hero landing page */
+.zb-hero {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 2.2rem 0 1.6rem;
+  border-bottom: 1px solid var(--zb-border);
+}
+.zb-hero__grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 22px;
+  padding-top: 0.4rem;
+  padding-bottom: 0.6rem;
+}
+.zb-hero__bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.zb-hero__orb {
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  filter: blur(28px);
+  opacity: 0.42;
+  transform: translate3d(0, 0, 0);
+}
+.zb-hero__orb--a {
+  left: -260px;
+  top: -200px;
+  background: radial-gradient(circle at 30% 30%, #ffb35a, transparent 60%);
+}
+.zb-hero__orb--b {
+  right: -260px;
+  top: -160px;
+  background: radial-gradient(circle at 70% 30%, #ffd28e, transparent 62%);
+}
+.zb-hero__orb--c {
+  left: 20%;
+  bottom: -360px;
+  background: radial-gradient(circle at 50% 50%, #ff8a00, transparent 65%);
+  opacity: 0.22;
+}
+.zb-hero__noise {
+  position: absolute;
+  inset: 0;
+  opacity: 0.08;
+  mix-blend-mode: overlay;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E");
+  background-size: 240px 240px;
+}
+.zb-kicker {
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  color: color-mix(in srgb, var(--md-default-fg-color) 70%, transparent);
+  margin-bottom: 0.5rem;
+}
+.zb-hero__title {
+  margin: 0 0 0.6rem;
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  font-size: clamp(2rem, 3.3vw, 3.1rem);
+}
+.zb-hero__lead {
+  margin: 0 0 1.1rem;
+  font-size: 1.05rem;
+  max-width: 62ch;
+  color: color-mix(in srgb, var(--md-default-fg-color) 78%, transparent);
+}
+.zb-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1.1rem;
+}
+.zb-btn {
+  border-radius: 999px !important;
+}
+.zb-input--hero {
+  padding: 12px 14px;
+  border-radius: 999px;
+  backdrop-filter: blur(8px);
+}
+.zb-hero__search {
+  max-width: 560px;
+}
+
+.zb-grid--hero {
+  margin-top: 0.4rem;
+}
+.zb-card--hero {
+  position: relative;
+  transform-style: preserve-3d;
+}
+.zb-card--hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  pointer-events: none;
+  background: radial-gradient(240px 140px at var(--zb-x, 20%) var(--zb-y, 30%),
+    color-mix(in srgb, var(--zb-accent) 35%, transparent),
+    transparent 70%);
+  opacity: 0;
+  transition: opacity 140ms ease;
+}
+.zb-card--hero:hover::after {
+  opacity: 1;
+}
+
+.zb-mini {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 12px;
+}
+.zb-mini__item {
+  border: 1px dashed var(--zb-border);
+  border-radius: 14px;
+  padding: 10px 12px;
+  background: color-mix(in srgb, var(--md-default-bg-color) 95%, var(--zb-accent));
+}
+.zb-mini__k {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  color: color-mix(in srgb, var(--md-default-fg-color) 70%, transparent);
+}
+.zb-mini__v {
+  font-size: 0.92rem;
+  color: color-mix(in srgb, var(--md-default-fg-color) 80%, transparent);
+}
+
+/* Typography + page rhythm */
+.md-content__inner > h1 {
+  letter-spacing: -0.02em;
+}
+.md-typeset h2 {
+  margin-top: 2.25rem;
+}
+.md-typeset h3 {
+  margin-top: 1.75rem;
+}
+
+/* Nicer “generated metadata tables” */
+.md-typeset table {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--zb-border) !important;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+}
+.md-typeset table td,
+.md-typeset table th {
+  border-color: var(--zb-border) !important;
+}
+.md-typeset table tr:nth-child(2n) {
+  background: color-mix(in srgb, var(--md-default-bg-color) 94%, var(--md-default-fg-color));
+}
+
+/* Card grid */
+.zb-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 14px;
+  margin: 1rem 0 1.25rem;
+}
+.zb-card {
+  grid-column: span 12;
+  display: block;
+  border: 1px solid var(--zb-border);
+  border-radius: 16px;
+  padding: 14px 14px 12px;
+  background: linear-gradient(180deg, var(--zb-surface), var(--md-default-bg-color));
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.10);
+  transition: transform 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+}
+.zb-card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--zb-accent) 55%, var(--zb-border));
+  box-shadow: 0 18px 52px rgba(0, 0, 0, 0.16);
+}
+
+/* Featured/project card style (like the provided mockup) */
+.zb-pcard {
+  padding: 0;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--md-default-bg-color) 97%, var(--md-default-fg-color));
+  border-radius: 18px;
+  position: relative;
+}
+
+/* Make the whole card clickable without nesting <a> tags */
+.zb-pcard__stretched {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.zb-pcard__body,
+.zb-pcard__footer {
+  position: relative;
+  z-index: 1;
+}
+.zb-pcard__actions,
+.zb-pcard__action {
+  position: relative;
+  z-index: 2;
+}
+.zb-pcard__body {
+  padding: 18px 18px 14px;
+}
+.zb-pcard__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 1px;
+}
+.zb-pcard__tag {
+  font-size: 0.50rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--zb-border);
+  background: #fae1c9;
+  color: color-mix(in srgb, var(--md-default-fg-color) 75%, transparent);
+}
+
+.zb-pcard__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+.zb-pcard__open {
+  flex: 0 0 auto;
+  margin-top: 2px;
+  color: color-mix(in srgb, var(--md-default-fg-color) 45%, transparent);
+  font-weight: 800;
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.zb-pcard__slug {
+  margin: -4px 0 10px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: color-mix(in srgb, var(--zb-accent) 55%, var(--md-default-fg-color));
+}
+
+.zb-pcard__title {
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 1.35rem;
+}
+.zb-pcard__desc {
+  margin: 0;
+  color: color-mix(in srgb, var(--md-default-fg-color) 68%, transparent);
+  line-height: 1.6;
+  font-size: 0.92rem;
+}
+.zb-pcard__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  border-top: 1px solid var(--zb-border);
+  background: color-mix(in srgb, var(--md-default-bg-color) 92%, var(--md-default-fg-color));
+  color: color-mix(in srgb, var(--md-default-fg-color) 72%, transparent);
+  font-weight: 600;
+}
+
+.zb-pcard__actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+.zb-pcard__action {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: inherit !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.zb-pcard__action:hover {
+  color: color-mix(in srgb, var(--md-default-fg-color) 92%, var(--zb-accent)) !important;
+}
+.zb-pcard__icon {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  display: inline-block;
+  color: color-mix(in srgb, var(--md-default-fg-color) 70%, transparent);
+}
+.zb-pcard__icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  fill: currentColor;
+}
+
+/* Clean icons (no inline SVG in markdown) */
+.zb-ico {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  flex: 0 0 16px;
+  background-color: currentColor;
+  -webkit-mask: var(--zb-ico) no-repeat center / contain;
+  mask: var(--zb-ico) no-repeat center / contain;
+}
+.zb-ico--github { --zb-ico: url("/images/icons/github.svg"); }
+.zb-ico--globe { --zb-ico: url("/images/icons/globe.svg"); }
+.zb-ico--download { --zb-ico: url("/images/icons/download.svg"); }
+
+/* Team cards */
+.zb-team-hero {
+  background: color-mix(in srgb, var(--md-default-bg-color) 92%, var(--md-default-fg-color));
+  border-bottom: 1px solid var(--zb-border);
+  padding: 2.2rem 0 1.8rem;
+  margin: -1.2rem -1.2rem 1.5rem;
+}
+.zb-team-hero__inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+.zb-team-hero h1 {
+  margin: 0 0 0.4rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+.zb-team-hero p {
+  margin: 0;
+  max-width: 70ch;
+  color: color-mix(in srgb, var(--md-default-fg-color) 65%, transparent);
+}
+
+.zb-section-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 1.6rem 0 1rem;
+  font-weight: 900;
+}
+.zb-section-title::before {
+  content: "";
+  width: 22px;
+  height: 2px;
+  background: color-mix(in srgb, var(--zb-accent) 70%, var(--md-default-fg-color));
+}
+
+.zb-member-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 14px;
+}
+.zb-member-card {
+  grid-column: span 12;
+  position: relative;
+  border: 1px solid var(--zb-border);
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--md-default-bg-color) 97%, var(--md-default-fg-color));
+  padding: 16px 14px 14px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+}
+.zb-member-card:hover {
+  box-shadow: 0 14px 40px rgba(0,0,0,0.12);
+  transform: translateY(-1px);
+}
+.zb-member-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+.zb-avatar {
+  width: 54px;
+  height: 54px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  color: color-mix(in srgb, var(--md-default-fg-color) 75%, transparent);
+  background: color-mix(in srgb, var(--md-default-bg-color) 70%, var(--zb-accent));
+  border: 1px solid var(--zb-border);
+}
+.zb-member-name {
+  margin: 10px 0 4px;
+  font-weight: 800;
+}
+.zb-member-role {
+  margin: 0;
+  font-size: 0.82rem;
+  color: color-mix(in srgb, var(--md-default-fg-color) 62%, transparent);
+}
+.zb-iconbtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  border: 1px solid var(--zb-border);
+  background: color-mix(in srgb, var(--md-default-bg-color) 92%, var(--md-default-fg-color));
+  color: color-mix(in srgb, var(--md-default-fg-color) 72%, transparent);
+  text-decoration: none !important;
+}
+.zb-iconbtn:hover {
+  color: color-mix(in srgb, var(--md-default-fg-color) 92%, var(--zb-accent));
+  border-color: color-mix(in srgb, var(--zb-accent) 55%, var(--zb-border));
+}
+
+@media (min-width: 680px) {
+  .zb-member-card { grid-column: span 6; }
+}
+@media (min-width: 980px) {
+  .zb-member-card { grid-column: span 3; }
+}
+
+.zb-alumni-grid .zb-member-card {
+  padding: 12px 12px 10px;
+}
+.zb-alumni-grid .zb-avatar {
+  width: 34px;
+  height: 34px;
+  font-size: 0.72rem;
+}
+.zb-alumni-grid .zb-member-name {
+  margin: 8px 0 2px;
+  font-size: 0.88rem;
+}
+.zb-pcard__footer .zb-pcard__arrow {
+  transform: translateX(0);
+  transition: transform 140ms ease;
+}
+.zb-pcard:hover .zb-pcard__footer .zb-pcard__arrow {
+  transform: translateX(3px);
+}
+.zb-card__title {
+  margin: 0 0 6px;
+  font-weight: 700;
+}
+.zb-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 0;
+}
+.zb-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--zb-border);
+  background: color-mix(in srgb, var(--md-default-bg-color) 88%, var(--zb-accent));
+  font-size: 0.72rem;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+/* Responsive columns */
+@media (min-width: 680px) {
+  .zb-card { grid-column: span 6; }
+}
+@media (min-width: 980px) {
+  .zb-card { grid-column: span 4; }
+}
+
+/* 2 cards per row (used on Projects page) */
+@media (min-width: 980px) {
+  .zb-grid--2col > .zb-card {
+    grid-column: span 6;
+  }
+}
+
+/* Full-width (list-style) cards */
+.zb-grid--full {
+  grid-template-columns: 1fr;
+}
+.zb-card--full {
+  grid-column: 1 / -1 !important;
+}
+
+/* Full-width horizontal cards (row layout) */
+.zb-card--row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+}
+.zb-card__icon {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--md-default-bg-color) 75%, var(--zb-accent));
+  border: 1px solid var(--zb-border);
+}
+.zb-card__body {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+.zb-card--row .zb-card__title {
+  margin: 0 0 2px;
+}
+.zb-card--row .zb-muted {
+  margin: 0;
+}
+
+/* Simple filter bar */
+.zb-filter {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 1rem 0 1.2rem;
+}
+.zb-input {
+  appearance: none;
+  width: 100%;
+  border: 1px solid var(--zb-border);
+  border-radius: 14px;
+  padding: 12px 12px;
+  background: color-mix(in srgb, var(--md-default-bg-color) 92%, var(--zb-accent));
+}
+.zb-muted {
+  color: color-mix(in srgb, var(--md-default-fg-color) 64%, transparent);
+  font-size: 0.85rem;
+  margin-top: -6px;
+}
+
+@media (min-width: 980px) {
+  .zb-hero__grid {
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: start;
+    gap: 26px;
+  }
+  .zb-mini {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ===== INTERACTIVE UPGRADE ===== */
+
+/* 1. Animated orb drift */
+.zb-hero__orb {
+  animation: zb-orb-drift 15s ease-in-out infinite alternate;
+}
+.zb-hero__orb--b {
+  animation-duration: 20s;
+  animation-delay: -7s;
+}
+.zb-hero__orb--c {
+  animation-duration: 25s;
+  animation-delay: -12s;
+}
+@keyframes zb-orb-drift {
+  from { transform: translate3d(0, 0, 0) scale(1); }
+  to   { transform: translate3d(30px, -24px, 0) scale(1.08); }
+}
+
+/* 2. Gradient hero title */
+.zb-hero__title {
+  background: linear-gradient(
+    130deg,
+    var(--md-default-fg-color) 45%,
+    color-mix(in srgb, var(--zb-accent) 85%, var(--md-default-fg-color)) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 3. Scroll progress bar */
+.zb-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: linear-gradient(90deg, #ff6d00, var(--zb-accent), #ffd740);
+  z-index: 9999;
+  pointer-events: none;
+  border-radius: 0 2px 2px 0;
+}
+
+/* 4. Stats strip */
+.zb-stats {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  border: 1px solid var(--zb-border);
+  border-radius: 14px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--md-default-bg-color) 90%, var(--zb-accent));
+}
+.zb-stat {
+  flex: 1 1 100px;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-right: 1px solid var(--zb-border);
+}
+.zb-stat:last-child {
+  border-right: none;
+}
+.zb-stat__num {
+  display: block;
+  font-size: 1.65rem;
+  font-weight: 900;
+  color: var(--zb-accent);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.zb-stat__label {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 4px;
+  color: color-mix(in srgb, var(--md-default-fg-color) 60%, transparent);
+}
+
+/* 5. Research tag cloud */
+.zb-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 0.9rem 0 0.2rem;
+}
+.zb-tag {
+  padding: 3px 12px;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  background: color-mix(in srgb, var(--zb-accent) 10%, var(--md-default-bg-color));
+  border: 1px solid color-mix(in srgb, var(--zb-accent) 28%, transparent);
+  color: color-mix(in srgb, var(--md-default-fg-color) 78%, var(--zb-accent));
+  cursor: default;
+  user-select: none;
+  transition: background 200ms ease, transform 200ms ease, box-shadow 200ms ease;
+}
+.zb-tag:hover {
+  background: color-mix(in srgb, var(--zb-accent) 25%, var(--md-default-bg-color));
+  transform: translateY(-2px) scale(1.07);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--zb-accent) 18%, transparent);
+}
+
+/* 6. Typing cursor */
+[data-zb-typing] {
+  border-right: 2px solid var(--zb-accent);
+  padding-right: 2px;
+  animation: zb-blink 0.9s step-end infinite;
+}
+@keyframes zb-blink {
+  50% { border-color: transparent; }
+}
+
+/* 7. Scroll reveal */
+.zb-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.zb-reveal.zb-visible {
+  opacity: 1;
+  transform: none;
+}
+.zb-reveal:nth-child(2) { transition-delay: 60ms; }
+.zb-reveal:nth-child(3) { transition-delay: 120ms; }
+.zb-reveal:nth-child(4) { transition-delay: 180ms; }
+.zb-reveal:nth-child(5) { transition-delay: 240ms; }
+.zb-reveal:nth-child(6) { transition-delay: 300ms; }
+
+/* 8. Enhanced card hover */
+.zb-card {
+  transition: transform 220ms cubic-bezier(0.22, 1, 0.36, 1),
+              border-color 180ms ease,
+              box-shadow 220ms ease !important;
+}
+.zb-card:hover {
+  transform: translateY(-5px) scale(1.014) !important;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18),
+              0 0 0 1px color-mix(in srgb, var(--zb-accent) 50%, transparent) !important;
+}
+
+/* 9. Button shine */
+.md-button {
+  position: relative;
+  overflow: hidden;
+}
+.md-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 55%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.26), transparent);
+  transform: skewX(-18deg);
+  pointer-events: none;
+}
+.md-button:hover::before {
+  animation: zb-shine 0.48s ease forwards;
+}
+@keyframes zb-shine {
+  to { left: 160%; }
+}
+
+/* 10. Page content fade-in */
+@keyframes zb-fadein {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: none; }
+}
+.md-content__inner {
+  animation: zb-fadein 0.42s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* 11. Mini item hover */
+.zb-mini__item {
+  transition: border-color 200ms ease, background 200ms ease, transform 180ms ease;
+}
+.zb-mini__item:hover {
+  border-color: color-mix(in srgb, var(--zb-accent) 55%, transparent);
+  background: color-mix(in srgb, var(--md-default-bg-color) 85%, var(--zb-accent));
+  transform: translateY(-1px);
+}
+
+/* 12. Chip hover */
+.zb-chip {
+  transition: background 160ms ease, transform 160ms ease;
+  cursor: default;
+}
+.zb-chip:hover {
+  background: color-mix(in srgb, var(--zb-accent) 22%, var(--md-default-bg-color));
+  transform: scale(1.08);
+}
+
+/* 13. Input focus ring */
+.zb-input:focus {
+  outline: none;
+  border-color: color-mix(in srgb, var(--zb-accent) 75%, transparent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--zb-accent) 15%, transparent);
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+/* 14. Table hover lift */
+.md-typeset table {
+  transition: box-shadow 220ms ease, transform 200ms ease;
+}
+.md-typeset table:hover {
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.14) !important;
+  transform: translateY(-1px);
+}
+
+/* 15. Kicker pulse on load */
+@keyframes zb-kicker-in {
+  from { opacity: 0; letter-spacing: 0.14em; }
+  to   { opacity: 1; letter-spacing: 0.06em; }
+}
+.zb-kicker {
+  animation: zb-kicker-in 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Responsive: stack stats on very small screens */
+@media (max-width: 420px) {
+  .zb-stat {
+    border-right: none;
+    border-bottom: 1px solid var(--zb-border);
+  }
+  .zb-stat:last-child { border-bottom: none; }
+}
+
+/* ===== LANDING PAGE REDESIGN ===== */
+
+/* ── Header + tabs: theme-aware on homepage ────────────────────────────────
+   Dark scheme → blend with dark hero.
+   Light scheme → let Material's orange primary take over naturally.
+   This means toggling light/dark mode actually works on the homepage.        */
+
+[data-md-color-scheme="slate"] .zb-homepage .md-header {
+  background: #1a1300 !important;
+  box-shadow: none !important;
+}
+[data-md-color-scheme="slate"] .zb-homepage .md-tabs {
+  background: #1a1300 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+[data-md-color-scheme="slate"] .zb-homepage .md-tabs__link {
+  color: rgba(255, 255, 255, 0.62) !important;
+}
+[data-md-color-scheme="slate"] .zb-homepage .md-tabs__link:hover,
+[data-md-color-scheme="slate"] .zb-homepage .md-tabs__link--active {
+  color: #fff !important;
+}
+[data-md-color-scheme="slate"] .zb-homepage .md-tabs__link--active::after {
+  background: #f57c00 !important;
+}
+
+/* ── Style the external "Vacancies" link as a pill button ─────────────────
+   Target by [target="_blank"] which MkDocs Material adds to external links.
+   This is more robust than :last-child which can break if nav order changes. */
+/* External links in tabs (href starts with http) → pill button */
+.md-tabs a.md-tabs__link[href^="http"] {
+  background: #f57c00;
+  color: #fff !important;
+  border-radius: 6px;
+  padding: 4px 16px;
+  margin: 7px 0 7px 10px;
+  line-height: 1.5;
+}
+.md-tabs a.md-tabs__link[href^="http"]::after {
+  display: none;
+}
+.md-tabs a.md-tabs__link[href^="http"]:hover {
+  background: #e65100;
+  color: #fff !important;
+}
+
+/* ── Header: remove logo + move tabs into top bar ──────────────────────────
+   Material renders tabs in a separate bar (.md-tabs). Here we visually merge
+   that bar into the main header row so nav items sit "on top". */
+.md-header__button.md-logo {
+  display: none !important;
+}
+
+/* If the theme still shows the site name in the header, hide it to free space */
+.md-header__title {
+  display: none !important;
+}
+
+/* If tabs are hidden (mobile), show the header title so it's not blank */
+@media (max-width: 76.1875em) {
+  .md-header__title {
+    display: flex !important;
+  }
+}
+
+/* Single-row header: place tabs on the same row as the theme toggle */
+.md-header {
+  position: relative;
+}
+
+/* Desktop layout: controls to the right, tabs to the left */
+@media (min-width: 76.1875em) {
+  /* Hide the hamburger (we don't want it taking left space) */
+  label.md-header__button[for="__drawer"] {
+    display: none !important;
+  }
+
+  /* Make header controls cluster to the right */
+  .md-header__inner {
+    justify-content: flex-end;
+  }
+}
+
+/* With `navigation.tabs.sticky`, Material renders `.md-tabs` inside the header.
+   We position it onto the same row as the header controls. */
+.md-header > .md-tabs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--md-header-height);
+  display: flex;
+  align-items: center;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-bottom: 0 !important;
+  z-index: 1;
+  pointer-events: none; /* header controls remain clickable */
+}
+
+/* Keep header controls (toggle/search/repo) above the tabs so they remain clickable */
+.md-header__inner {
+  position: relative;
+  z-index: 2;
+}
+
+/* Re-enable click events for the tabs themselves */
+.md-header > .md-tabs a,
+.md-header > .md-tabs button,
+.md-header > .md-tabs [role="tab"] {
+  pointer-events: auto;
+}
+
+/* Ensure tabs are left-aligned (Material centers them within the grid) */
+.md-header > .md-tabs .md-grid {
+  max-width: none;
+  margin: 0;
+  width: 100%;
+}
+
+/* Keep tabs on the left; reserve space for right-side controls (search, repo) */
+.md-tabs__list {
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1rem;
+  padding-right: 22rem; /* space for search + repo + palette toggle */
+}
+
+@media (max-width: 900px) {
+  .md-tabs__list {
+    padding-right: 14rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .md-tabs__list {
+    padding-right: 0;
+  }
+}
+
+/* ── Hide sidebar + TOC on homepage ───────────────────────────────────────── */
+.zb-homepage .md-sidebar {
+  display: none;
+}
+.zb-homepage .md-content {
+  padding-top: 0 !important;
+}
+.zb-homepage .md-content__inner {
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: none !important;
+}
+
+/* Shared inner container */
+.zb-lp-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ── Hero ─────────────────────────────────────────────────────── */
+.zb-lp-hero {
+  background: #1a1300;
+  padding: 5rem 0 4.5rem;
+  overflow: hidden;
+}
+.zb-lp-hero__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+.zb-lp-tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 1.4rem;
+}
+.zb-lp-tag {
+  padding: 4px 16px;
+  border: 1px solid rgba(245, 124, 0, 0.55);
+  border-radius: 999px;
+  color: #f57c00;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+.zb-lp-title {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 800;
+  color: #fff !important;
+  line-height: 1.1;
+  margin: 0 0 1.1rem;
+  letter-spacing: -0.025em;
+  /* Reset any inherited gradient text */
+  background: none !important;
+  -webkit-text-fill-color: #fff !important;
+  background-clip: unset !important;
+}
+.zb-lp-desc {
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 50ch;
+  margin: 0 0 2.2rem;
+}
+.zb-lp-hero__btns {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+/* Shared button */
+.zb-lp-btn {
+  display: inline-block;
+  padding: 13px 28px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  transition: background 200ms ease, transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.zb-lp-btn--solid {
+  background: #f57c00;
+  color: #fff !important;
+  border: none;
+}
+.zb-lp-btn--solid:hover {
+  background: #e65100;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(245, 124, 0, 0.40);
+  color: #fff !important;
+}
+.zb-lp-btn--ghost {
+  border: 1.5px solid rgba(255, 255, 255, 0.28);
+  color: rgba(255, 255, 255, 0.85) !important;
+  background: transparent;
+}
+.zb-lp-btn--ghost:hover {
+  border-color: rgba(255, 255, 255, 0.60);
+  color: #fff !important;
+  transform: translateY(-2px);
+}
+
+/* Hero decorative logo */
+.zb-lp-hero__deco {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.zb-lp-hero__deco img {
+  width: 88%;
+  max-width: 400px;
+  opacity: 0.11;
+  filter: brightness(5) saturate(0.2);
+  transform: scale(1.1) translateX(4%);
+  pointer-events: none;
+}
+
+/* ── Feature cards ────────────────────────────────────────────── */
+.zb-lp-features {
+  background: #2d2d2d;
+  padding: 4rem 0;
+}
+.zb-lp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.zb-lp-card {
+  background: #363636;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  padding: 1.8rem 1.8rem 1.6rem;
+  transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
+}
+.zb-lp-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(245, 124, 0, 0.30);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.30);
+}
+.zb-lp-card__icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: rgba(245, 124, 0, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.1rem;
+  flex-shrink: 0;
+}
+.zb-lp-card__title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #fff !important;
+  margin: 0 0 0.5rem;
+  background: none !important;
+  -webkit-text-fill-color: #fff !important;
+}
+.zb-lp-card__desc {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.50);
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* ── CTA section ──────────────────────────────────────────────── */
+.zb-lp-cta {
+  background: #f5efe4;
+  padding: 2.8rem 0;
+}
+.zb-lp-cta__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.zb-lp-cta__heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1300;
+  margin: 0 0 0.3rem;
+}
+.zb-lp-cta__sub {
+  font-size: 0.9rem;
+  color: #f57c00;
+  margin: 0;
+}
+
+/* ── Light-mode overrides for the landing page ────────────────────────────
+   Dark scheme values are the base (set on the classes directly above).
+   These rules flip everything to a warm light palette when light mode is on. */
+
+[data-md-color-scheme="default"] .zb-lp-hero {
+  background: #fff7ed;
+}
+[data-md-color-scheme="default"] .zb-lp-title {
+  color: #1a1300 !important;
+  -webkit-text-fill-color: #1a1300 !important;
+}
+[data-md-color-scheme="default"] .zb-lp-desc {
+  color: rgba(26, 19, 0, 0.65);
+}
+[data-md-color-scheme="default"] .zb-lp-tag {
+  border-color: rgba(245, 124, 0, 0.45);
+  color: #c05e00;
+}
+[data-md-color-scheme="default"] .zb-lp-btn--ghost {
+  border-color: rgba(26, 19, 0, 0.22);
+  color: rgba(26, 19, 0, 0.75) !important;
+}
+[data-md-color-scheme="default"] .zb-lp-btn--ghost:hover {
+  border-color: rgba(26, 19, 0, 0.45);
+  color: #1a1300 !important;
+}
+[data-md-color-scheme="default"] .zb-lp-hero__deco img {
+  filter: brightness(0.25) sepia(0.6);
+  opacity: 0.07;
+}
+[data-md-color-scheme="default"] .zb-lp-features {
+  background: #f0ece4;
+}
+[data-md-color-scheme="default"] .zb-lp-card {
+  background: #fff;
+  border-color: rgba(0, 0, 0, 0.08);
+}
+[data-md-color-scheme="default"] .zb-lp-card:hover {
+  border-color: rgba(245, 124, 0, 0.35);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.10);
+}
+[data-md-color-scheme="default"] .zb-lp-card__title {
+  color: #1a1300 !important;
+  -webkit-text-fill-color: #1a1300 !important;
+}
+[data-md-color-scheme="default"] .zb-lp-card__desc {
+  color: rgba(26, 19, 0, 0.58);
+}
+
+/* ── Responsive ───────────────────────────────────────────────── */
+@media (max-width: 780px) {
+  .zb-lp-hero__inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .zb-lp-hero__deco {
+    display: none;
+  }
+  .zb-lp-grid {
+    grid-template-columns: 1fr;
+  }
+  .zb-lp-cta__flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+}

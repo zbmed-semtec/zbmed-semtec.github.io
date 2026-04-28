@@ -1,21 +1,27 @@
-site_name: Semantic Technologies team at ZB MED
+site_name: ZB MED · Semantic Technologies
 site_url: https://zbmed-semtec.github.io/
 nav:
-    - Home: index.md
-    - Projects : 
-      - OntoClue : projects/2021_OntoClue.md
+    - About: index.md
+    - Projects:
+      - Overview: projects.md
+      - ConnOSS: projects/ConnOSS.md
+      - DiscoRSE: projects/DiscoRSE.md
+      - OntoClue: projects/2021_OntoClue.md
+      - FAIR4ML: projects/FAIR4ML.md
       - maSMPs: projects/2022_maSMP.md
+      - MLentory: projects/MLentory.md
+      - nfdi.sw: projects/nfdi-sw.md
       - TREC doc2doc: projects/2022_TREC_doc2doc.md
-    - Theses:
-      - Protein function embeddings: theses/2023_Protein_function_embeddings.md  
-    - Software: software.md
-    - Vocabularies: vocabularies.md
-    - Datasets: datasets.md
-    - Consortia: 
-      - STELLA Living Labs: consortia/2018_STELLA.md
-      - NFDI4DataScience: consortia/2021_NFDI4DataScience.md
-    - Current members: current_members.md
-    - Previous members: previous_members.md
+      - DMP4NFDI: projects/2024_DMP4NFDI.md
+    - Consortia:
+        - STELLA Living Labs: consortia/2018_STELLA.md
+        - NFDI4DataScience: consortia/2021_NFDI4DataScience.md
+    - Team:
+      - Overview: team.md
+      - Current members: current_members.md
+      - Previous members: previous_members.md
+
+    
 markdown_extensions:
   - toc:
       toc_depth: 3
@@ -24,13 +30,39 @@ markdown_extensions:
 repo_name: zbmed-semtec/zbmed-semtec.github.io
 repo_url: https://github.com/zbmed-semtec/zbmed-semtec.github.io
 
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
 theme:
   name: material
   custom_dir: overrides
   palette:
-    primary: orange
-    accent: orange
-  logo: https://raw.githubusercontent.com/zbmed-semtec/zbmed-semtec.github.io/main/semtec.png
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: orange
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: orange
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+    - content.code.copy
   extrahead:
   - |
     <script>

@@ -1,3 +1,7 @@
+---
+template: home.html
+---
+
 # Semantic technologies team at ZB MED
 
 _Combining semantic technologies and data analytics_
