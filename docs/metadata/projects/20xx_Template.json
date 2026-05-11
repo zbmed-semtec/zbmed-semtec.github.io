@@ -12,7 +12,7 @@
   "startDate": "20xx-xx-xx",
   "endDate": "20xx-xx-xx",
   
-  "status": "In Progress",
+  "creativeWorkStatus": "In Progress",
   
   "parentOrganization": [
       {
@@ -66,5 +66,5 @@
     }
   },
 
-  "keyword": ["<keyword1>", "<keyword2>", "<keyword3>"]
+  "keywords": ["<keyword1>", "<keyword2>", "<keyword3>"]
 }
