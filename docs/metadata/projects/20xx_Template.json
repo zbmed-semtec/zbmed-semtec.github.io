@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchProject",
+  "name": "<Project Name>",
+  "@id": "https://w3id.org/zbmed-semtec/projects/<project name>",
+  "alternateName": "<Short Project Title or Acronym>",
+  "description": "<A comprehensive description of the project>",
+  "url": "https://zbmed-semtec.github.io/projects/<project name>",
+  "logo": "https://zbmed-semtec.github.io/projects/<project name>-logo.png",
+  "image": ">https://zbmed-semtec.github.io/projects/<project name>.jpg",
+  
+  "startDate": "20xx-xx-xx",
+  "endDate": "20xx-xx-xx",
+  
+  "status": "In Progress",
+  
+  "parentOrganization": [
+      {
+        "@type": "ResearchOrganization",
+        "@id": "https://ror.org/0259fwx54",
+        "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften", 
+        "alternateName": "ZB MED Information Centre for Life Sciences", 
+        "url": "https://zbmed.de/"
+      }
+  ],
+  "subOrganization": {
+      "@type": "ResearchOrganization",
+      "@id": "https://w3id.org/zbmed-semtec",
+      "name": "Semantic Technologies team at ZB MED",
+      "url": "https://zbmed-semtec.github.io/"
+  },
+  "funder": [
+    {
+      "@type": "Organization",
+      "@id": "<ror identifier>",
+      "name": "<Grant Agency Name>",
+      "alternateName": "<english name>",
+      "url": "<url>"
+    }
+  ],
+  "funding": {
+      "@type": "Grant",
+      "@id": "<grand id>",
+      "name": "<Project Grant name",
+      "identifier": "<id>",
+      "description": "<description>"
+  },
+  "member": [
+    {
+      "@type": "Person",
+      "name": "<name>",
+      "jobTitle": "<job title>"
+    }
+  ],
+  
+  "location": {
+    "@type": "Place",
+    "name": "ZB MED - Information Centre for Life Sciences",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Gleueler Str. 60",
+      "addressLocality": "Cologne",
+      "addressRegion": "NRW",
+      "postalCode": "50931",
+      "addressCountry": "DE"
+    }
+  },
+
+  "keyword": ["<keyword1>", "<keyword2>", "<keyword3>"]
+}
