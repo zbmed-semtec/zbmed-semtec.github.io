@@ -1,16 +1,16 @@
 # Current_members metadata
 
-### Zain Ziad
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/ziad_0009-0000-3936-773X.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0000-3936-773X" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+### Lukas Hassel
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/ziad_0009-0003-1671-4382.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0003-1671-4382" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
 <td>familyName</td>
-<td>Ziad</td>
+<td>Hassel</td>
 </tr>
 <tr>
 <td>givenName</td>
-<td>Zain</td>
+<td>Lukas</td>
 </tr>
 <tr>
 <td>jobTitle</td>
@@ -23,9 +23,9 @@
 {
   "@context": "http://schema.org",
   "@type": "Person",
-  "@id": "https://orcid.org/0009-0004-0797-8017",
-  "familyName": "Zain",
-  "givenName": "Ziad",
+  "@id": "https://orcid.org/0009-0003-1671-4382",
+  "familyName": "Hassel",
+  "givenName": "Lukas",
   "jobTitle": "Research Software Engineer"
 }
 </script>
@@ -53,7 +53,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Person",
-  "@id": "https://orcid.org/0009-0004-0797-8017",
+  "@id": "https://orcid.org/0009-0000-3936-773X",
   "familyName": "Zain",
   "givenName": "Ziad",
   "jobTitle": "Research Software Engineer"
