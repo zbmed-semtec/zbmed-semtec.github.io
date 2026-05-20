@@ -1,0 +1,9 @@
+{ 
+  "@context": "http://schema.org",
+
+  "@type": "Person",
+  "@id": "https://orcid.org/0009-0003-1671-4382",
+  "familyName": "Hassel", 
+  "givenName": "Lukas",
+  "jobTitle": "Research Software Engineer"
+}
