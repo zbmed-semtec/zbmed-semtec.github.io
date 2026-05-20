@@ -1,0 +1,89 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+      {
+        "@id": "ro-crate-metadata.json",
+        "@type": "CreativeWork",
+        "conformsTo": {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        "about": {
+          "@id": "./"
+        }
+      },
+      {
+        "@id": "./",
+        "@type": ["Dataset"],
+        "name": "RO-crate for the research project 'project name'",
+        "description": "This RO-crate describes the research project 'project name' including metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprenhensive view of the research outcomes.",
+        "datePublished": "20xx-xx-xx",
+        "license": {
+          "@type": "CreativeWork",
+          "@id": "http://spdx.org/licenses/CC-BY-4.0",
+          "name": "Creative Commons Attribution 4.0 International", 
+          "alternateName": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "keywords": [
+            "keyword1", "keyword2"
+        ], 
+        "about": { "@id": "https://zbmed-semtec.github.io/projects/20xx_project_name/"},
+        "hasPart": [
+          { "@id": "https://doi.org/doi" }
+        ]
+      },
+      {
+        "@id": "https://zbmed-semtec.github.io/projects/20xx_project_name",
+        "@type": "ResearchProject",
+        "department": {
+          "@id": "https://zbmed-semtec.github.io/"
+        },
+        "description": "project name, project description",
+        "foundingDate": "20xx-xx-xx",
+        "employee": [
+          {
+            "@id": "https://orcid.org/<orcid>"
+          }
+        ],
+        "alumni": [
+          {
+            "@id": "https://orcid.org/<orcid>"
+          }
+        ],
+        "name": "project name",
+        "funding": [
+          {
+            "@id": "https://ror.org/<ror>"
+          },
+          {
+      ],
+        "keywords": "<keyword1>, <keyword2>",
+        "parentOrganization": [
+        ],
+        "knowsAbout": [
+
+        ]
+      },
+
+        {
+          "@id": "https://orcid.org/<orcid>",
+          "@type": "Person",
+          "givenName": "<given name>",
+          "familyName": "<family name>"
+        },
+        {
+          "@id": "https://ror.org/0259fwx54",
+          "@type": "ResearchOrganization",
+          "alternateName": "ZB MED Information Centre for Life Sciences",
+          "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+          "url": { 
+            "@id": "https://zbmed.de/"
+          }
+        },
+        {
+          "@id": "https://zbmed-semtec.github.io/",
+          "@type": "ResearchOrganization",
+          "name": "Semantic Technologies team at ZB MED"
+        }
+    ]
+}
