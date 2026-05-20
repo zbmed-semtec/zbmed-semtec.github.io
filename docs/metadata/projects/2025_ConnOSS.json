@@ -1,0 +1,71 @@
+{
+    "@context": "https://schema.org",
+    "@type": "ResearchProject",
+    "name": "ConnOSS",
+    "@id": "https://w3id.org/zbmed-semtec/projects/2025_ConnOSS",
+    "alternateName": "Connected Open Source Software",
+    "description": "Researchers require simple – and ideally automated – pathways to generate high-quality, FAIR-compliant metadata for research software. In practice, however, a lack of time, resources or specialist expertise often hinders researchers from keeping metadata up to date on a consistent basis. Existing tools and schemas frequently fall short, leaving metadata inconsistent or incomplete and offering limited options for automation. ConnOSS addresses these challenges by establishing an infrastructure that offers a central hub for research software while harmonising and enriching metadata from a variety of sources and presenting it in a machine-readable format. Built on GitHub and GitLab, the platform aggregates metadata consistently and publishes it via open web infrastructures. Using machine learning, metadata is automatically extracted from structured and unstructured sources such as repository APIs, README files and citation data and enhanced as necessary. Interoperability and reusability are guaranteed by a custom metadata schema based on Schema.org, which integrates established standards including CodeMeta, Bioschemas and maSMP. The purpose of the project is to improve the visibility, FAIRness and reproducibility of research software while supporting good scientific practice. With minimal additional effort, researchers can document their software in a FAIR-compliant manner, enabling it to be reused over the long term – both by humans and by machines.",
+    "url": "https://zbmed-semtec.github.io/projects/2025_ConnOSS",
+    "logo": "https://zbmed-semtec.github.io/projects/2025_ConnOSS-logo.png",
+    "image": ">https://zbmed-semtec.github.io/projects/2025_ConnOSS.jpg",
+    
+    "startDate": "2025-09-01",
+    "endDate": "2028-08-31",
+    
+    "creativeWorkStatus": "In Progress",
+    
+    "parentOrganization": [
+        {
+          "@type": "ResearchOrganization",
+          "@id": "https://ror.org/0259fwx54",
+          "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften", 
+          "alternateName": "ZB MED Information Centre for Life Sciences", 
+          "url": "https://zbmed.de/"
+        }
+    ],
+    "subOrganization": {
+        "@type": "ResearchOrganization",
+        "@id": "https://w3id.org/zbmed-semtec",
+        "name": "Semantic Technologies team at ZB MED",
+        "url": "https://zbmed-semtec.github.io/"
+    },
+    "funder": [
+      {
+        "@type": "Organization",
+        "@id": "https://ror.org/018mejw64",
+        "name": "German Research Foundation (DFG)",
+        "alternateName": "Deutsche Forschungsgemeinschaft",
+        "url": "https://www.dfg.de/"
+      }
+    ],
+    "funding": {
+        "@type": "Grant",
+        "@id": "https://gepris.dfg.de/gepris/projekt/561044496",
+        "name": "Research Software Infrastructure",
+        "identifier": "561044496",
+        "description": "Research data and software (Scientific Library Services and Information Systems)"
+    },
+    "member": [
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0003-3986-0510", 
+            "givenName": "Castro",
+            "familyName": "Leyla Jael"
+          }
+    ],
+    
+    "location": {
+      "@type": "Place",
+      "name": "ZB MED - Information Centre for Life Sciences",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gleueler Str. 60",
+        "addressLocality": "Cologne",
+        "addressRegion": "NRW",
+        "postalCode": "50931",
+        "addressCountry": "DE"
+      }
+    },
+  
+    "keywords": ["Research software", "metadata", "machine-actionability"]
+  }
