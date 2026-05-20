@@ -1,7 +1,7 @@
 # Current_members metadata
 
 ### Lukas Hassel
-<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/ziad_0009-0003-1671-4382.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0003-1671-4382" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
+<p><img src = "/images/get.svg" alt="Get JSON-LD"/><a href="../metadata/current_members/hassel_0009-0003-1671-4382.json" target="_blank" download="metadata.json"> Get JSON-LD</a> | <a href="https://orcid.org/0009-0003-1671-4382" target="_blank"><img src = "/images/visit.svg" alt="Visit URL"/> Visit Person</a></p>
 <table style="background-color: #F5F5F5; width: 100%; text-align: left; border: 1px solid black;">
 <tbody>
 <tr>
@@ -84,8 +84,8 @@
   "@context": "http://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0009-0004-0797-8017",
-  "familyName": "Jakubzig",
-  "givenName": "Christian",
+  "familyName": "Ashokan",
+  "givenName": "Akhilan",
   "jobTitle": "Research Software Engineer"
 }
 </script>
