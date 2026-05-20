@@ -7,7 +7,7 @@
   "description": "<A comprehensive description of the project>",
   "url": "https://zbmed-semtec.github.io/projects/<project name>",
   "logo": "https://zbmed-semtec.github.io/projects/<project name>-logo.png",
-  "image": ">https://zbmed-semtec.github.io/projects/<project name>.jpg",
+  "image": "https://zbmed-semtec.github.io/projects/<project name>.jpg",
   
   "startDate": "20xx-xx-xx",
   "endDate": "20xx-xx-xx",
