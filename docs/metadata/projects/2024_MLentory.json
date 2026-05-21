@@ -1,0 +1,299 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "ResearchProject",
+  "name": "MLentory",
+  "@id": "https://w3id.org/zbmed-semtec/projects/2024_MLentory",
+  "alternateName": "MLentory FDO registry",
+  "description": "MLentory is an NFDI4DataScience registry for discovering machine learning models and related artifacts. It aggregates metadata from repositories such as Hugging Face and OpenML through an ETL pipeline, harmonises descriptions using FAIR4ML and Croissant ML, and exposes Webby FAIR Digital Objects (FDOs) with schema.org metadata, RO-Crate packaging, and FAIR Signposting. The system provides a REST API, RDF knowledge graph, Elasticsearch indexing, and a Vue.js front-end with natural-language search refined by retrieval-augmented generation. At ZB MED, the Semantic Technologies team develops MLentory, contributes to lightweight FDO implementations on GitHub Pages, and engages in community events including CoRDI, KI2025 tutorials, the FDO Implementation Summit, and the de.NBI BioHackathon on semantics and large language models.",
+  "url": [
+    "https://zbmed-semtec.github.io/projects/2024_MLentory",
+    "https://mlentory.zbmed.de/",
+    "https://w3id.org/fair4ml"
+  ],
+  "logo": "https://zbmed-semtec.github.io/projects/2024_MLentory-logo.png",
+  "image": "https://zbmed-semtec.github.io/projects/2024_MLentory.jpg",
+  "startDate": "2024-01-01",
+  "creativeWorkStatus": "In Progress",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Machine learning model metadata registry"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Webby FAIR Digital Objects for ML models"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Natural language search over harmonised ML metadata"
+    }
+  ],
+  "department": {
+    "@type": "ResearchOrganization",
+    "@id": "https://w3id.org/zbmed-semtec",
+    "name": "Semantic Technologies team at ZB MED",
+    "url": "https://zbmed-semtec.github.io/"
+  },
+  "parentOrganization": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://ror.org/0259fwx54",
+      "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+      "alternateName": "ZB MED Information Centre for Life Sciences",
+      "url": "https://zbmed.de/"
+    },
+    {
+      "@type": "Consortium",
+      "@id": "https://www.nfdi4datascience.de",
+      "name": "NFDI4DataScience",
+      "url": "https://www.nfdi4datascience.de/"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "Grant",
+      "@id": "https://gepris.dfg.de/gepris/projekt/460234259",
+      "funder": {
+        "@type": "Organization",
+        "@id": "https://ror.org/018mejw64",
+        "name": "Deutsche Forschungsgemeinschaft",
+        "alternateName": "German Research Foundation (DFG)",
+        "url": "https://www.dfg.de/"
+      },
+      "name": "NFDI4DataScience",
+      "identifier": "460234259",
+      "description": "NFDI4DataScience consortium, DFG project number 460234259"
+    }
+  ],
+  "employee": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5037-0443",
+      "givenName": "Nelson",
+      "familyName": "Quiñones",
+      "jobTitle": "Project lead"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-4484-6283",
+      "givenName": "Rohitha",
+      "familyName": "Ravinder",
+      "jobTitle": "Data Scientist"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-1529-0095",
+      "givenName": "Dhwani",
+      "familyName": "Solanki",
+      "jobTitle": "Research Software Engineer"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0005-7305-3052",
+      "givenName": "Suhasini",
+      "familyName": "Venkatesh",
+      "jobTitle": "Research Software Engineer"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "givenName": "Dietrich",
+      "familyName": "Rebholz-Schuhmann",
+      "jobTitle": "Scientific Director"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "givenName": "Leyla Jael",
+      "familyName": "Castro",
+      "jobTitle": "Semantic Web expert"
+    }
+  ],
+  "alumni": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2910-7982",
+      "givenName": "Lukas",
+      "familyName": "Geist",
+      "jobTitle": "Former contributor"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4522-1099",
+      "givenName": "York",
+      "familyName": "Sure-Vetter",
+      "jobTitle": "Editor"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0183-6910",
+      "givenName": "Paul",
+      "familyName": "Groth",
+      "jobTitle": "Editor"
+    }
+  ],
+  "location": {
+    "@type": "Place",
+    "name": "ZB MED - Information Centre for Life Sciences",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Gleueler Str. 60",
+      "addressLocality": "Cologne",
+      "addressRegion": "NRW",
+      "postalCode": "50931",
+      "addressCountry": "DE"
+    }
+  },
+  "keywords": [
+    "NFDI4DS",
+    "ETL pipeline",
+    "Metadata",
+    "Machine Learning model",
+    "FAIR4ML",
+    "Webby FDO",
+    "RO-Crate",
+    "FAIR Signposting",
+    "metadata registry",
+    "natural language search"
+  ],
+  "knowsAbout": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://mlentory.zbmed.de/",
+      "name": "MLentory registry",
+      "description": "NFDI4DataScience registry for machine learning models and related artifacts with REST API and natural-language search.",
+      "url": "https://mlentory.zbmed.de/"
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://w3id.org/fair4ml",
+      "name": "FAIR4ML vocabulary",
+      "description": "schema.org extension used by MLentory to describe ML model metadata.",
+      "url": "https://w3id.org/fair4ml"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.16735316",
+      "identifier": "DOI:10.5281/zenodo.16735316",
+      "name": "MLentory: NFDI4DS registry for machine learning models and related artifacts",
+      "citation": "Quiñones, N., Geist, L., Ravinder, R., Solanki, D., Venkatesh, S., Rebholz-Schuhmann, D., & Castro, L. J. (2025). MLentory: NFDI4DS registry for machine learning models and related artifacts (v1). Zenodo. https://doi.org/10.5281/zenodo.16735316",
+      "datePublished": "2025-08-04",
+      "version": "v1",
+      "url": "https://zenodo.org/records/16735316",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0000-0002-5037-0443"},
+        {"@id": "https://orcid.org/0000-0002-2910-7982"},
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},
+        {"@id": "https://orcid.org/0009-0004-1529-0095"},
+        {"@id": "https://orcid.org/0009-0005-7305-3052"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ],
+      "contributor": [
+        {"@id": "https://orcid.org/0000-0002-4522-1099"},
+        {"@id": "https://orcid.org/0000-0003-0183-6910"}
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.17062651",
+      "identifier": "DOI:10.5281/zenodo.17062651",
+      "name": "Tutorial: Introduction to MLentory, a metadata registry for AI models",
+      "description": "KI2025 tutorial on MLentory motivation, architecture, data sources, and use.",
+      "citation": "Castro, L. J. (2025, September 15). Tutorial: Introduction to MLentory, a metadata registry for AI models. Zenodo. https://doi.org/10.5281/zenodo.17062651",
+      "datePublished": "2025-09-15",
+      "version": "v1.0.0",
+      "url": "https://zenodo.org/records/17062651",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://ceur-ws.org/Vol-3890/paper-39.pdf",
+      "identifier": "DOI:10.18420/inf2025_104",
+      "name": "Implementing Webby FAIR Digital Objects in MLentory",
+      "description": "Implementation of Webby FDOs in MLentory combining FAIR Signposting and RO-Crate for machine-actionable ML model metadata.",
+      "citation": "Ravinder, R., Quiñones, N., Rebholz-Schuhmann, D., & Castro, L. J. (2025). Implementing Webby FAIR Digital Objects in MLentory. In INFORMATIK 2025. CEUR Workshop Proceedings, Vol-3890, paper 39. https://ceur-ws.org/Vol-3890/paper-39.pdf",
+      "datePublished": "2025",
+      "url": "https://ceur-ws.org/Vol-3890/paper-39.pdf",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},
+        {"@id": "https://orcid.org/0000-0002-5037-0443"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.52825/ocp.v5i.1188",
+      "identifier": "DOI:10.52825/ocp.v5i.1188",
+      "name": "A Lightweight Approach to FDOs via Bioschemas, RO-Crate and Signposting on GitHub Pages",
+      "description": "Proof-of-concept using Bioschemas, RO-Crate and Signposting as a lightweight approach to FDOs for SemTec research artifacts on GitHub Pages, including MLentory.",
+      "citation": "Ravinder, R., Quiñones, N., Rebholz-Schuhmann, D., & Castro, L. J. (2025). A Lightweight Approach to FDOs via Bioschemas, RO-Crate and Signposting on GitHub Pages. Open Conference Proceedings, 5. https://doi.org/10.52825/ocp.v5i.1188",
+      "datePublished": "2025-03-18",
+      "url": "https://www.tib-op.org/ojs/index.php/ocp/article/view/1188",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},
+        {"@id": "https://orcid.org/0000-0002-5037-0443"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
+    },
+    {
+      "@type": "Poster",
+      "@id": "https://doi.org/10.4126/FRL01-006473259",
+      "identifier": "DOI:10.4126/FRL01-006473259",
+      "name": "MLentory, an FDO registry for machine learning models",
+      "description": "SWAT4HCLS 2024 poster introducing MLentory as an FDO registry for machine learning models.",
+      "datePublished": "2024",
+      "url": "https://repository.publisso.de/resource/frl:6473259",
+      "author": [
+        {"@id": "https://orcid.org/0009-0004-1529-0095"},
+        {"@id": "https://orcid.org/0000-0002-5037-0443"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
+    },
+    {
+      "@type": "Event",
+      "@id": "https://www.denbi.de/de-nbi-events/1934-4th-biohackathon-germany-a-tale-of-two-cities-semantics-meets-llms",
+      "name": "4th BioHackathon Germany - A tale of two cities: Semantics meets LLMs",
+      "description": "de.NBI BioHackathon project combining large language models with ontological knowledge; ZB MED project leads Ravinder, Quiñones, and Castro work on LLMs with structured metadata for ML model information retrieval.",
+      "url": "https://www.denbi.de/de-nbi-events/1934-4th-biohackathon-germany-a-tale-of-two-cities-semantics-meets-llms",
+      "organizer": [
+        {"@id": "https://ror.org/0259fwx54"}
+      ]
+    }
+  ]
+}

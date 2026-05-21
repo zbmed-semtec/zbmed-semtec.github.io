@@ -1,0 +1,459 @@
+
+
+<html>
+<head>
+<script type="application/ld+json">{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": [
+        "Dataset"
+      ],
+      "name": "RO-Crate for the research project 'MLentory'",
+      "description": "This RO-Crate describes the MLentory research project including metadata about the registry, participating organisations, people, and research outcomes.",
+      "datePublished": "2025-09-15",
+      "license": {
+        "@id": "http://spdx.org/licenses/CC-BY-4.0"
+      },
+      "keywords": [
+        "NFDI4DS",
+        "ETL pipeline",
+        "Metadata",
+        "Machine Learning model",
+        "FAIR4ML",
+        "Webby FDO",
+        "RO-Crate",
+        "FAIR Signposting",
+        "metadata registry",
+        "natural language search"
+      ],
+      "about": {
+        "@id": "https://zbmed-semtec.github.io/projects/2024_MLentory/"
+      },
+      "hasPart": [
+        {
+          "@id": "https://mlentory.zbmed.de/"
+        },
+        {
+          "@id": "https://w3id.org/fair4ml"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.16735316"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.17062651"
+        },
+        {
+          "@id": "https://ceur-ws.org/Vol-3890/paper-39.pdf"
+        },
+        {
+          "@id": "https://doi.org/10.52825/ocp.v5i.1188"
+        },
+        {
+          "@id": "https://doi.org/10.4126/FRL01-006473259"
+        },
+        {
+          "@id": "https://www.denbi.de/de-nbi-events/1934-4th-biohackathon-germany-a-tale-of-two-cities-semantics-meets-llms"
+        }
+      ]
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/projects/2024_MLentory",
+      "@type": "http://schema.org/ResearchProject",
+      "name": "MLentory",
+      "alternateName": "MLentory FDO registry",
+      "department": {
+        "@id": "https://w3id.org/zbmed-semtec"
+      },
+      "description": "MLentory is an NFDI4DataScience registry for discovering machine learning models and related artifacts. It aggregates metadata from repositories such as Hugging Face and OpenML through an ETL pipeline, harmonises descriptions using FAIR4ML and Croissant ML, and exposes Webby FAIR Digital Objects (FDOs) with schema.org metadata, RO-Crate packaging, and FAIR Signposting. The system provides a REST API, RDF knowledge graph, Elasticsearch indexing, and a Vue.js front-end with natural-language search refined by retrieval-augmented generation. At ZB MED, the Semantic Technologies team develops MLentory, contributes to lightweight FDO implementations on GitHub Pages, and engages in community events including CoRDI, KI2025 tutorials, the FDO Implementation Summit, and the de.NBI BioHackathon on semantics and large language models.",
+      "foundingDate": {
+        "@type": "Date",
+        "@value": "2024-01-01"
+      },
+      "employee": [
+        {
+          "@id": "https://orcid.org/0000-0002-5037-0443"
+        },
+        {
+          "@id": "https://orcid.org/0009-0004-4484-6283"
+        },
+        {
+          "@id": "https://orcid.org/0009-0004-1529-0095"
+        },
+        {
+          "@id": "https://orcid.org/0009-0005-7305-3052"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1018-0370"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        }
+      ],
+      "alumni": [
+        {
+          "@id": "https://orcid.org/0000-0002-2910-7982"
+        }
+      ],
+      "contributor": [
+        {
+          "@id": "https://orcid.org/0000-0002-4522-1099"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0183-6910"
+        }
+      ],
+      "funding": [
+        {
+          "@id": "https://ror.org/018mejw64"
+        },
+        {
+          "@id": "https://gepris.dfg.de/gepris/projekt/460234259"
+        }
+      ],
+      "parentOrganization": [
+        {
+          "@id": "https://ror.org/0259fwx54"
+        },
+        {
+          "@id": "https://www.nfdi4datascience.de"
+        }
+      ],
+      "keywords": "NFDI4DS, ETL pipeline, Metadata, Machine Learning model, FAIR4ML, Webby FDO, RO-Crate, FAIR Signposting, metadata registry, natural language search",
+      "knowsAbout": [
+        {
+          "@id": "https://mlentory.zbmed.de/"
+        },
+        {
+          "@id": "https://w3id.org/fair4ml"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.16735316"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.17062651"
+        },
+        {
+          "@id": "https://ceur-ws.org/Vol-3890/paper-39.pdf"
+        },
+        {
+          "@id": "https://doi.org/10.52825/ocp.v5i.1188"
+        },
+        {
+          "@id": "https://doi.org/10.4126/FRL01-006473259"
+        },
+        {
+          "@id": "https://www.denbi.de/de-nbi-events/1934-4th-biohackathon-germany-a-tale-of-two-cities-semantics-meets-llms"
+        }
+      ]
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "https://mlentory.zbmed.de/",
+      "name": "MLentory registry",
+      "description": "NFDI4DataScience registry for machine learning models and related artifacts with REST API and natural-language search.",
+      "url": "https://mlentory.zbmed.de/"
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://w3id.org/fair4ml",
+      "name": "FAIR4ML vocabulary",
+      "description": "schema.org extension used by MLentory to describe ML model metadata.",
+      "url": "https://w3id.org/fair4ml"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.16735316",
+      "identifier": "DOI:10.5281/zenodo.16735316",
+      "name": "MLentory: NFDI4DS registry for machine learning models and related artifacts",
+      "citation": "Quiñones, N., Geist, L., Ravinder, R., Solanki, D., Venkatesh, S., Rebholz-Schuhmann, D., & Castro, L. J. (2025). MLentory: NFDI4DS registry for machine learning models and related artifacts (v1). Zenodo. https://doi.org/10.5281/zenodo.16735316",
+      "datePublished": "2025-08-04",
+      "version": "v1",
+      "url": "https://zenodo.org/records/16735316",
+      "license": {
+        "@id": "http://spdx.org/licenses/CC-BY-4.0"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-5037-0443"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2910-7982"
+        },
+        {
+          "@id": "https://orcid.org/0009-0004-4484-6283"
+        },
+        {
+          "@id": "https://orcid.org/0009-0004-1529-0095"
+        },
+        {
+          "@id": "https://orcid.org/0009-0005-7305-3052"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1018-0370"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        }
+      ],
+      "contributor": [
+        {
+          "@id": "https://orcid.org/0000-0002-4522-1099"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0183-6910"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.17062651",
+      "identifier": "DOI:10.5281/zenodo.17062651",
+      "name": "Tutorial: Introduction to MLentory, a metadata registry for AI models",
+      "description": "KI2025 tutorial on MLentory motivation, architecture, data sources, and use.",
+      "citation": "Castro, L. J. (2025, September 15). Tutorial: Introduction to MLentory, a metadata registry for AI models. Zenodo. https://doi.org/10.5281/zenodo.17062651",
+      "datePublished": "2025-09-15",
+      "version": "v1.0.0",
+      "url": "https://zenodo.org/records/17062651",
+      "license": {
+        "@id": "http://spdx.org/licenses/CC-BY-4.0"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        }
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://ceur-ws.org/Vol-3890/paper-39.pdf",
+      "identifier": "DOI:10.18420/inf2025_104",
+      "name": "Implementing Webby FAIR Digital Objects in MLentory",
+      "description": "Implementation of Webby FDOs in MLentory combining FAIR Signposting and RO-Crate for machine-actionable ML model metadata.",
+      "citation": "Ravinder, R., Quiñones, N., Rebholz-Schuhmann, D., & Castro, L. J. (2025). Implementing Webby FAIR Digital Objects in MLentory. CEUR Workshop Proceedings, Vol-3890, paper 39. https://ceur-ws.org/Vol-3890/paper-39.pdf",
+      "datePublished": "2025",
+      "url": "https://ceur-ws.org/Vol-3890/paper-39.pdf",
+      "license": {
+        "@id": "http://spdx.org/licenses/CC-BY-4.0"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0009-0004-4484-6283"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5037-0443"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1018-0370"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        }
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.52825/ocp.v5i.1188",
+      "identifier": "DOI:10.52825/ocp.v5i.1188",
+      "name": "A Lightweight Approach to FDOs via Bioschemas, RO-Crate and Signposting on GitHub Pages",
+      "description": "Proof-of-concept using Bioschemas, RO-Crate and Signposting as a lightweight approach to FDOs for SemTec research artifacts on GitHub Pages.",
+      "citation": "Ravinder, R., Quiñones, N., Rebholz-Schuhmann, D., & Castro, L. J. (2025). A Lightweight Approach to FDOs via Bioschemas, RO-Crate and Signposting on GitHub Pages. Open Conference Proceedings, 5. https://doi.org/10.52825/ocp.v5i.1188",
+      "datePublished": "2025-03-18",
+      "url": "https://www.tib-op.org/ojs/index.php/ocp/article/view/1188",
+      "license": {
+        "@id": "http://spdx.org/licenses/CC-BY-4.0"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0009-0004-4484-6283"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5037-0443"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1018-0370"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        }
+      ]
+    },
+    {
+      "@type": "Poster",
+      "@id": "https://doi.org/10.4126/FRL01-006473259",
+      "identifier": "DOI:10.4126/FRL01-006473259",
+      "name": "MLentory, an FDO registry for machine learning models",
+      "description": "SWAT4HCLS 2024 poster introducing MLentory as an FDO registry for machine learning models.",
+      "datePublished": "2024",
+      "url": "https://repository.publisso.de/resource/frl:6473259",
+      "author": [
+        {
+          "@id": "https://orcid.org/0009-0004-1529-0095"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5037-0443"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1018-0370"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        }
+      ]
+    },
+    {
+      "@type": "Event",
+      "@id": "https://www.denbi.de/de-nbi-events/1934-4th-biohackathon-germany-a-tale-of-two-cities-semantics-meets-llms",
+      "name": "4th BioHackathon Germany - A tale of two cities: Semantics meets LLMs",
+      "description": "de.NBI BioHackathon project combining large language models with ontological knowledge; ZB MED leads work on LLMs with structured metadata for ML model information retrieval.",
+      "url": "https://www.denbi.de/de-nbi-events/1934-4th-biohackathon-germany-a-tale-of-two-cities-semantics-meets-llms",
+      "organizer": [
+        {
+          "@id": "https://ror.org/0259fwx54"
+        }
+      ]
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5037-0443",
+      "@type": "Person",
+      "givenName": "Nelson",
+      "familyName": "Quiñones"
+    },
+    {
+      "@id": "https://orcid.org/0009-0004-4484-6283",
+      "@type": "Person",
+      "givenName": "Rohitha",
+      "familyName": "Ravinder"
+    },
+    {
+      "@id": "https://orcid.org/0009-0004-1529-0095",
+      "@type": "Person",
+      "givenName": "Dhwani",
+      "familyName": "Solanki"
+    },
+    {
+      "@id": "https://orcid.org/0009-0005-7305-3052",
+      "@type": "Person",
+      "givenName": "Suhasini",
+      "familyName": "Venkatesh"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "@type": "Person",
+      "givenName": "Dietrich",
+      "familyName": "Rebholz-Schuhmann"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "@type": "Person",
+      "givenName": "Leyla Jael",
+      "familyName": "Castro"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2910-7982",
+      "@type": "Person",
+      "givenName": "Lukas",
+      "familyName": "Geist"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4522-1099",
+      "@type": "Person",
+      "givenName": "York",
+      "familyName": "Sure-Vetter"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0183-6910",
+      "@type": "Person",
+      "givenName": "Paul",
+      "familyName": "Groth"
+    },
+    {
+      "@id": "https://w3id.org/zbmed-semtec",
+      "@type": "ResearchOrganization",
+      "name": "Semantic Technologies team at ZB MED",
+      "url": {
+        "@id": "https://zbmed-semtec.github.io/"
+      }
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/",
+      "@type": "ResearchOrganization",
+      "name": "Semantic Technologies team at ZB MED"
+    },
+    {
+      "@id": "https://ror.org/018mejw64",
+      "@type": "Organization",
+      "alternateName": "German Research Foundation (DFG)",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "url": {
+        "@id": "https://www.dfg.de/"
+      }
+    },
+    {
+      "@id": "https://gepris.dfg.de/gepris/projekt/460234259",
+      "@type": "Grant",
+      "name": "NFDI4DataScience",
+      "identifier": "460234259",
+      "description": "NFDI4DataScience consortium, DFG project number 460234259",
+      "funder": {
+        "@id": "https://ror.org/018mejw64"
+      }
+    },
+    {
+      "@id": "https://ror.org/0259fwx54",
+      "@type": "ResearchOrganization",
+      "alternateName": "ZB MED Information Centre for Life Sciences",
+      "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+      "url": {
+        "@id": "https://zbmed.de/"
+      }
+    },
+    {
+      "@id": "https://www.nfdi4datascience.de",
+      "@type": "Consortium",
+      "name": "NFDI4DataScience",
+      "url": {
+        "@id": "https://www.nfdi4datascience.de/"
+      }
+    }
+  ]
+}</script>
+<script src="https://unpkg.com/ro-crate-html@0.1/dist/ro-crate-dynamic.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8"/>
+<style>table.table { padding-bottom: 300px; }</style>
+</head>
+<body>
+<nav class="navbar"><ul class="nav navbar-nav"><li><a href="#"><span class="dataset_name"> RO-Crate for the research project MLentory</span></a></li></ul></nav>
+<div class="container"><div class="jumbotron"><h3 class="item_name">RO-Crate for the research project MLentory</h3>
+<a href="./ro-crate-metadata.json">Download ro-crate-metadata.json</a><div id="check"></div></div>
+<div id="summary"><div class="all-meta"><h3>RO-Crate for MLentory</h3><div id="./">
+<table class="table metadata table-striped"><tbody>
+<tr><th>@id</th><td>./</td></tr>
+<tr><th>name</th><td>RO-Crate for the research project MLentory</td></tr>
+<tr><th>datePublished</th><td>2025-09-15</td></tr>
+<tr><th>about</th><td><a href="https://zbmed-semtec.github.io/projects/2024_MLentory/">project page</a></td></tr>
+<tr><th>hasPart</th><td><ul>
+<li><a href="#https%3A%2F%2Fmlentory.zbmed.de%2F">MLentory registry</a></li>
+<li><a href="#https%3A%2F%2Fw3id.org%2Ffair4ml">FAIR4ML vocabulary</a></li>
+<li><a href="#https%3A%2F%2Fdoi.org%2F10.5281%2Fzenodo.16735316">CoRDI 2025 paper</a></li>
+<li><a href="#https%3A%2F%2Fdoi.org%2F10.5281%2Fzenodo.17062651">KI2025 MLentory tutorial</a></li>
+<li><a href="#https%3A%2F%2Fceur-ws.org%2FVol-3890%2Fpaper-39.pdf">Webby FDO implementation (CEUR)</a></li>
+<li><a href="#https%3A%2F%2Fdoi.org%2F10.52825%2Focp.v5i.1188">FDO summit extended abstract</a></li>
+<li><a href="#https%3A%2F%2Fdoi.org%2F10.4126%2FFRL01-006473259">SWAT4HCLS 2024 poster</a></li>
+<li><a href="#https%3A%2F%2Fwww.denbi.de%2Fde-nbi-events%2F1934-4th-biohackathon-germany-a-tale-of-two-cities-semantics-meets-llms">BioHackathon Germany 2024</a></li>
+</ul></td></tr>
+<tr><th>about</th><td><a href="#ro-crate-metadata.json">ro-crate-metadata.json</a></td></tr>
+</tbody></table></div></div><hr/></div></div></div></body></html>
