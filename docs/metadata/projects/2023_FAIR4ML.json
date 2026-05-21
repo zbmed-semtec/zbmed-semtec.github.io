@@ -1,0 +1,291 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "ResearchProject",
+  "name": "FAIR4ML",
+  "@id": "https://w3id.org/zbmed-semtec/projects/2023_FAIR4ML",
+  "alternateName": "FAIR for Machine Learning",
+  "description": "Machine and deep learning models have become essential research artifacts, yet machine-readable metadata describing them is often missing or buried in text-based documents. The Research Data Alliance (RDA) FAIR for Machine Learning Interest Group (FAIR4ML-IG) created FAIR4ML, an extension of the schema.org vocabulary designed to describe ML model metadata in a structured, interoperable way. The vocabulary builds on community use cases, competency questions, and analyses of metadata from platforms such as Hugging Face and OpenML. FAIR4ML is compatible with related initiatives including Bioschemas, CodeMeta, Croissant ML, and machine-actionable Software Management Plans. It is adopted by services such as MLentory (NFDI4DataScience) and InesData, and continues to be refined through hackathons and crosswalks to other schemas. At ZB MED, the Semantic Technologies team contributes to vocabulary development, metadata harmonisation, tutorials, and outreach—including the KI2025 tutorial on FAIR4ML and ML model cards.",
+  "url": [
+    "https://zbmed-semtec.github.io/projects/2023_FAIR4ML",
+    "https://w3id.org/fair4ml",
+    "https://zbmed-semtec.github.io/FAIR4ML-tutorial/",
+    "https://github.com/zbmed-semtec/FAIR4ML-tutorial",
+    "https://www.rd-alliance.org/groups/fair-machine-learning-fair4ml-ig"
+  ],
+  "logo": "https://zbmed-semtec.github.io/projects/2023_FAIR4ML-logo.png",
+  "image": "https://zbmed-semtec.github.io/projects/2023_FAIR4ML.jpg",
+  "startDate": "2023-01-01",
+  "creativeWorkStatus": "In Progress",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Machine-readable metadata for machine learning models"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "schema.org extension for ML model descriptions"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "FAIR principles for machine learning"
+    }
+  ],
+  "department": {
+    "@type": "ResearchOrganization",
+    "@id": "https://w3id.org/zbmed-semtec",
+    "name": "Semantic Technologies team at ZB MED",
+    "url": "https://zbmed-semtec.github.io/"
+  },
+  "parentOrganization": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://ror.org/0259fwx54",
+      "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+      "alternateName": "ZB MED Information Centre for Life Sciences",
+      "url": "https://zbmed.de/"
+    },
+    {
+      "@type": "Consortium",
+      "@id": "https://www.nfdi4datascience.de",
+      "name": "NFDI4DataScience",
+      "url": "https://www.nfdi4datascience.de/"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://ror.org/02ca5cf85",
+      "name": "Universidad Politécnica de Madrid",
+      "alternateName": "Technical University of Madrid",
+      "url": "https://www.upm.es/"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "Grant",
+      "@id": "https://gepris.dfg.de/gepris/projekt/460234259",
+      "funder": {
+        "@type": "Organization",
+        "@id": "https://ror.org/018mejw64",
+        "name": "Deutsche Forschungsgemeinschaft",
+        "alternateName": "German Research Foundation (DFG)",
+        "url": "https://www.dfg.de/"
+      },
+      "name": "NFDI4DataScience",
+      "identifier": "460234259",
+      "description": "NFDI4DataScience consortium, DFG project number 460234259"
+    }
+  ],
+  "employee": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "givenName": "Leyla Jael",
+      "familyName": "Castro",
+      "jobTitle": "Project lead"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-1529-0095",
+      "givenName": "Dhwani",
+      "familyName": "Solanki",
+      "jobTitle": "Research Software Engineer"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5037-0443",
+      "givenName": "Nelson",
+      "familyName": "Quiñones",
+      "jobTitle": "Research Software Engineer"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-4484-6283",
+      "givenName": "Rohitha",
+      "familyName": "Ravinder",
+      "jobTitle": "Data Scientist"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0005-7305-3052",
+      "givenName": "Suhasini",
+      "familyName": "Venkatesh",
+      "jobTitle": "Research Software Engineer"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "givenName": "Dietrich",
+      "familyName": "Rebholz-Schuhmann",
+      "jobTitle": "Scientific Director"
+    }
+  ],
+  "member": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3170-6730",
+      "givenName": "Jenifer Tabita",
+      "familyName": "Ciuciu-Kiss",
+      "jobTitle": "Project partner"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0454-7145",
+      "givenName": "Daniel",
+      "familyName": "Garijo",
+      "jobTitle": "Project partner"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4522-1099",
+      "givenName": "York",
+      "familyName": "Sure-Vetter",
+      "jobTitle": "Editor"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0183-6910",
+      "givenName": "Paul",
+      "familyName": "Groth",
+      "jobTitle": "Editor"
+    }
+  ],
+  "location": {
+    "@type": "Place",
+    "name": "ZB MED - Information Centre for Life Sciences",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Gleueler Str. 60",
+      "addressLocality": "Cologne",
+      "addressRegion": "NRW",
+      "postalCode": "50931",
+      "addressCountry": "DE"
+    }
+  },
+  "keywords": [
+    "Metadata",
+    "ML models",
+    "Semantics",
+    "Controlled vocabulary",
+    "Machine learning model cards",
+    "FAIR4ML",
+    "schema.org",
+    "RSE",
+    "machine-actionability"
+  ],
+  "knowsAbout": [
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://w3id.org/fair4ml",
+      "name": "FAIR4ML vocabulary",
+      "description": "schema.org extension to describe machine and deep learning model metadata.",
+      "url": "https://w3id.org/fair4ml"
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://zbmed-semtec.github.io/FAIR4ML-tutorial/",
+      "name": "Towards FAIR4ML - A tutorial at KI2025",
+      "description": "KI2025 tutorial on ML model cards and FAIR4ML vocabulary, with demonstration of MLentory.",
+      "url": "https://zbmed-semtec.github.io/FAIR4ML-tutorial/"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.16735334",
+      "identifier": "DOI:10.5281/zenodo.16735334",
+      "name": "FAIR4ML, a vocabulary to describe Machine/Deep Learning models",
+      "citation": "Solanki, D., Ciuciu-Kiss, J. T., Quiñones, N., Ravinder, R., Venkatesh, S., Rebholz-Schuhmann, D., Garijo, D., & Castro, L. J. (2025). FAIR4ML, a vocabulary to describe Machine/Deep Learning models (v1). Zenodo. https://doi.org/10.5281/zenodo.16735334",
+      "datePublished": "2025-08-04",
+      "version": "v1",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "url": "https://zenodo.org/records/16735334",
+      "author": [
+        {"@id": "https://orcid.org/0009-0004-1529-0095"},
+        {"@id": "https://orcid.org/0000-0002-3170-6730"},
+        {"@id": "https://orcid.org/0000-0002-5037-0443"},
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},
+        {"@id": "https://orcid.org/0009-0005-7305-3052"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-0454-7145"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ],
+      "contributor": [
+        {"@id": "https://orcid.org/0000-0002-4522-1099"},
+        {"@id": "https://orcid.org/0000-0003-0183-6910"}
+      ]
+    },
+    {
+      "@type": "PresentationDigitalDocument",
+      "@id": "https://doi.org/10.5281/zenodo.16954417",
+      "identifier": "DOI:10.5281/zenodo.16954417",
+      "name": "FAIR4ML, a vocabulary to describe Machine/Deep Learning models",
+      "description": "CoRDI 2025 presentation on the FAIR4ML vocabulary.",
+      "datePublished": "2025-08-26",
+      "version": "v1.0",
+      "url": "https://zenodo.org/records/16954417",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0009-0004-1529-0095"},
+        {"@id": "https://orcid.org/0000-0002-3170-6730"},
+        {"@id": "https://orcid.org/0000-0002-5037-0443"},
+        {"@id": "https://orcid.org/0009-0004-4484-6283"},
+        {"@id": "https://orcid.org/0009-0005-7305-3052"},
+        {"@id": "https://orcid.org/0000-0002-1018-0370"},
+        {"@id": "https://orcid.org/0000-0003-0454-7145"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.17062369",
+      "identifier": "DOI:10.5281/zenodo.17062369",
+      "name": "Tutorial: Introduction to FAIR4ML, a vocabulary to describe FAIR AI models",
+      "description": "KI2025 tutorial introducing the FAIR4ML schema.org extension for ML/DL models.",
+      "citation": "Castro, L. J. (2025, September 15). Tutorial: Introduction to FAIR4ML, a vocabulary to describe FAIR AI models (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.17062369",
+      "datePublished": "2025-09-15",
+      "version": "v1.0.0",
+      "url": "https://zenodo.org/records/17062369",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
+    },
+    {
+      "@type": "PresentationDigitalDocument",
+      "@id": "https://doi.org/10.5281/zenodo.17220253",
+      "identifier": "DOI:10.5281/zenodo.17220253",
+      "name": "FAIR4ML report at the Emerging Technologies and Trends in Research Data and Software webinar",
+      "description": "Presentation on FAIR4ML at the Emerging Technologies and Trends in Research Data and Software webinar.",
+      "datePublished": "2025-09-28",
+      "url": "https://zenodo.org/records/17220253",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0000-0003-0454-7145"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
+    }
+  ]
+}
