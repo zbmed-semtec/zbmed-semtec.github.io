@@ -1,0 +1,234 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": ["Dataset"],
+      "name": "RO-Crate for the research project 'ConnOSS'",
+      "description": "This RO-Crate describes the research project 'Connected Open Source Software (ConnOSS)' including metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-Crate. The purpose is providing a comprehensive view of the research outcomes.",
+      "datePublished": "2025-06-07",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "keywords": [
+        "Research software",
+        "metadata",
+        "machine-actionability",
+        "Methods in Artificial Intelligence and Machine Learning",
+        "Software Engineering and Programming Languages"
+      ],
+      "about": {
+        "@id": "https://zbmed-semtec.github.io/projects/2025_ConnOSS/"
+      },
+      "hasPart": [
+        {
+          "@id": "https://doi.org/10.5281/zenodo.15616384"
+        }
+      ]
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/projects/2025_ConnOSS",
+      "@type": "http://schema.org/ResearchProject",
+      "name": "ConnOSS",
+      "alternateName": [
+        "Connected Open Source Software",
+        "Connected Open-Source Software"
+      ],
+      "department": {
+        "@id": "https://w3id.org/zbmed-semtec"
+      },
+      "description": "Researchers require simple – and ideally automated – pathways to generate high-quality, FAIR-compliant metadata for research software. In practice, however, a lack of time, resources or specialist expertise often hinders researchers from keeping metadata up to date on a consistent basis. Existing tools and schemas frequently fall short, leaving metadata inconsistent or incomplete and offering limited options for automation. ConnOSS addresses these challenges by establishing an infrastructure that offers a central hub for research software while harmonising and enriching metadata from a variety of sources and presenting it in a machine-readable format. Built on GitHub and GitLab, the platform aggregates metadata consistently and publishes it via open web infrastructures. Using machine learning, metadata is automatically extracted from structured and unstructured sources such as repository APIs, README files and citation data and enhanced as necessary. Interoperability and reusability are guaranteed by a custom metadata schema based on Schema.org, which integrates established standards including CodeMeta, Bioschemas and maSMP. The purpose of the project is to improve the visibility, FAIRness and reproducibility of research software while supporting good scientific practice. With minimal additional effort, researchers can document their software in a FAIR-compliant manner, enabling it to be reused over the long term – both by humans and by machines. At ZB MED, the Semantic Technologies team coordinates the project, helps define metadata standards, supports metadata extraction and harmonisation, and implements dissemination and outreach activities.",
+      "foundingDate": {
+        "@type": "Date",
+        "@value": "2025-09-01"
+      },
+      "endDate": {
+        "@type": "Date",
+        "@value": "2028-08-31"
+      },
+      "employee": [
+        {"@id": "https://orcid.org/0000-0003-3986-0510"},
+        {"@id": "https://orcid.org/0009-0008-7998-3965"},
+        {"@id": "https://orcid.org/0009-0005-7305-3052"},
+        {"@id": "https://orcid.org/0009-0003-9975-1321"}
+      ],
+      "member": [
+        {"@id": "https://orcid.org/0000-0003-1793-9615"},
+        {"@id": "https://orcid.org/0000-0003-1881-9172"}
+      ],
+      "contributor": [
+        {"@id": "https://orcid.org/0000-0001-5844-3021"},
+        {"@id": "https://orcid.org/0000-0001-9523-7227"},
+        {"@id": "https://orcid.org/0000-0002-6767-5905"}
+      ],
+      "funding": [
+        {"@id": "https://ror.org/018mejw64"},
+        {"@id": "https://gepris.dfg.de/gepris/projekt/561044496"}
+      ],
+      "parentOrganization": [
+        {"@id": "https://ror.org/0259fwx54"},
+        {"@id": "https://ror.org/018afyw53"},
+        {"@id": "https://ror.org/02v9wg595"}
+      ],
+      "keywords": "Research software, metadata, machine-actionability, Methods in Artificial Intelligence and Machine Learning, Software Engineering and Programming Languages",
+      "knowsAbout": [
+        {"@id": "https://doi.org/10.5281/zenodo.15616384"}
+      ]
+    },
+    {
+      "@type": "Report",
+      "@id": "https://doi.org/10.5281/zenodo.15616384",
+      "identifier": "DOI:10.5281/zenodo.15616384",
+      "name": "Connected Open Source Software - ConnOSS - Proposal",
+      "description": "Project proposal for Connected Open Source Software (ConnOSS) in the area of Scientific Library Services and Information Systems (LIS).",
+      "citation": "Castro, L. J., Mathiak, B., & Nieße, A. (2025). Connected Open Source Software - ConnOSS (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15616384",
+      "datePublished": "2025-06-07",
+      "version": "v1.0.0",
+      "url": "https://zenodo.org/records/15616384",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0000-0003-3986-0510"},
+        {"@id": "https://orcid.org/0000-0003-1793-9615"},
+        {"@id": "https://orcid.org/0000-0003-1881-9172"}
+      ],
+      "contributor": [
+        {"@id": "https://orcid.org/0000-0001-5844-3021"},
+        {"@id": "https://orcid.org/0000-0001-9523-7227"},
+        {"@id": "https://orcid.org/0000-0002-6767-5905"}
+      ]
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "@type": "Person",
+      "givenName": "Leyla Jael",
+      "familyName": "Castro"
+    },
+    {
+      "@id": "https://orcid.org/0009-0008-7998-3965",
+      "@type": "Person",
+      "givenName": "Maryam",
+      "familyName": "Sefidbari"
+    },
+    {
+      "@id": "https://orcid.org/0009-0005-7305-3052",
+      "@type": "Person",
+      "givenName": "Suhasini",
+      "familyName": "Venkatesh"
+    },
+    {
+      "@id": "https://orcid.org/0009-0003-9975-1321",
+      "@type": "Person",
+      "givenName": "Akhilan",
+      "familyName": "Ashokan"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1793-9615",
+      "@type": "Person",
+      "givenName": "Brigitte",
+      "familyName": "Mathiak"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1881-9172",
+      "@type": "Person",
+      "givenName": "Astrid",
+      "familyName": "Nieße"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5844-3021",
+      "@type": "Person",
+      "givenName": "Lu",
+      "familyName": "Gan"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9523-7227",
+      "@type": "Person",
+      "givenName": "Stephan",
+      "familyName": "Ferenz"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6767-5905",
+      "@type": "Person",
+      "givenName": "Oliver",
+      "familyName": "Werth"
+    },
+    {
+      "@id": "https://w3id.org/zbmed-semtec",
+      "@type": "ResearchOrganization",
+      "name": "Semantic Technologies team at ZB MED",
+      "url": {
+        "@id": "https://zbmed-semtec.github.io/"
+      }
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/",
+      "@type": "ResearchOrganization",
+      "name": "Semantic Technologies team at ZB MED"
+    },
+    {
+      "@id": "https://ror.org/018mejw64",
+      "@type": "Organization",
+      "alternateName": "German Research Foundation (DFG)",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "url": {
+        "@id": "https://www.dfg.de/"
+      }
+    },
+    {
+      "@id": "https://gepris.dfg.de/gepris/projekt/561044496",
+      "@type": "Grant",
+      "name": "Research Software Infrastructure",
+      "identifier": "561044496",
+      "description": "DFG-LIS funding programme Research data and software (Scientific Library Services and Information Systems), grant number 561044496",
+      "funder": {
+        "@id": "https://ror.org/018mejw64"
+      }
+    },
+    {
+      "@id": "https://ror.org/0259fwx54",
+      "@type": "ResearchOrganization",
+      "alternateName": "ZB MED Information Centre for Life Sciences",
+      "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+      "url": {
+        "@id": "https://zbmed.de/"
+      }
+    },
+    {
+      "@id": "https://ror.org/018afyw53",
+      "@type": "ResearchOrganization",
+      "alternateName": "GESIS - Leibniz Institute for the Social Sciences",
+      "name": "GESIS - Leibniz-Institut für Sozialwissenschaften",
+      "url": {
+        "@id": "https://www.gesis.org/"
+      }
+    },
+    {
+      "@id": "https://ror.org/02v9wg595",
+      "@type": "EducationalOrganization",
+      "alternateName": "Carl von Ossietzky University of Oldenburg",
+      "name": "Carl von Ossietzky Universität Oldenburg",
+      "url": {
+        "@id": "https://uol.de/"
+      }
+    }
+  ]
+}
