@@ -1,0 +1,223 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "ResearchProject",
+  "name": "DiscoRSE",
+  "@id": "https://w3id.org/zbmed-semtec/projects/2025_DiscoRSE",
+  "alternateName": "Discoverability of Research Software Engineering Open Educational Resources",
+  "description": "The Research Software Engineering (RSE) community has developed a wealth of high-quality Open Educational Resources (OER) covering both foundational and advanced topics. Despite their value, these materials are often difficult to access as they are scattered across various websites or buried within fragmented directories of links. The absence of a centralised RSE OER directory makes it difficult to utilise and develop these resources. The DiscoRSE project seeks to address this problem by improving the discoverability and usability of RSE OER. It focuses on four key objectives: enhanced discoverability of topic-specific OER; logical learning pathways connecting sequential materials; author recognition highlighting resource creators; and accessibility ensuring OER comply with accessibility standards. Building on established models such as the Training eSupport System (TeSS), DiscoRSE aims to create a central platform tailored to the RSE community. At ZB MED, the Semantic Technologies team performs cross-sectional analyses and harmonises metadata for OER, supports development of the DiscoRSE platform, integrates the schema generated from its analysis into the platform, and provides ongoing community support through follow-up workshops.",
+  "url": [
+    "https://zbmed-semtec.github.io/projects/2025_DiscoRSE",
+    "https://www.zbmed.de/en/research/current-projects/discorse",
+    "https://www.discorse.de/"
+  ],
+  "logo": "https://zbmed-semtec.github.io/projects/2025_DiscoRSE-logo.png",
+  "image": "https://zbmed-semtec.github.io/projects/2025_DiscoRSE.jpg",
+  "startDate": "2025-01-01",
+  "endDate": "2027-12-31",
+  "creativeWorkStatus": "In Progress",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Enhanced discoverability of RSE open educational resources"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Logical learning pathways for RSE training materials"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Author recognition for OER creators"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Accessibility of open educational resources"
+    }
+  ],
+  "department": {
+    "@type": "ResearchOrganization",
+    "@id": "https://w3id.org/zbmed-semtec",
+    "name": "Semantic Technologies team at ZB MED",
+    "url": "https://zbmed-semtec.github.io/"
+  },
+  "parentOrganization": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://ror.org/0259fwx54",
+      "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+      "alternateName": "ZB MED Information Centre for Life Sciences",
+      "url": "https://zbmed.de/"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://ror.org/05tg8tv42",
+      "name": "Friedrich-Schiller-Universität Jena",
+      "alternateName": "Friedrich Schiller University Jena",
+      "url": "https://www.uni-jena.de/"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://ror.org/03fbm0188",
+      "name": "Julius-Maximilians-Universität Würzburg",
+      "alternateName": "University of Würzburg",
+      "url": "https://www.uni-wuerzburg.de/"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "Grant",
+      "@id": "https://klaus-tschira-stiftung.de/en/fundinglines/scientific-software/",
+      "funder": {
+        "@type": "Organization",
+        "@id": "https://ror.org/014xezs13",
+        "name": "Klaus Tschira Stiftung",
+        "alternateName": "Klaus Tschira Foundation",
+        "url": "https://klaus-tschira-stiftung.de/"
+      },
+      "name": "Scientific Software",
+      "description": "Klaus Tschira Stiftung funding programme Scientific Software (Naturwissenschaftliche Software)"
+    }
+  ],
+  "employee": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "givenName": "Leyla Jael",
+      "familyName": "Castro",
+      "jobTitle": "Project Manager"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0005-7305-3052",
+      "givenName": "Suhasini",
+      "familyName": "Venkatesh",
+      "jobTitle": "Project Team Member"
+    }
+  ],
+  "member": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0006-0886-725X",
+      "givenName": "Eckhard",
+      "familyName": "Kadasch",
+      "jobTitle": "Project partner"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1323-5445",
+      "givenName": "Christian",
+      "familyName": "Knüpfer",
+      "jobTitle": "Project partner"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6643-6323",
+      "givenName": "Frank",
+      "familyName": "Löffler",
+      "alternateName": "Frank Löffer",
+      "jobTitle": "Project partner"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3931-6670",
+      "givenName": "Philipp Matthias",
+      "familyName": "Schäfer",
+      "jobTitle": "Project partner"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2707-4790",
+      "givenName": "Florian",
+      "familyName": "Goth",
+      "jobTitle": "Project partner"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4522-1099",
+      "givenName": "York",
+      "familyName": "Sure-Vetter",
+      "jobTitle": "Editor"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-0183-6910",
+      "givenName": "Paul",
+      "familyName": "Groth",
+      "jobTitle": "Editor"
+    }
+  ],
+  "location": {
+    "@type": "Place",
+    "name": "ZB MED - Information Centre for Life Sciences",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Gleueler Str. 60",
+      "addressLocality": "Cologne",
+      "addressRegion": "NRW",
+      "postalCode": "50931",
+      "addressCountry": "DE"
+    }
+  },
+  "keywords": [
+    "Research Software Engineer",
+    "RSE",
+    "Open educational resources",
+    "OER",
+    "Metadata",
+    "Training materials",
+    "TeSS",
+    "machine-actionability",
+    "FAIR"
+  ],
+  "knowsAbout": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.16736127",
+      "identifier": "DOI:10.5281/zenodo.16736127",
+      "name": "DiscoRSE: an open educational resource for Research Software Engineers",
+      "citation": "Kadasch, E., Knüpfer, C., Venkatesh, S., Castro, L. J., Goth, F., Schäfer, P., & Löffer, F. (2025). DiscoRSE: an open educational resource for Research Software Engineers (v1). Zenodo. https://doi.org/10.5281/zenodo.16736127",
+      "datePublished": "2025-08-04",
+      "version": "v1",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "url": "https://zenodo.org/records/16736127",
+      "author": [
+        {"@id": "https://orcid.org/0009-0006-0886-725X"},
+        {"@id": "https://orcid.org/0000-0002-1323-5445"},
+        {"@id": "https://orcid.org/0009-0005-7305-3052"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"},
+        {"@id": "https://orcid.org/0000-0003-2707-4790"},
+        {"@id": "https://orcid.org/0000-0003-3931-6670"},
+        {"@id": "https://orcid.org/0000-0001-6643-6323"}
+      ],
+      "contributor": [
+        {"@id": "https://orcid.org/0000-0002-4522-1099"},
+        {"@id": "https://orcid.org/0000-0003-0183-6910"}
+      ]
+    },
+    {
+      "@type": "Poster",
+      "@id": "https://doi.org/10.5281/zenodo.16846029",
+      "identifier": "DOI:10.5281/zenodo.16846029",
+      "name": "Poster - DiscoRSE: an open educational resource for Research Software Engineers",
+      "description": "Poster presented at CoRDI 2025 corresponding to the DiscoRSE conference paper.",
+      "datePublished": "2025-08-13",
+      "url": "https://zenodo.org/records/16846029",
+      "author": [
+        {"@id": "https://orcid.org/0009-0006-0886-725X"},
+        {"@id": "https://orcid.org/0000-0002-1323-5445"},
+        {"@id": "https://orcid.org/0009-0005-7305-3052"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"},
+        {"@id": "https://orcid.org/0000-0003-2707-4790"},
+        {"@id": "https://orcid.org/0000-0003-3931-6670"},
+        {"@id": "https://orcid.org/0000-0001-6643-6323"}
+      ]
+    }
+  ]
+}
