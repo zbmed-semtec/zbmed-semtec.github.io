@@ -1,0 +1,682 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "ResearchProject",
+  "name": "NFDI4DataScience",
+  "@id": "https://w3id.org/zbmed-semtec/projects/2021_NFDI4DS",
+  "alternateName": [
+    "NFDI4DS",
+    "NFDI4DataScience"
+  ],
+  "description": "NFDI4DataScience (NFDI4DS) is the National Research Data Infrastructure consortium for Data Science and Artificial Intelligence in Germany (DFG project 460234259). The vision is to support all steps of the interdisciplinary research data lifecycle—collecting and creating, processing, analysing, publishing, archiving, and reusing resources such as publications, data, models, and software code—with the goal of increasing transparency, reproducibility, and fairness. At ZB MED, the Semantic Technologies team contributes to building infrastructures for providing and searching data, software, and data analysis models used in AI research, and develops FAIR metadata solutions including RO-Crate, Bioschemas, machine-actionable software management plans, and ML model registries within the consortium.",
+  "url": [
+    "https://zbmed-semtec.github.io/projects/2021_NFDI4DS",
+    "https://www.zbmed.de/en/research/current-projects/nfdi4datascience",
+    "https://www.nfdi4datascience.de/",
+    "https://gepris.dfg.de/gepris/projekt/460234259?language=en"
+  ],
+  "startDate": "2021-10-01",
+  "endDate": "2026-09-30",
+  "creativeWorkStatus": "In Progress",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "National research data infrastructure for Data Science and AI"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "FAIR and open research data for code, models, data and publications"
+    }
+  ],
+  "department": {
+    "@type": "ResearchOrganization",
+    "@id": "https://w3id.org/zbmed-semtec",
+    "name": "Semantic Technologies team at ZB MED",
+    "url": "https://zbmed-semtec.github.io/"
+  },
+  "parentOrganization": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://ror.org/0259fwx54",
+      "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+      "alternateName": "ZB MED Information Centre for Life Sciences",
+      "url": "https://zbmed.de/"
+    },
+    {
+      "@type": "Consortium",
+      "@id": "https://www.nfdi4datascience.de",
+      "name": "NFDI4DataScience",
+      "url": "https://www.nfdi4datascience.de/"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "Grant",
+      "@id": "https://gepris.dfg.de/gepris/projekt/460234259",
+      "funder": {
+        "@type": "Organization",
+        "@id": "https://ror.org/018mejw64",
+        "name": "Deutsche Forschungsgemeinschaft",
+        "alternateName": "German Research Foundation (DFG)",
+        "url": "https://www.dfg.de/"
+      },
+      "name": "NFDI4DataScience",
+      "identifier": "460234259",
+      "description": "NFDI4DS - NFDI for Data Science and Artificial Intelligence (DFG programme: NFDI technical and methodological consortia)"
+    }
+  ],
+  "employee": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1018-0370",
+      "givenName": "Dietrich",
+      "familyName": "Rebholz-Schuhmann",
+      "jobTitle": "ZB MED Project Manager"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3986-0510",
+      "givenName": "Leyla Jael",
+      "familyName": "Castro",
+      "jobTitle": "Technical Coordination"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-4484-6283",
+      "givenName": "Rohitha",
+      "familyName": "Ravinder",
+      "jobTitle": "RSE and Data Scientist"
+    }
+  ],
+  "keywords": [
+    "NFDI4DS",
+    "NFDI",
+    "data science",
+    "artificial intelligence",
+    "FAIR",
+    "research data infrastructure",
+    "reproducibility",
+    "transparency",
+    "machine learning",
+    "metadata",
+    "RO-Crate"
+  ],
+  "knowsAbout": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1038/s41592-026-03037-6",
+      "name": "Open and sustainable AI: challenges, opportunities and the road ahead in the life sciences",
+      "identifier": "DOI:10.1038/s41592-026-03037-6",
+      "citation": "Gavin Farrell, Eleni Adamidi, Rafael Andrade Buono, Mihail Anton, Omar Abdelghani Attafi, Salvador Capella Gutierrez, Emidio Capriotti, Leyla Jael Castro, et al. (2026). Open and sustainable AI: challenges, opportunities and the road ahead in the life sciences. https://doi.org/10.1038/s41592-026-03037-6",
+      "datePublished": "2026-03-20",
+      "url": "https://www.nature.com/articles/s41592-026-03037-6",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.19431876",
+      "name": "Two Use Cases on the Adoption of Webby FDOs",
+      "identifier": "DOI:10.5281/zenodo.19431876",
+      "citation": "Rohitha Ravinder, Daniel Bauer, Jonas Grieb, Stian Soiland-Reyes, Claus Weiland, Leyla Jael Castro (2026). Two Use Cases on the Adoption of Webby FDOs. https://doi.org/10.5281/zenodo.19431876",
+      "datePublished": "2026-03-26",
+      "url": "https://zenodo.org/records/19431876",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://doi.org/10.5281/zenodo.15094699",
+      "name": "word2doc2vec-doc-relevance-training",
+      "identifier": "DOI:10.5281/zenodo.15094699",
+      "citation": "Rohitha Ravinder, Lukas Geist, Suhasini Venkatesh, Leyla Jael Castro, Dietrich Rebholz-Schuhmann (2026). word2doc2vec-doc-relevance-training. https://doi.org/10.5281/zenodo.15094699",
+      "datePublished": "2026-03-13",
+      "url": "https://zenodo.org/records/15094699"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://doi.org/10.5281/zenodo.15095071",
+      "name": "doc2vec-doc-relevance-training",
+      "identifier": "DOI:10.5281/zenodo.15095071",
+      "citation": "Rohitha Ravinder, Suhasini Venkatesh, Dhwani Solanki, Dietrich Rebholz-Schuhmann, Leyla Jael Castro (2026). doc2vec-doc-relevance-training. https://doi.org/10.5281/zenodo.15095071",
+      "datePublished": "2026-03-13",
+      "url": "https://zenodo.org/records/15095071"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://doi.org/10.5281/zenodo.15095937",
+      "name": "fasttext2doc2vec-doc-relevance-training",
+      "identifier": "DOI:10.5281/zenodo.15095937",
+      "citation": "Rohitha Ravinder, Leyla Jael Castro, Dietrich Rebholz-Schuhmann (2026). fasttext2doc2vec-doc-relevance-training. https://doi.org/10.5281/zenodo.15095937",
+      "datePublished": "2026-03-13",
+      "url": "https://zenodo.org/records/15095937"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://doi.org/10.5281/zenodo.15094064",
+      "name": "hybrid-doc-relevance-training",
+      "identifier": "DOI:10.5281/zenodo.15094064",
+      "citation": "Rohitha Ravinder, Lukas Geist, Nelson David Quiñones Virgen, Bernd Müller, Dhwani Solanki, Dietrich Rebholz-Schuhmann, Leyla Jael Castro (2026). hybrid-doc-relevance-training. https://doi.org/10.5281/zenodo.15094064",
+      "datePublished": "2026-03-13",
+      "url": "https://zenodo.org/records/15094064"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://doi.org/10.5281/zenodo.15096055",
+      "name": "whatizit-dictionary-ner",
+      "identifier": "DOI:10.5281/zenodo.15096055",
+      "citation": "Rohitha Ravinder, Leyla Jael Castro, Dietrich Rebholz-Schuhmann (2026). whatizit-dictionary-ner. https://doi.org/10.5281/zenodo.15096055",
+      "datePublished": "2026-03-13",
+      "url": "https://zenodo.org/records/15096055"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://doi.org/10.5281/zenodo.18969187",
+      "name": "bert-embeddings-doc-relevance",
+      "identifier": "DOI:10.5281/zenodo.18969187",
+      "citation": "Rohitha Ravinder, Leyla Jael Castro, Dietrich Rebholz-Schuhmann (2026). bert-embeddings-doc-relevance. https://doi.org/10.5281/zenodo.18969187",
+      "datePublished": "2026-03-13",
+      "url": "https://zenodo.org/records/18969187"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://doi.org/10.5281/zenodo.15095228",
+      "name": "wmd-word2vec-training",
+      "identifier": "DOI:10.5281/zenodo.15095228",
+      "citation": "Rohitha Ravinder, Lukas Geist, Leyla Jael Castro, Dietrich Rebholz-Schuhmann (2026). wmd-word2vec-training. https://doi.org/10.5281/zenodo.15095228",
+      "datePublished": "2026-03-13",
+      "url": "https://zenodo.org/records/15095228"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://doi.org/10.5281/zenodo.14826813",
+      "name": "Machine Learning Models, Embeddings, and Evaluation Results for the OntoClue Project",
+      "identifier": "DOI:10.5281/zenodo.14826813",
+      "citation": "Rohitha Ravinder, Lukas Geist, Nelson Quiñones, Suhasini Venkatesh, Solanki Dhwani, Bernd Müller, Dietrich Rebholz-Schuhmann, Leyla Jael Castro (2026). Machine Learning Models, Embeddings, and Evaluation Results for the OntoClue Project. https://doi.org/10.5281/zenodo.14826813",
+      "datePublished": "2026-03-13",
+      "url": "https://zenodo.org/records/14826813",
+      "author": [
+        {
+          "@id": "https://orcid.org/0009-0004-4484-6283"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2910-7982"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5037-0443"
+        },
+        {
+          "@id": "https://orcid.org/0009-0005-7305-3052"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1018-0370"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        }
+      ]
+    },
+    {
+      "@type": "Report",
+      "@id": "https://doi.org/10.5281/zenodo.18743752",
+      "name": "Towards a Better Understanding of Personas in the NFDI Interdisciplinary Context",
+      "identifier": "DOI:10.5281/zenodo.18743752",
+      "citation": "Ekaterina Kutafina, Jens Dierkes, Oya Beyan, Leyla Jael Castro, Maria Christoforaki, Christine Hennig, Anna-Lena Lorenz, Sonja Schimmler (2026). Towards a Better Understanding of Personas in the NFDI Interdisciplinary Context. https://doi.org/10.5281/zenodo.18743752",
+      "datePublished": "2026-02-23",
+      "url": "https://zenodo.org/records/18743752",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.17642467",
+      "name": "An introduction to Software Management Plans",
+      "identifier": "DOI:10.5281/zenodo.17642467",
+      "citation": "Leyla Jael Castro (2025). An introduction to Software Management Plans. https://doi.org/10.5281/zenodo.17642467",
+      "datePublished": "2025-11-18",
+      "url": "https://zenodo.org/records/17642467",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.17659840",
+      "name": "Software Management Plans at a glance",
+      "identifier": "DOI:10.5281/zenodo.17659840",
+      "citation": "Leyla Jael Castro (2025). Software Management Plans at a glance. https://doi.org/10.5281/zenodo.17659840",
+      "datePublished": "2025-11-20",
+      "url": "https://zenodo.org/records/17659840",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.17642991",
+      "name": "Initiatives at ZB MED and NFDI on metadata for software and AI models",
+      "identifier": "DOI:10.5281/zenodo.17642991",
+      "citation": "Leyla Jael Castro (2025). Initiatives at ZB MED and NFDI on metadata for software and AI models. https://doi.org/10.5281/zenodo.17642991",
+      "datePublished": "2025-11-19",
+      "url": "https://zenodo.org/records/17642991",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.48550/arxiv.2505.16619",
+      "name": "Open and Sustainable AI: challenges, opportunities and the road ahead in the life sciences",
+      "identifier": "DOI:10.48550/arxiv.2505.16619",
+      "citation": "Gavin Farrell, Eleni Adamidi, Rafael Andrade Buono, Mihail Anton, Omar Abdelghani Attafi, Salvador Capella Gutierrez, Emidio Capriotti, Leyla Jael Castro, et al. (2025). Open and Sustainable AI: challenges, opportunities and the road ahead in the life sciences. https://doi.org/10.48550/arxiv.2505.16619",
+      "datePublished": "2025-05-22",
+      "url": "http://arxiv.org/abs/2505.16619",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.8331237",
+      "name": "Schema.org as a Lightweight Harmonization Approach for NFDI",
+      "identifier": "DOI:10.5281/zenodo.8331237",
+      "citation": "Leyla Jael Castro, Juliane Fluck, Daniel Arend, Matthias Lange, Daniel Martini, Steffen Neumann, Sonja Schimmler, Dietrich Rebholz-Schuhmann (2023). Schema.org as a Lightweight Harmonization Approach for NFDI. https://doi.org/10.5281/zenodo.8331237",
+      "datePublished": "2023-09-13",
+      "url": "https://zenodo.org/records/8331237",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.52825/cordi.v1i.280",
+      "name": "Schema.org as a Lightweight Harmonization Approach for NFDI",
+      "identifier": "DOI:10.52825/cordi.v1i.280",
+      "citation": "Leyla Jael Castro, Juliane Fluck, Daniel Arend, Matthias Lange, Daniel Martini, Steffen Neumann, Sonja Schimmler, Dietrich Rebholz-Schuhmann (2023). Schema.org as a Lightweight Harmonization Approach for NFDI. https://doi.org/10.52825/cordi.v1i.280",
+      "datePublished": "2023-09",
+      "url": "http://dx.doi.org/10.52825/cordi.v1i.280",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1018-0370"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.8348924",
+      "name": "RO-Crates meets FAIR Digital Objects - Presentation",
+      "identifier": "DOI:10.5281/zenodo.8348924",
+      "citation": "Leyla Jael Castro, Stian Soiland-Reyes, Dietrich Rebholz-Schuhmann (2023). RO-Crates meets FAIR Digital Objects - Presentation. https://doi.org/10.5281/zenodo.8348924",
+      "datePublished": "2023-09-15",
+      "url": "https://zenodo.org/records/8348924",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://www.tib-op.org/ojs/index.php/CoRDI/article/view/396",
+      "name": "RO-Crates Meets FAIR Digital Objects",
+      "citation": "Leyla Jael Castro, Stian Soiland-Reyes, Dietrich Rebholz-Schuhmann (2023). RO-Crates Meets FAIR Digital Objects.",
+      "datePublished": "2023-09",
+      "url": "https://www.tib-op.org/ojs/index.php/CoRDI/article/view/396",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1018-0370"
+        }
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.10407265",
+      "name": "Lifecycle for FAIR Machine Learning",
+      "identifier": "DOI:10.5281/zenodo.10407265",
+      "citation": "Leyla Jael Castro, Fotis Psomopoulos, Beatriz Serrano-Solano, Curtis Sharma, Kirubel Biruk Shiferaw, Dhwani Solanki, Yue Zhang (2023). Lifecycle for FAIR Machine Learning. https://doi.org/10.5281/zenodo.10407265",
+      "datePublished": "2023-12-19",
+      "url": "https://zenodo.org/records/10407265",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        },
+        {
+          "@id": "https://orcid.org/0009-0004-1529-0095"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.10568740",
+      "name": "Building lightweight FAIR data packages with Bioschemas and RO-Crate",
+      "identifier": "DOI:10.5281/zenodo.10568740",
+      "citation": "Stian Soiland-Reyes, Leyla Jael Castro, Núria Queralt Rosinach (2023). Building lightweight FAIR data packages with Bioschemas and RO-Crate. https://doi.org/10.5281/zenodo.10568740",
+      "datePublished": "2023-06-06",
+      "url": "https://zenodo.org/records/10568740",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.10582226",
+      "name": "Data exchange with RO-Crates and Knowledge Graphs",
+      "identifier": "DOI:10.5281/zenodo.10582226",
+      "citation": "Stian Soiland-Reyes, Leyla Jael Castro, Dietrich Rebholz-Schuhmann (2023). Data exchange with RO-Crates and Knowledge Graphs. https://doi.org/10.5281/zenodo.10582226",
+      "datePublished": "2023-07-05",
+      "url": "https://zenodo.org/records/10582226",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.11281952",
+      "name": "machine-actionable Software Management Plans",
+      "identifier": "DOI:10.5281/zenodo.11281952",
+      "citation": "Leyla Jael Castro (2024). machine-actionable Software Management Plans. https://doi.org/10.5281/zenodo.11281952",
+      "datePublished": "2024-05-24",
+      "url": "https://zenodo.org/records/11281952",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://doi.org/10.5281/zenodo.14865428",
+      "name": "OntoClue Docker",
+      "identifier": "DOI:10.5281/zenodo.14865428",
+      "citation": "Rohitha Ravinder, Dietrich Rebholz-Schuhmann, Leyla Jael Castro (2025). OntoClue Docker. https://doi.org/10.5281/zenodo.14865428",
+      "datePublished": "2025-02-13",
+      "url": "https://zenodo.org/records/14865428"
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.14882785",
+      "name": "An introduction to Signposting - Easy navigation to FDO layers",
+      "identifier": "DOI:10.5281/zenodo.14882785",
+      "citation": "Rohitha Ravinder, Leyla Jael Castro (2025). An introduction to Signposting - Easy navigation to FDO layers. https://doi.org/10.5281/zenodo.14882785",
+      "datePublished": "2025-02-21",
+      "url": "https://zenodo.org/records/14882785",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.14882665",
+      "name": "An introduction to (webby) FAIR Digital Objects - A machine-actionable approach to FAIR",
+      "identifier": "DOI:10.5281/zenodo.14882665",
+      "citation": "Rohitha Ravinder, Leyla Jael Castro (2025). An introduction to (webby) FAIR Digital Objects - A machine-actionable approach to FAIR. https://doi.org/10.5281/zenodo.14882665",
+      "datePublished": "2025-02-21",
+      "url": "https://zenodo.org/records/14882665",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.14920117",
+      "name": "An Introduction to Schema.org and JSON-LD",
+      "identifier": "DOI:10.5281/zenodo.14920117",
+      "citation": "Rohitha Ravinder, Leyla Jael Castro (2025). An Introduction to Schema.org and JSON-LD. https://doi.org/10.5281/zenodo.14920117",
+      "datePublished": "2025-02-24",
+      "url": "https://zenodo.org/records/14920117",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://doi.org/10.5281/zenodo.15126201",
+      "name": "v1.0.0 web-based visualization for the RDA FAIR4ML ML lifecycle",
+      "identifier": "DOI:10.5281/zenodo.15126201",
+      "citation": "Aurélian Luciani, Lukas Geist, Nelson Quinones, Dhwani Solanki, Rohitha Ravinder, Leyla Jael Castro, Dietrich Rebholz-Schuhmann (2024). v1.0.0 web-based visualization for the RDA FAIR4ML ML lifecycle. https://doi.org/10.5281/zenodo.15126201",
+      "datePublished": "2024-09-12",
+      "url": "https://zenodo.org/records/15126201"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://doi.org/10.5281/zenodo.15129830",
+      "name": "Crosswalks from the NFDI4DS hackathon \"machine-actionable Data Management Plan for NFDI\"",
+      "identifier": "DOI:10.5281/zenodo.15129830",
+      "citation": "Dhwani Solanki, Suhasini Venkatesh, Safial Islam Ayon, Martin Armbruster, Katja Diederichs, Sara El-Gebali, Giacomo Lanza, Antonia Leidel, et al. (2025). Crosswalks from the NFDI4DS hackathon \"machine-actionable Data Management Plan for NFDI\". https://doi.org/10.5281/zenodo.15129830",
+      "datePublished": "2025-04-03",
+      "url": "https://zenodo.org/records/15129830",
+      "author": [
+        {
+          "@id": "https://orcid.org/0009-0004-1529-0095"
+        },
+        {
+          "@id": "https://orcid.org/0009-0005-7305-3052"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        }
+      ]
+    },
+    {
+      "@type": "Report",
+      "@id": "https://doi.org/10.5281/zenodo.15130045",
+      "name": "Identification of core elements for a machine-actionable Data Management Plan metadata schema in the NFDI",
+      "identifier": "DOI:10.5281/zenodo.15130045",
+      "citation": "Dhwani Solanki, Suhasini Venkatesh, Safial Islam Ayon, Martin Armbruster, Katja Diederichs, Sara El-Gebali, Giacomo Lanza, Antonia Leidel, et al. (2025). Identification of core elements for a machine-actionable Data Management Plan metadata schema in the NFDI. https://doi.org/10.5281/zenodo.15130045",
+      "datePublished": "2025-05-26",
+      "url": "https://zenodo.org/records/15130045",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0009-0004-1529-0095"
+        },
+        {
+          "@id": "https://orcid.org/0009-0005-7305-3052"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        }
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.37044/osf.io/4sgdq_v1",
+      "name": "An assessment of Croissant ML metadata descriptors for AI-ready datasets",
+      "identifier": "DOI:10.37044/osf.io/4sgdq_v1",
+      "citation": "Jerven Bolleman, Leyla Jael Castro, Alban Gaignard, Agoritsa Kalampaliki, Matúš Kalaš, Edwin Jun Kiat Ong, Núria Queralt Rosinach, Nelson Quiñones, et al. (2025). An assessment of Croissant ML metadata descriptors for AI-ready datasets. https://doi.org/10.37044/osf.io/4sgdq_v1",
+      "datePublished": "2025-04-02",
+      "url": "https://osf.io/4sgdq_v1",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-5037-0443"
+        },
+        {
+          "@id": "https://orcid.org/0009-0004-4484-6283"
+        },
+        {
+          "@id": "https://orcid.org/0009-0004-1529-0095"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.16953923",
+      "name": "Bioschemas and Schemas.science at NFDI",
+      "identifier": "DOI:10.5281/zenodo.16953923",
+      "citation": "Leyla Jael Castro, Alban Gaignard, Nick Juty, Helena Schnitzer, Phil Reed, Carole Goble (2025). Bioschemas and Schemas.science at NFDI. https://doi.org/10.5281/zenodo.16953923",
+      "datePublished": "2025-08-26",
+      "url": "https://zenodo.org/records/16953923",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.17048004",
+      "name": "In silico protocols for reproducibility of machine learning approaches",
+      "identifier": "DOI:10.5281/zenodo.17048004",
+      "citation": "Dhwani Solanki, Leyla Jael Castro, Dietrich Rebholz-Schuhmann (2025). In silico protocols for reproducibility of machine learning approaches. https://doi.org/10.5281/zenodo.17048004",
+      "datePublished": "2025-09-03",
+      "url": "https://zenodo.org/records/17048004",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.17062307",
+      "name": "Tutorial: Introduction to ML model cards",
+      "identifier": "DOI:10.5281/zenodo.17062307",
+      "citation": "Leyla Jael Castro (2025). Tutorial: Introduction to ML model cards. https://doi.org/10.5281/zenodo.17062307",
+      "datePublished": "2025-09-15",
+      "url": "https://zenodo.org/records/17062307",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://doi.org/10.5281/zenodo.17063115",
+      "name": "A walk through metadata for training materials",
+      "identifier": "DOI:10.5281/zenodo.17063115",
+      "citation": "Leyla Jael Castro, Dietrich Rebholz-Schuhmann (2025). A walk through metadata for training materials. https://doi.org/10.5281/zenodo.17063115",
+      "datePublished": "2025-09-15",
+      "url": "https://zenodo.org/records/17063115",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    }
+  ]
+}
