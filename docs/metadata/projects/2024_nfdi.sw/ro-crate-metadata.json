@@ -1,0 +1,243 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {"@id": "https://w3id.org/ro/crate/1.1"},
+      "about": {"@id": "./"}
+    },
+    {
+      "@id": "./",
+      "@type": ["Dataset"],
+      "name": "RO-Crate for the research project 'nfdi.software'",
+      "description": "This RO-Crate describes the nfdi.software research project including metadata about the marketplace, participating organisations, people, and deliverables.",
+      "datePublished": "2025-12-31",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "keywords": [
+        "Research software",
+        "Metadata",
+        "Base4NFDI",
+        "NFDI",
+        "CodeMeta",
+        "FAIR4RS",
+        "Software marketplace",
+        "Metadata exchange",
+        "Software quality"
+      ],
+      "about": {"@id": "https://zbmed-semtec.github.io/projects/2024_nfdi.sw/"},
+      "hasPart": [
+        {"@id": "https://nfdi.software/"},
+        {"@id": "https://base4nfdi.de/projects/nfdi-software"},
+        {"@id": "https://www.zbmed.de/en/research/current-projects/base4nfdi-nfdisoftware"},
+        {"@id": "https://doi.org/10.5281/zenodo.15676106"},
+        {"@id": "https://doi.org/10.5281/zenodo.17897111"}
+      ]
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/projects/2024_nfdi.sw",
+      "@type": "http://schema.org/ResearchProject",
+      "name": "nfdi.software",
+      "alternateName": ["nfdi.sw", "Base4NFDI: nfdi.software"],
+      "department": {"@id": "https://w3id.org/zbmed-semtec"},
+      "description": "The nfdi.software project develops a central marketplace for research software within the German National Research Data Infrastructure (NFDI). It harvests, standardises, and enriches metadata from NFDI consortia marketplaces and registries, links software to data and other research artefacts, and applies AI-driven approaches to monitor software relevance. The initialisation phase delivered a proof-of-concept website and API, a prototype for integration with tools such as the Research Software Directory and bio.tools, and work towards a cross-sector metadata vocabulary. At ZB MED, the Semantic Technologies team contributed to metadata exchange with other Base4NFDI services, quality criteria and metadata alignment (including CodeMeta and FAIR4RS), and recommendations for curating software added to the marketplace.",
+      "startDate": {"@type": "Date", "@value": "2024-11-01"},
+      "endDate": {"@type": "Date", "@value": "2025-12-31"},
+      "creativeWorkStatus": "Completed",
+      "employee": [
+        {"@id": "https://orcid.org/0000-0003-3986-0510"},
+        {"@id": "https://orcid.org/0009-0005-7305-3052"}
+      ],
+      "member": [
+        {"@id": "https://orcid.org/0000-0002-1435-0584"},
+        {"@id": "https://orcid.org/0000-0001-5844-3021"}
+      ],
+      "funding": [
+        {"@id": "https://ror.org/018mejw64"},
+        {"@id": "https://gepris.dfg.de/gepris/projekt/521453681"}
+      ],
+      "parentOrganization": [
+        {"@id": "https://ror.org/0259fwx54"},
+        {"@id": "https://base4nfdi.de"},
+        {"@id": "https://ror.org/04eb8xh84"},
+        {"@id": "https://ror.org/04aj4rc67"},
+        {"@id": "https://ror.org/052n9x848"},
+        {"@id": "https://ror.org/02dy17593"},
+        {"@id": "https://ror.org/0044q7h24"},
+        {"@id": "https://ror.org/03s7qtv08"},
+        {"@id": "https://ror.org/014nb8097"}
+      ],
+      "keywords": "Research software, Metadata, Base4NFDI, NFDI, CodeMeta, FAIR4RS, Software marketplace, Metadata exchange, Software quality",
+      "knowsAbout": [
+        {"@id": "https://nfdi.software/"},
+        {"@id": "https://base4nfdi.de/projects/nfdi-software"},
+        {"@id": "https://www.zbmed.de/en/research/current-projects/base4nfdi-nfdisoftware"},
+        {"@id": "https://doi.org/10.5281/zenodo.15676106"},
+        {"@id": "https://doi.org/10.5281/zenodo.17897111"}
+      ]
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "https://nfdi.software/",
+      "name": "nfdi.software marketplace",
+      "description": "Central NFDI marketplace to search and discover research software via harmonised metadata.",
+      "url": "https://nfdi.software/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://base4nfdi.de/projects/nfdi-software",
+      "name": "nfdi.software – Base4NFDI service description",
+      "description": "Base4NFDI basic service page for the nfdi.software initialisation phase.",
+      "url": "https://base4nfdi.de/projects/nfdi-software"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.zbmed.de/en/research/current-projects/base4nfdi-nfdisoftware",
+      "name": "Base4NFDI nfdi.software at ZB MED",
+      "description": "ZB MED project page for participation in the nfdi.software Base4NFDI basic service.",
+      "url": "https://www.zbmed.de/en/research/current-projects/base4nfdi-nfdisoftware"
+    },
+    {
+      "@type": "Report",
+      "@id": "https://doi.org/10.5281/zenodo.15676106",
+      "identifier": "DOI:10.5281/zenodo.15676106",
+      "name": "Initial concept for metadata exchange between nfdi.software and other Base4NFDI services",
+      "description": "Deliverable presenting a concept for research software metadata exchange across Base4NFDI projects based on surveys and interviews.",
+      "citation": "Castro, L. J., Bleier, A., Baum, R., Hagemeier, B., Michels, T., Pempe, W., Reinhardt, M., Voß, J., Venkatesh, S., Windeck, J., & Zacharias, M. (2025). Initial concept for metadata exchange between nfdi.software and other Base4NFDI services. Zenodo. https://doi.org/10.5281/zenodo.15676106",
+      "datePublished": "2025-06-16",
+      "url": "https://zenodo.org/records/15676106",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0000-0003-3986-0510"},
+        {"@id": "https://orcid.org/0009-0005-7305-3052"}
+      ]
+    },
+    {
+      "@type": "Report",
+      "@id": "https://doi.org/10.5281/zenodo.17897111",
+      "identifier": "DOI:10.5281/zenodo.17897111",
+      "name": "A preliminary assessment on CodeMeta support for FAIR and quality characteristics for Research Software",
+      "description": "Deliverable D2.5 Quality criteria and metadata for nfdi.software: alignment of CodeMeta with FAIR4RS and software quality characteristics.",
+      "citation": "Venkatesh, S., Jafarbigloo, A., Gan, L., & Castro, L. J. (2025). A preliminary assessment on CodeMeta support for FAIR and quality characteristics for Research Software (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.17897111",
+      "datePublished": "2025-12-11",
+      "version": "v1.0.0",
+      "url": "https://zenodo.org/records/17897111",
+      "license": {
+        "@type": "CreativeWork",
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "author": [
+        {"@id": "https://orcid.org/0009-0005-7305-3052"},
+        {"@id": "https://orcid.org/0000-0002-1435-0584"},
+        {"@id": "https://orcid.org/0000-0001-5844-3021"},
+        {"@id": "https://orcid.org/0000-0003-3986-0510"}
+      ]
+    },
+    {"@id": "https://orcid.org/0000-0003-3986-0510", "@type": "Person", "givenName": "Leyla Jael", "familyName": "Castro"},
+    {"@id": "https://orcid.org/0009-0005-7305-3052", "@type": "Person", "givenName": "Suhasini", "familyName": "Venkatesh"},
+    {"@id": "https://orcid.org/0000-0002-1435-0584", "@type": "Person", "givenName": "Aida", "familyName": "Jafarbigloo"},
+    {"@id": "https://orcid.org/0000-0001-5844-3021", "@type": "Person", "givenName": "Lu", "familyName": "Gan"},
+    {
+      "@id": "https://w3id.org/zbmed-semtec",
+      "@type": "ResearchOrganization",
+      "name": "Semantic Technologies team at ZB MED",
+      "url": {"@id": "https://zbmed-semtec.github.io/"}
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/",
+      "@type": "ResearchOrganization",
+      "name": "Semantic Technologies team at ZB MED"
+    },
+    {
+      "@id": "https://ror.org/018mejw64",
+      "@type": "Organization",
+      "alternateName": "German Research Foundation (DFG)",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "url": {"@id": "https://www.dfg.de/"}
+    },
+    {
+      "@id": "https://gepris.dfg.de/gepris/projekt/521453681",
+      "@type": "Grant",
+      "name": "Base4NFDI",
+      "identifier": "521453681",
+      "description": "Base4NFDI network, DFG project number 521453681 (nfdi.software basic service)",
+      "funder": {"@id": "https://ror.org/018mejw64"}
+    },
+    {
+      "@id": "https://ror.org/0259fwx54",
+      "@type": "ResearchOrganization",
+      "alternateName": "ZB MED Information Centre for Life Sciences",
+      "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+      "url": {"@id": "https://zbmed.de/"}
+    },
+    {
+      "@id": "https://base4nfdi.de",
+      "@type": "Consortium",
+      "name": "Base4NFDI",
+      "url": {"@id": "https://base4nfdi.de/"}
+    },
+    {
+      "@id": "https://ror.org/04eb8xh84",
+      "@type": "ResearchOrganization",
+      "name": "Helmholtz Centre Potsdam GFZ German Research Centre for Geosciences",
+      "alternateName": "GFZ Helmholtz-Zentrum Potsdam",
+      "url": {"@id": "https://www.gfz.de/"}
+    },
+    {
+      "@id": "https://ror.org/04aj4rc67",
+      "@type": "ResearchOrganization",
+      "name": "Technische Informationsbibliothek (TIB)",
+      "alternateName": "TIB – Leibniz Information Centre for Science and Technology",
+      "url": {"@id": "https://www.tib.eu/"}
+    },
+    {
+      "@id": "https://ror.org/052n9x848",
+      "@type": "ResearchOrganization",
+      "name": "OFFIS - Institute for Information Technology",
+      "url": {"@id": "https://www.offis.de/"}
+    },
+    {
+      "@id": "https://ror.org/02dy17593",
+      "@type": "EducationalOrganization",
+      "name": "Albert-Ludwigs-Universität Freiburg",
+      "alternateName": "University of Freiburg",
+      "url": {"@id": "https://www.uni-freiburg.de/"}
+    },
+    {
+      "@id": "https://ror.org/0044q7h24",
+      "@type": "EducationalOrganization",
+      "name": "Technische Universität Clausthal",
+      "alternateName": "Clausthal University of Technology",
+      "url": {"@id": "https://www.tu-clausthal.de/"}
+    },
+    {
+      "@id": "https://ror.org/03s7qtv08",
+      "@type": "EducationalOrganization",
+      "name": "Universität Leipzig",
+      "alternateName": "Leipzig University",
+      "url": {"@id": "https://www.uni-leipzig.de/"}
+    },
+    {
+      "@id": "https://ror.org/014nb8097",
+      "@type": "ResearchOrganization",
+      "name": "Fraunhofer Institute for Open Communication Systems FOKUS",
+      "alternateName": "Fraunhofer FOKUS",
+      "url": {"@id": "https://www.fokus.fraunhofer.de/"}
+    }
+  ]
+}
