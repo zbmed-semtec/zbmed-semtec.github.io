@@ -27,7 +27,7 @@
         "keywords": [
             "keyword1", "keyword2"
         ], 
-        "about": { "@id": "https://zbmed-semtec.github.io/projects/20xx_project_name/"},
+        "about": { "@id": "https://zbmed-semtec.github.io/projects/20xx_project_name"},
         "hasPart": [
           { "@id": "https://doi.org/doi" }
         ]
