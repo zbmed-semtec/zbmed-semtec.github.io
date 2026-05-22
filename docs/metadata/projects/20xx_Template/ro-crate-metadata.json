@@ -1,88 +1,100 @@
 {
-    "@context": "https://w3id.org/ro/crate/1.1/context",
-    "@graph": [
-      {
-        "@id": "ro-crate-metadata.json",
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": ["Dataset"],
+      "name": "RO-Crate for the research project '[Project Name]'",
+      "description": "This RO-Crate describes the research project '[Project Name]' including metadata about the project itself and its research outcomes. The outcomes are listed via the hasPart property.",
+      "datePublished": "2023-11-02",
+      "license": {
         "@type": "CreativeWork",
-        "conformsTo": {
-          "@id": "https://w3id.org/ro/crate/1.1"
-        },
-        "about": {
-          "@id": "./"
-        }
+        "@id": "http://spdx.org/licenses/CC-BY-4.0",
+        "name": "Creative Commons Attribution 4.0 International", 
+        "alternateName": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
       },
-      {
-        "@id": "./",
-        "@type": ["Dataset"],
-        "name": "RO-crate for the research project 'project name'",
-        "description": "This RO-crate describes the research project 'OntoClue' including metadata about the project itself and the research outcomes created as part of it. The outcomes are listed via the hasPart property of the RO-crate. The purpose is providing a comprenhensive view of the research outcomes.",
-        "datePublished": "2023-11-02",
-        "license": {
-          "@type": "CreativeWork",
-          "@id": "http://spdx.org/licenses/CC-BY-4.0",
-          "name": "Creative Commons Attribution 4.0 International", 
-          "alternateName": "CC BY 4.0",
-          "url": "https://creativecommons.org/licenses/by/4.0/"
-        },
-        "keywords": [
-            "keyword1", "keyword2"
-        ], 
-        "about": { "@id": "https://zbmed-semtec.github.io/projects/20xx_project_name"},
-        "hasPart": [
-          { "@id": "https://doi.org/doi" }
-        ]
+      "keywords": [
+        "keyword1", 
+        "keyword2"
+      ], 
+      "about": { 
+        "@id": "https://zbmed-semtec.github.io/projects/20xx_project_name"
       },
-      {
-        "@id": "https://zbmed-semtec.github.io/projects/20xx_project_name",
-        "@type": "ResearchProject",
-        "department": {
-          "@id": "https://zbmed-semtec.github.io/"
-        },
-        "description": "project name, project description",
-        "foundingDate": "20xx-xx-xx",
-        "employee": [
-          {
-            "@id": "https://orcid.org/<orcid>"
-          }
-        ],
-        "alumni": [
-          {
-            "@id": "https://orcid.org/<orcid>"
-          }
-        ],
-        "name": "project name",
-        "funding": [
-          {
-            "@id": "https://ror.org/<ror>"
-          }
+      "hasPart": [
+        { "@id": "https://doi.org/10.5281/zenodo.xxxxxxx" }
+      ]
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/projects/20xx_project_name",
+      "@type": "ResearchProject",
+      "name": "[Project Name]",
+      "description": "[Detailed project abstract/description goes here]",
+      "foundingDate": "20xx-xx-xx",
+      "endDate": "20xx-xx-xx",
+      "department": {
+        "@id": "https://zbmed-semtec.github.io/"
+      },
+      "parentOrganization": [
+        { "@id": "https://ror.org/0259fwx54" }
       ],
-        "keywords": "<keyword1>, <keyword2>",
-        "parentOrganization": [
-        ],
-        "knowsAbout": [
-
-        ]
-      },
-
-        {
-          "@id": "https://orcid.org/<orcid>",
-          "@type": "Person",
-          "givenName": "<given name>",
-          "familyName": "<family name>"
-        },
-        {
-          "@id": "https://ror.org/0259fwx54",
-          "@type": "ResearchOrganization",
-          "alternateName": "ZB MED Information Centre for Life Sciences",
-          "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
-          "url": { 
-            "@id": "https://zbmed.de/"
-          }
-        },
-        {
-          "@id": "https://zbmed-semtec.github.io/",
-          "@type": "ResearchOrganization",
-          "name": "Semantic Technologies team at ZB MED"
-        }
-    ]
+      "employee": [
+        { "@id": "https://orcid.org/0000-xxxx-xxxx-xxxx" }
+      ],
+      "alumni": [
+        { "@id": "https://orcid.org/0000-xxxx-xxxx-xxxx" }
+      ],
+      "funding": [
+        { "@id": "#grant-xxx" }
+      ],
+      "keywords": [
+        "keyword1", 
+        "keyword2"
+      ]
+    },
+    {
+      "@id": "https://orcid.org/0000-xxxx-xxxx-xxxx",
+      "@type": "Person",
+      "givenName": "[Given Name]",
+      "familyName": "[Family Name]"
+    },
+    {
+      "@id": "#grant-xxx",
+      "@type": "Grant",
+      "name": "[Grant/Project Funding Title Name]",
+      "identifier": "[Grant Number/ID]",
+      "funder": {
+        "@id": "https://ror.org/[funder-ror-id]"
+      }
+    },
+    {
+      "@id": "https://ror.org/[funder-ror-id]",
+      "@type": "Organization",
+      "name": "[Name of Funding Agency, e.g., DFG]"
+    },
+    {
+      "@id": "https://ror.org/0259fwx54",
+      "@type": "ResearchOrganization",
+      "alternateName": "ZB MED Information Centre for Life Sciences",
+      "name": "Deutsche Zentralbibliothek für Medizin (ZB MED) - Informationszentrum Lebenswissenschaften",
+      "url": { 
+        "@id": "https://zbmed.de/"
+      }
+    },
+    {
+      "@id": "https://zbmed-semtec.github.io/",
+      "@type": "ResearchOrganization",
+      "name": "Semantic Technologies team at ZB MED"
+    }
+  ]
 }
